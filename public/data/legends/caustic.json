@@ -1,0 +1,185 @@
+{
+  "name": "Caustic",
+  "lore": {
+    "real_name": "Alexander Maxwell Nox",
+    "age": "50",
+    "home_world": "Gaea",
+    "gender": "Male",
+    "bio": "Alexander Nox used to be one of the brightest scientists in the employ of Humbert Labs, the Frontier’s leading manufacturer of pesticide gases. Nox worked day and night developing new formulas for the glut of pesticides needed to protect the crops that sustained the Outlands. But he soon realized that progress was being hampered by his testing methods. He needed to test on more than just inert tissue: he needed living subjects.\nAs he toiled in secret, Nox began to see the beauty in his creations and their ability to destroy anything they touched. But the head of Humbert Labs soon discovered his gruesome experiments, and their confrontation ended with the lab in flames. \nNow, competing under the name Caustic, he puts his gaseous creations to work in the Apex Games and observes their effects with great interest. However, as much as he's tried to leave his old self behind, the trappings of his former life are squeezing through the cracks. A cop obsessed with hunting him down; a loving mother who has discovered his death was faked; a bitter enemy revealed to be his half-brother; and an encroaching sickness he may no longer be able to evade. Who knows how long he will be able to avoid such confounding variables.\n\nFor more information on Caustic's story, see Caustic (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Nox Vision",
+      "description": "Gain extra upgrade points by causing damage with gas, opening deathboxes and scanning ring consoles.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Nox Gas Trap",
+      "description": "Place up to 6 canisters that release deadly Nox gas when shot or triggered by enemies. Nox Gas damages and grounds enemies.",
+      "cooldown": "20 seconds"
+    },
+    "ultimate": {
+      "name": "Nox Gas Grenade",
+      "description": "Blankets a large area in Nox Gas. Nox Gas damages and grounds enemies",
+      "cooldown": "2 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "September 16, 2025 Patch",
+      "details": [
+        "Damage from gas ramps up more slowly, increases every 2 ticks (was every tick).",
+        "Removed aim punch when taking damage."
+      ]
+    },
+    {
+      "patch": "June 24, 2025 Patch",
+      "details": [
+        "Nox Gas Trap\n(Undocumented) Gas traps are now highlighted to enemies within the gas\n(Undocumented) Gas traps can no longer be damaged while deploying"
+      ]
+    },
+    {
+      "patch": "May 14, 2025 Patch",
+      "details": [
+        "Nox Gas Trap\n(Undocumented) Gas trap now lasts for 22 seconds (was 11 seconds)"
+      ]
+    },
+    {
+      "patch": "May 07, 2024 Patch",
+      "details": [
+        "Gas damage and slow now stops immediately after Caustic's squad is eliminated",
+        "Gas damage ramps from 4 → 10 max (was 5 → uncapped), damage on knocked players down to flat 4 (was 5)"
+      ]
+    },
+    {
+      "patch": "March 26, 2024 Patch",
+      "details": [
+        "Gas Damage now increases by 1 each tick (was 5/5/6/6 etc.)\nDowned players still only receive 5/tick",
+        "Gas Slow effect now only applies on first damage tick for 2s",
+        "Upgrades\nParticle Diffuser: moved to Level 3\nResidual Toxins: moved to Level 2"
+      ]
+    },
+    {
+      "patch": "August 09, 2022 Patch",
+      "details": [
+        "Fixed gas ramping bug where transitioning from friendly to enemy gas would initially damage for more than intended."
+      ]
+    },
+    {
+      "patch": "May 10, 2022 Patch",
+      "details": [
+        "Fortified\nNo longer reduces headshot damage."
+      ]
+    },
+    {
+      "patch": "February 08, 2022 Patch",
+      "details": [
+        "Nox Gas Trap\nNox Gas Traps are now destroyable after detonation:\nThe Barrels now have 150 hp.\nGas effects will now linger for two seconds after barrel destruction or expiration (gas particles still linger a bit longer as they dissipate).\nDetonated traps will now expire at 11 seconds (+2 second gas lingering) instead of 12.5 seconds (no lingering).\nFixed issue where barrels that are still being deployed (mid-throw) were not being deleted after Caustic dies."
+      ]
+    },
+    {
+      "patch": "August 03, 2021 Patch",
+      "details": [
+        "Gas damage starts at 5, increases by 1 every other tick indefinitely.",
+        "Nox Gas Trap: Reduced cooldown from 25 to 20 seconds.",
+        "Nox Gas Grenade:\nReduced cooldown from 3.5 to 3 minutes.\nReduced duration from 20 to 15 seconds."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "Nox Gas Grenade: Increased cooldown from 2.5 minutes to 3.5 minutes.",
+        "Gas damage is now a flat 5 rather than 6-12.",
+        "Fixed a bug that was causing the gas to flicker for some players affected by it.",
+        "(Undocumented) Reduced the amount of particles from the gas, effectively providing less cover from the outside."
+      ]
+    },
+    {
+      "patch": "February 04, 2021 Patch",
+      "details": [
+        "Nox Gas Grenade: Fixed an edge case where the gas would persist even after his squad was eliminated."
+      ]
+    },
+    {
+      "patch": "February 02, 2021 Patch",
+      "details": [
+        "All gas now dissipates as soon as Caustic's team is wiped.",
+        "Nox Vision: Sonar abilities no longer stop Caustic's highlight vision."
+      ]
+    },
+    {
+      "patch": "November 04, 2020 Patch",
+      "details": [
+        "Nox Gas Trap/ Nox Gas Grenade: Nox Gas no longer causes a blur effect. Damage increased from 4–10 to 6–12."
+      ]
+    },
+    {
+      "patch": "October 06, 2020 Patch",
+      "details": [
+        "Fixed Caustic barrels from being placed at an angle on shipping crates."
+      ]
+    },
+    {
+      "patch": "September 03, 2020 Patch",
+      "details": [
+        "Removed an inappropriate Caustic voice line.",
+        "Fixed an issue where Crypto’s  Surveillance Drone in Caustic gas would play to the whole server."
+      ]
+    },
+    {
+      "patch": "August 18, 2020 Patch",
+      "details": [
+        "Fixed an issue with  Nox Gas Traps clipping to  Mobile Respawn Beacons.",
+        "Fixed an issue with Pathfinder and Revenant taking less damage from Nox gas."
+      ]
+    },
+    {
+      "patch": "June 23, 2020 Patch",
+      "details": [
+        "Nox Gas Trap:\nCan now be destroyed by shooting the bottom before it fully inflates.\nTeammates can now ping a friendly trap."
+      ]
+    },
+    {
+      "patch": "May 12, 2020 Patch",
+      "details": [
+        "Nox Gas Trap:\nFriendly gas no longer slows teammates.\nTraps no longer triggered from the other side of a door."
+      ]
+    },
+    {
+      "patch": "July 02, 2019 Patch",
+      "details": [
+        "Fortified:\nDamage reduction increased from 10% to 15%.\nNow immune to slow effects from weapon fire.",
+        "Nox Gas Grenade: The magnitude of the slow is reduced by 50% when affecting teammates."
+      ]
+    },
+    {
+      "patch": "June 04, 2019 Patch",
+      "details": [
+        "Nox Gas Trap:\nCaustic barrels can now be triggered or disabled by friendly teammates.\nFixed a rare issue with using consumables while having a Caustic gas canister out."
+      ]
+    },
+    {
+      "patch": "May 20, 2019 Patch",
+      "details": [
+        "Fortified: Fixed issue where damage would be taken through shields."
+      ]
+    },
+    {
+      "patch": "April 16, 2019 Patch",
+      "details": [
+        "Fortified Passive Perk added which reduces damage taken by 10%.",
+        "Gas Damage per tick increased from 1 to 4",
+        "Nox Gas Grenade: Throw distance increased from 28 meters to 33 meters."
+      ]
+    },
+    {
+      "patch": "March 19, 2019 Patch",
+      "details": [
+        "Adjusted hitbox to better align with shape.",
+        "Nox Gas Trap:\nReduced cooldown of Traps from 30 to 25 seconds.\nIncreased radius and proximity radius by about 10%.\nRemoved a 1-second delay on the smoke dealing damage to players.",
+        "Nox Gas Grenade: Reduced cooldown from 2:30 to 2:00 minutes. (This change was listed in the patch notes but never shipped.)",
+        "Fixed ADS view being blocked when using Caustic legendary skins with certain weapon/ optic combos"
+      ]
+    }
+  ]
+}

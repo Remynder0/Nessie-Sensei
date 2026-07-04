@@ -1,0 +1,27 @@
+{
+  "name": "Axle",
+  "lore": {
+    "real_name": "",
+    "age": "",
+    "home_world": "",
+    "gender": "",
+    "bio": ""
+  },
+  "abilities": {
+    "passive": {
+      "name": "",
+      "description": ""
+    },
+    "tactical": {
+      "name": "",
+      "description": "",
+      "cooldown": ""
+    },
+    "ultimate": {
+      "name": "",
+      "description": "",
+      "cooldown": ""
+    }
+  },
+  "patch_history": []
+}

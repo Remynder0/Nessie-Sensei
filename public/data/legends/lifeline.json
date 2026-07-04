@@ -1,0 +1,154 @@
+{
+  "name": "Lifeline",
+  "lore": {
+    "real_name": "Ajay Che",
+    "age": "26",
+    "home_world": "Psamathe",
+    "gender": "Female",
+    "bio": "Ajay Che, aka Lifeline, isn’t someone you would expect to find in the Apex Games. The child of wealthy war profiteers, she left home when she learned of the damage her family had caused and enlisted in the Frontier Corps, a humanitarian organization that aids Frontier communities in need. She’s since devoted her life to helping others and joined the Apex Games to fund the Frontier Corps with her winnings.\nSince no one in the Games is innocent — they all know what they signed up for — and every one of her victories means help for those in need, Lifeline has no problem engaging in the popular bloodsport. Or so she tells herself. She may seem sarcastic and callous, but deep down she wants to help people and make the world a better place. If that means taking a few people down in the process, so be it.\nBut when a rift in reality swallows her loyal health drone, D.O.C., Lifeline reaches into it, sacrificing her own hand and barely managing to pull D.O.C. back to reality. Instead of crumpling under the weight of the universe, Lifeline “repairs” her damaged hand with cybernetic implants, then rebuilds D.O.C. better than ever.\nNow, Lifeline’s days of getting pulled into chaotic events are over. She’ll throw herself into them headfirst, on her–and D.O.C.’s–own terms.[2]\n\nFor more information on Lifeline's story, see Lifeline (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Combat Glide",
+      "description": "Hold Space/// mid-air to use D.O.C. to briefly glide. Deploy D.O.C to revive teammates, leaving Lifeline free to defend.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "D.O.C. Heal Drone",
+      "description": "D.O.C. heals all nearby allies. D.O.C. can be assigned to follow allies once deployed.",
+      "cooldown": "45 seconds"
+    },
+    "ultimate": {
+      "name": "D.O.C. Halo",
+      "description": "Throw D.O.C. to activate his Halo Shield System. All players inside use Health & Shield consumables faster.",
+      "cooldown": "3 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "December 09, 2024 Patch",
+      "details": [
+        "Combat Glide\nHands-free D.O.C. revive is now the same speed as non-support Legends.",
+        "D.O.C. Halo\nCooldown increased to 3 minutes."
+      ]
+    },
+    {
+      "patch": "March 26, 2024 Patch",
+      "details": [
+        "Upgrades: Level 2\nTactical Cooldown+: removed\nNew - Tactical Cooldown++: Tactical Cooldown reduced by 25s (making the cooldown time equal to its deployment duration, so you always have  DOC)",
+        "Upgrades: Level 3\nGift Wrapped: removed\nNew - Gold-Plated: next Package spawns with Golden Gear\nEVO Cache, Gold Knockdown Shield, Gold Backpack\nAlso contains 1 Shield Battery, 1 Medkit, and either a Phoenix Kit or a Mobile Respawn Beacon"
+      ]
+    },
+    {
+      "patch": "February 14, 2023 Patch",
+      "details": [
+        "Combat Revive:\nReduced the slow penalty on Lifeline when initiating a revive",
+        "Care Package:\nDecreased the drop animation speed of Care Package from 14s to 8s\nIncreased the deployment range of Care Package"
+      ]
+    },
+    {
+      "patch": "June 21, 2022 Patch",
+      "details": [
+        "Combat Revive:\nMoved revive cancel option from Lifeline to the player that’s getting revived.",
+        "D.O.C. Heal Drone:\nHealing pool increased from 150 to infinite (still lasts 20s).\nDoubled the healing radius.",
+        "Care Package:\nCooldown reduced from 5 minutes to 3.5 minutes.\nThe weapon attachment panel now comes with a  Shield Battery instead of two  Shield Cells.\nNo blue beam on initial drop (will still show up after the Care Package lands)."
+      ]
+    },
+    {
+      "patch": "June 29, 2021 Patch",
+      "details": [
+        "Increased hitbox size."
+      ]
+    },
+    {
+      "patch": "May 04, 2021 Patch",
+      "details": [
+        "Combat Revive:\nNo longer deploys a shield.\nCan now revive two players at the same time.\nCan now cancel active revives in progress to allow your teammate to defend themselves with their  Knockdown Shield.",
+        "D.O.C. Heal Drone:\nHeal rate increased from 5hp per second to 8hp per second.\nDeployment time before healing begins reduced by roughly 33%.",
+        "Care Package:\nCooldown reduced from 6 minutes to 5 minutes.\nNow guarantees an upgrade (if possible) in three categories: Body Shield, Other Equipment (Helmet, Backpack, and Knockdown Shield), and Weapon Attachment, based on your team’s current gear when the Package arrives.",
+        "Removed  Low Profile."
+      ]
+    },
+    {
+      "patch": "October 06, 2020 Patch",
+      "details": [
+        "Fixed an issue with the Guardian Angel Skin having a stretched neck when using  Emplaced Minigun \"Sheila\".",
+        "Fixed an issue where care packages would not be allowed to be placed on certain parts of Capacitor, Rig, or Salvage in Kings Canyon."
+      ]
+    },
+    {
+      "patch": "August 18, 2020 Patch",
+      "details": [
+        "D.O.C. Heal Drone: Fixed an issue where if Death Protection runs out with an active D.O.C. nearby, it would not start healing you."
+      ]
+    },
+    {
+      "patch": "June 23, 2020 Patch",
+      "details": [
+        "Passive:\nChanged name from Combat Medic to  Combat Revive.\nDeploy D.O.C to revive teammates. D.O.C. will deploy a shield and revive Lifeline’s teammate, leaving Lifeline free to defend or revive someone else.\nIncreased revive time from 4.5 seconds to 6 seconds.\nRemoved 25% fast healing.\nNow disabled if silenced by Revenant.",
+        "D.O.C. Heal Drone:\nReduced cooldown from 60 to 45 seconds.\nFixed an issue with the  D.O.C. Heal Drone getting stuck in the air after collision with an Octane  Launch Pad.",
+        "Care Package:\nNow contains more items:\n3x more small healing items, when it decides to spawn small healing items.\n2x more attachments, when it decides to spawn attachments.\nFixed an issue with Lifeline able to drop her care package on a Quest Artifact location, preventing users from picking up the artifact."
+      ]
+    },
+    {
+      "patch": "May 12, 2020 Patch",
+      "details": [
+        "Combat Medic\nIncreased Blue Supply Bin ratio to 20%.\nRemoved  Knockdown Shields from the extra compartment of Extended Supply Bins.",
+        "D.O.C. Heal Drone: (Undocumented) Players can no longer move the drone around."
+      ]
+    },
+    {
+      "patch": "April 07, 2020 Patch",
+      "details": [
+        "Combat Medic\nLifeline can now access secret compartments with more loot on Blue Supply Bins.\nBlue bins are found randomly replacing ordinary bins. These rare bins will have a secondary compartment that only Lifeline can open.\nThe secondary compartment will always contain some mixture of health items, weapon attachments, and  Knockdown Shields.",
+        "Low Profile: Leg shots now deal as much damage as body shots."
+      ]
+    },
+    {
+      "patch": "December 03, 2019 Patch",
+      "details": [
+        "Added an inspect animation for Lifeline’s Shock Sticks."
+      ]
+    },
+    {
+      "patch": "October 01, 2019 Patch",
+      "details": [
+        "D.O.C. Heal Drone: Will no longer float away after being deployed on Supply Ships.",
+        "Care Package: Fixed bug where looting the Care Package would not count towards the “Loot X amount of Care Packages” in the Battle Pass challenges."
+      ]
+    },
+    {
+      "patch": "August 13, 2019 Patch",
+      "details": [
+        "Made adjustments to hitbox."
+      ]
+    },
+    {
+      "patch": "July 16, 2019 Patch",
+      "details": [
+        "Care Package: Fixed some cases of the Care Package clipping through map geometry."
+      ]
+    },
+    {
+      "patch": "July 02, 2019 Patch",
+      "details": [
+        "Added  Low Profile Perk which increases incoming damage by 5%.",
+        "D.O.C. Heal Drone: Drone now gets destroyed after 2 damage ticks by the  circle."
+      ]
+    },
+    {
+      "patch": "May 20, 2019 Patch",
+      "details": [
+        "[PS4] Fixed \"Pick Me Up\" Banner Bug."
+      ]
+    },
+    {
+      "patch": "March 19, 2019 Patch",
+      "details": [
+        "Combat Medic: Fixed issue where the revive shield wouldn’t stay put while on a moving platform.",
+        "D.O.C. Heal Drone:\nFixed bug where occasionally the drone would stay connected to a player but not heal them.\nLimited the number of drones that can connect to a player to 2.",
+        "Care Package: Removed slight chance that Level 4 armor and helmets will appear on the Care Package."
+      ]
+    }
+  ]
+}

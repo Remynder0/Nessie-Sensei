@@ -1,0 +1,83 @@
+{
+  "name": "Newcastle",
+  "lore": {
+    "real_name": "Jackson Williams",
+    "age": "41",
+    "home_world": "Gridiron",
+    "gender": "Male",
+    "bio": "Lamont Craig wasn’t like other dads in the neighborhood. Sure, he dropped the kids off at school and acted out multiple voices every night for Story Time with his toddler. But Lamont had secrets—the first being his real name, Jackson Williams.\nA top soldier for the IMC, Jackson went AWOL when he ignored direct orders to fight what he believed was a losing battle. He knew he would never be safe from the remnants of the IMC--and neither would his sister, Anita, as long as she was with him. So when he was presumed dead in a ship explosion, he used that opportunity to leave his life behind, even if it meant leaving her behind too.\nYears later, \"Lamont\" moved to an idyllic little town called Harris Valley, where he fell in love and got married. Harris Valley was so peaceful that they didn’t need law enforcement. All they needed was their knight, Newcastle. But the knight had secrets of his own: Newcastle had sold off the town to pay off his debts, and thugs from a gang called the Forgotten Families came to collect. They killed Newcastle when he couldn’t pay, unaware that Lamont was watching. He defeated them using his military acumen, but the Forgotten Families had plenty of reinforcements.\nSo Lamont came up with a dangerous solution. With Newcastle’s armor, he could take on his identity and do what Newcastle could not: get into the Apex Games. With prize money like that, he could definitely pay off the debts. But not without the risk of being discovered by his little sister, the Apex Legend, Bangalore.\n\nFor more information on Newcastle's story, see Newcastle (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Retrieve the Wounded",
+      "description": "Drag downed allies as you revive and protect them with your Revive Shield.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Mobile Shield",
+      "description": "Throw a drone that projects a moveable energy shield.",
+      "cooldown": "20 seconds"
+    },
+    "ultimate": {
+      "name": "Castle Wall",
+      "description": "Leap to an ally or target area and slam down, creating a fortified stronghold.",
+      "cooldown": "2 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "January 06, 2026 Patch",
+      "details": [
+        "Retrieve the Wounded\nIncorporated Heroes Hustle into base kit (Movement speed penalty reduced from 25% to 75%)",
+        "Mobile Shield\nIncorporated Swift Shield into base kit (Movement speed increased from 160 to 250)",
+        "Upgrades\nStronghold moves down to replace Heroes Hustle\nReady To Rumble: Reviving a player auto loads Newcastle's weapons and triggers full regen. (Replaces Swift Shield)\nDefensive Line: Tactical and Revive Shield knocks back enemies once (Replaces Stronghold)"
+      ]
+    },
+    {
+      "patch": "December 09, 2024 Patch",
+      "details": [
+        "Retrieve the Wounded\nRevive shield HP lowered to 250/400/600",
+        "Mobile Shield\nIs no longer invulnerable, has 750 HP\nCooldown increased to 20s.\nThe Swift Shield Upgrade now reduces the cooldown to 12s"
+      ]
+    },
+    {
+      "patch": "November 5, 2024 Patch",
+      "details": [
+        "Mobile Shield\nNo longer takes damage\nCan now be repositioned even when Newcastle is downed",
+        "Retrieve the Wounded:\nRevive Shield HP/Tier increased by +50%\nWhite 300 (was 200), Blue 450 (was 300), Purple/Gold 750 (was 500)",
+        "Upgrades: Level 2\nThick Shield: removed\nNEW Hero's Hustle: greatly increases move speed when reviving",
+        "Upgrades: Level 3\nMiracle Worker: removed\nStronghold: Castle Wall HP improvement increased to 500 (was 250)\nNEW Ultimate Savior: Castle Wall grants shield regen to allies in impact radius\nRegen effect lasts for 15s and damage will pause regen for 2s\nWon't begin regeneration until revived if downed"
+      ]
+    },
+    {
+      "patch": "May 07, 2024 Patch",
+      "details": [
+        "Mobile Shield: throw anim speed increased (~2.5x faster)",
+        "Castle Wall\nWill now destroy incoming projectiles headed towards the front of the wall while energized. It will not destroy projectiles fired from behind the wall nor bombardments from other Legend’s Ultimate projectiles.\nCastle Wall energized duration increased to 1m (was 30s)",
+        "Upgrade - Stronghold: increased energized duration to 3m (was 2.5m)"
+      ]
+    },
+    {
+      "patch": "January 09, 2024 Patch",
+      "details": [
+        "Castle Wall: impact will now destroy Conduit’s  Energy Barricade mines.",
+        "Mobile Shield: can now be destroyed by enemy Crypto  Drone EMP.",
+        "Delayed balance adjustments from the season 19.0 patch are now fully integrated."
+      ]
+    },
+    {
+      "patch": "August 09, 2022 Patch",
+      "details": [
+        "Retrieve the Wounded\nIncreased move speed during revive by 25%.\nReduced turn slow while reviving by 50%.\nIncreased White Knockdown shield health from 150 -> 200.\nIncrease Blue Knockdown shield health from 250 -> 300.",
+        "Mobile Shield\nIncreased hp from 350 -> 500\nDoubled max movement speed.",
+        "Castle Wall\nAdded turn slow to electrical barrier effects and increased the severity of the slow effect to movement."
+      ]
+    },
+    {
+      "patch": "May 10, 2022 Patch",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
+}

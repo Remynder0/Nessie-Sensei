@@ -1,0 +1,654 @@
+{
+  "season": "4",
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "R-99 SMG Skin: Zero Point",
+        "Lifeline Skin: Health Drain",
+        "Pathfinder Skin: Team Lift",
+        "Crypto Skin: Blue Steel",
+        "XP Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Apex Coins 50"
+      ],
+      "free": [
+        "Revenant Stat Tracker : Season 4 Wins"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Crypto Stat Tracker : Season 4 Wins"
+      ]
+    },
+    "level_4": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Wattson Stat Tracker : Season 4 Wins"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker : Season 4 Wins"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Apex Coins 50"
+      ],
+      "free": [
+        "Bangalore Stat Tracker : Season 4 Wins"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Charm Weapon Charm : Knockout!"
+      ],
+      "free": [
+        "Mirage Stat Tracker : Season 4 Wins"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Loading Screen : Hammond Robotics (Draft1)"
+      ],
+      "free": [
+        "Caustic Stat Tracker : Season 4 Wins"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Wraith Stat Tracker : Season 4 Wins"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker : Season 4 Wins"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Kraber .50-Cal Sniper Skin: Sapphire Protection"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker : Season 4 Wins"
+      ]
+    },
+    "level_12": {
+      "premium": [
+        "Gibraltar Banner Frame : Slow and Steady"
+      ],
+      "free": [
+        "Lifeline Stat Tracker : Season 4 Wins"
+      ]
+    },
+    "level_13": {
+      "premium": [
+        "Revenant Skydive Emote : Dodging Death"
+      ],
+      "free": [
+        "Octane Stat Tracker : Season 4 Wins"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Hemlok Burst AR Skin: Quantum Realm"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Wraith Banner Frame : Inside The System"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Loading Screen : Dining With Dino"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "EVA-8 Auto Skin: Lime Plate"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Octane Skydive Emote : Influencer"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "RE-45 Auto Skin: Pewter Tangerine"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_25": {
+      "premium": [
+        "Wraith Skin: Perfect Soldier"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_27": {
+      "premium": [
+        "Longbow DMR Skin: Orbital"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Charm Weapon Charm : MOBO"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Caustic Skydive Emote : Knox Powered"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "HAVOC Rifle Skin: Seafoam Scaffold"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_33": {
+      "premium": [
+        "Gibraltar Quip Kill Quip : Win? Against me? Hahaha"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_35": {
+      "premium": [
+        "Alternator SMG Skin: Hypertrophy"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Loading Screen : Seasonal Special"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Pathfinder Banner Frame : Connection Established"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Bloodhound Banner Frame : Warning Signs"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Prowler Burst PDW Skin: All Systems Go"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Revenant Quip Kill Quip : Are your friends nearby?"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Loading Screen : Exhibit C"
+      ],
+      "free": []
+    },
+    "level_43": {
+      "premium": [
+        "Mastiff Shotgun Skin: Bullet Bike"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "Crypto Skydive Emote : Danger Zone"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Charge Rifle Skin: Overcharged"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Loading Screen : Just Business"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "Bangalore Banner Frame : Streamlined"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Wattson Skin: Cyber Punked"
+      ],
+      "free": []
+    },
+    "level_51": {
+      "premium": [
+        "R-301 Carbine Skin: Alkaline"
+      ],
+      "free": []
+    },
+    "level_52": {
+      "premium": [
+        "Crypto Banner Frame : Gated"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "L-STAR EMG Skin: Caution Tape"
+      ],
+      "free": []
+    },
+    "level_56": {
+      "premium": [
+        "Mirage Banner Frame : Red Beau"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Loading Screen : Mirror Images"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "VK-47 Flatline Skin: Circuitry"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Caustic Skin: Cyber Sludge"
+      ]
+    },
+    "level_61": {
+      "premium": [
+        "Charm Weapon Charm : Mecha Artur"
+      ],
+      "free": []
+    },
+    "level_62": {
+      "premium": [
+        "Loading Screen : Lies"
+      ],
+      "free": []
+    },
+    "level_63": {
+      "premium": [
+        "Triple Take Skin: Metallization"
+      ],
+      "free": []
+    },
+    "level_64": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_65": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_66": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_67": {
+      "premium": [
+        "P2020 Skin: Nanofuse"
+      ],
+      "free": []
+    },
+    "level_68": {
+      "premium": [
+        "Caustic Banner Frame : Last Rites"
+      ],
+      "free": []
+    },
+    "level_69": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_70": {
+      "premium": [
+        "Music Pack : Revenant"
+      ],
+      "free": []
+    },
+    "level_71": {
+      "premium": [
+        "Sentinel Skin: Cybersilk"
+      ],
+      "free": []
+    },
+    "level_72": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_73": {
+      "premium": [
+        "Loading Screen : The Program"
+      ],
+      "free": []
+    },
+    "level_74": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_75": {
+      "premium": [
+        "Peacekeeper Skin: Filament"
+      ],
+      "free": []
+    },
+    "level_76": {
+      "premium": [
+        "Wattson Quip Kill Quip : Don't be afraid of the dark"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "Octane Banner Frame : High Performance"
+      ],
+      "free": []
+    },
+    "level_78": {
+      "premium": [
+        "Loading Screen : The Cycle"
+      ],
+      "free": []
+    },
+    "level_79": {
+      "premium": [
+        "Devotion LMG Skin: Tectonic Shift"
+      ],
+      "free": []
+    },
+    "level_80": {
+      "premium": [
+        "Music Pack : Assimilation"
+      ],
+      "free": []
+    },
+    "level_81": {
+      "premium": [
+        "Wattson Banner Frame : Electric Flail"
+      ],
+      "free": []
+    },
+    "level_82": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_83": {
+      "premium": [
+        "G7 Scout Skin: Hardwired"
+      ],
+      "free": []
+    },
+    "level_84": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_85": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_86": {
+      "premium": [
+        "Charm Weapon Charm : Plushness Monster"
+      ],
+      "free": []
+    },
+    "level_87": {
+      "premium": [
+        "Mozambique Shotgun Skin: Chiptech"
+      ],
+      "free": []
+    },
+    "level_88": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_89": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_90": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_91": {
+      "premium": [
+        "Wingman Skin: Carapace"
+      ],
+      "free": []
+    },
+    "level_92": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "Wraith Skydive Emote : Think Fast"
+      ],
+      "free": []
+    },
+    "level_94": {
+      "premium": [
+        "Charm Weapon Charm : Mr. Robobble"
+      ],
+      "free": []
+    },
+    "level_95": {
+      "premium": [
+        "M600 Spitfire Skin: Citric Shield"
+      ],
+      "free": []
+    },
+    "level_96": {
+      "premium": [
+        "Loading Screen : No More Lies"
+      ],
+      "free": []
+    },
+    "level_97": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_98": {
+      "premium": [
+        "R-99 SMG Skin: Deep Trace"
+      ],
+      "free": []
+    },
+    "level_99": {
+      "premium": [
+        "Charge Rifle Skin: Calibrated"
+      ],
+      "free": []
+    },
+    "level_100": {
+      "premium": [
+        "VK-47 Flatline Skin: Heavy Metal"
+      ],
+      "free": []
+    },
+    "level_110": {
+      "premium": [
+        "VK-47 Flatline Skin: Heat Sink"
+      ],
+      "free": [
+        "Badge : Assimilation Level Season 4 Badge"
+      ]
+    }
+  }
+}

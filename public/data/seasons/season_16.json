@@ -1,0 +1,760 @@
+{
+  "season": "16",
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "G7 Scout Frenzied Frequency",
+        "Bloodhound Night Raver",
+        "Mirage Bamboogie",
+        "Rampart Amped Up Armorer",
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Loading Screen The Modder's Corner"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Music Pack Celebration By DRUM TAO"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Starry Eyed"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Devotion LMG Laser Lightshow"
+      ],
+      "free": [
+        "Mad Maggie Stat Tracker Season 16 Wins as Mad Maggie"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Mad Maggie Quip Kill Quip : This game really is a death sentence"
+      ],
+      "free": [
+        "Mad Maggie Stat Tracker Season 16 Kills as Mad Maggie"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Holospray Major Party Minor Chill"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Fuse Banner Frame Festival Frenzy"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Wattson Cosmetic Emote XOXO"
+      ],
+      "free": [
+        "Kraber .50-Cal Sniper Shooting Stars"
+      ]
+    },
+    "level_13": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Transition Important Secret Intel"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Mozambique Shotgun Party Popper"
+      ]
+    },
+    "level_15": {
+      "premium": [
+        "Crypto Stat Tracker Kills as Crypto"
+      ],
+      "free": []
+    },
+    "level_16": {
+      "premium": [
+        "Crypto Stat Tracker Wins as Crytpo"
+      ],
+      "free": [
+        "Fuse Stat Tracker Season 16 Wins as Fuse"
+      ]
+    },
+    "level_17": {
+      "premium": [
+        "Crypto Stat Tracker Damage Done as Crypto"
+      ],
+      "free": [
+        "Fuse Stat Tracker Season 16 Kills as Fuse"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Crypto Banner Frame Headlining"
+      ],
+      "free": [
+        "Wattson Stat Tracker Season 16 Wins as Wattson"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Crypto Holospray Night Gig"
+      ],
+      "free": [
+        "Wattson Stat Tracker Season 16 Kills as Wattson"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "30-30 Repeater Disco Sazzler"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Crypto Stat Tracker Season 16 Wins as Crypto"
+      ]
+    },
+    "level_23": {
+      "premium": [
+        "Crypto Quip Kill Quip : It's a simple calculation"
+      ],
+      "free": [
+        "Crypto Stat Tracker Season 16 Kills as Crypto"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Drone Deployed"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Crypto Technocrat"
+      ],
+      "free": [
+        "R-99 SMG Polygonal"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "C.A.R SMG Little Legends"
+      ],
+      "free": [
+        "Vantage Stat Tracker Season 16 Wins as Vantage"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Vantage Cosmetic Emote Jerky Break"
+      ],
+      "free": [
+        "Vantage Stat Tracker Season 16 Kills as Vantage"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Bocek Compound Bow Sunset Threat"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Hemlok Burst AR Sonic Sequencer"
+      ]
+    },
+    "level_31": {
+      "premium": [
+        "Rampart Quip Kill Quip : You'll never become a legend"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Rampart Banner Frame Party Starter"
+      ],
+      "free": [
+        "Rampart Stat Tracker Season 16 Wins as Vantage"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Roller Kicks"
+      ],
+      "free": [
+        "Rampart Stat Tracker Season 16 Kills as Vantage"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "HAVOC Rifle Aural Energy"
+      ],
+      "free": [
+        "Loba Stat Tracker Season 16 Wins as Loba"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Rampart Holospray Bring The Party"
+      ],
+      "free": [
+        "Loba Stat Tracker Season 16 Kills as Loba"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Rampage LMG Cosmic Overload"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Tune In"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Mirage Quip Kill Quip : Looks like the only true legend"
+      ],
+      "free": [
+        "Mirage Stat Tracker Season 16 Wins as Mirage"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "Mirage Holospray I Am The Party"
+      ],
+      "free": [
+        "Mirage Stat Tracker Season 16 Kills as Mirage"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "EVA-8 Auto DJ Nessie"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker Season 16 Wins as Gibraltar"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Mirage Banner Frame Merch Madness"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker Season 16 Kills as Gibraltar"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition S.A.R.A.S. Fan Mail"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Prowler Burst PDW Vibe Check"
+      ]
+    },
+    "level_47": {
+      "premium": [
+        "Valkyrie Stat Tracker Kills as Valkyrie"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Valkyrie Stat Tracker Wins as Valkyrie"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker Season 16 Wins as Valkyrie"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Valkyrie Stat Tracker Damage Done as Valkyrie"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker Season 16 Wins as Valkyrie"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Valkyrie Heartbeat Harmonizer"
+      ],
+      "free": [
+        "Music Pack Festival"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Heart Stomper"
+      ],
+      "free": [
+        "Caustic Stat Tracker Season 16 Wins as Caustic"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Charge Rifle Triangular"
+      ],
+      "free": [
+        "Caustic Stat Tracker Season 16 Kills as Caustic"
+      ]
+    },
+    "level_53": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "L-STAR EMG Sonic Frequency"
+      ]
+    },
+    "level_55": {
+      "premium": [
+        "Valkyrie Banner Frame Stadium Beats"
+      ],
+      "free": [
+        "Seer Stat Tracker Season 16 Wins as Seer"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Valkyrie Quip Kill Quip : It's not losing. It's an opportunity"
+      ],
+      "free": [
+        "Seer Stat Tracker Season 16 Kills as Seer"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "Valkyrie Holospray Good Vibes"
+      ],
+      "free": [
+        "Wraith Visualizer"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Newcastle Stat Tracker Season 16 Wins as Newcastle"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "M600 Spitfire Retro Soundsystem"
+      ],
+      "free": [
+        "Newcastle Stat Tracker Season 16 Kills as Newcastle"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_61": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Longbow DMR Pixel Perfect"
+      ]
+    },
+    "level_63": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_64": {
+      "premium": [
+        "RE-45 Auto Tagged"
+      ],
+      "free": [
+        "Ash Stat Tracker Season 16 Wins as Ash"
+      ]
+    },
+    "level_65": {
+      "premium": [
+        "Caustic Holospray It's My Party Now"
+      ],
+      "free": [
+        "Ash Stat Tracker Season 16 Kills as Ash"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Seer Cosmetic Emote Light Show"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_67": {
+      "premium": [
+        "Ash Banner Frame B Side"
+      ],
+      "free": [
+        "Catalyst Stat Tracker Season 16 Wins as Catalyst"
+      ]
+    },
+    "level_68": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Catalyst Stat Tracker Season 16 Kills as Catalyst"
+      ]
+    },
+    "level_69": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Wingman Heartfelt Holos"
+      ]
+    },
+    "level_71": {
+      "premium": [
+        "Hack The Beat"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker Season 16 Wins as Bloodhound"
+      ]
+    },
+    "level_72": {
+      "premium": [
+        "Peacekeeper Rock the Night"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker Season 16 Kills as Bloodhound"
+      ]
+    },
+    "level_73": {
+      "premium": [
+        "Bloodhound Quip Kill Quip : The fervor grows"
+      ],
+      "free": [
+        "Wraith Stat Tracker Season 16 Wins as Wraith"
+      ]
+    },
+    "level_74": {
+      "premium": [
+        "Bloodhound Holospray Bloth's Beat"
+      ],
+      "free": [
+        "Wraith Stat Tracker Season 16 Kills as Wraith"
+      ]
+    },
+    "level_75": {
+      "premium": [
+        "Bloodhound Banner Frame Predator's Percussion"
+      ],
+      "free": []
+    },
+    "level_76": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_78": {
+      "premium": [
+        "Triple Take Deadly Decals"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_79": {
+      "premium": [
+        "Catalyst Banner Frame Celestial Beatdown"
+      ],
+      "free": []
+    },
+    "level_80": {
+      "premium": [
+        "Octane Skydive Emote Cluster Bombs"
+      ],
+      "free": [
+        "Octane Stat Tracker Season 16 Wins as Octane"
+      ]
+    },
+    "level_81": {
+      "premium": [
+        "Newcastle Holospray Still Got The Moves"
+      ],
+      "free": [
+        "Octane Stat Tracker Season 16 Kills as Octane"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "Bangalore Cosmetic Emote Brush It Off"
+      ],
+      "free": [
+        "Lifeline Stat Tracker Season 16 Wins as Lifeline"
+      ]
+    },
+    "level_83": {
+      "premium": [
+        "Vantage Quip Kill Quip : If your life was a song"
+      ],
+      "free": [
+        "Lifeline Stat Tracker Season 16 Kills as Lifeline"
+      ]
+    },
+    "level_84": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_85": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_86": {
+      "premium": [
+        "Transition Research Report - Subject_Cross"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_87": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_88": {
+      "premium": [
+        "Vantage Banner Frame Hear the Echo"
+      ],
+      "free": [
+        "Bangalore Stat Tracker Season 16 Wins as Bangalore"
+      ]
+    },
+    "level_89": {
+      "premium": [
+        "3.5mm"
+      ],
+      "free": [
+        "Bangalore Stat Tracker Season 16 Kills as Bangalore"
+      ]
+    },
+    "level_90": {
+      "premium": [
+        "Fuse Skydive Emote Flying Flex"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker Season 16 Wins as Pathfinder"
+      ]
+    },
+    "level_91": {
+      "premium": [
+        "Catalyst Quip Kill Quip : The moon is a harsh mistress"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker Season 16 Kills as Pathfinder"
+      ]
+    },
+    "level_92": {
+      "premium": [
+        "R-301 Carbine Party Mix v301"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_94": {
+      "premium": [
+        "Flatline Cosmic Vectors"
+      ],
+      "free": [
+        "Revenant Stat Tracker Season 16 Wins as Revenant"
+      ]
+    },
+    "level_95": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Revenant Stat Tracker Season 16 Kills as Revenant"
+      ]
+    },
+    "level_96": {
+      "premium": [
+        "Mad Maggie Holospray Meet Me In The Pit"
+      ],
+      "free": [
+        "Horizon Stat Tracker Season 16 Wins as Horizon"
+      ]
+    },
+    "level_97": {
+      "premium": [
+        "Horizon Banner Frame Gravity Grooves"
+      ],
+      "free": [
+        "Horizon Stat Tracker Season 16 Kills as Horizon"
+      ]
+    },
+    "level_98": {
+      "premium": [
+        "Newcastle Quip Kill Quip : Sorry, slick. I have a reputation"
+      ],
+      "free": [
+        "Transition 1000 Impossible Ideas"
+      ]
+    },
+    "level_99": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_100": {
+      "premium": [
+        "Mastiff Shotgun Headliner"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "Mastiff Shotgun Afterparty"
+      ],
+      "free": [
+        "Badge : Revelry Level Season 16"
+      ]
+    }
+  }
+}

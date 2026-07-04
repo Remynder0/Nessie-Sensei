@@ -1,0 +1,152 @@
+{
+  "name": "Loba",
+  "lore": {
+    "real_name": "Loba Andrade",
+    "age": "36",
+    "home_world": "None",
+    "gender": "Female",
+    "bio": "When Loba was nine, she looked on as simulacrum hitman Revenant killed her family. Left with nothing, Loba survived by picking pockets, using every tool at her disposal to lift herself from the gutter - including an experimental Jump Drive, pilfered from a supposedly impenetrable research facility. She was just that good.\nWith her new teleportation bracelet, the most secure and unattainable items were within Loba's reach, and so was her dream of living the high life. Rumors spread across the Outlands: if you wanted something valuable -and well guarded- Loba was your woman.\nShe was almost able to put her past behind her. But when Revenant joined the Games, her past catapulted into her future. Desperate to find a way to kill him, she sabotaged a facility full of Revenant bodies, bringing Skull Town and Thunderdome crashing down in the process. However, she learned it was just one of many such factories hidden across the Frontier. After finding out Revenant wishes for death, she’s made it her mission to keep him alive as revenge. She plays in the Games to keep getting vengeance on Revenant, but.it doesn’t hurt that the arenas are brimming with treasures just waiting to be plucked.\n\nFor more information on Loba's story, see Loba (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Eye for Quality",
+      "description": "Nearby epic and legendary loot can be seen through walls. The range is the same as  Black Market Boutique. Open loot vaults without a key.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Burglar's Best Friend",
+      "description": "Teleport to hard-to-reach places or escape trouble quickly by throwing your jump drive bracelet.",
+      "cooldown": "25 seconds"
+    },
+    "ultimate": {
+      "name": "Black Market Boutique",
+      "description": "Place a portable device that allows you to teleport nearby loot to your inventory. Ammo, small meds and teammate banners are free.",
+      "cooldown": "2.5 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "February 11, 2025 Patch",
+      "details": [
+        "Ult back to starting at 50% charge"
+      ]
+    },
+    {
+      "patch": "January 16, 2025 Patch",
+      "details": [
+        "Black Market\nUltimate starts with 99% charge (was 50%)\nAdded griefing protection\nCan now be remotely picked-up\nCan now grab banners (does not consume a Black Market usage)\nCan now open vaults without a key, but no EVO is awarded\nStealing vault loot no longer breaks Black Market, but can only be done by Loba and will still set off the alarm\nCan once again take loot from Explosive holds\nRemoved delay after placing Black Market before it becomes useable\nSmall meds (shield cells and syringes) no longer consume a Black Market usage\nTrials, Big Maude, and Caustic Labs loot no longer appears in Black Market",
+        "Burglar's Best Friend\nNow has two charges\nReduced Tac toss time slightly and recovery time significantly\nReduced sound FX and VFX on thrown bracelet",
+        "Eye for Quality: Loba can ADS when unarmed to see the loot UI for items highlighted by her passive",
+        "Upgrades: Level 2\nHigh Value: removed\nMarket Expansion: removed\nShopping Spree: moved to Level 2, reworked to allow entire squad to take 3 items from a friendly Black Market\nNEW Wolf’s Claws: gain speed boost and significantly faster weapon draw after a teleport",
+        "Upgrades: Level 3\nTactical Upgrade: removed\nNEW Brand New Bag: entire squad receives gold backpacks when selected\nNEW Escape Artist: Loba can regenerate 50 shield HP after teleporting with her Tac, damage stops the regen"
+      ]
+    },
+    {
+      "patch": "August 08, 2023 Patch",
+      "details": [
+        "Burglar's Best Friend cooldown reduced from 30 seconds to 25.",
+        "Black Market Boutique cooldown increased from 120 seconds to 150.",
+        "Ultimate Accelerants now restore 25% charge (up from 20%)."
+      ]
+    },
+    {
+      "patch": "November 01, 2022 Patch",
+      "details": [
+        "(Undocumented) Loba can now open the secret compartment of Extended Supply Bins."
+      ]
+    },
+    {
+      "patch": "July 19, 2021 Patch",
+      "details": [
+        "Black Market Boutique: Fixed a bug preventing players with a custom control layout with \"Extra Character Action\" bound from looting from Deathboxes or the  Black Market Boutique."
+      ]
+    },
+    {
+      "patch": "May 04, 2021 Patch",
+      "details": [
+        "Burglar's Best Friend:\nCan now run and slide at full speed while aiming the bracelet and while the bracelet is in the air.\nLoba will no longer be slowed after translocating.\nFixed a lot of bugs that caused bracelet tosses to fail.",
+        "Black Market Boutique: Increased cooldown from 90s to 120s.",
+        "The Red Handed skin on consoles will now properly animate."
+      ]
+    },
+    {
+      "patch": "March 15, 2021 Patch",
+      "details": [
+        "Burglar's Best Friend: Fix an issue with her bracelet not working in certain areas."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "Burglar's Best Friend: Fixed a few areas Loba could teleport into that would get her stuck."
+      ]
+    },
+    {
+      "patch": "February 02, 2021 Patch",
+      "details": [
+        "Loot inside unopened Care Packages is now visible with  Eye for Quality and accessible through the  Black Market Boutique.",
+        "Burglar's Best Friend: Fixed a few exploitable areas on Kings Canyon that Loba was able to reach via her Bracelet.",
+        "[Undocumented] Fixed an issue with the Crystalline Perfection skin having an unfinished tiara."
+      ]
+    },
+    {
+      "patch": "January 05, 2021 Patch",
+      "details": [
+        "Burglar's Best Friend: Fixed a lot of windows in World's Edge that prevented Loba’s bracelet from passing through."
+      ]
+    },
+    {
+      "patch": "November 04, 2020 Patch",
+      "details": [
+        "Black Market Boutique: Ammo taken no longer has a maximum limit nor takes up space towards the two items allowed to be taken."
+      ]
+    },
+    {
+      "patch": "October 06, 2020 Patch",
+      "details": [
+        "Eye for Quality and  Black Market Boutique: Increased range from 3100 units to 4500 units (77.5m to 112.5m).",
+        "Black Market Boutique: Is now 50% charged at the start of every match.",
+        "Burglar's Best Friend:\nFixed inconsistencies with teleporting onto a supply ship.\nFixed an issue allowing teleporting into drills around Lava Fissure.\nFixed an issue preventing teleporting on certain terrain in Staging."
+      ]
+    },
+    {
+      "patch": "September 03, 2020 Patch",
+      "details": [
+        "Burglar's Best Friend: Fixed an issue causing the teleport to fail in certain areas."
+      ]
+    },
+    {
+      "patch": "August 18, 2020 Patch",
+      "details": [
+        "Black Market Boutique:\nReduced cooldown from 3 minutes to 90 seconds.\nFixed an issue with it not being pingable.",
+        "Burglar's Best Friend: Fixed an issue with enemies getting teleported with Loba when they melee her when she teleports."
+      ]
+    },
+    {
+      "patch": "July 09, 2020 Patch",
+      "details": [
+        "Burglar's Best Friend: Improved usability on World's Edge."
+      ]
+    },
+    {
+      "patch": "July 07, 2020 Patch",
+      "details": [
+        "Burglar's Best Friend: Addressed Loba's bracelet usability on World's Edge. There are still some known cases we're continuing to work on but it should work much better now."
+      ]
+    },
+    {
+      "patch": "June 23, 2020 Patch",
+      "details": [
+        "Burglar's Best Friend:\nNo longer intercepted by Wattson’s  Interception Pylon.\nFixed issues with Loba being able to get to out of bounds areas using the bracelet.\nFixed an issue with Loba’s bracelet being blocked by an invisible collision at the entrance of the Firing Range.\nFixed an issue preventing teleporting in certain areas.",
+        "Black Market Boutique:\nWill now only pick up 1 stack of ammo (rather than 1 stack + the amount that was required to fill whatever partial stack you had in your inventory).\nFixed an issue with it not showing the correct range.\nNow shows correct ammo count for care package weapons.\nNow refunded if it gets caught between two doors.",
+        "Ultimate Accelerants now give her 20% ultimate charge (from 17.5%)."
+      ]
+    },
+    {
+      "patch": "May 12, 2020 Patch",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
+}

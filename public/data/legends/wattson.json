@@ -1,0 +1,156 @@
+{
+  "name": "Wattson",
+  "lore": {
+    "real_name": "Natalie Paquette",
+    "age": "24",
+    "home_world": "Solace",
+    "gender": "Female",
+    "bio": "Natalie “Wattson” Paquette is a familiar face in the Apex Games, though for a different reason than most. Daughter of the Games’ lead electrical engineer, she studied his manuals to stay close to him, and discovered her calling at a young age. Though she could be completely distracted one moment and hyper-focused the next, electricity grounded her – its ordered, predictable flow made sense in a way the rest of the world didn’t.\nShe devoured every book she could on the subject, and eventually became such a skilled engineer that she was commissioned to build the Apex Games’ Modified Containment Ring. Unfortunately, her father died the day it was revealed, leaving her alone. At her lowest moment, a group of competitors invited her to return to the arena with them, assuring her she would always have a home. She now fights alongside her friends in the arena she helped build, destroying incoming missiles, recharging shields, creating fences, and using her pylon to silence fights that get too loud. Nobody knows the arena better than Wattson – anyone who underestimates her is in for a shock.\n\nFor more information on Wattson's story, see Wattson (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Spark of Genius",
+      "description": "Ultimate Accelerants fully charge Wattson's ultimate. She can also carry more Ultimate Accelerants and use them faster. Wattson slowly restores her shields over time.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Perimeter Security",
+      "description": "Create electrified fences by connecting nodes. Fences damage and slow enemies. Fences near doors will electrify them.",
+      "cooldown": "4 seconds"
+    },
+    "ultimate": {
+      "name": "Interception Pylon",
+      "description": "Place an electrified pylon (Max: 1) that destroys incoming ordnance and repairs damaged shields. Intercepted ordnances are converted into Arc Stars.",
+      "cooldown": "3 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "July 17, 2025 Patch",
+      "details": [
+        "Increased Ultimate Conductor upgrade's knock burst from 30% to 50% Ultimate charge."
+      ]
+    },
+    {
+      "patch": "June 24, 2025 Patch",
+      "details": [
+        "Passive:  Spark of Genius\n50% faster Ult accel consumption\nPassive Shield Regen increased to 2s (was 1s)",
+        "Tactical:  Perimeter Security\nIncrease fence node HP to 50 (was 25)\nCooldown reduced to 4s (was 15s)\nFences now slow sliding and jumping enemies, and consume cooldowns on Ash’s dash and Sparrow’s double jump\nFences placed across doors will electrify the doors\nStuns enemies when they open an electrified door or kicks it in\nElectrification ends if the fence is obstructed or the fence is removed, and restarts when the fence is active again\nRemoved doors exploding when opened into the line of a fence",
+        "Upgrades: Level 2\nFalling Stars: integrated into base kit\nNEW Help is Here: gain all support perks (access Support Bins, faster revives with health regen, gain MRB with Banners)\nNEW Ultimate Conductor: damage to enemies is converted to Ult charge and knocks give a burst of 30% Ult charge",
+        "Upgrades: Level 3\nNEW Energized Healer: gain double small med healing\nPower Pylon: double Ult HP, healing rate, and capacity"
+      ]
+    },
+    {
+      "patch": "August 06, 2024 Patch",
+      "details": [
+        "Upgrades\nPower Pylon now regenerates shield charge\nSplit Circuit: removed\nEmergency Power: Increases Shield Regen Rate of Interception Pylon (Doubles Ult shield generator Rate & Capacity)"
+      ]
+    },
+    {
+      "patch": "May 07, 2024 Patch",
+      "details": [
+        "Upgrades\nFalling Stars: Pylons will stop spawning Arc Stars when her squad is eliminated\nSplit Circuit: no longer reduces shield regen capacity"
+      ]
+    },
+    {
+      "patch": "May 09, 2023 Patch",
+      "details": [
+        "(Undocumented) one new animation inspecting the HAVOC Rifle exclusively for Wattson."
+      ]
+    },
+    {
+      "patch": "August 09, 2022 Patch",
+      "details": [
+        "Perimeter Security\nImprovements to Perimeter Security placement system."
+      ]
+    },
+    {
+      "patch": "November 02, 2021 Patch",
+      "details": [
+        "Improved the reliability and responsiveness of placing Wattson's Tactical and Ultimate in-world objects.",
+        "Wattson can place her Tactical and Ultimate objects on valid surfaces above Wattson's eye level (to a reasonable extent).",
+        "General hitbox size increase, to compensate for the removal of low profile in the Legacy update.",
+        "Perimeter Security\nIncreased damage on crossing a Fence by 33%. (15 to 20)\nIncreased debuff duration on crossing a Fence by 100%. (1.5 to 3 seconds)\nIncreased the time allowance to be hit again by a subsequent Fence effect by 100%. (0.5 to 1 second).\nDecreased recharge time by 50% (30 to 15 seconds).\nIncreased placement range by 50%.\nDecreased the delay between Fences shutting off and reactivating after an ally passes through them by 60%. (1.0 -> 0.4 seconds)\nWattson now moves at Unarmed-speed while readying/placing Fence nodes.\nFence nodes can now be placed as soon as the weapon is readied, instead of waiting for the animation to finish.",
+        "Interception Pylon\nThe Pylon output has been significantly reworked.\nReduced the number of active Pylons Wattson can place from 3 to 1.\nThe Pylon now lasts forever (instead of timing out after 90 seconds).\nThe Pylon now has a pool of 250 Shields that can be distributed to nearby players, instead of effectively infinite Shields.\nIncreased the Pylon shield recharge rate by 150%, and smoothed regen rate. (2/second -> 5/second, or more accurately: 1/0.5 seconds -> 1/0.2 seconds)\nWhen a Pylon is out of Shields, it no longer recharges players' Shields, but can still zap incoming ordnance.\nTaking damage while regenerating Shields via the Pylon delays continued regeneration by 1 second.\nThe UI on the ground and HUD elements now displays the amount of Shields that remain in the Pylon.\nPinging a friendly Pylon will now display the percentage of Shields remaining in the Pylon.\nPylon ordnance-zapping has been moderately reworked.\nOrdnance is now zapped when the Pylon detects that it would hit any surface within range and line of sight of the Pylon, instead of being zapped as soon as it comes within range.\nAs a part of the changes, current issues where the Pylon doesn't reliably zap ordnance (particularly concerning airstrike abilities, and ordnance that bounced off surfaces near the Pylon) should now be addressed."
+      ]
+    },
+    {
+      "patch": "May 24, 2021 Patch",
+      "details": [
+        "Perimeter Security: Restored slow effect when running into the fences."
+      ]
+    },
+    {
+      "patch": "May 04, 2021 Patch",
+      "details": [
+        "Removed  Low Profile.",
+        "Interception Pylon: Will now intercept Horizon’s abilities.",
+        "Perimeter Security: Fixed the “Extend” prompt for the fences not appearing in certain situations.",
+        "The Haute Drop skin will no longer block view when reloading the Sentinel."
+      ]
+    },
+    {
+      "patch": "March 15, 2021 Patch",
+      "details": [
+        "Fixed an issue with her Electric Blue skin appearing without texture on console.\nPlayers who bought the skin before the fix will be refunded their  Crafting Metals or  Apex Coins, depending on which method they used.\nPlayers who received the skin in an  Event Pack will not be refunded their Apex Coins."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "Spark of Genius: Wattson now passively regenerates shield at a rate of 0.5hp/s. Stacks with  Interception Pylon regen rate."
+      ]
+    },
+    {
+      "patch": "January 14, 2021 Patch",
+      "details": [
+        "Fixed an issue with her Haute Drop skin obscuring views with the  1x Holo sight while using the Volt SMG, HAVOC Rifle, Longbow DMR, Sentinel, and R-301 Carbine."
+      ]
+    },
+    {
+      "patch": "November 04, 2020 Patch",
+      "details": [
+        "Perimeter Security: Damage increased from 10 to 15."
+      ]
+    },
+    {
+      "patch": "June 23, 2020 Patch",
+      "details": [
+        "Interception Pylon:\nNow only lasts for 90 seconds, instead of infinite.\nIncreased number of active pylons from 1 to 3.",
+        "Spark of Genius: Wattson can hold up to 2  Ultimate Accelerants per inventory slot."
+      ]
+    },
+    {
+      "patch": "April 07, 2020 Patch",
+      "details": [
+        "Low Profile: Leg shots now deal as much damage as body shots."
+      ]
+    },
+    {
+      "patch": "January 14, 2020 Patch",
+      "details": [
+        "Interception Pylon: Fix for the pylon to prevent being able to deploy it through walls.",
+        "Fixed an issue where players would receive a client error when fighting Wattson."
+      ]
+    },
+    {
+      "patch": "December 03, 2019 Patch",
+      "details": [
+        "Interception Pylon: The Pylon is now significantly more aggressive in the way it shoots down grenades. Rather than just identifying between incoming and outgoing projectiles, it now predicts the trajectory of grenades thrown within the interception zone and intercepts them if they will land anywhere within that zone. This means that no grenade can contact any surface within the interception zone regardless of the team, but players can fire grenades outwards from anywhere within the zone."
+      ]
+    },
+    {
+      "patch": "September 03, 2019 Patch",
+      "details": [
+        "Added  Low Profile Perk to Wattson.",
+        "Interception Pylon: Reduced the maximum number of pylons that can be active from 3 to 1."
+      ]
+    },
+    {
+      "patch": "July 02, 2019 Patch",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
+}

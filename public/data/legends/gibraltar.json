@@ -1,0 +1,158 @@
+{
+  "name": "Gibraltar",
+  "lore": {
+    "real_name": "Makoa Gibraltar",
+    "age": "32",
+    "home_world": "Solace",
+    "gender": "Male",
+    "bio": "Gibraltar is a gentle giant with a wild side. The son of two SARAS (Search and Rescue Association of Solace) volunteers, he has always been skilled at getting others out of dangerous situations that are common in the Outlands. However, he only began to understand the value of protecting others when he  was a teenager: one day, he and his boyfriend stole his father’s motorcycle, took it on a joyride, and got trapped by a deadly mudslide. His parents saved them, and his father lost an arm in the process. Gibraltar has never forgotten that sacrifice and has devoted his life to helping those in need.\nThe Apex Games didn’t change that, but they changed what it meant. Many of Gibraltar’s friends and colleagues have competed in the Games for extra money, fame, and glory over the years, and some never came home. Gibraltar joined to keep them safe and, for the first time, his skills as a rescuer and his rebellious nature worked together. He’s now become an icon in the Apex Games, putting himself in the line of fire to protect his squad and send his opponents running for cover.\nHe's seen plenty in the Games - and out of them - to challenge his upbeat way of seeing things. Letting the love of his life take the fall for a mistake he made, only to meet him again and try to make amends. Watching his friends throw themselves into dangerous situations over and over again, and seeing ancient rivalries play out in painful ways. A few competitors have even tried to break his spirit for the fun of it. But Gibraltar is like a rock - they can TRY to move him, and he'll just smile and laugh.\n\nFor more information on Gibraltar's story, see Gibraltar (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Gun Shield",
+      "description": "Aiming down sights deploys a gun shield that blocks incoming fire.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Dome of Protection",
+      "description": "Blocks incoming and outgoing attacks.",
+      "cooldown": "13 seconds"
+    },
+    "ultimate": {
+      "name": "Defensive Bombardment",
+      "description": "Call in a concentrated mortar strike on a marked position.",
+      "cooldown": "3 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "August 08, 2023 Patch",
+      "details": [
+        "Defensive Bombardment to 180s (-90s)",
+        "Fixed ultimates not triggering if thrown on Ziprail Launcher and Skydive Towers",
+        "Fixed ultimates not cooldown if they’re killed while holding the ultimate grenade"
+      ]
+    },
+    {
+      "patch": "May 10, 2022 Patch",
+      "details": [
+        "Fortified\nNo longer reduces headshot damage."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "Dome of Protection: Removed 15% fast healing while inside the dome shield.",
+        "Gun Shield:\nDamaging the Gun Shield now counts as damage towards  Evo Shield and stats.\nDamage that exceeds the Gun Shield’s 50 HP will now bleed through to damage Gibraltar.\nCorrected an issue with Gibraltar not getting hit registrations when simultaneously releasing ADS and shooting while it was up."
+      ]
+    },
+    {
+      "patch": "October 06, 2020 Patch",
+      "details": [
+        "Dome of Protection: Fixed an issue with the shield looking white in certain conditions."
+      ]
+    },
+    {
+      "patch": "September 03, 2020 Patch",
+      "details": [
+        "Dome of Protection: Fixed an issue allowing a player to shoot through the dome while on a  Emplaced Minigun \"Sheila\"."
+      ]
+    },
+    {
+      "patch": "August 18, 2020 Patch",
+      "details": [
+        "Defensive Bombardment:\nIncreased cooldown from 3 minutes to 4.5 minutes.\nFixed an issue with the airstrike markers sometimes appearing inside buildings."
+      ]
+    },
+    {
+      "patch": "June 23, 2020 Patch",
+      "details": [
+        "Dome of Protection: Healing speed while in dome reduced from 25% to 15%."
+      ]
+    },
+    {
+      "patch": "May 27, 2020 Patch",
+      "details": [
+        "Dome of Protection: Ability text updated to correctly reflect the new 12s duration."
+      ]
+    },
+    {
+      "patch": "May 12, 2020 Patch",
+      "details": [
+        "Dome of Protection: Reduced duration from 18s to 12s."
+      ]
+    },
+    {
+      "patch": "April 07, 2020 Patch",
+      "details": [
+        "Gun Shield: Now disabled if silenced by Revenant."
+      ]
+    },
+    {
+      "patch": "March 03, 2020 Patch",
+      "details": [
+        "Gun Shield: Health reduced from 75 to 50.",
+        "Dome of Protection: Fixed an issue with the player being able to place the dome on Crypto’s drone, allowing the dome to be mobile while in use."
+      ]
+    },
+    {
+      "patch": "January 14, 2020 Patch",
+      "details": [
+        "Dome of Protection: Gibraltar now revives teammates faster within the dome."
+      ]
+    },
+    {
+      "patch": "October 01, 2019 Patch",
+      "details": [
+        "Dome of Protection:\nPlayers in the Dome Shield use healing items 25% faster.\nIncreased the throw distance by 60%.\nIncreased cooldown from 20 seconds to 30 seconds.",
+        "Defensive Bombardment:\nDecreased cooldown from 4.5 minutes to 3 minutes.\nDecreased duration from 8 seconds to 6 seconds.\nIncreased throw distance by 36%."
+      ]
+    },
+    {
+      "patch": "August 13, 2019 Patch",
+      "details": [
+        "Fixed a bug where activating a healing item would cancel the Ultimate for Legends that need to prime it."
+      ]
+    },
+    {
+      "patch": "July 02, 2019 Patch",
+      "details": [
+        "Fortified:\nIncreased damage reduction from 10% to 15%.\nNow grants immunity to slow effects from weapon fire.",
+        "Dome of Protection: Increased the duration by 3 seconds (15 to 18)."
+      ]
+    },
+    {
+      "patch": "May 20, 2019 Patch",
+      "details": [
+        "Gun Shield: Fixed the bug that allowed players to stick objects to the shield. It will now also deflect  Arc Stars."
+      ]
+    },
+    {
+      "patch": "April 16, 2019 Patch",
+      "details": [
+        "Added  Fortified Passive Perk which reduces damage taken by 10%.",
+        "Gun Shield: Health increased from 50 to 75."
+      ]
+    },
+    {
+      "patch": "April 03, 2019 Patch",
+      "details": [
+        "Adjusted the hitbox for Gibraltar to better align with his shape."
+      ]
+    },
+    {
+      "patch": "March 19, 2019 Patch",
+      "details": [
+        "Adjusted the hitbox for Gibraltar to better align with his shape.",
+        "Defensive Bombardment: Fixed a bug where teammates are not affected by Shell Shock. This was meant to be the same as Bangalore's ultimate.",
+        "Gun Shield: Patched up the hole we found in the shield."
+      ]
+    },
+    {
+      "patch": "February 19, 2019 Patch",
+      "details": [
+        "Fixed issue with his Epic skins on Xbox One causing crashes."
+      ]
+    }
+  ]
+}

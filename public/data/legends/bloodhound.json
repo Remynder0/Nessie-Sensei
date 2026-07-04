@@ -1,0 +1,194 @@
+{
+  "name": "Bloodhound",
+  "lore": {
+    "real_name": "Blóðhundr",
+    "age": "40",
+    "home_world": "Talos",
+    "gender": "Non-binary",
+    "bio": "Bloodhound is known across the Outlands as one of the greatest game hunters the Frontier has ever seen. The child of two engineers stationed at the New Dawn industrial plant on Talos, Bloodhound was taken in by their uncle Artur after a meltdown destroyed the facility and killed both their parents. Artur taught them the Old Ways, a belief system that focuses on the glory of nature and rejects modern technology. Yet Bloodhound was constantly drawn to technological marvels, and ultimately used both new and old methods to take down a Goliath that preyed on the people of their village, forever changing their life’s path.\nAfter Bloodhound’s lover was unceremoniously killed in the Thunderdome, they vowed to win enough battles that they could both enter Valhalla… and the Apex Games were the perfect place for Bloodhound to accumulate victories. Many things have changed since then - they have contended with their guilt over the loss of those they care for, led their people to a new home, and found new love - but they continue to find a place in the Games.\nTheir unparalleled tracking skills are a boon to any team they join, helping them root out hidden opponents and track enemy movements. Calling on Earth’s Old Norse Gods to guide them, Bloodhound believes that destiny is a path that has already been laid out, eventually carrying all to their death. But with that knowledge comes strength, because until that day comes, Bloodhound knows they can’t be stopped.\n\nFor more information on Bloodhound's story, see Bloodhound (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Tracker",
+      "description": "Foes leave behind clues for you to find. White Ravens may appear to guide you to battle and charge your abilities.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Eye of the Allfather",
+      "description": "Briefly reveal enemies, traps, and clues through all structures in front of you.",
+      "cooldown": "25 seconds"
+    },
+    "ultimate": {
+      "name": "Beast of the Hunt",
+      "description": "Transform into the ultimate hunter. Launches a White Raven and enhances senses to see cold tracks and move faster. Knocks will refresh your tactical and extend the hunt duration",
+      "cooldown": "2.5 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "February 10, 2026 Patch",
+      "details": [
+        "Tracker\nEnemies outside of 13m no longer block white ravens from spawning (Flock upgrade brought into base kit)\nClues more than 13m away no longer block White ravens (was ~50m)",
+        "Eye of the Allfather\nTotal scan duration up to 4s (was 3s), full-body duration remains half the full scan duration (so now 2s, was 1.5s)\nReduced screen coloration during scan\nFewer clues will pop-up on screen when your tactical successfully scans an enemy",
+        "Beast of the Hunt\nCooldown reduced to 2.5 minutes (was 4 minutes)\nActivation time reduced by ~20%\nAfter activation, the wider FOV gradually shifts back to your normal FOV\nKnocks while your ultimate is active increase the duration by 5s (will always reset to 10s if below)",
+        "Upgrades\nLevel 2\nTaste of Blood: Regen 50 health when getting a knock while your ultimate is active\nRaven’s Flight: When activating your white ravens, they can ping enemies twice as far as normal\nLevel 3\nHunter’s Agility: Your tactical is faster to use and has -5s cooldown\nEye of the Allfather removed from level 2\nRemoved Raven’s Blessing, Flock, and Sighthound"
+      ]
+    },
+    {
+      "patch": "June 25, 2024 Patch",
+      "details": [
+        "Beast of the Hunt: threat vision is no longer visible through smoke or gas",
+        "Upgrade: Level 2\n Raven's Blessing: Ult charge reduced to 20% (was 25%)",
+        "Upgrades: Level 3\nNEW Sighthound: reduced Tac cooldown by 50% while Ultimate is active\nNEW Flock: remove enemy range requirement for White Raven spawns"
+      ]
+    },
+    {
+      "patch": "May 07, 2024 Patch",
+      "details": [
+        "Beast of the Hunt\nCooldown increased to 4m (was 3m)\nKnocks with Ult active no longer extend duration",
+        "Upgrades: Level 3\nTactical Cooldown: removed\nTaste of Blood: buffed HP gain on knock to 50 (was 25)\nNEW Long Hunt: knocks extend Beast of the Hunt duration"
+      ]
+    },
+    {
+      "patch": "March 26, 2024 Patch",
+      "details": [
+        "Upgrades\nOdin's Glare: moved to Level 2\nTactical Cooldown: moved to Level 3"
+      ]
+    },
+    {
+      "patch": "February 14, 2023 Patch",
+      "details": [
+        "Tracker\nWhite Ravens\nEthereal White Ravens will now occasionally spawn near Bloodhound when no enemies are around.\nWhite Ravens can be interacted with or scanned to trigger them to fly towards the nearest enemy player\nThe White Raven will leave a misty trail behind for Bloodhound to follow, and will share this direction with their team on the map.\nUsing a White Raven will recover 25% Tactical / Ultimate charge\nScanning a White Raven will fully refund the Tactical Charge",
+        "Eye of the Allfather\nReduced full body scan time from 3s to 1s\nDiamond target on scanned enemy is unchanged",
+        "Beast of the Hunt\nNo longer recharges or speeds up the cooldown rate of Bloodhound's Tactical\nWill launch a White Raven that flies towards the nearest enemy\nKilling an enemy while in Beast of the Hunt will also trigger a White Raven"
+      ]
+    },
+    {
+      "patch": "October 20, 2021 Patch",
+      "details": [
+        "The raven on the Niflheim Hundr skin will now correctly show as white in the lobby."
+      ]
+    },
+    {
+      "patch": "July 21, 2021 Patch",
+      "details": [
+        "Restored the Frag Out  Banner Frame."
+      ]
+    },
+    {
+      "patch": "June 29, 2021 Patch",
+      "details": [
+        "Eye of the Allfather: Scan revealed time decreased from 4 seconds to 3 seconds.",
+        "Beast of the Hunt: Duration decreased from 35 seconds to 30 seconds. Time can still be added by downing enemies."
+      ]
+    },
+    {
+      "patch": "May 04, 2021 Patch",
+      "details": [
+        "Eye of the Allfather:\nNo longer counts towards assists.\nFixed an issue with the UI not showing while in  Beast of the Hunt."
+      ]
+    },
+    {
+      "patch": "February 22, 2021 Patch",
+      "details": [
+        "Fixed an issue with the Hunter's Moon skin having untextured hands on consoles."
+      ]
+    },
+    {
+      "patch": "February 10, 2021 Patch",
+      "details": [
+        "Eye of the Allfather: Fixed an issue with players not being scanned if already scanned by a different Bloodhound."
+      ]
+    },
+    {
+      "patch": "January 05, 2021 Patch",
+      "details": [
+        "Fixed an issue with Bloodhound’s UI disappearing after interacting with Horizon’s  Gravity Lift."
+      ]
+    },
+    {
+      "patch": "October 06, 2020 Patch",
+      "details": [
+        "Eye of the Allfather: Updated cooldown while  Beast of the Hunt is active from 6 seconds to 8 seconds."
+      ]
+    },
+    {
+      "patch": "August 20, 2020 Patch",
+      "details": [
+        "Fixed an issue with a specific Bloodhound skin having a stretched neck when using Rampart’s turret."
+      ]
+    },
+    {
+      "patch": "August 18, 2020 Patch",
+      "details": [
+        "Beast of the Hunt:\nDuration extension when knocking down/killing enemies now ranges from 5 seconds to 15 seconds based on the remaining duration.\nWhile active,  Eye of the Allfather's cooldown is now at 6 seconds instead of the usual 25, and its activation time from 1.8s to .9s.\nFixed an issue with Bloodhound being able to get an additional Ult when using Wraith’s  Dimensional Rift.",
+        "Added  Recon Passive Perk: Bloodhound can now use  Survey Beacons."
+      ]
+    },
+    {
+      "patch": "May 12, 2020 Patch",
+      "details": [
+        "Eye of the Allfather\nIncreased sonar detection from 3 seconds to 4 seconds.\nDecreased cooldown from 35 seconds to 25 seconds."
+      ]
+    },
+    {
+      "patch": "March 03, 2020 Patch",
+      "details": [
+        "Eye of the Allfather\nIncreased the scan distance by 3x.\nIncreased time to activate from 0.4 seconds to 0.8 seconds.\nIncreased duration of scan from 2 seconds to 3 seconds.",
+        "Tracker: Added a new clue:  Weapon Reloaded"
+      ]
+    },
+    {
+      "patch": "February 04, 2020 Patch",
+      "details": [
+        "Beast of the Hunt: Downing (not killing) players add 5 seconds to the timer. It is possible to exceed the starting time with successive kills."
+      ]
+    },
+    {
+      "patch": "January 14, 2020 Patch",
+      "details": [
+        "Tracker:\nFixed an issue where players could not see timers when looking at enemy tracks.\nFixed an issue where tracks would disappear 30 seconds sooner than expected."
+      ]
+    },
+    {
+      "patch": "October 01, 2019 Patch",
+      "details": [
+        "Eye of the Allfather\nReduced the animation time to activate by 33%.\nNow immediately tells you how many targets have been pinged.",
+        "Beast of the Hunt:\nFixed an issue with FoV scaling messing up ADS aim sensitivity.\nReduced animation time to activate by 30%.\nIncreased movement speed bonus from 25% to 30%."
+      ]
+    },
+    {
+      "patch": "August 13, 2019 Patch",
+      "details": [
+        "Tracker: Increased the distance that Bloodhound can see traversal clues left by other players [but not other kinds of clues] to 25 meters.",
+        "Eye of the Allfather: Adjusted the area of effect to 125 FOV."
+      ]
+    },
+    {
+      "patch": "July 02, 2019 Patch",
+      "details": [
+        "Eye of the Allfather\nEnemies scanned now are tracked in real-time instead of leaving a ghost image behind. The tracking lasts for 1.5 seconds.\nIncreased the angle of the scan to 110 from 90.",
+        "Tracker\nIncreased clue duration to 90 seconds from 60 seconds.\nFixed a bug where energy weapons wouldn’t leave behind weapon fired clues.\nFixed a bug where movement clues would sometimes not be generated.",
+        "Fixed bug where players wouldn’t create movement evidence markers unless they were sprinting."
+      ]
+    },
+    {
+      "patch": "June 04, 2019 Patch",
+      "details": [
+        "Beast of the Hunt: Fixed issue with bad framerate when using it."
+      ]
+    },
+    {
+      "patch": "March 19, 2019 Patch",
+      "details": [
+        "Beast of the Hunt: Added better colorblind support."
+      ]
+    },
+    {
+      "patch": "February 13, 2019 Patch",
+      "details": [
+        "Eye of the Allfather: Shortened duration of outlines by 1 second."
+      ]
+    }
+  ]
+}

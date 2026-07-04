@@ -1,0 +1,418 @@
+{
+  "season": "23_2",
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Mad Maggie Bubblegum Flare",
+        "HAVOC Rifle Star Chomp",
+        "Banner Frame Happy Valley Adventure",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Holospray Hands Off"
+      ],
+      "free": [
+        "Transition Mirror Mirror"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Wattson Quip Kill Quip : It's not fair, I know"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Pathfinder Cosmetic Emote Robotic Groove"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Stat Tracker Paw Patroller - Top",
+        "Stat Tracker Paw Patroller - Middle",
+        "Stat Tracker Paw Patroller - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Banner Frame Paw Prize"
+      ],
+      "free": [
+        "Music Pack From the Rift Split 2"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Mastiff Shotgun Paw Powered"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Pathfinder Paw Patroller",
+        "Pathfinder Catfinder +"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Holospray Nothing Personal",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Banner Frame Happy Tea Time"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Holospray It's Just You and Me Friend"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Longbow DMR Butterfly Beauty"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Sticker Mecha Mate"
+      ],
+      "free": [
+        "Gibraltar Cosmetic Emote Big Shame"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Loba Sherbet Sunset",
+        "Exotic Shards 10 +"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Banner Frame Pet Pals",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "P2020 Dino Snacks"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Holospray Cheese"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Crypto Skydive Emote In-flight Misfire"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Mad Maggie Cosmetic Emote Running Man Mags"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Exotic Shards 10",
+        "C.A.R. SMG Legend's Best Friend"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Little E-Reader"
+      ],
+      "free": [
+        "Rampage LMG Shark Attack"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Stat Tracker Nighttime Nessie - Top",
+        "Stat Tracker Nighttime Nessie - Middle",
+        "Stat Tracker Nighttime Nessie - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Dance Encounter"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Alternator SMG Nessinator"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Banner Frame Nessie Dreamland"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Sticker Luminous Love"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Wattson Nighttime Nessie",
+        "Wattson Heart Signal +"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Bloodhound Cosmetic Emote Higher Devotion",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Bloodhound Quip Kill Quip : My Task is far from done"
+      ],
+      "free": []
+    },
+    "level_43": {
+      "premium": [
+        "Bocek Compound Bow Loch-ed On"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Holospray Come Geta"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Gibraltar Shark Bite"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Banner Frame Spa Day"
+      ],
+      "free": [
+        "Bessie"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Bloodhound Dino Camouflage"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Holospray Let Me Do It For You"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Wraith Skydive Emote Tired Dive"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Flatline Outfoxed"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Gibraltar Banner Frame Pixel Pet"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Crafting Metals 200",
+        "Banner Frame Sweet Merch"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Unexpected Occupant"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Mozambique Shotgun Ol' Nessie"
+      ],
+      "free": []
+    }
+  }
+}

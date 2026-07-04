@@ -1,0 +1,90 @@
+{
+  "name": "Fuse",
+  "lore": {
+    "real_name": "Walter Fitzroy Jr.[1]",
+    "age": "55",
+    "home_world": "Salvo",
+    "gender": "Male",
+    "bio": "Ladies’ man, man’s man, and all-round manly man, Fuse is a laid-back explosives enthusiast who’s covered in things that go BOOM. He may lack a plan, but he doesn't lack confidence. He grew up on Salvo - a brutal planet ruled by a rotating coalition of misfit warlords bent on mayhem, murder, and good times. For most of his life, he worked as a mercenary alongside his childhood friend, Maggie. But while she aspired to become one of Salvo's most powerful warlords, Fuse felt the pull of the arena.\nFuse found his calling late in life fighting in Salvo's bloodsport: the Bonecage. He proved to be the best, most charismatic and beloved gladiator on the planet. But he itched to join the grandest stage of them all: the Apex Games. While Salvo remained a part of Independent Space that dream was impossible, but once they joined the Syndicate, his chance arrived, and he seized it.\nHe knew Maggie - fiercely devoted to Salvo - would take the news poorly, but he didn't predict how poorly. When he confronted her with his choice to leave their home and join the Games, the resulting scuffle cost Fuse his arm. That clash began a rampage as Maggie, intent on proving the Syndicate was too weak to rule over her home, sabotaged his entrance into the Games to make a statement. Fuse's response? Don't threaten him with a good time - and that is a creed that he's lived ever since.\n\nFor more information on Fuse's story, see Fuse (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Grenadier",
+      "description": "Stack an extra grenade per inventory slot. Fire grenades farther, faster, and more accurately.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Knuckle Cluster",
+      "description": "Launch a cluster bomb that continuously expels airburst explosives on impact.",
+      "cooldown": "20 seconds"
+    },
+    "ultimate": {
+      "name": "The Motherlode",
+      "description": "Launch a bomb that scatters explosives around its landing point. Aim down sights to launch a cover-piercing bomb.",
+      "cooldown": "2 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "February 10, 2026 Patch",
+      "details": [
+        "Fuse is no longer slowed when taking explosive damage",
+        "Knuckle Cluster\nFaster weapon stow time when switching to the tactical\nFlattened the trajectory to make tap-firing more accurate\nReduced delay before explosions start up (was 1.7s, now 1.0s)\nIncreased base damage (was 10, now 15)\nReduced the duration by 50%",
+        "The Motherlode\nRefreshed ultimate behavior.  Fires a mortar that explodes against the ground, then sprays out smaller bombs around its landing point.\nWhen aiming down sights, the mortar can pierce cover up to 13m deep and deliver explosives to the other side.",
+        "Upgrades\nLevel 2\nPyro Techniques: Your ultimate will drop behind patches of fire for 8 seconds after the bombs explode\nKnuckle Jumper: Jumping when next to your own Knuckle Clusters will give you an explosive boost (destroys the cluster afterwards).\nLevel 3\nReignition: Dealing explosive damage to enemies recharges your ultimate (for every 2 damage dealt, reduces cooldown by 1 second)\nRemoved Ring Master, Scar Tissue, and Knuckle Hustler"
+      ]
+    },
+    {
+      "patch": "May 07, 2024 Patch",
+      "details": [
+        "Upgrades\nBig Bang: removed\nNEW Ring Master: gain access to Ring Consoles\nScar Tissue:\nSimplified and buffed damage mitigation to remove lingering burn effects\nTake a flat 20 damage when crossing The Motherlode instead of 37 (50% of 75 hp) over time\nWreckless: fixed explosive damage mitigation not being applied on continuous Knuckle Cluster hits (should only take about 32 damage from a full Knuckle Cluster now with Wreckless)"
+      ]
+    },
+    {
+      "patch": "March 26, 2024 Patch",
+      "details": [
+        "Upgrade - Wreckless: explosive damage is now reduced by 50% (was 25%)"
+      ]
+    },
+    {
+      "patch": "September 19, 2023 Patch",
+      "details": [
+        "Knuckle Cluster deployment speed increased."
+      ]
+    },
+    {
+      "patch": "August 03, 2021 Patch",
+      "details": [
+        "Grenadier:\nEnhanced throw power can be now be toggled on and off by pressing the utility action button (default H//) while holding a grenade.",
+        "Knuckle Cluster:\nNow lasts twice as long with the same amount of damage.",
+        "The Motherlode:\nNow highlights enemies affected by the fire."
+      ]
+    },
+    {
+      "patch": "May 04, 2021 Patch",
+      "details": [
+        "Knuckle Cluster:\nNow has 2 charges.\nReduced cooldown from 25s to 20s.",
+        "The  1x Holo will no longer block view when using certain skins."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "The Motherlode:\nNow damages and destroys  Launch Pads.\nWhen under a small enclosure, players will no longer be pushed out after using it.",
+        "Players can no longer double their grenades after looting a dead Fuse’s Death Box."
+      ]
+    },
+    {
+      "patch": "February 04, 2021 Patch",
+      "details": [
+        "Knuckle Cluster: Fixed an issue that allowed it to do damage through shields."
+      ]
+    },
+    {
+      "patch": "February 02, 2021 Patch",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
+}

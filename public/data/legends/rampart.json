@@ -1,0 +1,153 @@
+{
+  "name": "Rampart",
+  "lore": {
+    "real_name": "Ramya Parekh",
+    "age": "23",
+    "home_world": "Gaea",
+    "gender": "Female",
+    "bio": "Rampart is a blue-collar, private business owner who just needs a big gun and a backpack full of scrap metal to get by in the dangerous, wild west world of the Outlands. Before opening her popular modding shop on Gaea, Ramya Parekh (Rampart for short) made a name for herself in the underground gauntlet circuit. Parekh climbed to the top showcasing pure skill using her custom-modded gear. She began taking jobs from smugglers, Syndicate members, and everyone in between. Some say it ain’t great unless it’s got “Rampart” written on it.\nParekh never shied away from letting people know how great she was, or better yet, how bad they were. Maybe that’s what led a group of assailants to ambush her at her shop one night. Her business burned down and she was left with nothing -- except an Apex Card. For Parekh, the Apex card is more than just an invitation to compete - it's a sign that she may have lost her shop, but she didn't lose what built it. Like her motto says, she's the kind of person who can always \"turn crap into gold.”\n\nFor more information on Rampart's story, see Rampart (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Modded Loader",
+      "description": "Increased magazine/heat capacity and faster reloads/recharge when using LMGs and the Minigun.  Amped Cover permanently gains health with each Evo level.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Amped Cover",
+      "description": "Build a crouch-cover wall, which deploys a full-cover amped wall that blocks incoming shots and amps outgoing shots. Damage through or to Amped Cover charges the wall. Passing over the wall converts charges to a speed boost.  (Max: 5)",
+      "cooldown": "20 seconds"
+    },
+    "ultimate": {
+      "name": "Mobile Minigun \"Sheila\"",
+      "description": "Wield a mobile minigun with a single high capacity magazine. Place it down for anyone to use as a stationary and reloadable turret (Max: [1])",
+      "cooldown": "2 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "January 09, 2024 Patch",
+      "details": [
+        "Amped Walls are no longer destroyed by friendly Crypto  Drone EMP or Mad Maggie’s  Wrecking Ball."
+      ]
+    },
+    {
+      "patch": "September 19, 2023 Patch",
+      "details": [
+        "Amped Cover\nPlacement time reduced from 3s to 2s.\nRampart now remains in placement mode after deploying a wall."
+      ]
+    },
+    {
+      "patch": "August 09, 2022 Patch",
+      "details": [
+        "Now ignores friendly collision on Amped Cover placement (i.e. placing walls around teammates will feel more smooth)."
+      ]
+    },
+    {
+      "patch": "May 10, 2022 Patch",
+      "details": [
+        "Mobile Minigun \"Sheila\":\nReduced spin-up time from 1.75 to 1.25.",
+        "Amped Cover:\nIncreased health while deploying from 45 to 120.\nReduced deploy time from 4.25 to 3.6.\nTo be more specific, the building animation (as noted in the November 04, 2020 Patch) is still 3 seconds, but the upper arm shield extension delay was reduced from 0.25 seconds to 0.10 seconds, the front armor deploy duration was reduced from 0.5 seconds to 0.3 seconds, and the placement delay was reduced from 0.5 seconds to 0.3 seconds."
+      ]
+    },
+    {
+      "patch": "October 20, 2021 Patch",
+      "details": [
+        "Mobile Minigun \"Sheila\":\nFixed some melee and spin-up exploits related to the mobile version."
+      ]
+    },
+    {
+      "patch": "September 14, 2021 Patch",
+      "details": [
+        "Ultimate ability:\nChanged name from  Emplaced Minigun \"Sheila\" to  Mobile Minigun \"Sheila\".\nNow able to run around with Sheila out, and shoot while walking.\nThe spin-up is longer, and she only gets 1 magazine in this mode.\nSheila can now be put away and pulled back out until you run out of ammo (or hit the cooldown time).\nAt any point, the turret can still be placed down for your teammates to use. Once placed, it has infinite reloads and acts just like the previous version, but cannot be picked back up."
+      ]
+    },
+    {
+      "patch": "July 21, 2021 Patch",
+      "details": [
+        "Restored the Frag Out  Banner Frame."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "Amped Cover: Explosives damage Amped Cover normally, instead of inflicting 200 damage.",
+        "Emplaced Minigun \"Sheila\":\nExplosives damage Sheila normally, instead of inflicting 175 damage.\nCan no longer be used to get under the world when placed too close to the Phase Runner in Olympus."
+      ]
+    },
+    {
+      "patch": "February 02, 2021 Patch",
+      "details": [
+        "Emplaced Minigun \"Sheila\":\nIncreased angle from 120° to 180°.\nCan no longer be placed on  Launch Pads in Octane's Gauntlet.",
+        "Amped Cover: Increased HP while building from 1 to 45 (sniper rounds still pierce through).",
+        "Modded Loader: Fixed an issue with it persisting even after changing characters in the Firing Range (documented, but not actually fixed)."
+      ]
+    },
+    {
+      "patch": "January 14, 2021 Patch",
+      "details": [
+        "Fixed an issue with the Gold Standard skin having discolored teeth."
+      ]
+    },
+    {
+      "patch": "January 05, 2021 Patch",
+      "details": [
+        "Amped Cover: Decreased cooldown from 30 seconds to 20 seconds.",
+        "Emplaced Minigun \"Sheila\":\nFixed an issue that allowed Rampart to place Sheila while in the Phase Runner.\nFix an issue where UI elements stayed on screen after using Sheila."
+      ]
+    },
+    {
+      "patch": "December 09, 2020 Patch",
+      "details": [
+        "Amped Cover: Fixed an issue with the walls at the feet of the players on the train killing them."
+      ]
+    },
+    {
+      "patch": "December 01, 2020 Patch",
+      "details": [
+        "Emplaced Minigun \"Sheila\": Fixed an issue with the turret on a Trident causing crashes. This ability is now re-enabled for use on the vehicle."
+      ]
+    },
+    {
+      "patch": "November 18, 2020 Patch",
+      "details": [
+        "Emplaced Minigun \"Sheila\":\nFixed an issue with being able to put the turret on Crypto’s  Surveillance Drone.\nTemporarily disabled the ability to put the turret on the Trident to fix a bug causing crashes."
+      ]
+    },
+    {
+      "patch": "November 04, 2020 Patch",
+      "details": [
+        "Amped Cover:\nBuild time decreased from 4 seconds to 3 seconds.\nFixed an issue with Rampart not being able to place a wall while jumping.",
+        "Emplaced Minigun \"Sheila\":\nSpin-up time decreased from 2 seconds to 1.25 seconds.\nFixed an issue with Sheila teleporting when placed on a hatch in World's Edge Staging."
+      ]
+    },
+    {
+      "patch": "October 06, 2020 Patch",
+      "details": [
+        "Emplaced Minigun \"Sheila\":\nIncreased the rate at which the bullet spread tightens.\nFixed an issue with being able to place Sheila on loot bins.\nFixed an issue with doors closing when dismounting a placed Sheila in a doorway.",
+        "Amped Cover\nFixed Amped Cover from floating in the air when placed on a supply ship.\nFixed an issue with the Longbow DMR, Triple Take, Mastiff Shotgun, and Sentinel not always receiving the Amped Cover buff.\nFixed an issue with Amped Cover being able to be placed at bad angles around the map.\nFixed an issue with the Amped Cover not being destroyed by the initial blast of Charge Rifle.\nFixed an issue with bullets getting amped before they cross the amped wall from certain angles."
+      ]
+    },
+    {
+      "patch": "September 03, 2020 Patch",
+      "details": [
+        "Amped Cover: Fixed an issue with the amped cover walls requiring more hits from heirlooms than from normal melee to be destroyed.",
+        "Emplaced Minigun \"Sheila\":\nFixed a server crash when Sheila is destroyed while someone is using it.\nFixed an issue with allowing a player to shoot through Gibraltar's  Dome of Protection while using Sheila.\nFixed an issue with Crypto's  Surveillance Drone not detecting players on Sheila.",
+        "Fixed an issue with the No Mercy finisher spamming \"Boom\" to the entire server."
+      ]
+    },
+    {
+      "patch": "August 20, 2020 Patch",
+      "details": [
+        "Amped Cover:\nFixed client error with it in softened gore locales.\nFixed a server error causing immediate disconnects when Rampart puts down a wall.",
+        "Emplaced Minigun \"Sheila\": Fixed an error caused in some instances where a player is on the turret when it is destroyed."
+      ]
+    },
+    {
+      "patch": "August 18, 2020 Patch",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
+}

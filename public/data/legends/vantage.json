@@ -1,0 +1,79 @@
+{
+  "name": "Vantage",
+  "lore": {
+    "real_name": "Xiomara Contreras[1]",
+    "age": "19",
+    "home_world": "Págos",
+    "gender": "Female",
+    "bio": "Xiomara “Mara” Contreras was born and raised alone on the wild ice planet Págos by her survivalist mother, Xenia. Mara proved gifted with a sniper rifle from the moment she was big enough to look through the scope and reach the trigger at the same time. The tight-lipped Xenia could only get her chatty daughter to stop asking questions by giving her a scavenged copy of Encyclopedia Outlandica, which Mara memorized front to back.\nWhen Mara was 18, she discovered the wreck of the G.D.S. Vantage. Inside, she found evidence of a shocking truth: years ago, her mother was brought to Págos aboard a prison transport ship. Disturbed by the intrusion, the ship collapsed into a crevasse, trapping a wounded Mara. By the time Xenia got to her daughter, the injuries were too severe for her to treat. To save her daughter’s life, Xenia set off the prison ship’s SOS beacon, but was imprisoned once more in return.\nOnce Mara had healed, she visited her mother in jail, promising to find a way to get her out. At a loss for what to do, unable to return to her planet, and unable to fit into society, Mara’s eye turned to the Apex Games. In it, she saw a situation she understood--survival--and a platform to draw public attention to Xenia’s case. So Mara took on the name Vantage and joined the Games to rally support for her mother - but how will a kid from an empty, frozen tundra fare under the heat of the spotlight?\n\nFor more information on Vantage's story, see Vantage (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Spotter's Lens",
+      "description": "Aim down sights to scout with your eyepiece to see enemy healthbars and team shield levels. Ping to track multiple far away targets. Mid- to long-range scopes show bullet drop indicator to see where your shots will land.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Echo Relocation",
+      "description": "Position your winged companion Echo and then Launch toward him. Must be looking towards Echo to launch. Gain a Double Jump when you reach Echo, or crouch to cancel the jump early.",
+      "cooldown": "17 seconds"
+    },
+    "ultimate": {
+      "name": "Sniper's Mark",
+      "description": "Use your custom sniper rifle to mark enemy targets which applies a damage bonus for you and your team. Shooting will enable a targeting laser for a short duration when aiming down sights.",
+      "cooldown": "4 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "May 5, 2026 Patch",
+      "details": [
+        "Spotter's Lens\nTracking a team with Spotters Lens will generate 70% of an ultimate bullet\n10 second cooldown per team"
+      ]
+    },
+    {
+      "patch": "July 17, 2025 Patch",
+      "details": [
+        "Sniper's Mark laser duration reduced from 15s to 10s.",
+        "Increased Sniper Cover upgrade's gunshield HP from 40 to 75."
+      ]
+    },
+    {
+      "patch": "June 24, 2025 Patch",
+      "details": [
+        "Shrank Vantage’s upper body hitbox to better match her character model",
+        "Spotter's Lens\nCan now ping up to 3 enemies at a time\nCan see the health bars of targeted enemy\nPinging an enemy will reveal their position when further than 50m away (was 100m)",
+        "Echo Relocation\nEcho will auto-recall after you jump\nFaster jump activation time\nIncreased base and max distance Echo can fly by 10m\nIntegrated Bat Bounce into base kit\nReduced time to redeploy guns after jump to 0.2s (was 0.5s)\nWidened the FOV that Echo needs to be in to jump to",
+        "Sniper's Mark\nIntegrated Ultimate Reload upgrade into base kit\nUltimate accelerators are used 50% faster, and provide 2 extra bullets\nLaser is now hidden until Vantage shoots\nLaser lasts for 15s, timer refreshes with each shot\nLaser is now more representative of aim",
+        "Upgrades: Level 2\nNEW Controlling my Prey: gain access to Ring Consoles and zone overcharge\nNEW Improved Mark: marked enemy icon is visible through walls, briefly highlights enemies, and reveals their health bar to your squad upon mark",
+        "Upgrades: Level 3\nNEW Tactical Cooldown: reduce Tac's cooldown by 5s\nNEW Sniper Cover: adds Gun Shield to Sniper’s Mark"
+      ]
+    },
+    {
+      "patch": "January 07, 2025 Patch",
+      "details": [
+        "Sniper's Mark: reloading with an Ult Accelerant uses new animations and keeps the weapon active"
+      ]
+    },
+    {
+      "patch": "August 06, 2024 Patch",
+      "details": [
+        "Echo Relocation: no longer requires LOS to Echo to launch\nCan launch when LOS is blocked\nCan now cancel the tac mid charge\nTac reticle will turn red when echo is behind you and you are launching\nWill slide-around boxes and geometry as best it can to reach Echo",
+        "Sniper's Mark\n2nd Shot Multiplier is now 2.5x (was 2x)\nCan hit \"Reload\" when in ult to use an Ult Accel",
+        "Spotter's Lens\nNEW Ranged Tracking\nWaypoint on PING within Passive range will track enemy for 10s\nWill not show within 100m (for each ally individually)\nRecon Info\nAdded to all optics\nExpanded passive scanning screen area to be more consistent"
+      ]
+    },
+    {
+      "patch": "October 31, 2023 Patch",
+      "details": [
+        "Sniper's Mark bullet count increased to 6 (was 5)."
+      ]
+    },
+    {
+      "patch": "August 09, 2022 Patch",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "teamGen": "Liaison & Déploie.",
+    "legends": "Archives Légendes",
+    "packCalculator": "Heirloom Tracker",
+    "battlePass": "Battle Pass",
+    "probabilities": "Analyse Prédic.",
+    "simulation": "Simulation",
+    "stats": "Data Logs",
+    "sort": "Tri Tactique"
+  },
+  "legends": {
+    "title": "Archives Légendes",
+    "groupedByClass": "Groupé par Classe",
+    "searchPlaceholder": "RECHERCHER UNE LÉGENDE...",
+    "unknownIdentity": "IDENTITÉ INCONNUE",
+    "age": "ÂGE:",
+    "origin": "Origine",
+    "secretClassification": "Classification Secrète",
+    "bio": "Biographie",
+    "tacticalAbilities": "Capacités Tactiques",
+    "passive": "Passif",
+    "tactical": "Tactique",
+    "ultimate": "Ultime",
+    "unknown": "Inconnu",
+    "errorExtraction": "ERREUR LORS DE L'EXTRACTION DES DONNÉES.",
+    "extracting": "EXTRACTION DES DONNÉES...",
+    "cooldown": "Recharge",
+    "patchHistory": "Historique des Patchs",
+    "patchNotes": "Détails"
+  },
+  "battlePass": {
+    "title": "Consultation Battle Pass",
+    "subtitle": "Archive des récompenses de saisons",
+    "selectSeason": "Sélectionner une Saison",
+    "reactiveSkin": "Skin Réactif",
+    "level": "Niveau",
+    "premium": "Premium",
+    "free": "Gratuit",
+    "noData": "Données introuvables pour cette saison.",
+    "unknown": "Inconnu"
+  },
+  "app": {
+    "connecting": "ÉTABLISSEMENT DE LA CONNEXION...",
+    "footer": "Ce site est un projet communautaire non officiel et n'est ni affilié, ni sponsorisé, ni approuvé par Electronic Arts Inc. ou Respawn Entertainment.\nApex Legends et tous les éléments liés sont des marques déposées de leurs propriétaires respectifs."
+  },
+  "feedback": {
+    "title": "Nous contacter",
+    "type": "Type de requête",
+    "bug": "Signaler un bug",
+    "improvement": "Proposer une amélioration",
+    "opinion": "Donner un avis",
+    "fanart": "Soumettre un Fanart",
+    "message": "Votre message / Lien du fanart",
+    "contact": "Email / Discord (Optionnel)",
+    "send": "Envoyer",
+    "cancel": "Annuler",
+    "success": "Message envoyé ! Merci pour votre contribution.",
+    "reviewTutorial": "Revoir le Tutoriel"
+  },
+  "tutorial": {
+    "nextBtn": "Suivant",
+    "prevBtn": "Précédent",
+    "doneBtn": "Terminer",
+    "step1_title": "Bienvenue !",
+    "step1_desc": "Découvrez Legends Composer, votre terminal de données ultime pour l'univers d'Apex Legends. Laissez-nous vous faire visiter.",
+    "step_team_format_title": "Taille de l'escouade",
+    "step_team_format_desc": "Basculez entre Duo ou Trio pour que l'algorithme génère la composition parfaite selon ce mode.",
+    "step_team_profile_title": "Profil Synergique",
+    "step_team_profile_desc": "Voici le profil de la team (Agressif, Défensif, etc.) et son efficacité synergique calculée.",
+    "step_team_save_title": "Apprentissage Continu",
+    "step_team_save_desc": "C'est crucial : après votre partie, entrez votre placement (Top 1 à 20). L'algorithme affinera ses futures propositions selon vos propres performances !",
+    "step_pack_level_title": "Niveau & Prestige",
+    "step_pack_level_desc": "Renseignez votre niveau de compte. Il y a 4 paliers (Prestige) allant jusqu'au niveau 500, ce qui offre énormément de packs gratuits.",
+    "step_pack_seasons_title": "Pass de Combat",
+    "step_pack_seasons_desc": "Indiquez votre niveau pour chaque saison et cochez la case si vous aviez acheté le Pass Premium. Astuce : vous ne savez plus si vous l'avez acheté ? Vérifiez si vous avez le skin d'arme indiqué (en gris) dans votre casier !",
+    "step_prob_title": "Analyse Prédictive (Exemple)",
+    "step_prob_desc": "Nous avons sélectionné Pathfinder pour vous ! Observez les résultats : l'IA calcule avec quelles légendes il a statistiquement le plus de chances d'être joué de manière optimale.",
+    "step_feedback_title": "Besoin d'aide ou un avis ?",
+    "step_feedback_desc": "Cliquez ici pour signaler un bug, proposer une idée d'amélioration, soumettre un Fanart, ou revoir ce tutoriel à tout moment !"
+  }
+}

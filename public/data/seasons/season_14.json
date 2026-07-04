@@ -1,0 +1,762 @@
+{
+  "season": "14",
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Lucky Draw",
+        "Sandswept",
+        "Survival Sharp",
+        "Anya's Armor",
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Loading Screen Psych Evaluation of T-0323"
+      ]
+    },
+    "level_2": {
+      "premium": [
+        "Wing It | Vantage Skydive Emote"
+      ],
+      "free": []
+    },
+    "level_3": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Music Pack Hunted"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Big Game"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "R-99 SMG Upstanding Animal"
+      ],
+      "free": [
+        "Season 14 Wins as Pathfinder | Pathfinder Tracker"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "I Could Eat a Leviathan | Valkyrie Kill Quip"
+      ],
+      "free": [
+        "Season 14 Wins as Valkyrie | Valkyrie Tracker"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Leader of the Pack | Loba Holo"
+      ],
+      "free": [
+        "Equilibrium"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Jurassic Nessie | Wattson Frame"
+      ],
+      "free": [
+        "Loading Screen Happy Birthday, Mara"
+      ]
+    },
+    "level_12": {
+      "premium": [
+        "Footwork | Lifeline Emote"
+      ],
+      "free": [
+        "Season 14 Wins as Lifeline | Lifeline Tracker"
+      ]
+    },
+    "level_13": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Kills as Wraith | Wraith Tracker"
+      ],
+      "free": [
+        "On My Mark"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Wins as Wraith | Wraith Tracker"
+      ],
+      "free": [
+        "Season 14 Wins as Bangalore | Bangalore Tracker"
+      ]
+    },
+    "level_17": {
+      "premium": [
+        "Time to Strike | Wraith Holo"
+      ],
+      "free": [
+        "Season 14 Wins as Wattson | Wattson Tracker"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Base Camp | Wraith Frame"
+      ],
+      "free": [
+        "Season 14 Wins as Crypto | Crypto Tracker"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Damage Done as Wraith | Wraith Tracker"
+      ],
+      "free": [
+        "Season 14 Wins as Revenant | Revenant Tracker"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Jade Tiger"
+      ]
+    },
+    "level_21": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "You Always End Up in the Dirt | Wraith Kill Quip"
+      ],
+      "free": [
+        "Season 14 Wins as Wraith"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Jade Empire"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Veteran Voyager | Wraith Skin"
+      ],
+      "free": [
+        "Circuitry"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "R-99 SMG Sunset Scavenger"
+      ],
+      "free": [
+        "Season 14 Wins as Octane | Octane Tracker"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Season 14 Wins as Gibraltar | Gibraltar Tracker"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Cinder Scales"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "I Knew This'd Happen | Vantage Kill Quip"
+      ],
+      "free": [
+        "Season 14 Wins as Bloodhound | Bloodhound Tracker"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Final Rest | Vantage Frame"
+      ],
+      "free": [
+        "Bush Whacker"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Task Tracker"
+      ],
+      "free": [
+        "Season 14 Wins as Vantage | Vantage Tracker"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "Covering Fire"
+      ],
+      "free": [
+        "Season 14 Wins as Loba | Loba Tracker"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Sharpen Your Senses | Vantage Holo"
+      ],
+      "free": [
+        "Season 14 Wins as Rampart | Rampart Tracker"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Prints"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Goin' Wild | Mad Maggie Holo"
+      ],
+      "free": [
+        "Season 14 Wins as Fuse | Fuse Tracker"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Savannah's Promise"
+      ],
+      "free": [
+        "Season 14 Wins as Seer | Seer Tracker"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "I Move a Lot Quicker Than I Look | Newcastle Kill Quip"
+      ],
+      "free": [
+        "Explorer's Touch"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "Death Protection | Revenant Frame"
+      ],
+      "free": [
+        "Season 14 Wins as Ash | Ash Tracker"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Floating Point | Ash Emote"
+      ],
+      "free": [
+        "Season 14 Wins as Mad Maggie | Mad Maggie Tracker"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Loading Screen Reenactment Revolution"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Gold Panther"
+      ],
+      "free": [
+        "Season 14 Wins as Horizon | Horizon Tracker"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Kills as Caustic | Caustic Tracker"
+      ],
+      "free": [
+        "Season 14 Wins as Newcastle | Newcastle Tracker"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Wins as Caustic | Caustic Tracker"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Field Research | Caustic Skin"
+      ],
+      "free": [
+        "Season 14 Wins as Caustic | Caustic Tracker"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Damage Done as Caustic | Caustic Tracker"
+      ],
+      "free": [
+        "Music Pack Hunted"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Cut Them Down | Caustic Holo"
+      ],
+      "free": [
+        "Season 14 Wins as Mirage | Mirage Tracker"
+      ]
+    },
+    "level_53": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Chaos Theory | Caustic Frame"
+      ],
+      "free": [
+        "R-99 SMG Shortsighted"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "R-99 SMG Desert Rattler"
+      ],
+      "free": [
+        "Season 14 Kills as Caustic | Caustic Tracker"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "Some Animals Crawl Off to Die Alone | Caustic Kill Quip"
+      ],
+      "free": [
+        "Season 14 Kills as Rampart | Rampart Tracker"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Loading Screen Intake Eval for X. Contreras"
+      ],
+      "free": [
+        "Electric Camo | Wattson Skin"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Season 14 Kills as Vantage | Vantage Tracker"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_61": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_63": {
+      "premium": [
+        "Wild Ride | Octane Holo"
+      ],
+      "free": [
+        "Shed Weakness"
+      ]
+    },
+    "level_64": {
+      "premium": [
+        "Scanning for Lifeforms | Crypto Frame"
+      ],
+      "free": [
+        "Season 14 Kills as Octane | Octane Tracker"
+      ]
+    },
+    "level_65": {
+      "premium": [
+        "Snack & Grab | Vantage Skydive Emote"
+      ],
+      "free": [
+        "Season 14 Kills as Crypto | Crypto Tracker"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Maybe You Were Created to Lose | Pathfinder Kill Quip"
+      ],
+      "free": [
+        "Season 14 Kills as Wattson | Wattson Tracker"
+      ]
+    },
+    "level_67": {
+      "premium": [
+        "Zig Zag"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_68": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Season 14 Kills as Lifeline | Lifeline Tracker"
+      ]
+    },
+    "level_69": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_71": {
+      "premium": [
+        "R-99 SMG Buckle Up"
+      ],
+      "free": [
+        "Season 14 Kills as Wraith | Wraith Tracker"
+      ]
+    },
+    "level_72": {
+      "premium": [
+        "On The Hunt | Bangalore Frame"
+      ],
+      "free": [
+        "Season 14 Kills as Revenant | Revenant Tracker"
+      ]
+    },
+    "level_73": {
+      "premium": [
+        "Trapper's Trophy"
+      ],
+      "free": [
+        "R-99 SMG Knockdown Rounds"
+      ]
+    },
+    "level_74": {
+      "premium": [
+        "Looks Like You Threw Away Your Shot | Bangalore Kill Quip"
+      ],
+      "free": [
+        "Season 14 Kills as Bangalore | Bangalore Tracker"
+      ]
+    },
+    "level_75": {
+      "premium": [
+        "On The Lookout | Bangalore Holo"
+      ],
+      "free": [
+        "Season 14 Kills as Bloodhound | Bloodhound Tracker"
+      ]
+    },
+    "level_76": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_78": {
+      "premium": [
+        "Loading Screen A Canyon Built for Kings"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_79": {
+      "premium": [
+        "Cosmic Canyon | Horizon Frame"
+      ],
+      "free": []
+    },
+    "level_80": {
+      "premium": [
+        "Stay Hydrated"
+      ],
+      "free": [
+        "Season 14 Kills as Mirage | Mirage Tracker"
+      ]
+    },
+    "level_81": {
+      "premium": [
+        "They Look Like Dropped Mince 'n' Tatties | Horizon Kill Quip"
+      ],
+      "free": [
+        "Season 14 Kills as Horizon | Horizon Tracker"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "R-99 SMG Serpentine"
+      ],
+      "free": [
+        "Season 14 Kills as Loba | Loba Tracker"
+      ]
+    },
+    "level_83": {
+      "premium": [
+        "Striped Striker"
+      ],
+      "free": [
+        "Season 14 Kills as Ash | Ash Tracker"
+      ]
+    },
+    "level_84": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_85": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_86": {
+      "premium": [
+        "Found You | Ash Holo"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_87": {
+      "premium": [
+        "Find The Crack Of Light And Do Better | Gibraltar Kill Quip"
+      ],
+      "free": []
+    },
+    "level_88": {
+      "premium": [
+        "Spotted"
+      ],
+      "free": [
+        "Season 14 Kills as Pathfinder | Pathfinder Tracker"
+      ]
+    },
+    "level_89": {
+      "premium": [
+        "Loading Screen Only a Mum"
+      ],
+      "free": [
+        "Season 14 Kills as Seer | Seer Tracker"
+      ]
+    },
+    "level_90": {
+      "premium": [
+        "Spinal Stretch | Revenant Skydive Emote"
+      ],
+      "free": [
+        "Season 14 Kills as Newcastle | Newcastle Tracker"
+      ]
+    },
+    "level_91": {
+      "premium": [
+        "Wayfinder"
+      ],
+      "free": [
+        "Season 14 Kills as Valkyrie | Valkyrie Tracker"
+      ]
+    },
+    "level_92": {
+      "premium": [
+        "Nature's Star | Valkyrie Frame"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_94": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_95": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Season 14 Kills as Gibraltar | Gibraltar Tracker"
+      ]
+    },
+    "level_96": {
+      "premium": [
+        "Elephant's Touch"
+      ],
+      "free": [
+        "Season 14 Kills as Mad Maggie | Mad Maggie Tracker"
+      ]
+    },
+    "level_97": {
+      "premium": [
+        "Pest Control | Rampart Frame"
+      ],
+      "free": [
+        "Season 14 Kills as Fuse | Fuse Tracker"
+      ]
+    },
+    "level_98": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Loading Screen An Adequate Reflection"
+      ]
+    },
+    "level_99": {
+      "premium": [
+        "Nice Kitty | Mirage Holo"
+      ],
+      "free": []
+    },
+    "level_100": {
+      "premium": [
+        "M600 Spitfire Fortune Hunter"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "M600 Spitfire Trophy Taker"
+      ],
+      "free": [
+        "Hunted Level Season 14 | Badge"
+      ]
+    }
+  }
+}

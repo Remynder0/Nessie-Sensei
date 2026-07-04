@@ -1,0 +1,62 @@
+{
+  "name": "Axle",
+  "lore": {
+    "real_name": "Isa Wegner",
+    "age": "28",
+    "home_world": "Salvo",
+    "gender": "Female",
+    "bio": "Isa Wegner grew up in the midst of Salvo’s infamous underground battle races. Her parents were drivers in Redline, a violent motorcycle battle royale.\nWhen her father died in Redline and left her mother a shell of herself, Axle coped by diving headfirst into Redline, despite her mother’s pleas. Every injury she sustained pushed her to rebuild herself stronger, every scar and mechanical limb a testament to her willingness to push further than anyone else.\nHer only competition was a fellow Redline racer called Weaver, a rivalry that caught the eye of Kuben Blisk. He lit the fuse of their rivalry by announcing that the winner of Redline that season would claim an Apex Card–a ticket to the most elite competition in the known universe.\nIt all came down to the last lap of the final race. In a final desperate gamble, Axle hauled her bike up onto the wall of the track to take the lead from Weaver. But Weaver didn’t back down.\nAxle woke up in a hospital, expecting to see Weaver at her bedside. Instead, it was Blisk. “She was a warrior. You are a Legend,” Blisk said, as he flipped her the Apex Card.\nIn the Games, Axle opens the throttle until she runs out of road–or luck.\n\nFor more information on Axle's story, see Axle (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Drift",
+      "description": "Increased control while sliding.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Nitro Gate",
+      "description": "Deploy a speed gate that sends users into a boosted slide.",
+      "cooldown": "25 seconds"
+    },
+    "ultimate": {
+      "name": "Kickstart",
+      "description": "Deploy an enemy-seeking drone that displaces targets on impact.",
+      "cooldown": "1.5 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "Saison 29 (Overclocked) - EA Officiel",
+      "details": [
+        "[Tactical]",
+        "Reduced max in-world count from 3 to 2.",
+        "Reduced hp from 150 to 100.",
+        "[Passive/Tactical]",
+        "Knocked players can no longer slide across zip codes as Axle or while under the effect of a Nitro Gate. They can still boost through a Nitro Gate, but once the effect times out, they will slow down accordingly.",
+        "[Upgrades]",
+        "&quot;Super Slider&quot; Upgrade no longer grants a second Tactical charge. Instead, it now grants Nitro Gate a 5 second cooldown reduction and +1 max in-world count.",
+        "[Ultimate]",
+        "Kickstart now displaces victims on a parabolic arc based on their velocity at the moment of impact, instead of straight up.",
+        "Reduced enemy highlight duration slightly to better match stun duration."
+      ]
+    },
+    {
+      "patch": "May 29, 2026 Patch",
+      "details": [
+        "Nitro Gate\nReduced max in-world count from 3 to 2\nReduced hp from 150 to 100"
+      ]
+    },
+    {
+      "patch": "May 28, 2026 Patch",
+      "details": [
+        "Kickstart\nExplosion now clears smoke and gas in its AoE (similar to other explosions)"
+      ]
+    },
+    {
+      "patch": "May 5, 2026 Patch",
+      "details": [
+        "Introduced"
+      ]
+    }
+  ]
+}

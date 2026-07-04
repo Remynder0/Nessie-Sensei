@@ -1,0 +1,141 @@
+{
+  "name": "Bangalore",
+  "lore": {
+    "real_name": "Anita Williams",
+    "age": "40",
+    "home_world": "Gridiron",
+    "gender": "Female",
+    "bio": "Born into a military family where she, her parents, and her four older brothers all served with the IMC, Bangalore has been an exceptional soldier her whole life. Dedicated to the IMC cause, she was top of her class at the IMC Military Academy and the only cadet who could take apart a Peacekeeper, equip it with a Precision Choke hop-up, and put it back together in under twenty seconds – blindfolded.\nWhen the Frontier Militia attacked the IMC on Gridiron, escape was nearly impossible. Using an experimental device to power their jump-drive, the IMS Hestia managed to narrowly escape the Battle at Gridiron only to crash on the planet Gaea. The surviving crew, including Anita and her brother Jackson, built a settlement on the islands of New Antilla. Shortly after, Anita and Jackson left to begin their quest back home– or so she thought.\nA few years later, on another ship nicknamed the IMS Hestia II, Anita and Jackson were attacked by unknown assailants. A bomb on the outer hull blew out a chunk of the ship… but not before Jackson shielded her, sacrificing his own life to save hers. Anita watched helplessly, as Jackson was sucked out into the vacuum of space. After crashing on the Syndicate planet Solace, Anita looked for both work and the brother she refused to believe had died, so they could begin the decades-long trip back home.\nShe started fighting in the Games in the hopes of earning the money and finding a pilot willing to take the epic trip back home to reunite with what remains of her family, but was shocked to find Jackson alive and living a new life. Now that Anita and Jackson are reunited in the Games, she plans to work through her relationship with her estranged brother and support her new chosen family–the Legends.\n\nFor more information on Bangalore's story, see Bangalore (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Double Time",
+      "description": "Taking fire while sprinting makes you move faster for a brief time.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Smoke Launcher",
+      "description": "Fire a high-velocity smoke canister that explodes into a smoke wall on impact.",
+      "cooldown": "30 seconds"
+    },
+    "ultimate": {
+      "name": "Rolling Thunder",
+      "description": "Call in an artillery strike that slowly creeps across the landscape, starting left from the flare's position.",
+      "cooldown": "3.5 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "June 25, 2024 Patch",
+      "details": [
+        "Smoke Launcher: all players within smoke will now have a white highlight visible to other players in smoke within 20m"
+      ]
+    },
+    {
+      "patch": "March 26, 2024 Patch",
+      "details": [
+        "Rolling Thunder: Cooldown increased to 4.5 min (was 4)",
+        "Smoke Launcher\nCooldown increased to 35s (was 33)\nNo longer deals damage\nSmoke duration decreased to 11s (was 18)\nSmoke particles now dissipate faster",
+        "Upgrades: Level 2\nUltimate Cooldown+: removed\nNew - Tactical Cooldown: reduces Tactical cooldown by 5s",
+        "Upgrades: Level 3\nCover Me: Auto-Ping no longer tracks the player who triggered double time\nRefuge: Heal Rate increased to 3.5 HP/s (was 3HP/s)"
+      ]
+    },
+    {
+      "patch": "October 31, 2023 Patch",
+      "details": [
+        "Double Time: reduced duration to 2s (was 3s)",
+        "Smoke Launcher: smoke lifetime reduced to 18s (was 23s)",
+        "Rolling Thunder: stun duration reduced to 6s (was 8s)"
+      ]
+    },
+    {
+      "patch": "August 08, 2023 Patch",
+      "details": [
+        "Rolling Thunder to 240s (+60s)",
+        "Fixed ultimates not triggering if thrown on Ziprail Launcher and Skydive Towers.",
+        "Fixed ultimates not cooldown if they’re killed while holding the ultimate grenade."
+      ]
+    },
+    {
+      "patch": "May 09, 2023 Patch",
+      "details": [
+        "(Undocumented) Bangalore's C.A.R. SMG pickup animation is shifted to Ballistic",
+        "(Undocumented) Bangalore has two G7 Scout inspection animations."
+      ]
+    },
+    {
+      "patch": "May 04, 2021 Patch",
+      "details": [
+        "Smoke Launcher: Thickened the smoke."
+      ]
+    },
+    {
+      "patch": "March 15, 2021 Patch",
+      "details": [
+        "Fixed an issue with her Cold Steel heirloom not making sound effects when performing attacks."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "(Undocumented) Reduced the amount of particles from the smoke, effectively providing less cover from the outside (confirmed to be unintentional)."
+      ]
+    },
+    {
+      "patch": "February 02, 2021 Patch",
+      "details": [
+        "Fixed an issue with the Dressed To Impress skin blocking vision while aiming down sights."
+      ]
+    },
+    {
+      "patch": "January 05, 2021 Patch",
+      "details": [
+        "Fixed an issue with Bangalore’s  Rolling Thunder missile passing through hatch doors when they are closed in World's Edge."
+      ]
+    },
+    {
+      "patch": "November 04, 2020 Patch",
+      "details": [
+        "Rolling Thunder: Reduced the time it takes for explosion from 8 seconds to 6 seconds."
+      ]
+    },
+    {
+      "patch": "August 18, 2020 Patch",
+      "details": [
+        "Rolling Thunder: Decreased cooldown from 4.5 minutes to 3 minutes.",
+        "Smoke Launcher: Fixed an exploit with being able to see through the smoke when looking through a chain-link fence.",
+        "Fixed an issue with the La Catrina and Killing Machine skins obscuring views when ADS with certain optics."
+      ]
+    },
+    {
+      "patch": "March 03, 2020 Patch",
+      "details": [
+        "Fixed bug for cases where Bangalore would appear invisible when equipped with certain skins. The Apex Overdrive and Killer B skins have been re-enabled now for affected players."
+      ]
+    },
+    {
+      "patch": "November 05, 2019 Patch",
+      "details": [
+        "Rolling Thunder: Fixed bug where sometimes the missiles would disappear after landing on the train."
+      ]
+    },
+    {
+      "patch": "October 01, 2019 Patch",
+      "details": [
+        "Rolling Thunder: Increased damage from 20 to 40."
+      ]
+    },
+    {
+      "patch": "August 13, 2019 Patch",
+      "details": [
+        "Fixed a bug where activating a healing item would cancel the Ultimate for Legends that need to prime it."
+      ]
+    },
+    {
+      "patch": "March 19, 2019 Patch",
+      "details": [
+        "Double Time: Reduced move speed bonus from 40% to 30%."
+      ]
+    }
+  ]
+}

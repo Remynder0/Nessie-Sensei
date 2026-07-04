@@ -1,0 +1,178 @@
+{
+  "name": "Mirage",
+  "lore": {
+    "real_name": "Elliott Rodger Witt",
+    "age": "32",
+    "home_world": "Solace",
+    "gender": "Male",
+    "bio": "Mirage is the kind of guy who likes to stand out. The youngest of four brothers, he perfected the art of fooling around to get attention. The one thing he took seriously was Holo-Pilot technology: introduced to the illusion-creating tech by his engineer mother, he poured over the mechanisms and learned all he could about them. Even when his brothers went MIA during the Outlands’ Civil War, Mirage and his mother continued to develop holo devices, and the work brought them closer.\nWhile working as a bartender to make ends meet, Mirage heard amazing stories from his patrons about the Apex Games and the wealth and glory that came with victory. As good as both of those sounded, he knew he couldn’t risk leaving his mother childless – until she gave him a set of customized holo devices and told him to follow his dream. Mirage is now the life of the Apex Games, outwitting opponents and charming audiences across the Outlands, in front of cameras for the world - and his mother - to see.\n\nFor more information on Mirage's story, see Mirage (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Now You See Me...",
+      "description": "Automatically cloak when using  Respawn Beacons and reviving teammates. Spawn a decoy and cloak when downed.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Psyche Out",
+      "description": "Send out a holographic decoy to confuse the enemy. Press ⧄ to control the decoy.",
+      "cooldown": "15 seconds"
+    },
+    "ultimate": {
+      "name": "Life of the Party",
+      "description": "Mirage deploys a team of controllable decoys to distract enemies.",
+      "cooldown": "1 minute"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "April 08, 2025 Patch",
+      "details": [
+        "Increases decoys spawned from  Life of the Party from 5 to 6."
+      ]
+    },
+    {
+      "patch": "February 19, 2025 Patch",
+      "details": [
+        "Decoy health bars no longer appear with  Assault Class Scan."
+      ]
+    },
+    {
+      "patch": "January 07, 2025 Patch",
+      "details": [
+        "Now You See Me...:\nNow also cloaks when using a healing consumable item\nCloak is removed by damage, ability use, or dropping the heal action\nCloak has a 5 sec cooldown that begins after exiting the cloaked state\nEntering cloak now only takes 1s (was 1.5s)\nAfter a revive, Mirage now has increased speed while cloaked",
+        "Upgrades: Level 2\nBattpack: removed\nMore Me: removed\nNEW Boozle-Eye: Bamboozles now also scan the target who shot the clone\nNEW Renaissance Man: gain access to all other Classes’ world interactions: Assault Bins, Care Package scans, Survey Beacons, and Ring Consoles\nMirage and his team will ONLY gain EVO for these interactions if the squad also has a member of that class"
+      ]
+    },
+    {
+      "patch": "January 09, 2024 Patch",
+      "details": [
+        "Psyche Out\nImproved issues against terrain that would cause destruction/floating\nAny destroyed by terrain will now be refunded\nImproved to more correctly copy the ADS state of the player\nNo longer mimic reviving or execution animations"
+      ]
+    },
+    {
+      "patch": "September 19, 2023 Patch",
+      "details": [
+        "(Undocumented) Removed blur effect when looking at a cloaked Mirage through optics."
+      ]
+    },
+    {
+      "patch": "May 09, 2023 Patch",
+      "details": [
+        "Class changed from  Skirmisher to  Support."
+      ]
+    },
+    {
+      "patch": "February 14, 2023 Patch",
+      "details": [
+        "Class changed from  Offensive to  Skirmisher.",
+        "Now You See Me...\nMirage and his ally now remain cloaked after a revive for 3s\nWeapons remain stowed while cloaked\nDrawing your weapon will remove the cloaking effect early",
+        "Psyche Out\nBamboozles are now only triggered by bullet fire and melee\nEnemies who are bamboozled now receive notification on their screen\nBamboozle icon marker now tracks the Bamboozled player's movement\nBamboozle icon marker duration increased from 2.5s to 3.5s"
+      ]
+    },
+    {
+      "patch": "August 09, 2022 Patch",
+      "details": [
+        "Mirage Decoys will now be scanned by Valk when skydiving.",
+        "Mirage Decoys will now be picked up by Seer’s Heart Seeker.",
+        "Fixed a bug where Mirage Decoys were picked up by Seer’s Exhibit as AI and not players."
+      ]
+    },
+    {
+      "patch": "June 21, 2022 Patch",
+      "details": [
+        "Can now use decoys from Valk  Skydive Re-Deploy."
+      ]
+    },
+    {
+      "patch": "May 04, 2021 Patch",
+      "details": [
+        "Decoys no longer die after a tick of  Thermite Grenade damage."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "Now You See Me...: Cloaked respawn is now disabled if silenced by Revenant."
+      ]
+    },
+    {
+      "patch": "February 02, 2021 Patch",
+      "details": [
+        "Decoys now make footstep sounds.",
+        "Fixed an issue with the Boogie Down skin blocking vision while aiming down sights and releasing a decoy at the same time."
+      ]
+    },
+    {
+      "patch": "November 04, 2020 Patch",
+      "details": [
+        "Psyche Out/ Life of the Party: Decoys now have 45 HP."
+      ]
+    },
+    {
+      "patch": "October 06, 2020 Patch",
+      "details": [
+        "Fixed an issue that prevented Mirage decoys from being pinged.",
+        "Fixed an issue that did not allow Crypto’s drone to highlight decoys."
+      ]
+    },
+    {
+      "patch": "June 23, 2020 Patch",
+      "details": [
+        "Psyche Out:\nYou can now hold the tactical button and release it to auto-control decoys.\nDecoys will now say lines when shot.\nFixed an issue where Mirage can still control his decoy after being silenced by Revenant.",
+        "Now You See Me... and  Life of the Party: When cloaked, Mirage's Holo Emitters will be visible to players that are less than 5 meters away.",
+        "Now You See Me...: Now disabled if silenced by Revenant.",
+        "Skydive: Will now create decoys for the entire squad when skydiving when still diving with your squad.",
+        "Fixed an issue with Prowlers not killing decoys in one swipe.",
+        "Fixed an issue with decoys not being able to ping correctly under certain conditions.",
+        "Fixed an issue with decoys not being able to crouch walk through certain areas.",
+        "Fixed an issue with decoys playing the fall animation when the player is falling."
+      ]
+    },
+    {
+      "patch": "May 12, 2020 Patch",
+      "details": [
+        "Mirage’s “You got Bamboozled” line will now trigger when you bamboozle an enemy, instead of when you release a decoy.",
+        "Psyche Out:\nPressing the character utility action button allows Mirage to gain control of his decoy.\nWhen controlling the decoy, it will mimic Mirage’s every move.\nDecoys now last for 60 seconds. (Increased from 15)\nReleasing another decoy will remove the previous decoy.",
+        "Ultimate:\nLife of the Party now replaces Vanishing Act.\nMirage deploys a team of decoys that mimic his every move, instead of stand still.\nReduced cloak time from 5 seconds to 1 second.\nReduced cooldown from 150 seconds to 60 seconds.",
+        "Passive:\nChanged name from Encore! to Now You See Me…\nIn addition to cloaking when downed, Mirage also cloaks while using a respawn beacon and reviving a teammate (the teammate is also cloaked)."
+      ]
+    },
+    {
+      "patch": "April 08, 2020",
+      "details": [
+        "Psyche Out: Reverted cooldown back to 15 seconds from 25."
+      ]
+    },
+    {
+      "patch": "April 07, 2020 Patch",
+      "details": [
+        "Psyche Out: Increased cooldown from 15 seconds to 25 (proven to be accidental)."
+      ]
+    },
+    {
+      "patch": "October 01, 2019 Patch",
+      "details": [
+        "Encore!: Decoys will now go where directed when deploying them during the drop if Mirage isn’t the Jumpmaster."
+      ]
+    },
+    {
+      "patch": "July 02, 2019 Patch",
+      "details": [
+        "Vanishing Act: Can now cancel out of his ultimate cloak early after a small delay."
+      ]
+    },
+    {
+      "patch": "June 04, 2019 Patch",
+      "details": [
+        "Vanishing Act: Fixed bug where cloaked Mirage was too noticeable."
+      ]
+    },
+    {
+      "patch": "February 19, 2019 Patch",
+      "details": [
+        "Fixed issue with Mirage Ability causing crashes."
+      ]
+    }
+  ]
+}

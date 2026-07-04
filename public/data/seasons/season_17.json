@@ -1,0 +1,770 @@
+{
+  "season": "17",
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Ballistic Technomancer",
+        "Gibraltar Hot Drop",
+        "Lifeline Sundown Surgeon",
+        "Devotion LMG Pulse Eater",
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Transition Boiling Point"
+      ]
+    },
+    "level_2": {
+      "premium": [
+        "Ballistic Skydive Emote Burst Your Bubble"
+      ],
+      "free": []
+    },
+    "level_3": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Music Pack Arsenal"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Mech Ness Monster"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Ballistic Quip Kill Quip : You really thought you belonged"
+      ],
+      "free": [
+        "Ballistic Stat Tracker Season 17 Wins as Ballistic"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Nemesis Burst AR Carbon Shredder"
+      ],
+      "free": [
+        "Ballistic Stat Tracker Season 17 Kills as Ballistic"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Pocket Drone"
+      ],
+      "free": [
+        "M600 Spitfire Orange Slice"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Ballistic Banner Frame But a Scratch"
+      ],
+      "free": [
+        "Transition They Call Us Apex Legends"
+      ]
+    },
+    "level_12": {
+      "premium": [
+        "Ballistic Holospray Rather Ordinary, I'm Afraid"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "G7 Scout Orange Slice"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Loba Stat Tracker Season 17 Wins as Loba"
+      ]
+    },
+    "level_15": {
+      "premium": [
+        "Loba Cosmetic Emote In Hot Water"
+      ],
+      "free": [
+        "Loba Stat Tracker Season 17 Kills as Loba"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Wattson Stat Tracker Kills as Wattson"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Wattson Stat Tracker Wins as Wattson"
+      ],
+      "free": [
+        "P2020 Carbon Shredder"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Wattson Stat Tracker Damage Done as Wattson"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Wattson Quip Kill Quip : Finish what you started"
+      ],
+      "free": [
+        "Rampart Stat Tracker Season 17 Wins as Rampart"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Rampart Stat Tracker Season 17 Kills as Rampart"
+      ]
+    },
+    "level_21": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Flatline Space Circuit"
+      ],
+      "free": [
+        "Wattson Stat Tracker Season 17 Wins as Wattson"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Remote EMP"
+      ],
+      "free": [
+        "Wattson Stat Tracker Season 17 Kills as Wattson"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Wattson System Shock"
+      ],
+      "free": [
+        "Sentinel Carbon Shredder"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "Wattson Banner Frame Grounded Energy"
+      ],
+      "free": []
+    },
+    "level_27": {
+      "premium": [
+        "Wattson Holospray I Found Your Off Switch"
+      ],
+      "free": [
+        "Crypto Stat Tracker Season 17 Wins as Crypto"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Crypto Stat Tracker Season 17 Kills as Crypto"
+      ]
+    },
+    "level_29": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "L-STAR EMG Overclocked Upgrade"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Ash Quip Kill Quip : Blade, bullets, or bare hands"
+      ],
+      "free": [
+        "Revenant Stat Tracker Season 17 Wins as Revenant"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Sticker Merc"
+      ],
+      "free": [
+        "Revenant Stat Tracker Season 17 Kills as Revenant"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Revenant Cosmetic Emote Sharpened Reach"
+      ],
+      "free": [
+        "R-99 SMG Space Circuit"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "Caustic Banner Frame Corroded Watcher"
+      ],
+      "free": []
+    },
+    "level_35": {
+      "premium": [
+        "R-301 Carbine Carbon Shredder"
+      ],
+      "free": [
+        "Octane Stat Tracker Season 17 Wins as Octane"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Octane Stat Tracker Season 17 Kills as Octane"
+      ]
+    },
+    "level_37": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Alternator SMG Overclocked Upgrade"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Gibraltar Quip Kill Quip : Everything ends. It's just your turn"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Peacekeeper Orange Slice"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker Season 17 Wins as Gibraltar"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "Rocket Salvo"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker Season 17 Kills as Gibraltar"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "Gibraltar Banner Frame Dome Defense"
+      ],
+      "free": []
+    },
+    "level_43": {
+      "premium": [
+        "Gibraltar Holospray Bang, Bang, Bruddah"
+      ],
+      "free": [
+        "Catalyst Stat Tracker Season 17 Wins as Catalyst"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Catalyst Stat Tracker Season 17 Kills as Catalyst"
+      ]
+    },
+    "level_45": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Apex Legends Museum Opening In 2735"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Horizon Stat Tracker Kills as Horizon"
+      ],
+      "free": [
+        "HAVOC Rifle Overclocked Upgrade"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Horizon Stat Tracker Wins as Horizon"
+      ],
+      "free": [
+        "Horizon Stat Tracker Season 17 Wins as Horizon"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Horizon Stat Tracker Damage Done as Horizon"
+      ],
+      "free": [
+        "Horizon Stat Tracker Season 17 Kills as Horizon"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Horizon Singularity Specialist"
+      ],
+      "free": [
+        "Music Pack Ballistic"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Horizon Quip Kill Quip : Oh, dinnae fash yaself, pal"
+      ],
+      "free": [
+        "Wraith Stat Tracker Season 17 Wins as Wraith"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Charge Rifle Overclocked Upgrade"
+      ],
+      "free": [
+        "Wraith Stat Tracker Season 17 Kills as Wraith"
+      ]
+    },
+    "level_53": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Kraber .50-Cal Sniper Carbon Shredder"
+      ]
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Energ-Eyes"
+      ],
+      "free": [
+        "Mad Maggie Stat Tracker Season 17 Wins as Mad Maggie"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Horizon Banner Frame Gravity Vortex"
+      ],
+      "free": [
+        "Mad Maggie Stat Tracker Season 17 Kills as Mad Maggie"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "Horizon Holospray My Newtie's Hungry Today"
+      ],
+      "free": [
+        "Mad Maggie Modified Mayhem"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Wingman Battle Blaster"
+      ],
+      "free": [
+        "Newcastle Stat Tracker Season 17 Wins as Newcastle"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Newcastle Stat Tracker Season 17 Kills as Newcastle"
+      ]
+    },
+    "level_61": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_63": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Mastiff Shotgun Safety Protocol"
+      ]
+    },
+    "level_64": {
+      "premium": [
+        "Newcastle Banner Frame Unfortunate Aftermath"
+      ],
+      "free": [
+        "Fuse Stat Tracker Season 17 Wins as Fuse"
+      ]
+    },
+    "level_65": {
+      "premium": [
+        "Fuse Cosmetic Emote Fired Up"
+      ],
+      "free": [
+        "Fuse Stat Tracker Season 17 Kills as Fuse"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Revenant Quip Kill Quip : Just what the world needs"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_67": {
+      "premium": [
+        "Octane Holospray Octrain Wreck"
+      ],
+      "free": [
+        "Mirage Stat Tracker Season 17 Wins as Mirage"
+      ]
+    },
+    "level_68": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Mirage Stat Tracker Season 17 Kills as Mirage"
+      ]
+    },
+    "level_69": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "30-30 Repeater Safety Protocol"
+      ]
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_71": {
+      "premium": [
+        "Lifeline Quip Kill Quip : Ya came lookin' for trouble"
+      ],
+      "free": [
+        "Lifeline Stat Tracker Season 17 Wins as Lifeline"
+      ]
+    },
+    "level_72": {
+      "premium": [
+        "Longbow DMR Safety Protocol"
+      ],
+      "free": [
+        "Lifeline Stat Tracker Season 17 Kills as Lifeline"
+      ]
+    },
+    "level_73": {
+      "premium": [
+        "Test Pilot"
+      ],
+      "free": []
+    },
+    "level_74": {
+      "premium": [
+        "Lifeline Banner Frame Robot Resupply"
+      ],
+      "free": [
+        "Caustic Stat Tracker Season 17 Wins as Caustic"
+      ]
+    },
+    "level_75": {
+      "premium": [
+        "Lifeline Holospray Doc's Orders"
+      ],
+      "free": [
+        "Caustic Stat Tracker Season 17 Kills as Caustic"
+      ]
+    },
+    "level_76": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_78": {
+      "premium": [
+        "Mozambique Shotgun Space Circuit"
+      ],
+      "free": []
+    },
+    "level_79": {
+      "premium": [
+        "Mirage Banner Frame Crushed It"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker Season 17 Wins as Bloodhound"
+      ]
+    },
+    "level_80": {
+      "premium": [
+        "Rampart Skydive Emote Burst Your Bubble"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker Season 17 Kills as Bloodhound"
+      ]
+    },
+    "level_81": {
+      "premium": [
+        "Bangalore Quip Kill Quip : Add another to the triage pile"
+      ],
+      "free": [
+        "Bangalore Stat Tracker Season 17 Wins as Bangalore"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "Sticker Loch And Load"
+      ],
+      "free": [
+        "Bangalore Stat Tracker Season 17 Kills as Bangalore"
+      ]
+    },
+    "level_83": {
+      "premium": [
+        "Pathfinder Cosmetic Emote Factory Reset"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker Season 17 Wins as Pathfinder"
+      ]
+    },
+    "level_84": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker Season 17 Kills as Pathfinder"
+      ]
+    },
+    "level_85": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_86": {
+      "premium": [
+        "Transition The Fancy-Shmancy New Firing Range"
+      ],
+      "free": []
+    },
+    "level_87": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker Season 17 Wins as Valkyrie"
+      ]
+    },
+    "level_88": {
+      "premium": [
+        "Valkyrie Banner Frame Journey's End"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker Season 17 Kills as Valkyrie"
+      ]
+    },
+    "level_89": {
+      "premium": [
+        "Volt SMG Safety Protocol"
+      ],
+      "free": []
+    },
+    "level_90": {
+      "premium": [
+        "Ballistic Skydive Emote Hightailing It"
+      ],
+      "free": [
+        "Vantage Stat Tracker Season 17 Wins as Vantage"
+      ]
+    },
+    "level_91": {
+      "premium": [
+        "Charging It Up"
+      ],
+      "free": [
+        "Vantage Stat Tracker Season 17 Kills as Vantage"
+      ]
+    },
+    "level_92": {
+      "premium": [
+        "Bocek Compound Bow Orange Slice"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Looking Back To The Thunderdome"
+      ]
+    },
+    "level_94": {
+      "premium": [
+        "EVA-8 Auto Space Circuit"
+      ],
+      "free": []
+    },
+    "level_95": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Seer Stat Tracker Season 17 Wins as Seer"
+      ]
+    },
+    "level_96": {
+      "premium": [
+        "Seer Banner Frame Showstopping Battlefield"
+      ],
+      "free": [
+        "Seer Stat Tracker Season 17 Kills as Seer"
+      ]
+    },
+    "level_97": {
+      "premium": [
+        "Octane Quip Kill Quip : Never try to beat an Oc-train"
+      ],
+      "free": []
+    },
+    "level_98": {
+      "premium": [
+        "Rampart Holospray Sorry Mate, You're Dead"
+      ],
+      "free": [
+        "Ash Stat Tracker Season 17 Wins as Ash"
+      ]
+    },
+    "level_99": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Ash Stat Tracker Season 17 Kills as Ash"
+      ]
+    },
+    "level_100": {
+      "premium": [
+        "C.A.R. SMG Frontier Faithful"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "C.A.R. SMG Outlands Obliterator"
+      ],
+      "free": [
+        "Badge : Arsenal Level Season 17"
+      ]
+    }
+  }
+}

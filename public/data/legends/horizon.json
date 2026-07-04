@@ -1,0 +1,104 @@
+{
+  "name": "Horizon",
+  "lore": {
+    "real_name": "Dr. Mary Somers",
+    "age": "39 (Give or take another 87 years...)",
+    "home_world": "Psamathe",
+    "gender": "Female",
+    "bio": "Almost a century ago, the Outlands were dangling on the edge of a cataclysmic energy crisis. Dr. Mary Somers, a charmingly eccentric astrophysicist, was hired to find a solution. Mary moved her family to the scientific research station on Olympus and set to work. With the help of her apprentice, Dr. Reid, Mary discovered Branthium - an element she was convinced could be the key to limitless energy. But Branthium can be found only on the accretion disk of a black hole, so Mary and Dr. Reid departed on a dangerous mission to prove her theory right.\nMary promised her son Newton she’d return safe and sound. But Dr. Reid betrayed her, stealing the Branthium and sending her shuttle into the black hole’s orbit. Using her wits, Mary modified her robotic vacuum companion N.E.W.T. to escape. But time moves differently on the outskirts of a black hole, and she was 87 years too late.\nFrom that day on, she had one goal: to find a way to get back to her son. She joined the Apex Games as Horizon, master of gravity, to fund her research on time distortion and fluctuation. Her first foray into the Games was on Olympus, where her old life once was and where she had promised to return. That wasn't the only part of her old life that found her again - a certain research assistant, older and now much more metallic, has darkened Dr. Somers' door.\n\nFor more information on Horizon's story, see Horizon (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Spacewalk",
+      "description": "Increase air control and reduce fall impacts with Horizon’s custom spacesuit.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Gravity Lift",
+      "description": "Reverses the flow of gravity, lifting players upward and boosting them outward when they exit.",
+      "cooldown": "25 seconds"
+    },
+    "ultimate": {
+      "name": "Black Hole",
+      "description": "Deploy N.E.W.T. to create a micro black hole that pulls players in towards it.",
+      "cooldown": "3.5 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "January 07, 2025 Patch",
+      "details": [
+        "Gravity Lift\nAdjusted visual effects of the lift to reduce visual load on the battlefield\nAdjusted audio of players in the lift to be more noticeable"
+      ]
+    },
+    {
+      "patch": "January 09, 2024 Patch",
+      "details": [
+        "Improved Horizon audio to make “falls” less silent\nHard landing audio adjusted to match other legends\nSoft Landings now play audio in world (not just for Horizon)\n Gravity Lift exit audio range increased to make it easier to hear characters who exit"
+      ]
+    },
+    {
+      "patch": "September 19, 2023 Patch",
+      "details": [
+        "Gravity Lift\nWeapon accuracy decreased while in Lift (more spread)\nVertical Lift speed reduced by 20%\nHover time at top of Lift reduced from 2.0s to 0.5s"
+      ]
+    },
+    {
+      "patch": "February 14, 2023 Patch",
+      "details": [
+        "Gravity Lift\nIncreased weapon spread in Gravity Lift\nIncreased vertical speed of Gravity Lift by 10%"
+      ]
+    },
+    {
+      "patch": "August 09, 2022 Patch",
+      "details": [
+        "Black Hole\nAdjustments to N.E.W.T’s hitbox to make destroying it more reliable.\nN.E.W.T. takes 50% more damage from explosives.\nN.E.W.T. is now susceptible to friendly damage.[2]"
+      ]
+    },
+    {
+      "patch": "August 03, 2021 Patch",
+      "details": [
+        "Gravity Lift\nIncreased lift speed.",
+        "Black Hole\nReduced the slow after the initial pull."
+      ]
+    },
+    {
+      "patch": "May 04, 2021 Patch",
+      "details": [
+        "Gravity Lift:\nReduced lift speed by 30%.\nReduced side-to-side acceleration.\nLimited the time you can sit at the top of Gravity Lift to 2 seconds.\nIncreased cooldown from 15s to 20s.\nPlayers will no longer have weapons drawn if they are knocked as they enter the ring at Pathfinder's Fight Night via a Gravity Lift.",
+        "Black Hole: Fixed an issue with NEWT not getting refunded if it immediately dies due to a bad spot.",
+        "Horizon’s abilities will now get zapped by Wattson's  Interception Pylon.",
+        "The  1x Holo will no longer block view when using certain skins."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "Black Hole: Increased cooldown from 2 minutes to 3 minutes.",
+        "Gravity Lift:\nFixed the Gravity Lift falling through the floor when used on the train tracks in Sorting Factory on World's Edge.\nUsing a zipline after a Gravity Lift will no longer increase accuracy.",
+        "The All Charged Up finisher now has more frames, from 141 (4.21 seconds) to 180 (6.0 seconds), to be more in line with other finishers’ completion times."
+      ]
+    },
+    {
+      "patch": "February 02, 2021 Patch",
+      "details": [
+        "Gravity Lift: Increased effective cooldown from 21 seconds to 25 seconds. (The 15-second cooldown began 4 seconds later.)",
+        "Horizon's abilities no longer get destroyed by Wattson's  Interception Pylon. (Undocumented)"
+      ]
+    },
+    {
+      "patch": "January 05, 2021 Patch",
+      "details": [
+        "Gravity Lift: Increased effective cooldown from 16 seconds to 21 seconds. (The 15-second cooldown began 5 seconds later.)",
+        "Black Hole: (Undocumented) Cooldown now starts when N.E.W.T. disappears.",
+        "Fixed an issue with Horizon’s abilities not affecting Lifeline’s DOC and Crypto’s drone."
+      ]
+    },
+    {
+      "patch": "November 04, 2020 Patch",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
+}

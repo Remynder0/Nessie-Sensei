@@ -1,0 +1,60 @@
+{
+  "name": "Mad Maggie",
+  "lore": {
+    "real_name": "Margaret Kōhere",
+    "age": "56[1]",
+    "home_world": "Salvo",
+    "gender": "Female",
+    "bio": "Margaret Kōhere - the woman who would one day be known as Mad Maggie - grew up in one of the dustiest, dullest corners of Salvo without any family to speak of. She was fortunate, then, to meet a kindred chaotic spirit: an adventurous young boy named Walter Fitzroy. The two were inseparable, and in their teenage years, they became mercenaries. Eventually this duo grew into the Cracked Talon - a powerful mercenary operation. It was here she earned her nom de guerre: Mad Maggie. But when rival warlord Sandringham Kelly signed a treaty with the Syndicate, Maggie’s hopes for an independent Salvo were ruined, and Fuse abandoned her for the  Games, leaving Maggie very mad indeed…\nBy sabotaging Fuse’s entrance into the Apex games, Maggie planned to expose how weak the Syndicate was, in hopes it would spark rebellion on Salvo.\nFuse would assemble a team to take down Maggie… only for the pair to have a heart to heart where they came to accept each other’s choices: Fuse will always follow the fun, and Maggie will always follow the cause.\nIt seemed as though Maggie fell to her death after that exchange...But she was apprehended by the Syndicate, and sentenced to fight to the death in the Apex Games. So she will: just not hers.\n\nFor more information on Mad Maggie's story, see Mad Maggie (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Warlord's Ire",
+      "description": "Temporarily highlight enemies you've damaged.Move faster with shotguns.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Riot Drill",
+      "description": "Fire a drill that attaches to an obstacle and burns enemies on the other side.",
+      "cooldown": "20 seconds"
+    },
+    "ultimate": {
+      "name": "Wrecking Ball",
+      "description": "Throw a ball that releases speed-boosting pads and detonates near enemies.",
+      "cooldown": "2 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "Saison 29 (Overclocked) - EA Officiel",
+      "details": [
+        "[Tactical]",
+        "Increased Cooldown from 22 seconds to 28 seconds.",
+        "[Ultimate]",
+        "The speed boost granted from running on the pucks dropped by the wrecking ball has been replaced by a sprint boost.",
+        "Will no longer speed up all movement, just when sprinting."
+      ]
+    },
+    {
+      "patch": "September 16, 2025 Patch",
+      "details": [
+        "Riot Drill\nFiring animation sped up by 10%\nDrill now comes out immediately after releasing the button (was delayed by a few frames)",
+        "Wrecking Ball\nThrow animation sped up 25%\nWrecking Ball is now more reliable at moving around/over obstacles\nExplosions deal up to 25 damage (was up to 20)\nReduced lifetime to 7s (was 10s)\nSpeed pads increase movement speed for 3.5s (was 2s)\nSpeed pads give  Fortified buff for the duration, doesn’t stack with already fortified Legends\nSpeed pads last 20s (was 60s)\nSpeed pads deactivate 6s for the player using it after being used\nSpeed pads no longer drop from the final explosion",
+        "Upgrades: Level 2\nShots Shots Shots: removed\nNEW Gunrunning: Passive movement speed increase also works with SMGs and Pistols\nFire Ball: now drops magma patches along the ground as it moves and Mad Maggie takes 50% less fire damage from all sources"
+      ]
+    },
+    {
+      "patch": "August 09, 2022 Patch",
+      "details": [
+        "Riot Drill\nProjectile Launch Speed doubled.",
+        "Wrecking Ball\nWill travel twice as far while dropping the same amount of magnets.\nDuration increased from 5 sec → 10 sec.\nMagnet Spawn delay increased from 0.4 sec → 0.8 sec.\nWrecking Ball will deal damage to enemy placeable objects: Black Market, Castle Walls, Exhibit, Death Totem, Mobile Shield, Black Hole, Amped Cover, and Gas Barrels. It will also destroy Gibraltar's Dome of Protection.\nFixed Wrecking Ball not blinding and slowing enemies."
+      ]
+    },
+    {
+      "patch": "February 08, 2022 Patch",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
+}

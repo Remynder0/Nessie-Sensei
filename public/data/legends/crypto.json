@@ -1,0 +1,208 @@
+{
+  "name": "Crypto",
+  "lore": {
+    "real_name": "Tae Joon Park (박태준)",
+    "age": "24",
+    "home_world": "Gaea",
+    "gender": "Male",
+    "bio": "Crypto specializes in secrets. A brilliant hacker and encryption expert, he uses aerial drones to spy on his opponents in the Apex Arena without being seen. He also has a secret of his own: he joined the Apex Games to find the people who framed him for murder.\nAn orphan abandoned at a young age, Tae Joon escaped a life of squalor by becoming a computer engineer for the Mercenary Syndicate, along with his foster sister, Mila Alexander. One day, Tae Joon and Mila stumbled upon an algorithm that could predict the result of any Apex Games match, hidden away in the Games’ own computer systems. That caught the attention of the wrong people - the next day, Mila disappeared, and Tae Joon was forced to into hiding after he was framed for her murder. \nHe’s now joined the Games to clear his name, because sometimes the spotlight is the best place to hide. Along the way, he's uncovered hints of a conspiracy greater than even he predicted - and maybe greater than he can conquer alone.\n\nFor more information on Crypto's story, see Crypto (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Neurolink",
+      "description": "Crypto and his teammates see what his Surveillance Drone detects up to a 30m distance.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Surveillance Drone",
+      "description": "Deploy an aerial camera drone that can remotely interact with  Survey Beacons,  Respawn Beacons, and ally Banner cards.",
+      "cooldown": "40 seconds"
+    },
+    "ultimate": {
+      "name": "Drone EMP",
+      "description": "Charge up an EMP from your drone. The blast deals 50 shield damage, slows players, and destroys traps.",
+      "cooldown": "3 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "January 06, 2026 Patch",
+      "details": [
+        "Neurolink\nCrypto gains long range Threat Vision while piloting his drone\nSatellite Imagery incorporated into base kit (Increase duration of scan by 1.5s and receive a short scan on EMP)",
+        "Surveillance Drone\nReduced time to launch drone from 1.3 to 0.7s\nReduced time to reenter drone from 0.4 to 0.2s\nReduced animation frame that Crypto reenters drone from 7 to 2\nDrone can collect EVO Harvesters\nCrypto can now enter and exit drone while using Ziplines\nOff the Grid icorporated into base kit (Crypto cloaks while piloting his drone).",
+        "Upgrades\nAlly.MoveTo(): Crypto can Trailblaze to all allies. (Replaces Off the Grid)\nPower Coupling: Crypto gains Ultimate charge from using scan beacons and scanning enemies with his drone (Replaces Satellite Imagery)"
+      ]
+    },
+    {
+      "patch": "February 11, 2025 Patch",
+      "details": [
+        "EMP: once again destroys Gibraltar's  Dome of Protection"
+      ]
+    },
+    {
+      "patch": "November 05, 2024 Patch",
+      "details": [
+        "Surveillance Drone: now takes ring damage (10% per ring tick)",
+        "Upgrades -  Off the Grid\nPlayers within 20m of Crypto will now be able to spot a faint cloaking “flicker” effect every 1.5s to help identify hidden Cryptos nearby\nCloaked audio range and volume have been increased"
+      ]
+    },
+    {
+      "patch": "August 06, 2024 Patch",
+      "details": [
+        "Surveillance Drone: cooldown decreased to 30s (was 40s)",
+        "Upgrades\nNEW It's called Off the Grid: Crypto becomes cloaked when in drone\nWhile hidden from sight, Crypto's cloaking will still emit a close-range cloaking sound to sus his location and ability scans will still reveal his location\nThreat Vision related skills will not reveal Crypto\nImproved Satellite Imagery: Ult now scans anyone it hits for 4s and will track through walls\nQuick Ping: removed, improved handling now integrated into base kit"
+      ]
+    },
+    {
+      "patch": "May 07, 2024 Patch",
+      "details": [
+        "Neurolink\nNetwork Traffic upgrade now integrated into base kit\nSquadcount banners are now visible anytime the drone is in a deployed state",
+        "Upgrades: Level 2\nTac & Ultimate Cooldowns: removed\nNetwork Expansion: moved to Level 2\nNEW Quick Ping: improved drone handling (faster accel/decel)",
+        "Upgrades: Level 3\nNEW Satellite Imagery: drone scan persists for an additional 1.5s\nNEW Hackathon: cut the drone cooldown in half, gain a speed boost anytime he uses his Ult or the drone is destroyed"
+      ]
+    },
+    {
+      "patch": "March 29, 2022 Patch",
+      "details": [
+        "Fix for bug when Crypto's animation would glitch after using a finisher while in death protection.",
+        "Fix for cases where Crypto can throw out multiple drones."
+      ]
+    },
+    {
+      "patch": "February 08, 2022 Patch",
+      "details": [
+        "Surveillance Drone\nThe deployment of the Drone has received a rework:\nPressing the Tactical button causes Crypto to send the Drone flying in a straight line in the direction of Crypto's view for a few seconds.\nIf thrown to a wall (or other geo), the Drone will hit the wall and re-orient itself so that it's facing away from the wall.\nCrypto no longer immediately accesses Drone View after deploying his Drone in this way.\nPressing and holding the [Tactical] button will launch the Drone forward in the same way, but then Crypto will immediately access Drone View.\nAdded gamestate (e.g. Ring information, round timers), minimap, killfeed, team status, and ping information to the Drone's HUD.\nRepurposed the Drone HUD's old Crypto health/shield presentation into displaying the health of the Drone itself.\nSurvey Beacon markers are now displayed in-world while piloting the Drone (same as when controlling Crypto himself).\nReduced Drone health from 60 -> 50.\nThe HUD marker for the Drone has been tweaked to increase visibility.\nThe HUD marker for the Drone is now always displayed on-screen while the Drone is deployed (instead of only when the Drone was off-screen."
+      ]
+    },
+    {
+      "patch": "July 19, 2021 Patch",
+      "details": [
+        "Fixed bugs with the Dragonskin skin."
+      ]
+    },
+    {
+      "patch": "June 29, 2021 Patch",
+      "details": [
+        "Surveillance Drone:\n(Undocumented) Can now see survey beacon icon in drone view."
+      ]
+    },
+    {
+      "patch": "May 04, 2021 Patch",
+      "details": [
+        "Surveillance Drone:\nCan now scan and open care packages.\nCan no longer be used to \"hijack\" a  Respawn Beacon that's already in use."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "Surveillance Drone:\nCrypto’s animation to bring out his drone is no longer skippable by throwing a  Holo-Spray.\nReloading the Mastiff Shotgun and 30-30 Repeater will no longer be faster while in Crypto’s drone.",
+        "Crypto can no longer teleport to a  Replicator."
+      ]
+    },
+    {
+      "patch": "February 02, 2021 Patch",
+      "details": [
+        "Surveillance Drone: Removed the ability to stick  Arc Stars to friendly drones."
+      ]
+    },
+    {
+      "patch": "January 05, 2021 Patch",
+      "details": [
+        "Surveillance Drone:\nFixed an issue with Hack consuming two  Vault Keys if two keys were in Crypto’s inventory.\nFixed an issue with Hack getting stuck within the Trident when deployed as a passenger and the trident is on a ramp."
+      ]
+    },
+    {
+      "patch": "November 18, 2020 Patch",
+      "details": [
+        "Surveillance Drone: Fixed an issue with being able to put Rampart’s  Emplaced Minigun \"Sheila\" on the drone."
+      ]
+    },
+    {
+      "patch": "November 04, 2020 Patch",
+      "details": [
+        "Surveillance Drone:\nFixed an issue with the drone being able to drop items from Crypto’s inventory.\nFixed an issue with the drone not being able to fit through certain windows.\nFixed an issue with the drone marking friendly Mirage decoys as enemies."
+      ]
+    },
+    {
+      "patch": "October 12, 2020 Patch",
+      "details": [
+        "Drone EMP: Fixed issue with being unable to use weapons for some time when this ability is triggered while not in drone mode."
+      ]
+    },
+    {
+      "patch": "October 06, 2020 Patch",
+      "details": [
+        "Surveillance Drone:\nCan now open loot vaults if Crypto has a  Vault Key in his inventory. It consumes the key as usual.\nFixed an issue with the drone not detecting Wattson's  Perimeter Security fences.\nFixed an audio issue with  Survey Beacons sometimes making very little sound when using it in the drone view.\nFixed an issue with his drone not taking damage from directly below."
+      ]
+    },
+    {
+      "patch": "September 03, 2020 Patch",
+      "details": [
+        "Surveillance Drone:\nFixed an issue with the drone not detecting players while on a  Emplaced Minigun \"Sheila\".\nFixed an issue where while the drone is in Caustic gas the whole server would hear the drone audio."
+      ]
+    },
+    {
+      "patch": "August 18, 2020 Patch",
+      "details": [
+        "Surveillance Drone:\nCan now activate  Respawn Beacons and  Survey Beacons. Doing so is instant instead of requiring prolonged use.\nIncreased HP from 30 to 60.\nIncreased hitbox size from cube of edge length 16 to cube of edge length 24.\nFixed an issue with Crypto being able to use his drone while using Loba’s  Black Market Boutique.\nFixed an issue where VFX shows false positive when hitting Crypto’s Drone.\nDid a geo pass to help prevent the drone from clipping into walls.",
+        "Drone EMP:\nNow slows teammates.\nFixed an issue with EMP not destroying Loba’s  Black Market Boutique.",
+        "Added  Recon Passive Perk: Crypto can now use  Survey Beacons."
+      ]
+    },
+    {
+      "patch": "June 23, 2020 Patch",
+      "details": [
+        "Surveillance Drone:\nNow takes 1.5 seconds to start controlling (was 2.5 seconds).\nFixed an issue with the drone flying without input if the player was sprinting with the double-tap to sprint option.",
+        "Drone EMP: Now destroys Wattson’s  Interception Pylon and Loba's  Black Market Boutique."
+      ]
+    },
+    {
+      "patch": "May 12, 2020 Patch",
+      "details": [
+        "Surveillance Drone: Crypto can now ping banners, while in drone view, to warn teammates of nearby squads.",
+        "Drone EMP now affects DUMMIE in the Firing Range."
+      ]
+    },
+    {
+      "patch": "April 07, 2020 Patch",
+      "details": [
+        "Surveillance Drone: Fix for cases where players would not receive assist credit when using the drone to scan enemies."
+      ]
+    },
+    {
+      "patch": "March 03, 2020 Patch",
+      "details": [
+        "Surveillance Drone:\nPrimary weapons will now automatically reload while in drone view.\nFixed players getting assist credit when using the drone on a player who is downed.\nFixed a bug where players could place Gibraltar's  Dome of Protection on the drone allowing the Dome to be mobile while in use.",
+        "Updated character select headshot."
+      ]
+    },
+    {
+      "patch": "February 04, 2020 Patch",
+      "details": [
+        "Surveillance Drone:  Dome of Protection no longer can stick to drone.",
+        "Drone EMP: No longer destroys friendly Gibraltar  Dome of Protection."
+      ]
+    },
+    {
+      "patch": "January 14, 2020 Patch",
+      "details": [
+        "Surveillance Drone:\nIncreased health from 1 to 30.\nFixed visual bug for when he first drops into game, the Drone UI reports that it is \"recharging\" (as if it has been destroyed pre-drop), but progress does not complete / progress.",
+        "Drone EMP:\nNo longer affects friendly traps or deployables.\nNo longer slows teammates."
+      ]
+    },
+    {
+      "patch": "November 05, 2019 Patch",
+      "details": [
+        "Drone EMP: Will now damage armor that players have dropped.",
+        "Fixed a bug where  Lifeline’s  D.O.C. Heal Drone couldn’t heal Crypto while he was in his drone.",
+        "Fix for friendly Caustic gas kicking players out of his drone."
+      ]
+    },
+    {
+      "patch": "October 01, 2019 Patch",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
+}

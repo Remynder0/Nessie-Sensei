@@ -1,0 +1,205 @@
+{
+  "name": "Wraith",
+  "lore": {
+    "real_name": "Renee Hope Blasey[1]",
+    "age": "34",
+    "home_world": "Typhon[2]",
+    "gender": "Female",
+    "bio": "Wraith is a whirlwind fighter, able to execute deadly attacks and manipulate spacetime by opening rifts in the fabric of reality — but those abilities came at a price. Years ago, she woke up in an IMC detention facility with no memory of who she was. Senior Science Pilot Renee Blasey, who volunteered as guinea pig for her own experiments... whose partner betrayed her and locked her away… no longer existed. All that was left was a timid girl, frightened by a cacophony of voices in her head, until another version of herself appeared and taught her to listen to the voices. Following her lead, Wraith found the strength to break free from her prison and escape into a different reality - this reality.\nFinally free, but still robbed of her memories, Wraith continues her quest to learn more about who she was before the experiments. With so many of the Apex Games held on old IMC bases, Wraith now competes so she can access the mysterious facilities and continue to learn more about who she was. She remains a fixture of the Apex Games, and with every match she gets closer to the truth, even if she sometimes feels scared to find out more about who she used to be.\n\nFor more information on Wraith's story, see Wraith (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Voices from the Void",
+      "description": "A voice warns you when danger approaches. As far as you can tell, it's on your side.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Into the Void",
+      "description": "Reposition quickly through the safety of void space, avoiding all damage.",
+      "cooldown": "15 seconds"
+    },
+    "ultimate": {
+      "name": "Dimensional Rift",
+      "description": "Link two locations with portals for 45 seconds, allowing anyone to use them.",
+      "cooldown": "1.5 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "Aftershock Event March 31, 2026 Patch",
+      "details": [
+        "Tactical\nIntegrated the tactical cooldown reduction upgrade into her base kit (was 20s, now 15s)",
+        "Ultimate\nIntegrated the ultimate cooldown reduction upgrade into her base kit (was 2.5 minutes, now 1.5 minutes)\nIncreased casting speed animation for quicker activation",
+        "Upgrades\nLevel 2\nPhase Dome: When Wraith starts channeling her ultimate she will create a Phase Dome. This dome will last for 30s or until Wraith places her portal. Anyone who enters the Phase Dome will go into the void.\nLevel 3\nPhase Jumper: Wraith will stay in the void for longer when using her tactical (was 4s, now 6s) and will gain double jump while in the void"
+      ]
+    },
+    {
+      "patch": "March 25, 2025 Patch",
+      "details": [
+        "Original third-person run animation has returned.",
+        "Into the Void:\nCooldown decreased to 20s (was 25s)\nTac activation time decreased to 0.8s (was 1.25s)\nCan now exit from the void at any time by pressing Attack or Tactical buttons",
+        "File:Dimensional Rift .svg Dimensional Rift \nCooldown decreased to 2min 30s (was 3min)\nNow ramps up to max speed much faster when using Ult",
+        "Upgrades: Level 2\nUltimate Cooldown: now reduces to 1min 30s (was 2min)",
+        "Upgrades Level 3\nFast Phase: now decreases Tac activation by 30% (was 20%)\nThis reduces the activation time to 0.5s (was 1.0s)\nTactical Cooldown: now reduces to 15s (was 20s)"
+      ]
+    },
+    {
+      "patch": "May 07, 2024 Patch",
+      "details": [
+        "Into the Void and Dimensional Rift: nearby enemies will be highlighted for players traveling through the Void"
+      ]
+    },
+    {
+      "patch": "March 26, 2024 Patch",
+      "details": [
+        "Upgrades\nTactical Cooldown: moved to Level 3\nUltimate Cooldown: moved to Level 2"
+      ]
+    },
+    {
+      "patch": "March 07, 2023 Patch",
+      "details": [
+        "Introduced Wraith's second Heirloom Set."
+      ]
+    },
+    {
+      "patch": "February 14, 2023 Patch",
+      "details": [
+        "Dimensional Rift:\nMax Portal Distance has been doubled  (~76m to 152m)\nPortal Duration reduced from 60s to 45s\nWraith now increases speed over time when creating longer portals"
+      ]
+    },
+    {
+      "patch": "May 04, 2021 Patch",
+      "details": [
+        "Removed  Low Profile.",
+        "Into the Void: Slight wall bumps no longer inadvertently cancel it."
+      ]
+    },
+    {
+      "patch": "March 18, 2021 Patch",
+      "details": [
+        "Dimensional Rift: Fixed a server crash that happened when someone uses a  Replicator and a portal at the same time."
+      ]
+    },
+    {
+      "patch": "March 15, 2021 Patch",
+      "details": [
+        "Fixed an issue with her Woad Warrior skin having no texture when viewed in first-person."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "Into the Void: Can no longer be canceled by jumping at a wall. (mentioned in the patch notes, but not actually fixed yet).",
+        "The Perpetual Motion  Skydive Emote will now work with Legendary skins."
+      ]
+    },
+    {
+      "patch": "February 02, 2021 Patch",
+      "details": [
+        "Hitbox adjustments."
+      ]
+    },
+    {
+      "patch": "January 05, 2021 Patch",
+      "details": [
+        "Fixed an issue with Wraith’s  Dimensional Rift getting destroyed by the Trident."
+      ]
+    },
+    {
+      "patch": "November 04, 2020 Patch",
+      "details": [
+        "Dimensional Rift: Fixed an issue with priming a grenade cancelling Wraith's ultimate."
+      ]
+    },
+    {
+      "patch": "October 06, 2020 Patch",
+      "details": [
+        "Updated Wraith’s sprint animation to better conform with her hitbox."
+      ]
+    },
+    {
+      "patch": "September 10, 2020 Patch",
+      "details": [
+        "Dimensional Rift: Fixed an issue with the portal disappearing in certain areas."
+      ]
+    },
+    {
+      "patch": "September 03, 2020 Patch",
+      "details": [
+        "Dimensional Rift:\nFixed an issue with the portal disappearing upon Wraith's death.\nFixed a crash with Wraith's portal interacting with World's Edge geysers.\nFixed an error when Wraith's portal is too close to a  Replicator and the player interacts with the replicator."
+      ]
+    },
+    {
+      "patch": "August 18, 2020 Patch",
+      "details": [
+        "Dimensional Rift:\nIncreased cooldown from 2.5 minutes to 3.5 minutes.\nFor 2 seconds after being recalled by Revenant’s  Death Totem, players cannot use the portal.\nFixed an issue with portals pushing players beneath geo when a death box is on the other end.\nFixed an issue for when a  Death Totem and portal are too close to each other causing players to auto-enter a portal upon death totem recall.",
+        "Into the Void: Fixed an issue with Wraith losing velocity when pressing the fire button while it is active."
+      ]
+    },
+    {
+      "patch": "July 09, 2020 Patch",
+      "details": [
+        "Into the Void: Fixed bug allowing Wraith to access her weapon while phasing."
+      ]
+    },
+    {
+      "patch": "June 30, 2020 Patch",
+      "details": [
+        "Fixed an issue with her Marble Goddess skin not having the correct hitbox.",
+        "Fixed an issue with Wraith being able to get a speed boost by using  Into the Void, then using and cancelling  Dimensional Rift."
+      ]
+    },
+    {
+      "patch": "June 23, 2020 Patch",
+      "details": [
+        "Into the Void:\nNow takes 1.25 seconds to enable (from 0.4 seconds). During this time, movement will be slowed by 20% (unless  Dimensional Rift is also active).\nWhile in the Void, Wraith now receives a 30% speed boost.\nWraith can now see players while in the void.\nIncreased duration from 3 seconds to 4 seconds.\nReduced cooldown from 35 seconds to 25 seconds.\nNow canceled if silenced by Revenant before it activates.",
+        "Dimensional Rift:\nDecreased distance for portal placement by 25%.\nFixed an issue with not being able to heal after getting knocked and going through a portal."
+      ]
+    },
+    {
+      "patch": "April 07, 2020 Patch",
+      "details": [
+        "Dimensional Rift:\nPortals will now disappear after four seconds if both ends are outside the Ring.\nFixed cases where taller Legends could get stuck in geometry after using it.",
+        "Low Profile: Leg shots now deal as much damage as body shots.",
+        "Fixed an issue where mantling with Wraith could cause the camera to clip through the character."
+      ]
+    },
+    {
+      "patch": "January 14, 2020 Patch",
+      "details": [
+        "Into the Void and  Dimensional Rift: Removed the bonus move speed when used at the same time. Wraith will now move at their combined movement speed when they are both activated.",
+        "Into the Void: Increased cooldown from 25 seconds to 35 seconds."
+      ]
+    },
+    {
+      "patch": "October 01, 2019 Patch",
+      "details": [
+        "Dimensional Rift: No longer deploys if you are downed before placing it."
+      ]
+    },
+    {
+      "patch": "August 13, 2019 Patch",
+      "details": [
+        "Made adjustments to Hitbox.",
+        "Kunai:\nBased on player feedback, we’ve reduced the “hum” audio that’s playing while using it.\nFixed issue where actions for Wraith would have a slight delay when her weapon is holstered and crouching or sliding while it is equipped.",
+        "Into the Void: Fixed an exploit that allowed players to remove the cooldown."
+      ]
+    },
+    {
+      "patch": "July 02, 2019 Patch",
+      "details": [
+        "Added  Low Profile Perk which increases incoming damage by 5%.",
+        "Dimensional Rift:\nFixed issue where in some rare cases, performing a Finisher while the downed player is entering a Wraith Portal.\nFixed an exploit that allowed players to place extra Portals.",
+        "Wraith’s Kunai will now more reliably show its lightning visual FX.",
+        "Fixed bug where Wraith’s jetpack boosters could still be seen while phasing."
+      ]
+    },
+    {
+      "patch": "March 19, 2019 Patch",
+      "details": [
+        "Into the Void: Cooldown increased from 20 to 25 seconds.",
+        "Dimensional Rift: Turned down the volume when Wraith activates a portal."
+      ]
+    }
+  ]
+}

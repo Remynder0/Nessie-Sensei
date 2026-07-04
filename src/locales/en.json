@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "teamGen": "Link & Deploy",
+    "legends": "Legends Archives",
+    "packCalculator": "Heirloom Tracker",
+    "battlePass": "Battle Pass",
+    "probabilities": "Predictive Analysis",
+    "simulation": "Simulation",
+    "stats": "Data Logs",
+    "sort": "Tactical Sort"
+  },
+  "legends": {
+    "title": "Legends Archives",
+    "groupedByClass": "Grouped by Class",
+    "searchPlaceholder": "SEARCH A LEGEND...",
+    "unknownIdentity": "UNKNOWN IDENTITY",
+    "age": "AGE:",
+    "origin": "Origin",
+    "secretClassification": "Secret Classification",
+    "bio": "Biography",
+    "tacticalAbilities": "Tactical Abilities",
+    "passive": "Passive",
+    "tactical": "Tactical",
+    "ultimate": "Ultimate",
+    "unknown": "Unknown",
+    "errorExtraction": "ERROR EXTRACTING DATA.",
+    "extracting": "EXTRACTING DATA...",
+    "cooldown": "Cooldown",
+    "patchHistory": "Patch History",
+    "patchNotes": "Details"
+  },
+  "battlePass": {
+    "title": "Battle Pass View",
+    "subtitle": "Seasons rewards archive",
+    "selectSeason": "Select a Season",
+    "reactiveSkin": "Reactive Skin",
+    "level": "Level",
+    "premium": "Premium",
+    "free": "Free",
+    "noData": "No data found for this season.",
+    "unknown": "Unknown"
+  },
+  "app": {
+    "connecting": "ESTABLISHING CONNECTION...",
+    "footer": "This site is an unofficial community project and is not affiliated with, sponsored by, or approved by Electronic Arts Inc. or Respawn Entertainment.\nApex Legends and all related properties are trademarks of their respective owners."
+  },
+  "feedback": {
+    "title": "Contact Us",
+    "type": "Request Type",
+    "bug": "Report a Bug",
+    "improvement": "Suggest an Improvement",
+    "opinion": "Give Feedback",
+    "fanart": "Submit a Fanart",
+    "message": "Your message / Fanart link",
+    "contact": "Email / Discord (Optional)",
+    "send": "Send",
+    "cancel": "Cancel",
+    "success": "Message sent! Thank you for your contribution.",
+    "reviewTutorial": "Review Tutorial"
+  },
+  "tutorial": {
+    "nextBtn": "Next",
+    "prevBtn": "Previous",
+    "doneBtn": "Done",
+    "step1_title": "Welcome!",
+    "step1_desc": "Discover Legends Composer, your ultimate data terminal for the Apex Legends universe. Let us show you around.",
+    "step_team_format_title": "Squad Size",
+    "step_team_format_desc": "Switch between Duo or Trio so the algorithm generates the perfect composition for that mode.",
+    "step_team_profile_title": "Synergy Profile",
+    "step_team_profile_desc": "Here is the team's profile (Aggressive, Defensive, etc.) and its calculated synergy efficiency.",
+    "step_team_save_title": "Continuous Learning",
+    "step_team_save_desc": "Crucial step: after your match, enter your placement (Top 1 to 20). The algorithm will refine its future proposals based on your performance!",
+    "step_pack_level_title": "Level & Prestige",
+    "step_pack_level_desc": "Enter your account level. There are 4 tiers (Prestige) up to level 500, which grant a lot of free packs.",
+    "step_pack_seasons_title": "Battle Passes",
+    "step_pack_seasons_desc": "Set your level for each season and check the box if you bought the Premium Pass. Pro tip: not sure if you bought it? Check if you have the displayed weapon skin in your locker!",
+    "step_prob_title": "Predictive Analysis (Example)",
+    "step_prob_desc": "We selected Pathfinder for you! Observe the results: the AI calculates which legends he statistically has the best chance to be optimally played with.",
+    "step_feedback_title": "Need help or feedback?",
+    "step_feedback_desc": "Click here to report a bug, suggest an improvement idea, submit a Fanart, or review this tutorial at any time!"
+  }
+}

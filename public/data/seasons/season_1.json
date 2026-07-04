@@ -1,0 +1,666 @@
+{
+  "season": "1",
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Lifeline Skin: Revolutionary",
+        "Wraith Skin: Survivor",
+        "Mirage Skin: Outlaw",
+        "Legendary Hunt Themed Event R-301 Carbine Skin: Honored Prey"
+      ],
+      "free": []
+    },
+    "level_2": {
+      "premium": [
+        "Triple Take Skin: Harvest"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Wraith Stat Tracker : Season 1 Kills"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Hemlok Burst AR Skin: Patchwork"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker : Season 1 Wins"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_6": {
+      "premium": [
+        "Bangalore Quip Intro Quip : Opening season. No time for an FNG"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker : Season 1 Wins"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Apex Coins 50"
+      ],
+      "free": []
+    },
+    "level_8": {
+      "premium": [
+        "Bloodhound Stat Tracker : Season 1 Kills"
+      ],
+      "free": [
+        "Wraith Stat Tracker : Season 1 Wins"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Prowler Burst PDW Skin: Navigator"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": [
+        "Bangalore Stat Tracker : Season 1 Wins"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Apex Coins 50"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "XP Boost BP Point Boost [ note 1 ]"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_13": {
+      "premium": [
+        "Mirage Banner Frame : Funny Bones"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Longbow DMR Skin: Navigator"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker : Season 1 Wins"
+      ]
+    },
+    "level_15": {
+      "premium": [
+        "Legendary Hunt Themed Event Wraith Skin: Night Terror",
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_16": {
+      "premium": [
+        "Mirage Quip Intro Quip : It's opening season, gotta love it..."
+      ],
+      "free": [
+        "Caustic Stat Tracker : Season 1 Wins"
+      ]
+    },
+    "level_17": {
+      "premium": [
+        "Apex Coins 50"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Octane Banner Frame : Flight Risk"
+      ],
+      "free": [
+        "Mirage Stat Tracker : Season 1 Wins"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "M600 Spitfire Skin: Patchwork"
+      ],
+      "free": []
+    },
+    "level_20": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": [
+        "Lifeline Stat Tracker : Season 1 Wins"
+      ]
+    },
+    "level_21": {
+      "premium": [
+        "Apex Coins 50"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost BP Point Boost [ note 1 ]"
+      ],
+      "free": [
+        "Octane Stat Tracker : Season 1 Wins"
+      ]
+    },
+    "level_23": {
+      "premium": [
+        "Wraith Banner Frame : Silk Road"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Mozambique Shotgun Skin: Navigator"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Caustic Stat Tracker : Season 1 Damage Done"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Pathfinder Quip Intro Quip : It's the season opening"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Mirage Stat Tracker : Season 1 Kills"
+      ],
+      "free": [
+        "Bangalore Stat Tracker : Season 1 Damage Done"
+      ]
+    },
+    "level_29": {
+      "premium": [
+        "Kraber .50-Cal Sniper Skin: Harvest"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker : Season 1 Damage Done"
+      ]
+    },
+    "level_31": {
+      "premium": [
+        "Apex Coins 50"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "XP Boost BP Point Boost [ note 1 ]"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker : Season 1 Damage Done"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Pathfinder Stat Tracker : Season 1 Kills"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "EVA-8 Auto Skin: Patchwork"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Caustic Quip Intro Quip : Opening season. Very well"
+      ],
+      "free": [
+        "Lifeline Stat Tracker : Season 1 Damage Done"
+      ]
+    },
+    "level_37": {
+      "premium": [
+        "Apex Coins 50"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Caustic Stat Tracker : Season 1 Kills"
+      ],
+      "free": [
+        "Octane Stat Tracker : Season 1 Damage Done"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "VK-47 Flatline Skin: Navigator"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": [
+        "Wraith Stat Tracker : Season 1 Damage Done"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "Apex Coins 50"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "XP Boost BP Point Boost [ note 1 ]"
+      ],
+      "free": [
+        "Mirage Stat Tracker : Season 1 Damage Done"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Alternator SMG Skin: Patchwork"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker : Season 1 Damage Done"
+      ]
+    },
+    "level_45": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "Gibraltar Quip Intro Quip : It's opening season"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_47": {
+      "premium": [
+        "Apex Coins 50"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Gibraltar Stat Tracker : Season 1 Kills"
+      ],
+      "free": [
+        "Octane Skin: Messenger"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Peacekeeper Skin: Harvest"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_51": {
+      "premium": [
+        "Prowler Burst PDW Skin: Thrill of the Hunt"
+      ],
+      "free": []
+    },
+    "level_52": {
+      "premium": [
+        "XP Boost BP Point Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Devotion LMG Skin: Harvest"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_56": {
+      "premium": [
+        "Wraith Quip Intro Quip : It's opening season. Our path is set..."
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Octane Stat Tracker : Season 1 Kills"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Mastiff Shotgun Skin: Patchwork"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_61": {
+      "premium": [
+        "Lifeline Banner Frame : Pick Me Up"
+      ],
+      "free": []
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost BP Point Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_63": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_64": {
+      "premium": [
+        "P2020 Skin: Harvest"
+      ],
+      "free": []
+    },
+    "level_65": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_66": {
+      "premium": [
+        "Bloodhound Quip Intro Quip : Open season. May the gods bless us"
+      ],
+      "free": []
+    },
+    "level_67": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_68": {
+      "premium": [
+        "Lifeline Stat Tracker : Season 1 Kills"
+      ],
+      "free": []
+    },
+    "level_69": {
+      "premium": [
+        "HAVOC Rifle Skin: Patchwork"
+      ],
+      "free": []
+    },
+    "level_70": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_71": {
+      "premium": [
+        "Bloodhound Banner Frame : Knock Down"
+      ],
+      "free": []
+    },
+    "level_72": {
+      "premium": [
+        "XP Boost BP Point Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_73": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_74": {
+      "premium": [
+        "R-99 SMG Skin: Harvest"
+      ],
+      "free": []
+    },
+    "level_75": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_76": {
+      "premium": [
+        "Octane Quip Intro Quip : Season's open amigos"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_78": {
+      "premium": [
+        "Bangalore Stat Tracker : Season 1 Kills"
+      ],
+      "free": []
+    },
+    "level_79": {
+      "premium": [
+        "Wingman Skin: Navigator"
+      ],
+      "free": []
+    },
+    "level_80": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_81": {
+      "premium": [
+        "Gibraltar Banner Frame : Land of Giants"
+      ],
+      "free": []
+    },
+    "level_82": {
+      "premium": [
+        "XP Boost BP Point Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_83": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_84": {
+      "premium": [
+        "RE-45 Auto Skin: Patchwork"
+      ],
+      "free": []
+    },
+    "level_85": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_86": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_87": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_88": {
+      "premium": [
+        "Caustic Banner Frame : Slaughterhouse"
+      ],
+      "free": []
+    },
+    "level_89": {
+      "premium": [
+        "XP Boost BP Point Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_90": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_91": {
+      "premium": [
+        "Pathfinder Banner Frame : Building Bridges"
+      ],
+      "free": []
+    },
+    "level_92": {
+      "premium": [
+        "XP Boost BP Point Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_94": {
+      "premium": [
+        "G7 Scout Skin: Patchwork"
+      ],
+      "free": []
+    },
+    "level_95": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1"
+      ],
+      "free": []
+    },
+    "level_96": {
+      "premium": [
+        "Lifeline Quip Intro Quip : Open season. Let's go"
+      ],
+      "free": []
+    },
+    "level_97": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_98": {
+      "premium": [
+        "Bangalore Banner Frame : Sharpened Senses"
+      ],
+      "free": []
+    },
+    "level_99": {
+      "premium": [
+        "R-301 Carbine Skin: Harvest"
+      ],
+      "free": []
+    },
+    "level_100": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1",
+        "HAVOC Rifle Skin: The Silver Storm"
+      ],
+      "free": []
+    },
+    "level_110": {
+      "premium": [
+        "Badge : Wild Frontier Level Season 1",
+        "HAVOC Rifle Skin: The Golden Idol"
+      ],
+      "free": []
+    }
+  }
+}

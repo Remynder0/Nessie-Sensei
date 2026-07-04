@@ -1,0 +1,95 @@
+{
+  "name": "Alter",
+  "lore": {
+    "real_name": "YingLing Lui (雷盈灵)",
+    "age": "Unknown",
+    "home_world": "Unknown",
+    "gender": "Female",
+    "bio": "When Alter emerged from her dimension into another (with her past held close to the chest), she had only two things: her interdimensional traveling Void tech, and a desire to have fun. She stole the fanciest of foods, learned to fight through dicey situations, and took on odd jobs for personal favors–though she didn’t have a problem double-crossing her clients if it was more beneficial or amusing. Never needing to stick around for the consequences of her actions eroded any sense of morality or responsibility she had. She could focus on what was important: making sure life was never mundane.\nAlter was drawn to worlds on the edge of complete destruction. Whether something devastating was already happening or she helped usher in the apocalypse herself, she was there to watch whatever catastrophe ensued. It was only in those moments, after all, that people took off the masks they always wore and she could see their true selves.\nFinding these world-ending events was a toss up. Sometimes she’d find what she was looking for, and on others, she’d have missed the main event in worlds already ruined. But in some of these ruined worlds, Alter began to notice an interesting commonality…\nMany of these worlds hadn’t met their end by some random event; they had been destroyed by the same person.\n[Redacted]\n\nFor more information on Alter's story, see Alter (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Gift From The Rift",
+      "description": "Can remotely interact with a deathbox to claim one item. Cannot be a shield core.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Void Passage",
+      "description": "Creates a portal passageway through a surface.",
+      "cooldown": "25 seconds"
+    },
+    "ultimate": {
+      "name": "Void Nexus",
+      "description": "Create a regroup point that all allies can remotely interact with to open a phase tunnel back to that location.",
+      "cooldown": "2 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "May 5, 2026 Patch",
+      "details": [
+        "Void Passage:\nIncreased cooldown from 20s to 25s.",
+        "Void Nexus:\nDecreased range from 300m to 250m.\nIncreased recall time from 2s to 3s.\nIncreased ally recall time from 3s to 4s.\nDecreased chase portal open time from 6s to 4s.",
+        "Upgrades: Level 3\nVoid Breacher:\nDecreased movement speed from 30% to 15%."
+      ]
+    },
+    {
+      "patch": "October 7, 2025 Patch",
+      "details": [
+        "Can no longer use Void Nexus while knocked (but you can still summon knocked teammates).",
+        "Only 1 Void Nexus allowed in the world (was 2)."
+      ]
+    },
+    {
+      "patch": "July 17, 2025 Patch",
+      "details": [
+        "Void Nexus:\nIncreased time for knocked allies to use portal by 1s.\nIncreased chase portal open duration from 8s to 10s.\nDecreased warning time of portal from 3.5s to 2.5s",
+        "Upgrades: Level 2\nNEW Controller of Worlds: grants access to  Controller perks.\nFriends: removed."
+      ]
+    },
+    {
+      "patch": "June 24, 2025 Patch",
+      "details": [
+        "Chase portal usage warning delay reduced to 3.5s (was 5s)"
+      ]
+    },
+    {
+      "patch": "June 03, 2025 Patch",
+      "details": [
+        "Reduced the delay when following an enemy Alter's Ultimate portal from 8s -> 6s.",
+        "Increased Nexus re-activation delay from 30s -> 60s."
+      ]
+    },
+    {
+      "patch": "March 25, 2025 Patch",
+      "details": [
+        "Void Passage\nNow has two charges\nMaximum portal depth increased to 30m (was 20m)\nCooldown reduced to 20s (was 30s, Tac Cooldown+ upgrade integrated into base kit)\nHealth Bars shown on enemies after going through your own Void Passage (Void Vision upgrade integrated into base kit)\nMaximum length of Void Siphon (interactable rope with tactical portals) created from ceilings increased to 45m (was 30m)\nAlso now created when placing unreachable portals on walls with a maximum length of 20m\nPlacement preview now shows where a Void Siphon will be created, if there will be one\nVoid Passage briefly highlights enemies on the other side immediately after placement",
+        "Void Nexus\nNow reusable with each player having their own 30s cooldown\nTwo can be active in the world at the same time (integrated part of Multidimensional upgrade into base kit)\nInteract directly with a Void Nexus to 'summon' your knocked allies, and summoned allies can move and use their knockdown shield\nUlt is otherwise not interactable from a short distance, making it easier to revive a squadmate without accidentally triggering the Void Nexus",
+        "Gift From The Rift: can now grab Banners when using passive on a squadmate’s Death Box",
+        "Upgrades: Level 2\nRingmaster: removed\nVoid Vision: removed\nNEW “Friends”: gain all support perks (access Support Bins, faster revives with health regen, gain MRB with Banners (works with Gift from the Rift))\nNEW Eye to Another World: gain all Recon Perks (access Recon Beacons, gain threat vision when ADSing)",
+        "Upgrades: Level 3\nMultidimensional: removed\nTactical Cooldown+: removed\nNEW Void Breacher: using a friendly Void Passage grants move speed and improved reloads\nNEW Staring into the Void: Void Passage scan duration +15s for Alter (lasts duration of the Void Passage)\nNote: scan requires line of sight to enemy from the portal exit and to the portal entrance for Alter"
+      ]
+    },
+    {
+      "patch": "January 07, 2025 Patch",
+      "details": [
+        "Void Nexus\nCooldown reduced to 120s (was 180s)\nNo longer times out by default\nRange increased to 300m (was 200m)",
+        "Upgrades: Level 3\n Eternal Nexus: removed, moved into base kit\nNEW File:Multidimensional.svg Multidimensional: grants a second Void Nexus and both can exist at the same time",
+        "Loot in Death Boxes can now be pinged while using Alter’s  passive",
+        "Passive prompt should no longer show up without looking at a Death Box occasionally, including after respawning"
+      ]
+    },
+    {
+      "patch": "June 25, 2024 Patch",
+      "details": [
+        "Void Passage: Crypto's  Drone EMP will now affect all players phased by the Void Passage"
+      ]
+    },
+    {
+      "patch": "May 07, 2024 Patch",
+      "details": [
+        "Added."
+      ]
+    }
+  ]
+}

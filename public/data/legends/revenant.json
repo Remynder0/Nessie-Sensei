@@ -1,0 +1,208 @@
+{
+  "name": "Revenant",
+  "lore": {
+    "real_name": "Kaleb Cross[1]",
+    "age": "44 (as a human)[1]315 (as a simulacrum)359 (total)",
+    "home_world": "Unknown",
+    "gender": "Male",
+    "bio": "Revenant used to be human. He used to be the greatest hitman the Mercenary Syndicate ever had. He used to look in the mirror and see his human face looking back. But time changes everything, and when his programming finally failed, he saw what he had become at the hands of the Mercenary Syndicate and Hammond Robotics: a walking nightmare of steel and vestigial flesh. His masters resurrected him as a simulacrum, snatching him from death’s embrace again and again and programming him to forget.\nHe hunted down every last person who did this to him, but the last thing he wanted, he couldn't have: the sweet release of death. When Loba, a thief whose parents he'd murdered, came for her revenge, he nearly got what he wanted—but she kept him alive so he would continue to suffer. Adding insult to injury, Octane's megalomaniac father took possession of Revenant's human head, amassed an army of Revenant shells, then offered Revenant a partnership. In response, Revenant killed him and seized control of the army—and, for the first time in centuries, control of himself. While the army has not been seen since that day, Revenant continues to compete in the Apex Games, relishing his status as the most feared entity in the Outlands with no one pulling his strings."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Assassin's Instinct",
+      "description": "Highlights nearby visible enemies that are low on health. You crouch walk faster and have improved wall climbing.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Shadow Pounce",
+      "description": "Unleash a powerful pounce forwards. Hold to charge for further distance.",
+      "cooldown": "20 seconds"
+    },
+    "ultimate": {
+      "name": "Forged Shadows",
+      "description": "Forge a shroud of hardened shadows around you that block damage and regenerate. Knockdowns will start regenerating your shadows.",
+      "cooldown": "3 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "January 06, 2026 Patch",
+      "details": [
+        "Shadow Pounce:\nIncreased max charge duration from 1.3 to 1.7s.",
+        "Forged Shadows:\nIncreased activation time from 2.0 to 2.2s."
+      ]
+    },
+    {
+      "patch": "July 17, 2025 Patch",
+      "details": [
+        "Class changed to  Assault.",
+        "Shadow Pounce:\nMinimum Velocity increased from 700 to 800.\nMaximum Velocity increased from 1150 to 1400.\nImproved Ground Detection, making guns faster to reequip upon landing."
+      ]
+    },
+    {
+      "patch": "May 12, 2025 Patch",
+      "details": [
+        "Revenant is disabled temporarily because of  Forged Shadows's exploit was found."
+      ]
+    },
+    {
+      "patch": "March 25, 2025 Patch",
+      "details": [
+        "Assassin's Instinct: Allies now see the the low health tracking marker like Revenant.",
+        "Shadow Pounce:\nActivation time reduced by ~30%\nCooldown reduced to 20s (was 25s)",
+        "Forged Shadows: Ult Shield HP increased by 25.",
+        "Upgrades Level 2\nMurder Machine: removed\nNEW Try To Hide: doubles the duration of the passive mark when getting enemies to low health",
+        "Upgrades Level 3\nGrim Leaper: removed\nNEW Agile Assassin: reduces Shadow Pounce activation time and charge time by half\nTactical Cooldown: now reduces to 15s (was 20s)."
+      ]
+    },
+    {
+      "patch": "November 05, 2024 Patch",
+      "details": [
+        "Forged Shadows\nShield will now regen up to 50HP instead of instantly refreshing after a 3s delay"
+      ]
+    },
+    {
+      "patch": "September 17, 2024 Patch",
+      "details": [
+        "Forged Shadows\nReduced shield health to 50 (was 75)\nActivation time doubled"
+      ]
+    },
+    {
+      "patch": "June 25, 2024 Patch",
+      "details": [
+        "Upgrade - Grim Leaper: Tac will now refresh on BOTH knocks and assisted knocks within a 3s window"
+      ]
+    },
+    {
+      "patch": "March 26, 2024 Patch",
+      "details": [
+        "Forged in Shadows\nKnocks no longer refresh the Tactical during Ultimate\nTactical Cooldown is no longer shorter during Ultimate\nUltimate Cooldown Increased by 60s",
+        "Upgrades\nAgile Assassin: removed\nTactical Cooldown: moved to Level 3\nNew - Ultimate Cooldown: reduces Ult Cooldown by 30s"
+      ]
+    },
+    {
+      "patch": "September 19, 2023 Patch",
+      "details": [
+        "Forged Shadows\nReduced time extension from knocks from 10s to 5s.\nExtra damage to the shroud will bleedthrough to Revenant if it breaks.",
+        "Shadow Pounce\nSlightly increased pounce angle compensation when looking at the ground."
+      ]
+    },
+    {
+      "patch": "August 30, 2023 Patch",
+      "details": [
+        "Revenant can no longer damage his Forged Shadows with his own melee but will take damage from his own ordnance"
+      ]
+    },
+    {
+      "patch": "August 08, 2023 Patch",
+      "details": [
+        "Reworked:\nClass changed to  Skirmisher.\nNew passive ability:  Assassin's Instinct.\nNew tactical ability:  Shadow Pounce.\nNew ultimate ability:  Forged Shadows.\nUpdated Revenant's Legend select animation and healing animation."
+      ]
+    },
+    {
+      "patch": "August 09, 2022 Patch",
+      "details": [
+        "Death Totem will now show a placement preview when activated instead of placing immediately."
+      ]
+    },
+    {
+      "patch": "September 14, 2021 Patch",
+      "details": [
+        "Death Totem:\nAdded some visual effects to increase visibility for when a totem is placed nearby."
+      ]
+    },
+    {
+      "patch": "August 03, 2021 Patch",
+      "details": [
+        "Death Totem:\nAdded a visual and audio cue when Death Totem protection is about to end which can be seen/heard by other players.\nAdded a brief slow after being recalled."
+      ]
+    },
+    {
+      "patch": "July 19, 2021 Patch",
+      "details": [
+        "Fixed an issue where having  Revenant's Heirloom equipped would cause slides to not travel very far while healing."
+      ]
+    },
+    {
+      "patch": "June 29, 2021 Patch",
+      "details": [
+        "Slightly decreased hitbox size.",
+        "Stalker: Significantly increased climb height.",
+        "Silence: Duration decreased from 20 seconds to 15 seconds.",
+        "Death Totem: Duration reduced by 5 seconds."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "Silence: Now disables Mirage’s cloaked revive/respawn as well as Octane’s  Swift Mend."
+      ]
+    },
+    {
+      "patch": "January 05, 2021 Patch",
+      "details": [
+        "Death Totem:\nFixed an issue causing other players to teleport with Revenant if they punch Revenant when he has very little health.\nFixed an issue that didn’t allow Revenant to deploy the totem while on the Trident."
+      ]
+    },
+    {
+      "patch": "November 04, 2020 Patch",
+      "details": [
+        "Death Totem: Fixed an issue with Revenant getting pushed into geometry when his totem was deployed in tight spaces."
+      ]
+    },
+    {
+      "patch": "October 06, 2020 Patch",
+      "details": [
+        "Fixed an issue with the HUD of the Replicator staying on the screen when the totem effect wears off."
+      ]
+    },
+    {
+      "patch": "August 18, 2020 Patch",
+      "details": [
+        "Death Totem:\nFor 2 seconds after being recalled by the totem, players cannot use Wraith’s  Dimensional Rift.\nFixed an issue with enemies getting teleported with Revenant when they melee him before he teleports back to the totem."
+      ]
+    },
+    {
+      "patch": "June 30, 2020 Patch",
+      "details": [
+        "Death Totem: Fixed an issue where if death protection wears off during a revive, it cancels the revive."
+      ]
+    },
+    {
+      "patch": "June 23, 2020 Patch",
+      "details": [
+        "Silence:\nWill now cancel:\nPathfinder mid-grapple\nWraith mid- Into the Void attempt (before it activates).\nWill now prevent:\nMirage cloaked revive and decoy control activation.\nLifeline  Combat Revive.\nFixed an issue with the audio of the ability cutting off halfway through its playback.",
+        "Death Totem:\nRange removed.\nFixed an issue with the totem not being rendered from over 200 meters.\nNew health bar for when players are in Death Protection."
+      ]
+    },
+    {
+      "patch": "May 12, 2020 Patch",
+      "details": [
+        "Death Totem: Fixed an issue with it being visible through smoke or gas.",
+        "Adjusted hitbox for his crouch area."
+      ]
+    },
+    {
+      "patch": "April 07, 2020 Patch",
+      "details": [
+        "Silence:\nIncreased duration of status effect from 10 seconds to 20 seconds.\nNow disables Gibraltar’s  Gun Shield.\nIncreased the duration of area of effect from 5 seconds to 10 seconds.\nNow has 2 charges.\nFixed bug where sometimes players would lose aim assist after being hit with the ability.",
+        "Death Totem:\nCharacters are now respawned with 50 health (or whatever health they had when they activated it, if lower) instead of 1.\nFixed bug for cases when Revenant places the totem on the train, a player is respawned to it while on the train, and the train is moving, the player could be respawned somewhere else on the map or even off the map.\nFixed bug for cases where players that were under Revenant’s Death Protection could still be healed by Lifeline’s  D.O.C. Heal Drone and Wattson’s  Interception Pylon.",
+        "Removed  Low Profile.",
+        "Fixed issue where sometimes players could hear and in rare cases, be hit by Revenant’s abilities while in the Firing Range when he’s not there."
+      ]
+    },
+    {
+      "patch": "March 03, 2020 Patch",
+      "details": [
+        "Silence: Fixed getting assist credit when placing the ability on a player who is downed.",
+        "Death Totem:\nFor cases where sometimes the totem could be destroyed or disabled when placed too close to some geometry, it will now be refunded back to the player at full charge when this happens.\nFixed a bug where if players were respawned while spectating someone under Revenant's death protection, they would return in that state permanently and unable to use healing items."
+      ]
+    },
+    {
+      "patch": "February 04, 2020 Patch",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
+}

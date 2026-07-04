@@ -1,0 +1,544 @@
+{
+    "Legends": [
+        {
+            "Name": "Valkyrie",
+            "Class": "recon",
+            "stats": {
+                "scanning": 2,
+                "map_info": 5,
+                "control": 4,
+                "repositioning": 8,
+                "mobility": 6,
+                "damage": 4,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Crypto",
+            "Class": "recon",
+            "stats": {
+                "scanning": 7,
+                "map_info": 7,
+                "control": 7,
+                "repositioning": 0,
+                "mobility": 2,
+                "damage": 5,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Pathfinder",
+            "Class": "skirmisher",
+            "stats": {
+                "scanning": 0,
+                "map_info": 2,
+                "control": 0,
+                "repositioning": 6,
+                "mobility": 9,
+                "damage": 0,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Wraith",
+            "Class": "skirmisher",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 0,
+                "repositioning": 7,
+                "mobility": 7,
+                "damage": 0,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Bloodhound",
+            "Class": "recon",
+            "stats": {
+                "scanning": 8,
+                "map_info": 4,
+                "control": 0,
+                "repositioning": 0,
+                "mobility": 2,
+                "damage": 0,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 5
+            }
+        },
+        {
+            "Name": "Gibraltar",
+            "Class": "support",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 3,
+                "repositioning": 0,
+                "mobility": 3,
+                "damage": 6,
+                "shield": 8,
+                "healing": 6,
+                "barrier": 2,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Lifeline",
+            "Class": "support",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 0,
+                "repositioning": 0,
+                "mobility": 2,
+                "damage": 0,
+                "shield": 5,
+                "healing": 10,
+                "barrier": 0,
+                "looting": 2,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Horizon",
+            "Class": "skirmisher",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 8,
+                "repositioning": 0,
+                "mobility": 5,
+                "damage": 0,
+                "shield": 0,
+                "healing": 1,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Fuse",
+            "Class": "assault",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 0,
+                "repositioning": 0,
+                "mobility": 6,
+                "damage": 9,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 2,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Revenant",
+            "Class": "skirmisher",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 0,
+                "repositioning": 0,
+                "mobility": 6,
+                "damage": 0,
+                "shield": 5,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Loba",
+            "Class": "support",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 0,
+                "repositioning": 0,
+                "mobility": 6,
+                "damage": 0,
+                "shield": 0,
+                "healing": 2,
+                "barrier": 0,
+                "looting": 10,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Rampart",
+            "Class": "controller",
+            "stats": {
+                "scanning": 0,
+                "map_info": 2,
+                "control": 0,
+                "repositioning": 0,
+                "mobility": 2,
+                "damage": 7,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 8,
+                "looting": 0,
+                "boost": 3
+            }
+        },
+        {
+            "Name": "Alter",
+            "Class": "skirmisher",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 2,
+                "repositioning": 8,
+                "mobility": 4,
+                "damage": 0,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 3,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Vantage",
+            "Class": "recon",
+            "stats": {
+                "scanning": 2,
+                "map_info": 5,
+                "control": 0,
+                "repositioning": 0,
+                "mobility": 7,
+                "damage": 7,
+                "shield": 1,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 2
+            }
+        },
+        {
+            "Name": "Ballistic",
+            "Class": "assault", 
+            "stats": {
+                "scanning": 0,
+                "map_info": 1,
+                "control": 4,
+                "repositioning": 0,
+                "mobility": 0,
+                "damage": 6,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 2,
+                "boost": 8
+            }
+        },
+        {
+            "Name": "Mad Maggie",
+            "Class": "assault",
+            "stats": {
+                "scanning": 1,
+                "map_info": 0,
+                "control": 5,
+                "repositioning": 3,
+                "mobility": 5,
+                "damage": 8,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 2,
+                "boost": 3
+            }
+        },
+        {
+            "Name": "Newcastle",
+            "Class": "support",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 3,
+                "repositioning": 0,
+                "mobility": 0,
+                "damage": 1,
+                "shield": 8,
+                "healing": 7,
+                "barrier": 5,
+                "looting": 2,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Ash",
+            "Class": "skirmisher",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 4,
+                "repositioning": 6,
+                "mobility": 5,
+                "damage": 2,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Seer",
+            "Class": "recon",
+            "stats": {
+                "scanning": 6,
+                "map_info": 2,
+                "control": 6,
+                "repositioning": 0,
+                "mobility": 1,
+                "damage": 0,
+                "shield": 0,
+                "healing": 1,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Sparrow",
+            "Class": "recon",
+            "stats": {
+                "scanning": 6,
+                "map_info": 9,
+                "control": 5,
+                "repositioning": 0,
+                "mobility": 4,
+                "damage": 4,
+                "shield": 0,
+                "healing": 1,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Wattson",
+            "Class": "controller",
+            "stats": {
+                "scanning": 0,
+                "map_info": 3,
+                "control": 3,
+                "repositioning": 0,
+                "mobility": 0,
+                "damage": 4,
+                "shield": 2,
+                "healing": 4,
+                "barrier": 8,
+                "looting": 1,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Catalyst",
+            "Class": "controller",
+            "stats": {
+                "scanning": 0,
+                "map_info": 3,
+                "control": 5,
+                "repositioning": 0,
+                "mobility": 0,
+                "damage": 3,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 8,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Caustic",
+            "Class": "controller",
+            "stats": {
+                "scanning": 0,
+                "map_info": 3,
+                "control": 3,
+                "repositioning": 0,
+                "mobility": 0,
+                "damage": 6,
+                "shield": 0,
+                "healing": 1,
+                "barrier": 8,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Octane",
+            "Class": "skirmisher",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 0,
+                "repositioning": 6,
+                "mobility": 8,
+                "damage": 0,
+                "shield": 0,
+                "healing": 1,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Bangalore",
+            "Class": "assault",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 6,
+                "repositioning": 0,
+                "mobility": 2,
+                "damage": 5,
+                "shield": 0,
+                "healing": 1,
+                "barrier": 6,
+                "looting": 2,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Axle",
+            "Class": "skirmisher",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 6,
+                "repositioning": 4,
+                "mobility": 7,
+                "damage": 0,
+                "shield": 0,
+                "healing": 0,
+                "barrier": 0,
+                "looting": 0,
+                "boost": 0
+            }
+        },
+        {            
+            "Name": "Mirage",
+            "Class": "support",
+            "stats": {
+                "scanning": 1,
+                "map_info": 2,
+                "control": 0,
+                "repositioning": 0,
+                "mobility": 0,
+                "damage": 0,
+                "shield": 0,
+                "healing": 3,
+                "barrier": 0,
+                "looting": 5,
+                "boost": 0
+            }
+        },
+        {
+            "Name": "Conduit",
+            "Class": "support",
+            "stats": {
+                "scanning": 0,
+                "map_info": 0,
+                "control": 5,
+                "repositioning": 0,
+                "mobility": 1,
+                "damage": 2,
+                "shield": 0,
+                "healing": 4,
+                "barrier": 0,
+                "looting": 2,
+                "boost": 0
+            }
+        }
+    ],
+    "SPECIAL_SYNERGIES": [
+        {
+            "legends":    ["Seer", "Catalyst"],
+            "name":        "Black Dome",
+            "description": "L'ult de Catalyst aveugle tout le monde, l'ult de Seer rend la vision à l'équipe."
+        },
+        {
+            "legends":     ["Gibraltar", "Valkyrie"],
+            "name":        "Bubble Butt",
+            "description": "Le dôme de Gibraltar protège le décollage de Valkyrie et empêche le cancel de son ult."
+        },
+        {
+            "legends":     ["Mirage", "Caustic"],
+            "name":        "the Genius and the Idiot",
+            "description": "La facilité d'accès au point d'evo de Mirage permet de rapidement evolve Caustic."
+        },
+        {
+            "legends":     ["Bloodhound", "Alter"],
+            "name":        "a Wall ?",
+            "description": "le scan de Bloodhound permet à Alter de voir l'arrivée de sa traversée."
+        },
+        {
+            "legends":     ["Mad Maggie", "Fuse"],
+            "name":        "Salvo Duo",
+            "description": "just go boom."
+        },
+        {
+            "legends":     ["Wraith", "Wattson","Gibraltar"],
+            "name":        "GOAT",
+            "description": "La compo goat de la S5."
+        },
+        {
+            "legends":     ["Caustic", "Wattson"],
+            "name":        "Let's go Bunker",
+            "description": "S2 tu drop bunker et cela devient ton domaine."
+        },
+        {
+            "legends":     ["Wattson", "Alter"],
+            "name":        "The Bait",
+            "description": "Alter pose son point de repli dans les fences de Wattson, et va bait les enemis."
+        }
+    ],
+    "ANTI_SYNERGIES": [
+        {
+            "legends": ["Sparrow", "Wattson"],
+            "name": "Ult Destroyed",
+            "description": "L'ultime de Wattson détruit l'ultime de Sparrow."
+        },
+        {
+            "legends": ["Fuse", "Wattson"],
+            "name": "Nades Denied",
+            "description": "L'ultime de Wattson intercepte le tactique et les grenades de Fuse."
+        },
+        {
+            "legends": ["Valkyrie", "Wattson"],
+            "name": "Missile Swarm Denied",
+            "description": "L'ultime de Wattson intercepte le tactique de Valkyrie."
+        },
+        {
+            "legends": ["Crypto", "Bangalore"],
+            "name": "Scan Blocked",
+            "description": "La fumigène de Bangalore bloque la ligne de vue du drone de Crypto, empêchant les scans."
+        }
+    ]
+}

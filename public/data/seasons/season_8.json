@@ -1,0 +1,738 @@
+{
+  "season": "8",
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "VK-47 Flatline Skin: Chained Beast",
+        "Gibraltar Skin: Gate Keeper",
+        "Loba Skin: Boundless Envy",
+        "Fuse Skin: Art of War",
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Fuse Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_2": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Mozambique Shotgun Skin: Daisy Cutter"
+      ]
+    },
+    "level_3": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Music Pack : Mayhem"
+      ]
+    },
+    "level_4": {
+      "premium": [
+        "Lifeline Holo-Spray : Let's Rumble"
+      ],
+      "free": [
+        "Loading Screen : [Insert Mourning Here]"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Loading Screen : Tickets, Please"
+      ],
+      "free": [
+        "Wattson Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Music Pack : Fuse"
+      ],
+      "free": [
+        "Crypto Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "30-30 Repeater skin: Petal Power"
+      ],
+      "free": [
+        "Sentinel skin: Clobberstone"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Wattson Banner Frame : Flying Colors"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Gibraltar Holo-Spray : I'm Ready, Are You?"
+      ],
+      "free": [
+        "Wattson Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_12": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Crypto Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Loba Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_15": {
+      "premium": [
+        "Loba Quip Kill Quip : How kind of you to roll the red carpet"
+      ],
+      "free": [
+        "Caustic Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Caustic Banner Frame : Gas Powered"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_17": {
+      "premium": [
+        "Alternator SMG skin: Fragmentation"
+      ],
+      "free": [
+        "VK-47 Flatline Skin: AfterShock"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Caustic Quip Kill Quip : The final evidence that you are not special"
+      ],
+      "free": [
+        "Loba Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Loba Holo-Spray : Big Bad Wolf"
+      ],
+      "free": [
+        "Caustic Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_21": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Bangalore Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_23": {
+      "premium": [
+        "G7 Scout skin: Pushing Daisies"
+      ],
+      "free": [
+        "Revenant Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Loading Screen : Strong-Arming"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Bangalore Skin: Radical Action"
+      ],
+      "free": [
+        "Longbow DMR skin: Triangulation"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "Charm Weapon Charm : Ambassador of Boom"
+      ],
+      "free": [
+        "Bangalore Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Bangalore Banner Frame : Danger Close"
+      ],
+      "free": [
+        "Revenant Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_29": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Fuse Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_31": {
+      "premium": [
+        "Devotion LMG skin: Whirlwind"
+      ],
+      "free": [
+        "Mirage Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Rampart Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Mirage Quip Kill Quip : You got BLAM-boozled"
+      ],
+      "free": [
+        "Fuse Banner Frame : Salvation of Salvo"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "Rampart Holo-Spray : Live Today, Die Tomorrow"
+      ],
+      "free": [
+        "Fuse Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Pathfinder Banner Frame : Robo-Lisk"
+      ],
+      "free": [
+        "Mirage Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Rampart Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_37": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Wraith Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Horizon Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Revenant Holo-Spray : Obey"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "EVA-8 Auto skin: Doppler Effect"
+      ],
+      "free": [
+        "L-STAR EMG skin: Heat Exchange"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "Octane Quip Kill Quip : If it makes you feel better, my fans love you"
+      ],
+      "free": [
+        "Wraith Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Octane Banner Frame : Admiral Acceleration"
+      ],
+      "free": [
+        "Horizon Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "HAVOC Rifle skin: Pulse Flux"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Lifeline Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_47": {
+      "premium": [
+        "RE-45 Auto skin: Cyanide"
+      ],
+      "free": [
+        "Octane Stat Tracker : Season 8 Kills"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Lifeline Holo-Spray : Smoking Kills"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "Charm Weapon Charm : Watch Your Step"
+      ],
+      "free": [
+        "Prowler Burst PDW skin: Jagged Lines"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Lifeline Skin: Bad to the Bone"
+      ],
+      "free": [
+        "Lifeline Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Lifeline Skydive Emote : Bringin' The Beat Down"
+      ],
+      "free": [
+        "Octane Stat Tracker : Season 8 Wins"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Kraber .50-Cal Sniper skin: Heatstroke"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Octane skin: Wicked Intent"
+      ]
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Loading Screen : The Freedom of Salvo"
+      ],
+      "free": []
+    },
+    "level_56": {
+      "premium": [
+        "Charge Rifle skin: Dead Eye"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Gibraltar Quip Kill Quip : Get buff, and maybe you'll stand a chance"
+      ],
+      "free": [
+        "Mastiff Shotgun skin: Under the Microscope"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Gibraltar Banner Frame : Fight With Honor"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Gibraltar Holo-Spray : You're Next, Bruddah"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_61": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_63": {
+      "premium": [
+        "Pathfinder Skydive Emote : Swing and A Miss"
+      ],
+      "free": []
+    },
+    "level_64": {
+      "premium": [
+        "Pathfinder Quip Kill Quip : Oops. I killed you on purpose"
+      ],
+      "free": []
+    },
+    "level_65": {
+      "premium": [
+        "Loading Screen : Chaos & Love (Ode to Boone)"
+      ],
+      "free": [
+        "Hemlok Burst AR skin: Chevron Check"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Rampart Holo-Spray : Surprise Attack"
+      ],
+      "free": []
+    },
+    "level_67": {
+      "premium": [
+        "Charm Weapon Charm : Handle With Care"
+      ],
+      "free": []
+    },
+    "level_68": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_69": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Fuse Skydive Emote : Stage Dive"
+      ]
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": []
+    },
+    "level_71": {
+      "premium": [
+        "Lifeline Banner Frame : Leader of the Pack"
+      ],
+      "free": []
+    },
+    "level_72": {
+      "premium": [
+        "P2020 skin: Target Acquired"
+      ],
+      "free": []
+    },
+    "level_73": {
+      "premium": [
+        "Loading Screen : No Guts, No Glory"
+      ],
+      "free": [
+        "R-301 Carbine skin: Pure Fusion"
+      ]
+    },
+    "level_74": {
+      "premium": [
+        "Loba Holo-Spray : Time To Break Some Hearts"
+      ],
+      "free": []
+    },
+    "level_75": {
+      "premium": [
+        "Charm Weapon Charm : Dangerous Waters"
+      ],
+      "free": []
+    },
+    "level_76": {
+      "premium": [
+        "Volt SMG skin: Blue Devil"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Fuse Quip Kill Quip : Bloody hell, you look like bloody hell"
+      ]
+    },
+    "level_78": {
+      "premium": [
+        "Wraith Quip Kill Quip : Tell death I said 'Hello'"
+      ],
+      "free": []
+    },
+    "level_79": {
+      "premium": [
+        "Triple Take skin: Snake Eyes"
+      ],
+      "free": []
+    },
+    "level_80": {
+      "premium": [
+        "Charm Weapon Charm : Bring The Noise"
+      ],
+      "free": []
+    },
+    "level_81": {
+      "premium": [
+        "Loading Screen : One Up, One Down"
+      ],
+      "free": [
+        "R-99 SMG skin: Targeting System"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "Revenant Quip Kill Quip : We all kill. I just really, really enjoy it"
+      ],
+      "free": []
+    },
+    "level_83": {
+      "premium": [
+        "Wraith Skydive Emote : Perpetual Motion"
+      ],
+      "free": []
+    },
+    "level_84": {
+      "premium": [
+        "Wraith Banner Frame : Ritual Knives"
+      ],
+      "free": []
+    },
+    "level_85": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Peacekeeper skin: Bubble Burster"
+      ]
+    },
+    "level_86": {
+      "premium": [
+        "Loading Screen : Tea For Two"
+      ],
+      "free": []
+    },
+    "level_87": {
+      "premium": [
+        "Rampart Quip Kill Quip : You gotta love what you do"
+      ],
+      "free": []
+    },
+    "level_88": {
+      "premium": [
+        "M600 Spitfire skin: Tangerine Dreams"
+      ],
+      "free": []
+    },
+    "level_89": {
+      "premium": [
+        "Horizon Quip Kill Quip : Didn't understand the gravity of the situation"
+      ],
+      "free": []
+    },
+    "level_90": {
+      "premium": [
+        "Revenant Holo-Spray : Bored To Death"
+      ],
+      "free": []
+    },
+    "level_91": {
+      "premium": [
+        "Revenant Banner Frame : Rest In Pieces"
+      ],
+      "free": []
+    },
+    "level_92": {
+      "premium": [
+        "Horizon Skydive Emote : Black Swan Dive"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Wingman skin: Nightshade"
+      ]
+    },
+    "level_94": {
+      "premium": [
+        "Loading Screen : Full Potential"
+      ],
+      "free": []
+    },
+    "level_95": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_96": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_97": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_98": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_99": {
+      "premium": [
+        "30-30 Repeater Skin: Wings of Salvo"
+      ],
+      "free": [
+        "Loading Screen : Ship Happens"
+      ]
+    },
+    "level_100": {
+      "premium": [
+        "Longbow DMR Skin: DMR X-1"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "Longbow DMR Skin: Blinding Light"
+      ],
+      "free": [
+        "Badge : Mayhem Level Season 8 Badge"
+      ]
+    }
+  }
+}

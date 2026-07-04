@@ -1,0 +1,79 @@
+{
+  "name": "Catalyst",
+  "lore": {
+    "real_name": "Tressa Crystal Smith",
+    "age": "30",
+    "home_world": "Boreas",
+    "gender": "Female",
+    "bio": "Tressa Crystal Smith isn’t everyone’s cup of tea–an elegant, standoffish woman, she likes crystals more than she likes most people. She grew up on Boreas, a faltering planet with a deteriorating moon. Conformity and efficiency were necessities there, but that never suited Tressa. Instead, she was more at home with fellow misfits who spent their time on crystal readings, moon rituals and personal witchery–they made her turbulent teenage years (and simultaneous gender transition) easier and less lonely. But when her closest friend went to extreme lengths to save their moon from corporate encroachment, Tressa was caught in the middle. Ultimately, she ran away from home, finding solace in the one place her friend cared about most: their moon, Cleo.\nThere she joined the terraforming crews hired to repair and rejuvenate the celestial body. She learned to work with ferrofluid, and use it with a certain witchy flair. She grew attached to her new community and, when the heat on Boreas died down, brought some of her old friends back into the fold. She found a place to call her own–just in time for the Apex Games to arrive and sweep it out from under her new family. But Catalyst won’t disappear so easily. If the Games are going to get in her way, she’s going to turn them to her advantage, putting the prize money to use supporting her family. She sees a win in her future, and she’ll rise to the occasion.\n\nFor more information on Catalyst's story, see Catalyst (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Barricade",
+      "description": "Reinforce doors, strengthening them and locking them to enemies. Spaces where doors have been destroyed can also be reinforced.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Piercing Spikes",
+      "description": "Throw out a patch of ferrofluid which turns in to spikes when enemies are near. Catalyst remains immune to enemy spikes.",
+      "cooldown": "20 seconds"
+    },
+    "ultimate": {
+      "name": "Dark Veil",
+      "description": "Raise a permeable wall of ferrofluid. Enemies who walk through it will be slowed and partially blinded for a brief time.",
+      "cooldown": "2.5 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "February 10, 2026 Patch",
+      "details": [
+        "Passive\nCan now reinforce up to 4 doors (was 2)",
+        "Tactical\nFlattened the trajectory, slightly lowered the pitch, and increased the overall range\nIncreased size by roughly 50%\nReduced the delay before spikes can deal damage (was 2s, now 1s)\nCan now have 3 traps maximum (was 2)\nActivation radius reduced by 20%\nThis is how close you have to be before the spikes stand up and the core is vulnerable",
+        "Ultimate\nYou can now toggle to deploy the ultimate horizontally\nLength increased by 5m\nThe wall can now build up through standard doors, Lifeline’s  D.O.C. Halo, and Gibraltar’s  Dome of Protection.\nCan now be placed on steeper angles\nReduced Dark Veil duration when enemies walk through (was 7s, now 5s)",
+        "Upgrades\nLevel 2\nHidden Spikes: The spike pool is now hidden to enemies while inactive\nSole Piercer: Spike traps activate 50% faster and deal 5 more damage per hit\nRemoved Sister Spikes and Long Veil"
+      ]
+    },
+    {
+      "patch": "May 07, 2024 Patch",
+      "details": [
+        "Piercing Spikes\nCooldown decreased to 20s (was 25s)\nLong Cast upgrade integrated into base Tactical",
+        "Dark Veil\nDark Veil length increased to 45m (was 40m)",
+        "Upgrades\nLong Cast: removed\nLong Veil: moved to Level 2\nNEW Ferro-Door: fully rebuild and reinforce missing doors with Passive."
+      ]
+    },
+    {
+      "patch": "February 13, 2024 Patch",
+      "details": [
+        "Dark Veil\nLifetime decreased to 15s (was 25s)\nLength decreased to 40m (was 55m)"
+      ]
+    },
+    {
+      "patch": "January 09, 2024 Patch",
+      "details": [
+        "Piercing Spikes\nNow require line-of-sight to an enemy player to activate.\nSpikes that have not been activated will still slow players."
+      ]
+    },
+    {
+      "patch": "October 31, 2023 Patch",
+      "details": [
+        "Piercing Spikes\nCore no longer blocks projectiles, allowing bullets to pass through\nMax in-world count reduced to 2 (was 3)\nThrow range decreased by about 50%",
+        "Dark Veil\nCooldown now starts after the wall comes down\nReduced lifetime to 25s (was 30s)"
+      ]
+    },
+    {
+      "patch": "November 30, 2022 Patch",
+      "details": [
+        "While in Phase, Wraith will now see doors sealed by Catalyst's  passive.",
+        "While in Phase, Wraith will not be affected by Catalyst's ferrofluid.",
+        "Crypto's  drone will no longer be able to open doors sealed by Catalyst's  passive."
+      ]
+    },
+    {
+      "patch": "November 01, 2022 Patch",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
+}

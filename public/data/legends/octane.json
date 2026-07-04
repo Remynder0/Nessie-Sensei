@@ -1,0 +1,206 @@
+{
+  "name": "Octane",
+  "lore": {
+    "real_name": "Octavio Silva",
+    "age": "26",
+    "home_world": "Psamathe",
+    "gender": "Male",
+    "bio": "One day, Octavio Silva was bored. In fact, he was bored most days. Son of the preoccupied CEO of Silva Pharmaceuticals, he wanted for nothing in life and entertained himself by performing death-defying stunts and posting holovids for his fans to gawk over. On this day, he decided to set the course record for a nearby Gauntlet by launching himself across the finish line – using a grenade.\nAs he lay in triage hours later, the doctors informed him that the damage done to his legs meant his daredevil days were over. That didn’t sit well with Octavio, who turned to an old friend for help: Ajay Che, who he guilted into forging an order to replace his legs with bionic ones. Suddenly able to repair his limbs at a moment’s notice, Octavio decided petty online stunts weren’t enough: the ultimate adrenaline rush, the Apex Games, was calling.\nSince then, Octane's world has gotten a little more complicated - his CEO father is now head of the Syndicate and, by extension, the Apex Games. Also, he may be plotting something pretty bad behind the scenes, and is maybe kind of not Octane's real dad? But that's just boring in a different, more uncomfortable way! Nothing matters more to Octane than becoming an Apex Champion by doing the most incredible, death-defying moves anyone's ever seen. In the ring, his problems can't catch him - he's too fast.\n\nFor more information on Octane's story, see Octane (character)."
+  },
+  "abilities": {
+    "passive": {
+      "name": "Swift Mend",
+      "description": "Automatically restores health over time.",
+      "cooldown": ""
+    },
+    "tactical": {
+      "name": "Stim",
+      "description": "Increase walk speed by 30% and sprint speed by 40% for 6 seconds. Costs Health to use. Reduction to slows while active.",
+      "cooldown": "0.7 seconds"
+    },
+    "ultimate": {
+      "name": "Launch Pad",
+      "description": "Deploy a jump pad that catapults anyone through the air. Press the jump button to double jump.",
+      "cooldown": "1.5 minutes"
+    }
+  },
+  "patch_history": [
+    {
+      "patch": "April 01, 2026 Patch",
+      "details": [
+        "Removed Fast Reloads from Daredevil.",
+        "Increased max time extension for Stim Surge to 6s for Daredevil.",
+        "Reduced Thick Skin to -5 HP instead of -10.",
+        "(Undocumented) Increased Stim Surge cooldown from 20s to 26s."
+      ]
+    },
+    {
+      "patch": "February 24, 2026 Patch",
+      "details": [
+        "Stim\nRemoved 'Fortified' from Stim Surge\nReduced the speed boost given by Stim"
+      ]
+    },
+    {
+      "patch": "January 24, 2026 Patch",
+      "details": [
+        "Swift Mend\nReduced Swift Mend max healing from 9 to 6\nReduced Swift Mend min healing from 3 to 2"
+      ]
+    },
+    {
+      "patch": "January 06, 2026 Patch",
+      "details": [
+        "Swift Mend\nSwift Mend now heals more the less HP you have.\nSwift Mend base healing increased from 1.5 HPS to 3.0 HPS\nSwift Mend max healing heals for 9 HPS",
+        "Stim\nAdded Stim Surge ability.\nWhile stimmed, Octane can sprint and use consumables.\nReduce the time before Octane can reuse his Stim from 1.8s to 0.7s\nStim speed increased by 5%",
+        "Template:Ability Link\nIncorporated Mad Hops and Aerial Agility into the base kit.\nJumpPad now has two charges.\nJumpPad has improved handling when double jumping.\nJumpPads are useable immediately after hitting the ground.",
+        "Four new upgrades to replace all the base upgrades.\nThick Skin: Stim costs 10 less health to use.\nSquad Rush: Everyone who uses your JumpPad gains Stim on land.\nDaredevil: Gain fast reload on shield cracks and increase Stim Surge duration the less HP you have.\nTriple Jump: Gain a third jump from JumpPads."
+      ]
+    },
+    {
+      "patch": "May 07, 2024 Patch",
+      "details": [
+        "Upgrades\nWreckless: removed\nMad Hops moved to Level 2\nThick Skin: now Level 2 and 3, updated to take 5 less Stim damage to reflect that it can be selected twice (was -25%)"
+      ]
+    },
+    {
+      "patch": "March 26, 2024 Patch",
+      "details": [
+        "Upgrade - Wreckless: explosive damage is now reduced by 50% (was 25%)"
+      ]
+    },
+    {
+      "patch": "September 14, 2021 Patch",
+      "details": [
+        "Swift Mend: Reduced healing rate from 1.5 to 1.0 hp/sec.",
+        "Launch Pad: Reduced jump pad horizontal distance by 10% - 15%."
+      ]
+    },
+    {
+      "patch": "June 29, 2021 Patch",
+      "details": [
+        "Launch Pad: Increased cooldown from 60s to 90s."
+      ]
+    },
+    {
+      "patch": "May 04, 2021 Patch",
+      "details": [
+        "Stim:\nReduced cooldown between stims from 4s to 1s.\nIncreased health cost from 12hp to 20hp.",
+        "Launch Pad:\nIncreased bullet spread while in the air and shooting from the low launch pad trajectory.\nGrenades will no longer get stuck and disappear when being bounced off of launch pads.\n Death Totems will no longer bounce when a Jump Pad is placed under it.\nPlayers will no longer have weapons drawn if they are knocked as they enter the ring at Pathfinder's Fight Night via a Jump Pad.",
+        "Updated his Fidget Spinner  Skydive Emote to correctly remove his leg for which he is using it to do the helicoptering."
+      ]
+    },
+    {
+      "patch": "March 15, 2021 Patch",
+      "details": [
+        "Fixed an issue with the Fidget Spinner  Skydive Emote preview not being present when inspected on  Xbox One."
+      ]
+    },
+    {
+      "patch": "March 09, 2021 Patch",
+      "details": [
+        "Launch Pad:\nRepeatedly using the same jump pad no longer disables double-jumps.\nPlayers can no longer “glide” along a wall after using it.",
+        "Swift Mend:\nNow disabled if silenced by Revenant."
+      ]
+    },
+    {
+      "patch": "February 02, 2021 Patch",
+      "details": [
+        "Launch Pad:\nHitting the jump pad from a standing position will launch players along a high arc (the speed and trajectory of the old super-jump).\nFrom a crouched position, players will launch along a low arc, meaning they'll fly lower but farther in the horizontal direction."
+      ]
+    },
+    {
+      "patch": "January 07, 2021 Patch",
+      "details": [
+        "Launch Pad: Fixed an issue with it preventing players from jumping."
+      ]
+    },
+    {
+      "patch": "November 04, 2020 Patch",
+      "details": [
+        "Swift Mend: Tripled healing rate (from 0.5 hp/s to 1.5 hp/s).\nNOTE: The Patch Notes says doubled, but in actuality, it got tripled."
+      ]
+    },
+    {
+      "patch": "October 06, 2020 Patch",
+      "details": [
+        "Fixed a visual issue that removed Revenant’s shadow form from a player after jumping off an Octane Jump Pad.",
+        "Fixed an issue with the Jump Pad clipping into the ground in certain areas.",
+        "[Undocumented] No longer able to drop Holo-Sprays while using  Stim."
+      ]
+    },
+    {
+      "patch": "August 18, 2020 Patch",
+      "details": [
+        "Stim: Now able to use while healing, but not removing the incurred slowness."
+      ]
+    },
+    {
+      "patch": "June 30, 2020 Patch",
+      "details": [
+        "Stim: No longer able to use it while healing.",
+        "Swift Mend: Fixed an issue with the regen being delayed after the use of  Stim.",
+        "Fixed issues with being pulled out of ADS, weapon firing stopping when  Stim ends/landing from a  Launch Pad."
+      ]
+    },
+    {
+      "patch": "June 25, 2020 Patch",
+      "details": [
+        "Stim: Updated ability text."
+      ]
+    },
+    {
+      "patch": "June 23, 2020 Patch",
+      "details": [
+        "Stim:\nNow removes speed impairing effects when activated.\nSprinting speed is increased from 30% to 40%.\n[Undocumented] Increased HP cost from 10 to 12.",
+        "Launch Pad:\nPlayers can now double jump and change direction easily in mid-air.\nFixed an issue with the pads “deleting” other Legends' abilities.\nFixed an issue with the pads disappearing when other legend’s tactical interacts with it.\nFixed an issue with the pads falling through the floor on supply ships."
+      ]
+    },
+    {
+      "patch": "May 12, 2020 Patch",
+      "details": [
+        "Launch Pad: Cooldown reduced from 90 seconds to 60 seconds."
+      ]
+    },
+    {
+      "patch": "October 01, 2019 Patch",
+      "details": [
+        "Stim: Fixed an issue with FoV scaling messing up ADS aim sensitivity."
+      ]
+    },
+    {
+      "patch": "August 13, 2019 Patch",
+      "details": [
+        "Launch Pad: Fixed bug where sometimes the launch pad would not launch the player."
+      ]
+    },
+    {
+      "patch": "July 02, 2019 Patch",
+      "details": [
+        "Launch Pad: Fixed bug that caused throwable items to bounce off without actually touching the launch pad."
+      ]
+    },
+    {
+      "patch": "June 11, 2019 Patch",
+      "details": [
+        "Launch Pad: Fixed audio bug."
+      ]
+    },
+    {
+      "patch": "June 04, 2019 Patch",
+      "details": [
+        "Stim: Fixed issue where the trail would still linger after death."
+      ]
+    },
+    {
+      "patch": "April 03, 2019 Patch",
+      "details": [
+        "Launch Pad: No longer affects players when using Wraith's  Into the Void ability."
+      ]
+    },
+    {
+      "patch": "March 19, 2019 Patch",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
+}
