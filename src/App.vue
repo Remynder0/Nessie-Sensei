@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { loadGameData, isLoaded } from './logic/store'
 
 import TabTeamGen from './components/tabs/TabTeamGen.vue'
@@ -17,18 +17,37 @@ import { startTutorial } from './logic/tutorial'
 
 const currentTab = ref('TeamGen')
 
-const tabs = [
+// Le mode admin est actif si on est en dev local (npm run dev) OU si le localStorage l'indique
+const isAdmin = ref(import.meta.env.DEV || localStorage.getItem('nessie_admin') === 'true')
+
+const allTabs = [
   { id: 'TeamGen', nameKey: 'nav.teamGen', component: TabTeamGen },
   { id: 'Legends', nameKey: 'nav.legends', component: TabLegends },
   { id: 'PackCalculator', nameKey: 'nav.packCalculator', component: TabPackCalculator },
   { id: 'BattlePass', nameKey: 'nav.battlePass', component: TabBattlePass },
   { id: 'Probabilities', nameKey: 'nav.probabilities', component: TabProbabilities },
-  { id: 'Simulation', nameKey: 'nav.simulation', component: TabSimulation },
-  { id: 'Stats', nameKey: 'nav.stats', component: TabStats },
-  { id: 'Sort', nameKey: 'nav.sort', component: TabSort },
+  { id: 'Simulation', nameKey: 'nav.simulation', component: TabSimulation, adminOnly: true },
+  { id: 'Stats', nameKey: 'nav.stats', component: TabStats, adminOnly: true },
+  { id: 'Sort', nameKey: 'nav.sort', component: TabSort, adminOnly: true },
 ]
 
+// On filtre les onglets en fonction du mode admin
+const tabs = computed(() => allTabs.filter(tab => !tab.adminOnly || isAdmin.value))
+
 onMounted(async () => {
+  // Check secret URL param to enable/disable admin mode
+  const urlParams = new URLSearchParams(window.location.search)
+  if (urlParams.get('mode') === 'sensei') {
+    localStorage.setItem('nessie_admin', 'true')
+    isAdmin.value = true
+    // Nettoie l'URL pour cacher le secret une fois activé
+    window.history.replaceState({}, document.title, window.location.pathname)
+  } else if (urlParams.get('mode') === 'user') {
+    localStorage.removeItem('nessie_admin')
+    isAdmin.value = false
+    window.history.replaceState({}, document.title, window.location.pathname)
+  }
+
   await loadGameData()
   initSync()
   
