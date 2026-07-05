@@ -80,7 +80,7 @@ The project strictly separates the interface (Vue components) from the business 
 
 ## Installation
 
-**Prerequisites**: [Node.js](https://nodejs.org/) ≥ 18 and npm.
+**Prerequisites**: [Node.js](https://nodejs.org/) ≥ 22 and npm.
 
 ```bash
 # Clone the repository
@@ -177,9 +177,23 @@ refactor(store)!: rename historyData to syncedHistory
 BREAKING CHANGE: components consuming `historyData` must be updated to use `syncedHistory`.
 ```
 
+## Branching Strategy & Environments
+
+This project uses three main branches for its development lifecycle and deployment via Vercel:
+
+- **`dev`** (Development): The active development branch. All feature branches (`feat/*`, `fix/*`) are merged here.
+- **`beta`** (Preview/Testing): Used for stabilizing features and pre-production testing. Pushing to this branch triggers a **Preview** deployment on Vercel.
+- **`prod`** (Production): The live production branch. Pushing to this branch triggers a **Production** deployment on Vercel.
+
+### Branch Protection Rules (Solo / Small Team)
+Pour un développeur solo, le flux de travail est allégé pour rester rapide, tout en protégeant les environnements clés :
+1. **`dev`** : Les push directs sont autorisés pour le créateur du projet afin d'itérer rapidement sans la lourdeur d'une Pull Request.
+2. **`beta` & `prod`** : **Restreindre les push directs**. Utilisez des Pull Requests pour fusionner de `dev` vers `beta`, puis de `beta` vers `prod`. Cela sert de point de contrôle (safety check) avant de déclencher les déploiements Vercel.
+3. **Exiger le passage des tests (Status checks)** (ex: `npm run build`) avant de pouvoir fusionner vers `beta` et `prod`.
+
 ## Contributing
 
-1. Create a branch from `main`: `git checkout -b feat/feature-name`
-2. Follow the commit convention above.
-3. Verify that `npm run build` passes without typing errors before opening a pull request.
-4. Remember to update **both** `fr.json` and `en.json` if your change introduces visible text.
+1. Créez une branche depuis `dev` (ou poussez directement sur `dev` si vous êtes le mainteneur principal) : `git checkout -b feat/feature-name`
+2. Suivez la convention de commits détaillée ci-dessus.
+3. Vérifiez toujours que `npm run build` passe sans erreur avant de pousser ou d'ouvrir une PR vers `dev`.
+4. N'oubliez pas de mettre à jour **les deux** fichiers `fr.json` et `en.json` si votre changement introduit du texte visible.

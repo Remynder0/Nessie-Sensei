@@ -46,11 +46,11 @@ export interface SeasonData {
     weaponSkin: string;
 }
 
-const seasonDataFiles: Record<string, any> = import.meta.glob('../../public/data/seasons/*.json', { eager: true });
+const seasonDataFiles: Record<string, any> = import.meta.glob('../data/seasons/*.json', { eager: true });
 
 export function getParsedSeasonData(seasonId: string): any {
     const cleanId = seasonId.replace('s', '');
-    const jsonPath = `../../public/data/seasons/season_${cleanId}.json`;
+    const jsonPath = `../data/seasons/season_${cleanId}.json`;
     return seasonDataFiles[jsonPath]?.default || seasonDataFiles[jsonPath];
 }
 
@@ -160,7 +160,7 @@ export function generateSeasons(): SeasonData[] {
 
 export function calculateSeasonPacks(seasonId: string, level: number, purchased: boolean, maxLevel: number): number {
     const cleanId = seasonId.replace('s', '');
-    const jsonPath = `../../public/data/seasons/season_${cleanId}.json`;
+    const jsonPath = `../data/seasons/season_${cleanId}.json`;
     
     if (seasonDataFiles[jsonPath]) {
         const data = seasonDataFiles[jsonPath].default || seasonDataFiles[jsonPath];
