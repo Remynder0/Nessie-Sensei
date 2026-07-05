@@ -80,7 +80,7 @@ The project strictly separates the interface (Vue components) from the business 
 
 ## Installation
 
-**Prerequisites**: [Node.js](https://nodejs.org/) ≥ 18 and npm.
+**Prerequisites**: [Node.js](https://nodejs.org/) ≥ 22 and npm.
 
 ```bash
 # Clone the repository
