@@ -203,5 +203,37 @@
         "Grappling Hook:\nPathfinder can now grapple ziplines.\nFixed the exploit where you could do infinite wall-climb."
       ]
     }
-  ]
+  ],
+  "tactics": {
+    "playstyle": "Classification en cours...",
+    "weapons": [
+      "Inconnu"
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Perk Niv. 2 Gauche",
+          "description": "Donnée manquante",
+          "recommended": false
+        },
+        "right": {
+          "name": "Perk Niv. 2 Droite",
+          "description": "Donnée manquante",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Perk Niv. 3 Gauche",
+          "description": "Donnée manquante",
+          "recommended": true
+        },
+        "right": {
+          "name": "Perk Niv. 3 Droite",
+          "description": "Donnée manquante",
+          "recommended": false
+        }
+      }
+    }
+  }
 }

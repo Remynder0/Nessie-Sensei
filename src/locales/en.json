@@ -27,7 +27,13 @@
     "extracting": "EXTRACTING DATA...",
     "cooldown": "Cooldown",
     "patchHistory": "Patch History",
-    "patchNotes": "Details"
+    "patchNotes": "Details",
+    "tabGeneral": "Legends",
+    "tabTactics": "Tactics",
+    "playstyle": "Playstyle",
+    "recommendedWeapons": "Recommended Weapons",
+    "bestPerks": "Best Perks",
+    "noTacticsData": "No tactical data available for this legend."
   },
   "battlePass": {
     "title": "Battle Pass View",

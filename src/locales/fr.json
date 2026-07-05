@@ -27,7 +27,13 @@
     "extracting": "EXTRACTION DES DONNÉES...",
     "cooldown": "Recharge",
     "patchHistory": "Historique des Patchs",
-    "patchNotes": "Détails"
+    "patchNotes": "Détails",
+    "tabGeneral": "Légendes",
+    "tabTactics": "Tactique",
+    "playstyle": "Style de jeu",
+    "recommendedWeapons": "Armes recommandées",
+    "bestPerks": "Meilleures Améliorations (Perks)",
+    "noTacticsData": "Aucune donnée tactique disponible pour cette légende."
   },
   "battlePass": {
     "title": "Consultation Battle Pass",

@@ -63,6 +63,20 @@ export interface LegendDetails {
         ultimate: { name: string; description: string; cooldown?: string; };
     };
     patch_history: any[];
+    tactics?: {
+        playstyle: string;
+        weapons: string[];
+        perks: {
+            level_2: {
+                left: { name: string; description: string; recommended: boolean };
+                right: { name: string; description: string; recommended: boolean };
+            };
+            level_3: {
+                left: { name: string; description: string; recommended: boolean };
+                right: { name: string; description: string; recommended: boolean };
+            };
+        };
+    };
 }
 
 export const currentLegendDetails = ref<LegendDetails | null>(null);

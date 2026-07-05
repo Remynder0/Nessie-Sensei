@@ -24,6 +24,42 @@
       "cooldown": "1.5 minutes"
     }
   },
+  "tactics": {
+    "playstyle": "Wraith est l'ultime entry-fragger. Son rôle est de prendre des angles agressifs pour trouver une ouverture (knock) ou infliger de lourds dégâts, puis utiliser son Tactique pour retourner à couvert en toute sécurité. Son Portail est crucial pour les rotations sécurisées de l'équipe, surtout en fin de partie ou pour extraire un allié abattu.",
+    "weapons": [
+      "R-99",
+      "Peacekeeper",
+      "Wingman",
+      "Volt",
+      "Havoc"
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Perk Niv. 2 Gauche",
+          "description": "Donnée manquante",
+          "recommended": false
+        },
+        "right": {
+          "name": "Perk Niv. 2 Droite",
+          "description": "Donnée manquante",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Perk Niv. 3 Gauche",
+          "description": "Donnée manquante",
+          "recommended": true
+        },
+        "right": {
+          "name": "Perk Niv. 3 Droite",
+          "description": "Donnée manquante",
+          "recommended": false
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Aftershock Event March 31, 2026 Patch",

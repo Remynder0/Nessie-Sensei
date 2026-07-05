@@ -116,5 +116,40 @@
         "Introduced."
       ]
     }
-  ]
+  ],
+  "tactics": {
+    "playstyle": "Spécialiste de l'assaut et du soutien armé. Gardez votre troisième arme (la Fronde) prête avec une arme à forte cadence (comme une R-99 ou un Havoc). Son Tactique permet de gagner presque n'importe quel duel 1v1 en surchauffant l'arme ennemie. Son Ultime est décisif pour les push d'équipe.",
+    "weapons": [
+      "R-301",
+      "Volt",
+      "R-99 (Fronde)",
+      "Havoc (Fronde)"
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Ammuvision",
+          "description": "Voit les munitions dans les deathboxes proches.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Care Package Insight",
+          "description": "Révèle l'emplacement des packs de soutien.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Extra Bullet",
+          "description": "Gagne une charge supplémentaire pour le Tactique (Siffleur).",
+          "recommended": true
+        },
+        "right": {
+          "name": "Lasting Bullet",
+          "description": "Triple la durée du projectile Tactique posé dans l'environnement.",
+          "recommended": false
+        }
+      }
+    }
+  }
 }

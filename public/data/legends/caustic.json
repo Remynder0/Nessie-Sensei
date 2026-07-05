@@ -181,5 +181,37 @@
         "Fixed ADS view being blocked when using Caustic legendary skins with certain weapon/ optic combos"
       ]
     }
-  ]
+  ],
+  "tactics": {
+    "playstyle": "Classification en cours...",
+    "weapons": [
+      "Inconnu"
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Perk Niv. 2 Gauche",
+          "description": "Donnée manquante",
+          "recommended": false
+        },
+        "right": {
+          "name": "Perk Niv. 2 Droite",
+          "description": "Donnée manquante",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Perk Niv. 3 Gauche",
+          "description": "Donnée manquante",
+          "recommended": true
+        },
+        "right": {
+          "name": "Perk Niv. 3 Droite",
+          "description": "Donnée manquante",
+          "recommended": false
+        }
+      }
+    }
+  }
 }
