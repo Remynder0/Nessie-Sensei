@@ -15,43 +15,9 @@ HEADERS = {
     'Referer': 'https://apexlegends.wiki.gg/'
 }
 
-def get_latest_ea_patch_notes():
-    url = 'https://www.ea.com/games/apex-legends/apex-legends/news/overclocked-midseason-patch-notes'
-    try:
-        r = requests.get(url, headers=HEADERS)
-        soup = BeautifulSoup(r.text, 'html.parser')
-        body = ''
-        for s in soup.find_all('script'):
-            if s.string and '"props":' in s.string:
-                try: 
-                    body = json.loads(s.string)['props']['pageProps']['articleDetailsFallback']['body']
-                    break
-                except: pass
-        if not body or '## LEGENDS' not in body: return {}
-        legends_part = body.split('## LEGENDS')[1].split('## LOOT')[0].split('## WEAPONS')[0]
-        sections = legends_part.split('\n#### **')
-        patch_notes_by_legend = {}
-        for sec in sections[1:]:
-            lines = sec.split('\n')
-            name = lines[0].strip().replace('**', '').strip().title()
-            bullets = []
-            for line in lines[1:]:
-                if line.strip().startswith('- '):
-                    bullets.append(line.strip()[2:].strip())
-                elif line.strip().startswith('###### **'):
-                    bullets.append('[' + line.strip().replace('###### **', '').replace('**', '') + ']')
-            if bullets:
-                patch_notes_by_legend[name] = bullets
-        return patch_notes_by_legend
-    except Exception as e:
-        print("Failed to get EA patch notes:", e)
-        return {}
+
 
 def scrape_legends_data():
-    ea_notes = get_latest_ea_patch_notes()
-    if ea_notes:
-        print(f"Successfully fetched recent EA patch notes for {len(ea_notes)} legends.")
-
     with open(DATA_FILE, 'r', encoding='utf-8') as f:
         legends = json.load(f)['Legends']
         
@@ -137,13 +103,6 @@ def scrape_legends_data():
 
         # Extract Patch History
         patch_history = []
-        ea_legend_name = name.title()
-        if ea_legend_name in ea_notes:
-            patch_history.append({
-                "patch": "Saison 29 (Overclocked) - EA Officiel",
-                "details": ea_notes[ea_legend_name]
-            })
-
         hist_heading = soup.find(id='History')
         if hist_heading and hist_heading.parent:
             hist_table = hist_heading.parent.find_next_sibling('table')

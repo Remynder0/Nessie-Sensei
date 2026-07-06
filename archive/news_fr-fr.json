@@ -1,0 +1,413 @@
+{
+  "items": [
+    {
+      "title": "Overclocked Midseason Designer’s Notes",
+      "summary": "Meta changes coming to the Overclocked mid-season patch.",
+      "image": {
+        "type": "Image",
+        "name": "Apex_S29-Season-Page-16x9",
+        "description": null,
+        "alternateText": "Apex Legends key art for season 29: Overclocked. It shows Axle flying forward with a disc in her hand.",
+        "ar1X1": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(1,1),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar2X1": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(2,1),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar2X3": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(2,3),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar3X1": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(3,1),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar3X4": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(3,4),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar4X3": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(4,3),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar9X16": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(9,16),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar16X9": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.32864583333333336,yPosition=0.4898148148148148"
+      },
+      "publishingDate": "2026-06-18T10:00:00.000-07:00",
+      "slug": "29-1-designers-notes",
+      "type": "News Article",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Apex Legends: Matchmaking Tests Update",
+      "summary": "Read on the work being done on matchmaking to provide an even better experience for our players.",
+      "image": {
+        "type": "Image",
+        "name": "Apex Legends generic franchise image",
+        "description": null,
+        "alternateText": "Generic keyart for Apex Legends.",
+        "ar1X1": "https://drop-assets.ea.com/images/5hbRFBT973VeWdkyprV9Ae/e44a365bd80a8a58bea34c0df3af2297/Apex_Keyart-GIN_1x1.jpg",
+        "ar2X1": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(2,1),xPosition=0.5,yPosition=0.5",
+        "ar2X3": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(2,3),xPosition=0.5,yPosition=0.5",
+        "ar3X1": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(3,1),xPosition=0.5,yPosition=0.5",
+        "ar3X4": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(3,4),xPosition=0.5,yPosition=0.5",
+        "ar4X3": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(4,3),xPosition=0.5,yPosition=0.5",
+        "ar9X16": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(9,16),xPosition=0.5,yPosition=0.5",
+        "ar16X9": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      },
+      "publishingDate": "2026-06-08T10:00:00.000-07:00",
+      "slug": "overclocked-matchmaking-update",
+      "type": "News Article",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Push past your limits in the Power Trip Event",
+      "summary": "New Wildcard round modifiers, Wildcard map rotation, Event cosmetics, an Ash Prestige Skin, and more.",
+      "image": {
+        "type": "Image",
+        "name": "ApexS29_PowerTrip_KeyArt_3840x2160",
+        "description": null,
+        "alternateText": "Keyart of the Apex Legends Power Trip event. It features Ash and Bangalore with their event skins on, and each of them are holding small vials filled with a green liquid.",
+        "ar1X1": "https://drop-assets.ea.com/images/7upR0dy2N8VE4FRPYL6mmD/7a686000a68b5fe80cfa83a59cf498af/ApexS29_PowerTrip_KeyArt_3840x2160.jpg?im=AspectCrop=(1,1),xPosition=0.765625,yPosition=0.4388888888888889",
+        "ar2X1": "https://drop-assets.ea.com/images/7upR0dy2N8VE4FRPYL6mmD/7a686000a68b5fe80cfa83a59cf498af/ApexS29_PowerTrip_KeyArt_3840x2160.jpg?im=AspectCrop=(2,1),xPosition=0.765625,yPosition=0.4388888888888889",
+        "ar2X3": "https://drop-assets.ea.com/images/7upR0dy2N8VE4FRPYL6mmD/7a686000a68b5fe80cfa83a59cf498af/ApexS29_PowerTrip_KeyArt_3840x2160.jpg?im=AspectCrop=(2,3),xPosition=0.765625,yPosition=0.4388888888888889",
+        "ar3X1": "https://drop-assets.ea.com/images/7upR0dy2N8VE4FRPYL6mmD/7a686000a68b5fe80cfa83a59cf498af/ApexS29_PowerTrip_KeyArt_3840x2160.jpg?im=AspectCrop=(3,1),xPosition=0.765625,yPosition=0.4388888888888889",
+        "ar3X4": "https://drop-assets.ea.com/images/7upR0dy2N8VE4FRPYL6mmD/7a686000a68b5fe80cfa83a59cf498af/ApexS29_PowerTrip_KeyArt_3840x2160.jpg?im=AspectCrop=(3,4),xPosition=0.765625,yPosition=0.4388888888888889",
+        "ar4X3": "https://drop-assets.ea.com/images/7upR0dy2N8VE4FRPYL6mmD/7a686000a68b5fe80cfa83a59cf498af/ApexS29_PowerTrip_KeyArt_3840x2160.jpg?im=AspectCrop=(4,3),xPosition=0.765625,yPosition=0.4388888888888889",
+        "ar9X16": "https://drop-assets.ea.com/images/7upR0dy2N8VE4FRPYL6mmD/7a686000a68b5fe80cfa83a59cf498af/ApexS29_PowerTrip_KeyArt_3840x2160.jpg?im=AspectCrop=(9,16),xPosition=0.765625,yPosition=0.4388888888888889",
+        "ar16X9": "https://drop-assets.ea.com/images/7upR0dy2N8VE4FRPYL6mmD/7a686000a68b5fe80cfa83a59cf498af/ApexS29_PowerTrip_KeyArt_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.765625,yPosition=0.4388888888888889"
+      },
+      "publishingDate": "2026-05-28T08:00:00.000-07:00",
+      "slug": "power-trip-event",
+      "type": "News Article",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Apex Legends™: Overclocked Patch Notes",
+      "summary": "Prepare for Overclocked’s launch with the new legend Axle, adjustments to matchmaking and in-game audio, respawning from deathboxes and chain healing, legend updates to Vantage and Conduit, plus more in our full Patch Notes.",
+      "image": {
+        "type": "Image",
+        "name": "Apex_S29-Season-Page-16x9",
+        "description": null,
+        "alternateText": "Apex Legends key art for season 29: Overclocked. It shows Axle flying forward with a disc in her hand.",
+        "ar1X1": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(1,1),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar2X1": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(2,1),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar2X3": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(2,3),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar3X1": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(3,1),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar3X4": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(3,4),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar4X3": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(4,3),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar9X16": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(9,16),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar16X9": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.32864583333333336,yPosition=0.4898148148148148"
+      },
+      "publishingDate": "2026-05-04T08:00:00.000-07:00",
+      "slug": "overclocked-patch-notes",
+      "type": "Game Updates",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Overclocked Designer’s Notes",
+      "summary": "Contextualizing Overclocked’s meta changes",
+      "image": {
+        "type": "Image",
+        "name": "Apex_S29-Season-Page-16x9",
+        "description": null,
+        "alternateText": "Apex Legends key art for season 29: Overclocked. It shows Axle flying forward with a disc in her hand.",
+        "ar1X1": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(1,1),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar2X1": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(2,1),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar2X3": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(2,3),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar3X1": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(3,1),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar3X4": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(3,4),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar4X3": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(4,3),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar9X16": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(9,16),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+        "ar16X9": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.32864583333333336,yPosition=0.4898148148148148"
+      },
+      "publishingDate": "2026-05-01T10:00:00.000-07:00",
+      "slug": "29-0-designers-notes",
+      "type": "News Article",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "New Updates Coming with Apex Legends™: Overclocked",
+      "summary": "First details on the newest Legend Axle, Respawn for Deathbox Mechanic, Chained Healing, and more!",
+      "image": {
+        "type": "Image",
+        "name": "Apex_S29-Season_Axle_Gameplay-16x9",
+        "description": null,
+        "alternateText": "In-game screenshot of Axle sliding along the ground using her Nitro Gate ability.",
+        "ar1X1": "https://drop-assets.ea.com/images/7z260yIivfPYqjsZ7mveli/869eda5de0d3872c07b0af39f14008ba/Apex_S29-Season_Axle_Gameplay-16x9.jpg?im=AspectCrop=(1,1),xPosition=0.3484375,yPosition=0.4287037037037037",
+        "ar2X1": "https://drop-assets.ea.com/images/7z260yIivfPYqjsZ7mveli/869eda5de0d3872c07b0af39f14008ba/Apex_S29-Season_Axle_Gameplay-16x9.jpg?im=AspectCrop=(2,1),xPosition=0.3484375,yPosition=0.4287037037037037",
+        "ar2X3": "https://drop-assets.ea.com/images/7z260yIivfPYqjsZ7mveli/869eda5de0d3872c07b0af39f14008ba/Apex_S29-Season_Axle_Gameplay-16x9.jpg?im=AspectCrop=(2,3),xPosition=0.3484375,yPosition=0.4287037037037037",
+        "ar3X1": "https://drop-assets.ea.com/images/7z260yIivfPYqjsZ7mveli/869eda5de0d3872c07b0af39f14008ba/Apex_S29-Season_Axle_Gameplay-16x9.jpg?im=AspectCrop=(3,1),xPosition=0.3484375,yPosition=0.4287037037037037",
+        "ar3X4": "https://drop-assets.ea.com/images/7z260yIivfPYqjsZ7mveli/869eda5de0d3872c07b0af39f14008ba/Apex_S29-Season_Axle_Gameplay-16x9.jpg?im=AspectCrop=(3,4),xPosition=0.3484375,yPosition=0.4287037037037037",
+        "ar4X3": "https://drop-assets.ea.com/images/7z260yIivfPYqjsZ7mveli/869eda5de0d3872c07b0af39f14008ba/Apex_S29-Season_Axle_Gameplay-16x9.jpg?im=AspectCrop=(4,3),xPosition=0.3484375,yPosition=0.4287037037037037",
+        "ar9X16": "https://drop-assets.ea.com/images/7z260yIivfPYqjsZ7mveli/869eda5de0d3872c07b0af39f14008ba/Apex_S29-Season_Axle_Gameplay-16x9.jpg?im=AspectCrop=(9,16),xPosition=0.3484375,yPosition=0.4287037037037037",
+        "ar16X9": "https://drop-assets.ea.com/images/7z260yIivfPYqjsZ7mveli/869eda5de0d3872c07b0af39f14008ba/Apex_S29-Season_Axle_Gameplay-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.3484375,yPosition=0.4287037037037037"
+      },
+      "publishingDate": "2026-04-30T08:00:00.000-07:00",
+      "slug": "overclocked-game-updates",
+      "type": "News Article",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Aftershock Event + Midseason Patch Notes",
+      "summary": "Charge into a new Wildcard, Legend Updates, an Elite Hemlok and more.",
+      "image": {
+        "type": "Image",
+        "name": "ApexS28_Aftershock_KeyArt_3840x2160",
+        "description": null,
+        "alternateText": "Thumbnail for the Aftershock event.",
+        "ar1X1": "https://drop-assets.ea.com/images/fOkvGVFHjJtLUslOGpl5p/5efaaf8d81761455d988143dd858d407/ApexS28_Aftershock_KeyArt_3840x2160_UPDATE.jpg?im=AspectCrop=(1,1),xPosition=0.47994791666666664,yPosition=0.4898148148148148",
+        "ar2X1": "https://drop-assets.ea.com/images/fOkvGVFHjJtLUslOGpl5p/5efaaf8d81761455d988143dd858d407/ApexS28_Aftershock_KeyArt_3840x2160_UPDATE.jpg?im=AspectCrop=(2,1),xPosition=0.47994791666666664,yPosition=0.4898148148148148",
+        "ar2X3": "https://drop-assets.ea.com/images/fOkvGVFHjJtLUslOGpl5p/5efaaf8d81761455d988143dd858d407/ApexS28_Aftershock_KeyArt_3840x2160_UPDATE.jpg?im=AspectCrop=(2,3),xPosition=0.47994791666666664,yPosition=0.4898148148148148",
+        "ar3X1": "https://drop-assets.ea.com/images/fOkvGVFHjJtLUslOGpl5p/5efaaf8d81761455d988143dd858d407/ApexS28_Aftershock_KeyArt_3840x2160_UPDATE.jpg?im=AspectCrop=(3,1),xPosition=0.47994791666666664,yPosition=0.4898148148148148",
+        "ar3X4": "https://drop-assets.ea.com/images/fOkvGVFHjJtLUslOGpl5p/5efaaf8d81761455d988143dd858d407/ApexS28_Aftershock_KeyArt_3840x2160_UPDATE.jpg?im=AspectCrop=(3,4),xPosition=0.47994791666666664,yPosition=0.4898148148148148",
+        "ar4X3": "https://drop-assets.ea.com/images/fOkvGVFHjJtLUslOGpl5p/5efaaf8d81761455d988143dd858d407/ApexS28_Aftershock_KeyArt_3840x2160_UPDATE.jpg?im=AspectCrop=(4,3),xPosition=0.47994791666666664,yPosition=0.4898148148148148",
+        "ar9X16": "https://drop-assets.ea.com/images/fOkvGVFHjJtLUslOGpl5p/5efaaf8d81761455d988143dd858d407/ApexS28_Aftershock_KeyArt_3840x2160_UPDATE.jpg?im=AspectCrop=(9,16),xPosition=0.47994791666666664,yPosition=0.4898148148148148",
+        "ar16X9": "https://drop-assets.ea.com/images/fOkvGVFHjJtLUslOGpl5p/5efaaf8d81761455d988143dd858d407/ApexS28_Aftershock_KeyArt_3840x2160_UPDATE.jpg?im=AspectCrop=(16,9),xPosition=0.47994791666666664,yPosition=0.4898148148148148"
+      },
+      "publishingDate": "2026-03-23T10:30:00.000-07:00",
+      "slug": "aftershock-event",
+      "type": "Game Updates",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Breach Midseason Designer’s Notes",
+      "summary": "Insights into our goals for each Legend or Weapon, challenges we’ve identified, and what changes we are making in pursuit of those goals.",
+      "image": {
+        "type": "Image",
+        "name": "Apex_S28-Season-Page-16x9",
+        "description": null,
+        "alternateText": "Apex Legends key art for season 28: Breach. It shows Fuse throwing a punch, and Gibraltar charging forward behind Fuse.",
+        "ar1X1": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(1,1),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar2X1": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(2,1),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar2X3": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(2,3),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar3X1": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(3,1),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar3X4": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(3,4),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar4X3": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(4,3),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar9X16": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(9,16),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar16X9": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.7802083333333333,yPosition=0.3574074074074074"
+      },
+      "publishingDate": "2026-03-23T10:00:00.000-07:00",
+      "slug": "28-1-designers-notes",
+      "type": "News Article",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": [
+        "new-releases"
+      ]
+    },
+    {
+      "title": "Apex Legends™: Anti-Cheat Update",
+      "summary": "View our latest Anti-Cheat update in Apex Legends.",
+      "image": {
+        "type": "Image",
+        "name": "Apex Legends generic franchise image",
+        "description": null,
+        "alternateText": "Generic keyart for Apex Legends.",
+        "ar1X1": "https://drop-assets.ea.com/images/5hbRFBT973VeWdkyprV9Ae/e44a365bd80a8a58bea34c0df3af2297/Apex_Keyart-GIN_1x1.jpg",
+        "ar2X1": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(2,1),xPosition=0.5,yPosition=0.5",
+        "ar2X3": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(2,3),xPosition=0.5,yPosition=0.5",
+        "ar3X1": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(3,1),xPosition=0.5,yPosition=0.5",
+        "ar3X4": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(3,4),xPosition=0.5,yPosition=0.5",
+        "ar4X3": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(4,3),xPosition=0.5,yPosition=0.5",
+        "ar9X16": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(9,16),xPosition=0.5,yPosition=0.5",
+        "ar16X9": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      },
+      "publishingDate": "2026-03-04T10:00:00.000-08:00",
+      "slug": "breach-anti-cheat-update",
+      "type": "News Article",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Apex Legends x Gundam Event",
+      "summary": "New Wildcard gameplay, Gundam Skins, and more",
+      "image": {
+        "type": "Image",
+        "name": "Apex_S28_Gundam_KeyArt-3840x2160",
+        "description": null,
+        "alternateText": "Keyart of the Apex x Gundam event. It features 3 different Gundams landing on the ground to the right of the event logo.",
+        "ar1X1": "https://drop-assets.ea.com/images/7jN4sZ21Jg0QbyZkB75ok1/2461d2f932b040bcd587c481f4b36189/Apex_S28_Gundam_KeyArt-3840x2160.jpg?im=AspectCrop=(1,1),xPosition=0.6286458333333333,yPosition=0.4439814814814815",
+        "ar2X1": "https://drop-assets.ea.com/images/7jN4sZ21Jg0QbyZkB75ok1/2461d2f932b040bcd587c481f4b36189/Apex_S28_Gundam_KeyArt-3840x2160.jpg?im=AspectCrop=(2,1),xPosition=0.6286458333333333,yPosition=0.4439814814814815",
+        "ar2X3": "https://drop-assets.ea.com/images/7jN4sZ21Jg0QbyZkB75ok1/2461d2f932b040bcd587c481f4b36189/Apex_S28_Gundam_KeyArt-3840x2160.jpg?im=AspectCrop=(2,3),xPosition=0.6286458333333333,yPosition=0.4439814814814815",
+        "ar3X1": "https://drop-assets.ea.com/images/7jN4sZ21Jg0QbyZkB75ok1/2461d2f932b040bcd587c481f4b36189/Apex_S28_Gundam_KeyArt-3840x2160.jpg?im=AspectCrop=(3,1),xPosition=0.6286458333333333,yPosition=0.4439814814814815",
+        "ar3X4": "https://drop-assets.ea.com/images/7jN4sZ21Jg0QbyZkB75ok1/2461d2f932b040bcd587c481f4b36189/Apex_S28_Gundam_KeyArt-3840x2160.jpg?im=AspectCrop=(3,4),xPosition=0.6286458333333333,yPosition=0.4439814814814815",
+        "ar4X3": "https://drop-assets.ea.com/images/7jN4sZ21Jg0QbyZkB75ok1/2461d2f932b040bcd587c481f4b36189/Apex_S28_Gundam_KeyArt-3840x2160.jpg?im=AspectCrop=(4,3),xPosition=0.6286458333333333,yPosition=0.4439814814814815",
+        "ar9X16": "https://drop-assets.ea.com/images/7jN4sZ21Jg0QbyZkB75ok1/2461d2f932b040bcd587c481f4b36189/Apex_S28_Gundam_KeyArt-3840x2160.jpg?im=AspectCrop=(9,16),xPosition=0.6286458333333333,yPosition=0.4439814814814815",
+        "ar16X9": "https://drop-assets.ea.com/images/7jN4sZ21Jg0QbyZkB75ok1/2461d2f932b040bcd587c481f4b36189/Apex_S28_Gundam_KeyArt-3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.6286458333333333,yPosition=0.4439814814814815"
+      },
+      "publishingDate": "2026-03-03T08:00:00.000-08:00",
+      "slug": "apex-gundam-event",
+      "type": "News Article",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Apex Legends: The Road Ahead",
+      "summary": "All of this (and more) coming to Apex Legends in 2026 and beyond.",
+      "image": {
+        "type": "Image",
+        "name": "Apex_TheRoadAhead_Thumbnail_16x9",
+        "description": null,
+        "alternateText": "Josh and Casey from the Apex Legends Dev team pull the curtain back on what's coming in 2026!",
+        "ar1X1": "https://drop-assets.ea.com/images/7t4PdVfLxEdBsqjuxyqqhY/e78c4182cb2258d39dbe89418017ca6a/Apex_TheRoadAhead_Thumbnail_16x9.jpg?im=AspectCrop=(1,1),xPosition=0.8541666666666666,yPosition=0.44907407407407407",
+        "ar2X1": "https://drop-assets.ea.com/images/7t4PdVfLxEdBsqjuxyqqhY/e78c4182cb2258d39dbe89418017ca6a/Apex_TheRoadAhead_Thumbnail_16x9.jpg?im=AspectCrop=(2,1),xPosition=0.8541666666666666,yPosition=0.44907407407407407",
+        "ar2X3": "https://drop-assets.ea.com/images/7t4PdVfLxEdBsqjuxyqqhY/e78c4182cb2258d39dbe89418017ca6a/Apex_TheRoadAhead_Thumbnail_16x9.jpg?im=AspectCrop=(2,3),xPosition=0.8541666666666666,yPosition=0.44907407407407407",
+        "ar3X1": "https://drop-assets.ea.com/images/7t4PdVfLxEdBsqjuxyqqhY/e78c4182cb2258d39dbe89418017ca6a/Apex_TheRoadAhead_Thumbnail_16x9.jpg?im=AspectCrop=(3,1),xPosition=0.8541666666666666,yPosition=0.44907407407407407",
+        "ar3X4": "https://drop-assets.ea.com/images/7t4PdVfLxEdBsqjuxyqqhY/e78c4182cb2258d39dbe89418017ca6a/Apex_TheRoadAhead_Thumbnail_16x9.jpg?im=AspectCrop=(3,4),xPosition=0.8541666666666666,yPosition=0.44907407407407407",
+        "ar4X3": "https://drop-assets.ea.com/images/7t4PdVfLxEdBsqjuxyqqhY/e78c4182cb2258d39dbe89418017ca6a/Apex_TheRoadAhead_Thumbnail_16x9.jpg?im=AspectCrop=(4,3),xPosition=0.8541666666666666,yPosition=0.44907407407407407",
+        "ar9X16": "https://drop-assets.ea.com/images/7t4PdVfLxEdBsqjuxyqqhY/e78c4182cb2258d39dbe89418017ca6a/Apex_TheRoadAhead_Thumbnail_16x9.jpg?im=AspectCrop=(9,16),xPosition=0.8541666666666666,yPosition=0.44907407407407407",
+        "ar16X9": "https://drop-assets.ea.com/images/7t4PdVfLxEdBsqjuxyqqhY/e78c4182cb2258d39dbe89418017ca6a/Apex_TheRoadAhead_Thumbnail_16x9.jpg?im=AspectCrop=(16,9),xPosition=0.8541666666666666,yPosition=0.44907407407407407"
+      },
+      "publishingDate": "2026-02-12T10:00:00.000-08:00",
+      "slug": "2026-roadmap",
+      "type": "News Article",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Celebrate 7 Years of Apex",
+      "summary": "Earn Community-made rewards and unlock up to 4 Legends",
+      "image": {
+        "type": "Image",
+        "name": "APEX_Legends_S28_Screenshots_Launch_CommRewardsTrack_B_v01",
+        "description": null,
+        "alternateText": "In-game screenshot of Ash on the left, Wattson in the middle, and Mirage on the right. They're all holding guns and making a pose with their 7-year anniversary skins on.",
+        "ar1X1": "https://drop-assets.ea.com/images/3mMRjURtukweEhsMqC4dJ8/eb94347b55db2d8adbf38c261a045cfb/APEX_Legends_S28_Screenshots_Launch_CommRewardsTrack_B_v01.png?im=AspectCrop=(1,1),xPosition=0.6286458333333333,yPosition=0.47962962962962963",
+        "ar2X1": "https://drop-assets.ea.com/images/3mMRjURtukweEhsMqC4dJ8/eb94347b55db2d8adbf38c261a045cfb/APEX_Legends_S28_Screenshots_Launch_CommRewardsTrack_B_v01.png?im=AspectCrop=(2,1),xPosition=0.6286458333333333,yPosition=0.47962962962962963",
+        "ar2X3": "https://drop-assets.ea.com/images/3mMRjURtukweEhsMqC4dJ8/eb94347b55db2d8adbf38c261a045cfb/APEX_Legends_S28_Screenshots_Launch_CommRewardsTrack_B_v01.png?im=AspectCrop=(2,3),xPosition=0.6286458333333333,yPosition=0.47962962962962963",
+        "ar3X1": "https://drop-assets.ea.com/images/3mMRjURtukweEhsMqC4dJ8/eb94347b55db2d8adbf38c261a045cfb/APEX_Legends_S28_Screenshots_Launch_CommRewardsTrack_B_v01.png?im=AspectCrop=(3,1),xPosition=0.6286458333333333,yPosition=0.47962962962962963",
+        "ar3X4": "https://drop-assets.ea.com/images/3mMRjURtukweEhsMqC4dJ8/eb94347b55db2d8adbf38c261a045cfb/APEX_Legends_S28_Screenshots_Launch_CommRewardsTrack_B_v01.png?im=AspectCrop=(3,4),xPosition=0.6286458333333333,yPosition=0.47962962962962963",
+        "ar4X3": "https://drop-assets.ea.com/images/3mMRjURtukweEhsMqC4dJ8/eb94347b55db2d8adbf38c261a045cfb/APEX_Legends_S28_Screenshots_Launch_CommRewardsTrack_B_v01.png?im=AspectCrop=(4,3),xPosition=0.6286458333333333,yPosition=0.47962962962962963",
+        "ar9X16": "https://drop-assets.ea.com/images/3mMRjURtukweEhsMqC4dJ8/eb94347b55db2d8adbf38c261a045cfb/APEX_Legends_S28_Screenshots_Launch_CommRewardsTrack_B_v01.png?im=AspectCrop=(9,16),xPosition=0.6286458333333333,yPosition=0.47962962962962963",
+        "ar16X9": "https://drop-assets.ea.com/images/3mMRjURtukweEhsMqC4dJ8/eb94347b55db2d8adbf38c261a045cfb/APEX_Legends_S28_Screenshots_Launch_CommRewardsTrack_B_v01.png?im=AspectCrop=(16,9),xPosition=0.6286458333333333,yPosition=0.47962962962962963"
+      },
+      "publishingDate": "2026-02-10T08:00:00.000-08:00",
+      "slug": "7-year-anniversary",
+      "type": "News Article",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Apex Legends™: Breach Patch Notes",
+      "summary": "Prepare for Breach’s launch with new Hardlight Meshes, legend updates to Fuse, Catalyst and Bloodhound, along with changes to knockdown shields and backpacks, and Marksman nerfs and Shotgun buffs, plus more in our full Patch Notes.",
+      "image": {
+        "type": "Image",
+        "name": "Apex_S28-Season-Page-16x9",
+        "description": null,
+        "alternateText": "Apex Legends key art for season 28: Breach. It shows Fuse throwing a punch, and Gibraltar charging forward behind Fuse.",
+        "ar1X1": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(1,1),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar2X1": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(2,1),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar2X3": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(2,3),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar3X1": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(3,1),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar3X4": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(3,4),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar4X3": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(4,3),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar9X16": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(9,16),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+        "ar16X9": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.7802083333333333,yPosition=0.3574074074074074"
+      },
+      "publishingDate": "2026-02-09T08:30:00.000-08:00",
+      "slug": "breach-patch-notes",
+      "type": "Game Updates",
+      "featured": false,
+      "linkedTo": [
+        {
+          "type": "Game",
+          "slug": "apex-legends"
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "totalItems": 114,
+  "featured": {
+    "title": "Apex Legends™: Overclocked Midseason Patch Notes",
+    "summary": "To start the latter half of the season, we’re bringing legend balancing changes, new shotgun hop-ups, and various fixes and improvements, plus more in our full midseason Patch Notes.",
+    "image": {
+      "type": "Image",
+      "name": "Apex_S29-Season-Page-16x9",
+      "description": null,
+      "alternateText": "Apex Legends key art for season 29: Overclocked. It shows Axle flying forward with a disc in her hand.",
+      "ar1X1": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(1,1),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+      "ar2X1": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(2,1),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+      "ar2X3": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(2,3),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+      "ar3X1": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(3,1),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+      "ar3X4": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(3,4),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+      "ar4X3": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(4,3),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+      "ar9X16": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(9,16),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+      "ar16X9": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.32864583333333336,yPosition=0.4898148148148148"
+    },
+    "publishingDate": "2026-06-22T10:00:00.000-07:00",
+    "slug": "overclocked-midseason-patch-notes",
+    "type": "Game Updates",
+    "featured": true,
+    "linkedTo": [
+      {
+        "type": "Game",
+        "slug": "apex-legends"
+      }
+    ],
+    "tags": []
+  }
+}
