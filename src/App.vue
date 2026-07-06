@@ -84,11 +84,12 @@ onMounted(async () => {
           :key="tab.id"
           :id="'nav-' + tab.id"
           @click="currentTab = tab.id"
-          class="w-full text-left px-4 py-3 font-mono text-sm uppercase tracking-wider transition-all relative group titan-beveled"
+          class="w-full flex items-center justify-between text-left px-4 py-3 font-mono text-sm uppercase tracking-wider transition-all relative group titan-beveled"
           :class="currentTab === tab.id ? 'bg-titan-cyan text-black font-bold' : 'text-gray-400 bg-black/30 border border-titan-border hover:border-titan-cyan hover:text-white'"
         >
           <span v-if="currentTab === tab.id" class="absolute left-2 top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 bg-black"></span>
           <span :class="currentTab === tab.id ? 'pl-3' : ''" class="transition-all">{{ $t(tab.nameKey) }}</span>
+          <span v-if="tab.adminOnly" class="text-[10px] px-1 py-0.5 leading-none" :class="currentTab === tab.id ? 'text-black border-black border opacity-70' : 'text-apex-red border-apex-red border opacity-70'">ADM</span>
         </button>
       </nav>
 
