@@ -1,7 +1,7 @@
 {
   "nav": {
     "teamGen": "Link & Deploy",
-    "legends": "Legends Archives",
+    "legends": "Legends",
     "packCalculator": "Heirloom Tracker",
     "battlePass": "Battle Pass",
     "probabilities": "Predictive Analysis",
@@ -10,7 +10,7 @@
     "sort": "Tactical Sort"
   },
   "legends": {
-    "title": "Legends Archives",
+    "title": "Legends",
     "groupedByClass": "Grouped by Class",
     "searchPlaceholder": "SEARCH A LEGEND...",
     "unknownIdentity": "UNKNOWN IDENTITY",
@@ -69,7 +69,7 @@
     "prevBtn": "Previous",
     "doneBtn": "Done",
     "step1_title": "Welcome!",
-    "step1_desc": "Discover Legends Composer, your ultimate data terminal for the Apex Legends universe. Let us show you around.",
+    "step1_desc": "Discover Nessie-Sensei, your ultimate data terminal for the Apex Legends universe. Let us show you around.",
     "step_team_format_title": "Squad Size",
     "step_team_format_desc": "Switch between Duo or Trio so the algorithm generates the perfect composition for that mode.",
     "step_team_profile_title": "Synergy Profile",

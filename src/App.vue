@@ -64,9 +64,12 @@ onMounted(async () => {
     <!-- Sidebar -->
     <aside class="w-64 flex-shrink-0 bg-titan-panel border-r border-titan-border flex flex-col relative z-20 shadow-2xl">
       <div class="p-6 border-b border-titan-border">
-        <h1 class="text-3xl font-black text-white font-mono uppercase tracking-tighter leading-none">
-          LEGENDS<br/><span class="text-titan-orange">COMPOSER</span>
-        </h1>
+        <div class="flex items-center gap-5">
+          <img src="/nessie-sensei.png" alt="Nessie-Sensei" class="h-32 object-contain drop-shadow-md" />
+          <h1 class="text-2xl font-black text-white font-mono uppercase tracking-tighter leading-none">
+            NESSIE<br/><span class="text-titan-orange">SENSEI</span>
+          </h1>
+        </div>
         <div class="flex justify-between items-center mt-2">
             <div class="text-titan-cyan text-[10px] font-mono tracking-widest uppercase">OS.Titan_Link // v2.0</div>
             

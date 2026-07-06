@@ -25,8 +25,11 @@ def apply_patch_to_legend(legend_data, patch_name, changes):
         stats_changes = change.get("stats_changes", {})
         raw_text = change.get("raw_text", "")
         
+        perk_name = change.get("perk_name", "")
+        
         # 1. Add to patch history details
-        hist_line = f"[{ability.capitalize()}] {change_type} -> {detail_text}"
+        hist_ability = f"{ability.capitalize()} - {perk_name}" if ability == "perks" and perk_name else ability.capitalize()
+        hist_line = f"[{hist_ability}] {change_type} -> {detail_text}"
         
         if stats_changes:
             stat_strings = [f"{k.capitalize()}: {v}" for k, v in stats_changes.items()]
@@ -49,6 +52,23 @@ def apply_patch_to_legend(legend_data, patch_name, changes):
             # If there's a cooldown change specifically, update the cooldown string
             if "cooldown" in stats_changes:
                 legend_data["abilities"][ability]["cooldown"] = stats_changes["cooldown"]
+
+        # 3. Update specific perk if applicable
+        if ability == "perks" and perk_name and "tactics" in legend_data and "perks" in legend_data["tactics"]:
+            perks_obj = legend_data["tactics"]["perks"]
+            # Search all levels and branches
+            for level in ["level_2", "level_3"]:
+                if level in perks_obj:
+                    for side in ["left", "right"]:
+                        if side in perks_obj[level]:
+                            # If name matches (case-insensitive)
+                            if perks_obj[level][side].get("name", "").lower() == perk_name.lower():
+                                if detail_text not in perks_obj[level][side].get("description", ""):
+                                    update_str = f"\n\n[Patch {patch_name} - {change_type}]: {detail_text}"
+                                    if stats_changes:
+                                        stat_strings = [f"{k.capitalize()}: {v}" for k, v in stats_changes.items()]
+                                        update_str += f" ({', '.join(stat_strings)})"
+                                    perks_obj[level][side]["description"] += update_str
 
     # Add to patch history if not already there
     patch_history = legend_data.get("patch_history", [])

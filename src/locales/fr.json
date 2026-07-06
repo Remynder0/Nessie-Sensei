@@ -1,7 +1,7 @@
 {
   "nav": {
     "teamGen": "Liaison & Déploie.",
-    "legends": "Archives Légendes",
+    "legends": "Légendes",
     "packCalculator": "Heirloom Tracker",
     "battlePass": "Battle Pass",
     "probabilities": "Analyse Prédic.",
@@ -10,7 +10,7 @@
     "sort": "Tri Tactique"
   },
   "legends": {
-    "title": "Archives Légendes",
+    "title": "Légendes",
     "groupedByClass": "Groupé par Classe",
     "searchPlaceholder": "RECHERCHER UNE LÉGENDE...",
     "unknownIdentity": "IDENTITÉ INCONNUE",
@@ -69,7 +69,7 @@
     "prevBtn": "Précédent",
     "doneBtn": "Terminer",
     "step1_title": "Bienvenue !",
-    "step1_desc": "Découvrez Legends Composer, votre terminal de données ultime pour l'univers d'Apex Legends. Laissez-nous vous faire visiter.",
+    "step1_desc": "Découvrez Nessie-Sensei, votre terminal de données ultime pour l'univers d'Apex Legends. Laissez-nous vous faire visiter.",
     "step_team_format_title": "Taille de l'escouade",
     "step_team_format_desc": "Basculez entre Duo ou Trio pour que l'algorithme génère la composition parfaite selon ce mode.",
     "step_team_profile_title": "Profil Synergique",

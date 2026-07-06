@@ -21,7 +21,7 @@
 | Module | Description |
 |---|---|
 | **Link & Deploy** (Team Gen) | Automatically generates the most optimal Duo/Trio compositions based on game data and algorithmic synergy logic. |
-| **Legends Archives** | Detailed gallery and profiles of all legends (class, stats, special synergies, and anti-synergies). |
+| **Legends** | Detailed gallery and profiles of all legends (class, stats, special synergies, and anti-synergies). |
 | **Predictive Analysis** (Probabilities) | Calculates the mathematical chances of obtaining a rare drop based on account stats. |
 | **Heirloom Tracker** | Calculates the exact progression towards the 500th legendary pack, taking into account account level, prestige, and Battle Pass progression. |
 | **Battle Pass** | Archival view of season data (items, tiers) organized by season. |

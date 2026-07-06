@@ -19,7 +19,8 @@ You must return ONLY a JSON array, nothing else. Do not wrap in markdown tags li
 For each legend mentioned in the text, extract:
 - name: The legend's name.
 - changes: A list of changes. Each change should have:
-  - ability: The ability modified (e.g., "Passive", "Tactical", "Ultimate", or "Base").
+  - ability: The ability modified (e.g., "Passive", "Tactical", "Ultimate", "Perks", or "Base").
+  - perk_name: If the ability modified is a "Perk", extract the exact name of the perk being modified (e.g. "Double Dose", "Piercing Vision"). If not a perk, leave as empty string.
   - type: Classify the change as exactly one of: "Buff", "Nerf", "Rework", or "Adjust".
   - detail: A short summary of the overall change in one sentence.
   - stats_changes: A dictionary of specific stat changes. Keys can be anything relevant (e.g., "cooldown", "damage", "projectile speed", "snare duration", "shield regen", "charges"). Values should be the change (e.g., "10s -> 15s" or "Increased by 10%"). Leave empty {} if no exact numbers or stats changed.
@@ -32,6 +33,7 @@ Example Output:
     "changes": [
       {
         "ability": "Tactical",
+        "perk_name": "",
         "type": "Buff",
         "detail": "Snare duration and max distance increased, but cooldown is longer.",
         "stats_changes": {
