@@ -10,13 +10,13 @@
   "abilities": {
     "passive": {
       "name": "Savior's Speed",
-      "description": "Sprint faster towards allies that are out of range of your tactical.",
+      "description": "Sprint faster towards allies that are out of range of your tactical.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: If Savior's Speed is active when sprinting toward a Skirmisher, Conduit gains an additional 5% movement speed.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Radiant Transfer",
-      "description": "Send a surge of energy to a teammate and yourself, temporarily regenerating shields when in danger.",
-      "cooldown": "27 seconds"
+      "description": "Send a surge of energy to a teammate and yourself, temporarily regenerating shields when in danger.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Nerf]: Regen rate reduced, regen duration increased and ally/conduit total regen decreased. (Regen rate: 15/s -> 10/s, Regen duration: 6s -> 8s, Ally total regen: 90 -> 80, Conduit total regen: 60 -> 56)\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Nerf]: Cooldown increased. (Cooldown: 27s -> 30s)\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Conduit's Split Charge has been incorporated into her base kit, granting two charges.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Conduit's Regen duration and rate are decreased.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Conduit's cooldown is adjusted.",
+      "cooldown": "27s -> 30s"
     },
     "ultimate": {
       "name": "Energy Barricade",
@@ -26,20 +26,32 @@
   },
   "patch_history": [
     {
-      "patch": "Saison 29 (Overclocked) - EA Officiel",
+      "patch": "Saison 29 : Overclocked",
       "details": [
-        "[Tactical]",
-        "Decreased Regen Rate from 15/s to 10/s",
+        "[Passive] Buff -> If Savior's Speed is active when sprinting toward a Skirmisher, Conduit gains an additional 5% movement speed.",
+        "[Tactical] Buff -> Conduit's Split Charge has been incorporated into her base kit, granting two charges.",
+        "[Tactical] Buff -> Conduit's Regen duration and rate are decreased.",
+        "[Tactical] Buff -> Conduit's cooldown is adjusted."
+      ]
+    },
+    {
+      "patch": "Saison 29 : Overclocked (Midseason)",
+      "details": [
+        "[Tactical] Nerf -> Regen rate reduced, regen duration increased and ally/conduit total regen decreased. (Regen rate: 15/s -> 10/s, Regen duration: 6s -> 8s, Ally total regen: 90 -> 80, Conduit total regen: 60 -> 56)",
+        "[Tactical] Nerf -> Cooldown increased. (Cooldown: 27s -> 30s)"
+      ]
+    },
+    {
+      "patch": "Saison 29 : Overclocked",
+      "details": [
+        "[Tactical] Adjust -> Decreased Regen Rate from 15/s to 10/s",
         "Increased Regen Duration from 6s to 8s",
         "Decreased Ally Total Regen from 90 to 80",
         "Decreased Conduit Total Regen from 60 to 56",
-        "[Upgrades]",
-        "Level 3",
+        "[Upgrades] Adjust -> Level 3",
         "**Instant Barrier:** Increased Regen Duration from 4s to 6s",
-        "[Tactical]",
-        "Increased Cooldown from 27 seconds to 30 seconds",
-        "[Upgrades]",
-        "Level 3",
+        "[Tactical] Adjust -> Increased Cooldown from 27 seconds to 30 seconds",
+        "[Upgrades] Adjust -> Level 3",
         "**Enduring Barrier**: No longer grants regen through ring damage"
       ]
     },

@@ -10,21 +10,35 @@
   "abilities": {
     "passive": {
       "name": "Predator's Pursuit",
-      "description": "Press Space/// while in the air to perform a dash.",
-      "cooldown": ""
+      "description": "Press Space/// while in the air to perform a dash.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Ash's passive cooldown and velocity are adjusted. (Cooldown: 12s -> 10s, Velocity: 425 -> 450)\n\n[Patch Apex Legends™: Takeover Patch Notes - Buff]: Ash a obtient un nouveau passif : Predator's Pursuit, qui lui permet d'effectuer une course rapide en tous sens. (Cooldown: )",
+      "cooldown": "12s -> 10s"
     },
     "tactical": {
       "name": "Arc Snare",
-      "description": "Throw a spinning snare that damages and tethers the first enemy that gets too close.",
-      "cooldown": "20 seconds"
+      "description": "Throw a spinning snare that damages and tethers the first enemy that gets too close.\n\n[Patch Apex Legends™: Takeover Patch Notes - Buff]: La durée de l'emprise et la distance maximale de l'étreinte ont augmenté, mais le temps de recharge est plus long. (Snare duration: 3s -> 5s, Max distance: augmenté à 50m, Cooldown: 20s -> 25s)",
+      "cooldown": "20s -> 25s"
     },
     "ultimate": {
       "name": "Phase Breach",
-      "description": "Tear open a one-way portal to a targeted location.",
+      "description": "Tear open a one-way portal to a targeted location.\n\n[Patch Apex Legends™: Takeover Patch Notes - Buff]: L'ultime se déplace plus loin, plus vite et la détection du point d'arrivée a été améliorée. (Range: augmenté, Speed: augmenté)",
       "cooldown": "2.5 minutes"
     }
   },
   "patch_history": [
+    {
+      "patch": "Takeover",
+      "details": [
+        "[Passive] Buff -> Ash a obtient un nouveau passif : Predator's Pursuit, qui lui permet d'effectuer une course rapide en tous sens. (Cooldown: )",
+        "[Tactical] Buff -> La durée de l'emprise et la distance maximale de l'étreinte ont augmenté, mais le temps de recharge est plus long. (Snare duration: 3s -> 5s, Max distance: augmenté à 50m, Cooldown: 20s -> 25s)",
+        "[Ultimate] Buff -> L'ultime se déplace plus loin, plus vite et la détection du point d'arrivée a été améliorée. (Range: augmenté, Speed: augmenté)"
+      ]
+    },
+    {
+      "patch": "Saison 29 : Overclocked",
+      "details": [
+        "[Passive] Buff -> Ash's passive cooldown and velocity are adjusted. (Cooldown: 12s -> 10s, Velocity: 425 -> 450)"
+      ]
+    },
     {
       "patch": "October 9, 2025 Patch",
       "details": [

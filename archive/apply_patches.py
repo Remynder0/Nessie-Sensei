@@ -1,8 +1,18 @@
 import os
 import json
+import re
 
 STRUCTURED_PATCHES_FILE = "public/data/structured_patches.json"
 LEGENDS_DIR = "public/data/legends"
+
+SEASONS_MAP = {
+    "wild frontier": 1, "battle charge": 2, "meltdown": 3, "assimilation": 4, 
+    "fortune's favor": 5, "boosted": 6, "ascension": 7, "mayhem": 8, 
+    "legacy": 9, "emergence": 10, "escape": 11, "defiance": 12, 
+    "saviors": 13, "hunted": 14, "eclipse": 15, "revelry": 16, 
+    "arsenal": 17, "resurrection": 18, "ignite": 19, "breakout": 20, 
+    "upheaval": 21, "shockwave": 22, "overclocked": 29
+}
 
 def load_json(filepath):
     if not os.path.exists(filepath):
@@ -14,20 +24,96 @@ def save_json(filepath, data):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-def apply_patch_to_legend(legend_data, patch_name, changes):
-    # Prepare details for patch_history
-    details = []
+def format_patch_name(title):
+    t_lower = title.lower()
+    midseason = "(Midseason)" if "midseason" in t_lower else ""
+    
+    found_season_name = None
+    found_season_num = None
+    
+    for name, num in SEASONS_MAP.items():
+        if name in t_lower:
+            found_season_name = name.capitalize()
+            found_season_num = num
+            break
+            
+    if found_season_name:
+        base = f"Saison {found_season_num} : {found_season_name}"
+        if midseason:
+            base += f" {midseason}"
+        return base
+        
+    clean_title = title.replace("Apex Legends™:", "").replace("Apex Legends:", "").strip()
+    clean_title = clean_title.replace("Patch Notes", "").replace("- EA Officiel", "").strip()
+    
+    if midseason and "midseason" not in clean_title.lower():
+        clean_title += f" {midseason}"
+        
+    return clean_title.strip()
+
+def strip_prefix(text):
+    # Removes "[Ability] Type -> " prefix
+    return re.sub(r'^\[.*?\]\s*.*?->\s*', '', text)
+
+def normalize_text(text):
+    return re.sub(r'[^a-z0-9]', '', text.lower())
+
+def is_duplicate_detail(detail_text, existing_lines):
+    norm_detail = normalize_text(strip_prefix(detail_text))
+    if len(norm_detail) < 10:
+        return False
+        
+    for existing_line in existing_lines:
+        norm_exist = normalize_text(strip_prefix(existing_line))
+        if norm_detail in norm_exist or norm_exist in norm_detail:
+            return True
+    return False
+
+def format_legacy_history(patch_history):
+    changed = False
+    for p in patch_history:
+        old_patch = p.get("patch", "")
+        new_patch = format_patch_name(old_patch)
+        if old_patch != new_patch:
+            p["patch"] = new_patch
+            changed = True
+            
+        details = p.get("details", [])
+        new_details = []
+        i = 0
+        original_details = list(details)
+        
+        while i < len(details):
+            line = details[i]
+            if line.startswith("[") and line.endswith("]") and i + 1 < len(details) and not details[i+1].startswith("["):
+                ability = line
+                text = details[i+1]
+                new_details.append(f"{ability} Adjust -> {text}")
+                i += 2
+            else:
+                new_details.append(line)
+                i += 1
+                
+        if new_details != original_details:
+            p["details"] = new_details
+            changed = True
+            
+    return changed
+
+def apply_patch_to_legend(legend_data, raw_patch_name, changes):
+    patch_name = format_patch_name(raw_patch_name)
+    patch_history = legend_data.get("patch_history", [])
+    
+    changed = format_legacy_history(patch_history)
+    new_details = []
     
     for change in changes:
         ability = str(change.get("ability", "Base")).lower()
         change_type = change.get("type", "Adjust")
         detail_text = change.get("detail", "")
         stats_changes = change.get("stats_changes", {})
-        raw_text = change.get("raw_text", "")
-        
         perk_name = change.get("perk_name", "")
         
-        # 1. Add to patch history details
         hist_ability = f"{ability.capitalize()} - {perk_name}" if ability == "perks" and perk_name else ability.capitalize()
         hist_line = f"[{hist_ability}] {change_type} -> {detail_text}"
         
@@ -35,13 +121,11 @@ def apply_patch_to_legend(legend_data, patch_name, changes):
             stat_strings = [f"{k.capitalize()}: {v}" for k, v in stats_changes.items()]
             hist_line += f" ({', '.join(stat_strings)})"
             
-        details.append(hist_line)
+        new_details.append(hist_line)
         
-        # 2. Update the abilities object if it matches passive, tactical, or ultimate
+        # Update descriptions
         if ability in ["passive", "tactical", "ultimate"]:
-            # Append note to description
             if "description" in legend_data["abilities"][ability]:
-                # Avoid duplicating the same note if script is run multiple times
                 if detail_text not in legend_data["abilities"][ability]["description"]:
                     update_str = f"\n\n[Patch {patch_name} - {change_type}]: {detail_text}"
                     if stats_changes:
@@ -49,19 +133,15 @@ def apply_patch_to_legend(legend_data, patch_name, changes):
                         update_str += f" ({', '.join(stat_strings)})"
                     legend_data["abilities"][ability]["description"] += update_str
             
-            # If there's a cooldown change specifically, update the cooldown string
             if "cooldown" in stats_changes:
                 legend_data["abilities"][ability]["cooldown"] = stats_changes["cooldown"]
 
-        # 3. Update specific perk if applicable
         if ability == "perks" and perk_name and "tactics" in legend_data and "perks" in legend_data["tactics"]:
             perks_obj = legend_data["tactics"]["perks"]
-            # Search all levels and branches
             for level in ["level_2", "level_3"]:
                 if level in perks_obj:
                     for side in ["left", "right"]:
                         if side in perks_obj[level]:
-                            # If name matches (case-insensitive)
                             if perks_obj[level][side].get("name", "").lower() == perk_name.lower():
                                 if detail_text not in perks_obj[level][side].get("description", ""):
                                     update_str = f"\n\n[Patch {patch_name} - {change_type}]: {detail_text}"
@@ -69,21 +149,63 @@ def apply_patch_to_legend(legend_data, patch_name, changes):
                                         stat_strings = [f"{k.capitalize()}: {v}" for k, v in stats_changes.items()]
                                         update_str += f" ({', '.join(stat_strings)})"
                                     perks_obj[level][side]["description"] += update_str
-
-    # Add to patch history if not already there
-    patch_history = legend_data.get("patch_history", [])
-    already_exists = any(p.get("patch") == patch_name for p in patch_history)
     
-    if not already_exists and details:
-        # Insert at the beginning (latest patch first)
-        patch_history.insert(0, {
-            "patch": patch_name,
-            "details": details
-        })
-        legend_data["patch_history"] = patch_history
-        return True
+    if new_details:
+        target_patch = None
+        for p in patch_history:
+            if p.get("patch") == patch_name:
+                target_patch = p
+                break
+                
+        if not target_patch:
+            for p in patch_history:
+                if patch_name.split(":")[0] == p.get("patch", "").split(":")[0]:
+                    overlap = False
+                    for new_line in new_details:
+                        if is_duplicate_detail(new_line, p.get("details", [])):
+                            overlap = True
+                            break
+                    if overlap:
+                        target_patch = p
+                        if "Midseason" in patch_name and "Midseason" not in p["patch"]:
+                            p["patch"] = patch_name
+                            changed = True
+                        break
+                        
+        if target_patch:
+            added_any = False
+            for new_line in new_details:
+                # Check globally across the entire history just to be absolutely sure
+                global_dup = False
+                for hist_p in patch_history:
+                    if is_duplicate_detail(new_line, hist_p.get("details", [])):
+                        global_dup = True
+                        break
+                if not global_dup:
+                    target_patch["details"].append(new_line)
+                    added_any = True
+            if added_any:
+                changed = True
+        else:
+            final_details = []
+            for new_line in new_details:
+                global_dup = False
+                for hist_p in patch_history:
+                    if is_duplicate_detail(new_line, hist_p.get("details", [])):
+                        global_dup = True
+                        break
+                if not global_dup:
+                    final_details.append(new_line)
+                    
+            if final_details:
+                patch_history.insert(0, {
+                    "patch": patch_name,
+                    "details": final_details
+                })
+                changed = True
         
-    return False
+    legend_data["patch_history"] = patch_history
+    return changed
 
 def main():
     patches_data = load_json(STRUCTURED_PATCHES_FILE)
@@ -93,16 +215,10 @@ def main():
 
     updated_count = 0
     
-    # We will prioritize applying the French locales for the patch_history if available,
-    # or process both? Usually, the legend data is language-agnostic but the UI translates it.
-    # Actually, patch_history is currently hardcoded in French in legends_data_scraper.py.
-    # Let's use the fr-fr locale if it exists in the structured patch.
-    
     for slug, patch in patches_data.items():
         date = patch.get("date", "")
         locales = patch.get("locales", {})
         
-        # Prefer French for the final application if it exists, otherwise English
         locale_data = locales.get("fr-fr") or locales.get("en-us")
         if not locale_data:
             continue
@@ -111,7 +227,6 @@ def main():
         legends_changes = locale_data.get("legends", [])
         
         if not isinstance(legends_changes, list):
-            print(f"Warning: legends data for {slug} is not a list. Skipping.")
             continue
             
         for legend_update in legends_changes:
@@ -126,14 +241,11 @@ def main():
             
             legend_data = load_json(filepath)
             if legend_data:
-                # Apply the patch
                 changed = apply_patch_to_legend(legend_data, title, changes)
                 if changed:
                     save_json(filepath, legend_data)
                     print(f"Applied patch '{title}' to {name}")
                     updated_count += 1
-            else:
-                print(f"Warning: Legend file for {name} ({filename}) not found.")
 
     print(f"Finished applying patches. Updated {updated_count} legend files.")
 

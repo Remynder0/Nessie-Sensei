@@ -15,16 +15,25 @@
     },
     "tactical": {
       "name": "Void Passage",
-      "description": "Creates a portal passageway through a surface.",
+      "description": "Creates a portal passageway through a surface.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Nerf]: Alter's cooldown is increased.",
       "cooldown": "25 seconds"
     },
     "ultimate": {
       "name": "Void Nexus",
-      "description": "Create a regroup point that all allies can remotely interact with to open a phase tunnel back to that location.",
+      "description": "Create a regroup point that all allies can remotely interact with to open a phase tunnel back to that location.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Nerf]: Alter's range and recall times are decreased.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Nerf]: Alter's ally recall time is increased.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Nerf]: Alter's chase portal open time is decreased.",
       "cooldown": "2 minutes"
     }
   },
   "patch_history": [
+    {
+      "patch": "Saison 29 : Overclocked",
+      "details": [
+        "[Tactical] Nerf -> Alter's cooldown is increased.",
+        "[Ultimate] Nerf -> Alter's range and recall times are decreased.",
+        "[Ultimate] Nerf -> Alter's ally recall time is increased.",
+        "[Ultimate] Nerf -> Alter's chase portal open time is decreased."
+      ]
+    },
     {
       "patch": "May 5, 2026 Patch",
       "details": [

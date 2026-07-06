@@ -15,7 +15,7 @@
     },
     "tactical": {
       "name": "Smoke Launcher",
-      "description": "Fire a high-velocity smoke canister that explodes into a smoke wall on impact.",
+      "description": "Fire a high-velocity smoke canister that explodes into a smoke wall on impact.\n\n[Patch Apex Legends™: Showdown Patch Notes - Buff]: Bangalore peut désormais utiliser de nouvelles mécaniques de percement pour éliminer les ennemis embusqués.",
       "cooldown": "30 seconds"
     },
     "ultimate": {
@@ -25,6 +25,13 @@
     }
   },
   "patch_history": [
+    {
+      "patch": "Showdown",
+      "details": [
+        "[Perks] Buff -> Bangalore a maintenant plus de flexibilité grâce à son arbre d'amélioration de légende.",
+        "[Tactical] Buff -> Bangalore peut désormais utiliser de nouvelles mécaniques de percement pour éliminer les ennemis embusqués."
+      ]
+    },
     {
       "patch": "June 25, 2024 Patch",
       "details": [

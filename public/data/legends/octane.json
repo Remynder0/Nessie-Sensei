@@ -10,12 +10,12 @@
   "abilities": {
     "passive": {
       "name": "Swift Mend",
-      "description": "Automatically restores health over time.",
+      "description": "Automatically restores health over time.\n\n[Patch Grab your Hoverboard for the Winter Wipeout Event - Buff]: Le régénération de santé passive a été améliorée.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Stim",
-      "description": "Increase walk speed by 30% and sprint speed by 40% for 6 seconds. Costs Health to use. Reduction to slows while active.",
+      "description": "Increase walk speed by 30% and sprint speed by 40% for 6 seconds. Costs Health to use. Reduction to slows while active.\n\n[Patch Grab your Hoverboard for the Winter Wipeout Event - Rework]: L'abilité Stim a été reworkée.",
       "cooldown": "0.7 seconds"
     },
     "ultimate": {
@@ -25,6 +25,13 @@
     }
   },
   "patch_history": [
+    {
+      "patch": "Grab your Hoverboard for the Winter Wipeout Event",
+      "details": [
+        "[Passive] Buff -> Le régénération de santé passive a été améliorée.",
+        "[Tactical] Rework -> L'abilité Stim a été reworkée."
+      ]
+    },
     {
       "patch": "April 01, 2026 Patch",
       "details": [

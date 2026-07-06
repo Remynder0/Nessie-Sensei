@@ -10,35 +10,40 @@
   "abilities": {
     "passive": {
       "name": "Heart Seeker",
-      "description": "Hear and visualize the heartbeats of enemies within 75m when aiming down sights, if enemies are beyond this range the marker turns blue and pulsates with less intensity with a limit of ~90m",
+      "description": "Hear and visualize the heartbeats of enemies within 75m when aiming down sights, if enemies are beyond this range the marker turns blue and pulsates with less intensity with a limit of ~90m\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Activation speed of the heartbeat sensor increased, interval time between heartbeats decreased and activation time for unarmed ADSing decreased.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Focus of Attention",
-      "description": "Summon micro-drones to emit a delayed blast that goes through walls silencing and revealing enemies.",
+      "description": "Summon micro-drones to emit a delayed blast that goes through walls silencing and revealing enemies.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Delay between launch and hit reduced and slow on hit improved.",
       "cooldown": "20 seconds"
     },
     "ultimate": {
       "name": "Exhibit",
-      "description": "Create a sphere of micro-drones that reveal the location of enemies moving quickly or firing their weapons within. You can double jump while inside the sphere.",
+      "description": "Create a sphere of micro-drones that reveal the location of enemies moving quickly or firing their weapons within. You can double jump while inside the sphere.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Quick 2 second scan of the area upon deployment added and cloaked enemies show footsteps within Ultimate zone.",
       "cooldown": "3 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "Saison 29 (Overclocked) - EA Officiel",
+      "patch": "Saison 29 : Overclocked (Midseason)",
       "details": [
-        "[Passive]",
-        "Increased the activation speed of the heartbeat sensor.",
+        "[Passive] Buff -> Activation speed of the heartbeat sensor increased, interval time between heartbeats decreased and activation time for unarmed ADSing decreased.",
+        "[Tactical] Buff -> Delay between launch and hit reduced and slow on hit improved.",
+        "[Ultimate] Buff -> Quick 2 second scan of the area upon deployment added and cloaked enemies show footsteps within Ultimate zone."
+      ]
+    },
+    {
+      "patch": "Saison 29 : Overclocked",
+      "details": [
+        "[Passive] Adjust -> Increased the activation speed of the heartbeat sensor.",
         "Decreased the interval time between heartbeats.",
         "Decreased activation time for unarmed ADSing",
         "Made the delay when aiming more consistent between weapon and unarmed.",
         "This means the heartbeat sensor will appear at the same time regardless of the weapon you’re using.",
-        "[Tactical]",
-        "Reduced the delay between the launch and hit.",
+        "[Tactical] Adjust -> Reduced the delay between the launch and hit.",
         "Improved the slow on hit, should now halt faster moving Legends more effectively.",
-        "[Ultimate]",
-        "Upon deployment, there is now a quick 2 second scan of the area which will highlight any enemy in the area.",
+        "[Ultimate] Adjust -> Upon deployment, there is now a quick 2 second scan of the area which will highlight any enemy in the area.",
         "Enemies that enter the area after it’s deployed will also be scanned for 2 seconds.",
         "Cloaked enemies will now show footsteps if they are within the Ultimate zone."
       ]

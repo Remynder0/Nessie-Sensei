@@ -24,6 +24,31 @@ function handleImageError(event: Event, fallbackSrc: string, errorFlagRef: 'port
         if (errorFlagRef === 'ability3Error') ability3Error.value = true;
     };
 }
+
+const parsePatchDetail = (detail: string) => {
+    const match = detail.match(/^(\[.*?\])\s*(.*?)\s*->\s*(.*)$/);
+    if (match) {
+        return {
+            ability: match[1],
+            type: match[2],
+            text: match[3],
+            isFormatted: true
+        };
+    }
+    return {
+        text: detail,
+        isFormatted: false
+    };
+};
+
+const getPatchTypeClass = (type: string) => {
+    const t = type.toLowerCase();
+    if (t.includes('buff')) return 'text-green-400 border-green-400/30 bg-green-400/10';
+    if (t.includes('nerf')) return 'text-apex-red border-apex-red/30 bg-apex-red/10';
+    if (t.includes('adjust') || t.includes('ajust')) return 'text-titan-cyan border-titan-cyan/30 bg-titan-cyan/10';
+    if (t.includes('fix') || t.includes('corr')) return 'text-yellow-400 border-yellow-400/30 bg-yellow-400/10';
+    return 'text-gray-400 border-gray-400/30 bg-gray-400/10';
+};
 </script>
 
 <template>
@@ -212,9 +237,25 @@ function handleImageError(event: Event, fallbackSrc: string, errorFlagRef: 'port
                         </h3>
                         <div class="space-y-6">
                             <div v-for="patch in currentLegendDetails.patch_history" :key="patch.patch" class="border-l-2 border-titan-border/50 pl-4 py-1">
-                                <h4 class="font-bold text-titan-cyan font-mono text-sm uppercase tracking-wider mb-2">{{ patch.patch }}</h4>
-                                <ul class="space-y-1 list-disc list-inside text-gray-400 text-sm">
-                                    <li v-for="(detail, i) in patch.details" :key="i" class="leading-relaxed">{{ detail }}</li>
+                                <h4 class="font-bold text-titan-cyan font-mono text-sm uppercase tracking-wider mb-3">{{ patch.patch }}</h4>
+                                <ul class="space-y-2.5 text-gray-400 text-sm">
+                                    <li v-for="(detail, i) in patch.details" :key="i" class="leading-relaxed flex flex-col md:flex-row md:items-start gap-1.5 md:gap-3">
+                                        <template v-if="parsePatchDetail(detail).isFormatted">
+                                            <div class="flex items-center gap-2 shrink-0 mt-0.5">
+                                                <span class="font-mono text-xs font-bold text-white">{{ parsePatchDetail(detail).ability }}</span>
+                                                <span class="font-mono text-[10px] uppercase tracking-wider px-1.5 py-0.5 border" :class="getPatchTypeClass(parsePatchDetail(detail).type)">
+                                                    {{ parsePatchDetail(detail).type }}
+                                                </span>
+                                            </div>
+                                            <span class="text-gray-300 md:pt-0.5">{{ parsePatchDetail(detail).text }}</span>
+                                        </template>
+                                        <template v-else>
+                                            <span class="text-gray-400 flex items-start gap-2">
+                                                <span class="w-1.5 h-1.5 rounded-full bg-titan-border/50 shrink-0 mt-1.5 block"></span>
+                                                <span>{{ detail }}</span>
+                                            </span>
+                                        </template>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

@@ -1,38 +1,63 @@
 import os
 import json
+import time
 import requests
 from bs4 import BeautifulSoup
 
 OUTPUT_FILE = "public/data/raw_patches.json"
-LOCALES = ["en-us", "fr-fr"]
+LOCALES = ["en-us"]
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
 
 def get_news_index(locale):
-    url = f"https://www.ea.com/{locale}/games/apex-legends/news"
-    print(f"Fetching news index from: {url}")
-    try:
-        r = requests.get(url, headers=HEADERS)
-        soup = BeautifulSoup(r.text, 'html.parser')
-        for s in soup.find_all('script'):
-            if s.string and '"props":' in s.string:
-                try:
-                    data = json.loads(s.string)
-                    news_data = data['props']['pageProps']['newsDataFallback']
-                    return news_data.get('items', []) + ([news_data.get('featured')] if news_data.get('featured') else [])
-                except Exception as e:
-                    pass
-    except Exception as e:
-        print(f"Error fetching {url}: {e}")
-    return []
+    all_items = []
+    page = 1
+    while True:
+        url = f"https://www.ea.com/{locale}/games/apex-legends/news?page={page}"
+        print(f"Fetching news index from: {url}")
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=30)
+            # requests guesses r.encoding from the HTTP headers, and EA's
+            # responses don't always send a charset. That mismatch is what
+            # causes accented characters (é, à, ç...) to come back as the
+            # Unicode replacement character "�" once BeautifulSoup/json
+            # re-parse the text. Sniffing the real encoding from the content
+            # itself fixes it.
+            r.encoding = r.apparent_encoding
+            soup = BeautifulSoup(r.text, 'html.parser')
+            items_found = False
+            for s in soup.find_all('script'):
+                if s.string and '"props":' in s.string:
+                    try:
+                        data = json.loads(s.string)
+                        news_data = data['props']['pageProps']['newsDataFallback']
+                        items = news_data.get('items', [])
+                        
+                        if page == 1 and news_data.get('featured'):
+                            all_items.append(news_data['featured'])
+                        
+                        all_items.extend(items)
+                        if items:
+                            items_found = True
+                    except Exception as e:
+                        pass
+            if not items_found:
+                break
+        except Exception as e:
+            print(f"Error fetching {url}: {e}")
+            break
+        page += 1
+        time.sleep(0.5)
+    return all_items
 
 def get_article_body(locale, slug):
     url = f"https://www.ea.com/{locale}/games/apex-legends/news/{slug}"
     print(f"  Fetching article: {url}")
     try:
-        r = requests.get(url, headers=HEADERS)
+        r = requests.get(url, headers=HEADERS, timeout=30)
+        r.encoding = r.apparent_encoding
         soup = BeautifulSoup(r.text, 'html.parser')
         for s in soup.find_all('script'):
             if s.string and '"props":' in s.string:
@@ -46,28 +71,34 @@ def get_article_body(locale, slug):
         print(f"Error fetching {url}: {e}")
     return None
 
-def extract_legends_section(body):
-    # Depending on language, the heading might be different, but usually markdown has ## LEGENDS or ## LÉGENDES
-    if not body:
-        return ""
-    
-    lines = body.split('\n')
-    in_legends = False
+def extract_legends_section(markdown):
+    lines = markdown.split('\n')
     extracted = []
+    in_legends_section = False
+    current_level = 0
     
     for line in lines:
         upper_line = line.upper()
-        # Find start of legends section
-        if line.startswith('## ') and ('LEGEND' in upper_line or 'LÉGENDE' in upper_line):
-            in_legends = True
-            extracted.append(line)
-            continue
+        
+        # Check if line is a heading
+        if line.startswith('#'):
+            # Determine the heading level (number of '#' characters)
+            level = len(line) - len(line.lstrip('#'))
             
-        # If we hit another ## heading, we exit
-        if in_legends and line.startswith('## ') and not ('LEGEND' in upper_line or 'LÉGENDE' in upper_line):
-            break
+            # If we are already extracting, check if we've reached a new section
+            # of equal or higher importance (smaller or equal number of #).
+            if in_legends_section and level <= current_level:
+                in_legends_section = False
+                extracted.append("\n") # Add spacing between disconnected sections
             
-        if in_legends:
+            # Start extracting if the heading contains LEGEND or LÉGENDE (ignoring APEX)
+            if ('LEGEND' in upper_line or 'LÉGENDE' in upper_line) and 'APEX' not in upper_line:
+                in_legends_section = True
+                current_level = level
+                extracted.append(line)
+                continue
+                
+        if in_legends_section:
             extracted.append(line)
             
     return '\n'.join(extracted)
@@ -98,6 +129,7 @@ def main():
                 "title": article.get('title'),
                 "raw_markdown": legends_markdown
             }
+            time.sleep(0.5)
             
     # filter out empty ones
     filtered_patches = {}

@@ -15,23 +15,28 @@
     },
     "tactical": {
       "name": "Riot Drill",
-      "description": "Fire a drill that attaches to an obstacle and burns enemies on the other side.",
-      "cooldown": "20 seconds"
+      "description": "Fire a drill that attaches to an obstacle and burns enemies on the other side.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Nerf]: Cooldown increased. (Cooldown: 22s -> 28s)",
+      "cooldown": "22s -> 28s"
     },
     "ultimate": {
       "name": "Wrecking Ball",
-      "description": "Throw a ball that releases speed-boosting pads and detonates near enemies.",
+      "description": "Throw a ball that releases speed-boosting pads and detonates near enemies.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Speed boost replaced by sprint boost.",
       "cooldown": "2 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "Saison 29 (Overclocked) - EA Officiel",
+      "patch": "Saison 29 : Overclocked (Midseason)",
       "details": [
-        "[Tactical]",
-        "Increased Cooldown from 22 seconds to 28 seconds.",
-        "[Ultimate]",
-        "The speed boost granted from running on the pucks dropped by the wrecking ball has been replaced by a sprint boost.",
+        "[Tactical] Nerf -> Cooldown increased. (Cooldown: 22s -> 28s)",
+        "[Ultimate] Buff -> Speed boost replaced by sprint boost."
+      ]
+    },
+    {
+      "patch": "Saison 29 : Overclocked",
+      "details": [
+        "[Tactical] Adjust -> Increased Cooldown from 22 seconds to 28 seconds.",
+        "[Ultimate] Adjust -> The speed boost granted from running on the pucks dropped by the wrecking ball has been replaced by a sprint boost.",
         "Will no longer speed up all movement, just when sprinting."
       ]
     },

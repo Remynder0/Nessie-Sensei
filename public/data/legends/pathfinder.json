@@ -10,35 +10,31 @@
   "abilities": {
     "passive": {
       "name": "Insider Knowledge",
-      "description": "Scan a Care Package, Ring Console, or Survey Beacon to recharge 25% of the  Zipline Gun and permanently reduce its cooldown by 10s.",
+      "description": "Scan a Care Package, Ring Console, or Survey Beacon to recharge 25% of the  Zipline Gun and permanently reduce its cooldown by 10s.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Pathfinder now tucks in his legs while riding horizontal ziplines.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Grappling Hook",
-      "description": "Grapple to get to out-of-reach places quickly.",
+      "description": "Grapple to get to out-of-reach places quickly.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Tactical charges increased and cooldown decreased. (Tactical charges: 1 -> 2)",
       "cooldown": "10–30 seconds"
     },
     "ultimate": {
       "name": "Zipline Gun",
-      "description": "Create a zipline for everyone to use. Riders take 50% less damage while its energized.",
+      "description": "Create a zipline for everyone to use. Riders take 50% less damage while its energized.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Launch speed of the zipline projectile increased and cooldown decreased.",
       "cooldown": "3 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "Saison 29 (Overclocked) - EA Officiel",
+      "patch": "Saison 29 : Overclocked (Midseason)",
       "details": [
-        "[Passive]",
-        "Pathfinder now tucks in his legs while riding horizontal ziplines.",
+        "[Passive] Buff -> Pathfinder now tucks in his legs while riding horizontal ziplines.",
         "This should make him a little harder to hit when riding on his Ultimate and other ziplines in the world.",
-        "[Tactical]",
-        "Tactical charges increased from 1 to 2.",
+        "[Tactical] Adjust -> Tactical charges increased from 1 to 2.",
         "Removed the progressive cooldown and it is now a flat 20 seconds.",
-        "[Ultimate]",
-        "Increased launch speed of the zipline projectile.",
+        "[Ultimate] Adjust -> Increased launch speed of the zipline projectile.",
         "Reduced cooldown from 3 minutes to 2 minutes.",
-        "[Upgrades]",
-        "Level 2",
+        "[Upgrades] Adjust -> Level 2",
         "**Field Research:** Now grants all Recon perks instead of just the survey beacon scan.",
         "**Ringmaster:** Now grants all Controller perks instead of just the ring console access.",
         "Level 3",

@@ -10,7 +10,7 @@
   "abilities": {
     "passive": {
       "name": "Neurolink",
-      "description": "Crypto and his teammates see what his Surveillance Drone detects up to a 30m distance.",
+      "description": "Crypto and his teammates see what his Surveillance Drone detects up to a 30m distance.\n\n[Patch Grab your Hoverboard for the Winter Wipeout Event - Buff]: L'update de firmware a rendu Crypto plus discret.",
       "cooldown": ""
     },
     "tactical": {
@@ -25,6 +25,12 @@
     }
   },
   "patch_history": [
+    {
+      "patch": "Grab your Hoverboard for the Winter Wipeout Event",
+      "details": [
+        "[Passive] Buff -> L'update de firmware a rendu Crypto plus discret."
+      ]
+    },
     {
       "patch": "January 06, 2026 Patch",
       "details": [

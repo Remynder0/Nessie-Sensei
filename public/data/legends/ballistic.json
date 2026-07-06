@@ -10,28 +10,42 @@
   "abilities": {
     "passive": {
       "name": "Sling",
-      "description": "Store a third weapon in the sling. Access either via inventory or Character Utility Action. The sling weapon cannot take attachments.",
+      "description": "Store a third weapon in the sling. Access either via inventory or Character Utility Action. The sling weapon cannot take attachments.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Ballistic now respawns with his Sling weapon in all game modes.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Whistler",
-      "description": "Shoots a projectile that heats up an enemy's gun as they shoot. Overheating causes damage. Hold the tactical to lock-on.",
+      "description": "Shoots a projectile that heats up an enemy's gun as they shoot. Overheating causes damage. Hold the tactical to lock-on.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Overheat debuff duration increased, overheat damage increased, tactical charges increased and time between firing and homing activation decreased. (Overheat damage: 15 -> 50, Overheat debuff duration: 12s -> 15s, Tactical charges: 1 -> 2)\n\n[Patch Apex Legends™: Takeover Patch Notes - Buff]: Le lanceur de Ballistic peut maintenant transporter des armes en caisse.",
       "cooldown": "25 seconds"
     },
     "ultimate": {
       "name": "Tempest",
-      "description": "When activated, nearby teammates get faster reloads, faster armed move speed, and infinite ammo. Ballistic's sling weapon will be equipped and upgraded to gold.",
+      "description": "When activated, nearby teammates get faster reloads, faster armed move speed, and infinite ammo. Ballistic's sling weapon will be equipped and upgraded to gold.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Ballistic and teammates within range get a sprint boost when his Ultimate is activated.\n\n[Patch Apex Legends™: Takeover Patch Notes - Buff]: L'ultime de Ballistic accorde maintenant une bonus de vitesse.",
       "cooldown": "2 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "Saison 29 (Overclocked) - EA Officiel",
+      "patch": "Takeover",
       "details": [
-        "[Passive]",
-        "Ballistic now respawns with his Sling weapon in all game modes.",
-        "[Tactical]",
-        "Overheat now only applies to one weapon.",
+        "[Base] Buff -> Le niveau de base de Ballistic a été amélioré.",
+        "[Ultimate] Buff -> L'ultime de Ballistic accorde maintenant une bonus de vitesse.",
+        "[Tactical] Buff -> Le lanceur de Ballistic peut maintenant transporter des armes en caisse."
+      ]
+    },
+    {
+      "patch": "Saison 29 : Overclocked (Midseason)",
+      "details": [
+        "[Passive] Buff -> Ballistic now respawns with his Sling weapon in all game modes.",
+        "[Tactical] Buff -> Overheat debuff duration increased, overheat damage increased, tactical charges increased and time between firing and homing activation decreased. (Overheat damage: 15 -> 50, Overheat debuff duration: 12s -> 15s, Tactical charges: 1 -> 2)",
+        "[Ultimate] Buff -> Ballistic and teammates within range get a sprint boost when his Ultimate is activated."
+      ]
+    },
+    {
+      "patch": "Saison 29 : Overclocked",
+      "details": [
+        "[Passive] Adjust -> Ballistic now respawns with his Sling weapon in all game modes.",
+        "[Tactical] Adjust -> Overheat now only applies to one weapon.",
         "If a player has a weapon out when hit by Whistler the overheat debuff applies only to that weapon.",
         "If the player is unarmed when hit by Whistler it applies to the weapon in the first weapon slot.",
         "Overheat no longer degrades when not firing or swapping to another weapon.",
@@ -41,11 +55,9 @@
         "Tactical charges increased from 1 to 2.",
         "Decreased time between firing and when homing activates.",
         "The overheat debuff no longer re-applies if you hit someone who is already overheating and you cannot apply it to multiple guns on the same player.",
-        "[Ultimate]",
-        "Ballistic and teammates within range get a sprint boost when his Ultimate is activated. (Previously only Ballistic got a speed boost)",
+        "[Ultimate] Adjust -> Ballistic and teammates within range get a sprint boost when his Ultimate is activated. (Previously only Ballistic got a speed boost)",
         "Sprint boost will only apply a speed boost while sprinting and will not speed up other types of movement.",
-        "[Upgrades]",
-        "Level 2",
+        "[Upgrades] Adjust -> Level 2",
         "**Extra Bullet:** Gain an additional Tactical charge.",
         "**Trap Mode:** When placed in the world, Ballistic’s KTactical lasts 15 seconds and deals 35 damage if an enemy walks into it.",
         "Level 3",

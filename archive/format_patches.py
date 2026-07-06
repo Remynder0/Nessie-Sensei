@@ -3,6 +3,14 @@ import json
 import requests
 import time
 
+# Optional but strongly recommended: pip install json-repair
+# Falls back to a regex-only cleanup if the library isn't installed.
+try:
+    from json_repair import repair_json
+    HAS_JSON_REPAIR = True
+except ImportError:
+    HAS_JSON_REPAIR = False
+
 RAW_PATCHES_FILE = "public/data/raw_patches.json"
 STRUCTURED_PATCHES_FILE = "public/data/structured_patches.json"
 
@@ -15,6 +23,7 @@ LM_STUDIO_URL = "http://localhost:1234/v1/chat/completions"
 
 SYSTEM_PROMPT = """You are an expert data parser. Your job is to read Apex Legends patch notes and extract the exact changes made to each Legend into a strictly structured JSON format.
 You must return ONLY a JSON array, nothing else. Do not wrap in markdown tags like ```json.
+CRITICAL: Your output must be 100% valid JSON. Do NOT use unescaped double quotes inside your string values. If you need quotes inside a string, use single quotes (') or escape them properly (\"). 
 
 For each legend mentioned in the text, extract:
 - name: The legend's name.
@@ -48,36 +57,81 @@ Example Output:
 ]
 """
 
-def call_llm(markdown_text):
+import re
+
+def _extract_json_array(content):
+    """Strip markdown fences and isolate the JSON array from the raw model output."""
+    json_str = content.strip()
+    if json_str.startswith("```json"):
+        json_str = json_str[7:]
+    if json_str.startswith("```"):
+        json_str = json_str[3:]
+    if json_str.endswith("```"):
+        json_str = json_str[:-3]
+    json_str = json_str.strip()
+
+    # Extract everything between the first [ and the last ]
+    match = re.search(r'\[.*\]', json_str, re.DOTALL)
+    if match:
+        json_str = match.group(0)
+
+    # Fix common JSON error: trailing commas
+    json_str = re.sub(r',\s*([\]}])', r'\1', json_str)
+    return json_str
+
+
+def _parse_json_with_fallback(json_str):
+    """Try strict parsing first, then fall back to json-repair for malformed output."""
+    try:
+        return json.loads(json_str)
+    except json.JSONDecodeError as e:
+        if HAS_JSON_REPAIR:
+            try:
+                repaired = repair_json(json_str)
+                return json.loads(repaired)
+            except Exception:
+                pass
+        raise e
+
+
+def call_llm(markdown_text, locale, retries=2):
+    prompt = SYSTEM_PROMPT
+    if locale == "fr-fr":
+        prompt += "\nIMPORTANT: The original patch notes might be in English. You MUST translate the 'detail', 'stats_changes' values, and 'raw_text' into French before outputting the JSON."
+
     payload = {
         "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "system", "content": prompt},
             {"role": "user", "content": f"Parse the following patch notes:\n\n{markdown_text}"}
         ],
         "temperature": 0.1,
-        "max_tokens": -1,
+        "max_tokens": 8192,
         "stream": False
     }
-    
-    try:
-        response = requests.post(LM_STUDIO_URL, json=payload, timeout=60)
-        response.raise_for_status()
-        result = response.json()
-        content = result['choices'][0]['message']['content']
-        
-        # Clean up markdown formatting if the model wrapped it in ```json
-        content = content.strip()
-        if content.startswith("```json"):
-            content = content[7:]
-        if content.startswith("```"):
-            content = content[3:]
-        if content.endswith("```"):
-            content = content[:-3]
-            
-        return json.loads(content.strip())
-    except Exception as e:
-        print(f"Error calling LLM or parsing JSON: {e}")
-        return None
+
+    last_error = None
+    for attempt in range(1, retries + 1):
+        content = None
+        try:
+            response = requests.post(LM_STUDIO_URL, json=payload, timeout=600)
+            response.raise_for_status()
+            result = response.json()
+            content = result['choices'][0]['message']['content']
+
+            json_str = _extract_json_array(content)
+            return _parse_json_with_fallback(json_str)
+
+        except Exception as e:
+            last_error = e
+            print(f"  Attempt {attempt}/{retries} failed: {e}")
+            if content is not None and 'Expecting' in str(e):
+                print("  --- Problematic Output (truncated) ---")
+                print(content[:500] + "...\n" if len(content) > 500 else content)
+            if attempt < retries:
+                time.sleep(2)
+
+    print(f"Error calling LLM or parsing JSON after {retries} attempts: {last_error}")
+    return None
 
 def main():
     if not os.path.exists(RAW_PATCHES_FILE):
@@ -96,30 +150,32 @@ def main():
             "locales": {}
         }
         
-        for locale, data in patch["locales"].items():
-            raw_markdown = data["raw_markdown"]
-            if not raw_markdown.strip():
-                structured_patches[slug]["locales"][locale] = []
-                continue
-                
-            print(f"  Sending {locale} text to LM Studio...")
-            structured_data = call_llm(raw_markdown)
+        if "en-us" not in patch["locales"]:
+            continue
             
-            if structured_data:
-                structured_patches[slug]["locales"][locale] = {
+        data = patch["locales"]["en-us"]
+        raw_markdown = data["raw_markdown"]
+        if not raw_markdown.strip():
+            continue
+            
+        for target_locale in ["en-us", "fr-fr"]:
+            print(f"  Sending text to LM Studio for {target_locale} formatting...")
+            structured_data = call_llm(raw_markdown, target_locale)
+
+            if structured_data is not None:
+                structured_patches[slug]["locales"][target_locale] = {
                     "title": data["title"],
                     "legends": structured_data
                 }
-                print(f"  Successfully parsed {len(structured_data)} legends.")
+                print(f"  Successfully parsed {len(structured_data)} legends for {target_locale}.")
             else:
-                print(f"  Failed to parse {locale} text.")
-                structured_patches[slug]["locales"][locale] = {
+                print(f"  Failed to parse text for {target_locale}.")
+                structured_patches[slug]["locales"][target_locale] = {
                     "title": data["title"],
                     "legends": [],
                     "raw_markdown_failed": raw_markdown
                 }
                 
-            # Sleep slightly to not hammer the local GPU if processing multiple
             time.sleep(1)
             
     with open(STRUCTURED_PATCHES_FILE, 'w', encoding='utf-8') as f:

@@ -10,7 +10,7 @@
   "abilities": {
     "passive": {
       "name": "Nox Vision",
-      "description": "Gain extra upgrade points by causing damage with gas, opening deathboxes and scanning ring consoles.",
+      "description": "Gain extra upgrade points by causing damage with gas, opening deathboxes and scanning ring consoles.\n\n[Patch Apex Legends™: Showdown Patch Notes - Buff]: Le gaz de Nox Caustic est maintenant plus efficace pour tenir une zone ou menacer les attaquants.",
       "cooldown": ""
     },
     "tactical": {
@@ -25,6 +25,13 @@
     }
   },
   "patch_history": [
+    {
+      "patch": "Showdown",
+      "details": [
+        "[Passive] Buff -> Le gaz de Nox Caustic est maintenant plus efficace pour tenir une zone ou menacer les attaquants.",
+        "[Perks - Field Research] Buff -> Caustic peut maintenant gagner des mises à jour de légende supplémentaires."
+      ]
+    },
     {
       "patch": "September 16, 2025 Patch",
       "details": [

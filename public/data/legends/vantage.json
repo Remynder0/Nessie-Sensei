@@ -10,21 +10,32 @@
   "abilities": {
     "passive": {
       "name": "Spotter's Lens",
-      "description": "Aim down sights to scout with your eyepiece to see enemy healthbars and team shield levels. Ping to track multiple far away targets. Mid- to long-range scopes show bullet drop indicator to see where your shots will land.",
+      "description": "Aim down sights to scout with your eyepiece to see enemy healthbars and team shield levels. Ping to track multiple far away targets. Mid- to long-range scopes show bullet drop indicator to see where your shots will land.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Tracking a team with Spotters Lens generates 70% of an ultimate bullet.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Echo Relocation",
-      "description": "Position your winged companion Echo and then Launch toward him. Must be looking towards Echo to launch. Gain a Double Jump when you reach Echo, or crouch to cancel the jump early.",
+      "description": "Position your winged companion Echo and then Launch toward him. Must be looking towards Echo to launch. Gain a Double Jump when you reach Echo, or crouch to cancel the jump early.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Vantage is immune to hard landings exiting the tac, with increased velocity and double jump range.",
       "cooldown": "17 seconds"
     },
     "ultimate": {
       "name": "Sniper's Mark",
-      "description": "Use your custom sniper rifle to mark enemy targets which applies a damage bonus for you and your team. Shooting will enable a targeting laser for a short duration when aiming down sights.",
+      "description": "Use your custom sniper rifle to mark enemy targets which applies a damage bonus for you and your team. Shooting will enable a targeting laser for a short duration when aiming down sights.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Vantage's Canted Sight has reduced rechamber and ADS times, with increased aiming responsiveness.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Vantage's Normal sight has reduced ADS time, with increased weapon handling.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Vantage's weapon handling is improved in both modes, with reduced holster and deploy times.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Vantage's Normal scope magnification is increased.",
       "cooldown": "4 minutes"
     }
   },
   "patch_history": [
+    {
+      "patch": "Saison 29 : Overclocked",
+      "details": [
+        "[Passive] Buff -> Tracking a team with Spotters Lens generates 70% of an ultimate bullet.",
+        "[Tactical] Buff -> Vantage is immune to hard landings exiting the tac, with increased velocity and double jump range.",
+        "[Ultimate] Buff -> Vantage's Canted Sight has reduced rechamber and ADS times, with increased aiming responsiveness.",
+        "[Ultimate] Buff -> Vantage's Normal sight has reduced ADS time, with increased weapon handling.",
+        "[Ultimate] Buff -> Vantage's weapon handling is improved in both modes, with reduced holster and deploy times.",
+        "[Ultimate] Buff -> Vantage's Normal scope magnification is increased."
+      ]
+    },
     {
       "patch": "May 5, 2026 Patch",
       "details": [

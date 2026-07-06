@@ -26,6 +26,12 @@
   },
   "patch_history": [
     {
+      "patch": "Grab your Hoverboard for the Winter Wipeout Event",
+      "details": [
+        "[] Buff -> Les revives de Newcastle ont été améliorées."
+      ]
+    },
+    {
       "patch": "January 06, 2026 Patch",
       "details": [
         "Retrieve the Wounded\nIncorporated Heroes Hustle into base kit (Movement speed penalty reduced from 25% to 75%)",

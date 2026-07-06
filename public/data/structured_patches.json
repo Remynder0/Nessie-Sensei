@@ -1,0 +1,1555 @@
+{
+  "overclocked-midseason-patch-notes": {
+    "date": "2026-06-22T10:00:00.000-07:00",
+    "locales": {
+      "en-us": {
+        "title": "Apex Legends™: Overclocked Midseason Patch Notes",
+        "legends": [
+          {
+            "name": "Ballistic",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Ballistic now respawns with his Sling weapon in all game modes.",
+                "stats_changes": {},
+                "raw_text": "Ballistic now respawns with his Sling weapon in all game modes."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Overheat no longer degrades when not firing or swapping to another weapon, and overheat does not increment when swapping to another weapon and shooting.",
+                "stats_changes": {
+                  "overheat damage": "15 -> 50",
+                  "overheat debuff duration": "12s -> 15s"
+                },
+                "raw_text": "- Overheat no longer degrades when not firing or swapping to another weapon.\n- Overheat does not increment when swapping to another weapon and shooting."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Overheat now only applies to one weapon.",
+                "stats_changes": {},
+                "raw_text": "- Overheat now only applies to one weapon.\n    - If a player has a weapon out when hit by Whistler the overheat debuff applies only to that weapon.\n    - If the player is unarmed when hit by Whistler it applies to the weapon in the first weapon slot."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Tactical charges increased from 1 to 2.",
+                "stats_changes": {},
+                "raw_text": "- Tactical charges increased from 1 to 2."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Ballistic and teammates within range get a sprint boost when his Ultimate is activated.",
+                "stats_changes": {},
+                "raw_text": "- Ballistic and teammates within range get a sprint boost when his Ultimate is activated."
+              },
+              {
+                "ability": "Upgrades",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Level 2 Upgrades: Extra Bullet - Gain an additional Tactical charge, Trap Mode - When placed in the world, Ballistic’s KTactical lasts 15 seconds and deals 35 damage if an enemy walks into it.",
+                "stats_changes": {},
+                "raw_text": "- Level 2\n    - **Extra Bullet:** Gain an additional Tactical charge.\n    - **Trap Mode:** When placed in the world, Ballistic’s KTactical lasts 15 seconds and deals 35 damage if an enemy walks into it."
+              },
+              {
+                "ability": "Upgrades",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Level 3 Upgrades: Quiet Time - Ballistic’s Tactical no longer applies overheat, Killing Time - Now moved to level 3, still provides a 15 second extension to Ballistic’s Ultimate.",
+                "stats_changes": {},
+                "raw_text": "- Level 3\n    - **Quiet Time:** Ballistic’s Tactical no longer applies overheat. Instead it adds silence and slow on *hit*. It also has a longer cooldown.\n    - **Killing Time:** Now moved to level 3, still provides a 15 second extension to Ballistic’s Ultimate."
+              }
+            ]
+          },
+          {
+            "name": "Pathfinder",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Pathfinder now tucks in his legs while riding horizontal ziplines.",
+                "stats_changes": {},
+                "raw_text": "- Pathfinder now tucks in his legs while riding horizontal ziplines."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Tactical charges increased from 1 to 2.",
+                "stats_changes": {},
+                "raw_text": "- Tactical charges increased from 1 to 2."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Increased launch speed of the zipline projectile, reduced cooldown from 3 minutes to 2 minutes.",
+                "stats_changes": {},
+                "raw_text": "- Increased launch speed of the zipline projectile.\n- Reduced cooldown from 3 minutes to 2 minutes."
+              },
+              {
+                "ability": "Upgrades",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Level 2 Upgrades: Field Research - Now grants all Recon perks instead of just the survey beacon scan, Ringmaster - Now grants all Controller perks instead of just the ring console access.",
+                "stats_changes": {},
+                "raw_text": "- Level 2\n    - **Field Research:** Now grants all Recon perks instead of just the survey beacon scan.\n    - **Ringmaster:** Now grants all Controller perks instead of just the ring console access."
+              },
+              {
+                "ability": "Upgrades",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Level 3 Upgrades: Landing Gear - Grants more air control and faster recovery from hard landings.",
+                "stats_changes": {},
+                "raw_text": "- Level 3\n    - **Landing Gear:** Grants more air control and faster recovery from hard landings."
+              }
+            ]
+          },
+          {
+            "name": "Seer",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Increased the activation speed of the heartbeat sensor, decreased the interval time between heartbeats, decreased activation time for unarmed ADSing.",
+                "stats_changes": {},
+                "raw_text": "- Increased the activation speed of the heartbeat sensor.\n- Decreased the interval time between heartbeats.\n- Decreased activation time for unarmed ADSing"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Reduced the delay between the launch and hit, improved the slow on hit.",
+                "stats_changes": {},
+                "raw_text": "- Reduced the delay between the launch and hit.\n- Improved the slow on hit"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Upon deployment, there is now a quick 2 second scan of the area which will highlight any enemy in the area.",
+                "stats_changes": {},
+                "raw_text": "- Upon deployment, there is now a quick 2 second scan of the area which will highlight any enemy in the area."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Cloaked enemies will now show footsteps if they are within the Ultimate zone.",
+                "stats_changes": {},
+                "raw_text": "- Cloaked enemies will now show footsteps if they are within the Ultimate zone."
+              }
+            ]
+          },
+          {
+            "name": "Axle",
+            "changes": [
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Reduced max in-world count from 3 to 2, reduced hp from 150 to 100.",
+                "stats_changes": {},
+                "raw_text": "- Reduced max in-world count from 3 to 2.\n- Reduced hp from 150 to 100."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Knocked players can no longer slide across zip codes as Axle or while under the effect of a Nitro Gate.",
+                "stats_changes": {},
+                "raw_text": "- Knocked players can no longer slide across zip codes as Axle or while under the effect of a Nitro Gate."
+              },
+              {
+                "ability": "Upgrades",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "‘Super Slider’ Upgrade now grants Nitro Gate a 5 second cooldown reduction and +1 max in-world count.",
+                "stats_changes": {},
+                "raw_text": "- ‘Super Slider’ Upgrade now grants Nitro Gate a 5 second cooldown reduction and +1 max in-world count."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Kickstart now displaces victims on a parabolic arc based on their velocity at the moment of impact.",
+                "stats_changes": {},
+                "raw_text": "- Kickstart now displaces victims on a parabolic arc based on their velocity at the moment of impact."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Reduced enemy highlight duration slightly to better match stun duration.",
+                "stats_changes": {},
+                "raw_text": "- Reduced enemy highlight duration slightly to better match stun duration."
+              }
+            ]
+          },
+          {
+            "name": "Mad Maggie",
+            "changes": [
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Increased Cooldown from 22 seconds to 28 seconds.",
+                "stats_changes": {},
+                "raw_text": "- Increased Cooldown from 22 seconds to 28 seconds."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "The speed boost granted from running on the pucks dropped by the wrecking ball has been replaced by a sprint boost.",
+                "stats_changes": {},
+                "raw_text": "- The speed boost granted from running on the pucks dropped by the wrecking ball has been replaced by a sprint boost."
+              }
+            ]
+          },
+          {
+            "name": "Valkyrie",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Removed the recent improvement, which allowed her to land faster from skydiving.",
+                "stats_changes": {},
+                "raw_text": "- Removed the recent improvement, which allowed her to land faster from skydiving."
+              }
+            ]
+          },
+          {
+            "name": "Conduit",
+            "changes": [
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Decreased Regen Rate from 15/s to 10/s, increased Regen Duration from 6s to 8s, decreased Ally Total Regen from 90 to 80, decreased Conduit Total Regen from 60 to 56.",
+                "stats_changes": {
+                  "regen rate": "15/s -> 10/s",
+                  "regen duration": "6s -> 8s",
+                  "ally total regen": "90 -> 80",
+                  "conduit total regen": "60 -> 56"
+                },
+                "raw_text": "- Decreased Regen Rate from 15/s to 10/s.\n- Increased Regen Duration from 6s to 8s.\n- Decreased Ally Total Regen from 90 to 80.\n- Decreased Conduit Total Regen from 60 to 56."
+              },
+              {
+                "ability": "Upgrades",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "'Enduring Barrier': No longer grants regen through ring damage.",
+                "stats_changes": {},
+                "raw_text": "- ‘Enduring Barrier’: No longer grants regen through ring damage."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Decreased Regen Duration from 4s to unknown.",
+                "stats_changes": {},
+                "raw_text": "- Decreased Regen Duration from 4s to unknown."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Increased Cooldown from 27 seconds to 30 seconds.",
+                "stats_changes": {},
+                "raw_text": "- Increased Cooldown from 27 seconds to 30 seconds."
+              }
+            ]
+          }
+        ]
+      },
+      "fr-fr": {
+        "title": "Apex Legends™: Overclocked Midseason Patch Notes",
+        "legends": [
+          {
+            "name": "Ballistic",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Ballistic now respawns with his Sling weapon in all game modes.",
+                "stats_changes": {},
+                "raw_text": "Ballistic now respawns with his Sling weapon in all game modes."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Overheat debuff duration increased, overheat damage increased, tactical charges increased and time between firing and homing activation decreased.",
+                "stats_changes": {
+                  "overheat damage": "15 -> 50",
+                  "overheat debuff duration": "12s -> 15s",
+                  "tactical charges": "1 -> 2"
+                },
+                "raw_text": "Overheat now only applies to one weapon. If a player has a weapon out when hit by Whistler the overheat debuff applies only to that weapon. If the player is unarmed when hit by Whistler it applies to the weapon in the first weapon slot. Overheat no longer degrades when not firing or swapping to another weapon. Overheat does not increment when swapping to another weapon and shooting. Overheat damage increased from 15 to 50. Overheat debuff duration increased from 12 to 15. Tactical charges increased from 1 to 2. Decreased time between firing and when homing activates."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Ballistic and teammates within range get a sprint boost when his Ultimate is activated.",
+                "stats_changes": {},
+                "raw_text": "Ballistic and teammates within range get a sprint boost when his Ultimate is activated. Sprint boost will only apply a speed boost while sprinting and will not speed up other types of movement."
+              }
+            ]
+          },
+          {
+            "name": "Pathfinder",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Pathfinder now tucks in his legs while riding horizontal ziplines.",
+                "stats_changes": {},
+                "raw_text": "Pathfinder now tucks in his legs while riding horizontal ziplines."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Tactical charges increased and cooldown decreased.",
+                "stats_changes": {
+                  "tactical charges": "1 -> 2"
+                },
+                "raw_text": "Tactical charges increased from 1 to 2. Removed the progressive cooldown and it is now a flat 20 seconds."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Launch speed of the zipline projectile increased and cooldown decreased.",
+                "stats_changes": {},
+                "raw_text": "Increased launch speed of the zipline projectile. Reduced cooldown from 3 minutes to 2 minutes."
+              }
+            ]
+          },
+          {
+            "name": "Seer",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Activation speed of the heartbeat sensor increased, interval time between heartbeats decreased and activation time for unarmed ADSing decreased.",
+                "stats_changes": {},
+                "raw_text": "Increased the activation speed of the heartbeat sensor. Decreased the interval time between heartbeats. Decreased activation time for unarmed ADSing  The delay when aiming more consistent between weapon and unarmed."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Delay between launch and hit reduced and slow on hit improved.",
+                "stats_changes": {},
+                "raw_text": "Reduced the delay between the launch and hit. Improved the slow on hit, should now halt faster moving Legends more effectively."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Quick 2 second scan of the area upon deployment added and cloaked enemies show footsteps within Ultimate zone.",
+                "stats_changes": {},
+                "raw_text": "Upon deployment, there is now a quick 2 second scan of the area which will highlight any enemy in the area. Enemies that enter the area after it’s deployed will also be scanned for 2 seconds. Cloaked enemies will now show footsteps if they are within the Ultimate zone."
+              }
+            ]
+          },
+          {
+            "name": "Axle",
+            "changes": [
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Max in-world count reduced and HP reduced.",
+                "stats_changes": {
+                  "max in-world count": "3 -> 2",
+                  "hp": "150 -> 100"
+                },
+                "raw_text": "Reduced max in-world count from 3 to 2. Reduced hp from 150 to 100."
+              },
+              {
+                "ability": "Passive/Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Knocked players can no longer slide across zip codes as Axle or while under the effect of a Nitro Gate.",
+                "stats_changes": {},
+                "raw_text": "Knocked players can no longer slide across zip codes as Axle or while under the effect of a Nitro Gate. They can still boost through a Nitro Gate, but once the effect times out, they will slow down accordingly."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Kickstart now displaces victims on a parabolic arc based on their velocity at the moment of impact and enemy highlight duration reduced.",
+                "stats_changes": {},
+                "raw_text": "Kickstart now displaces victims on a parabolic arc based on their velocity at the moment of impact, instead of straight up. Reduced enemy highlight duration slightly to better match stun duration."
+              }
+            ]
+          },
+          {
+            "name": "Mad Maggie",
+            "changes": [
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Cooldown increased.",
+                "stats_changes": {
+                  "cooldown": "22s -> 28s"
+                },
+                "raw_text": "Increased Cooldown from 22 seconds to 28 seconds."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Speed boost replaced by sprint boost.",
+                "stats_changes": {},
+                "raw_text": "The speed boost granted from running on the pucks dropped by the wrecking ball has been replaced by a sprint boost. Will no longer speed up all movement, just when sprinting."
+              }
+            ]
+          },
+          {
+            "name": "Valkyrie",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Faster landing from skydiving removed.",
+                "stats_changes": {},
+                "raw_text": "Removed the recent improvement, which allowed her to land faster from skydiving."
+              }
+            ]
+          },
+          {
+            "name": "Conduit",
+            "changes": [
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Regen rate reduced, regen duration increased and ally/conduit total regen decreased.",
+                "stats_changes": {
+                  "regen rate": "15/s -> 10/s",
+                  "regen duration": "6s -> 8s",
+                  "ally total regen": "90 -> 80",
+                  "conduit total regen": "60 -> 56"
+                },
+                "raw_text": "Decreased Regen Rate from 15/s to 10/s. Increased Regen Duration from 6s to 8s. Decreased Ally Total Regen from 90 to 80. Decreased Conduit Total Regen from 60 to 56."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Cooldown increased.",
+                "stats_changes": {
+                  "cooldown": "27s -> 30s"
+                },
+                "raw_text": "Increased Cooldown from 27 seconds to 30 seconds."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "overclocked-patch-notes": {
+    "date": "2026-05-04T08:00:00.000-07:00",
+    "locales": {
+      "en-us": {
+        "title": "Apex Legends™: Overclocked Patch Notes",
+        "legends": [
+          {
+            "name": "Axle",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Increased control while sliding.",
+                "stats_changes": {},
+                "raw_text": "DRIFT: Increased control while sliding. Axle accelerates and moves faster than others while sliding. She also has increased lateral control."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Deploy a speed gate that sends users into a boosted slide.",
+                "stats_changes": {},
+                "raw_text": "NITRO GATE: Deploy a speed gate that sends users into a boosted slide. Stepping into a Nitro Gate forces users into a speedy slide, where they have greatly increased velocity and lateral control."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Deploy an enemy-seeking drone that displaces targets on impact.",
+                "stats_changes": {},
+                "raw_text": "KICKSTART: Deploy an enemy-seeking drone that displaces targets on impact. Axle fires a drone straight out in front of her, where it traverses close to the ground in a straight line as it scans for enemies in a wide FoV."
+              }
+            ]
+          },
+          {
+            "name": "Vantage",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Tracking a team with Spotters Lens will generate 70% of an ultimate bullet.",
+                "stats_changes": {},
+                "raw_text": "Tracking a team with Spotters Lens will generate 70% of an ultimate bullet. 10 second cooldown per team"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Vantage is immune to hard landings exiting the tac.",
+                "stats_changes": {},
+                "raw_text": "Vantage is immune to hard landings exiting the tac"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Increased velocity from 20 Meters Per Second to 21 Meters Per Second.",
+                "stats_changes": {},
+                "raw_text": "Increased velocity from 20 Meters Per Second to 21 Meters Per Second"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Increased double jump range from 4m to 7m.",
+                "stats_changes": {},
+                "raw_text": "Increased double jump range from 4m to 7m"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Reduced deceleration at final destination by ~25%.",
+                "stats_changes": {},
+                "raw_text": "Reduced deceleration at final destination by ~25%"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Cooldown reduced from 20s to 17s.",
+                "stats_changes": {},
+                "raw_text": "Cooldown reduced from 20s to 17s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Toggle fire to equip your Canted Sight: A 2x optic mounted on the side of the rifle.",
+                "stats_changes": {},
+                "raw_text": "Toggle fire to equip your Canted Sight: A 2x optic mounted on the side of the rifle"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "While canted rechamber time is decreased from 1.2s to 1.1s.",
+                "stats_changes": {},
+                "raw_text": "While canted rechamber time is decreased from 1.2s to 1.1s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "While canted ADS time reduced from 0.5s to 0.4s.",
+                "stats_changes": {},
+                "raw_text": "While canted ADS time reduced from 0.5s to 0.4s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Bullet scaling is drastically reduced in Canted sights.",
+                "stats_changes": {},
+                "raw_text": "Bullet scaling is drastically reduced in Canted sights (so be accurate!)"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Increased aiming responsiveness with Normal sight.",
+                "stats_changes": {},
+                "raw_text": "Increase aiming responsiveness with Normal sight"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Reduced ADS time from 0.6s to 0.5s.",
+                "stats_changes": {},
+                "raw_text": "Reduced ADS time from 0.6s to 0.5s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Increased weapon handling in both modes.",
+                "stats_changes": {},
+                "raw_text": "Increased weapon handling in both modes"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Reduced Holster and Lower time from 0.5s to 0.4s.",
+                "stats_changes": {},
+                "raw_text": "Reduced Holster and Lower time from 0.5s to 0.4s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Reduced Deploy and Raise time from 1.5s to 1.3s.",
+                "stats_changes": {},
+                "raw_text": "Reduced Deploy and Raise time from 1.5s to 1.3s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Default Normal scope magnification increased from 3x to 4x.",
+                "stats_changes": {},
+                "raw_text": "Default Normal scope magnification increased from 3x to 4x"
+              }
+            ]
+          },
+          {
+            "name": "Conduit",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "If Savior’s Speed is active when sprinting toward a Skirmisher, gain an additional 5% movement speed.",
+                "stats_changes": {},
+                "raw_text": "New Effect: If Savior’s Speed is active when sprinting toward a Skirmisher, gain an additional 5% movement speed."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Split Charge has been incorporated into her base kit, granting two charges.",
+                "stats_changes": {},
+                "raw_text": "Split Charge has been incorporated into her base kit, granting two charges"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Decreased Regen Duration from 9s to 6s.",
+                "stats_changes": {},
+                "raw_text": "Decreased Regen Duration from 9s to 6s"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Decreased Regen from 20/s to 15/s.",
+                "stats_changes": {},
+                "raw_text": "Decreased Regen from 20/s to 15/s"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Adjusted Cooldown to 27s.",
+                "stats_changes": {},
+                "raw_text": "Adjusted Cooldown to 27s"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Removed cooldown start delay.",
+                "stats_changes": {},
+                "raw_text": "Removed cooldown start delay"
+              }
+            ]
+          },
+          {
+            "name": "Alter",
+            "changes": [
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Increased Cooldown from 20s to 25s.",
+                "stats_changes": {},
+                "raw_text": "Increased Cooldown from 20s to 25s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Decreased Range from 300m to 250m.",
+                "stats_changes": {},
+                "raw_text": "Decreased Range from 300m to 250m"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Increased Recall Time from 2s to 3s.",
+                "stats_changes": {},
+                "raw_text": "Increased Recall Time from 2s to 3s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Increased Ally Recall Time from 3s to 4s.",
+                "stats_changes": {},
+                "raw_text": "Increased Ally Recall Time from 3s to 4s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Decreased Chase Portal Open Time from 6s to 4s.",
+                "stats_changes": {},
+                "raw_text": "Decreased Chase Portal Open Time from 6s to 4s"
+              },
+              {
+                "ability": "Upgrades",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Void Breacher Reduced movement speed from 30% to 15%.",
+                "stats_changes": {},
+                "raw_text": "Void Breacher Reduced movement speed from 30% to 15%"
+              }
+            ]
+          },
+          {
+            "name": "Vantage",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Tracking a team with Spotters Lens will generate 70% of an ultimate bullet.",
+                "stats_changes": {},
+                "raw_text": "Tracking a team with Spotters Lens will generate 70% of an ultimate bullet"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Vantage is immune to hard landings exiting the tac.",
+                "stats_changes": {},
+                "raw_text": "Vantage is immune to hard landings exiting the tac"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Increased velocity from 20 Meters Per Second to 21 Meters Per Second.",
+                "stats_changes": {},
+                "raw_text": "Increased velocity from 20 Meters Per Second to 21 Meters Per Second"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Increased double jump range from 4m to 7m.",
+                "stats_changes": {},
+                "raw_text": "Increased double jump range from 4m to 7m"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Reduced deceleration at final destination by ~25%.",
+                "stats_changes": {},
+                "raw_text": "Reduced deceleration at final destination by ~25%"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Cooldown reduced from 20s to 17s.",
+                "stats_changes": {},
+                "raw_text": "Cooldown reduced from 20s to 17s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Toggle fire to equip your Canted Sight: A 2x optic mounted on the side of the rifle.",
+                "stats_changes": {},
+                "raw_text": "Toggle fire to equip your Canted Sight: A 2x optic mounted on the side of the rifle"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "While canted rechamber time is decreased from 1.2s to 1.1s.",
+                "stats_changes": {},
+                "raw_text": "While canted rechamber time is decreased from 1.2s to 1.1s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "While canted ADS time reduced from 0.5s to 0.4s.",
+                "stats_changes": {},
+                "raw_text": "While canted ADS time reduced from 0.5s to 0.4s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Bullet scaling is drastically reduced in Canted sights (so be accurate!).",
+                "stats_changes": {},
+                "raw_text": "Bullet scaling is drastically reduced in Canted sights (so be accurate!)"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Increase aiming responsiveness with Normal sight.",
+                "stats_changes": {},
+                "raw_text": "Increase aiming responsiveness with Normal sight"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Reduced ADS time from 0.6s to 0.5s.",
+                "stats_changes": {},
+                "raw_text": "Reduced ADS time from 0.6s to 0.5s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Increased weapon handling in both modes.",
+                "stats_changes": {},
+                "raw_text": "Increased weapon handling in both modes"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Reduced Holster and Lower time from 0.5s to 0.4s.",
+                "stats_changes": {},
+                "raw_text": "Reduced Holster and Lower time from 0.5s to 0.4s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Reduced Deploy and Raise time from 1.5s to 1.3s.",
+                "stats_changes": {},
+                "raw_text": "Reduced Deploy and Raise time from 1.5s to 1.3s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Default Normal scope magnification increased from 3x to 4x.",
+                "stats_changes": {},
+                "raw_text": "Default Normal scope magnification increased from 3x to 4x"
+              }
+            ]
+          },
+          {
+            "name": "Conduit",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "If Savior’s Speed is active when sprinting toward a Skirmisher, gain an additional 5% movement speed.",
+                "stats_changes": {},
+                "raw_text": "If Savior’s Speed is active when sprinting toward a Skirmisher, gain an additional 5% movement speed"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Split Charge has been incorporated into her base kit, granting two charges.",
+                "stats_changes": {},
+                "raw_text": "Split Charge has been incorporated into her base kit, granting two charges"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Decreased Regen Duration from 9s to 6s.",
+                "stats_changes": {},
+                "raw_text": "Decreased Regen Duration from 9s to 6s"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Decreased Regen from 20/s to 15/s.",
+                "stats_changes": {},
+                "raw_text": "Decreased Regen from 20/s to 15/s"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Adjusted Cooldown to 27s.",
+                "stats_changes": {},
+                "raw_text": "Adjusted Cooldown to 27s"
+              }
+            ]
+          },
+          {
+            "name": "Alter",
+            "changes": [
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Increased Cooldown from 20s to 25s.",
+                "stats_changes": {},
+                "raw_text": "Increased Cooldown from 20s to 25s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Decreased Range from 300m to 250m.",
+                "stats_changes": {},
+                "raw_text": "Decreased Range from 300m to 250m"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Increased Recall Time from 2s to 3s.",
+                "stats_changes": {},
+                "raw_text": "Increased Recall Time from 2s to 3s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Increased Ally Recall Time from 3s to 4s.",
+                "stats_changes": {},
+                "raw_text": "Increased Ally Recall Time from 3s to 4s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Decreased Chase Portal Open Time from 6s to 4s.",
+                "stats_changes": {},
+                "raw_text": "Decreased Chase Portal Open Time from 6s to 4s"
+              }
+            ]
+          },
+          {
+            "name": "Ash",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Cooldown from 12s to 10s.",
+                "stats_changes": {},
+                "raw_text": "Cooldown from 12s to 10s"
+              },
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Velocity from 425 to 450.",
+                "stats_changes": {},
+                "raw_text": "Velocity from 425 to 450"
+              }
+            ]
+          }
+        ]
+      },
+      "fr-fr": {
+        "title": "Apex Legends™: Overclocked Patch Notes",
+        "legends": [
+          {
+            "name": "Axle",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Axle's passive ability allows her to accelerate and move faster while sliding, with increased lateral control.",
+                "stats_changes": {},
+                "raw_text": "DRIFT: Increased control while sliding. Axle accelerates and moves faster than others while sliding. She also has increased lateral control."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Axle's Nitro Gate sends users into a boosted slide, with greatly increased velocity and lateral control.",
+                "stats_changes": {},
+                "raw_text": "NITRO GATE: Deploy a speed gate that sends users into a boosted slide. Stepping into a Nitro Gate forces users into a speedy slide, where they have greatly increased velocity and lateral control."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Axle's Kickstart drone displaces targets on impact, knocking them back up into the air.",
+                "stats_changes": {},
+                "raw_text": "KICKSTART: Deploy an enemy-seeking drone that displaces targets on impact. Axle fires a drone straight out in front of her, where it traverses close to the ground in a straight line as it scans for enemies in a wide FoV."
+              }
+            ]
+          },
+          {
+            "name": "Vantage",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Tracking a team with Spotters Lens generates 70% of an ultimate bullet.",
+                "stats_changes": {},
+                "raw_text": "Tracking a team with Spotters Lens will generate 70% of an ultimate bullet. 10 second cooldown per team"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Vantage is immune to hard landings exiting the tac, with increased velocity and double jump range.",
+                "stats_changes": {},
+                "raw_text": "Vantage is immune to hard landings exiting the tac. Increased velocity from 20 Meters Per Second to 21 Meters Per Second. Increased double jump range from 4m to 7m"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Vantage's Canted Sight has reduced rechamber and ADS times, with increased aiming responsiveness.",
+                "stats_changes": {},
+                "raw_text": "Toggle fire to equip your Canted Sight: A 2x optic mounted on the side of the rifle. While canted rechamber time is decreased from 1.2s to 1.1s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Vantage's Normal sight has reduced ADS time, with increased weapon handling.",
+                "stats_changes": {},
+                "raw_text": "Increase aiming responsiveness with Normal sight. Reduced ADS time from 0.6s to 0.5s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Vantage's weapon handling is improved in both modes, with reduced holster and deploy times.",
+                "stats_changes": {},
+                "raw_text": "Increased weapon handling in both modes. Reduced Holster and Lower time from 0.5s to 0.4s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Vantage's Normal scope magnification is increased.",
+                "stats_changes": {},
+                "raw_text": "Default Normal scope magnification increased from 3x to 4x"
+              }
+            ]
+          },
+          {
+            "name": "Conduit",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "If Savior's Speed is active when sprinting toward a Skirmisher, Conduit gains an additional 5% movement speed.",
+                "stats_changes": {},
+                "raw_text": "New Effect: If Savior’s Speed is active when sprinting toward a Skirmisher, gain an additional 5% movement speed."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Conduit's Split Charge has been incorporated into her base kit, granting two charges.",
+                "stats_changes": {},
+                "raw_text": "Split Charge has been incorporated into her base kit, granting two charges"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Conduit's Regen duration and rate are decreased.",
+                "stats_changes": {},
+                "raw_text": "Decreased Regen Duration from 9s to 6s. Decreased Regen from 20/s to 15/s"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Conduit's cooldown is adjusted.",
+                "stats_changes": {},
+                "raw_text": "Adjusted Cooldown to 27s. Standard Radiant Transfer was 32s. Split Charge was 21s"
+              }
+            ]
+          },
+          {
+            "name": "Alter",
+            "changes": [
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Alter's cooldown is increased.",
+                "stats_changes": {},
+                "raw_text": "Increased Cooldown from 20s to 25s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Alter's range and recall times are decreased.",
+                "stats_changes": {},
+                "raw_text": "Decreased Range from 300m to 250m. Increased Recall Time from 2s to 3s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Alter's ally recall time is increased.",
+                "stats_changes": {},
+                "raw_text": "Increased Ally Recall Time from 3s to 4s"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Nerf",
+                "detail": "Alter's chase portal open time is decreased.",
+                "stats_changes": {},
+                "raw_text": "Decreased Chase Portal Open Time from 6s to 4s"
+              }
+            ]
+          },
+          {
+            "name": "Ash",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Ash's passive cooldown and velocity are adjusted.",
+                "stats_changes": {
+                  "cooldown": "12s -> 10s",
+                  "velocity": "425 -> 450"
+                },
+                "raw_text": "Cooldown from 12s to 10s. Velocity from 425 to 450"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "winter-wipeout-event": {
+    "date": "2026-01-05T08:00:00.000-08:00",
+    "locales": {
+      "en-us": {
+        "title": "Grab your Hoverboard for the Winter Wipeout Event",
+        "legends": [
+          {
+            "name": "Octane",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Improved passive healing.",
+                "stats_changes": {},
+                "raw_text": "improved passive healing"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Rework",
+                "detail": "Stim ability reworked.",
+                "stats_changes": {},
+                "raw_text": "reworked Stim ability"
+              }
+            ]
+          },
+          {
+            "name": "Crypto",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Firmware update for stealth.",
+                "stats_changes": {},
+                "raw_text": "firmware update"
+              }
+            ]
+          },
+          {
+            "name": "Newcastle",
+            "changes": [
+              {
+                "ability": "Perks",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Buffs to revives.",
+                "stats_changes": {},
+                "raw_text": "buffs to"
+              }
+            ]
+          }
+        ]
+      },
+      "fr-fr": {
+        "title": "Grab your Hoverboard for the Winter Wipeout Event",
+        "legends": [
+          {
+            "name": "Octane",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Le régénération de santé passive a été améliorée.",
+                "stats_changes": {},
+                "raw_text": "improved passive healing"
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Rework",
+                "detail": "L'abilité Stim a été reworkée.",
+                "stats_changes": {},
+                "raw_text": "reworked Stim ability"
+              }
+            ]
+          },
+          {
+            "name": "Crypto",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "L'update de firmware a rendu Crypto plus discret.",
+                "stats_changes": {},
+                "raw_text": "firmware update"
+              }
+            ]
+          },
+          {
+            "name": "Newcastle",
+            "changes": [
+              {
+                "ability": "",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Les revives de Newcastle ont été améliorées.",
+                "stats_changes": {},
+                "raw_text": "buffs to Newcastle"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "showdown-patch-notes": {
+    "date": "2025-08-04T08:00:00.000-07:00",
+    "locales": {
+      "en-us": {
+        "title": "Apex Legends™: Showdown Patch Notes",
+        "legends": [
+          {
+            "name": "Caustic",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Nox Gas has become more deadly and effective at holding areas.",
+                "stats_changes": {},
+                "raw_text": "Caustic’s gas should be deadly enough to live up to the fantasy, but lately it’s felt a little toothless."
+              },
+              {
+                "ability": "Perks",
+                "perk_name": "Field Research",
+                "type": "Buff",
+                "detail": "Caustic can now gain additional Legend Updates.",
+                "stats_changes": {},
+                "raw_text": "Also, Caustic’s new Field Research perk allows him to gain additional Legend Updates—making him the first to be able to get all four upgrades at once!"
+              }
+            ]
+          },
+          {
+            "name": "Bangalore",
+            "changes": [
+              {
+                "ability": "Perks",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Bangalore has been given tons of new flexibility with a whole new Legend Upgrade tree.",
+                "stats_changes": {},
+                "raw_text": "With a whole new Legend Upgrade tree, Bangalore’s been given tons of new flexibility."
+              },
+              {
+                "ability": "",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "New breaching mechanics allow clearing out entrenched enemies.",
+                "stats_changes": {},
+                "raw_text": "Among these new options, are new breaching mechanics that allow you to clear out entrenched enemies."
+              }
+            ]
+          }
+        ]
+      },
+      "fr-fr": {
+        "title": "Apex Legends™: Showdown Patch Notes",
+        "legends": [
+          {
+            "name": "Caustic",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Le gaz de Nox Caustic est maintenant plus efficace pour tenir une zone ou menacer les attaquants.",
+                "stats_changes": {},
+                "raw_text": "Caustic’s gas should be deadly enough to live up to the fantasy, but lately it’s felt a little toothless."
+              },
+              {
+                "ability": "Perks",
+                "perk_name": "Field Research",
+                "type": "Buff",
+                "detail": "Caustic peut maintenant gagner des mises à jour de légende supplémentaires.",
+                "stats_changes": {},
+                "raw_text": "Also, Caustic’s new Field Research perk allows him to gain additional Legend Updates—making him the first to be able to get all four upgrades at once!"
+              }
+            ]
+          },
+          {
+            "name": "Bangalore",
+            "changes": [
+              {
+                "ability": "Perks",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Bangalore a maintenant plus de flexibilité grâce à son arbre d'amélioration de légende.",
+                "stats_changes": {},
+                "raw_text": "With a whole new Legend Upgrade tree, Bangalore’s been given tons of new flexibility."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Bangalore peut désormais utiliser de nouvelles mécaniques de percement pour éliminer les ennemis embusqués.",
+                "stats_changes": {},
+                "raw_text": "Among these new options, are new breaching mechanics that allow you to clear out entrenched enemies."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "takeover-patch-notes": {
+    "date": "2025-02-10T08:00:00.000-08:00",
+    "locales": {
+      "en-us": {
+        "title": "Apex Legends™: Takeover Patch Notes",
+        "legends": [
+          {
+            "name": "Ash",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "Predator's Pursuit",
+                "type": "Buff",
+                "detail": "Grants an omnidirectional short-range dash.",
+                "stats_changes": {},
+                "raw_text": "This grants her an omnidirectional short-range dash—enabling her to close the gap on a tethered target or evade swiftly in a close-quarters skirmish."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Snag targets against the strong edge of the tether more often.",
+                "stats_changes": {},
+                "raw_text": "Her snare change lets her snag targets against the strong edge of the tether more often."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Travels faster, endpoint detection has improved.",
+                "stats_changes": {},
+                "raw_text": "Her Ult goes farther, travels faster, and endpoint detection has improved to make the targeting stickier and less prone to accidental bad snapping."
+              }
+            ]
+          },
+          {
+            "name": "Ballistic",
+            "changes": [
+              {
+                "ability": "Base",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Extra charge and sling levelling integrated into base kit.",
+                "stats_changes": {},
+                "raw_text": "the extra charge and sling levelling, integrated into his base kit"
+              },
+              {
+                "ability": "Perks",
+                "perk_name": "Whistler charges",
+                "type": "Buff",
+                "detail": "Can double Whistler charges.",
+                "stats_changes": {},
+                "raw_text": "A new Level 3 upgrade allows him to double his Whistler charges"
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Grants a speed bonus.",
+                "stats_changes": {},
+                "raw_text": "Tempest now also grants a speed bonus—making him a frightening force when he and his team bare down on you."
+              },
+              {
+                "ability": "Perks",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Can carry crate weapons, spool with infinite ammo.",
+                "stats_changes": {},
+                "raw_text": "Ballistic's sling can now carry crate weapons, which can spool with infinite ammo when Tempest is active"
+              }
+            ]
+          }
+        ]
+      },
+      "fr-fr": {
+        "title": "Apex Legends™: Takeover Patch Notes",
+        "legends": [
+          {
+            "name": "Ash",
+            "changes": [
+              {
+                "ability": "Passive",
+                "perk_name": "Predator's Pursuit",
+                "type": "Buff",
+                "detail": "Ash a obtient un nouveau passif : Predator's Pursuit, qui lui permet d'effectuer une course rapide en tous sens.",
+                "stats_changes": {
+                  "cooldown": ""
+                },
+                "raw_text": "Cette nouvelle passive lui permet d'effectuer une course rapide en tous sens."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "La durée de l'emprise et la distance maximale de l'étreinte ont augmenté, mais le temps de recharge est plus long.",
+                "stats_changes": {
+                  "snare duration": "3s -> 5s",
+                  "max distance": "augmenté à 50m",
+                  "cooldown": "20s -> 25s"
+                },
+                "raw_text": "La durée de l'emprise a augmenté à 5 secondes. La distance maximale a augmenté. Le temps de recharge est passé à 25s."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "L'ultime se déplace plus loin, plus vite et la détection du point d'arrivée a été améliorée.",
+                "stats_changes": {
+                  "range": "augmenté",
+                  "speed": "augmenté"
+                },
+                "raw_text": "Son ultime se déplace plus loin, plus vite et la détection du point d'arrivée a été améliorée."
+              }
+            ]
+          },
+          {
+            "name": "Ballistic",
+            "changes": [
+              {
+                "ability": "Base",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Le niveau de base de Ballistic a été amélioré.",
+                "stats_changes": {},
+                "raw_text": "Les mises à niveau supplémentaires et le nivellement du sling sont désormais intégrés dans son kit de base."
+              },
+              {
+                "ability": "Ultimate",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "L'ultime de Ballistic accorde maintenant une bonus de vitesse.",
+                "stats_changes": {},
+                "raw_text": "Tempest, son ultime, accorde désormais un bonus de vitesse."
+              },
+              {
+                "ability": "Tactical",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "Le lanceur de Ballistic peut maintenant transporter des armes en caisse.",
+                "stats_changes": {},
+                "raw_text": "Son sling peut désormais transporter des armes en caisse."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "breakout-patch-notes": {
+    "date": "2024-02-12T08:00:00.000-08:00",
+    "locales": {
+      "en-us": {
+        "title": "Apex Legends™: Breakout Patch Notes",
+        "legends": []
+      },
+      "fr-fr": {
+        "title": "Apex Legends™: Breakout Patch Notes",
+        "legends": [
+          {
+            "name": "Legend Upgrade System",
+            "changes": [
+              {
+                "ability": "Perks",
+                "perk_name": "",
+                "type": "Buff",
+                "detail": "The Legend Upgrade system allows players to tailor their Legend to their playstyle by unlocking unique ability upgrades at Levels 2 and 3.",
+                "stats_changes": {},
+                "raw_text": "This season we’re introducing the Legend Upgrade system for BR modes—an in-match progression system that deepens the Apex Legends experience by allowing you to tailor your Legend to your playstyle."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

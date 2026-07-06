@@ -10,7 +10,7 @@
   "abilities": {
     "passive": {
       "name": "VTOL Jets",
-      "description": "Press the jump key while in the air to engage jetpack. You can switch between hold and toggle mode in the options menu.",
+      "description": "Press the jump key while in the air to engage jetpack. You can switch between hold and toggle mode in the options menu.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Nerf]: Faster landing from skydiving removed.",
       "cooldown": ""
     },
     "tactical": {
@@ -26,10 +26,15 @@
   },
   "patch_history": [
     {
-      "patch": "Saison 29 (Overclocked) - EA Officiel",
+      "patch": "Saison 29 : Overclocked (Midseason)",
       "details": [
-        "[Passive]",
-        "Removed the recent improvement, which allowed her to land faster from skydiving."
+        "[Passive] Nerf -> Faster landing from skydiving removed."
+      ]
+    },
+    {
+      "patch": "Saison 29 : Overclocked",
+      "details": [
+        "[Passive] Adjust -> Removed the recent improvement, which allowed her to land faster from skydiving."
       ]
     },
     {
