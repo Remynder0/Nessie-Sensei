@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { syncCode, syncStatus, linkDevice } from '../logic/syncService'
+import { syncCode, syncStatus, linkDevice, isSyncEnabled, enableCloudSync, retrySync } from '../logic/syncService'
 
 const showModal = ref(false)
 const inputCode = ref('')
@@ -18,18 +18,39 @@ function handleLink() {
         showModal.value = false
     }
 }
+
+function handleSyncClick() {
+    if (syncStatus.value === 'ERROR') {
+        retrySync()
+    } else {
+        showModal.value = true
+        copyToClipboard()
+    }
+}
 </script>
 
 <template>
   <div class="relative w-full">
     <!-- Status Indicator Button -->
     <button 
-        @click="showModal = true; copyToClipboard()"
+        v-if="!isSyncEnabled"
+        @click="enableCloudSync(); showModal = true"
+        class="w-full p-4 border-t border-titan-border text-xs font-mono text-center transition-colors group relative cursor-pointer outline-none bg-titan-panel hover:bg-black/30"
+    >
+        <div class="text-gray-400 flex items-center justify-center gap-2 group-hover:text-white transition-colors">
+            <span class="w-2 h-2 rounded-full border border-gray-400 group-hover:border-white"></span>
+            ACTIVER SYNCHRO
+        </div>
+    </button>
+    <button 
+        v-else
+        @click="handleSyncClick"
         class="w-full p-4 border-t border-titan-border text-xs font-mono text-center transition-colors group relative cursor-pointer outline-none"
         :class="{
             'bg-titan-panel hover:bg-black/30': syncStatus === 'ONLINE',
             'bg-titan-orange/10': syncStatus === 'SYNCING',
-            'bg-apex-red/10': syncStatus === 'OFFLINE'
+            'bg-apex-red/20 hover:bg-apex-red/40': syncStatus === 'ERROR',
+            'bg-black': syncStatus === 'OFFLINE'
         }"
     >
         <div v-if="syncStatus === 'ONLINE'" class="text-titan-cyan flex items-center justify-center gap-2">
@@ -40,13 +61,17 @@ function handleLink() {
             <span class="w-2 h-2 bg-titan-orange"></span>
             SYNCHRONIZING...
         </div>
-        <div v-else class="text-apex-red flex items-center justify-center gap-2">
-            <span class="w-2 h-2 rounded-full bg-apex-red"></span>
+        <div v-else-if="syncStatus === 'ERROR'" class="text-apex-red flex items-center justify-center gap-2">
+            <span class="w-2 h-2 bg-apex-red animate-ping"></span>
+            SYNC ERROR (RETRY)
+        </div>
+        <div v-else class="text-gray-500 flex items-center justify-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-gray-500"></span>
             OFFLINE
         </div>
         
         <!-- Hover Hint -->
-        <div class="absolute inset-0 flex items-center justify-center bg-titan-cyan text-black opacity-0 group-hover:opacity-100 transition-opacity font-bold">
+        <div v-if="syncStatus !== 'ERROR'" class="absolute inset-0 flex items-center justify-center bg-titan-cyan text-black opacity-0 group-hover:opacity-100 transition-opacity font-bold">
             GÉRER SYNCHRONISATION
         </div>
     </button>
