@@ -16,6 +16,7 @@ import { initSync } from './logic/syncService'
 import { startTutorial } from './logic/tutorial'
 
 const currentTab = ref('TeamGen')
+const isDesktop = ref(!!(window as any).__TAURI_INTERNALS__)
 
 // Le mode admin est actif si on est en dev local (npm run dev) OU si le localStorage l'indique
 const isAdmin = ref(import.meta.env.DEV || localStorage.getItem('nessie_admin') === 'true')
@@ -71,7 +72,10 @@ onMounted(async () => {
           </h1>
         </div>
         <div class="flex justify-between items-center mt-2">
-            <div class="text-titan-cyan text-[10px] font-mono tracking-widest uppercase">OS.Titan_Link // v2.0</div>
+            <div v-if="isDesktop" class="text-titan-cyan text-[10px] font-mono tracking-widest uppercase">OS.Titan_Link // v2.0</div>
+            <a v-else href="https://github.com/Remynder0/Nessie-Sensei/releases/latest" target="_blank" class="text-titan-cyan text-[10px] font-mono tracking-widest uppercase hover:text-white transition-colors underline decoration-titan-cyan/50" title="Télécharger l'application Bureau">
+                DOWNLOAD .EXE
+            </a>
             
             <!-- Language Selector -->
             <select v-model="$i18n.locale" class="bg-black/50 border border-titan-border text-titan-cyan text-[10px] font-mono uppercase px-1 py-0.5 outline-none hover:border-titan-cyan transition-colors">
