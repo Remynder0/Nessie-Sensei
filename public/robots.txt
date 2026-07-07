@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nessie-sensei.vercel.app/sitemap.xml

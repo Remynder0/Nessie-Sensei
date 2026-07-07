@@ -68,6 +68,7 @@ onMounted(async () => {
           <img src="/nessie-sensei.png" alt="Nessie-Sensei" class="h-32 object-contain drop-shadow-md" />
           <h1 class="text-2xl font-black text-white font-mono uppercase tracking-tighter leading-none">
             NESSIE<br/><span class="text-titan-orange">SENSEI</span>
+            <span class="sr-only"> - Apex Legends Tracker &amp; Stats</span>
           </h1>
         </div>
         <div class="flex justify-between items-center mt-2">
