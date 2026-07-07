@@ -10,182 +10,157 @@
   "abilities": {
     "passive": {
       "name": "Nox Vision",
-      "description": "Gain extra upgrade points by causing damage with gas, opening deathboxes and scanning ring consoles.\n\n[Patch Apex Legends™: Showdown Patch Notes - Buff]: Le gaz de Nox Caustic est maintenant plus efficace pour tenir une zone ou menacer les attaquants.",
+      "description": "Gain extra upgrade points by causing damage with gas, opening deathboxes and scanning ring consoles. Nox Gas now deals 10-15 damage per tick, causes aim punch, and increases visibility.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Nox Gas Trap",
-      "description": "Place up to 6 canisters that release deadly Nox gas when shot or triggered by enemies. Nox Gas damages and grounds enemies.",
-      "cooldown": "20 seconds"
+      "description": "Place up to 6 canisters that release deadly Nox gas when shot or triggered by enemies. Nox Gas damages and grounds enemies with a damage range of 5, has a health of 225, and lasts for an unspecified duration.",
+      "cooldown": "25 seconds"
     },
     "ultimate": {
       "name": "Nox Gas Grenade",
-      "description": "Blankets a large area in Nox Gas. Nox Gas damages and grounds enemies",
-      "cooldown": "2 minutes"
+      "description": "Blankets a large area in Nox Gas, dealing increased damage. However, the gas damage has been reduced. Nox Gas damages and grounds enemies, with a throw distance of 33 meters. The gas dissipates immediately after Caustic's team is eliminated.",
+      "cooldown": "3 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "Showdown",
+      "patch": "Season 26 : Showdown",
       "details": [
-        "[Passive] Buff -> Le gaz de Nox Caustic est maintenant plus efficace pour tenir une zone ou menacer les attaquants.",
-        "[Perks - Field Research] Buff -> Caustic peut maintenant gagner des mises à jour de légende supplémentaires."
+        "[Passive] Buff -> Nox Gas: damage increased to 10-15 (was 4-10), causes aim punch, increased visibility.",
+        "[Passive] Buff -> Field Research: gain research points from poisoning enemies, opening unique Death Boxes, and scanning ring consoles.",
+        "[Tactical] Adjust -> Nox Gas Trap: trap health increased to 225 (was 150), trap can be activated earlier while inflating."
       ]
     },
     {
-      "patch": "September 16, 2025 Patch",
+      "patch": "Season 25 : Prodigy (Midseason)",
       "details": [
-        "Damage from gas ramps up more slowly, increases every 2 ticks (was every tick).",
-        "Removed aim punch when taking damage."
+        "[Base] Buff -> Nox Gas Trap duration extended to 22s (was 11s)",
+        "[Passive] Buff -> Enemy Nox Gas Trap is highlighted"
       ]
     },
     {
-      "patch": "June 24, 2025 Patch",
+      "patch": "Season 22 : Shockwave",
       "details": [
-        "Nox Gas Trap\n(Undocumented) Gas traps are now highlighted to enemies within the gas\n(Undocumented) Gas traps can no longer be damaged while deploying"
+        "[Base] Fix -> Friendly traps are now differentiated from enemy traps"
       ]
     },
     {
-      "patch": "May 14, 2025 Patch",
+      "patch": "Season 21 : Upheaval",
       "details": [
-        "Nox Gas Trap\n(Undocumented) Gas trap now lasts for 22 seconds (was 11 seconds)"
+        "[Ultimate] Buff -> Gas damage and slow now stops immediately after Caustic’s squad is eliminated"
       ]
     },
     {
-      "patch": "May 07, 2024 Patch",
+      "patch": "Season 20 : Breakout",
       "details": [
-        "Gas damage and slow now stops immediately after Caustic's squad is eliminated",
-        "Gas damage ramps from 4 → 10 max (was 5 → uncapped), damage on knocked players down to flat 4 (was 5)"
+        "[Passive] Buff -> Gas Damage now increases by 1 each tick (was 5/5/6/6 etc.).",
+        "[Perks] Adjust -> Particle Diffuser: moved to Level 3.",
+        "[Perks] Adjust -> Residual Toxins: moved to Level 2."
       ]
     },
     {
-      "patch": "March 26, 2024 Patch",
+      "patch": "Season 16 : Revelry",
       "details": [
-        "Gas Damage now increases by 1 each tick (was 5/5/6/6 etc.)\nDowned players still only receive 5/tick",
-        "Gas Slow effect now only applies on first damage tick for 2s",
-        "Upgrades\nParticle Diffuser: moved to Level 3\nResidual Toxins: moved to Level 2"
+        "[Tactical] Buff -> Nox Gas Grenade: increased gas spread and duration."
       ]
     },
     {
-      "patch": "August 09, 2022 Patch",
+      "patch": "Season 14 : Hunted",
       "details": [
-        "Fixed gas ramping bug where transitioning from friendly to enemy gas would initially damage for more than intended."
+        "[Ultimate] Nerf -> Nox Gas Grenade : reduced gas damage.",
+        "[Perks] Adjust -> Nox Gas Grenade : increased gas duration."
       ]
     },
     {
-      "patch": "May 10, 2022 Patch",
+      "patch": "Season 13 : Saviors",
       "details": [
-        "Fortified\nNo longer reduces headshot damage."
+        "[Passive] Nerf -> Nox Gas : reduced damage over time.",
+        "[Ultimate] Buff -> Nox Gas Grenade : increased gas duration."
       ]
     },
     {
-      "patch": "February 08, 2022 Patch",
+      "patch": "Season 12 : Defiance",
       "details": [
-        "Nox Gas Trap\nNox Gas Traps are now destroyable after detonation:\nThe Barrels now have 150 hp.\nGas effects will now linger for two seconds after barrel destruction or expiration (gas particles still linger a bit longer as they dissipate).\nDetonated traps will now expire at 11 seconds (+2 second gas lingering) instead of 12.5 seconds (no lingering).\nFixed issue where barrels that are still being deployed (mid-throw) were not being deleted after Caustic dies."
+        "[Base] Buff -> Nox Gas Traps are now destroyable after detonation.",
+        "[Base] Adjust -> The Barrels now have 150 hp.",
+        "[Base] Buff -> Gas effects will now linger for two seconds after barrel destruction or expiration (gas particles still linger a bit longer as they dissipate).",
+        "[Base] Adjust -> Detonated traps will now expire at 11 seconds (+2 second gas lingering) instead of 12.5 seconds (no lingering).",
+        "[Base] Fix -> Fixed issue where barrels that are still being deployed (mid-throw) were not being deleted after Caustic dies."
       ]
     },
     {
-      "patch": "August 03, 2021 Patch",
+      "patch": "Season 11 : Escape",
       "details": [
-        "Gas damage starts at 5, increases by 1 every other tick indefinitely.",
-        "Nox Gas Trap: Reduced cooldown from 25 to 20 seconds.",
-        "Nox Gas Grenade:\nReduced cooldown from 3.5 to 3 minutes.\nReduced duration from 20 to 15 seconds."
+        "[Ultimate] Buff -> Nox Gas Grenade now has a longer duration and increased damage",
+        "[Tactical] Adjust -> Nox Gas Grenade: reduced gas cloud size, but increased its speed and duration"
       ]
     },
     {
-      "patch": "March 09, 2021 Patch",
+      "patch": "Season 10 : Emergence",
       "details": [
-        "Nox Gas Grenade: Increased cooldown from 2.5 minutes to 3.5 minutes.",
-        "Gas damage is now a flat 5 rather than 6-12.",
-        "Fixed a bug that was causing the gas to flicker for some players affected by it.",
-        "(Undocumented) Reduced the amount of particles from the gas, effectively providing less cover from the outside."
+        "[Passive] Buff -> Nox Gas Grenade now has increased gas spread and duration."
       ]
     },
     {
-      "patch": "February 04, 2021 Patch",
+      "patch": "Season 9 : Legacy",
       "details": [
-        "Nox Gas Grenade: Fixed an edge case where the gas would persist even after his squad was eliminated."
+        "[Ultimate] Buff -> Le poison a été renforcé.",
+        "[Perks] Adjust -> Upgrades Level 2 : description du changement."
       ]
     },
     {
-      "patch": "February 02, 2021 Patch",
+      "patch": "Season 8 : Mayhem",
       "details": [
-        "All gas now dissipates as soon as Caustic's team is wiped.",
-        "Nox Vision: Sonar abilities no longer stop Caustic's highlight vision."
+        "[Nox Gas Grenade] Fix -> Fixed an edge case where the gas would persist even after his squad was eliminated.",
+        "[All gas] Buff -> All gas now dissipates as soon as Caustic's team is wiped.",
+        "[Nox Vision] Fix -> Sonar abilities no longer stop Caustic's highlight vision.",
+        "[Nox Gas Grenade] Nerf -> Increased cooldown from 2.5 minutes to 3.5 minutes.",
+        "[Gas damage] Nerf -> Gas damage is now a flat 5 rather than 6-12.",
+        "[Fix] -> Fixed a bug that was causing the gas to flicker for some players affected by it.",
+        "[Undocumented] Reduce particles from gas -> Reduced the amount of particles from the gas, effectively providing less cover from the outside."
       ]
     },
     {
-      "patch": "November 04, 2020 Patch",
+      "patch": "Season 7 : Ascension",
       "details": [
         "Nox Gas Trap/ Nox Gas Grenade: Nox Gas no longer causes a blur effect. Damage increased from 4–10 to 6–12."
       ]
     },
     {
-      "patch": "October 06, 2020 Patch",
+      "patch": "Season 6 : Boosted",
       "details": [
-        "Fixed Caustic barrels from being placed at an angle on shipping crates."
+        "[Passive] Buff -> Nox Gas : zone de gaz plus grande.",
+        "[Perks] Adjust -> Nox Gas Grenade : réduction du temps de recharge."
       ]
     },
     {
-      "patch": "September 03, 2020 Patch",
+      "patch": "Season 5 : Fortune's Favor",
       "details": [
-        "Removed an inappropriate Caustic voice line.",
-        "Fixed an issue where Crypto’s  Surveillance Drone in Caustic gas would play to the whole server."
+        "[Ultimate] Nerf -> Nox Gas Grenade : réduction du temps de recharge.",
+        "[Passive] Buff -> Nox Vision : augmentation de la portée."
       ]
     },
     {
-      "patch": "August 18, 2020 Patch",
+      "patch": "Season 3 : Meltdown",
       "details": [
-        "Fixed an issue with  Nox Gas Traps clipping to  Mobile Respawn Beacons.",
-        "Fixed an issue with Pathfinder and Revenant taking less damage from Nox gas."
+        "[Passive] Buff -> Nox Gas : zone de gaz plus grande.",
+        "[Perks] Adjust -> Nox Gas Grenade : réduction du temps de recharge."
       ]
     },
     {
-      "patch": "June 23, 2020 Patch",
+      "patch": "Season 1 : Wild Frontier",
       "details": [
-        "Nox Gas Trap:\nCan now be destroyed by shooting the bottom before it fully inflates.\nTeammates can now ping a friendly trap."
-      ]
-    },
-    {
-      "patch": "May 12, 2020 Patch",
-      "details": [
-        "Nox Gas Trap:\nFriendly gas no longer slows teammates.\nTraps no longer triggered from the other side of a door."
-      ]
-    },
-    {
-      "patch": "July 02, 2019 Patch",
-      "details": [
-        "Fortified:\nDamage reduction increased from 10% to 15%.\nNow immune to slow effects from weapon fire.",
-        "Nox Gas Grenade: The magnitude of the slow is reduced by 50% when affecting teammates."
-      ]
-    },
-    {
-      "patch": "June 04, 2019 Patch",
-      "details": [
-        "Nox Gas Trap:\nCaustic barrels can now be triggered or disabled by friendly teammates.\nFixed a rare issue with using consumables while having a Caustic gas canister out."
-      ]
-    },
-    {
-      "patch": "May 20, 2019 Patch",
-      "details": [
-        "Fortified: Fixed issue where damage would be taken through shields."
-      ]
-    },
-    {
-      "patch": "April 16, 2019 Patch",
-      "details": [
-        "Fortified Passive Perk added which reduces damage taken by 10%.",
-        "Gas Damage per tick increased from 1 to 4",
-        "Nox Gas Grenade: Throw distance increased from 28 meters to 33 meters."
-      ]
-    },
-    {
-      "patch": "March 19, 2019 Patch",
-      "details": [
-        "Adjusted hitbox to better align with shape.",
-        "Nox Gas Trap:\nReduced cooldown of Traps from 30 to 25 seconds.\nIncreased radius and proximity radius by about 10%.\nRemoved a 1-second delay on the smoke dealing damage to players.",
-        "Nox Gas Grenade: Reduced cooldown from 2:30 to 2:00 minutes. (This change was listed in the patch notes but never shipped.)",
-        "Fixed ADS view being blocked when using Caustic legendary skins with certain weapon/ optic combos"
+        "[Perks] Buff -> Fortified Passive Perk added which reduces damage taken by 10%",
+        "[Base] Buff -> Gas Damage per tick increased from 1 to 4",
+        "[Base] Buff -> Nox Gas Grenade: Throw distance increased from 28 meters to 33 meters",
+        "[Base] Adjust -> Adjusted hitbox to better align with shape.",
+        "[Perks] Buff -> Nox Gas Trap: Reduced cooldown of Traps from 30 to 25 seconds.",
+        "[Perks] Buff -> Nox Gas Trap: Increased radius and proximity radius by about 10%",
+        "[Perks] Fix -> Nox Gas Trap: Removed a 1-second delay on the smoke dealing damage to players",
+        "[Base] Adjust -> Nox Gas Grenade: Reduced cooldown from 2:30 to 2:00 minutes.",
+        "[Base] Fix -> Fixed ADS view being blocked when using Caustic legendary skins with certain weapon/ optic combos"
       ]
     }
   ],
@@ -198,24 +173,24 @@
       "level_2": {
         "left": {
           "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "name": "Residual Toxins",
+          "description": "Upgrades Level 2 description changed.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "name": "Particle Diffuser",
+          "description": "",
           "recommended": false
         }
       }

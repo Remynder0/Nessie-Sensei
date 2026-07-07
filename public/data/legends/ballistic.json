@@ -10,122 +10,66 @@
   "abilities": {
     "passive": {
       "name": "Sling",
-      "description": "Store a third weapon in the sling. Access either via inventory or Character Utility Action. The sling weapon cannot take attachments.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Ballistic now respawns with his Sling weapon in all game modes.",
+      "description": "Store a third weapon in the sling. Access either via inventory or Character Utility Action. The sling weapon can now carry crate weapons and will gain infinite ammo when Tempest is activated.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Whistler",
-      "description": "Shoots a projectile that heats up an enemy's gun as they shoot. Overheating causes damage. Hold the tactical to lock-on.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Overheat debuff duration increased, overheat damage increased, tactical charges increased and time between firing and homing activation decreased. (Overheat damage: 15 -> 50, Overheat debuff duration: 12s -> 15s, Tactical charges: 1 -> 2)\n\n[Patch Apex Legends™: Takeover Patch Notes - Buff]: Le lanceur de Ballistic peut maintenant transporter des armes en caisse.",
-      "cooldown": "25 seconds"
+      "description": "Shoots a projectile that heats up an enemy's gun as they shoot. Overheating causes damage. Hold the tactical to lock-on, which will be more reliable in close range and takes 1.2 seconds. Whistler now deals 15 damage on activation and 15 damage from overheat.",
+      "cooldown": ""
     },
     "ultimate": {
       "name": "Tempest",
-      "description": "When activated, nearby teammates get faster reloads, faster armed move speed, and infinite ammo. Ballistic's sling weapon will be equipped and upgraded to gold.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Ballistic and teammates within range get a sprint boost when his Ultimate is activated.\n\n[Patch Apex Legends™: Takeover Patch Notes - Buff]: L'ultime de Ballistic accorde maintenant une bonus de vitesse.",
-      "cooldown": "2 minutes"
+      "description": "When activated, nearby teammates get faster reloads, faster armed move speed, infinite ammo within a 90m radius, and a speed boost. Ballistic's sling weapon will be equipped and upgraded to gold.",
+      "cooldown": ""
     }
   },
   "patch_history": [
     {
-      "patch": "Takeover",
+      "patch": "Season 25 : Prodigy",
       "details": [
-        "[Base] Buff -> Le niveau de base de Ballistic a été amélioré.",
-        "[Ultimate] Buff -> L'ultime de Ballistic accorde maintenant une bonus de vitesse.",
-        "[Tactical] Buff -> Le lanceur de Ballistic peut maintenant transporter des armes en caisse."
+        "[Tactical] Nerf -> Whistler - Damage on activation reduced to 15 (was 20)",
+        "[Tactical] Nerf -> Whistler - Damage from overheat reduced to 15 (was 30, Previous Hotfix)",
+        "[Ultimate] Fix -> Removed time extension from knocks"
       ]
     },
     {
-      "patch": "Saison 29 : Overclocked (Midseason)",
+      "patch": "Season 24 : Takeover",
       "details": [
-        "[Passive] Buff -> Ballistic now respawns with his Sling weapon in all game modes.",
-        "[Tactical] Buff -> Overheat debuff duration increased, overheat damage increased, tactical charges increased and time between firing and homing activation decreased. (Overheat damage: 15 -> 50, Overheat debuff duration: 12s -> 15s, Tactical charges: 1 -> 2)",
-        "[Ultimate] Buff -> Ballistic and teammates within range get a sprint boost when his Ultimate is activated."
+        "[Base] Buff -> Sling now upgrades with Level by default, can now carry Crate Weapons and they will gain infinite ammo with Ult.",
+        "[Tactical] Buff -> Whistler: Tac now has 2 charges, overheat reaction time increased to 1.2s, Smart Bullet on ground damage increased to 20.",
+        "[Ultimate] Buff -> Tempest: squad gains a speed boost when empowered by Ult.",
+        "[Perks] Adjust -> Upgrades: Level 2 - Killing Time increases duration of Ult by 15s.",
+        "[Perks] Adjust -> Upgrades: Level 3 - Extra Bullets doubles the number of Tac charges, Quiet Time: Overheat now also silences enemy for 6s."
       ]
     },
     {
-      "patch": "Saison 29 : Overclocked",
+      "patch": "Season 22 : Shockwave",
       "details": [
-        "[Passive] Adjust -> Ballistic now respawns with his Sling weapon in all game modes.",
-        "[Tactical] Adjust -> Overheat now only applies to one weapon.",
-        "If a player has a weapon out when hit by Whistler the overheat debuff applies only to that weapon.",
-        "If the player is unarmed when hit by Whistler it applies to the weapon in the first weapon slot.",
-        "Overheat no longer degrades when not firing or swapping to another weapon.",
-        "Overheat does not increment when swapping to another weapon and shooting.",
-        "Overheat damage increased from 15 to 50.",
-        "Overheat debuff duration increased from 12 to 15.",
-        "Tactical charges increased from 1 to 2.",
-        "Decreased time between firing and when homing activates.",
-        "The overheat debuff no longer re-applies if you hit someone who is already overheating and you cannot apply it to multiple guns on the same player.",
-        "[Ultimate] Adjust -> Ballistic and teammates within range get a sprint boost when his Ultimate is activated. (Previously only Ballistic got a speed boost)",
-        "Sprint boost will only apply a speed boost while sprinting and will not speed up other types of movement.",
-        "[Upgrades] Adjust -> Level 2",
-        "**Extra Bullet:** Gain an additional Tactical charge.",
-        "**Trap Mode:** When placed in the world, Ballistic’s KTactical lasts 15 seconds and deals 35 damage if an enemy walks into it.",
-        "Level 3",
-        "**Quiet Time:** Ballistic’s Tactical no longer applies overheat. Instead it adds silence and slow on *hit*. It also has a longer cooldown.",
-        "**Killing Time:** Now moved to level 3, still provides a 15 second extension to Ballistic’s Ultimate."
+        "[Passive] Buff -> Whistler: lock-on time decreased to 0.1s."
       ]
     },
     {
-      "patch": "July 17, 2025 Patch",
+      "patch": "Season 21 : Upheaval",
       "details": [
-        "Base  Whistler charges reduced from 2 to 1.",
-        "Tempest no longer grants a speed boost to Ballistic's allies."
+        "[Passive] Nerf -> Whistler: duration of speedy whistler restored to 2s",
+        "[Perks] Buff -> Whistler: damage from a planted smart bullet increased to 10 (was 5)",
+        "[Perks] Adjust -> Upgrades: NEW Sling-Shot: improves Ballistic’s base sling weapon to a blueset at Level 2 and a purpleset at Level 3"
       ]
     },
     {
-      "patch": "June 24, 2025 Patch",
+      "patch": "Season 20 : Breakout",
       "details": [
-        "Whistler damage on activation reduced to 15 (was 20)",
-        "Upgrades\nExtra Bullets: moved to Level 2\nLasting Bullet: moved to Level 3"
+        "[Base] Nerf -> Lock-on will be more reliable in close range.",
+        "[Passive] Buff -> No longer generates ammo when swapping weapon from sling in the inventory.",
+        "[Perks] Adjust -> Sling Weapons now have all White attachments while equipped.",
+        "[Perks] Adjust -> Tempest: effect radius for ally range has been increased to 90m (was 13m)"
       ]
     },
     {
-      "patch": "June 03, 2025 Patch",
+      "patch": "Season 17 : Arsenal",
       "details": [
-        "Reduced overheat damage from 30 -> 15.",
-        "Removed the Ultimate extension gained from knocking other players."
-      ]
-    },
-    {
-      "patch": "February 11, 2025 Patch",
-      "details": [
-        "Sling\nNow upgrades with Level by default\nCan now carry Crate Weapons and they will gain infinite ammo with Ult",
-        "Whistler\nTac now has 2 charges\nOverheat reaction time increased to 1.2s (was 1s)\nSmart Bullet on ground damage increased to 20 (was 10)\nThis damage is now equal to the direct hit damage",
-        "Tempest: squad gains a speed boost when empowered by Ult",
-        "Upgrades: Level 2\n Sling-Shot: removed (integrated into base kit)\nNEW File:Killing Time.svg Killing Time: increases duration of Ult by 15s",
-        "Upgrades: Level 3\n Extra Bullet: doubles the number of Tac charges (was +1 charge)\nFile:Quiet Time.svg Quiet Time: Overheat now also silences enemy for 6s"
-      ]
-    },
-    {
-      "patch": "May 07, 2024 Patch",
-      "details": [
-        "Whistler: damage from a planted smart bullet increased to 10 (was 5)",
-        "Upgrades\nCare Package Insight: removed\nNEW Sling-Shot: improves Ballistic’s base sling weapon to a blueset at Level 2 and a purpleset at Level 3"
-      ]
-    },
-    {
-      "patch": "March 26, 2024 Patch",
-      "details": [
-        "Upgrades:\nAmmuvision: removed\nLasting Bullet: moved to Level 2\nNew - Speedy Whistler: successful hits with Tactical give a 2s burst of speed"
-      ]
-    },
-    {
-      "patch": "February 13, 2024 Patch",
-      "details": [
-        "Sling Weapons now have all White attachments while equipped.",
-        "Tempest effect radius for ally range increased from 13m to 90m."
-      ]
-    },
-    {
-      "patch": "August 08, 2023 Patch",
-      "details": [
-        "Whistler\nReduced delay before an overheated weapon starts cooling down to 1s (was 2s)\nReduced how long it takes an overheated weapon to cooldown to 8s (was 12s)"
-      ]
-    },
-    {
-      "patch": "May 09, 2023 Patch",
-      "details": [
-        "Introduced."
+        "[Base] Buff -> Introduced."
       ]
     }
   ],
@@ -153,7 +97,7 @@
       "level_3": {
         "left": {
           "name": "Extra Bullet",
-          "description": "Gagne une charge supplémentaire pour le Tactique (Siffleur).",
+          "description": "Doubles the number of Whistler charges.",
           "recommended": true
         },
         "right": {

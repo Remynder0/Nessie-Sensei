@@ -10,198 +10,141 @@
   "abilities": {
     "passive": {
       "name": "Assassin's Instinct",
-      "description": "Highlights nearby visible enemies that are low on health. You crouch walk faster and have improved wall climbing.",
+      "description": "Highlights nearby visible enemies that are low on health for a longer time after they've been seen. You crouch walk faster and have improved wall climbing.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Shadow Pounce",
-      "description": "Unleash a powerful pounce forwards. Hold to charge for further distance.",
+      "description": "Unleash a powerful pounce forwards. Hold to charge for further distance. Deals damage, disables enemy abilities, including Mirage's cloaked revive/respawn and Octane's Swift Mend, and knocks down enemies within the area of effect.",
       "cooldown": "20 seconds"
     },
     "ultimate": {
       "name": "Forged Shadows",
-      "description": "Forge a shroud of hardened shadows around you that block damage and regenerate. Knockdowns will start regenerating your shadows.",
-      "cooldown": "3 minutes"
+      "description": "Forge a shroud of hardened shadows around you that block damage and regenerate. Knockdowns will start regenerating your shadows up to 50 HP, with an initial delay of 3 seconds. Death Totem: Characters are respawned with 50 health (or whatever health they had when they activated it, if lower). The protection zone has been reduced. Silence now silences enemies in a larger area and is more effective.",
+      "cooldown": "180 seconds"
     }
   },
   "patch_history": [
     {
-      "patch": "January 06, 2026 Patch",
+      "patch": "Season 29 : Overclocked",
       "details": [
-        "Shadow Pounce:\nIncreased max charge duration from 1.3 to 1.7s.",
-        "Forged Shadows:\nIncreased activation time from 2.0 to 2.2s."
+        "[Base] Fix -> Fixed sometimes being able to cancel your tactical early and ready your guns sooner than intended."
       ]
     },
     {
-      "patch": "July 17, 2025 Patch",
+      "patch": "Season 27 : Amped (Midseason)",
       "details": [
-        "Class changed to  Assault.",
-        "Shadow Pounce:\nMinimum Velocity increased from 700 to 800.\nMaximum Velocity increased from 1150 to 1400.\nImproved Ground Detection, making guns faster to reequip upon landing."
+        "[Tactical] Buff -> Increased max charge duration from 1.3 to 1.7s.",
+        "[Ultimate] Buff -> Increased Ult time 2.0 to 2.2s (10% slower to deploy)"
       ]
     },
     {
-      "patch": "May 12, 2025 Patch",
+      "patch": "Season 27 : Amped",
       "details": [
-        "Revenant is disabled temporarily because of  Forged Shadows's exploit was found."
+        "[Passive] Nerf -> Reduced the maximum possible velocity of Revenants Shadow Pounce"
       ]
     },
     {
-      "patch": "March 25, 2025 Patch",
+      "patch": "Season 24 : Takeover",
       "details": [
-        "Assassin's Instinct: Allies now see the the low health tracking marker like Revenant.",
-        "Shadow Pounce:\nActivation time reduced by ~30%\nCooldown reduced to 20s (was 25s)",
-        "Forged Shadows: Ult Shield HP increased by 25.",
-        "Upgrades Level 2\nMurder Machine: removed\nNEW Try To Hide: doubles the duration of the passive mark when getting enemies to low health",
-        "Upgrades Level 3\nGrim Leaper: removed\nNEW Agile Assassin: reduces Shadow Pounce activation time and charge time by half\nTactical Cooldown: now reduces to 15s (was 20s)."
+        "[Tactical] Fix -> Resolved rare crash that could occur when pouncing",
+        "[Tactical] Fix -> Shadow Pounce now plays leap audio when spectating a Revenant"
       ]
     },
     {
-      "patch": "November 05, 2024 Patch",
+      "patch": "Season 23 : From the Rift",
       "details": [
-        "Forged Shadows\nShield will now regen up to 50HP instead of instantly refreshing after a 3s delay"
+        "[Passive] Buff -> Forged Shadows : shield will now regen up to 50HP instead of instantly refreshing after a 3s delay"
       ]
     },
     {
-      "patch": "September 17, 2024 Patch",
+      "patch": "Season 22 : Shockwave",
       "details": [
-        "Forged Shadows\nReduced shield health to 50 (was 75)\nActivation time doubled"
+        "[Ultimate] Nerf -> Reduced shield health to 50.",
+        "[Passive] Buff -> Activation time doubled"
       ]
     },
     {
-      "patch": "June 25, 2024 Patch",
+      "patch": "Season 20 : Breakout",
       "details": [
-        "Upgrade - Grim Leaper: Tac will now refresh on BOTH knocks and assisted knocks within a 3s window"
+        "[Passive] Nerf -> Forged in Shadows Knocks no longer refresh the Tactical during Ultimate.",
+        "[Ultimate] Buff -> Ultimate Cooldown Increased by 60s.",
+        "[Perks] Adjust -> Tactical Cooldown: moved to Level 3.",
+        "[Passive] Buff -> Ultimate Cooldown: reduces Ult Cooldown by 30s (Level 2)"
       ]
     },
     {
-      "patch": "March 26, 2024 Patch",
+      "patch": "Season 14 : Hunted",
       "details": [
-        "Forged in Shadows\nKnocks no longer refresh the Tactical during Ultimate\nTactical Cooldown is no longer shorter during Ultimate\nUltimate Cooldown Increased by 60s",
-        "Upgrades\nAgile Assassin: removed\nTactical Cooldown: moved to Level 3\nNew - Ultimate Cooldown: reduces Ult Cooldown by 30s"
+        "[Passive] Nerf -> Stalker's Eye : reduced scan duration.",
+        "[Tactical] Buff -> Silence : increased damage.",
+        "[Perks] Adjust -> Stalker's Eye : increased scan range."
       ]
     },
     {
-      "patch": "September 19, 2023 Patch",
+      "patch": "Season 13 : Saviors",
       "details": [
-        "Forged Shadows\nReduced time extension from knocks from 10s to 5s.\nExtra damage to the shroud will bleedthrough to Revenant if it breaks.",
-        "Shadow Pounce\nSlightly increased pounce angle compensation when looking at the ground."
+        "[Passive] Nerf -> Stalker's Eye : reduced range.",
+        "[Ultimate] Buff -> Silence : increased duration."
       ]
     },
     {
-      "patch": "August 30, 2023 Patch",
+      "patch": "Season 11 : Escape",
       "details": [
-        "Revenant can no longer damage his Forged Shadows with his own melee but will take damage from his own ordnance"
+        "[Passive] Buff -> Stalker's Eye now reveals enemy positions for a longer time after they've been seen",
+        "[Ultimate] Adjust -> Silence: reduced the duration, but increased its effectiveness and now also silences enemies in a larger area"
       ]
     },
     {
-      "patch": "August 08, 2023 Patch",
+      "patch": "Season 10 : Emergence",
       "details": [
-        "Reworked:\nClass changed to  Skirmisher.\nNew passive ability:  Assassin's Instinct.\nNew tactical ability:  Shadow Pounce.\nNew ultimate ability:  Forged Shadows.\nUpdated Revenant's Legend select animation and healing animation."
+        "[Passive] Buff -> Stalker's Eye now has increased scan range and duration.",
+        "[Tactical] Adjust -> Silence: Increased silence duration."
       ]
     },
     {
-      "patch": "August 09, 2022 Patch",
+      "patch": "Season 9 : Legacy",
       "details": [
-        "Death Totem will now show a placement preview when activated instead of placing immediately."
+        "[Passive] Buff -> La vitesse a été améliorée.",
+        "[Perks] Adjust -> Upgrades Level 2 : description du changement."
       ]
     },
     {
-      "patch": "September 14, 2021 Patch",
+      "patch": "Season 8 : Mayhem",
       "details": [
-        "Death Totem:\nAdded some visual effects to increase visibility for when a totem is placed nearby."
+        "[Silence] Buff -> Now disables Mirage’s cloaked revive/respawn as well as Octane’s Swift Mend."
       ]
     },
     {
-      "patch": "August 03, 2021 Patch",
+      "patch": "Season 7 : Ascension",
       "details": [
-        "Death Totem:\nAdded a visual and audio cue when Death Totem protection is about to end which can be seen/heard by other players.\nAdded a brief slow after being recalled."
-      ]
-    },
-    {
-      "patch": "July 19, 2021 Patch",
-      "details": [
-        "Fixed an issue where having  Revenant's Heirloom equipped would cause slides to not travel very far while healing."
-      ]
-    },
-    {
-      "patch": "June 29, 2021 Patch",
-      "details": [
-        "Slightly decreased hitbox size.",
-        "Stalker: Significantly increased climb height.",
-        "Silence: Duration decreased from 20 seconds to 15 seconds.",
-        "Death Totem: Duration reduced by 5 seconds."
-      ]
-    },
-    {
-      "patch": "March 09, 2021 Patch",
-      "details": [
-        "Silence: Now disables Mirage’s cloaked revive/respawn as well as Octane’s  Swift Mend."
-      ]
-    },
-    {
-      "patch": "January 05, 2021 Patch",
-      "details": [
-        "Death Totem:\nFixed an issue causing other players to teleport with Revenant if they punch Revenant when he has very little health.\nFixed an issue that didn’t allow Revenant to deploy the totem while on the Trident."
-      ]
-    },
-    {
-      "patch": "November 04, 2020 Patch",
-      "details": [
+        "Death Totem:",
+        "Fixed an issue causing other players to teleport with Revenant if they punch Revenant when he has very little health.",
+        "Fixed an issue that didn’t allow Revenant to deploy the totem while on the Trident.",
         "Death Totem: Fixed an issue with Revenant getting pushed into geometry when his totem was deployed in tight spaces."
       ]
     },
     {
-      "patch": "October 06, 2020 Patch",
+      "patch": "Season 6 : Boosted",
       "details": [
-        "Fixed an issue with the HUD of the Replicator staying on the screen when the totem effect wears off."
+        "[Passive] Buff -> Silence : vitesse de déplacement augmentée.",
+        "[Perks] Adjust -> Silence : réduction du temps de recharge.",
+        "[Ultimate] Nerf -> Death Totem : réduction de la zone de protection."
       ]
     },
     {
-      "patch": "August 18, 2020 Patch",
+      "patch": "Season 4 : Assimilation",
       "details": [
-        "Death Totem:\nFor 2 seconds after being recalled by the totem, players cannot use Wraith’s  Dimensional Rift.\nFixed an issue with enemies getting teleported with Revenant when they melee him before he teleports back to the totem."
-      ]
-    },
-    {
-      "patch": "June 30, 2020 Patch",
-      "details": [
-        "Death Totem: Fixed an issue where if death protection wears off during a revive, it cancels the revive."
-      ]
-    },
-    {
-      "patch": "June 23, 2020 Patch",
-      "details": [
-        "Silence:\nWill now cancel:\nPathfinder mid-grapple\nWraith mid- Into the Void attempt (before it activates).\nWill now prevent:\nMirage cloaked revive and decoy control activation.\nLifeline  Combat Revive.\nFixed an issue with the audio of the ability cutting off halfway through its playback.",
-        "Death Totem:\nRange removed.\nFixed an issue with the totem not being rendered from over 200 meters.\nNew health bar for when players are in Death Protection."
-      ]
-    },
-    {
-      "patch": "May 12, 2020 Patch",
-      "details": [
-        "Death Totem: Fixed an issue with it being visible through smoke or gas.",
-        "Adjusted hitbox for his crouch area."
-      ]
-    },
-    {
-      "patch": "April 07, 2020 Patch",
-      "details": [
-        "Silence:\nIncreased duration of status effect from 10 seconds to 20 seconds.\nNow disables Gibraltar’s  Gun Shield.\nIncreased the duration of area of effect from 5 seconds to 10 seconds.\nNow has 2 charges.\nFixed bug where sometimes players would lose aim assist after being hit with the ability.",
-        "Death Totem:\nCharacters are now respawned with 50 health (or whatever health they had when they activated it, if lower) instead of 1.\nFixed bug for cases when Revenant places the totem on the train, a player is respawned to it while on the train, and the train is moving, the player could be respawned somewhere else on the map or even off the map.\nFixed bug for cases where players that were under Revenant’s Death Protection could still be healed by Lifeline’s  D.O.C. Heal Drone and Wattson’s  Interception Pylon.",
-        "Removed  Low Profile.",
-        "Fixed issue where sometimes players could hear and in rare cases, be hit by Revenant’s abilities while in the Firing Range when he’s not there."
-      ]
-    },
-    {
-      "patch": "March 03, 2020 Patch",
-      "details": [
-        "Silence: Fixed getting assist credit when placing the ability on a player who is downed.",
-        "Death Totem:\nFor cases where sometimes the totem could be destroyed or disabled when placed too close to some geometry, it will now be refunded back to the player at full charge when this happens.\nFixed a bug where if players were respawned while spectating someone under Revenant's death protection, they would return in that state permanently and unable to use healing items."
-      ]
-    },
-    {
-      "patch": "February 04, 2020 Patch",
-      "details": [
-        "Introduced."
+        "[Perks] Fix -> Silence: Fixed getting assist credit when placing the ability on a player who is downed.",
+        "[Tactical] Buff -> Silence: Increased duration of status effect from 10 seconds to 20 seconds.",
+        "[Tactical] Buff -> Silence: Now disables Gibraltar’s Gun Shield.",
+        "[Tactical] Buff -> Silence: Increased the duration of area of effect from 5 seconds to 10 seconds.",
+        "[Tactical] Buff -> Silence: Now has 2 charges.",
+        "[Tactical] Fix -> Silence: Fixed bug where sometimes players would lose aim assist after being hit with the ability.",
+        "[Ultimate] Fix -> Death Totem: Characters are now respawned with 50 health (or whatever health they had when they activated it, if lower) instead of 1.",
+        "[Ultimate] Fix -> Death Totem: Fixed bug for cases when Revenant places the totem on the train, a player is respawned to it while on the train, and the train is moving, the player could be respawned somewhere else on the map or even off the map.",
+        "[Ultimate] Fix -> Death Totem: Fixed bug for cases where players that were under Revenant’s Death Protection could still be healed by Lifeline’s D.O.C. Heal Drone and Wattson’s Interception Pylon.",
+        "[Passive] Nerf -> Removed Low Profile."
       ]
     }
   ],
@@ -214,7 +157,7 @@
       "level_2": {
         "left": {
           "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "description": "Silence : vitesse de déplacement augmentée.",
           "recommended": false
         },
         "right": {
@@ -226,8 +169,9 @@
       "level_3": {
         "left": {
           "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
-          "recommended": true
+          "description": "Silence : réduction du temps de recharge.",
+          "recommended": false,
+          "cooldown": "20 seconds"
         },
         "right": {
           "name": "Perk Niv. 3 Droite",

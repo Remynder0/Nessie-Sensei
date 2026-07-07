@@ -1,714 +1,775 @@
 {
-  "season": "5",
-  "name": "Fortune's Favor",
-  "start_date": "May 12, 2020",
-  "end_date": "August 18, 2020",
-  "infobox": {
+    "season": "5",
     "name": "Fortune's Favor",
-    "New Legend": "Loba",
-    "Featured map": "Kings Canyon",
-    "Season Quest": "\" The Broken Ghost",
-    "Theme": "Exploration",
-    "Reactive weapon": "Wingman",
-    "Start date": "May 12, 2020",
-    "End date": "August 18, 2020",
-    "Events": "Lost Treasures"
-  },
-  "max_level": 110,
-  "rewards": {
-    "level_1": {
-      "premium": [
-        "Hemlok Burst AR Skin: Retrofitted",
-        "Wraith Skin: Silver Specter",
-        "Revenant Skin: Death Etching",
-        "Bloodhound Skin: Gilded Claw",
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Pathfinder Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_2": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Gibraltar Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_3": {
-      "premium": [
-        "Apex Coins 50"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_4": {
-      "premium": [
-        "Loading Screen : Mean Girls"
-      ],
-      "free": [
-        "Wraith Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_5": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Crypto Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_6": {
-      "premium": [
-        "Gibraltar Quip Kill Quip : Gibraltar still loves you"
-      ],
-      "free": [
-        "Wraith Quip Kill Quip : There's a void in your heart"
-      ]
-    },
-    "level_7": {
-      "premium": [
-        "Kraber .50-Cal Sniper Skin: Magma Might"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_8": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Bangalore Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_9": {
-      "premium": [
-        "Loading Screen : Qualified"
-      ],
-      "free": [
-        "Wattson Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_10": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Revenant Quip Kill Quip : I want your heart"
-      ]
-    },
-    "level_11": {
-      "premium": [
-        "Apex Coins 50"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_12": {
-      "premium": [
-        "Longbow DMR Skin: Desert Dweller"
-      ],
-      "free": [
-        "Octane Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_13": {
-      "premium": [
-        "Pathfinder Skydive Emote : The Kneeslapper"
-      ],
-      "free": [
-        "Loba Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_14": {
-      "premium": [
-        "Bangalore Quip Kill Quip : I didn't say I mended broken hearts"
-      ],
-      "free": [
-        "Lifeline Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_15": {
-      "premium": [
-        "G7 Scout Skin: Dragon's Embrace"
-      ],
-      "free": [
-        "Mirage Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_16": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Caustic Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_17": {
-      "premium": [
-        "Loading Screen : A Declaration of War"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_18": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Bloodhound Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_19": {
-      "premium": [
-        "Triple Take Skin: Scarab's Bite"
-      ],
-      "free": [
-        "Revenant Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_20": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Mirage Quip Kill Quip : Mirage à trois"
-      ]
-    },
-    "level_21": {
-      "premium": [
-        "Octane Banner Frame : Deep Dive"
-      ],
-      "free": [
-        "Revenant Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_22": {
-      "premium": [
-        "Charge Rifle Skin: Gilded Hunt"
-      ],
-      "free": [
-        "Bloodhound Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_23": {
-      "premium": [
-        "Music Pack : Fortune's Favor"
-      ],
-      "free": [
-        "Caustic Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_24": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Crypto Quip Kill Quip : Most alive when you're in love"
-      ]
-    },
-    "level_25": {
-      "premium": [
-        "Mirage Skin: Fool's Gold"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_26": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Mirage Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_27": {
-      "premium": [
-        "Revenant Banner Frame : Ritualistic"
-      ],
-      "free": [
-        "Lifeline Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_28": {
-      "premium": [
-        "Hemlok Burst AR Skin: Spine Chiller"
-      ],
-      "free": [
-        "Loba Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_29": {
-      "premium": [
-        "Charm : Keepsake"
-      ],
-      "free": [
-        "Wattson Quip Kill Quip : A gift of joules"
-      ]
-    },
-    "level_30": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Octane Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_31": {
-      "premium": [
-        "VK-47 Flatline Skin: Scarlet Temperament"
-      ],
-      "free": [
-        "Wattson Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_32": {
-      "premium": [
-        "Caustic Quip Kill Quip : Misunderstood intentions"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_33": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Bangalore Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_34": {
-      "premium": [
-        "Loading Screen : Sleep With the Fishes"
-      ],
-      "free": [
-        "Crypto Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_35": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Wraith Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_36": {
-      "premium": [
-        "R-301 Carbine Skin: Celestial Clockwork"
-      ],
-      "free": [
-        "Gibraltar Stat Tracker : Season 5 Wins"
-      ]
-    },
-    "level_37": {
-      "premium": [
-        "Lifeline Skydive Emote : Vibing"
-      ],
-      "free": [
-        "Pathfinder Stat Tracker : Season 5 Kills"
-      ]
-    },
-    "level_38": {
-      "premium": [
-        "Octane Quip Kill Quip : I think I love you friend"
-      ],
-      "free": []
-    },
-    "level_39": {
-      "premium": [
-        "HAVOC Rifle Skin: The Head Shrinker"
-      ],
-      "free": []
-    },
-    "level_40": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_41": {
-      "premium": [
-        "Loading Screen : Like Father, Like Daughter"
-      ],
-      "free": []
-    },
-    "level_42": {
-      "premium": [
-        "Loba Skydive Emote : Side Saddle"
-      ],
-      "free": []
-    },
-    "level_43": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_44": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_45": {
-      "premium": [
-        "Charm : Diamond"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_46": {
-      "premium": [
-        "Loba Quip Kill Quip : It's not you, it's me"
-      ],
-      "free": []
-    },
-    "level_47": {
-      "premium": [
-        "Devotion LMG Skin: Cartographer"
-      ],
-      "free": []
-    },
-    "level_48": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_49": {
-      "premium": [
-        "Loading Screen : It Takes a Liar"
-      ],
-      "free": []
-    },
-    "level_50": {
-      "premium": [
-        "Bangalore Skin: Sky Marshal"
-      ],
-      "free": []
-    },
-    "level_51": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_52": {
-      "premium": [
-        "L-STAR EMG Skin: Royal Weave"
-      ],
-      "free": []
-    },
-    "level_53": {
-      "premium": [
-        "Crypto Banner Frame : Expedition"
-      ],
-      "free": [
-        "Loba Skin: Huntswoman"
-      ]
-    },
-    "level_54": {
-      "premium": [
-        "Loba Banner Frame : Alpha Dog"
-      ],
-      "free": []
-    },
-    "level_55": {
-      "premium": [
-        "R-99 SMG Skin: Shredder"
-      ],
-      "free": []
-    },
-    "level_56": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_57": {
-      "premium": [
-        "Loading Screen : Felagi Fighters"
-      ],
-      "free": []
-    },
-    "level_58": {
-      "premium": [
-        "Mirage Skydive Emote : Private Dancer"
-      ],
-      "free": []
-    },
-    "level_59": {
-      "premium": [
-        "Alternator SMG Skin: Entombed"
-      ],
-      "free": []
-    },
-    "level_60": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_61": {
-      "premium": [
-        "Charm : Trusty Whip"
-      ],
-      "free": []
-    },
-    "level_62": {
-      "premium": [
-        "Mirage Banner Frame : Mapped Out"
-      ],
-      "free": []
-    },
-    "level_63": {
-      "premium": [
-        "Prowler Burst PDW Skin: Gnarled Embrace"
-      ],
-      "free": []
-    },
-    "level_64": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_65": {
-      "premium": [
-        "Loading Screen : Stalking Prey"
-      ],
-      "free": []
-    },
-    "level_66": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_67": {
-      "premium": [
-        "Music Pack : Loba"
-      ],
-      "free": []
-    },
-    "level_68": {
-      "premium": [
-        "Mastiff Shotgun Skin: Gift of Power"
-      ],
-      "free": []
-    },
-    "level_69": {
-      "premium": [
-        "Pathfinder Banner Frame : Treasure Trove"
-      ],
-      "free": []
-    },
-    "level_70": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_71": {
-      "premium": [
-        "EVA-8 Auto Skin: Molten Ignition"
-      ],
-      "free": []
-    },
-    "level_72": {
-      "premium": [
-        "Lifeline Banner Frame : Tools of the Trade"
-      ],
-      "free": []
-    },
-    "level_73": {
-      "premium": [
-        "Loading Screen : Take It in Stride"
-      ],
-      "free": []
-    },
-    "level_74": {
-      "premium": [
-        "Wraith Banner Frame : Intergalactic"
-      ],
-      "free": []
-    },
-    "level_75": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_76": {
-      "premium": [
-        "Peacekeeper Skin: Evolved Flow"
-      ],
-      "free": []
-    },
-    "level_77": {
-      "premium": [
-        "Charm : Explorer's Hat"
-      ],
-      "free": []
-    },
-    "level_78": {
-      "premium": [
-        "Bloodhound Banner Frame : Deep Discovery"
-      ],
-      "free": []
-    },
-    "level_79": {
-      "premium": [
-        "Mozambique Shotgun Skin: Rare Find"
-      ],
-      "free": []
-    },
-    "level_80": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_81": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_82": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_83": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_84": {
-      "premium": [
-        "Loading Screen : Arms Race"
-      ],
-      "free": []
-    },
-    "level_85": {
-      "premium": [
-        "Octane Skydive Emote : Without a Paddle"
-      ],
-      "free": []
-    },
-    "level_86": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_87": {
-      "premium": [
-        "RE-45 Auto Skin: Woven Future"
-      ],
-      "free": []
-    },
-    "level_88": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_89": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_90": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_91": {
-      "premium": [
-        "Bangalore Banner Frame : Explosive Ordnance"
-      ],
-      "free": []
-    },
-    "level_92": {
-      "premium": [
-        "P2020 Skin: Emerald Shard"
-      ],
-      "free": []
-    },
-    "level_93": {
-      "premium": [
-        "Charm : Frost Bite"
-      ],
-      "free": []
-    },
-    "level_94": {
-      "premium": [
-        "Sentinel Skin: Admonish"
-      ],
-      "free": []
-    },
-    "level_95": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_96": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_97": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_98": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_99": {
-      "premium": [
-        "M600 Spitfire Skin: Bad Mojo"
-      ],
-      "free": [
-        "M600 Spitfire Skin: Plunder"
-      ]
-    },
-    "level_100": {
-      "premium": [
-        "Wingman Skin: Precision Caliber"
-      ],
-      "free": [
-        "Wingman Skin: The Keystone"
-      ]
-    },
-    "level_110": {
-      "premium": [
-        "Wingman Skin: Attention To Detail"
-      ],
-      "free": [
-        "Badge : Fortune's Favor Level Season 5 Badge"
-      ]
+    "start_date": "May 12, 2020",
+    "end_date": "August 18, 2020",
+    "infobox": {
+        "name": "Fortune's Favor",
+        "New Legend": "Loba",
+        "Featured map": "Kings Canyon",
+        "Season Quest": "\" The Broken Ghost",
+        "Theme": "Exploration",
+        "Reactive weapon": "Wingman",
+        "Start date": "May 12, 2020",
+        "End date": "August 18, 2020",
+        "Events": "Lost Treasures"
+    },
+    "max_level": 110,
+    "rewards": {
+        "level_1": {
+            "premium": [
+                "Hemlok Burst AR Skin: Retrofitted",
+                "Wraith Skin: Silver Specter",
+                "Revenant Skin: Death Etching",
+                "Bloodhound Skin: Gilded Claw",
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Pathfinder Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_2": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Gibraltar Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_3": {
+            "premium": [
+                "Apex Coins 50"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_4": {
+            "premium": [
+                "Loading Screen : Mean Girls"
+            ],
+            "free": [
+                "Wraith Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_5": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Crypto Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_6": {
+            "premium": [
+                "Gibraltar Quip Kill Quip : Gibraltar still loves you"
+            ],
+            "free": [
+                "Wraith Quip Kill Quip : There's a void in your heart"
+            ]
+        },
+        "level_7": {
+            "premium": [
+                "Kraber .50-Cal Sniper Skin: Magma Might"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_8": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Bangalore Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_9": {
+            "premium": [
+                "Loading Screen : Qualified"
+            ],
+            "free": [
+                "Wattson Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_10": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Revenant Quip Kill Quip : I want your heart"
+            ]
+        },
+        "level_11": {
+            "premium": [
+                "Apex Coins 50"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_12": {
+            "premium": [
+                "Longbow DMR Skin: Desert Dweller"
+            ],
+            "free": [
+                "Octane Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_13": {
+            "premium": [
+                "Pathfinder Skydive Emote : The Kneeslapper"
+            ],
+            "free": [
+                "Loba Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_14": {
+            "premium": [
+                "Bangalore Quip Kill Quip : I didn't say I mended broken hearts"
+            ],
+            "free": [
+                "Lifeline Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_15": {
+            "premium": [
+                "G7 Scout Skin: Dragon's Embrace"
+            ],
+            "free": [
+                "Mirage Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_16": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Caustic Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_17": {
+            "premium": [
+                "Loading Screen : A Declaration of War"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_18": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Bloodhound Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_19": {
+            "premium": [
+                "Triple Take Skin: Scarab's Bite"
+            ],
+            "free": [
+                "Revenant Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_20": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Mirage Quip Kill Quip : Mirage à trois"
+            ]
+        },
+        "level_21": {
+            "premium": [
+                "Octane Banner Frame : Deep Dive"
+            ],
+            "free": [
+                "Revenant Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_22": {
+            "premium": [
+                "Charge Rifle Skin: Gilded Hunt"
+            ],
+            "free": [
+                "Bloodhound Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_23": {
+            "premium": [
+                "Music Pack : Fortune's Favor"
+            ],
+            "free": [
+                "Caustic Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_24": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Crypto Quip Kill Quip : Most alive when you're in love"
+            ]
+        },
+        "level_25": {
+            "premium": [
+                "Mirage Skin: Fool's Gold"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_26": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Mirage Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_27": {
+            "premium": [
+                "Revenant Banner Frame : Ritualistic"
+            ],
+            "free": [
+                "Lifeline Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_28": {
+            "premium": [
+                "Hemlok Burst AR Skin: Spine Chiller"
+            ],
+            "free": [
+                "Loba Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_29": {
+            "premium": [
+                "Charm : Keepsake"
+            ],
+            "free": [
+                "Wattson Quip Kill Quip : A gift of joules"
+            ]
+        },
+        "level_30": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Octane Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_31": {
+            "premium": [
+                "VK-47 Flatline Skin: Scarlet Temperament"
+            ],
+            "free": [
+                "Wattson Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_32": {
+            "premium": [
+                "Caustic Quip Kill Quip : Misunderstood intentions"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_33": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Bangalore Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_34": {
+            "premium": [
+                "Loading Screen : Sleep With the Fishes"
+            ],
+            "free": [
+                "Crypto Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_35": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Wraith Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_36": {
+            "premium": [
+                "R-301 Carbine Skin: Celestial Clockwork"
+            ],
+            "free": [
+                "Gibraltar Stat Tracker : Season 5 Wins"
+            ]
+        },
+        "level_37": {
+            "premium": [
+                "Lifeline Skydive Emote : Vibing"
+            ],
+            "free": [
+                "Pathfinder Stat Tracker : Season 5 Kills"
+            ]
+        },
+        "level_38": {
+            "premium": [
+                "Octane Quip Kill Quip : I think I love you friend"
+            ],
+            "free": []
+        },
+        "level_39": {
+            "premium": [
+                "HAVOC Rifle Skin: The Head Shrinker"
+            ],
+            "free": []
+        },
+        "level_40": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_41": {
+            "premium": [
+                "Loading Screen : Like Father, Like Daughter"
+            ],
+            "free": []
+        },
+        "level_42": {
+            "premium": [
+                "Loba Skydive Emote : Side Saddle"
+            ],
+            "free": []
+        },
+        "level_43": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_44": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_45": {
+            "premium": [
+                "Charm : Diamond"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_46": {
+            "premium": [
+                "Loba Quip Kill Quip : It's not you, it's me"
+            ],
+            "free": []
+        },
+        "level_47": {
+            "premium": [
+                "Devotion LMG Skin: Cartographer"
+            ],
+            "free": []
+        },
+        "level_48": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_49": {
+            "premium": [
+                "Loading Screen : It Takes a Liar"
+            ],
+            "free": []
+        },
+        "level_50": {
+            "premium": [
+                "Bangalore Skin: Sky Marshal"
+            ],
+            "free": []
+        },
+        "level_51": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_52": {
+            "premium": [
+                "L-STAR EMG Skin: Royal Weave"
+            ],
+            "free": []
+        },
+        "level_53": {
+            "premium": [
+                "Crypto Banner Frame : Expedition"
+            ],
+            "free": [
+                "Loba Skin: Huntswoman"
+            ]
+        },
+        "level_54": {
+            "premium": [
+                "Loba Banner Frame : Alpha Dog"
+            ],
+            "free": []
+        },
+        "level_55": {
+            "premium": [
+                "R-99 SMG Skin: Shredder"
+            ],
+            "free": []
+        },
+        "level_56": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_57": {
+            "premium": [
+                "Loading Screen : Felagi Fighters"
+            ],
+            "free": []
+        },
+        "level_58": {
+            "premium": [
+                "Mirage Skydive Emote : Private Dancer"
+            ],
+            "free": []
+        },
+        "level_59": {
+            "premium": [
+                "Alternator SMG Skin: Entombed"
+            ],
+            "free": []
+        },
+        "level_60": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_61": {
+            "premium": [
+                "Charm : Trusty Whip"
+            ],
+            "free": []
+        },
+        "level_62": {
+            "premium": [
+                "Mirage Banner Frame : Mapped Out"
+            ],
+            "free": []
+        },
+        "level_63": {
+            "premium": [
+                "Prowler Burst PDW Skin: Gnarled Embrace"
+            ],
+            "free": []
+        },
+        "level_64": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_65": {
+            "premium": [
+                "Loading Screen : Stalking Prey"
+            ],
+            "free": []
+        },
+        "level_66": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_67": {
+            "premium": [
+                "Music Pack : Loba"
+            ],
+            "free": []
+        },
+        "level_68": {
+            "premium": [
+                "Mastiff Shotgun Skin: Gift of Power"
+            ],
+            "free": []
+        },
+        "level_69": {
+            "premium": [
+                "Pathfinder Banner Frame : Treasure Trove"
+            ],
+            "free": []
+        },
+        "level_70": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_71": {
+            "premium": [
+                "EVA-8 Auto Skin: Molten Ignition"
+            ],
+            "free": []
+        },
+        "level_72": {
+            "premium": [
+                "Lifeline Banner Frame : Tools of the Trade"
+            ],
+            "free": []
+        },
+        "level_73": {
+            "premium": [
+                "Loading Screen : Take It in Stride"
+            ],
+            "free": []
+        },
+        "level_74": {
+            "premium": [
+                "Wraith Banner Frame : Intergalactic"
+            ],
+            "free": []
+        },
+        "level_75": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_76": {
+            "premium": [
+                "Peacekeeper Skin: Evolved Flow"
+            ],
+            "free": []
+        },
+        "level_77": {
+            "premium": [
+                "Charm : Explorer's Hat"
+            ],
+            "free": []
+        },
+        "level_78": {
+            "premium": [
+                "Bloodhound Banner Frame : Deep Discovery"
+            ],
+            "free": []
+        },
+        "level_79": {
+            "premium": [
+                "Mozambique Shotgun Skin: Rare Find"
+            ],
+            "free": []
+        },
+        "level_80": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_81": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_82": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_83": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_84": {
+            "premium": [
+                "Loading Screen : Arms Race"
+            ],
+            "free": []
+        },
+        "level_85": {
+            "premium": [
+                "Octane Skydive Emote : Without a Paddle"
+            ],
+            "free": []
+        },
+        "level_86": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_87": {
+            "premium": [
+                "RE-45 Auto Skin: Woven Future"
+            ],
+            "free": []
+        },
+        "level_88": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_89": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_90": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_91": {
+            "premium": [
+                "Bangalore Banner Frame : Explosive Ordnance"
+            ],
+            "free": []
+        },
+        "level_92": {
+            "premium": [
+                "P2020 Skin: Emerald Shard"
+            ],
+            "free": []
+        },
+        "level_93": {
+            "premium": [
+                "Charm : Frost Bite"
+            ],
+            "free": []
+        },
+        "level_94": {
+            "premium": [
+                "Sentinel Skin: Admonish"
+            ],
+            "free": []
+        },
+        "level_95": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_96": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_97": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_98": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_99": {
+            "premium": [
+                "M600 Spitfire Skin: Bad Mojo"
+            ],
+            "free": [
+                "M600 Spitfire Skin: Plunder"
+            ]
+        },
+        "level_100": {
+            "premium": [
+                "Wingman Skin: Precision Caliber"
+            ],
+            "free": [
+                "Wingman Skin: The Keystone"
+            ]
+        },
+        "level_110": {
+            "premium": [
+                "Wingman Skin: Attention To Detail"
+            ],
+            "free": [
+                "Badge : Fortune's Favor Level Season 5 Badge"
+            ]
+        }
+    },
+    "patches": {
+        "Bangalore": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Double Time : augmentation de la durée.",
+                    "[Tactical] Adjust -> Smoke Launcher : nouvelle description."
+                ]
+            }
+        ],
+        "Caustic": [
+            {
+                "patch": "Takeover",
+                "details": [
+                    "[Ultimate] Nerf -> Nox Gas Grenade : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Nox Vision : augmentation de la portée."
+                ]
+            }
+        ],
+        "Gibraltar": [
+            {
+                "patch": "Takeover",
+                "details": [
+                    "[Ultimate] Nerf -> Gun Shield : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Gun Shield : augmentation de la durée.",
+                    "[Perks] Adjust -> Ironclad : nouvelle description."
+                ]
+            }
+        ],
+        "Loba": [],
+        "Octane": [
+            {
+                "patch": "Takeover",
+                "details": [
+                    "[Tactical] Nerf -> Swift Mend : réduction de la régénération de santé.",
+                    "[Perks] Adjust -> Swift Mend : nouvelle description."
+                ]
+            },
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Ultimate] Buff -> Launch Pad : augmentation du temps de recharge."
+                ]
+            }
+        ],
+        "Rampart": [],
+        "Revenant": [
+            "No data found"
+        ],
+        "Wraith": []
     }
-  }
 }

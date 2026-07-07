@@ -10,79 +10,52 @@
   "abilities": {
     "passive": {
       "name": "Retrieve the Wounded",
-      "description": "Drag downed allies as you revive and protect them with your Revive Shield.",
+      "description": "Drag downed allies as you revive and protect them with your Revive Shield, which has been strengthened.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Mobile Shield",
-      "description": "Throw a drone that projects a moveable energy shield.",
+      "description": "Throw a drone that projects a moveable energy shield. This drone is now indestructible and moves at 250 speed.",
       "cooldown": "20 seconds"
     },
     "ultimate": {
       "name": "Castle Wall",
-      "description": "Leap to an ally or target area and slam down, creating a fortified stronghold.",
+      "description": "Leap to an ally or target area and slam down, creating a fortified stronghold. While energized, the wall will destroy incoming projectiles headed towards the front of the wall.",
       "cooldown": "2 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "Grab your Hoverboard for the Winter Wipeout Event",
+      "patch": "Season 29 : Overclocked",
       "details": [
-        "[] Buff -> Les revives de Newcastle ont été améliorées."
+        "[Base] Fix -> Fixed the ultimate slam not destroying Catalyst’s reinforcements on an empty door frame."
       ]
     },
     {
-      "patch": "January 06, 2026 Patch",
+      "patch": "Season 27 : Amped (Midseason)",
       "details": [
-        "Retrieve the Wounded\nIncorporated Heroes Hustle into base kit (Movement speed penalty reduced from 25% to 75%)",
-        "Mobile Shield\nIncorporated Swift Shield into base kit (Movement speed increased from 160 to 250)",
-        "Upgrades\nStronghold moves down to replace Heroes Hustle\nReady To Rumble: Reviving a player auto loads Newcastle's weapons and triggers full regen. (Replaces Swift Shield)\nDefensive Line: Tactical and Revive Shield knocks back enemies once (Replaces Stronghold)"
+        "[Passive] Buff -> Incorporate Heroes Hustle into base kit. Movement speed penalty reduced from 25% to 75%",
+        "[Tactical] Buff -> Incorporate Swift Shield into base kit. Movement speed increased from 160 to 250.",
+        "[Perks] Adjust -> Two new upgrades to replace Swift Shield and Heroes Hustle: Stronghold, Ready To Rumble, Defensive Line"
       ]
     },
     {
-      "patch": "December 09, 2024 Patch",
+      "patch": "Season 24 : Takeover",
       "details": [
-        "Retrieve the Wounded\nRevive shield HP lowered to 250/400/600",
-        "Mobile Shield\nIs no longer invulnerable, has 750 HP\nCooldown increased to 20s.\nThe Swift Shield Upgrade now reduces the cooldown to 12s"
+        "[Ultimate] Fix -> Ult no longer canceled by Ash’s snare"
       ]
     },
     {
-      "patch": "November 5, 2024 Patch",
+      "patch": "Season 23 : From the Rift",
       "details": [
-        "Mobile Shield\nNo longer takes damage\nCan now be repositioned even when Newcastle is downed",
-        "Retrieve the Wounded:\nRevive Shield HP/Tier increased by +50%\nWhite 300 (was 200), Blue 450 (was 300), Purple/Gold 750 (was 500)",
-        "Upgrades: Level 2\nThick Shield: removed\nNEW Hero's Hustle: greatly increases move speed when reviving",
-        "Upgrades: Level 3\nMiracle Worker: removed\nStronghold: Castle Wall HP improvement increased to 500 (was 250)\nNEW Ultimate Savior: Castle Wall grants shield regen to allies in impact radius\nRegen effect lasts for 15s and damage will pause regen for 2s\nWon't begin regeneration until revived if downed"
+        "[Passive] Buff -> Mobile Shield : no longer takes damage, can now be repositioned even when Newcastle is downed",
+        "[Perks] Adjust -> Retrieve the Wounded : revive Shield HP/Tier increased by +50%"
       ]
     },
     {
-      "patch": "May 07, 2024 Patch",
+      "patch": "Season 21 : Upheaval",
       "details": [
-        "Mobile Shield: throw anim speed increased (~2.5x faster)",
-        "Castle Wall\nWill now destroy incoming projectiles headed towards the front of the wall while energized. It will not destroy projectiles fired from behind the wall nor bombardments from other Legend’s Ultimate projectiles.\nCastle Wall energized duration increased to 1m (was 30s)",
-        "Upgrade - Stronghold: increased energized duration to 3m (was 2.5m)"
-      ]
-    },
-    {
-      "patch": "January 09, 2024 Patch",
-      "details": [
-        "Castle Wall: impact will now destroy Conduit’s  Energy Barricade mines.",
-        "Mobile Shield: can now be destroyed by enemy Crypto  Drone EMP.",
-        "Delayed balance adjustments from the season 19.0 patch are now fully integrated."
-      ]
-    },
-    {
-      "patch": "August 09, 2022 Patch",
-      "details": [
-        "Retrieve the Wounded\nIncreased move speed during revive by 25%.\nReduced turn slow while reviving by 50%.\nIncreased White Knockdown shield health from 150 -> 200.\nIncrease Blue Knockdown shield health from 250 -> 300.",
-        "Mobile Shield\nIncreased hp from 350 -> 500\nDoubled max movement speed.",
-        "Castle Wall\nAdded turn slow to electrical barrier effects and increased the severity of the slow effect to movement."
-      ]
-    },
-    {
-      "patch": "May 10, 2022 Patch",
-      "details": [
-        "Introduced."
+        "[Passive] Buff -> Castle Wall: will now destroy incoming projectiles headed towards the front of the wall while energized"
       ]
     }
   ],
@@ -94,25 +67,25 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "name": "Stronghold",
+          "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "name": "Ready To Rumble",
+          "description": "",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "name": "Defensive Line",
+          "description": "",
           "recommended": true
         },
         "right": {
           "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": false
         }
       }

@@ -10,64 +10,26 @@
   "abilities": {
     "passive": {
       "name": "Drift",
-      "description": "Increased control while sliding.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Axle's passive ability allows her to accelerate and move faster while sliding, with increased lateral control.",
+      "description": "Increased control while sliding.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Nitro Gate",
-      "description": "Deploy a speed gate that sends users into a boosted slide.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Nerf]: Max in-world count reduced and HP reduced. (Max in-world count: 3 -> 2, Hp: 150 -> 100)\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Axle's Nitro Gate sends users into a boosted slide, with greatly increased velocity and lateral control.",
+      "description": "Deploy a speed gate that sends users into a boosted slide.\n\nReduced max in-world count from 3 to 2. Reduced hp from 150 to 100. Stepping into a Nitro Gate forces users into a speedy slide, where they have greatly increased velocity and lateral control.",
       "cooldown": "25 seconds"
     },
     "ultimate": {
       "name": "Kickstart",
-      "description": "Deploy an enemy-seeking drone that displaces targets on impact.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Kickstart now displaces victims on a parabolic arc based on their velocity at the moment of impact and enemy highlight duration reduced.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Axle's Kickstart drone displaces targets on impact, knocking them back up into the air.",
+      "description": "Deploy an enemy-seeking drone that displaces targets on impact.\n\nKickstart now displaces victims on a parabolic arc based on their velocity at the moment of impact, instead of straight up. Reduced enemy highlight duration slightly to better match stun duration.",
       "cooldown": "1.5 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "Saison 29 : Overclocked",
+      "patch": "Season 29 : Overclocked",
       "details": [
-        "[Passive] Buff -> Axle's passive ability allows her to accelerate and move faster while sliding, with increased lateral control.",
-        "[Tactical] Buff -> Axle's Nitro Gate sends users into a boosted slide, with greatly increased velocity and lateral control.",
-        "[Ultimate] Buff -> Axle's Kickstart drone displaces targets on impact, knocking them back up into the air."
-      ]
-    },
-    {
-      "patch": "Saison 29 : Overclocked (Midseason)",
-      "details": [
-        "[Tactical] Nerf -> Max in-world count reduced and HP reduced. (Max in-world count: 3 -> 2, Hp: 150 -> 100)",
-        "[Passive/tactical] Nerf -> Knocked players can no longer slide across zip codes as Axle or while under the effect of a Nitro Gate.",
-        "[Ultimate] Buff -> Kickstart now displaces victims on a parabolic arc based on their velocity at the moment of impact and enemy highlight duration reduced."
-      ]
-    },
-    {
-      "patch": "Saison 29 : Overclocked",
-      "details": [
-        "[Tactical] Adjust -> Reduced max in-world count from 3 to 2.",
-        "Reduced hp from 150 to 100.",
-        "[Passive/Tactical] Adjust -> Knocked players can no longer slide across zip codes as Axle or while under the effect of a Nitro Gate. They can still boost through a Nitro Gate, but once the effect times out, they will slow down accordingly.",
-        "[Upgrades] Adjust -> &quot;Super Slider&quot; Upgrade no longer grants a second Tactical charge. Instead, it now grants Nitro Gate a 5 second cooldown reduction and +1 max in-world count.",
-        "[Ultimate] Adjust -> Kickstart now displaces victims on a parabolic arc based on their velocity at the moment of impact, instead of straight up.",
-        "Reduced enemy highlight duration slightly to better match stun duration."
-      ]
-    },
-    {
-      "patch": "May 29, 2026 Patch",
-      "details": [
-        "Nitro Gate\nReduced max in-world count from 3 to 2\nReduced hp from 150 to 100"
-      ]
-    },
-    {
-      "patch": "May 28, 2026 Patch",
-      "details": [
-        "Kickstart\nExplosion now clears smoke and gas in its AoE (similar to other explosions)"
-      ]
-    },
-    {
-      "patch": "May 5, 2026 Patch",
-      "details": [
-        "Introduced"
+        "[Passive] Buff -> Drift : Increased control while sliding.",
+        "[Tactical] Adjust -> Nitro Gate : Stepping into a Nitro Gate forces users into a speedy slide, where they have greatly increased velocity and lateral control."
       ]
     }
   ],
@@ -79,25 +41,25 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "name": "Super slider",
+          "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "name": "Automata",
+          "description": "",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "name": "Jump gate",
+          "description": "",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "name": "Sliding shooter",
+          "description": "",
           "recommended": false
         }
       }

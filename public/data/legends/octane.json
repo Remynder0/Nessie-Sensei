@@ -10,203 +10,137 @@
   "abilities": {
     "passive": {
       "name": "Swift Mend",
-      "description": "Automatically restores health over time.\n\n[Patch Grab your Hoverboard for the Winter Wipeout Event - Buff]: Le régénération de santé passive a été améliorée.",
+      "description": "Automatically restores health at an increased rate while moving, with a greater healing effect when Octane's health is low.",
       "cooldown": ""
     },
     "tactical": {
-      "name": "Stim",
-      "description": "Increase walk speed by 30% and sprint speed by 40% for 6 seconds. Costs Health to use. Reduction to slows while active.\n\n[Patch Grab your Hoverboard for the Winter Wipeout Event - Rework]: L'abilité Stim a été reworkée.",
+      "name": "Stim Surge",
+      "description": "Increase walk speed by 30% and sprint speed by 40% for 15 seconds. Grants Fortified status, triggers Swift Mend, and allows it to continue healing through damage while active. Costs Health to use. Reduction to slows while active.",
       "cooldown": "0.7 seconds"
     },
     "ultimate": {
       "name": "Launch Pad",
-      "description": "Deploy a jump pad that catapults anyone through the air. Press the jump button to double jump.",
-      "cooldown": "1.5 minutes"
+      "description": "Deploy a jump pad that catapults anyone through the air, excluding players affected by Wraith's Into the Void ability. Press the jump button to double jump. Hitting from a standing position will launch along a high arc, while hitting from a crouched position will launch along a low arc.",
+      "cooldown": "1 minute"
     }
   },
   "patch_history": [
     {
-      "patch": "Grab your Hoverboard for the Winter Wipeout Event",
+      "patch": "Season 29 : Overclocked",
       "details": [
-        "[Passive] Buff -> Le régénération de santé passive a été améliorée.",
-        "[Tactical] Rework -> L'abilité Stim a été reworkée."
+        "[Perks] Buff -> Added new VO for Stim Surge"
       ]
     },
     {
-      "patch": "April 01, 2026 Patch",
+      "patch": "Season 28 : Breach",
       "details": [
-        "Removed Fast Reloads from Daredevil.",
-        "Increased max time extension for Stim Surge to 6s for Daredevil.",
-        "Reduced Thick Skin to -5 HP instead of -10.",
-        "(Undocumented) Increased Stim Surge cooldown from 20s to 26s."
+        "[Tactical] Nerf -> Max Duration extension reduced from 6s to 3s",
+        "[Perks] Fix -> Fixed FOV scaling issues with Stim Surge, Fixed Stim Surge sometimes lowering your speed, Fixed Stim Surge being used first if it was previously canceled with a mantle, Fixed a bug where Stim Surge would trigger automatically in a multitude of contexts, Fixed a bug where Daredevil could grant Battle Surge movement speed buff in addition to fast reloads"
       ]
     },
     {
-      "patch": "February 24, 2026 Patch",
+      "patch": "Season 27 : Amped (Midseason)",
       "details": [
-        "Stim\nRemoved 'Fortified' from Stim Surge\nReduced the speed boost given by Stim"
+        "[Passive] Buff -> Swift Mend now heals more the less HP you have.",
+        "[Tactical - Stim Surge] Adjust -> Added a new ability for Octane **Stim Surge**: If Octane uses his tactical again, while stim is already active, he uses a new mixture which grants him Fortified, triggers Swift Mend, and allows Swift Mend to continue healing through damage.",
+        "[Tactical - Stim] Buff -> While stimmed, Octane can sprint and use consumables. Reduce the time before Octane can reuse his Stim from 1.8s to 0.7s. Stim speed increased by 5%",
+        "[Ultimate] Buff -> JumpPad now has two charges. JumpPad has improved handling when double jumping.",
+        "[Perks] Adjust -> Four new upgrades to replace all the base upgrades: Thick Skin, Squad Rush, Daredevil, Triple Jump"
       ]
     },
     {
-      "patch": "January 24, 2026 Patch",
+      "patch": "Season 21 : Upheaval",
       "details": [
-        "Swift Mend\nReduced Swift Mend max healing from 9 to 6\nReduced Swift Mend min healing from 3 to 2"
+        "[Perks] Adjust -> Upgrades: Thick Skin: now Level 2 and 3, updated to take 5 less Stim damage"
       ]
     },
     {
-      "patch": "January 06, 2026 Patch",
+      "patch": "Season 20 : Breakout",
       "details": [
-        "Swift Mend\nSwift Mend now heals more the less HP you have.\nSwift Mend base healing increased from 1.5 HPS to 3.0 HPS\nSwift Mend max healing heals for 9 HPS",
-        "Stim\nAdded Stim Surge ability.\nWhile stimmed, Octane can sprint and use consumables.\nReduce the time before Octane can reuse his Stim from 1.8s to 0.7s\nStim speed increased by 5%",
-        "Template:Ability Link\nIncorporated Mad Hops and Aerial Agility into the base kit.\nJumpPad now has two charges.\nJumpPad has improved handling when double jumping.\nJumpPads are useable immediately after hitting the ground.",
-        "Four new upgrades to replace all the base upgrades.\nThick Skin: Stim costs 10 less health to use.\nSquad Rush: Everyone who uses your JumpPad gains Stim on land.\nDaredevil: Gain fast reload on shield cracks and increase Stim Surge duration the less HP you have.\nTriple Jump: Gain a third jump from JumpPads."
+        "[Perks] Nerf -> Wreckless: explosive damage is now reduced by 50% (was 25%).",
+        "[Passive] Buff -> Jump Pad audio falloff of double-jump has been adjusted to be slightly less audible from long distances."
       ]
     },
     {
-      "patch": "May 07, 2024 Patch",
+      "patch": "Season 16 : Revelry",
       "details": [
-        "Upgrades\nWreckless: removed\nMad Hops moved to Level 2\nThick Skin: now Level 2 and 3, updated to take 5 less Stim damage to reflect that it can be selected twice (was -25%)"
+        "[Passive] Buff -> Swift Mend: increased healing rate while moving.",
+        "[Ultimate] Nerf -> Launch Pad: reduced launch speed and distance."
       ]
     },
     {
-      "patch": "March 26, 2024 Patch",
+      "patch": "Season 13 : Saviors",
       "details": [
-        "Upgrade - Wreckless: explosive damage is now reduced by 50% (was 25%)"
+        "[Passive] Nerf -> Swift Mend : reduced healing rate.",
+        "[Tactical] Buff -> Swift Mend : increased duration."
       ]
     },
     {
-      "patch": "September 14, 2021 Patch",
+      "patch": "Season 11 : Escape",
       "details": [
-        "Swift Mend: Reduced healing rate from 1.5 to 1.0 hp/sec.",
-        "Launch Pad: Reduced jump pad horizontal distance by 10% - 15%."
+        "[Passive] Buff -> Swift Mend now heals Octane for more health over time",
+        "[Tactical] Adjust -> Swift Medic: reduced the healing amount, but increased its speed and duration"
       ]
     },
     {
-      "patch": "June 29, 2021 Patch",
+      "patch": "Season 10 : Emergence",
       "details": [
-        "Launch Pad: Increased cooldown from 60s to 90s."
+        "[Ultimate] Nerf -> Swift Mend's healing reduced by 20%."
       ]
     },
     {
-      "patch": "May 04, 2021 Patch",
+      "patch": "Season 9 : Legacy",
       "details": [
-        "Stim:\nReduced cooldown between stims from 4s to 1s.\nIncreased health cost from 12hp to 20hp.",
-        "Launch Pad:\nIncreased bullet spread while in the air and shooting from the low launch pad trajectory.\nGrenades will no longer get stuck and disappear when being bounced off of launch pads.\n Death Totems will no longer bounce when a Jump Pad is placed under it.\nPlayers will no longer have weapons drawn if they are knocked as they enter the ring at Pathfinder's Fight Night via a Jump Pad.",
-        "Updated his Fidget Spinner  Skydive Emote to correctly remove his leg for which he is using it to do the helicoptering."
+        "[Passive] Buff -> La vitesse a été améliorée.",
+        "[Perks] Adjust -> Upgrades Level 2 : description du changement."
       ]
     },
     {
-      "patch": "March 15, 2021 Patch",
+      "patch": "Season 8 : Mayhem",
       "details": [
-        "Fixed an issue with the Fidget Spinner  Skydive Emote preview not being present when inspected on  Xbox One."
+        "[Fidget Spinner Skydive Emote preview] Fix -> Fixed an issue with the Fidget Spinner Skydive Emote preview not being present when inspected on Xbox One.",
+        "[Launch Pad] Buff -> Repeatedly using the same jump pad no longer disables double-jumps.",
+        "[Launch Pad] Fix -> Players can no longer “glide” along a wall after using it.",
+        "[Swift Mend] Nerf -> Now disabled if silenced by Revenant.",
+        "[Launch Pad] Buff -> Hitting the jump pad from a standing position will launch players along a high arc (the speed and trajectory of the old super-jump).",
+        "[Launch Pad] Buff -> From a crouched position, players will launch along a low arc, meaning they'll fly lower but farther in the horizontal direction."
       ]
     },
     {
-      "patch": "March 09, 2021 Patch",
+      "patch": "Season 7 : Ascension",
       "details": [
-        "Launch Pad:\nRepeatedly using the same jump pad no longer disables double-jumps.\nPlayers can no longer “glide” along a wall after using it.",
-        "Swift Mend:\nNow disabled if silenced by Revenant."
+        "Launch Pad: Fixed an issue with it preventing players from jumping.",
+        "Swift Mend: Tripled healing rate (from 0.5 hp/s to 1.5 hp/s)."
       ]
     },
     {
-      "patch": "February 02, 2021 Patch",
+      "patch": "Season 6 : Boosted",
       "details": [
-        "Launch Pad:\nHitting the jump pad from a standing position will launch players along a high arc (the speed and trajectory of the old super-jump).\nFrom a crouched position, players will launch along a low arc, meaning they'll fly lower but farther in the horizontal direction."
+        "[Passive] Buff -> Swift Mend : vitesse de déplacement augmentée.",
+        "[Perks] Adjust -> Swift Mend : réduction du temps de recharge."
       ]
     },
     {
-      "patch": "January 07, 2021 Patch",
+      "patch": "Season 5 : Fortune's Favor",
       "details": [
-        "Launch Pad: Fixed an issue with it preventing players from jumping."
+        "[Tactical] Nerf -> Swift Mend : réduction de la régénération de santé.",
+        "[Perks] Adjust -> Swift Mend : nouvelle description.",
+        "[Ultimate] Buff -> Launch Pad : augmentation du temps de recharge."
       ]
     },
     {
-      "patch": "November 04, 2020 Patch",
+      "patch": "Season 3 : Meltdown",
       "details": [
-        "Swift Mend: Tripled healing rate (from 0.5 hp/s to 1.5 hp/s).\nNOTE: The Patch Notes says doubled, but in actuality, it got tripled."
+        "[Passive] Buff -> Swift Mend : vitesse de déplacement augmentée.",
+        "[Perks] Adjust -> Swift Mend : réduction du temps de recharge.",
+        "[Ultimate] Nerf -> Launch Pad : réduction de la distance."
       ]
     },
     {
-      "patch": "October 06, 2020 Patch",
+      "patch": "Season 1 : Wild Frontier",
       "details": [
-        "Fixed a visual issue that removed Revenant’s shadow form from a player after jumping off an Octane Jump Pad.",
-        "Fixed an issue with the Jump Pad clipping into the ground in certain areas.",
-        "[Undocumented] No longer able to drop Holo-Sprays while using  Stim."
-      ]
-    },
-    {
-      "patch": "August 18, 2020 Patch",
-      "details": [
-        "Stim: Now able to use while healing, but not removing the incurred slowness."
-      ]
-    },
-    {
-      "patch": "June 30, 2020 Patch",
-      "details": [
-        "Stim: No longer able to use it while healing.",
-        "Swift Mend: Fixed an issue with the regen being delayed after the use of  Stim.",
-        "Fixed issues with being pulled out of ADS, weapon firing stopping when  Stim ends/landing from a  Launch Pad."
-      ]
-    },
-    {
-      "patch": "June 25, 2020 Patch",
-      "details": [
-        "Stim: Updated ability text."
-      ]
-    },
-    {
-      "patch": "June 23, 2020 Patch",
-      "details": [
-        "Stim:\nNow removes speed impairing effects when activated.\nSprinting speed is increased from 30% to 40%.\n[Undocumented] Increased HP cost from 10 to 12.",
-        "Launch Pad:\nPlayers can now double jump and change direction easily in mid-air.\nFixed an issue with the pads “deleting” other Legends' abilities.\nFixed an issue with the pads disappearing when other legend’s tactical interacts with it.\nFixed an issue with the pads falling through the floor on supply ships."
-      ]
-    },
-    {
-      "patch": "May 12, 2020 Patch",
-      "details": [
-        "Launch Pad: Cooldown reduced from 90 seconds to 60 seconds."
-      ]
-    },
-    {
-      "patch": "October 01, 2019 Patch",
-      "details": [
-        "Stim: Fixed an issue with FoV scaling messing up ADS aim sensitivity."
-      ]
-    },
-    {
-      "patch": "August 13, 2019 Patch",
-      "details": [
-        "Launch Pad: Fixed bug where sometimes the launch pad would not launch the player."
-      ]
-    },
-    {
-      "patch": "July 02, 2019 Patch",
-      "details": [
-        "Launch Pad: Fixed bug that caused throwable items to bounce off without actually touching the launch pad."
-      ]
-    },
-    {
-      "patch": "June 11, 2019 Patch",
-      "details": [
-        "Launch Pad: Fixed audio bug."
-      ]
-    },
-    {
-      "patch": "June 04, 2019 Patch",
-      "details": [
-        "Stim: Fixed issue where the trail would still linger after death."
-      ]
-    },
-    {
-      "patch": "April 03, 2019 Patch",
-      "details": [
-        "Launch Pad: No longer affects players when using Wraith's  Into the Void ability."
-      ]
-    },
-    {
-      "patch": "March 19, 2019 Patch",
-      "details": [
-        "Introduced."
+        "[Base] Adjust -> Launch Pad: No longer affects players when using Wraith's Into the Void ability.",
+        "[Base] Buff -> Introduced."
       ]
     }
   ],
@@ -218,25 +152,25 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "name": "Thick Skin",
+          "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "name": "Squad Rush",
+          "description": "Upgrades have been adjusted.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
-          "recommended": true
+          "name": "Daredevil",
+          "description": "",
+          "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "name": "Triple Jump",
+          "description": "",
           "recommended": false
         }
       }

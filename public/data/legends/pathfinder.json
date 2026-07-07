@@ -10,193 +10,83 @@
   "abilities": {
     "passive": {
       "name": "Insider Knowledge",
-      "description": "Scan a Care Package, Ring Console, or Survey Beacon to recharge 25% of the  Zipline Gun and permanently reduce its cooldown by 10s.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Pathfinder now tucks in his legs while riding horizontal ziplines.",
+      "description": "Scan a Care Package, Ring Console, or Survey Beacon to recharge 50% of the Zipline Gun and permanently reduce its cooldown by 15s.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Grappling Hook",
-      "description": "Grapple to get to out-of-reach places quickly.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Tactical charges increased and cooldown decreased. (Tactical charges: 1 -> 2)",
-      "cooldown": "10–30 seconds"
+      "description": "Grapple to get to out-of-reach places quickly. Pathfinder no longer needs to be on the ground for Grappling Hook to be considered finished, and the speed to which Pathfinder needs to drop for Grappling Hook to be considered finished was increased from 300 units per second to 500 units per second.",
+      "cooldown": "10-30 seconds (dependent on distance traveled)"
     },
     "ultimate": {
       "name": "Zipline Gun",
-      "description": "Create a zipline for everyone to use. Riders take 50% less damage while its energized.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Launch speed of the zipline projectile increased and cooldown decreased.",
-      "cooldown": "3 minutes"
+      "description": "Create a zipline for everyone to use. Riders take 50% less damage while its energized. Fixed an issue with ziplines going through platforms when deployed from underneath.",
+      "cooldown": "2 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "Saison 29 : Overclocked (Midseason)",
+      "patch": "Season 28 : Breach",
       "details": [
-        "[Passive] Buff -> Pathfinder now tucks in his legs while riding horizontal ziplines.",
-        "This should make him a little harder to hit when riding on his Ultimate and other ziplines in the world.",
-        "[Tactical] Adjust -> Tactical charges increased from 1 to 2.",
-        "Removed the progressive cooldown and it is now a flat 20 seconds.",
-        "[Ultimate] Adjust -> Increased launch speed of the zipline projectile.",
-        "Reduced cooldown from 3 minutes to 2 minutes.",
-        "[Upgrades] Adjust -> Level 2",
-        "**Field Research:** Now grants all Recon perks instead of just the survey beacon scan.",
-        "**Ringmaster:** Now grants all Controller perks instead of just the ring console access.",
-        "Level 3",
-        "**Landing Gear:** Grants more air control and faster recovery from hard landings. This replaces the 2 Tactical charges Upgrade."
+        "[Perks] Buff -> Feeling Zippy additionally increases allied movement speed on Energized Ziplines from 1000 -&gt; 1350, Feeling Zippy additionally increases allied acceleration on Energized Ziplines from 700 -&gt; 800"
       ]
     },
     {
-      "patch": "May 06, 2025 Patch",
+      "patch": "Season 25 : Prodigy",
       "details": [
-        "Grappling Hook cooldown is now variable, ranging from 10-30s depending on distance traveled (was flat 30s)",
-        "Zipline Gun\nIntegrated Zipline Zen upgrade into base\nDamage mitigation increased to 50% (was 25%)",
-        "Upgrades: Level 3\nFeeling Zippy: gain a second Zipline Gun charge (replaces Zipline Zen)\nGrapple God: gain a second Grappling Hook charge (replaces Grapple Cooldown+)"
+        "[Tactical] Buff -> Grappling Hook: cooldown now variable, ranging from 10-30s depending on distance traveled (was flat 30s)",
+        "[Perks] Adjust -> Zipline Gun - Damage mitigation increased to 50% (was 25%)"
       ]
     },
     {
-      "patch": "January 07, 2025 Patch",
+      "patch": "Season 23 : From the Rift (Midseason)",
       "details": [
-        "Grappling Hook: cooldown increased to 30s (was variable).",
-        "Insider Knowledge:\nReduced Max Cooldown earned from Scanning Care Packages.\nReduced zipline charge gained by Scanning Care Packages.",
-        "Upgrade - Zipline Zen: damage reduction reduced to 25% (was 50%)."
+        "[Base] Nerf -> Grappling Hook: cooldown increased to 30s (was variable).",
+        "[Perks] Nerf -> Insider Knowledge: reduced Max Cooldown earned from Scanning Care Packages, reduced zipline change gained by Scanning Care Packages.",
+        "[Perks] Adjust -> Upgrade - Zipline Zen: damage reduction reduced to 25% (was 50%)."
       ]
     },
     {
-      "patch": "June 25, 2024 Patch",
+      "patch": "Season 20 : Breakout",
       "details": [
-        "Upgrade - Down & Away: Tac will now refresh on BOTH knocks and assisted knocks within a 3s window"
+        "[Perks] Adjust -> Zipline Zen: damage reduction increased to 50% (was 25%).",
+        "[Passive] Buff -> Insider Knowledge Scanning Care Packages now awards 50% Ult Charge (was 100%) and 15s Ult Cooldown (was 10s)"
       ]
     },
     {
-      "patch": "March 26, 2024 Patch",
+      "patch": "Season 8 : Mayhem",
       "details": [
-        "Upgrade - Zipline Zen: damage reduction increased to 50% (was 25%)"
+        "[Low Profile] Remove -> Removed Low Profile."
       ]
     },
     {
-      "patch": "February 13, 2024 Patch",
+      "patch": "Season 7 : Ascension",
       "details": [
-        "Heavy-Rig Legends (Gibraltar, Caustic, Pathfinder, Newcastle, Revenant)\nNow use medium-rig first-person movement animations\nActual game speeds have not changed, these Legends will feel less sluggish when running",
-        "Insider Knowledge\nScanning Care Packages now awards 50% Ult Charge (was 100%) and 15s Ult Cooldown (was 10s)\nThis also applies to Ring Console or Survey Beacon scans"
-      ]
-    },
-    {
-      "patch": "October 31, 2023 Patch",
-      "details": [
-        "Insider Knowledge: can now scan Care Packages after allies have already scanned them"
-      ]
-    },
-    {
-      "patch": "February 14, 2023 Patch",
-      "details": [
-        "Class changed from Recon to Skirmisher.",
-        "Insider Knowledge\nPathfinder's passive benefits are no longer gained by scanning Survey Beacons\nPathfinder's passive benefits (Ultimate charge and 10s Ultimate Cooldown reduction) are now gained by revealing Care Packages with the Skirmisher ability",
-        "Zipline Gun\nMax Range increased by ~60%.\nMax Speed increased by 66%.\nAcceleration and exit speed adjustments.\nTargeting improvements, including updated visual and audio cues.\nCan no longer place the end station on OOB zones."
-      ]
-    },
-    {
-      "patch": "May 04, 2021 Patch",
-      "details": [
-        "Nox Gas Traps and  Launch Pads will no longer float into the sky when placed next to a zipline."
-      ]
-    },
-    {
-      "patch": "March 09, 2021 Patch",
-      "details": [
-        "Removed  Low Profile."
-      ]
-    },
-    {
-      "patch": "November 04, 2020 Patch",
-      "details": [
-        "Grappling Hook:\nPathfinder no longer needs to be on the ground for Grappling Hook to be considered finished.\nThe speed to which Pathfinder needs to drop for Grappling Hook to be considered finished was increased from 300 units per second to 500 units per second.\nReduced maximum cooldown from 35 seconds to 30.\nReduced maximum travel time to 5 seconds, instead of uncapped. This means that effectively, you can never incur more than a 35-second cooldown.\nThe amount of distance you can travel before you hit maximum cooldown was roughly doubled.",
+        "Grappling Hook:",
+        "Pathfinder no longer needs to be on the ground for Grappling Hook to be considered finished.",
+        "The speed to which Pathfinder needs to drop for Grappling Hook to be considered finished was increased from 300 units per second to 500 units per second.",
+        "Reduced maximum cooldown from 35 seconds to 30.",
+        "Reduced maximum travel time to 5 seconds, instead of uncapped. This means that effectively, you can never incur more than a 35-second cooldown.",
+        "The amount of distance you can travel before you hit maximum cooldown was roughly doubled.",
         "Zipline Gun: Fixed an issue with ziplines going through platforms when deployed from underneath.",
         "Made adjustments to Pathfinder’s hitbox."
       ]
     },
     {
-      "patch": "October 20, 2021 Patch",
+      "patch": "Season 4 : Assimilation",
       "details": [
-        "Grappling Hook:\nAddressed an issue where the cooldown was a constant 30 seconds regardless of distance while in Arenas.",
-        "The number of Survey Beacon scans tracked should now update correctly."
+        "[Perks] Adjust -> Grappling Hook: Increased cooldown from 13 seconds to 15 seconds.",
+        "[Perks] Fix -> Low Profile: Leg shots now deal as much damage as body shots."
       ]
     },
     {
-      "patch": "October 12, 2020 Patch",
+      "patch": "Season 1 : Wild Frontier",
       "details": [
-        "Fixed an issue with Pathfinder's shoulder staying in view after using  Grappling Hook."
-      ]
-    },
-    {
-      "patch": "October 06, 2020 Patch",
-      "details": [
-        "Grappling Hook: Cooldown is now based on the distance traveled. The shortest possible pull has a 10s cooldown; the maximum cooldown is still 35s."
-      ]
-    },
-    {
-      "patch": "August 18, 2020 Patch",
-      "details": [
-        "Insider Knowledge: Changed so that each time Pathfinder scans a survey beacon,  Zipline Gun cooldown will be reduced by 10s."
-      ]
-    },
-    {
-      "patch": "June 23, 2020 Patch",
-      "details": [
-        "Grappling Hook:\nNow canceled when mid-air if silenced by Revenant.\nFixed an issue preventing running if a failed grapple occurred.",
-        "Insider Knowledge: Fixed an audio issue with  Survey Beacons being too loud when used."
-      ]
-    },
-    {
-      "patch": "May 12, 2020 Patch",
-      "details": [
-        "Grappling Hook: Increased cooldown from 15 seconds to 35 seconds."
-      ]
-    },
-    {
-      "patch": "April 07, 2020 Patch",
-      "details": [
-        "(Undocumented)  Grappling Hook: Increased cooldown from 13 seconds to 15 seconds.",
-        "Low Profile: Leg shots now deal as much damage as body shots."
-      ]
-    },
-    {
-      "patch": "February 04, 2020 Patch",
-      "details": [
-        "Made Pathfinder a  Recon Legend instead of  Support."
-      ]
-    },
-    {
-      "patch": "October 01, 2019 Patch",
-      "details": [
-        "Grappling Hook: Reduced the grapple projectile velocity by 33%, meaning it takes a fraction of a second longer to connect the grapple to the wall. The behavior, once you are connected, remains the same.",
-        "Insider Knowledge: Fixed a bug where  Survey Beacon locations would disappear from the full map after activating them.",
-        "Zipline Gun: Increased cooldown from 90 seconds to 120 seconds."
-      ]
-    },
-    {
-      "patch": "August 13, 2019 Patch",
-      "details": [
-        "Made adjustments to hitbox.",
-        "Zipline Gun: Fixed a bug where activating a healing item while aiming the zipline would cancel it."
-      ]
-    },
-    {
-      "patch": "July 02, 2019 Patch",
-      "details": [
-        "Updated the hit box to better conform with the base model.",
-        "Added  Low Profile Perk which increases incoming damage by 5%."
-      ]
-    },
-    {
-      "patch": "June 04, 2019 Patch",
-      "details": [
-        "Grappling Hook:\nWhen grappling a zipline, the trajectory will now pull players to a point below the zipline rather than above. This makes it so players are more likely to connect with the zipline instead of flying over it.\nNow has a blue crosshair indicator that will appear when the Grapple is in range of objects it can connect to.",
-        "Zipline Gun: Added cooldown [.5 seconds] before you can reuse the last zipline you were on."
-      ]
-    },
-    {
-      "patch": "March 19, 2019 Patch",
-      "details": [
-        "Adjusted hitboxes for Gibraltar, Caustic, and Pathfinder to better align with their shapes.",
-        "Insider Knowledge: Increased the number of beacons in the world from 10 to 12.",
-        "Zipline Gun: Fixed zipline not deploying when jumping.",
-        "Grappling Hook:\nPathfinder can now grapple ziplines.\nFixed the exploit where you could do infinite wall-climb."
+        "[Base] Adjust -> Adjusted hitboxes for Gibraltar, Caustic, and Pathfinder to better align with their shapes.",
+        "[Perks] Buff -> Insider Knowledge: Increased the number of beacons in the world from 10 to 12",
+        "[Perks] Fix -> Zipline Gun: Fixed zipline not deploying when jumping.",
+        "[Perks] Buff -> Grappling Hook: Pathfinder can now grapple ziplines.",
+        "[Perks] Fix -> Grappling Hook: Fixed the exploit where you could do infinite wall-climb."
       ]
     }
   ],
@@ -209,24 +99,24 @@
       "level_2": {
         "left": {
           "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "description": "With Pathfinder's hitbox adjustments, it is easier to target him.",
           "recommended": false
         },
         "right": {
           "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "description": "Pathfinder can now grapple ziplines.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "description": "With Pathfinder's hitbox adjustments, it is easier to target him.",
           "recommended": true
         },
         "right": {
           "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "description": "Pathfinder can now grapple ziplines.",
           "recommended": false
         }
       }

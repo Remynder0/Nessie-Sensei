@@ -15,88 +15,69 @@
     },
     "tactical": {
       "name": "Gravity Lift",
-      "description": "Reverses the flow of gravity, lifting players upward and boosting them outward when they exit.",
-      "cooldown": "25 seconds"
+      "description": "Reverses the flow of gravity, lifting players upward at an increased speed but for a reduced duration. Using a zipline after a Gravity Lift will no longer increase accuracy. Visual effects have been adjusted to reduce visual load on the battlefield and audio has been made more noticeable.",
+      "cooldown": ""
     },
     "ultimate": {
       "name": "Black Hole",
-      "description": "Deploy N.E.W.T. to create a micro black hole that pulls players in towards it.",
-      "cooldown": "3.5 minutes"
+      "description": "Deploy N.E.W.T. to create a micro black hole that pulls players in towards it, dealing damage and with a radius.",
+      "cooldown": "2 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "January 07, 2025 Patch",
+      "patch": "Season 27 : Amped",
       "details": [
-        "Gravity Lift\nAdjusted visual effects of the lift to reduce visual load on the battlefield\nAdjusted audio of players in the lift to be more noticeable"
+        "[Passive] Buff -> Gravity Lift: increased lift speed, increased hover time at top of lift, cooldown reductions.",
+        "[Ultimate] Buff -> Black Hole: reduced cooldown by 30 seconds, increased health.",
+        "[Perks] Adjust -> Upgrades: Level 2 - Gravity Boots: Press crouch while in the air to fall much more quickly, Newt Scoot: Press jump after exiting gravity lift to glide; Level 3 - Knock Expert: gain tactical charge on knocks."
       ]
     },
     {
-      "patch": "January 09, 2024 Patch",
+      "patch": "Season 23 : From the Rift (Midseason)",
       "details": [
-        "Improved Horizon audio to make “falls” less silent\nHard landing audio adjusted to match other legends\nSoft Landings now play audio in world (not just for Horizon)\n Gravity Lift exit audio range increased to make it easier to hear characters who exit"
+        "[Base] Buff -> Gravity Lift: adjusted visual effects of the lift to reduce visual load on the battlefield.",
+        "[Base] Buff -> Gravity Lift: adjusted audio of players in the lift to be more noticeable."
       ]
     },
     {
-      "patch": "September 19, 2023 Patch",
+      "patch": "Season 23 : From the Rift",
       "details": [
-        "Gravity Lift\nWeapon accuracy decreased while in Lift (more spread)\nVertical Lift speed reduced by 20%\nHover time at top of Lift reduced from 2.0s to 0.5s"
+        "[Perks] Adjust -> Battpack : in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
       ]
     },
     {
-      "patch": "February 14, 2023 Patch",
+      "patch": "Season 16 : Revelry",
       "details": [
-        "Gravity Lift\nIncreased weapon spread in Gravity Lift\nIncreased vertical speed of Gravity Lift by 10%"
+        "[Tactical] Nerf -> Black Hole: reduced damage and radius.",
+        "[Ultimate] Adjust -> Gravity Lift: increased lift speed but reduced lift duration."
       ]
     },
     {
-      "patch": "August 09, 2022 Patch",
+      "patch": "Season 14 : Hunted",
       "details": [
-        "Black Hole\nAdjustments to N.E.W.T’s hitbox to make destroying it more reliable.\nN.E.W.T. takes 50% more damage from explosives.\nN.E.W.T. is now susceptible to friendly damage.[2]"
+        "[Passive] Nerf -> Gravity Lift : reduced lift duration.",
+        "[Tactical] Buff -> Black Hole : increased damage.",
+        "[Perks] Adjust -> Gravity Lift : increased lift range."
       ]
     },
     {
-      "patch": "August 03, 2021 Patch",
+      "patch": "Season 8 : Mayhem",
       "details": [
-        "Gravity Lift\nIncreased lift speed.",
-        "Black Hole\nReduced the slow after the initial pull."
+        "[Black Hole] Nerf -> Increased cooldown from 2 minutes to 3 minutes.",
+        "[Gravity Lift] Fix -> Fixed the Gravity Lift falling through the floor when used on the train tracks in Sorting Factory on World's Edge.",
+        "[Gravity Lift] Buff -> Using a zipline after a Gravity Lift will no longer increase accuracy.",
+        "[Finisher animation] Buff -> The All Charged Up finisher now has more frames, from 141 (4.21 seconds) to 180 (6.0 seconds), to be more in line with other finishers’ completion times.",
+        "[Gravity Lift] Buff -> Increased effective cooldown from 21 seconds to 25 seconds.",
+        "[Abilities destroyed by Wattson's Interception Pylon] Fix -> Horizon's abilities no longer get destroyed by Wattson’s Interception Pylon."
       ]
     },
     {
-      "patch": "May 04, 2021 Patch",
-      "details": [
-        "Gravity Lift:\nReduced lift speed by 30%.\nReduced side-to-side acceleration.\nLimited the time you can sit at the top of Gravity Lift to 2 seconds.\nIncreased cooldown from 15s to 20s.\nPlayers will no longer have weapons drawn if they are knocked as they enter the ring at Pathfinder's Fight Night via a Gravity Lift.",
-        "Black Hole: Fixed an issue with NEWT not getting refunded if it immediately dies due to a bad spot.",
-        "Horizon’s abilities will now get zapped by Wattson's  Interception Pylon.",
-        "The  1x Holo will no longer block view when using certain skins."
-      ]
-    },
-    {
-      "patch": "March 09, 2021 Patch",
-      "details": [
-        "Black Hole: Increased cooldown from 2 minutes to 3 minutes.",
-        "Gravity Lift:\nFixed the Gravity Lift falling through the floor when used on the train tracks in Sorting Factory on World's Edge.\nUsing a zipline after a Gravity Lift will no longer increase accuracy.",
-        "The All Charged Up finisher now has more frames, from 141 (4.21 seconds) to 180 (6.0 seconds), to be more in line with other finishers’ completion times."
-      ]
-    },
-    {
-      "patch": "February 02, 2021 Patch",
-      "details": [
-        "Gravity Lift: Increased effective cooldown from 21 seconds to 25 seconds. (The 15-second cooldown began 4 seconds later.)",
-        "Horizon's abilities no longer get destroyed by Wattson's  Interception Pylon. (Undocumented)"
-      ]
-    },
-    {
-      "patch": "January 05, 2021 Patch",
+      "patch": "Season 7 : Ascension",
       "details": [
         "Gravity Lift: Increased effective cooldown from 16 seconds to 21 seconds. (The 15-second cooldown began 5 seconds later.)",
-        "Black Hole: (Undocumented) Cooldown now starts when N.E.W.T. disappears.",
-        "Fixed an issue with Horizon’s abilities not affecting Lifeline’s DOC and Crypto’s drone."
-      ]
-    },
-    {
-      "patch": "November 04, 2020 Patch",
-      "details": [
+        "Black Hole: Cooldown now starts when N.E.W.T. disappears.",
+        "Fixed an issue with Horizon’s abilities not affecting Lifeline’s DOC and Crypto’s drone.",
         "Introduced."
       ]
     }
@@ -110,25 +91,25 @@
       "level_2": {
         "left": {
           "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": false
         },
         "right": {
           "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "description": "In addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
-          "recommended": true
+          "description": "",
+          "recommended": false
         },
         "right": {
           "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
-          "recommended": false
+          "description": "Gain tactical charge on knocks.",
+          "recommended": true
         }
       }
     }

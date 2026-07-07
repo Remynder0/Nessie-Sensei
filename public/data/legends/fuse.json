@@ -15,75 +15,58 @@
     },
     "tactical": {
       "name": "Knuckle Cluster",
-      "description": "Launch a cluster bomb that continuously expels airburst explosives on impact.",
+      "description": "Launch a cluster bomb that continuously expels airburst explosives on impact, dealing 11.25 damage through shields. It now fires faster with reduced delay before explosions start up (1 second). The trajectory is flattened for more accurate tap-firing.",
       "cooldown": "20 seconds"
     },
     "ultimate": {
-      "name": "The Motherlode",
-      "description": "Launch a bomb that scatters explosives around its landing point. Aim down sights to launch a cover-piercing bomb.",
-      "cooldown": "2 minutes"
+      "name": "Ring Master",
+      "description": "Gain access to Ring Consoles. Fires a mortar that explodes against the ground, then sprays out smaller bombs around its landing point.",
+      "cooldown": ""
     }
   },
   "patch_history": [
     {
-      "patch": "February 10, 2026 Patch",
+      "patch": "Season 29 : Overclocked",
       "details": [
-        "Fuse is no longer slowed when taking explosive damage",
-        "Knuckle Cluster\nFaster weapon stow time when switching to the tactical\nFlattened the trajectory to make tap-firing more accurate\nReduced delay before explosions start up (was 1.7s, now 1.0s)\nIncreased base damage (was 10, now 15)\nReduced the duration by 50%",
-        "The Motherlode\nRefreshed ultimate behavior.  Fires a mortar that explodes against the ground, then sprays out smaller bombs around its landing point.\nWhen aiming down sights, the mortar can pierce cover up to 13m deep and deliver explosives to the other side.",
-        "Upgrades\nLevel 2\nPyro Techniques: Your ultimate will drop behind patches of fire for 8 seconds after the bombs explode\nKnuckle Jumper: Jumping when next to your own Knuckle Clusters will give you an explosive boost (destroys the cluster afterwards).\nLevel 3\nReignition: Dealing explosive damage to enemies recharges your ultimate (for every 2 damage dealt, reduces cooldown by 1 second)\nRemoved Ring Master, Scar Tissue, and Knuckle Hustler"
+        "[Base] Fix -> Fixed Motherload not properly penetrating some Legend abilities."
       ]
     },
     {
-      "patch": "May 07, 2024 Patch",
+      "patch": "Season 28 : Breach",
       "details": [
-        "Upgrades\nBig Bang: removed\nNEW Ring Master: gain access to Ring Consoles\nScar Tissue:\nSimplified and buffed damage mitigation to remove lingering burn effects\nTake a flat 20 damage when crossing The Motherlode instead of 37 (50% of 75 hp) over time\nWreckless: fixed explosive damage mitigation not being applied on continuous Knuckle Cluster hits (should only take about 32 damage from a full Knuckle Cluster now with Wreckless)"
+        "[Passive] Buff -> Fuse is no longer slowed when taking explosive damage",
+        "[Tactical] Buff -> Faster weapon stow time when switching to the tactical, Flattened the trajectory to make tap-firing more accurate, Reduced delay before explosions start up (was 1.7s, now 1.0s), Increased base damage (was 10, now 15), Reduced the duration by 50%",
+        "[Ultimate] Buff -> Fires a mortar that explodes against the ground, then sprays out smaller bombs around its landing point"
       ]
     },
     {
-      "patch": "March 26, 2024 Patch",
+      "patch": "Season 22 : Shockwave",
       "details": [
-        "Upgrade - Wreckless: explosive damage is now reduced by 50% (was 25%)"
+        "[Passive] Nerf -> Hard capped the max radius of the scan area to be 450.",
+        "[Passive] Fix -> Disallowed mortar targeting on multiple objects within the players control"
       ]
     },
     {
-      "patch": "September 19, 2023 Patch",
+      "patch": "Season 21 : Upheaval",
       "details": [
-        "Knuckle Cluster deployment speed increased."
+        "[Ultimate] Buff -> Big Bang: removed, replaced by Ring Master: gain access to Ring Consoles"
       ]
     },
     {
-      "patch": "August 03, 2021 Patch",
+      "patch": "Season 20 : Breakout",
       "details": [
-        "Grenadier:\nEnhanced throw power can be now be toggled on and off by pressing the utility action button (default H//) while holding a grenade.",
-        "Knuckle Cluster:\nNow lasts twice as long with the same amount of damage.",
-        "The Motherlode:\nNow highlights enemies affected by the fire."
+        "[Perks] Nerf -> Wreckless: explosive damage is now reduced by 50% (was 25%)."
       ]
     },
     {
-      "patch": "May 04, 2021 Patch",
+      "patch": "Season 8 : Mayhem",
       "details": [
-        "Knuckle Cluster:\nNow has 2 charges.\nReduced cooldown from 25s to 20s.",
-        "The  1x Holo will no longer block view when using certain skins."
-      ]
-    },
-    {
-      "patch": "March 09, 2021 Patch",
-      "details": [
-        "The Motherlode:\nNow damages and destroys  Launch Pads.\nWhen under a small enclosure, players will no longer be pushed out after using it.",
-        "Players can no longer double their grenades after looting a dead Fuse’s Death Box."
-      ]
-    },
-    {
-      "patch": "February 04, 2021 Patch",
-      "details": [
-        "Knuckle Cluster: Fixed an issue that allowed it to do damage through shields."
-      ]
-    },
-    {
-      "patch": "February 02, 2021 Patch",
-      "details": [
-        "Introduced."
+        "[Knuckle Cluster] Fix -> Fixed an issue that allowed it to do damage through shields.",
+        "[The Motherlode] Buff -> The Motherlode: Now damages and destroys Launch Pads.",
+        "[The Motherlode] Buff -> When under a small enclosure, players will no longer be pushed out after using it.",
+        "[Double Grenades] Nerf -> Players can no longer double their grenades after looting a dead Fuse’s Death Box.",
+        "[The Motherlode] Buff -> Now damages and destroys Launch Pads.",
+        "[The Motherlode] Buff -> When under a small enclosure, players will no longer be pushed out after using it."
       ]
     }
   ],
@@ -96,24 +79,24 @@
       "level_2": {
         "left": {
           "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "description": "Wreckless took a 50% reduction in explosive damage.",
           "recommended": false
         },
         "right": {
           "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": true
         },
         "right": {
           "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": false
         }
       }

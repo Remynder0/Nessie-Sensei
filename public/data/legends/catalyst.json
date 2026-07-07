@@ -15,64 +15,36 @@
     },
     "tactical": {
       "name": "Piercing Spikes",
-      "description": "Throw out a patch of ferrofluid which turns in to spikes when enemies are near. Catalyst remains immune to enemy spikes.",
+      "description": "Throw out a patch of ferrofluid which turns into spikes when enemies are near. Catalyst remains immune to enemy spikes. The spikes now deal damage after 1 second and can be placed up to 3 times.",
       "cooldown": "20 seconds"
     },
     "ultimate": {
       "name": "Dark Veil",
       "description": "Raise a permeable wall of ferrofluid. Enemies who walk through it will be slowed and partially blinded for a brief time.",
-      "cooldown": "2.5 minutes"
+      "cooldown": "2 minutes 30 seconds"
     }
   },
   "patch_history": [
     {
-      "patch": "February 10, 2026 Patch",
+      "patch": "Season 28 : Breach",
       "details": [
-        "Passive\nCan now reinforce up to 4 doors (was 2)",
-        "Tactical\nFlattened the trajectory, slightly lowered the pitch, and increased the overall range\nIncreased size by roughly 50%\nReduced the delay before spikes can deal damage (was 2s, now 1s)\nCan now have 3 traps maximum (was 2)\nActivation radius reduced by 20%\nThis is how close you have to be before the spikes stand up and the core is vulnerable",
-        "Ultimate\nYou can now toggle to deploy the ultimate horizontally\nLength increased by 5m\nThe wall can now build up through standard doors, Lifeline’s  D.O.C. Halo, and Gibraltar’s  Dome of Protection.\nCan now be placed on steeper angles\nReduced Dark Veil duration when enemies walk through (was 7s, now 5s)",
-        "Upgrades\nLevel 2\nHidden Spikes: The spike pool is now hidden to enemies while inactive\nSole Piercer: Spike traps activate 50% faster and deal 5 more damage per hit\nRemoved Sister Spikes and Long Veil"
+        "[Passive] Buff -> Can now reinforce up to 4 doors.",
+        "[Tactical] Buff -> Flattened the trajectory, slightly lowered the pitch, and increased the overall range, Increased size by roughly 50%, Reduced the delay before spikes can deal damage (was 2s, now 1s), Can now have 3 traps maximum (was 2)",
+        "[Tactical] Buff -> Flattened the trajectory, slightly lowered the pitch, and increased the overall range, Increased size by roughly 50%, Reduced the delay before spikes can deal damage (was 2s, now 1s), Can now have 3 traps maximum (was 2)"
       ]
     },
     {
-      "patch": "May 07, 2024 Patch",
+      "patch": "Season 21 : Upheaval",
       "details": [
-        "Piercing Spikes\nCooldown decreased to 20s (was 25s)\nLong Cast upgrade integrated into base Tactical",
-        "Dark Veil\nDark Veil length increased to 45m (was 40m)",
-        "Upgrades\nLong Cast: removed\nLong Veil: moved to Level 2\nNEW Ferro-Door: fully rebuild and reinforce missing doors with Passive."
+        "[Ultimate] Buff -> Piercing Spikes: cooldown decreased to 20s (was 25s)",
+        "[Perks] Adjust -> Upgrades: NEW Ferro-Door: fully rebuild and reinforce missing doors with Passive"
       ]
     },
     {
-      "patch": "February 13, 2024 Patch",
+      "patch": "Season 13 : Saviors",
       "details": [
-        "Dark Veil\nLifetime decreased to 15s (was 25s)\nLength decreased to 40m (was 55m)"
-      ]
-    },
-    {
-      "patch": "January 09, 2024 Patch",
-      "details": [
-        "Piercing Spikes\nNow require line-of-sight to an enemy player to activate.\nSpikes that have not been activated will still slow players."
-      ]
-    },
-    {
-      "patch": "October 31, 2023 Patch",
-      "details": [
-        "Piercing Spikes\nCore no longer blocks projectiles, allowing bullets to pass through\nMax in-world count reduced to 2 (was 3)\nThrow range decreased by about 50%",
-        "Dark Veil\nCooldown now starts after the wall comes down\nReduced lifetime to 25s (was 30s)"
-      ]
-    },
-    {
-      "patch": "November 30, 2022 Patch",
-      "details": [
-        "While in Phase, Wraith will now see doors sealed by Catalyst's  passive.",
-        "While in Phase, Wraith will not be affected by Catalyst's ferrofluid.",
-        "Crypto's  drone will no longer be able to open doors sealed by Catalyst's  passive."
-      ]
-    },
-    {
-      "patch": "November 01, 2022 Patch",
-      "details": [
-        "Introduced."
+        "[Perks] Adjust -> Catalyst's Perk has been adjusted.",
+        "[Base] Buff -> Catalyst's base health has been increased."
       ]
     }
   ],
@@ -84,25 +56,25 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "name": "Hidden Spikes",
+          "description": "Donnée manquante, but now it's not entirely unknown.",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "name": "Sole piercer",
+          "description": "Donnée manquante, but now it's not entirely unknown.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "name": "Fero-door",
+          "description": "Fully rebuild and reinforce missing doors with Passive.",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "name": "Resident veil",
+          "description": "Donnée manquante, but now it's not entirely unknown.",
           "recommended": false
         }
       }

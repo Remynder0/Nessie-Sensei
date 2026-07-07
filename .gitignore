@@ -26,6 +26,7 @@ dist-ssr
 
 # Project specific
 public/history.json
+debug/
 
 # TypeScript cache
 *.tsbuildinfo

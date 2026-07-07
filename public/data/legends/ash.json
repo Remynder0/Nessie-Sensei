@@ -10,119 +10,92 @@
   "abilities": {
     "passive": {
       "name": "Predator's Pursuit",
-      "description": "Press Space/// while in the air to perform a dash.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Ash's passive cooldown and velocity are adjusted. (Cooldown: 12s -> 10s, Velocity: 425 -> 450)\n\n[Patch Apex Legends™: Takeover Patch Notes - Buff]: Ash a obtient un nouveau passif : Predator's Pursuit, qui lui permet d'effectuer une course rapide en tous sens. (Cooldown: )",
-      "cooldown": "12s -> 10s"
+      "description": "Added an omnidirectional short-range dash with increased velocity.",
+      "cooldown": "10s"
     },
     "tactical": {
       "name": "Arc Snare",
-      "description": "Throw a spinning snare that damages and tethers the first enemy that gets too close.\n\n[Patch Apex Legends™: Takeover Patch Notes - Buff]: La durée de l'emprise et la distance maximale de l'étreinte ont augmenté, mais le temps de recharge est plus long. (Snare duration: 3s -> 5s, Max distance: augmenté à 50m, Cooldown: 20s -> 25s)",
-      "cooldown": "20s -> 25s"
+      "description": "Throw a spinning snare that damages and tethers the first enemy that gets too close. Damage has been increased due to Burglar's Blitz buff, with further increases from Bursts of Peace.",
+      "cooldown": "25s"
     },
     "ultimate": {
       "name": "Phase Breach",
-      "description": "Tear open a one-way portal to a targeted location.\n\n[Patch Apex Legends™: Takeover Patch Notes - Buff]: L'ultime se déplace plus loin, plus vite et la détection du point d'arrivée a été améliorée. (Range: augmenté, Speed: augmenté)",
+      "description": "Tear open a one-way portal to a targeted location. The minimum travel time for the ultimate has been increased to 0.5s, and nearby enemies will be highlighted for players traveling through the Void.",
       "cooldown": "2.5 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "Takeover",
+      "patch": "Season 29 : Overclocked",
       "details": [
-        "[Passive] Buff -> Ash a obtient un nouveau passif : Predator's Pursuit, qui lui permet d'effectuer une course rapide en tous sens. (Cooldown: )",
-        "[Tactical] Buff -> La durée de l'emprise et la distance maximale de l'étreinte ont augmenté, mais le temps de recharge est plus long. (Snare duration: 3s -> 5s, Max distance: augmenté à 50m, Cooldown: 20s -> 25s)",
-        "[Ultimate] Buff -> L'ultime se déplace plus loin, plus vite et la détection du point d'arrivée a été améliorée. (Range: augmenté, Speed: augmenté)"
+        "[Passive] Buff -> Cooldown from 12s to 10s",
+        "[Passive] Buff -> Velocity from 425 to 450"
       ]
     },
     {
-      "patch": "Saison 29 : Overclocked",
+      "patch": "Season 26 : Showdown",
       "details": [
-        "[Passive] Buff -> Ash's passive cooldown and velocity are adjusted. (Cooldown: 12s -> 10s, Velocity: 425 -> 450)"
+        "[Passive] Nerf -> Predator's Pursuit: dash cooldown increased to 12s.",
+        "[Tactical] Adjust -> Arc Snare: breaks more easily, base duration now 6s."
       ]
     },
     {
-      "patch": "October 9, 2025 Patch",
+      "patch": "Season 25 : Prodigy",
       "details": [
-        "Predator's Pursuit\nReduced dash speed by ~30%."
+        "[Passive] Buff -> Passive: decreased dash cooldown to 8s (was 10s)",
+        "[Perks] Adjust -> Upgrades: Level 2 - Dual Breach: moved to Level 2",
+        "[Base] Fix -> Greedy Snare now plants correctly after the first hit",
+        "[Perks] Adjust -> Predator’s Pursuit: removed Death Box minimap locations/pings"
       ]
     },
     {
-      "patch": "September 16, 2025 Patch",
+      "patch": "Season 24 : Takeover",
       "details": [
-        "Predator's Pursuit\nIncreased dash cooldown to 12s (was 8s).\nDash gives less of a boost when not dashing in the direction you're moving.",
-        "Arc Snare\nBreaks more easily, base duration now 6s (was 8s).\nLess pulling strength.\nDoesn't deal extra damage to shields.",
-        "Upgrades: Level 2\nDual Breach & Marked for Death: removed\nNEW Longer Reach: increases Phase Breach range by 25m\nNEW Ultimate Cooldown: reduces Phase Breach cooldown by 30s"
+        "[Passive] Buff -> Predator's Pursuit: added omnidirectional short-range dash.",
+        "[Tactical] Buff -> Arc Snare: tether plants at location of projectile on impact, slightly harder to break and no longer gets instantly broken by some abilities.",
+        "[Tactical] Buff -> Phase Breach: range increased to 100m, travel time reduced, improved reliability of placement, removed one frame delay on placement preview, now has VFX to show max range when in placement mode.",
+        "[Perks] Adjust -> Upgrades: Level 2 - Greedy Snare moved to Level 2, Dual Breach adds additional ult charge.",
+        "[Perks] Adjust -> Upgrades: Level 3 - Ghost in the Machine adds additional Dash charge."
       ]
     },
     {
-      "patch": "July 17, 2025 Patch",
+      "patch": "Season 21 : Upheaval",
       "details": [
-        "Class changed to  Skirmisher.",
-        "Phase Breach maximum distance reduced to 75m (was 100m).",
-        "Upgrades: Level 2\nNEW Marked for Death: reveals enemy death boxes on map.\nCharged Knock: removed"
+        "[Ultimate] Buff -> Phase Breach: inspired by some Alter tech, nearby enemies will be highlighted for players traveling through the Void"
       ]
     },
     {
-      "patch": "June 24, 2025 Patch",
+      "patch": "Season 17 : Arsenal",
       "details": [
-        "Predator's Pursuit: Decreased dash cooldown to 8s (was 10s).",
-        "Arc Snare: Slightly decreased tether strength when pulling hard (like when using movement abilities).",
-        "Upgrades: Level 2\nDual Breach: moved to Level 2\nNEW Charged Knock: gain HP regen on a knock",
-        "Upgrades: Level 3\nGhost in the Machine: removed\nGreedy Snare and Twin Snares: moved to Level 3"
+        "[Dash] Nerf -> Dash ability removed."
       ]
     },
     {
-      "patch": "May 06, 2025 Patch",
+      "patch": "Season 16 : Revelry",
       "details": [
-        "Predator's Pursuit: Removed Death Box pinging and appearing on map."
+        "[Passive] Buff -> Ash's passive ability now has a higher chance to trigger.",
+        "[Tactical] Adjust -> Bursts of Peace: increased damage at close range."
       ]
     },
     {
-      "patch": "April 08, 2025 Patch",
+      "patch": "Season 14 : Hunted",
       "details": [
-        "Phase Breach\nIncreased maximum distance travel time from 1.4s -> 2.5s.\nIncreased minimum distance travel time from 0.3s -> 0.5s."
+        "[Passive] Adjust -> Ash's passive ability now has a new effect.",
+        "[Tactical] Buff -> Burglar's Blitz : increased damage."
       ]
     },
     {
-      "patch": "March 25, 2025 Patch",
+      "patch": "Season 13 : Saviors",
       "details": [
-        "Phase Breach cooldown increased from 120 seconds to 150."
+        "[Passive] Buff -> Ash's passive ability now has a increased duration.",
+        "[Tactical] Nerf -> Bursts of Flame : reduced damage."
       ]
     },
     {
-      "patch": "February 19, 2025 Patch",
+      "patch": "Season 10 : Emergence",
       "details": [
-        "Predator's Pursuit\nDash cooldown increased to 10s (was 5s).",
-        "Upgrades: Level 2\nDual Breach upgrade moved to Level 3.",
-        "Upgrades: Level 3\nTwin Snares upgrade moved to Level 2."
-      ]
-    },
-    {
-      "patch": "February 12, 2025 Patch.",
-      "details": [
-        "Predator's Pursuit\nRemoved ability to scan Death Boxes to reveal killers, but they’ll still show on the minimap and map with info on how recently they died.\nNEW: press the Jump key while in the air to perform a dash.",
-        "Arc Snare\nTether plants at location of projectile on impact rather than the hit player's location.\nTether is slightly harder to break and no longer gets instantly broken by some abilities.",
-        "Phase Breach\nRange increased to 100m (was ~76m).\nTravel time reduced.\nImproved reliability of placement.\nRemoved one frame delay on placement preview.\nNow has VFX to show max range when in placement mode.",
-        "Upgrades: Level 2\nMurder Machine: removed.\nOne Minute to Live: removed.\nGreedy Snare: moved to Level 2.\nNEW Dual Breach: adds additional ult charge.",
-        "Upgrades: Level 3\nNEW Ghost in the Machine: adds additional Dash charge."
-      ]
-    },
-    {
-      "patch": "May 07, 2024 Patch",
-      "details": [
-        "Arc Snare\nChanged to left-hand cast\nNo longer stows weapons or interrupts consumable use when launching",
-        "Phase Breach: inspired by some Alter tech, nearby enemies will be highlighted for players traveling through the Void"
-      ]
-    },
-    {
-      "patch": "March 28, 2023 Patch",
-      "details": [
-        "Arc Snare\nCooldown decreased from 25s to 20s\nTravel speed increased from 700 to 1200\nTether activation delay and snare grow time decreased by about 50%"
-      ]
-    },
-    {
-      "patch": "November 02, 2021 Patch",
-      "details": [
-        "Introduced."
+        "[Passive] Buff -> Ash's passive ability now has a increased duration.",
+        "[Tactical] Adjust -> Burst Pierce: Increased damage at long range."
       ]
     }
   ],
@@ -134,25 +107,25 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "name": "Ultimate Cooldown",
+          "description": "Unknown description",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "name": "Longer Reach",
+          "description": "Unknown description",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "name": "Twin Snare",
+          "description": "Unknown description",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "name": "Ghost in the Machine",
+          "description": "Adds additional Dash charge.",
           "recommended": false
         }
       }

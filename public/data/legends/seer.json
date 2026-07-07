@@ -10,116 +10,107 @@
   "abilities": {
     "passive": {
       "name": "Heart Seeker",
-      "description": "Hear and visualize the heartbeats of enemies within 75m when aiming down sights, if enemies are beyond this range the marker turns blue and pulsates with less intensity with a limit of ~90m\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Activation speed of the heartbeat sensor increased, interval time between heartbeats decreased and activation time for unarmed ADSing decreased.",
+      "description": "Hear and visualize the heartbeats of enemies within 75m when aiming down sights, if enemies are beyond this range the marker turns blue and pulsates with less intensity. Insight duration has been increased.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Focus of Attention",
-      "description": "Summon micro-drones to emit a delayed blast that goes through walls silencing and revealing enemies.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Delay between launch and hit reduced and slow on hit improved.",
+      "description": "Summon micro-drones to emit a delayed blast that goes through walls silencing and revealing enemies, dealing damage while slowing them for 1s. The blast now has a range of 60m and fires ~30% faster. Activation delay is reduced to 1.2 seconds. Healthbars persist on silenced enemies for the duration of Silence.",
       "cooldown": "20 seconds"
     },
     "ultimate": {
       "name": "Exhibit",
-      "description": "Create a sphere of micro-drones that reveal the location of enemies moving quickly or firing their weapons within. You can double jump while inside the sphere.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Quick 2 second scan of the area upon deployment added and cloaked enemies show footsteps within Ultimate zone.",
-      "cooldown": "3 minutes"
+      "description": "Create a sphere of micro-drones that reveal the location of enemies moving quickly or firing their weapons within. Enemies hit by this ability are slowed for 2.5s and highlighted with threat outline to Seer and his teammates when in line of sight. You can double jump while inside the sphere.",
+      "cooldown": "90 seconds"
     }
   },
   "patch_history": [
     {
-      "patch": "Saison 29 : Overclocked (Midseason)",
+      "patch": "Season 26 : Showdown",
       "details": [
-        "[Passive] Buff -> Activation speed of the heartbeat sensor increased, interval time between heartbeats decreased and activation time for unarmed ADSing decreased.",
-        "[Tactical] Buff -> Delay between launch and hit reduced and slow on hit improved.",
-        "[Ultimate] Buff -> Quick 2 second scan of the area upon deployment added and cloaked enemies show footsteps within Ultimate zone."
+        "[Passive] Buff -> Heart Seeker: long view upgrade now permanent, increasing range for Passive + Tac to 75m (was 50m).",
+        "[Tactical] Adjust -> Focus of Attention: scan duration increased to 4s (was 2.5), slow duration to 1s (was 0.5s)."
       ]
     },
     {
-      "patch": "Saison 29 : Overclocked",
+      "patch": "Season 22 : Shockwave",
       "details": [
-        "[Passive] Adjust -> Increased the activation speed of the heartbeat sensor.",
-        "Decreased the interval time between heartbeats.",
-        "Decreased activation time for unarmed ADSing",
-        "Made the delay when aiming more consistent between weapon and unarmed.",
-        "This means the heartbeat sensor will appear at the same time regardless of the weapon you’re using.",
-        "[Tactical] Adjust -> Reduced the delay between the launch and hit.",
-        "Improved the slow on hit, should now halt faster moving Legends more effectively.",
-        "[Ultimate] Adjust -> Upon deployment, there is now a quick 2 second scan of the area which will highlight any enemy in the area.",
-        "Enemies that enter the area after it’s deployed will also be scanned for 2 seconds.",
-        "Cloaked enemies will now show footsteps if they are within the Ultimate zone."
+        "[Passive] Buff -> Focus of Attention: healthbars persist for duration of Silence",
+        "[Perks] Adjust -> NEW Split Focus: gain an additional Tac charge"
       ]
     },
     {
-      "patch": "July 1, 2026 Patch",
+      "patch": "Season 20 : Breakout",
       "details": [
-        "Upgrades\nHome Base:\nReduced the Upgrade modifier to 2.5. This will make the Tactical cooldown 8 seconds instead of 5 while in the Ult zone.\nMoved to Level 3\nEnergizing Focus:\nMoved to Level 2"
+        "[Perks] Adjust -> Focus of Attention: decreased activation delay to 1.2s (was 1.4).",
+        "[Passive] Buff -> Ultimate Cooldown: reduces Ult Cooldown by 30s (Level 2)"
       ]
     },
     {
-      "patch": "October 7, 2025 Patch",
+      "patch": "Season 17 : Arsenal",
       "details": [
-        "Exhibit no longer provides ADS hover.",
-        "Added a short full-body scan to Lasting Beats when an enemy leaves the ult area."
+        "[Heartbeat Sensor] Nerf -> Range reduced to 50m.",
+        "[Initial Heartbeat delay] Nerf -> Significantly reduced.",
+        "[Focus of Attention] Nerf -> Range reduced to 60m.",
+        "[Focus of Attention] Buff -> Firing speed increased (~30% faster).",
+        "[Focus of Attention] Fix -> Removed Heal Cancel, Revive Cancel, and Respawn Beacon Interaction Interrupt.",
+        "[Scan Time] Nerf -> Reduced to 2.5s (was 8s).",
+        "[Scan] Adjust -> Includes full body highlight.",
+        "[Enemies hit by Focus of Attention] Buff -> Slowed for 2.5s.",
+        "[Silence Time] Buff -> Increased to 10s (was 1.75).",
+        "[Enemies who are silenced by Seer] Buff -> Highlighted with threat outline to Seer and his teammates when in line of sight.",
+        "[Exhibit] Nerf -> Throw range reduced to ~15m (was ~50m).",
+        "[Exhibit] Fix -> Removed Diamond Scan Markers on Enemy Movement.",
+        "[Exhibit] Adjust -> Only shows footsteps of players moving in the zone.",
+        "[Diamond Markers] Fix -> Only appear with enemy gunfire for 1.25s."
       ]
     },
     {
-      "patch": "April 08, 2025 Patch",
+      "patch": "Season 16 : Revelry",
       "details": [
-        "Focus of Attention:\nDecreased activation delay to 0.8s (was 1.4).\nDecreased time to finish to 0.9s (was 1.0)."
+        "[Passive] Buff -> Perceptive Insight: increased vision range and duration.",
+        "[Ultimate] Nerf -> Prowler's Sting: reduced damage and radius."
       ]
     },
     {
-      "patch": "March 26, 2024 Patch",
+      "patch": "Season 15 : Eclipse",
       "details": [
-        "Focus of Attention: decreased activation delay to 1.2s (was 1.4)",
-        "Upgrades\nArtist's Reach: moved to Level 2\nLong View: moved to Level 3\nRacing Hearts: removed (now integrated into base  Tactical)\nNew - Ultimate Cooldown: reduces Ult Cooldown by 30s"
+        "[Base] Buff -> Audio from Seer's passive is now more audible to enemy players"
       ]
     },
     {
-      "patch": "August 08, 2023 Patch",
+      "patch": "Season 14 : Hunted",
       "details": [
-        "Focus of Attention\nSlow Duration reduced to 0.5s (was 2.5s)\nSilence Duration reduced to 8s (was 10s)\nFiring Speed increased to 1.4s (was 0.9s)"
+        "[Passive] Nerf -> Insight : reduced insight duration.",
+        "[Tactical] Buff -> Prowl : increased damage.",
+        "[Perks] Adjust -> Insight : increased insight range."
       ]
     },
     {
-      "patch": "June 20, 2023 Patch",
+      "patch": "Season 13 : Saviors",
       "details": [
-        "Heartbeat Sensor\nRange Reduced to 50m (was 75m)\nInitial Heartbeat delay significantly reduced",
-        "Focus of Attention\nRange Reduced to 60m (was 75m)\nFiring Speed Increased (~30% faster)\nRemoved Heal Cancel\nRemoved Revive Cancel\nRemoved Respawn Beacon Interaction Interrupt\nScan Time Reduced to 2.5s ( was 8s )\nScan once again includes a full body highlight\nEnemies hit by Focus of Attention are now Slowed for 2.5s\nSilence Time Increased to 10s (was 1.75)\nEnemies who are silenced by Seer are now also highlighted with a threat outline to Seer and his teammates but only when they have line of sight",
-        "Exhibit\nThrow Range Reduced to ~15m (was ~50m)\nRemoved Diamond Scan Markers on Enemy Movement\nExhibit will now only show the footsteps of players moving in the zone\nDiamond Markers will now ONLY appear with enemy gunfire for 1.25s"
+        "[Passive] Nerf -> Insight : reduced range.",
+        "[Ultimate] Buff -> Insight : increased duration."
       ]
     },
     {
-      "patch": "February 14, 2023 Patch",
+      "patch": "Season 11 : Escape",
       "details": [
-        "Heartbeat Sensor\nActivation is now delayed to match raise animation of weapon or unarmed\nLock-On indication will now only show on heartbeat cadence of target",
-        "Focus of Attention\nNo longer shows full body scan on scanned targets",
-        "Exhibit\nNo longer reveals on initiation\nDuration reduced from 30s to 25s\nCooldown increased from 120s to 180s"
+        "[Perks] Buff -> Insight: increased its effectiveness and now also reveals enemy positions for a short time after they've been seen",
+        "[Perks] Adjust -> Insight: reduced the cooldown, but increased the duration of the reveal effect"
       ]
     },
     {
-      "patch": "January 10, 2023 Patch",
+      "patch": "Season 10 : Emergence",
       "details": [
-        "Audio from Seer's passive is now more audible to enemy players"
+        "[Ultimate] Nerf -> Prowler's Perch's tracking speed reduced by 20%."
       ]
     },
     {
-      "patch": "December 07, 2021 Patch",
+      "patch": "Season 9 : Legacy",
       "details": [
-        "Focus of Attention: Decreased detonation delay from 1.6s to 1.4s"
-      ]
-    },
-    {
-      "patch": "August 23, 2021 Patch",
-      "details": [
-        "Heart Seeker:\nIncreased delay between sensor spikes for targets at full health from 1.25 to 1.75 seconds.\nRemoved center-circle ellipses.\nReduced range of blue spikes beyond 75 meters.\nReduced field of view.",
-        "Focus of Attention:\nIncreased detonation delay from 1.4 to 1.6 seconds.\nRemoved damage.\nRemove blinding effect.\nReduced screen shake VFX when hit.\nIncreased slow to movement speed while priming.\nLowered volume on audio.\nFixed effects in the Firing Range being visible when it's not supposed to be.",
-        "Exhibit:\nIncreased cooldown from 90 to 120 seconds.\nLowered volume on audio."
-      ]
-    },
-    {
-      "patch": "August 03, 2021 Patch",
-      "details": [
-        "Introduced."
+        "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge.",
+        "[Perks] Adjust -> Upgrades Level 2 : description du changement."
       ]
     }
   ],
@@ -132,25 +123,32 @@
       "level_2": {
         "left": {
           "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "description": "A perk that could be useful for beginner players, revealing enemy positions and providing a short reveal effect after they've been seen.",
           "recommended": false
         },
         "right": {
           "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "description": "A perk that could be useful for experienced players, with increased effectiveness and a longer duration of the reveal effect, also increasing the insight range.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "description": "A perk that could be useful for advanced players, revealing enemy positions and providing a short reveal effect after they've been seen.",
           "recommended": true
         },
         "right": {
           "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "description": "A perk that could be useful for experienced players, with increased effectiveness and a longer duration of the reveal effect.",
           "recommended": false
+        }
+      },
+      "level_4": {
+        "left": {
+          "name": "Split Focus",
+          "description": "Gain an additional Tac charge.",
+          "recommended": true
         }
       }
     }

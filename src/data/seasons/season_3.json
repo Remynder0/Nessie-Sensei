@@ -1,668 +1,757 @@
 {
-  "season": "3",
-  "name": "Meltdown",
-  "start_date": "October 01, 2019",
-  "end_date": "February 04, 2020",
-  "infobox": {
+    "season": "3",
     "name": "Meltdown",
-    "New Legend": "Crypto",
-    "New weapon": "Charge Rifle",
-    "Featured map": "World's Edge",
-    "Theme": "Fire/Ice",
-    "Reactive weapon": "Peacekeeper",
-    "Start date": "October 01, 2019",
-    "End date": "February 04, 2020",
-    "Events": "Fight or Fright (2019) Fight or Fright | Holo-Day Bash (2019) Holo-Day Bash | Grand Soirée"
-  },
-  "max_level": 110,
-  "rewards": {
-    "level_1": {
-      "premium": [
-        "Longbow DMR Skin: Reckoner",
-        "Mirage Skin: Fired Up",
-        "Bloodhound Skin: Arctic Hunter",
-        "Octane Skin: Glacial Pace",
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_2": {
-      "premium": [
-        "Charm : Pyro Meteor"
-      ],
-      "free": [
-        "Loading Screen : Humble Witt"
-      ]
-    },
-    "level_3": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Crypto Stat Tracker : Season 3 Wins"
-      ]
-    },
-    "level_4": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Gibraltar Stat Tracker : Season 3 Wins"
-      ]
-    },
-    "level_5": {
-      "premium": [
-        "Apex Coins 50"
-      ],
-      "free": [
-        "Wraith Stat Tracker : Season 3 Wins"
-      ]
-    },
-    "level_6": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Caustic Stat Tracker : Season 3 Wins"
-      ]
-    },
-    "level_7": {
-      "premium": [
-        "Loading Screen : Streets of Suotamo"
-      ],
-      "free": [
-        "Mirage Stat Tracker : Season 3 Wins"
-      ]
-    },
-    "level_8": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Bangalore Stat Tracker : Season 3 Wins"
-      ]
-    },
-    "level_9": {
-      "premium": [
-        "Apex Coins 50"
-      ],
-      "free": [
-        "Pathfinder Stat Tracker : Season 3 Wins"
-      ]
-    },
-    "level_10": {
-      "premium": [
-        "Charge Rifle Skin: Frozen Path"
-      ],
-      "free": [
-        "Wattson Stat Tracker : Season 3 Wins"
-      ]
-    },
-    "level_11": {
-      "premium": [
-        "Pathfinder Banner Frame : Ice Towers"
-      ],
-      "free": [
-        "Octane Stat Tracker : Season 3 Wins"
-      ]
-    },
-    "level_12": {
-      "premium": [
-        "P2020 Skin: Cold Punch"
-      ],
-      "free": [
-        "Lifeline Stat Tracker : Season 3 Wins"
-      ]
-    },
-    "level_13": {
-      "premium": [
-        "Gibraltar Skydive Emote : Surf's Up"
-      ],
-      "free": [
-        "Bloodhound Stat Tracker : Season 3 Wins"
-      ]
-    },
-    "level_14": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_15": {
-      "premium": [
-        "Loading Screen : A New Dawn"
-      ],
-      "free": []
-    },
-    "level_16": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_17": {
-      "premium": [
-        "Apex Coins 50"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_18": {
-      "premium": [
-        "RE-45 Auto Skin: Grasshopper"
-      ],
-      "free": []
-    },
-    "level_19": {
-      "premium": [
-        "Charm : Abominable Snowman"
-      ],
-      "free": []
-    },
-    "level_20": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_21": {
-      "premium": [
-        "Wattson Skydive Emote : Tesla-Copter"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_22": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_23": {
-      "premium": [
-        "Loading Screen : World's Edge - Meltdown"
-      ],
-      "free": []
-    },
-    "level_24": {
-      "premium": [
-        "Crypto Quip Kill Quip : You Thought You Were Better Than Me"
-      ],
-      "free": []
-    },
-    "level_25": {
-      "premium": [
-        "Pathfinder Skin: Iced Out"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_26": {
-      "premium": [
-        "R-99 SMG Skin: Glacier"
-      ],
-      "free": []
-    },
-    "level_27": {
-      "premium": [
-        "Gibraltar Banner Frame : Hot Chains"
-      ],
-      "free": []
-    },
-    "level_28": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_29": {
-      "premium": [
-        "Music Pack : Gibraltar"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_30": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_31": {
-      "premium": [
-        "Loading Screen : Mirage's Worst Day"
-      ],
-      "free": []
-    },
-    "level_32": {
-      "premium": [
-        "Lifeline Quip Kill Quip : I Don't Even Think You Tryin'"
-      ],
-      "free": []
-    },
-    "level_33": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_34": {
-      "premium": [
-        "Peacekeeper Skin: Firestarter"
-      ],
-      "free": []
-    },
-    "level_35": {
-      "premium": [
-        "Lifeline Banner Frame : Crystalized Ice"
-      ],
-      "free": []
-    },
-    "level_36": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_37": {
-      "premium": [
-        "Music Pack : Crypto"
-      ],
-      "free": [
-        "Caustic Skin: Freezer Burn"
-      ]
-    },
-    "level_38": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_39": {
-      "premium": [
-        "Loading Screen : Send in the Clowns"
-      ],
-      "free": []
-    },
-    "level_40": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_41": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_42": {
-      "premium": [
-        "Mastiff Shotgun Skin: Fractured Cove"
-      ],
-      "free": []
-    },
-    "level_43": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_44": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_45": {
-      "premium": [
-        "Mirage Banner Frame : Hot Head"
-      ],
-      "free": []
-    },
-    "level_46": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_47": {
-      "premium": [
-        "Loading Screen : True Warrior"
-      ],
-      "free": []
-    },
-    "level_48": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_49": {
-      "premium": [
-        "Wraith Banner Frame : Snow Monster"
-      ],
-      "free": []
-    },
-    "level_50": {
-      "premium": [
-        "Alternator SMG Skin: Winged Phoenix"
-      ],
-      "free": []
-    },
-    "level_51": {
-      "premium": [
-        "Charm : Nox's Trap"
-      ],
-      "free": []
-    },
-    "level_52": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_53": {
-      "premium": [
-        "Lifeline Skin: From the Ashes"
-      ],
-      "free": []
-    },
-    "level_54": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_55": {
-      "premium": [
-        "L-STAR EMG Skin: Campfire"
-      ],
-      "free": []
-    },
-    "level_56": {
-      "premium": [
-        "Bloodhound Quip Kill Quip : The Allfather Has Gifted Me"
-      ],
-      "free": []
-    },
-    "level_57": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_58": {
-      "premium": [
-        "Kraber .50-Cal Sniper Skin: Frozen Tundra"
-      ],
-      "free": []
-    },
-    "level_59": {
-      "premium": [
-        "Apex Coins 50"
-      ],
-      "free": []
-    },
-    "level_60": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_61": {
-      "premium": [
-        "Caustic Banner Frame : Gassed Out"
-      ],
-      "free": []
-    },
-    "level_62": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_63": {
-      "premium": [
-        "Octane Banner Frame : Running Hot"
-      ],
-      "free": []
-    },
-    "level_64": {
-      "premium": [
-        "VK-47 Flatline Skin: Green Lagoon"
-      ],
-      "free": []
-    },
-    "level_65": {
-      "premium": [
-        "Crypto Banner Frame : Nuclear Air"
-      ],
-      "free": []
-    },
-    "level_66": {
-      "premium": [
-        "R-301 Carbine Skin: Firestorm"
-      ],
-      "free": []
-    },
-    "level_67": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_68": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_69": {
-      "premium": [
-        "Hemlok Burst AR Skin: The Abyss"
-      ],
-      "free": []
-    },
-    "level_70": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_71": {
-      "premium": [
-        "Loading Screen : Books and Covers"
-      ],
-      "free": []
-    },
-    "level_72": {
-      "premium": [
-        "Mozambique Shotgun Skin: Flamethrower"
-      ],
-      "free": []
-    },
-    "level_73": {
-      "premium": [
-        "Mirage Skydive Emote : It Takes Two"
-      ],
-      "free": []
-    },
-    "level_74": {
-      "premium": [
-        "Devotion LMG Skin: Cool Breeze"
-      ],
-      "free": []
-    },
-    "level_75": {
-      "premium": [
-        "Bangalore Banner Frame : Melted Grounds"
-      ],
-      "free": []
-    },
-    "level_76": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_77": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_78": {
-      "premium": [
-        "Wingman Skin: Ice Breaker"
-      ],
-      "free": []
-    },
-    "level_79": {
-      "premium": [
-        "Loading Screen : Rose-Colored Legends"
-      ],
-      "free": []
-    },
-    "level_80": {
-      "premium": [
-        "Prowler Burst PDW Skin: Flamed Out"
-      ],
-      "free": []
-    },
-    "level_81": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_82": {
-      "premium": [
-        "M600 Spitfire Skin: Water Riptide"
-      ],
-      "free": []
-    },
-    "level_83": {
-      "premium": [
-        "Wattson Banner Frame : Down Under"
-      ],
-      "free": []
-    },
-    "level_84": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_85": {
-      "premium": [
-        "Lifeline Skydive Emote : Windmill"
-      ],
-      "free": []
-    },
-    "level_86": {
-      "premium": [
-        "EVA-8 Auto Skin: Polar Bear"
-      ],
-      "free": []
-    },
-    "level_87": {
-      "premium": [
-        "Loading Screen : Codename Crypto"
-      ],
-      "free": []
-    },
-    "level_88": {
-      "premium": [
-        "Hemlok Burst AR Skin: Hot Zone"
-      ],
-      "free": []
-    },
-    "level_89": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_90": {
-      "premium": [
-        "Longbow DMR Skin: Cool Heat"
-      ],
-      "free": []
-    },
-    "level_91": {
-      "premium": [
-        "Charm : Artur"
-      ],
-      "free": []
-    },
-    "level_92": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_93": {
-      "premium": [
-        "Pathfinder Skydive Emote : I Can Fly!"
-      ],
-      "free": []
-    },
-    "level_94": {
-      "premium": [
-        "Triple Take Skin: Lightshow"
-      ],
-      "free": []
-    },
-    "level_95": {
-      "premium": [
-        "Loading Screen : Pathfinder the Poet"
-      ],
-      "free": []
-    },
-    "level_96": {
-      "premium": [
-        "HAVOC Rifle Skin: Volcano Grounds"
-      ],
-      "free": []
-    },
-    "level_97": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_98": {
-      "premium": [
-        "G7 Scout Skin: Golden Wings"
-      ],
-      "free": []
-    },
-    "level_99": {
-      "premium": [
-        "Charm : Nessy"
-      ],
-      "free": []
-    },
-    "level_100": {
-      "premium": [
-        "Peacekeeper Skin: Frostbite"
-      ],
-      "free": []
-    },
-    "level_110": {
-      "premium": [
-        "Peacekeeper Skin: Blood Stone"
-      ],
-      "free": [
-        "Badge : Meltdown Level Season 3 Badge"
-      ]
+    "start_date": "October 01, 2019",
+    "end_date": "February 04, 2020",
+    "infobox": {
+        "name": "Meltdown",
+        "New Legend": "Crypto",
+        "New weapon": "Charge Rifle",
+        "Featured map": "World's Edge",
+        "Theme": "Fire/Ice",
+        "Reactive weapon": "Peacekeeper",
+        "Start date": "October 01, 2019",
+        "End date": "February 04, 2020",
+        "Events": "Fight or Fright (2019) Fight or Fright | Holo-Day Bash (2019) Holo-Day Bash | Grand Soirée"
+    },
+    "max_level": 110,
+    "rewards": {
+        "level_1": {
+            "premium": [
+                "Longbow DMR Skin: Reckoner",
+                "Mirage Skin: Fired Up",
+                "Bloodhound Skin: Arctic Hunter",
+                "Octane Skin: Glacial Pace",
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_2": {
+            "premium": [
+                "Charm : Pyro Meteor"
+            ],
+            "free": [
+                "Loading Screen : Humble Witt"
+            ]
+        },
+        "level_3": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Crypto Stat Tracker : Season 3 Wins"
+            ]
+        },
+        "level_4": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Gibraltar Stat Tracker : Season 3 Wins"
+            ]
+        },
+        "level_5": {
+            "premium": [
+                "Apex Coins 50"
+            ],
+            "free": [
+                "Wraith Stat Tracker : Season 3 Wins"
+            ]
+        },
+        "level_6": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Caustic Stat Tracker : Season 3 Wins"
+            ]
+        },
+        "level_7": {
+            "premium": [
+                "Loading Screen : Streets of Suotamo"
+            ],
+            "free": [
+                "Mirage Stat Tracker : Season 3 Wins"
+            ]
+        },
+        "level_8": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Bangalore Stat Tracker : Season 3 Wins"
+            ]
+        },
+        "level_9": {
+            "premium": [
+                "Apex Coins 50"
+            ],
+            "free": [
+                "Pathfinder Stat Tracker : Season 3 Wins"
+            ]
+        },
+        "level_10": {
+            "premium": [
+                "Charge Rifle Skin: Frozen Path"
+            ],
+            "free": [
+                "Wattson Stat Tracker : Season 3 Wins"
+            ]
+        },
+        "level_11": {
+            "premium": [
+                "Pathfinder Banner Frame : Ice Towers"
+            ],
+            "free": [
+                "Octane Stat Tracker : Season 3 Wins"
+            ]
+        },
+        "level_12": {
+            "premium": [
+                "P2020 Skin: Cold Punch"
+            ],
+            "free": [
+                "Lifeline Stat Tracker : Season 3 Wins"
+            ]
+        },
+        "level_13": {
+            "premium": [
+                "Gibraltar Skydive Emote : Surf's Up"
+            ],
+            "free": [
+                "Bloodhound Stat Tracker : Season 3 Wins"
+            ]
+        },
+        "level_14": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_15": {
+            "premium": [
+                "Loading Screen : A New Dawn"
+            ],
+            "free": []
+        },
+        "level_16": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_17": {
+            "premium": [
+                "Apex Coins 50"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_18": {
+            "premium": [
+                "RE-45 Auto Skin: Grasshopper"
+            ],
+            "free": []
+        },
+        "level_19": {
+            "premium": [
+                "Charm : Abominable Snowman"
+            ],
+            "free": []
+        },
+        "level_20": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_21": {
+            "premium": [
+                "Wattson Skydive Emote : Tesla-Copter"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_22": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_23": {
+            "premium": [
+                "Loading Screen : World's Edge - Meltdown"
+            ],
+            "free": []
+        },
+        "level_24": {
+            "premium": [
+                "Crypto Quip Kill Quip : You Thought You Were Better Than Me"
+            ],
+            "free": []
+        },
+        "level_25": {
+            "premium": [
+                "Pathfinder Skin: Iced Out"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_26": {
+            "premium": [
+                "R-99 SMG Skin: Glacier"
+            ],
+            "free": []
+        },
+        "level_27": {
+            "premium": [
+                "Gibraltar Banner Frame : Hot Chains"
+            ],
+            "free": []
+        },
+        "level_28": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_29": {
+            "premium": [
+                "Music Pack : Gibraltar"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_30": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_31": {
+            "premium": [
+                "Loading Screen : Mirage's Worst Day"
+            ],
+            "free": []
+        },
+        "level_32": {
+            "premium": [
+                "Lifeline Quip Kill Quip : I Don't Even Think You Tryin'"
+            ],
+            "free": []
+        },
+        "level_33": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_34": {
+            "premium": [
+                "Peacekeeper Skin: Firestarter"
+            ],
+            "free": []
+        },
+        "level_35": {
+            "premium": [
+                "Lifeline Banner Frame : Crystalized Ice"
+            ],
+            "free": []
+        },
+        "level_36": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_37": {
+            "premium": [
+                "Music Pack : Crypto"
+            ],
+            "free": [
+                "Caustic Skin: Freezer Burn"
+            ]
+        },
+        "level_38": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_39": {
+            "premium": [
+                "Loading Screen : Send in the Clowns"
+            ],
+            "free": []
+        },
+        "level_40": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_41": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_42": {
+            "premium": [
+                "Mastiff Shotgun Skin: Fractured Cove"
+            ],
+            "free": []
+        },
+        "level_43": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_44": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_45": {
+            "premium": [
+                "Mirage Banner Frame : Hot Head"
+            ],
+            "free": []
+        },
+        "level_46": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_47": {
+            "premium": [
+                "Loading Screen : True Warrior"
+            ],
+            "free": []
+        },
+        "level_48": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_49": {
+            "premium": [
+                "Wraith Banner Frame : Snow Monster"
+            ],
+            "free": []
+        },
+        "level_50": {
+            "premium": [
+                "Alternator SMG Skin: Winged Phoenix"
+            ],
+            "free": []
+        },
+        "level_51": {
+            "premium": [
+                "Charm : Nox's Trap"
+            ],
+            "free": []
+        },
+        "level_52": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_53": {
+            "premium": [
+                "Lifeline Skin: From the Ashes"
+            ],
+            "free": []
+        },
+        "level_54": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_55": {
+            "premium": [
+                "L-STAR EMG Skin: Campfire"
+            ],
+            "free": []
+        },
+        "level_56": {
+            "premium": [
+                "Bloodhound Quip Kill Quip : The Allfather Has Gifted Me"
+            ],
+            "free": []
+        },
+        "level_57": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_58": {
+            "premium": [
+                "Kraber .50-Cal Sniper Skin: Frozen Tundra"
+            ],
+            "free": []
+        },
+        "level_59": {
+            "premium": [
+                "Apex Coins 50"
+            ],
+            "free": []
+        },
+        "level_60": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_61": {
+            "premium": [
+                "Caustic Banner Frame : Gassed Out"
+            ],
+            "free": []
+        },
+        "level_62": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_63": {
+            "premium": [
+                "Octane Banner Frame : Running Hot"
+            ],
+            "free": []
+        },
+        "level_64": {
+            "premium": [
+                "VK-47 Flatline Skin: Green Lagoon"
+            ],
+            "free": []
+        },
+        "level_65": {
+            "premium": [
+                "Crypto Banner Frame : Nuclear Air"
+            ],
+            "free": []
+        },
+        "level_66": {
+            "premium": [
+                "R-301 Carbine Skin: Firestorm"
+            ],
+            "free": []
+        },
+        "level_67": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_68": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_69": {
+            "premium": [
+                "Hemlok Burst AR Skin: The Abyss"
+            ],
+            "free": []
+        },
+        "level_70": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_71": {
+            "premium": [
+                "Loading Screen : Books and Covers"
+            ],
+            "free": []
+        },
+        "level_72": {
+            "premium": [
+                "Mozambique Shotgun Skin: Flamethrower"
+            ],
+            "free": []
+        },
+        "level_73": {
+            "premium": [
+                "Mirage Skydive Emote : It Takes Two"
+            ],
+            "free": []
+        },
+        "level_74": {
+            "premium": [
+                "Devotion LMG Skin: Cool Breeze"
+            ],
+            "free": []
+        },
+        "level_75": {
+            "premium": [
+                "Bangalore Banner Frame : Melted Grounds"
+            ],
+            "free": []
+        },
+        "level_76": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_77": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_78": {
+            "premium": [
+                "Wingman Skin: Ice Breaker"
+            ],
+            "free": []
+        },
+        "level_79": {
+            "premium": [
+                "Loading Screen : Rose-Colored Legends"
+            ],
+            "free": []
+        },
+        "level_80": {
+            "premium": [
+                "Prowler Burst PDW Skin: Flamed Out"
+            ],
+            "free": []
+        },
+        "level_81": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_82": {
+            "premium": [
+                "M600 Spitfire Skin: Water Riptide"
+            ],
+            "free": []
+        },
+        "level_83": {
+            "premium": [
+                "Wattson Banner Frame : Down Under"
+            ],
+            "free": []
+        },
+        "level_84": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_85": {
+            "premium": [
+                "Lifeline Skydive Emote : Windmill"
+            ],
+            "free": []
+        },
+        "level_86": {
+            "premium": [
+                "EVA-8 Auto Skin: Polar Bear"
+            ],
+            "free": []
+        },
+        "level_87": {
+            "premium": [
+                "Loading Screen : Codename Crypto"
+            ],
+            "free": []
+        },
+        "level_88": {
+            "premium": [
+                "Hemlok Burst AR Skin: Hot Zone"
+            ],
+            "free": []
+        },
+        "level_89": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_90": {
+            "premium": [
+                "Longbow DMR Skin: Cool Heat"
+            ],
+            "free": []
+        },
+        "level_91": {
+            "premium": [
+                "Charm : Artur"
+            ],
+            "free": []
+        },
+        "level_92": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_93": {
+            "premium": [
+                "Pathfinder Skydive Emote : I Can Fly!"
+            ],
+            "free": []
+        },
+        "level_94": {
+            "premium": [
+                "Triple Take Skin: Lightshow"
+            ],
+            "free": []
+        },
+        "level_95": {
+            "premium": [
+                "Loading Screen : Pathfinder the Poet"
+            ],
+            "free": []
+        },
+        "level_96": {
+            "premium": [
+                "HAVOC Rifle Skin: Volcano Grounds"
+            ],
+            "free": []
+        },
+        "level_97": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_98": {
+            "premium": [
+                "G7 Scout Skin: Golden Wings"
+            ],
+            "free": []
+        },
+        "level_99": {
+            "premium": [
+                "Charm : Nessy"
+            ],
+            "free": []
+        },
+        "level_100": {
+            "premium": [
+                "Peacekeeper Skin: Frostbite"
+            ],
+            "free": []
+        },
+        "level_110": {
+            "premium": [
+                "Peacekeeper Skin: Blood Stone"
+            ],
+            "free": [
+                "Badge : Meltdown Level Season 3 Badge"
+            ]
+        }
+    },
+    "patches": {
+        "Bangalore": [
+            {
+                "patch": "Saison 1",
+                "details": [
+                    "[Passive] Buff -> Double Time : vitesse de déplacement augmentée."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Secure Transmission : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Caustic": [
+            {
+                "patch": "Saison 1",
+                "details": [
+                    "[Passive] Buff -> Nox Gas : zone de gaz plus grande."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Nox Gas Grenade : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Gibraltar": [
+            {
+                "patch": "Saison 1",
+                "details": [
+                    "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Gunner's Mate : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Lifeline": [
+            {
+                "patch": "Saison 1",
+                "details": [
+                    "[Passive] Buff -> D.O.C. : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> D.O.C. Drone : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Octane": [
+            {
+                "patch": "Saison 1",
+                "details": [
+                    "[Passive] Buff -> Swift Mend : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Swift Mend : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Ultimate] Nerf -> Launch Pad : réduction de la distance."
+                ]
+            }
+        ],
+        "Rampart": [
+            {
+                "patch": "Saison 1",
+                "details": [
+                    "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Gunner's Mate : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Revenant": [
+            "No data available"
+        ],
+        "Wraith": [
+            {
+                "patch": "Saison 1",
+                "details": [
+                    "[Passive] Buff -> Voices From the Void : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Voices From the Void : réduction du temps de recharge."
+                ]
+            }
+        ]
     }
-  }
 }

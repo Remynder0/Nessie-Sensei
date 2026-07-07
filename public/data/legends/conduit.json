@@ -10,13 +10,13 @@
   "abilities": {
     "passive": {
       "name": "Savior's Speed",
-      "description": "Sprint faster towards allies that are out of range of your tactical.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: If Savior's Speed is active when sprinting toward a Skirmisher, Conduit gains an additional 5% movement speed.",
+      "description": "Sprint faster towards allies that are out of range of your tactical, including ally Death Boxes and crafters when a banner can be retrieved, Respawn Beacons and Mobile Respawn Beacons when carrying an ally banner, and downed allies without any minimum range limit. If Savior’s Speed is active when sprinting toward a Skirmisher, gain an additional 5% movement speed.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Radiant Transfer",
-      "description": "Send a surge of energy to a teammate and yourself, temporarily regenerating shields when in danger.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Nerf]: Regen rate reduced, regen duration increased and ally/conduit total regen decreased. (Regen rate: 15/s -> 10/s, Regen duration: 6s -> 8s, Ally total regen: 90 -> 80, Conduit total regen: 60 -> 56)\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Nerf]: Cooldown increased. (Cooldown: 27s -> 30s)\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Conduit's Split Charge has been incorporated into her base kit, granting two charges.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Conduit's Regen duration and rate are decreased.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Conduit's cooldown is adjusted.",
-      "cooldown": "27s -> 30s"
+      "description": "Send a surge of energy to a teammate and yourself, temporarily regenerating shields at 15HP/s for 6s. Note: This ability cannot target Revenant while Forged Shadows is active. The recharge delay after damage has been reduced to 1s.",
+      "cooldown": "27s"
     },
     "ultimate": {
       "name": "Energy Barricade",
@@ -26,104 +26,53 @@
   },
   "patch_history": [
     {
-      "patch": "Saison 29 : Overclocked",
+      "patch": "Season 29 : Overclocked",
       "details": [
-        "[Passive] Buff -> If Savior's Speed is active when sprinting toward a Skirmisher, Conduit gains an additional 5% movement speed.",
-        "[Tactical] Buff -> Conduit's Split Charge has been incorporated into her base kit, granting two charges.",
-        "[Tactical] Buff -> Conduit's Regen duration and rate are decreased.",
-        "[Tactical] Buff -> Conduit's cooldown is adjusted."
+        "[Passive] Adjust -> New Effect: If Savior’s Speed is active when sprinting toward a Skirmisher, gain an additional 5% movement speed",
+        "[Tactical] Nerf -> Decreased Regen Duration from 9s to 6s",
+        "[Tactical] Nerf -> Decreased Regen from 20/s to 15/s",
+        "[Perks] Buff -> Cooldown adjusted to 27s"
       ]
     },
     {
-      "patch": "Saison 29 : Overclocked (Midseason)",
+      "patch": "Season 25 : Prodigy",
       "details": [
-        "[Tactical] Nerf -> Regen rate reduced, regen duration increased and ally/conduit total regen decreased. (Regen rate: 15/s -> 10/s, Regen duration: 6s -> 8s, Ally total regen: 90 -> 80, Conduit total regen: 60 -> 56)",
-        "[Tactical] Nerf -> Cooldown increased. (Cooldown: 27s -> 30s)"
+        "[Tactical] Buff -> Radiant Transfer - Reduce cooldown to 21s (was 31s, Previous Hotfix)",
+        "[Tactical] Buff -> Radiant Transfer - Reduce recharge delay after damage to 1s (was 2s)",
+        "[Base] Fix -> fixed crash with Passive when allies disconnected in certain states"
       ]
     },
     {
-      "patch": "Saison 29 : Overclocked",
+      "patch": "Season 23 : From the Rift",
       "details": [
-        "[Tactical] Adjust -> Decreased Regen Rate from 15/s to 10/s",
-        "Increased Regen Duration from 6s to 8s",
-        "Decreased Ally Total Regen from 90 to 80",
-        "Decreased Conduit Total Regen from 60 to 56",
-        "[Upgrades] Adjust -> Level 3",
-        "**Instant Barrier:** Increased Regen Duration from 4s to 6s",
-        "[Tactical] Adjust -> Increased Cooldown from 27 seconds to 30 seconds",
-        "[Upgrades] Adjust -> Level 3",
-        "**Enduring Barrier**: No longer grants regen through ring damage"
+        "[Passive] Buff -> Savior’s Speed : now works on ally Death Boxes and crafters when a banner can be retrieved, now works on Respawn Beacons and Mobile Respawn Beacons when carrying an ally banner, now works without min range limit on downed allies.",
+        "[Perks] Adjust -> Battpack : in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
       ]
     },
     {
-      "patch": "May 29, 2026 Patch",
+      "patch": "Season 21 : Upheaval",
       "details": [
-        "Radiant Transfer\nDecreased regen rate from 15/s to 10/s\nIncreased regen duration from 6s to 8s\nDecreased total ally regen from 90 to 80\nDecreased total self-regen from 60 to 56\nIncreased Instant Barrier regen duration from 4s to 6s"
+        "[Tactical] Nerf -> Radiant Transfer: Can no longer target a Revenant while Forged Shadows is active"
       ]
     },
     {
-      "patch": "May 5, 2026 Patch",
+      "patch": "Season 20 : Breakout",
       "details": [
-        "Savior's Speed\nNew Effect: If Savior’s Speed is active when sprinting toward a Skirmisher, gain an additional 5% movement speed."
+        "[Passive] Buff -> Radiant Transfer Cooldown Increased to 31s (was 26).",
+        "[Perks] Adjust -> Radiant Flash Cooldown increased to 26s (was 21s).",
+        "[Passive] Buff -> Temporary Shield generation rate decreased to 15HP/s (was 20HP/s)"
       ]
     },
     {
-      "patch": "June 24, 2025 Patch",
+      "patch": "Season 19 : Ignite",
       "details": [
-        "Radiant Transfer recharge delay after damage reduced to 1s (was 2s)."
+        "[Base] Buff -> Conduit is having fun because she *knows* the Apex Games."
       ]
     },
     {
-      "patch": "June 03, 2025 Patch",
+      "patch": "Season 18 : Resurrection",
       "details": [
-        "Reduced Tactical cooldown from 31s -> 21s."
-      ]
-    },
-    {
-      "patch": "April 08, 2025 Patch",
-      "details": [
-        "Increased HP regen per tick from  Radiant Transfer from 3 to 4."
-      ]
-    },
-    {
-      "patch": "November 05, 2024 Patch",
-      "details": [
-        "Savior's Speed\nNow works on ally Death Boxes and crafters when a banner can be retrieved\nNow works on Respawn Beacons and Mobile Respawn Beacons when carrying an ally banner\nNow works without min range limit on downed allies, allowing Conduit to race all the way to her fallen teammate",
-        "Upgrades - Battpack: in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
-      ]
-    },
-    {
-      "patch": "May 07, 2024 Patch",
-      "details": [
-        "Radiant Transfer\nCan no longer target a Revenant while Forged Shadows is active\nWhen Revenant activates Forged Shadows, any temporary shield generation ends immediately. Revenant will keep any temporary shields generated before activating his Ultimate.",
-        "Upgrades\nBattery Collection: removed\nNEW Battpack: can stack up to 3 Shield Batteries per inventory slot (doesn’t stack with Gold Backpack)"
-      ]
-    },
-    {
-      "patch": "March 26, 2024 Patch",
-      "details": [
-        "Radiant Transfer\nCooldown Increased to 31s (was 26)\nRegen Interruption delay time increased to 2s (was 1)"
-      ]
-    },
-    {
-      "patch": "February 13, 2024 Patch",
-      "details": [
-        "Radiant Transfer\nCooldown increased to 26s (was 21s)\nTemporary Shield generation rate decreased to 15HP/s (was 20HP/s)\nTemporary Shield generation time increased to 9s (was 8s)",
-        "Energy Barricade\nMine duration reduced to 45s (was 60s)\nMine HP reduced to 200HP (was 250HP)\nThe distance at which mines are removed when deployed too close to one another has been increased by ~100%"
-      ]
-    },
-    {
-      "patch": "January 09, 2024 Patch",
-      "details": [
-        "Balance Update\n Castle Wall: impact will now destroy Conduit’s  Energy Barricade mines",
-        "Bug Fixes\nFixed  Energy Barricade V-Shape deployment when looking directly at the ground\n Tactical can no longer be used on respawning team still in dropship",
-        "Quality of Life\nImproved visibility for jammers.\nUltimate SFX can no longer be heard in other Firing Range instances"
-      ]
-    },
-    {
-      "patch": "October 31, 2023 Patch",
-      "details": [
-        "Introduced."
+        "[Base] Buff -> Conduit is having fun because she *knows* the Apex Games."
       ]
     }
   ],
@@ -136,24 +85,24 @@
       "level_2": {
         "left": {
           "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": false
         },
         "right": {
           "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "description": "Battpack: in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": true
         },
         "right": {
           "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": false
         }
       }

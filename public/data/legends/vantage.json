@@ -10,80 +10,96 @@
   "abilities": {
     "passive": {
       "name": "Spotter's Lens",
-      "description": "Aim down sights to scout with your eyepiece to see enemy healthbars and team shield levels. Ping to track multiple far away targets. Mid- to long-range scopes show bullet drop indicator to see where your shots will land.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Tracking a team with Spotters Lens generates 70% of an ultimate bullet.",
+      "description": "Aim down sights to scout with your eyepiece to see enemy healthbars and team shield levels for a longer time after they've been seen. Ping to track multiple far away targets, up to 3 enemies at a time.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Echo Relocation",
-      "description": "Position your winged companion Echo and then Launch toward him. Must be looking towards Echo to launch. Gain a Double Jump when you reach Echo, or crouch to cancel the jump early.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Vantage is immune to hard landings exiting the tac, with increased velocity and double jump range.",
+      "description": "Position your winged companion Echo and then Launch toward him. Echo will auto-recall after you jump. Gain a Double Jump when you reach Echo, or crouch to cancel the jump early.",
       "cooldown": "17 seconds"
     },
     "ultimate": {
       "name": "Sniper's Mark",
-      "description": "Use your custom sniper rifle to mark enemy targets which applies a damage bonus for you and your team. Shooting will enable a targeting laser for a short duration when aiming down sights.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Vantage's Canted Sight has reduced rechamber and ADS times, with increased aiming responsiveness.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Vantage's Normal sight has reduced ADS time, with increased weapon handling.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Vantage's weapon handling is improved in both modes, with reduced holster and deploy times.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Buff]: Vantage's Normal scope magnification is increased.",
-      "cooldown": "4 minutes"
+      "description": "Use your custom sniper rifle to mark enemy targets which applies a damage bonus for you and your team. Shooting will enable a targeting laser for a short duration when aiming down sights.",
+      "cooldown": "2 minutes 40 seconds"
     }
   },
   "patch_history": [
     {
-      "patch": "Saison 29 : Overclocked",
+      "patch": "Season 29 : Overclocked",
       "details": [
-        "[Passive] Buff -> Tracking a team with Spotters Lens generates 70% of an ultimate bullet.",
-        "[Tactical] Buff -> Vantage is immune to hard landings exiting the tac, with increased velocity and double jump range.",
-        "[Ultimate] Buff -> Vantage's Canted Sight has reduced rechamber and ADS times, with increased aiming responsiveness.",
-        "[Ultimate] Buff -> Vantage's Normal sight has reduced ADS time, with increased weapon handling.",
-        "[Ultimate] Buff -> Vantage's weapon handling is improved in both modes, with reduced holster and deploy times.",
-        "[Ultimate] Buff -> Vantage's Normal scope magnification is increased."
+        "[Base] Fix -> Fixed an issue where there was a slight delay before having intended ADS accuracy despite being fully zoomed into scope",
+        "[Base] Fix -> Fixed bug where Vantage could equip weapons in fight night.",
+        "[Base] Fix -> Fixed how Spotter’s Lens gave decoys a low priority so the real Mirage is less obvious to find."
       ]
     },
     {
-      "patch": "May 5, 2026 Patch",
+      "patch": "Season 27 : Amped (Midseason)",
       "details": [
-        "Spotter's Lens\nTracking a team with Spotters Lens will generate 70% of an ultimate bullet\n10 second cooldown per team"
+        "[Base] Fix -> Fixed the tactical range finder (blue dot surrounding the crosshair) not working"
       ]
     },
     {
-      "patch": "July 17, 2025 Patch",
+      "patch": "Season 25 : Prodigy",
       "details": [
-        "Sniper's Mark laser duration reduced from 15s to 10s.",
-        "Increased Sniper Cover upgrade's gunshield HP from 40 to 75."
+        "[Passive] Buff -> Spotter’s Lens - Can now ping up to 3 enemies at a time",
+        "[Tactical] Buff -> Echo Relocation - Echo will auto-recall after you jump"
       ]
     },
     {
-      "patch": "June 24, 2025 Patch",
+      "patch": "Season 24 : Takeover",
       "details": [
-        "Shrank Vantage’s upper body hitbox to better match her character model",
-        "Spotter's Lens\nCan now ping up to 3 enemies at a time\nCan see the health bars of targeted enemy\nPinging an enemy will reveal their position when further than 50m away (was 100m)",
-        "Echo Relocation\nEcho will auto-recall after you jump\nFaster jump activation time\nIncreased base and max distance Echo can fly by 10m\nIntegrated Bat Bounce into base kit\nReduced time to redeploy guns after jump to 0.2s (was 0.5s)\nWidened the FOV that Echo needs to be in to jump to",
-        "Sniper's Mark\nIntegrated Ultimate Reload upgrade into base kit\nUltimate accelerators are used 50% faster, and provide 2 extra bullets\nLaser is now hidden until Vantage shoots\nLaser lasts for 15s, timer refreshes with each shot\nLaser is now more representative of aim",
-        "Upgrades: Level 2\nNEW Controlling my Prey: gain access to Ring Consoles and zone overcharge\nNEW Improved Mark: marked enemy icon is visible through walls, briefly highlights enemies, and reveals their health bar to your squad upon mark",
-        "Upgrades: Level 3\nNEW Tactical Cooldown: reduce Tac's cooldown by 5s\nNEW Sniper Cover: adds Gun Shield to Sniper’s Mark"
+        "[Ultimate] Fix -> sprinting no longer available while using Ult Accelerant"
       ]
     },
     {
-      "patch": "January 07, 2025 Patch",
+      "patch": "Season 23 : From the Rift (Midseason)",
       "details": [
-        "Sniper's Mark: reloading with an Ult Accelerant uses new animations and keeps the weapon active"
+        "[Base] Buff -> Sniper’s Mark: reloading with an Ult Accelerant uses new animations and keeps the weapon active."
       ]
     },
     {
-      "patch": "August 06, 2024 Patch",
+      "patch": "Season 22 : Shockwave",
       "details": [
-        "Echo Relocation: no longer requires LOS to Echo to launch\nCan launch when LOS is blocked\nCan now cancel the tac mid charge\nTac reticle will turn red when echo is behind you and you are launching\nWill slide-around boxes and geometry as best it can to reach Echo",
-        "Sniper's Mark\n2nd Shot Multiplier is now 2.5x (was 2x)\nCan hit \"Reload\" when in ult to use an Ult Accel",
-        "Spotter's Lens\nNEW Ranged Tracking\nWaypoint on PING within Passive range will track enemy for 10s\nWill not show within 100m (for each ally individually)\nRecon Info\nAdded to all optics\nExpanded passive scanning screen area to be more consistent"
+        "[Passive] Buff -> Echo Relocation: no longer requires LOS to Echo to launch",
+        "[Ultimate] Buff -> Sniper’s Mark : 2nd Shot Multiplier is now 2.5x.",
+        "[Perks] Adjust -> Ult Reload: now also doubles Ult Accel use speed in addition to providing 2 extra bullets"
       ]
     },
     {
-      "patch": "October 31, 2023 Patch",
+      "patch": "Season 16 : Revelry",
       "details": [
-        "Sniper's Mark bullet count increased to 6 (was 5)."
+        "[Passive] Buff -> Eagle's Eye: increased vision range and duration.",
+        "[Tactical] Nerf -> Lookout: reduced damage and radius."
       ]
     },
     {
-      "patch": "August 09, 2022 Patch",
+      "patch": "Season 14 : Hunted",
       "details": [
-        "Introduced."
+        "[Passive] Nerf -> Eagle's Eye : reduced scan duration.",
+        "[Tactical] Buff -> Lookout : increased damage.",
+        "[Perks] Adjust -> Eagle's Eye : increased scan range."
+      ]
+    },
+    {
+      "patch": "Season 13 : Saviors",
+      "details": [
+        "[Passive] Nerf -> Eagle's Eye : reduced zoom level.",
+        "[Tactical] Buff -> Eagle's Eye : increased duration."
+      ]
+    },
+    {
+      "patch": "Season 11 : Escape",
+      "details": [
+        "[Passive] Buff -> Eagle's Eye now reveals enemy positions for a longer time after they've been seen",
+        "[Tactical] Adjust -> Lookout: reduced the healing amount, but increased its speed and duration"
+      ]
+    },
+    {
+      "patch": "Season 9 : Legacy",
+      "details": [
+        "[Passive] Buff -> La vitesse a été améliorée.",
+        "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge."
       ]
     }
   ],
@@ -96,24 +112,24 @@
       "level_2": {
         "left": {
           "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": false
         },
         "right": {
           "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "description": "Increased vision range and duration while using your passive ability.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": true
         },
         "right": {
           "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "description": "Reduced damage and radius from your tactical ability.",
           "recommended": false
         }
       }

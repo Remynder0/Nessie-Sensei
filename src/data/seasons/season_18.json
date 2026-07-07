@@ -1,785 +1,795 @@
 {
-  "season": "18",
-  "name": "Resurrection",
-  "start_date": "August 8, 2023",
-  "end_date": "October 31, 2023",
-  "infobox": {
+    "season": "18",
     "name": "Resurrection",
-    "New Legend": "Revenant Rework",
-    "New weapon": "Charge Rifle Rework",
-    "Featured map": "Broken Moon",
-    "Season Quest": "\"Kill Code: Revenant Reborn\"",
-    "Theme": "Tech/Horror",
-    "Reactive weapon": "EVA-8 Auto",
-    "Start date": "August 8, 2023",
-    "End date": "October 31, 2023",
-    "Events": "Death Dynasty | Harbingers | Doppelgangers"
-  },
-  "max_level": 110,
-  "rewards": {
-    "level_1": {
-      "premium": [
-        "Valkyrie Advanced Reign",
-        "Octane Blood Rush",
-        "Caustic Bad Blood",
-        "L-STAR EMG Vortex Core",
-        "XP Boost [ 1 ]"
-      ],
-      "free": [
-        "Transition A Gift to the Outlands"
-      ]
-    },
-    "level_2": {
-      "premium": [
-        "Valkyrie Skydive Emote See Ya!"
-      ],
-      "free": []
-    },
-    "level_3": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_4": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Music Pack Resurrection"
-      ]
-    },
-    "level_5": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Apex Coins 100"
-      ]
-    },
-    "level_6": {
-      "premium": [
-        "XP Boost [ 1 ]"
-      ],
-      "free": [
-        "Portable Wreckage"
-      ]
-    },
-    "level_7": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_8": {
-      "premium": [
-        "Kraber .50-Cal Sniper The Dopple Gang"
-      ],
-      "free": [
-        "Revenant Stat Tracker Season 18 Wins as Revenant"
-      ]
-    },
-    "level_9": {
-      "premium": [
-        "Seer Banner Frame Feedback Loop"
-      ],
-      "free": [
-        "Revenant Stat Tracker Season 18 Kills as Revenant"
-      ]
-    },
-    "level_10": {
-      "premium": [
-        "Crypto Cosmetic Emote Stare Down"
-      ],
-      "free": [
-        "P2020 Digital Camouflage"
-      ]
-    },
-    "level_11": {
-      "premium": [
-        "Mad Maggie Quip Kill Quip : Be Thankful I Only Killed Ya"
-      ],
-      "free": [
-        "Transition The Art of Control"
-      ]
-    },
-    "level_12": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_13": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "30-30 Repeater Red Rumble"
-      ]
-    },
-    "level_14": {
-      "premium": [
-        "XP Boost [ 1 ]"
-      ],
-      "free": []
-    },
-    "level_15": {
-      "premium": [
-        "Mad Maggie Stat Tracker Kills as Mad Maggie"
-      ],
-      "free": [
-        "Wattson Stat Tracker Season 18 Wins as Wattson"
-      ]
-    },
-    "level_16": {
-      "premium": [
-        "Mad Maggie Stat Tracker Wins as Mad Maggie"
-      ],
-      "free": [
-        "Wattson Stat Tracker Season 18 Kills as Wattson"
-      ]
-    },
-    "level_17": {
-      "premium": [
-        "Mad Maggie Stat Tracker Damage Done as Mad Maggie"
-      ],
-      "free": [
-        "Nemesis Burst AR Holographic Ember"
-      ]
-    },
-    "level_18": {
-      "premium": [
-        "Mad Maggie Banner Frame Anarchy Unleashed"
-      ],
-      "free": [
-        "Ballistic Stat Tracker Season 18 Wins as Ballistic"
-      ]
-    },
-    "level_19": {
-      "premium": [
-        "Mad Maggie Holospray Get a Grip"
-      ],
-      "free": [
-        "Ballistic Stat Tracker Season 18 Kills as Ballistic"
-      ]
-    },
-    "level_20": {
-      "premium": [
-        "Charge Rifle The Dopple Gang"
-      ],
-      "free": []
-    },
-    "level_21": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_22": {
-      "premium": [
-        "XP Boost [ 1 ]"
-      ],
-      "free": []
-    },
-    "level_23": {
-      "premium": [
-        "Terror Surge"
-      ],
-      "free": [
-        "Mad Maggie Stat Tracker Season 18 Wins as Mad Maggie"
-      ]
-    },
-    "level_24": {
-      "premium": [
-        "Mad Maggie Outlawed Tech"
-      ],
-      "free": [
-        "Mad Maggie Stat Tracker Season 18 Kills as Mad Maggie"
-      ]
-    },
-    "level_25": {
-      "premium": [
-        "EVA-8 Auto Heart of the Divine"
-      ],
-      "free": [
-        "Prowler Burst PDW Face Off"
-      ]
-    },
-    "level_26": {
-      "premium": [
-        "Ballistic Quip Kill Quip : I Hope You're Buried"
-      ],
-      "free": [
-        "Newcastle Stat Tracker Season 18 Wins as Newcastle"
-      ]
-    },
-    "level_27": {
-      "premium": [
-        "Rampart Banner Frame Upgrade Station"
-      ],
-      "free": [
-        "Newcastle Stat Tracker Season 18 Kills as Newcastle"
-      ]
-    },
-    "level_28": {
-      "premium": [
-        "Wingman Digital Camouflage"
-      ],
-      "free": []
-    },
-    "level_29": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "RE-45 Auto Hotwire Frame"
-      ]
-    },
-    "level_30": {
-      "premium": [
-        "XP Boost [ 1 ]"
-      ],
-      "free": []
-    },
-    "level_31": {
-      "premium": [
-        "Valkyrie Quip Kill Quip : Let Me Help You Get Those Fangs"
-      ],
-      "free": [
-        "Valkyrie Stat Tracker Season 18 Wins as Valkyrie"
-      ]
-    },
-    "level_32": {
-      "premium": [
-        "Valkyrie Banner Frame Digital Ascension"
-      ],
-      "free": [
-        "Valkyrie Stat Tracker Season 18 Kills as Valkyrie"
-      ]
-    },
-    "level_33": {
-      "premium": [
-        "Hellfire Helm"
-      ],
-      "free": [
-        "Volt SMG The Dopple Gang"
-      ]
-    },
-    "level_34": {
-      "premium": [
-        "R-301 Carbine Digital Camouflage"
-      ],
-      "free": [
-        "Bangalore Stat Tracker Season 18 Wins as Bangalore"
-      ]
-    },
-    "level_35": {
-      "premium": [
-        "Valkyrie Holospray Looks Like Reign"
-      ],
-      "free": [
-        "Bangalore Stat Tracker Season 18 Kills as Bangalore"
-      ]
-    },
-    "level_36": {
-      "premium": [
-        "Transition D.O.C. Audio Log 10.15.0103"
-      ],
-      "free": []
-    },
-    "level_37": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Mozambique Shotgun Digital Camouflage"
-      ]
-    },
-    "level_38": {
-      "premium": [
-        "XP Boost [ 1 ]"
-      ],
-      "free": []
-    },
-    "level_39": {
-      "premium": [
-        "Crypto Banner Frame Fatal Threat"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_40": {
-      "premium": [
-        "Pathfinder Stat Tracker Kills as Pathfinder"
-      ],
-      "free": [
-        "Octane Stat Tracker Season 18 Wins as Octane"
-      ]
-    },
-    "level_41": {
-      "premium": [
-        "Pathfinder Stat Tracker Wins as Pathfinder"
-      ],
-      "free": [
-        "Octane Stat Tracker Season 18 Kills as Octane"
-      ]
-    },
-    "level_42": {
-      "premium": [
-        "Pathfinder Stat Tracker Damage Done as Pathfinder"
-      ],
-      "free": [
-        "Gibraltar Stat Tracker Season 18 Wins as Gibraltar"
-      ]
-    },
-    "level_43": {
-      "premium": [
-        "Pathfinder Quip Kill Quip : Knock - Knock..... I'm Here"
-      ],
-      "free": [
-        "Gibraltar Stat Tracker Season 18 Kills as Gibraltar"
-      ]
-    },
-    "level_44": {
-      "premium": [
-        "M600 Spitfire Face Off"
-      ],
-      "free": []
-    },
-    "level_45": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Transition Shiny and New"
-      ]
-    },
-    "level_46": {
-      "premium": [
-        "XP Boost [ 1 ]"
-      ],
-      "free": []
-    },
-    "level_47": {
-      "premium": [
-        "Stolen Souvenir"
-      ],
-      "free": [
-        "C.A.R. SMG Holographic Ember"
-      ]
-    },
-    "level_48": {
-      "premium": [
-        "Pathfinder Banner Frame Rage Reboot"
-      ],
-      "free": [
-        "Pathfinder Stat Tracker Season 18 Wins as Pathfinder"
-      ]
-    },
-    "level_49": {
-      "premium": [
-        "Pathfinder Holospray Hi Friend"
-      ],
-      "free": [
-        "Pathfinder Stat Tracker Season 18 Kills as Pathfinder"
-      ]
-    },
-    "level_50": {
-      "premium": [
-        "Pathfinder Pathogen"
-      ],
-      "free": [
-        "Music Pack Revenant Reborn"
-      ]
-    },
-    "level_51": {
-      "premium": [
-        "Hemlok Burst AR The Dopple Gang"
-      ],
-      "free": [
-        "Horizon Stat Tracker Season 18 Wins as Horizon"
-      ]
-    },
-    "level_52": {
-      "premium": [
-        "Seer Quip Kill Quip : Just Because It Is Death"
-      ],
-      "free": [
-        "Horizon Stat Tracker Season 18 Kills as Horizon"
-      ]
-    },
-    "level_53": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Sentinel Red Rumble"
-      ]
-    },
-    "level_54": {
-      "premium": [
-        "XP Boost [ 1 ]"
-      ],
-      "free": []
-    },
-    "level_55": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Ash Stat Tracker Season 18 Wins as Ash"
-      ]
-    },
-    "level_56": {
-      "premium": [
-        "Loba Banner Frame Downtown Dire"
-      ],
-      "free": [
-        "Ash Stat Tracker Season 18 Kills as Ash"
-      ]
-    },
-    "level_57": {
-      "premium": [
-        "Triple Take Holographic Ember"
-      ],
-      "free": [
-        "Lifeline Jewel Tones"
-      ]
-    },
-    "level_58": {
-      "premium": [
-        "Catalyst Holospray Double Double Toil Trouble"
-      ],
-      "free": [
-        "Mirage Stat Tracker Season 18 Wins as Mirage"
-      ]
-    },
-    "level_59": {
-      "premium": [
-        "Ash Quip Kill Quip : There Are More Creative Ways to Die"
-      ],
-      "free": [
-        "Mirage Stat Tracker Season 18 Kills as Mirage"
-      ]
-    },
-    "level_60": {
-      "premium": [
-        "Sticker Mask Off"
-      ],
-      "free": []
-    },
-    "level_61": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_62": {
-      "premium": [
-        "XP Boost [ 1 ]"
-      ],
-      "free": []
-    },
-    "level_63": {
-      "premium": [
-        "Toxic Roast"
-      ],
-      "free": [
-        "Alternator SMG Face Off"
-      ]
-    },
-    "level_64": {
-      "premium": [
-        "Octane Quip Kill Quip : Oh, That Looked Like It Hurt"
-      ],
-      "free": [
-        "Crypto Stat Tracker Season 18 Wins as Crypto"
-      ]
-    },
-    "level_65": {
-      "premium": [
-        "Octane Holospray Don't Blink"
-      ],
-      "free": [
-        "Crypto Stat Tracker Season 18 Kills as Crypto"
-      ]
-    },
-    "level_66": {
-      "premium": [
-        "Mastiff Shotgun Red Rumble"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_67": {
-      "premium": [
-        "Octane Banner Frame Overstimulated"
-      ],
-      "free": [
-        "Loba Stat Tracker Season 18 Wins as Loba"
-      ]
-    },
-    "level_68": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Loba Stat Tracker Season 18 Kills as Loba"
-      ]
-    },
-    "level_69": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Bocek Compound Bow Hotwire Frame"
-      ]
-    },
-    "level_70": {
-      "premium": [
-        "XP Boost [ 1 ]"
-      ],
-      "free": []
-    },
-    "level_71": {
-      "premium": [
-        "Devil's Detail"
-      ],
-      "free": [
-        "Caustic Stat Tracker Season 18 Wins as Caustic"
-      ]
-    },
-    "level_72": {
-      "premium": [
-        "Rampage LMG Hotwire Frame"
-      ],
-      "free": [
-        "Caustic Stat Tracker Season 18 Kills as Caustic"
-      ]
-    },
-    "level_73": {
-      "premium": [
-        "Caustic Quip Kill Quip : Did You Enjoy Life"
-      ],
-      "free": []
-    },
-    "level_74": {
-      "premium": [
-        "Caustic Holospray Beg For Mercy"
-      ],
-      "free": [
-        "Wraith Stat Tracker Season 18 Wins as Wraith"
-      ]
-    },
-    "level_75": {
-      "premium": [
-        "Caustic Banner Frame No Solace"
-      ],
-      "free": [
-        "Wraith Stat Tracker Season 18 Kills as Wraith"
-      ]
-    },
-    "level_76": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_77": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_78": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_79": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Rampart Stat Tracker Season 18 Wins as Rampart"
-      ]
-    },
-    "level_80": {
-      "premium": [
-        "Nemesis Burst AR Accelerated Adversary"
-      ],
-      "free": [
-        "Rampart Stat Tracker Season 18 Kills as Rampart"
-      ]
-    },
-    "level_81": {
-      "premium": [
-        "Catalyst Quip Kill Quip : I'll Need to Do Some Cleansing"
-      ],
-      "free": []
-    },
-    "level_82": {
-      "premium": [
-        "Fuse Banner Frame Central Silo"
-      ],
-      "free": [
-        "Catalyst Stat Tracker Season 18 Wins as Catalyst"
-      ]
-    },
-    "level_83": {
-      "premium": [
-        "Newcastle Cosmetic Emote Bad Daditude"
-      ],
-      "free": [
-        "Catalyst Stat Tracker Season 18 Kills as Catalyst"
-      ]
-    },
-    "level_84": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_85": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_86": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_87": {
-      "premium": [
-        "Devotion LMG Red Rumble"
-      ],
-      "free": [
-        "Fuse Stat Tracker Season 18 Wins as Fuse"
-      ]
-    },
-    "level_88": {
-      "premium": [
-        "Ash Holospray Evil Inside"
-      ],
-      "free": [
-        "Fuse Stat Tracker Season 18 Kills as Fuse"
-      ]
-    },
-    "level_89": {
-      "premium": [
-        "Devil's Edge"
-      ],
-      "free": [
-        "Bloodhound Stat Tracker Season 18 Wins as Bloodhound"
-      ]
-    },
-    "level_90": {
-      "premium": [
-        "Seer Skydive Emote Hat Tip"
-      ],
-      "free": [
-        "Bloodhound Stat Tracker Season 18 Kills as Bloodhound"
-      ]
-    },
-    "level_91": {
-      "premium": [
-        "Mad Maggie Cosmetic Emote Coping Skills"
-      ],
-      "free": [
-        "Lifeline Stat Tracker Season 18 Wins as Lifeline"
-      ]
-    },
-    "level_92": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Lifeline Stat Tracker Season 18 Kills as Lifeline"
-      ]
-    },
-    "level_93": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Transition Eyes of the Mona Lisa"
-      ]
-    },
-    "level_94": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_95": {
-      "premium": [
-        "Bloodhound Skydive Emote Raven Dash"
-      ],
-      "free": [
-        "Vantage Stat Tracker Season 18 Wins as Vantage"
-      ]
-    },
-    "level_96": {
-      "premium": [
-        "Sticker NESS.EXE"
-      ],
-      "free": [
-        "Vantage Stat Tracker Season 18 Kills as Vantage"
-      ]
-    },
-    "level_97": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Seer Stat Tracker Season 18 Wins as Seer"
-      ]
-    },
-    "level_98": {
-      "premium": [
-        "Valkyrie Cosmetic Emote Ground Pound"
-      ],
-      "free": [
-        "Seer Stat Tracker Season 18 Kills as Seer"
-      ]
-    },
-    "level_99": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_100": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Coins 100"
-      ]
-    },
-    "level_110": {
-      "premium": [
-        "EVA-8 Auto Heart of Brimstone"
-      ],
-      "free": [
-        "Badge : Resurrection"
-      ]
+    "start_date": "August 8, 2023",
+    "end_date": "October 31, 2023",
+    "infobox": {
+        "name": "Resurrection",
+        "New Legend": "Revenant Rework",
+        "New weapon": "Charge Rifle Rework",
+        "Featured map": "Broken Moon",
+        "Season Quest": "\"Kill Code: Revenant Reborn\"",
+        "Theme": "Tech/Horror",
+        "Reactive weapon": "EVA-8 Auto",
+        "Start date": "August 8, 2023",
+        "End date": "October 31, 2023",
+        "Events": "Death Dynasty | Harbingers | Doppelgangers"
+    },
+    "max_level": 110,
+    "rewards": {
+        "level_1": {
+            "premium": [
+                "Valkyrie Advanced Reign",
+                "Octane Blood Rush",
+                "Caustic Bad Blood",
+                "L-STAR EMG Vortex Core",
+                "XP Boost [ 1 ]"
+            ],
+            "free": [
+                "Transition A Gift to the Outlands"
+            ]
+        },
+        "level_2": {
+            "premium": [
+                "Valkyrie Skydive Emote See Ya!"
+            ],
+            "free": []
+        },
+        "level_3": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_4": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Music Pack Resurrection"
+            ]
+        },
+        "level_5": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Apex Coins 100"
+            ]
+        },
+        "level_6": {
+            "premium": [
+                "XP Boost [ 1 ]"
+            ],
+            "free": [
+                "Portable Wreckage"
+            ]
+        },
+        "level_7": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_8": {
+            "premium": [
+                "Kraber .50-Cal Sniper The Dopple Gang"
+            ],
+            "free": [
+                "Revenant Stat Tracker Season 18 Wins as Revenant"
+            ]
+        },
+        "level_9": {
+            "premium": [
+                "Seer Banner Frame Feedback Loop"
+            ],
+            "free": [
+                "Revenant Stat Tracker Season 18 Kills as Revenant"
+            ]
+        },
+        "level_10": {
+            "premium": [
+                "Crypto Cosmetic Emote Stare Down"
+            ],
+            "free": [
+                "P2020 Digital Camouflage"
+            ]
+        },
+        "level_11": {
+            "premium": [
+                "Mad Maggie Quip Kill Quip : Be Thankful I Only Killed Ya"
+            ],
+            "free": [
+                "Transition The Art of Control"
+            ]
+        },
+        "level_12": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_13": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "30-30 Repeater Red Rumble"
+            ]
+        },
+        "level_14": {
+            "premium": [
+                "XP Boost [ 1 ]"
+            ],
+            "free": []
+        },
+        "level_15": {
+            "premium": [
+                "Mad Maggie Stat Tracker Kills as Mad Maggie"
+            ],
+            "free": [
+                "Wattson Stat Tracker Season 18 Wins as Wattson"
+            ]
+        },
+        "level_16": {
+            "premium": [
+                "Mad Maggie Stat Tracker Wins as Mad Maggie"
+            ],
+            "free": [
+                "Wattson Stat Tracker Season 18 Kills as Wattson"
+            ]
+        },
+        "level_17": {
+            "premium": [
+                "Mad Maggie Stat Tracker Damage Done as Mad Maggie"
+            ],
+            "free": [
+                "Nemesis Burst AR Holographic Ember"
+            ]
+        },
+        "level_18": {
+            "premium": [
+                "Mad Maggie Banner Frame Anarchy Unleashed"
+            ],
+            "free": [
+                "Ballistic Stat Tracker Season 18 Wins as Ballistic"
+            ]
+        },
+        "level_19": {
+            "premium": [
+                "Mad Maggie Holospray Get a Grip"
+            ],
+            "free": [
+                "Ballistic Stat Tracker Season 18 Kills as Ballistic"
+            ]
+        },
+        "level_20": {
+            "premium": [
+                "Charge Rifle The Dopple Gang"
+            ],
+            "free": []
+        },
+        "level_21": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_22": {
+            "premium": [
+                "XP Boost [ 1 ]"
+            ],
+            "free": []
+        },
+        "level_23": {
+            "premium": [
+                "Terror Surge"
+            ],
+            "free": [
+                "Mad Maggie Stat Tracker Season 18 Wins as Mad Maggie"
+            ]
+        },
+        "level_24": {
+            "premium": [
+                "Mad Maggie Outlawed Tech"
+            ],
+            "free": [
+                "Mad Maggie Stat Tracker Season 18 Kills as Mad Maggie"
+            ]
+        },
+        "level_25": {
+            "premium": [
+                "EVA-8 Auto Heart of the Divine"
+            ],
+            "free": [
+                "Prowler Burst PDW Face Off"
+            ]
+        },
+        "level_26": {
+            "premium": [
+                "Ballistic Quip Kill Quip : I Hope You're Buried"
+            ],
+            "free": [
+                "Newcastle Stat Tracker Season 18 Wins as Newcastle"
+            ]
+        },
+        "level_27": {
+            "premium": [
+                "Rampart Banner Frame Upgrade Station"
+            ],
+            "free": [
+                "Newcastle Stat Tracker Season 18 Kills as Newcastle"
+            ]
+        },
+        "level_28": {
+            "premium": [
+                "Wingman Digital Camouflage"
+            ],
+            "free": []
+        },
+        "level_29": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "RE-45 Auto Hotwire Frame"
+            ]
+        },
+        "level_30": {
+            "premium": [
+                "XP Boost [ 1 ]"
+            ],
+            "free": []
+        },
+        "level_31": {
+            "premium": [
+                "Valkyrie Quip Kill Quip : Let Me Help You Get Those Fangs"
+            ],
+            "free": [
+                "Valkyrie Stat Tracker Season 18 Wins as Valkyrie"
+            ]
+        },
+        "level_32": {
+            "premium": [
+                "Valkyrie Banner Frame Digital Ascension"
+            ],
+            "free": [
+                "Valkyrie Stat Tracker Season 18 Kills as Valkyrie"
+            ]
+        },
+        "level_33": {
+            "premium": [
+                "Hellfire Helm"
+            ],
+            "free": [
+                "Volt SMG The Dopple Gang"
+            ]
+        },
+        "level_34": {
+            "premium": [
+                "R-301 Carbine Digital Camouflage"
+            ],
+            "free": [
+                "Bangalore Stat Tracker Season 18 Wins as Bangalore"
+            ]
+        },
+        "level_35": {
+            "premium": [
+                "Valkyrie Holospray Looks Like Reign"
+            ],
+            "free": [
+                "Bangalore Stat Tracker Season 18 Kills as Bangalore"
+            ]
+        },
+        "level_36": {
+            "premium": [
+                "Transition D.O.C. Audio Log 10.15.0103"
+            ],
+            "free": []
+        },
+        "level_37": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Mozambique Shotgun Digital Camouflage"
+            ]
+        },
+        "level_38": {
+            "premium": [
+                "XP Boost [ 1 ]"
+            ],
+            "free": []
+        },
+        "level_39": {
+            "premium": [
+                "Crypto Banner Frame Fatal Threat"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_40": {
+            "premium": [
+                "Pathfinder Stat Tracker Kills as Pathfinder"
+            ],
+            "free": [
+                "Octane Stat Tracker Season 18 Wins as Octane"
+            ]
+        },
+        "level_41": {
+            "premium": [
+                "Pathfinder Stat Tracker Wins as Pathfinder"
+            ],
+            "free": [
+                "Octane Stat Tracker Season 18 Kills as Octane"
+            ]
+        },
+        "level_42": {
+            "premium": [
+                "Pathfinder Stat Tracker Damage Done as Pathfinder"
+            ],
+            "free": [
+                "Gibraltar Stat Tracker Season 18 Wins as Gibraltar"
+            ]
+        },
+        "level_43": {
+            "premium": [
+                "Pathfinder Quip Kill Quip : Knock - Knock..... I'm Here"
+            ],
+            "free": [
+                "Gibraltar Stat Tracker Season 18 Kills as Gibraltar"
+            ]
+        },
+        "level_44": {
+            "premium": [
+                "M600 Spitfire Face Off"
+            ],
+            "free": []
+        },
+        "level_45": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Transition Shiny and New"
+            ]
+        },
+        "level_46": {
+            "premium": [
+                "XP Boost [ 1 ]"
+            ],
+            "free": []
+        },
+        "level_47": {
+            "premium": [
+                "Stolen Souvenir"
+            ],
+            "free": [
+                "C.A.R. SMG Holographic Ember"
+            ]
+        },
+        "level_48": {
+            "premium": [
+                "Pathfinder Banner Frame Rage Reboot"
+            ],
+            "free": [
+                "Pathfinder Stat Tracker Season 18 Wins as Pathfinder"
+            ]
+        },
+        "level_49": {
+            "premium": [
+                "Pathfinder Holospray Hi Friend"
+            ],
+            "free": [
+                "Pathfinder Stat Tracker Season 18 Kills as Pathfinder"
+            ]
+        },
+        "level_50": {
+            "premium": [
+                "Pathfinder Pathogen"
+            ],
+            "free": [
+                "Music Pack Revenant Reborn"
+            ]
+        },
+        "level_51": {
+            "premium": [
+                "Hemlok Burst AR The Dopple Gang"
+            ],
+            "free": [
+                "Horizon Stat Tracker Season 18 Wins as Horizon"
+            ]
+        },
+        "level_52": {
+            "premium": [
+                "Seer Quip Kill Quip : Just Because It Is Death"
+            ],
+            "free": [
+                "Horizon Stat Tracker Season 18 Kills as Horizon"
+            ]
+        },
+        "level_53": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Sentinel Red Rumble"
+            ]
+        },
+        "level_54": {
+            "premium": [
+                "XP Boost [ 1 ]"
+            ],
+            "free": []
+        },
+        "level_55": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Ash Stat Tracker Season 18 Wins as Ash"
+            ]
+        },
+        "level_56": {
+            "premium": [
+                "Loba Banner Frame Downtown Dire"
+            ],
+            "free": [
+                "Ash Stat Tracker Season 18 Kills as Ash"
+            ]
+        },
+        "level_57": {
+            "premium": [
+                "Triple Take Holographic Ember"
+            ],
+            "free": [
+                "Lifeline Jewel Tones"
+            ]
+        },
+        "level_58": {
+            "premium": [
+                "Catalyst Holospray Double Double Toil Trouble"
+            ],
+            "free": [
+                "Mirage Stat Tracker Season 18 Wins as Mirage"
+            ]
+        },
+        "level_59": {
+            "premium": [
+                "Ash Quip Kill Quip : There Are More Creative Ways to Die"
+            ],
+            "free": [
+                "Mirage Stat Tracker Season 18 Kills as Mirage"
+            ]
+        },
+        "level_60": {
+            "premium": [
+                "Sticker Mask Off"
+            ],
+            "free": []
+        },
+        "level_61": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_62": {
+            "premium": [
+                "XP Boost [ 1 ]"
+            ],
+            "free": []
+        },
+        "level_63": {
+            "premium": [
+                "Toxic Roast"
+            ],
+            "free": [
+                "Alternator SMG Face Off"
+            ]
+        },
+        "level_64": {
+            "premium": [
+                "Octane Quip Kill Quip : Oh, That Looked Like It Hurt"
+            ],
+            "free": [
+                "Crypto Stat Tracker Season 18 Wins as Crypto"
+            ]
+        },
+        "level_65": {
+            "premium": [
+                "Octane Holospray Don't Blink"
+            ],
+            "free": [
+                "Crypto Stat Tracker Season 18 Kills as Crypto"
+            ]
+        },
+        "level_66": {
+            "premium": [
+                "Mastiff Shotgun Red Rumble"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_67": {
+            "premium": [
+                "Octane Banner Frame Overstimulated"
+            ],
+            "free": [
+                "Loba Stat Tracker Season 18 Wins as Loba"
+            ]
+        },
+        "level_68": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Loba Stat Tracker Season 18 Kills as Loba"
+            ]
+        },
+        "level_69": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Bocek Compound Bow Hotwire Frame"
+            ]
+        },
+        "level_70": {
+            "premium": [
+                "XP Boost [ 1 ]"
+            ],
+            "free": []
+        },
+        "level_71": {
+            "premium": [
+                "Devil's Detail"
+            ],
+            "free": [
+                "Caustic Stat Tracker Season 18 Wins as Caustic"
+            ]
+        },
+        "level_72": {
+            "premium": [
+                "Rampage LMG Hotwire Frame"
+            ],
+            "free": [
+                "Caustic Stat Tracker Season 18 Kills as Caustic"
+            ]
+        },
+        "level_73": {
+            "premium": [
+                "Caustic Quip Kill Quip : Did You Enjoy Life"
+            ],
+            "free": []
+        },
+        "level_74": {
+            "premium": [
+                "Caustic Holospray Beg For Mercy"
+            ],
+            "free": [
+                "Wraith Stat Tracker Season 18 Wins as Wraith"
+            ]
+        },
+        "level_75": {
+            "premium": [
+                "Caustic Banner Frame No Solace"
+            ],
+            "free": [
+                "Wraith Stat Tracker Season 18 Kills as Wraith"
+            ]
+        },
+        "level_76": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_77": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_78": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_79": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Rampart Stat Tracker Season 18 Wins as Rampart"
+            ]
+        },
+        "level_80": {
+            "premium": [
+                "Nemesis Burst AR Accelerated Adversary"
+            ],
+            "free": [
+                "Rampart Stat Tracker Season 18 Kills as Rampart"
+            ]
+        },
+        "level_81": {
+            "premium": [
+                "Catalyst Quip Kill Quip : I'll Need to Do Some Cleansing"
+            ],
+            "free": []
+        },
+        "level_82": {
+            "premium": [
+                "Fuse Banner Frame Central Silo"
+            ],
+            "free": [
+                "Catalyst Stat Tracker Season 18 Wins as Catalyst"
+            ]
+        },
+        "level_83": {
+            "premium": [
+                "Newcastle Cosmetic Emote Bad Daditude"
+            ],
+            "free": [
+                "Catalyst Stat Tracker Season 18 Kills as Catalyst"
+            ]
+        },
+        "level_84": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_85": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_86": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_87": {
+            "premium": [
+                "Devotion LMG Red Rumble"
+            ],
+            "free": [
+                "Fuse Stat Tracker Season 18 Wins as Fuse"
+            ]
+        },
+        "level_88": {
+            "premium": [
+                "Ash Holospray Evil Inside"
+            ],
+            "free": [
+                "Fuse Stat Tracker Season 18 Kills as Fuse"
+            ]
+        },
+        "level_89": {
+            "premium": [
+                "Devil's Edge"
+            ],
+            "free": [
+                "Bloodhound Stat Tracker Season 18 Wins as Bloodhound"
+            ]
+        },
+        "level_90": {
+            "premium": [
+                "Seer Skydive Emote Hat Tip"
+            ],
+            "free": [
+                "Bloodhound Stat Tracker Season 18 Kills as Bloodhound"
+            ]
+        },
+        "level_91": {
+            "premium": [
+                "Mad Maggie Cosmetic Emote Coping Skills"
+            ],
+            "free": [
+                "Lifeline Stat Tracker Season 18 Wins as Lifeline"
+            ]
+        },
+        "level_92": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Lifeline Stat Tracker Season 18 Kills as Lifeline"
+            ]
+        },
+        "level_93": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Transition Eyes of the Mona Lisa"
+            ]
+        },
+        "level_94": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_95": {
+            "premium": [
+                "Bloodhound Skydive Emote Raven Dash"
+            ],
+            "free": [
+                "Vantage Stat Tracker Season 18 Wins as Vantage"
+            ]
+        },
+        "level_96": {
+            "premium": [
+                "Sticker NESS.EXE"
+            ],
+            "free": [
+                "Vantage Stat Tracker Season 18 Kills as Vantage"
+            ]
+        },
+        "level_97": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Seer Stat Tracker Season 18 Wins as Seer"
+            ]
+        },
+        "level_98": {
+            "premium": [
+                "Valkyrie Cosmetic Emote Ground Pound"
+            ],
+            "free": [
+                "Seer Stat Tracker Season 18 Kills as Seer"
+            ]
+        },
+        "level_99": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_100": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Coins 100"
+            ]
+        },
+        "level_110": {
+            "premium": [
+                "EVA-8 Auto Heart of Brimstone"
+            ],
+            "free": [
+                "Badge : Resurrection"
+            ]
+        }
+    },
+    "patches": {
+        "Conduit": [
+            {
+                "patch": "Apex Legends: Ignite",
+                "details": [
+                    "[Base] Buff -> Conduit is having fun because she *knows* the Apex Games."
+                ]
+            }
+        ]
     }
-  }
 }

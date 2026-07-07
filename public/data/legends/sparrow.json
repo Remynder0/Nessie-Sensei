@@ -10,12 +10,12 @@
   "abilities": {
     "passive": {
       "name": "Double Jump",
-      "description": "Allows the character to jump again while in the air. Jumping while climbing will launch Sparrow up the wall. The character can carry additional arrows and explosive arrows for the Bocek.",
+      "description": "Press jump while in the air to jump again.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Tracker Dart",
-      "description": "Shoots a tracker from the gauntlet to reveal enemies who walk within its line of sight. These darts can also activate  Survey Beacons from a distance.",
+      "description": "Shoot a tracker from your gauntlet that will reveal enemies who walk within its line of sight for 12 seconds.",
       "cooldown": "35 seconds"
     },
     "ultimate": {
@@ -26,17 +26,16 @@
   },
   "patch_history": [
     {
-      "patch": "September 16, 2025 Patch",
+      "patch": "Season 26 : Showdown",
       "details": [
-        "Tracker Dart\nTracking duration now 12s (was 15)\nNew VFX when aiming to show if your dart will activate a nearby Enemy Scan Beacon",
-        "Stinger Bolt\nBolt health now 400 (was 550)\nBolt’s pulsing now slows Sparrow and his allies, not just enemies\nAdjusted the animations when aiming Stinger Bolt to make it easier to see the trajectory",
-        "Upgrades: Level 2\nExtra Traps: now gives 1 additional trap in world (was 2)"
+        "[Tactical] Adjust -> Tracker Dart: tracking duration now 12s (was 15)"
       ]
     },
     {
-      "patch": "May 6, 2025 Patch",
+      "patch": "Season 25 : Prodigy",
       "details": [
-        "Introduced."
+        "[Passive] Buff -> Double Jump - Press jump while in the air to jump again",
+        "[Tactical] Buff -> Tracker Dart - Shoot a tracker from your gauntlet that will reveal enemies who walk within its line of sight"
       ]
     }
   ],
@@ -48,25 +47,25 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
-          "recommended": false
+          "name": "Extra Traps",
+          "description": "Gains an additional Tactical charge and +2 traps in world.",
+          "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
-          "recommended": true
+          "name": "Hunt Target",
+          "description": "Sparrow gains a speed boost when running towards a marked enemy.",
+          "recommended": false
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "name": "Alternate Mode",
+          "description": "Ult now has 3 charges that fire fewer pulses in a smaller radius.",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "name": "Life Siphon",
+          "description": "Sparrow's health and shields are recovered if enemies are damaged by his Ult.",
           "recommended": false
         }
       }

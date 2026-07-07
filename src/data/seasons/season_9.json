@@ -1,759 +1,850 @@
 {
-  "season": "9",
-  "name": "Legacy",
-  "start_date": "May 04, 2021",
-  "end_date": "August 03, 2021",
-  "infobox": {
+    "season": "9",
     "name": "Legacy",
-    "New Legend": "Valkyrie",
-    "New weapon": "Bocek Compound Bow",
-    "Featured map": "Olympus",
-    "Season Quest": "\" The Legacy Antigen",
-    "Theme": "Japanese culture",
-    "Reactive weapon": "Devotion LMG",
-    "Start date": "May 04, 2021",
-    "End date": "August 03, 2021",
-    "Events": "Genesis | Thrillseekers"
-  },
-  "max_level": 110,
-  "rewards": {
-    "level_1": {
-      "premium": [
-        "M600 Spitfire skin: Way of the Serpent",
-        "Octane skin: Daruma Darter",
-        "Mirage skin: Performance Artist",
-        "Bangalore skin: Battle Bouquet",
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_2": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Alternator SMG skin: Flower Bed"
-      ]
-    },
-    "level_3": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Loading Screen : Who's Coming To Dinner?"
-      ]
-    },
-    "level_4": {
-      "premium": [
-        "Pathfinder Holo-Spray : Good Job, Me"
-      ],
-      "free": [
-        "Music Pack : Legacy"
-      ]
-    },
-    "level_5": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Apex Coins 100"
-      ]
-    },
-    "level_6": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Fuse Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_7": {
-      "premium": [
-        "Longbow DMR skin: Enflamed"
-      ],
-      "free": [
-        "Mirage Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_8": {
-      "premium": [
-        "Valkyrie Quip Kill Quip : \"I shot at the Commissioner too\""
-      ],
-      "free": [
-        "Bangalore Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_9": {
-      "premium": [
-        "Valkyrie Holo-Spray : Born To Fly"
-      ],
-      "free": [
-        "Prowler Burst PDW skin: Rebirth"
-      ]
-    },
-    "level_10": {
-      "premium": [
-        "Bloodhound Quip Kill Quip : \"We will meet in Valhalla.\""
-      ],
-      "free": [
-        "Fuse Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_11": {
-      "premium": [
-        "Caustic Banner Frame : Ghost in the Gas"
-      ],
-      "free": [
-        "Mirage Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_12": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Bangalore Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_13": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_14": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Caustic Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_15": {
-      "premium": [
-        "VK-47 Flatline skin: Coin Flip"
-      ],
-      "free": [
-        "Wattson Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_16": {
-      "premium": [
-        "Revenant Banner Frame : Studied the Blade"
-      ],
-      "free": [
-        "Lifeline Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_17": {
-      "premium": [
-        "Wattson Quip Kill Quip : \"Engineering, Patience and Ingenuity\""
-      ],
-      "free": [
-        "Mozambique Shotgun skin: Streaked in Blood"
-      ]
-    },
-    "level_18": {
-      "premium": [
-        "Loading Screen : No Cameras. No Fans. No Autographs."
-      ],
-      "free": [
-        "Caustic Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_19": {
-      "premium": [
-        "Horizon Holo-Spray : A Promise to Keep"
-      ],
-      "free": [
-        "Wattson Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_20": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Lifeline Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_21": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_22": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Bloodhound Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_23": {
-      "premium": [
-        "G7 Scout skin: Textile Precision"
-      ],
-      "free": [
-        "Rampart Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_24": {
-      "premium": [
-        "Gibraltar Quip Kill Quip : \"I used to run with a bad crowd\""
-      ],
-      "free": [
-        "Loba Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_25": {
-      "premium": [
-        "Rampart skin: Crafty Kitsune"
-      ],
-      "free": [
-        "Wingman skin: Wake Up"
-      ]
-    },
-    "level_26": {
-      "premium": [
-        "R-99 SMG skin: Take Flight"
-      ],
-      "free": [
-        "Bloodhound Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_27": {
-      "premium": [
-        "Charm Weapon Charm : Guiding Lantern"
-      ],
-      "free": [
-        "Rampart Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_28": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Loba Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_29": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_30": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Horizon Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_31": {
-      "premium": [
-        "Mirage Quip Kill Quip : \"That's what you get for stealing\""
-      ],
-      "free": [
-        "Pathfinder Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_32": {
-      "premium": [
-        "Loading Screen : High Speed Interstellar Travel Ain't Cheap"
-      ],
-      "free": [
-        "Crypto Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_33": {
-      "premium": [
-        "Octane Banner Frame : Screamin' Speed"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_34": {
-      "premium": [
-        "Kraber .50-Cal Sniper skin: Autumn Wind"
-      ],
-      "free": [
-        "Horizon Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_35": {
-      "premium": [
-        "Rampart Banner Frame : Perfect Trajectory"
-      ],
-      "free": [
-        "Pathfinder Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_36": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Crypto Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_37": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_38": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Revenant Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_39": {
-      "premium": [
-        "Wraith Quip Kill Quip : \"'Hope' is something you've lost.\""
-      ],
-      "free": [
-        "Gibraltar Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_40": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Valkyrie Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_41": {
-      "premium": [
-        "Pathfinder Quip Kill Quip : \"The same expression as my customers\""
-      ],
-      "free": [
-        "EVA-8 Auto skin: Petal to the Metal"
-      ]
-    },
-    "level_42": {
-      "premium": [
-        "HAVOC Rifle skin: Breezy"
-      ],
-      "free": [
-        "Revenant Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_43": {
-      "premium": [
-        "Bangalore Banner Frame : Honor and Beauty"
-      ],
-      "free": [
-        "Gibraltar Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_44": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Valkyrie Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_45": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Loading Screen : Kampai"
-      ]
-    },
-    "level_46": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Wraith Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_47": {
-      "premium": [
-        "Loading Screen : Call Your Next Witness"
-      ],
-      "free": [
-        "Octane Stat Tracker : Season 9 Kills"
-      ]
-    },
-    "level_48": {
-      "premium": [
-        "Fuse Holo-Spray : Put Up Your Tunes"
-      ],
-      "free": []
-    },
-    "level_49": {
-      "premium": [
-        "Charm Weapon Charm : Little Friend"
-      ],
-      "free": [
-        "P2020 skin: Thunderstruck"
-      ]
-    },
-    "level_50": {
-      "premium": [
-        "Wraith skin: Demon's Whisper"
-      ],
-      "free": [
-        "Wraith Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_51": {
-      "premium": [
-        "Crypto Quip Kill Quip : \"All I Saw were Zeros and Ones\""
-      ],
-      "free": [
-        "Octane Stat Tracker : Season 9 Wins"
-      ]
-    },
-    "level_52": {
-      "premium": [
-        "Octane Skydive Emote : Just Keep Swimming"
-      ],
-      "free": []
-    },
-    "level_53": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Valkyrie skin: Intricate Detail"
-      ]
-    },
-    "level_54": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_55": {
-      "premium": [
-        "Devotion LMG skin: Lavender Fields"
-      ],
-      "free": []
-    },
-    "level_56": {
-      "premium": [
-        "Loading Screen : The Ghost of Viper"
-      ],
-      "free": []
-    },
-    "level_57": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Volt SMG skin: Crimson Tsunami"
-      ]
-    },
-    "level_58": {
-      "premium": [
-        "Revenant Quip Kill Quip : \"Kill the people who made me\""
-      ],
-      "free": []
-    },
-    "level_59": {
-      "premium": [
-        "Bloodhound Banner Frame : Forest Guardian"
-      ],
-      "free": []
-    },
-    "level_60": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_61": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_62": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Loading Screen : My Hero"
-      ]
-    },
-    "level_63": {
-      "premium": [
-        "Lifeline Quip Kill Quip : \"I take out the trash myself\""
-      ],
-      "free": []
-    },
-    "level_64": {
-      "premium": [
-        "Mirage Banner Frame : Endless Libations"
-      ],
-      "free": []
-    },
-    "level_65": {
-      "premium": [
-        "Sentinel skin: Demonic Resolve"
-      ],
-      "free": [
-        "R-301 Carbine skin: Golden Waves"
-      ]
-    },
-    "level_66": {
-      "premium": [
-        "Music Pack : Valkyrie"
-      ],
-      "free": []
-    },
-    "level_67": {
-      "premium": [
-        "Charm Weapon Charm : Blisk Pace"
-      ],
-      "free": []
-    },
-    "level_68": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_69": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Apex Coins 100"
-      ]
-    },
-    "level_70": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_71": {
-      "premium": [
-        "L-STAR EMG skin: Branch Strategy"
-      ],
-      "free": []
-    },
-    "level_72": {
-      "premium": [
-        "Rampart Quip Kill Quip : \"Sorry, mate. Boss may be watchin'\""
-      ],
-      "free": []
-    },
-    "level_73": {
-      "premium": [
-        "Caustic Skydive Emote : Unstable Footing"
-      ],
-      "free": [
-        "Mastiff Shotgun skin: Fractured Surface"
-      ]
-    },
-    "level_74": {
-      "premium": [
-        "Wraith Banner Frame : Void Gate"
-      ],
-      "free": []
-    },
-    "level_75": {
-      "premium": [
-        "M600 Spitfire skin: Cherry Dreams"
-      ],
-      "free": []
-    },
-    "level_76": {
-      "premium": [
-        "Loading Screen : A Mercenary Wife"
-      ],
-      "free": []
-    },
-    "level_77": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_78": {
-      "premium": [
-        "Horizon Quip Kill Quip : \"This isn't my first Science Fair\""
-      ],
-      "free": []
-    },
-    "level_79": {
-      "premium": [
-        "Triple Take skin: Iconic Aim"
-      ],
-      "free": []
-    },
-    "level_80": {
-      "premium": [
-        "Valkyrie Banner Frame : Scorch the Sky"
-      ],
-      "free": []
-    },
-    "level_81": {
-      "premium": [
-        "Hemlok Burst AR skin: Temple Guardian"
-      ],
-      "free": [
-        "RE-45 Auto skin: Gem Storm"
-      ]
-    },
-    "level_82": {
-      "premium": [
-        "Bangalore Quip Kill Quip : \"That's what you show up with?\""
-      ],
-      "free": []
-    },
-    "level_83": {
-      "premium": [
-        "Charm Weapon Charm : Lucky Tomcat"
-      ],
-      "free": []
-    },
-    "level_84": {
-      "premium": [
-        "Fuse Quip Kill Quip : \"You remind me of myself\""
-      ],
-      "free": []
-    },
-    "level_85": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "30-30 Repeater skin: Battle Blossom"
-      ]
-    },
-    "level_86": {
-      "premium": [
-        "Charge Rifle skin: Fan Out"
-      ],
-      "free": [
-        "Loading Screen : Pour One Out"
-      ]
-    },
-    "level_87": {
-      "premium": [
-        "Octane Quip Kill Quip : \"Kicked your ass without metal legs\""
-      ],
-      "free": []
-    },
-    "level_88": {
-      "premium": [
-        "Crypto Holo-Spray : Nothing I Can't Hack"
-      ],
-      "free": []
-    },
-    "level_89": {
-      "premium": [
-        "Pathfinder Banner Frame : Bento Bot"
-      ],
-      "free": []
-    },
-    "level_90": {
-      "premium": [
-        "Charm Weapon Charm : Double Agent"
-      ],
-      "free": []
-    },
-    "level_91": {
-      "premium": [
-        "Loba Quip Kill Quip : \"You had a humble end.\""
-      ],
-      "free": []
-    },
-    "level_92": {
-      "premium": [
-        "Valkyrie Skydive Emote : Showing Off"
-      ],
-      "free": []
-    },
-    "level_93": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Peacekeeper skin: Ride The Wave"
-      ]
-    },
-    "level_94": {
-      "premium": [
-        "Caustic Quip Kill Quip : \"Delighted more in those first kills\""
-      ],
-      "free": [
-        "Loading Screen : The Secret of My Success"
-      ]
-    },
-    "level_95": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_96": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_97": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_98": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_99": {
-      "premium": [
-        "VK-47 Flatline skin: Blood Legacy"
-      ],
-      "free": []
-    },
-    "level_100": {
-      "premium": [
-        "Devotion LMG skin: Bound in Bone [ note 2 ]"
-      ],
-      "free": [
-        "Apex Coins 100"
-      ]
-    },
-    "level_110": {
-      "premium": [
-        "Devotion LMG skin: Dragon's Spine [ note 2 ]"
-      ],
-      "free": [
-        "Badge : Legacy Level Season 9"
-      ]
+    "start_date": "May 04, 2021",
+    "end_date": "August 03, 2021",
+    "infobox": {
+        "name": "Legacy",
+        "New Legend": "Valkyrie",
+        "New weapon": "Bocek Compound Bow",
+        "Featured map": "Olympus",
+        "Season Quest": "\" The Legacy Antigen",
+        "Theme": "Japanese culture",
+        "Reactive weapon": "Devotion LMG",
+        "Start date": "May 04, 2021",
+        "End date": "August 03, 2021",
+        "Events": "Genesis | Thrillseekers"
+    },
+    "max_level": 110,
+    "rewards": {
+        "level_1": {
+            "premium": [
+                "M600 Spitfire skin: Way of the Serpent",
+                "Octane skin: Daruma Darter",
+                "Mirage skin: Performance Artist",
+                "Bangalore skin: Battle Bouquet",
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_2": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Alternator SMG skin: Flower Bed"
+            ]
+        },
+        "level_3": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Loading Screen : Who's Coming To Dinner?"
+            ]
+        },
+        "level_4": {
+            "premium": [
+                "Pathfinder Holo-Spray : Good Job, Me"
+            ],
+            "free": [
+                "Music Pack : Legacy"
+            ]
+        },
+        "level_5": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Apex Coins 100"
+            ]
+        },
+        "level_6": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Fuse Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_7": {
+            "premium": [
+                "Longbow DMR skin: Enflamed"
+            ],
+            "free": [
+                "Mirage Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_8": {
+            "premium": [
+                "Valkyrie Quip Kill Quip : \"I shot at the Commissioner too\""
+            ],
+            "free": [
+                "Bangalore Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_9": {
+            "premium": [
+                "Valkyrie Holo-Spray : Born To Fly"
+            ],
+            "free": [
+                "Prowler Burst PDW skin: Rebirth"
+            ]
+        },
+        "level_10": {
+            "premium": [
+                "Bloodhound Quip Kill Quip : \"We will meet in Valhalla.\""
+            ],
+            "free": [
+                "Fuse Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_11": {
+            "premium": [
+                "Caustic Banner Frame : Ghost in the Gas"
+            ],
+            "free": [
+                "Mirage Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_12": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Bangalore Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_13": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_14": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Caustic Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_15": {
+            "premium": [
+                "VK-47 Flatline skin: Coin Flip"
+            ],
+            "free": [
+                "Wattson Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_16": {
+            "premium": [
+                "Revenant Banner Frame : Studied the Blade"
+            ],
+            "free": [
+                "Lifeline Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_17": {
+            "premium": [
+                "Wattson Quip Kill Quip : \"Engineering, Patience and Ingenuity\""
+            ],
+            "free": [
+                "Mozambique Shotgun skin: Streaked in Blood"
+            ]
+        },
+        "level_18": {
+            "premium": [
+                "Loading Screen : No Cameras. No Fans. No Autographs."
+            ],
+            "free": [
+                "Caustic Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_19": {
+            "premium": [
+                "Horizon Holo-Spray : A Promise to Keep"
+            ],
+            "free": [
+                "Wattson Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_20": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Lifeline Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_21": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_22": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Bloodhound Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_23": {
+            "premium": [
+                "G7 Scout skin: Textile Precision"
+            ],
+            "free": [
+                "Rampart Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_24": {
+            "premium": [
+                "Gibraltar Quip Kill Quip : \"I used to run with a bad crowd\""
+            ],
+            "free": [
+                "Loba Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_25": {
+            "premium": [
+                "Rampart skin: Crafty Kitsune"
+            ],
+            "free": [
+                "Wingman skin: Wake Up"
+            ]
+        },
+        "level_26": {
+            "premium": [
+                "R-99 SMG skin: Take Flight"
+            ],
+            "free": [
+                "Bloodhound Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_27": {
+            "premium": [
+                "Charm Weapon Charm : Guiding Lantern"
+            ],
+            "free": [
+                "Rampart Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_28": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Loba Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_29": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_30": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Horizon Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_31": {
+            "premium": [
+                "Mirage Quip Kill Quip : \"That's what you get for stealing\""
+            ],
+            "free": [
+                "Pathfinder Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_32": {
+            "premium": [
+                "Loading Screen : High Speed Interstellar Travel Ain't Cheap"
+            ],
+            "free": [
+                "Crypto Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_33": {
+            "premium": [
+                "Octane Banner Frame : Screamin' Speed"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_34": {
+            "premium": [
+                "Kraber .50-Cal Sniper skin: Autumn Wind"
+            ],
+            "free": [
+                "Horizon Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_35": {
+            "premium": [
+                "Rampart Banner Frame : Perfect Trajectory"
+            ],
+            "free": [
+                "Pathfinder Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_36": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Crypto Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_37": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_38": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Revenant Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_39": {
+            "premium": [
+                "Wraith Quip Kill Quip : \"'Hope' is something you've lost.\""
+            ],
+            "free": [
+                "Gibraltar Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_40": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Valkyrie Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_41": {
+            "premium": [
+                "Pathfinder Quip Kill Quip : \"The same expression as my customers\""
+            ],
+            "free": [
+                "EVA-8 Auto skin: Petal to the Metal"
+            ]
+        },
+        "level_42": {
+            "premium": [
+                "HAVOC Rifle skin: Breezy"
+            ],
+            "free": [
+                "Revenant Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_43": {
+            "premium": [
+                "Bangalore Banner Frame : Honor and Beauty"
+            ],
+            "free": [
+                "Gibraltar Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_44": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Valkyrie Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_45": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Loading Screen : Kampai"
+            ]
+        },
+        "level_46": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Wraith Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_47": {
+            "premium": [
+                "Loading Screen : Call Your Next Witness"
+            ],
+            "free": [
+                "Octane Stat Tracker : Season 9 Kills"
+            ]
+        },
+        "level_48": {
+            "premium": [
+                "Fuse Holo-Spray : Put Up Your Tunes"
+            ],
+            "free": []
+        },
+        "level_49": {
+            "premium": [
+                "Charm Weapon Charm : Little Friend"
+            ],
+            "free": [
+                "P2020 skin: Thunderstruck"
+            ]
+        },
+        "level_50": {
+            "premium": [
+                "Wraith skin: Demon's Whisper"
+            ],
+            "free": [
+                "Wraith Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_51": {
+            "premium": [
+                "Crypto Quip Kill Quip : \"All I Saw were Zeros and Ones\""
+            ],
+            "free": [
+                "Octane Stat Tracker : Season 9 Wins"
+            ]
+        },
+        "level_52": {
+            "premium": [
+                "Octane Skydive Emote : Just Keep Swimming"
+            ],
+            "free": []
+        },
+        "level_53": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Valkyrie skin: Intricate Detail"
+            ]
+        },
+        "level_54": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_55": {
+            "premium": [
+                "Devotion LMG skin: Lavender Fields"
+            ],
+            "free": []
+        },
+        "level_56": {
+            "premium": [
+                "Loading Screen : The Ghost of Viper"
+            ],
+            "free": []
+        },
+        "level_57": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Volt SMG skin: Crimson Tsunami"
+            ]
+        },
+        "level_58": {
+            "premium": [
+                "Revenant Quip Kill Quip : \"Kill the people who made me\""
+            ],
+            "free": []
+        },
+        "level_59": {
+            "premium": [
+                "Bloodhound Banner Frame : Forest Guardian"
+            ],
+            "free": []
+        },
+        "level_60": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_61": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_62": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Loading Screen : My Hero"
+            ]
+        },
+        "level_63": {
+            "premium": [
+                "Lifeline Quip Kill Quip : \"I take out the trash myself\""
+            ],
+            "free": []
+        },
+        "level_64": {
+            "premium": [
+                "Mirage Banner Frame : Endless Libations"
+            ],
+            "free": []
+        },
+        "level_65": {
+            "premium": [
+                "Sentinel skin: Demonic Resolve"
+            ],
+            "free": [
+                "R-301 Carbine skin: Golden Waves"
+            ]
+        },
+        "level_66": {
+            "premium": [
+                "Music Pack : Valkyrie"
+            ],
+            "free": []
+        },
+        "level_67": {
+            "premium": [
+                "Charm Weapon Charm : Blisk Pace"
+            ],
+            "free": []
+        },
+        "level_68": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_69": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Apex Coins 100"
+            ]
+        },
+        "level_70": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_71": {
+            "premium": [
+                "L-STAR EMG skin: Branch Strategy"
+            ],
+            "free": []
+        },
+        "level_72": {
+            "premium": [
+                "Rampart Quip Kill Quip : \"Sorry, mate. Boss may be watchin'\""
+            ],
+            "free": []
+        },
+        "level_73": {
+            "premium": [
+                "Caustic Skydive Emote : Unstable Footing"
+            ],
+            "free": [
+                "Mastiff Shotgun skin: Fractured Surface"
+            ]
+        },
+        "level_74": {
+            "premium": [
+                "Wraith Banner Frame : Void Gate"
+            ],
+            "free": []
+        },
+        "level_75": {
+            "premium": [
+                "M600 Spitfire skin: Cherry Dreams"
+            ],
+            "free": []
+        },
+        "level_76": {
+            "premium": [
+                "Loading Screen : A Mercenary Wife"
+            ],
+            "free": []
+        },
+        "level_77": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_78": {
+            "premium": [
+                "Horizon Quip Kill Quip : \"This isn't my first Science Fair\""
+            ],
+            "free": []
+        },
+        "level_79": {
+            "premium": [
+                "Triple Take skin: Iconic Aim"
+            ],
+            "free": []
+        },
+        "level_80": {
+            "premium": [
+                "Valkyrie Banner Frame : Scorch the Sky"
+            ],
+            "free": []
+        },
+        "level_81": {
+            "premium": [
+                "Hemlok Burst AR skin: Temple Guardian"
+            ],
+            "free": [
+                "RE-45 Auto skin: Gem Storm"
+            ]
+        },
+        "level_82": {
+            "premium": [
+                "Bangalore Quip Kill Quip : \"That's what you show up with?\""
+            ],
+            "free": []
+        },
+        "level_83": {
+            "premium": [
+                "Charm Weapon Charm : Lucky Tomcat"
+            ],
+            "free": []
+        },
+        "level_84": {
+            "premium": [
+                "Fuse Quip Kill Quip : \"You remind me of myself\""
+            ],
+            "free": []
+        },
+        "level_85": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "30-30 Repeater skin: Battle Blossom"
+            ]
+        },
+        "level_86": {
+            "premium": [
+                "Charge Rifle skin: Fan Out"
+            ],
+            "free": [
+                "Loading Screen : Pour One Out"
+            ]
+        },
+        "level_87": {
+            "premium": [
+                "Octane Quip Kill Quip : \"Kicked your ass without metal legs\""
+            ],
+            "free": []
+        },
+        "level_88": {
+            "premium": [
+                "Crypto Holo-Spray : Nothing I Can't Hack"
+            ],
+            "free": []
+        },
+        "level_89": {
+            "premium": [
+                "Pathfinder Banner Frame : Bento Bot"
+            ],
+            "free": []
+        },
+        "level_90": {
+            "premium": [
+                "Charm Weapon Charm : Double Agent"
+            ],
+            "free": []
+        },
+        "level_91": {
+            "premium": [
+                "Loba Quip Kill Quip : \"You had a humble end.\""
+            ],
+            "free": []
+        },
+        "level_92": {
+            "premium": [
+                "Valkyrie Skydive Emote : Showing Off"
+            ],
+            "free": []
+        },
+        "level_93": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Peacekeeper skin: Ride The Wave"
+            ]
+        },
+        "level_94": {
+            "premium": [
+                "Caustic Quip Kill Quip : \"Delighted more in those first kills\""
+            ],
+            "free": [
+                "Loading Screen : The Secret of My Success"
+            ]
+        },
+        "level_95": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_96": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_97": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_98": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_99": {
+            "premium": [
+                "VK-47 Flatline skin: Blood Legacy"
+            ],
+            "free": []
+        },
+        "level_100": {
+            "premium": [
+                "Devotion LMG skin: Bound in Bone [ note 2 ]"
+            ],
+            "free": [
+                "Apex Coins 100"
+            ]
+        },
+        "level_110": {
+            "premium": [
+                "Devotion LMG skin: Dragon's Spine [ note 2 ]"
+            ],
+            "free": [
+                "Badge : Legacy Level Season 9"
+            ]
+        }
+    },
+    "patches": {
+        "Bangalore": [
+            {
+                "patch": "Saison 8",
+                "details": [
+                    "[Passive] Nerf -> Double Time : réduction de vitesse."
+                ]
+            }
+        ],
+        "Caustic": [
+            {
+                "patch": "Takeover: Caustic",
+                "details": [
+                    "[Ultimate] Buff -> Le poison a été renforcé.",
+                    "[Perks] Adjust -> Upgrades Level 2 : description du changement."
+                ]
+            }
+        ],
+        "Gibraltar": [
+            {
+                "patch": "Saison 8",
+                "details": [
+                    "[Passive] Buff -> Le bouclier de Gibraltar a été renforcé.",
+                    "[Perks] Adjust -> Upgrades Level 2 : description du changement."
+                ]
+            }
+        ],
+        "Loba": [
+            {
+                "patch": "Saison 8",
+                "details": [
+                    "[Passive] Buff -> Le vol a été amélioré.",
+                    "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge."
+                ]
+            }
+        ],
+        "Octane": [
+            {
+                "patch": "Saison 8",
+                "details": [
+                    "[Passive] Buff -> La vitesse a été améliorée.",
+                    "[Perks] Adjust -> Upgrades Level 2 : description du changement."
+                ]
+            }
+        ],
+        "Rampart": [
+            {
+                "patch": "Saison 8",
+                "details": [
+                    "[Passive] Buff -> La défense a été renforcée.",
+                    "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge."
+                ]
+            }
+        ],
+        "Revenant": [
+            {
+                "patch": "Takeover: Revenant",
+                "details": [
+                    "[Passive] Buff -> La vitesse a été améliorée.",
+                    "[Perks] Adjust -> Upgrades Level 2 : description du changement."
+                ]
+            }
+        ],
+        "Seer": [
+            {
+                "patch": "Saison 8",
+                "details": [
+                    "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge.",
+                    "[Perks] Adjust -> Upgrades Level 2 : description du changement."
+                ]
+            }
+        ],
+        "Vantage": [
+            {
+                "patch": "Saison 8",
+                "details": [
+                    "[Passive] Buff -> La vitesse a été améliorée.",
+                    "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge."
+                ]
+            }
+        ],
+        "Wraith": [
+            {
+                "patch": "Saison 8",
+                "details": [
+                    "[Passive] Buff -> La vitesse a été améliorée.",
+                    "[Perks] Adjust -> Upgrades Level 2 : description du changement."
+                ]
+            }
+        ]
     }
-  }
 }

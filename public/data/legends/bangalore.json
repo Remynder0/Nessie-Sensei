@@ -10,138 +10,129 @@
   "abilities": {
     "passive": {
       "name": "Double Time",
-      "description": "Taking fire while sprinting makes you move faster for a brief time.",
+      "description": "Taking fire while sprinting makes you move faster due to augmentation, increasing your movement speed by a moderate amount (5%).",
       "cooldown": ""
     },
     "tactical": {
       "name": "Smoke Launcher",
-      "description": "Fire a high-velocity smoke canister that explodes into a smoke wall on impact.\n\n[Patch Apex Legends™: Showdown Patch Notes - Buff]: Bangalore peut désormais utiliser de nouvelles mécaniques de percement pour éliminer les ennemis embusqués.",
-      "cooldown": "30 seconds"
+      "description": "Fire a high-velocity smoke canister that explodes into a smoke wall on impact, providing less cover and disrupting enemy positions. The smoke now lasts for 11 seconds. All players within the smoke will have a white highlight visible to other players in smoke within 20m.",
+      "cooldown": "20 seconds"
     },
     "ultimate": {
       "name": "Rolling Thunder",
-      "description": "Call in an artillery strike that slowly creeps across the landscape, starting left from the flare's position.",
-      "cooldown": "3.5 minutes"
+      "description": "Call in an artillery strike that slowly creeps across the landscape, starting left from the flare's position. The explosion now takes 8 seconds to complete, dealing reduced damage and having a smaller radius. Rolling Thunder also grants a speed bonus.",
+      "cooldown": "4.5 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "Showdown",
+      "patch": "Season 26 : Showdown",
       "details": [
-        "[Perks] Buff -> Bangalore a maintenant plus de flexibilité grâce à son arbre d'amélioration de légende.",
-        "[Tactical] Buff -> Bangalore peut désormais utiliser de nouvelles mécaniques de percement pour éliminer les ennemis embusqués."
+        "[Passive] Buff -> Double Time: speed increased by 5%",
+        "[Tactical] Adjust -> Smoke Launcher: canister breaks and travels through doors, projectile speed increased to 2900 (was 2500)."
       ]
     },
     {
-      "patch": "June 25, 2024 Patch",
+      "patch": "Season 21 : Upheaval",
       "details": [
-        "Smoke Launcher: all players within smoke will now have a white highlight visible to other players in smoke within 20m"
+        "[Tactical] Buff -> Smoke Launcher: all players within smoke will now have a white highlight visible to other players in smoke within 20m"
       ]
     },
     {
-      "patch": "March 26, 2024 Patch",
+      "patch": "Season 20 : Breakout",
       "details": [
-        "Rolling Thunder: Cooldown increased to 4.5 min (was 4)",
-        "Smoke Launcher\nCooldown increased to 35s (was 33)\nNo longer deals damage\nSmoke duration decreased to 11s (was 18)\nSmoke particles now dissipate faster",
-        "Upgrades: Level 2\nUltimate Cooldown+: removed\nNew - Tactical Cooldown: reduces Tactical cooldown by 5s",
-        "Upgrades: Level 3\nCover Me: Auto-Ping no longer tracks the player who triggered double time\nRefuge: Heal Rate increased to 3.5 HP/s (was 3HP/s)"
+        "[Passive] Nerf -> Double Time : réduction de vitesse.",
+        "[Ultimate] Buff -> L'ultime accorde un bonus de vitesse.",
+        "[Perks] Adjust -> Rolling Thunder Cooldown increased to 4.5m (was 4).",
+        "[Passive] Buff -> Smoke duration decreased to 11s (was 18)."
       ]
     },
     {
-      "patch": "October 31, 2023 Patch",
+      "patch": "Season 17 : Arsenal",
       "details": [
-        "Double Time: reduced duration to 2s (was 3s)",
-        "Smoke Launcher: smoke lifetime reduced to 18s (was 23s)",
-        "Rolling Thunder: stun duration reduced to 6s (was 8s)"
+        "[C.A.R. SMG pickup animation] Adjust -> Shifted to Ballistic.",
+        "[G7 Scout inspection animations] Adjust -> Two new animations."
       ]
     },
     {
-      "patch": "August 08, 2023 Patch",
+      "patch": "Season 16 : Revelry",
       "details": [
-        "Rolling Thunder to 240s (+60s)",
-        "Fixed ultimates not triggering if thrown on Ziprail Launcher and Skydive Towers.",
-        "Fixed ultimates not cooldown if they’re killed while holding the ultimate grenade."
+        "[Passive] Buff -> Double Time: increased movement speed while sliding.",
+        "[Ultimate] Nerf -> Rolling Thunder: reduced damage and radius."
       ]
     },
     {
-      "patch": "May 09, 2023 Patch",
+      "patch": "Season 14 : Hunted",
       "details": [
-        "(Undocumented) Bangalore's C.A.R. SMG pickup animation is shifted to Ballistic",
-        "(Undocumented) Bangalore has two G7 Scout inspection animations."
+        "[Passive] Nerf -> Double Time : reduced speed.",
+        "[Tactical] Buff -> Rolling Thunder : increased damage.",
+        "[Perks] Adjust -> Rolling Thunder : increased thunder duration."
       ]
     },
     {
-      "patch": "May 04, 2021 Patch",
+      "patch": "Season 13 : Saviors",
       "details": [
-        "Smoke Launcher: Thickened the smoke."
+        "[Passive] Nerf -> Double Time : reduced speed boost.",
+        "[Tactical] Buff -> Rolling Thunder : increased damage."
       ]
     },
     {
-      "patch": "March 15, 2021 Patch",
+      "patch": "Season 11 : Escape",
       "details": [
-        "Fixed an issue with her Cold Steel heirloom not making sound effects when performing attacks."
+        "[Passive] Nerf -> Double Time: reduced movement speed by 10%"
       ]
     },
     {
-      "patch": "March 09, 2021 Patch",
+      "patch": "Season 9 : Legacy",
       "details": [
-        "(Undocumented) Reduced the amount of particles from the smoke, effectively providing less cover from the outside (confirmed to be unintentional)."
+        "[Passive] Nerf -> Double Time : réduction de vitesse."
       ]
     },
     {
-      "patch": "February 02, 2021 Patch",
+      "patch": "Season 8 : Mayhem",
       "details": [
-        "Fixed an issue with the Dressed To Impress skin blocking vision while aiming down sights."
+        "[Heirloom] Fix -> Fixed an issue with her Cold Steel heirloom not making sound effects when performing attacks.",
+        "[Undocumented] Reduce particles from smoke -> Reduced the amount of particles from the smoke, effectively providing less cover from the outside (confirmed to be unintentional)."
       ]
     },
     {
-      "patch": "January 05, 2021 Patch",
+      "patch": "Season 7 : Ascension",
       "details": [
-        "Fixed an issue with Bangalore’s  Rolling Thunder missile passing through hatch doors when they are closed in World's Edge."
+        "Rolling Thunder: Reduced the time it takes for explosion from 8 seconds to 6 seconds.",
+        "Fixed an issue with Bangalore’s Rolling Thunder missile passing through hatch doors when they are closed in World's Edge."
       ]
     },
     {
-      "patch": "November 04, 2020 Patch",
+      "patch": "Season 6 : Boosted",
       "details": [
-        "Rolling Thunder: Reduced the time it takes for explosion from 8 seconds to 6 seconds."
+        "[Passive] Buff -> Double Time : vitesse de déplacement augmentée.",
+        "[Perks] Adjust -> Tactical Sense : réduction du temps de recharge."
       ]
     },
     {
-      "patch": "August 18, 2020 Patch",
+      "patch": "Season 5 : Fortune's Favor",
       "details": [
-        "Rolling Thunder: Decreased cooldown from 4.5 minutes to 3 minutes.",
-        "Smoke Launcher: Fixed an exploit with being able to see through the smoke when looking through a chain-link fence.",
-        "Fixed an issue with the La Catrina and Killing Machine skins obscuring views when ADS with certain optics."
+        "[Passive] Buff -> Double Time : augmentation de la durée.",
+        "[Tactical] Adjust -> Smoke Launcher : nouvelle description."
       ]
     },
     {
-      "patch": "March 03, 2020 Patch",
+      "patch": "Season 4 : Assimilation",
       "details": [
-        "Fixed bug for cases where Bangalore would appear invisible when equipped with certain skins. The Apex Overdrive and Killer B skins have been re-enabled now for affected players."
+        "[Base] Fix -> Fixed bug for cases where Bangalore would appear invisible when equipped with certain skins."
       ]
     },
     {
-      "patch": "November 05, 2019 Patch",
+      "patch": "Season 3 : Meltdown",
       "details": [
-        "Rolling Thunder: Fixed bug where sometimes the missiles would disappear after landing on the train."
+        "[Passive] Buff -> Double Time : vitesse de déplacement augmentée.",
+        "[Perks] Adjust -> Secure Transmission : réduction du temps de recharge."
       ]
     },
     {
-      "patch": "October 01, 2019 Patch",
+      "patch": "Season 1 : Wild Frontier",
       "details": [
-        "Rolling Thunder: Increased damage from 20 to 40."
-      ]
-    },
-    {
-      "patch": "August 13, 2019 Patch",
-      "details": [
-        "Fixed a bug where activating a healing item would cancel the Ultimate for Legends that need to prime it."
-      ]
-    },
-    {
-      "patch": "March 19, 2019 Patch",
-      "details": [
-        "Double Time: Reduced move speed bonus from 40% to 30%."
+        "[Base] Buff -> Double Time: Reduced move speed bonus from 40% to 30%"
       ]
     }
   ],
@@ -153,25 +144,25 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "name": "Electric Smoke",
+          "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "name": "Cover Me!",
+          "description": "Grants a shield to nearby teammates when you're downed, and they can revive you.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "name": "EMC payload",
+          "description": "",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "name": "Medal of Honor",
+          "description": "Grants a 10% increase to your team's healing speed.",
           "recommended": false
         }
       }

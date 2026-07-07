@@ -110,7 +110,8 @@ def extract_modified_legends(raw_text):
     if not content: return []
     try:
         return _parse_json_with_fallback(_extract_json_array(content))
-    except:
+    except Exception as e:
+        print(f"    -> [ERROR] Could not parse modified-legends list: {e}")
         return []
 
 def extract_legend_changes(legend_name, raw_text):
@@ -121,9 +122,9 @@ Each change object MUST have:
 - ability: The ability modified (e.g., "Passive", "Tactical", "Ultimate", "Perks", or "Base").
 - perk_name: If the ability modified is a "Perk", extract the exact name of the perk. Otherwise, leave empty "".
 - type: Exactly one of: "Buff", "Nerf", "Rework", "Adjust", or "Fix".
-- detail: A short summary of the overall change in French.
+- detail: A short summary of the overall change, in English.
 - stats_changes: A dictionary of specific stat changes (e.g., {{"cooldown": "20s -> 25s"}}). CRITICAL: If the raw text contains numbers changing, YOU MUST extract them here! Do NOT leave this empty if numbers are present.
-- raw_text: The exact original text of the change (translated to French).
+- raw_text: The exact original text of the change, in English (do not translate).
 
 Output a JSON array only. No markdown formatting.
 """
@@ -134,15 +135,51 @@ Output a JSON array only. No markdown formatting.
     if not content: return []
     try:
         return _parse_json_with_fallback(_extract_json_array(content))
-    except:
+    except Exception as e:
+        print(f"    -> [ERROR] Could not parse changes for {legend_name}: {e}")
         return []
+
+def translate_changes_to_french(changes):
+    """Translate only the human-readable fields of already-structured English
+    change objects into French. Kept as a separate pass from extraction so
+    the small local model isn't asked to structure AND translate at once."""
+    if not changes:
+        return changes
+
+    sys_prompt = """You are a professional French video game localization translator.
+You will receive a JSON array of Apex Legends patch change objects, written in English.
+
+Translate ONLY the "detail" and "raw_text" string values into natural, professional French.
+Do NOT translate or alter: JSON keys, "ability", "perk_name", "type", or anything inside "stats_changes"
+(numbers, units like "s"/"m", and stat names should stay as-is).
+Preserve the exact same array structure, same number of objects, same key order.
+
+Return ONLY the translated JSON array. No markdown formatting, no commentary.
+"""
+    content = call_llm([
+        {"role": "system", "content": sys_prompt},
+        {"role": "user", "content": json.dumps(changes, indent=2, ensure_ascii=False)}
+    ])
+    if not content:
+        print("    -> [WARN] Translation call failed, keeping English changes.")
+        return changes
+
+    try:
+        translated = _parse_json_with_fallback(_extract_json_array(content))
+        if isinstance(translated, list) and len(translated) == len(changes):
+            return translated
+        print("    -> [WARN] Translation output shape mismatch, keeping English changes.")
+        return changes
+    except Exception as e:
+        print(f"    -> [ERROR] Could not parse translated changes: {e}")
+        return changes
 
 def apply_legend_changes(legend_name, existing_data, new_changes, patch_name):
     sys_prompt = """You are an expert game data analyst for Apex Legends.
 Your task is to merge new patch notes into the existing JSON data of a Legend.
 INSTRUCTIONS:
 1. ABILITY REWRITING: For any ability or perk modified, rewrite its "description", "name" or "cooldown" naturally to reflect the new state. Do NOT append logs like "[Patch X: Buff]".
-2. PATCH HISTORY: Prepend the new patch to the "patch_history" array.
+2. PATCH HISTORY: Insert the new patch as an object into the "patch_history" array. Ensure you place it in the correct chronological order based on the season number, or update an existing entry if the patch name matches exactly. Do NOT just blindly prepend it if it's an older patch, and do NOT create duplicate or empty entries.
 3. PRESERVATION: Do NOT delete or alter any abilities/perks NOT mentioned in the patch.
 OUTPUT FORMAT: Return ONLY a valid JSON object with "abilities", "tactics", and "patch_history" keys.
 """
@@ -164,7 +201,8 @@ Please output the updated CURRENT LEGEND DATA JSON."""
     if not content: return None
     try:
         return _parse_json_with_fallback(_extract_json_object(content))
-    except:
+    except Exception as e:
+        print(f"    -> [ERROR] Could not parse merged data for {legend_name}: {e}")
         return None
 
 # ---------------------------------------------------------
@@ -187,13 +225,22 @@ def scrape_ea_news(season_name):
                     items = data['props']['pageProps']['newsDataFallback'].get('items', [])
                     for item in items:
                         title = item.get('title', '').lower()
-                        if 'patch' in title and season_name.lower() in title:
+                        slug_lower = item.get('slug', '').lower()
+                        # Same filter as the base EA scraper: don't require the
+                        # word "patch" in the title — event-style updates (e.g.
+                        # "Winter Wipeout") carry real legend changes too but
+                        # never say "patch" anywhere in their title.
+                        is_update_article = (
+                            item.get('type') == 'Game Updates' or 'patch' in slug_lower
+                        )
+                        season_matches = season_name.lower() in title or season_name.lower() in slug_lower
+                        if is_update_article and season_matches:
                             slug = item.get('slug')
                             print(f"[EA Scraper] Found matching article: {slug}")
                             
                             # Fetch article body
                             article_url = f"https://www.ea.com/en-us/games/apex-legends/news/{slug}"
-                            ar = requests.get(article_url, headers=HEADERS)
+                            ar = requests.get(article_url, headers=HEADERS, timeout=30)
                             ar.encoding = ar.apparent_encoding
                             asoup = BeautifulSoup(ar.text, 'html.parser')
                             for as_script in asoup.find_all('script'):
@@ -204,6 +251,7 @@ def scrape_ea_news(season_name):
         except Exception as e:
             print(f"[EA Scraper] Error on page {page}: {e}")
         page += 1
+        time.sleep(0.5)
     print("[EA Scraper] No matching EA article found.")
     return ""
 
@@ -296,6 +344,11 @@ def main():
         print("No patch notes found from sources.")
         return
         
+    os.makedirs("debug", exist_ok=True)
+    with open("debug/scraped_raw.txt", "w", encoding="utf-8") as f:
+        f.write(combined_raw)
+    print(f"[DEBUG] Scraped raw text saved to debug/scraped_raw.txt")
+        
     print("\n[LLM] Identifying modified legends...")
     modified_legends = extract_modified_legends(combined_raw)
     print(f"Modified Legends Found: {modified_legends}\n")
@@ -303,12 +356,23 @@ def main():
     for legend in modified_legends:
         print(f"--- Processing {legend} ---")
         
-        print(f"  [LLM] Extracting structured changes...")
+        print(f"  [LLM] Extracting structured changes (English)...")
         changes = extract_legend_changes(legend, combined_raw)
+        
+        with open(f"debug/structured_{legend}_en.json", "w", encoding="utf-8") as f:
+            json.dump(changes, f, indent=2, ensure_ascii=False)
+        print(f"  [DEBUG] Structured (English) data saved to debug/structured_{legend}_en.json")
         
         if not changes:
             print(f"  No structured changes extracted for {legend}.")
             continue
+
+        print(f"  [LLM] Translating changes to French...")
+        changes = translate_changes_to_french(changes)
+
+        with open(f"debug/structured_{legend}_fr.json", "w", encoding="utf-8") as f:
+            json.dump(changes, f, indent=2, ensure_ascii=False)
+        print(f"  [DEBUG] Translated (French) data saved to debug/structured_{legend}_fr.json")
             
         legend_file = os.path.join(LEGENDS_DIR, f"{legend.lower().replace(' ', '_')}.json")
         current_data = load_json(legend_file)
@@ -324,9 +388,17 @@ def main():
         }
         
         print(f"  [LLM] Merging changes with existing data...")
-        updated_subset = apply_legend_changes(legend, subset_data, changes, f"Saison {args.season.split('_')[0]} : {season_name}")
+        # Keep the full season id (e.g. "29_1" -> "29.1") so two different
+        # mid-season patches never collide onto the same patch_history label
+        # (which would make the LLM overwrite one with the other).
+        season_label = args.season.replace('_', '.')
+        updated_subset = apply_legend_changes(legend, subset_data, changes, f"Saison {season_label} : {season_name}")
         
-        if updated_subset:
+        with open(f"debug/merged_{legend}.json", "w", encoding="utf-8") as f:
+            json.dump(updated_subset, f, indent=2, ensure_ascii=False)
+        print(f"  [DEBUG] Merged data saved to debug/merged_{legend}.json")
+        
+        if isinstance(updated_subset, dict):
             current_data["abilities"] = updated_subset.get("abilities", current_data.get("abilities"))
             current_data["tactics"] = updated_subset.get("tactics", current_data.get("tactics"))
             current_data["patch_history"] = updated_subset.get("patch_history", current_data.get("patch_history"))
@@ -334,7 +406,7 @@ def main():
             save_json(legend_file, current_data)
             print(f"  [SUCCESS] Successfully applied patch to {legend}!")
         else:
-            print(f"  [FAILED] Failed to merge data for {legend}.")
+            print(f"  [FAILED] Failed to merge data for {legend}. Invalid format returned by LLM.")
 
 if __name__ == "__main__":
     main()

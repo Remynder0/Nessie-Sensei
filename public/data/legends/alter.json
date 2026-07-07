@@ -10,94 +10,76 @@
   "abilities": {
     "passive": {
       "name": "Gift From The Rift",
-      "description": "Can remotely interact with a deathbox to claim one item. Cannot be a shield core.",
+      "description": "Can remotely interact with a deathbox to claim one item. Cannot be a shield core. Loot in Death Boxes can now be pinged while using Alter's passive.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Void Passage",
-      "description": "Creates a portal passageway through a surface.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Nerf]: Alter's cooldown is increased.",
+      "description": "Creates a portal passageway through a surface, allowing players and projectiles to safely traverse it without getting stuck in the ceiling or floor. The portal is now active for 8s after opening.",
       "cooldown": "25 seconds"
     },
     "ultimate": {
       "name": "Void Nexus",
-      "description": "Create a regroup point that all allies can remotely interact with to open a phase tunnel back to that location.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Nerf]: Alter's range and recall times are decreased.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Nerf]: Alter's ally recall time is increased.\n\n[Patch Apex Legends™: Overclocked Patch Notes - Nerf]: Alter's chase portal open time is decreased.",
+      "description": "Create a regroup point that all allies can remotely interact with to open a phase tunnel back to that location.",
       "cooldown": "2 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "Saison 29 : Overclocked",
+      "patch": "Season 29 : Overclocked",
       "details": [
-        "[Tactical] Nerf -> Alter's cooldown is increased.",
-        "[Ultimate] Nerf -> Alter's range and recall times are decreased.",
-        "[Ultimate] Nerf -> Alter's ally recall time is increased.",
-        "[Ultimate] Nerf -> Alter's chase portal open time is decreased."
+        "[Tactical] Nerf -> Increased Cooldown from 20s to 25s.",
+        "[Ultimate] Nerf -> Decreased Range from 300m to 250m.",
+        "[Ultimate] Nerf -> Increased Recall Time from 2s to 3s.",
+        "[Ultimate] Nerf -> Increased Ally Recall Time from 3s to 4s.",
+        "[Ultimate] Nerf -> Decreased Chase Portal Open Time from 6s to 4s.",
+        "[Perks] Adjust -> [Void Breacher]: Decreased movement speed from 30% to 15%."
       ]
     },
     {
-      "patch": "May 5, 2026 Patch",
+      "patch": "Season 26 : Showdown (Midseason)",
       "details": [
-        "Void Passage:\nIncreased cooldown from 20s to 25s.",
-        "Void Nexus:\nDecreased range from 300m to 250m.\nIncreased recall time from 2s to 3s.\nIncreased ally recall time from 3s to 4s.\nDecreased chase portal open time from 6s to 4s.",
-        "Upgrades: Level 3\nVoid Breacher:\nDecreased movement speed from 30% to 15%."
+        "[Base] Adjust -> Can no longer use Void Nexus while knocked (but you can still summon knocked teammates).",
+        "[Base] Fix -> Only 1 Void Nexus allowed in the world (was 2)."
       ]
     },
     {
-      "patch": "October 7, 2025 Patch",
+      "patch": "Season 25 : Prodigy",
       "details": [
-        "Can no longer use Void Nexus while knocked (but you can still summon knocked teammates).",
-        "Only 1 Void Nexus allowed in the world (was 2)."
+        "[Ultimate] Buff -> Chase portal usage warning delay reduced to 3.5s (was 5s)",
+        "[Ultimate] Buff -> Chase portal activation delay reduced to 6s (was 8s, Previous Hotfix)",
+        "[Ultimate] Nerf -> Cooldown after usage increased to 60s (was 30s, Previous Hotfix)",
+        "[Base] Fix -> Fixed issue where any legend would cancel the void nexus activation if you tried to travel to it while holding an ultimate in your hands.",
+        "[Base] Fix -> Fixed issue where Lifeline would cancel the void nexus activation if she did a hard fall impact.",
+        "[Base] Fix -> Fixed enemy and dummy highlighting in the void and from Alter’s tactical not working when friendly fire was enabled in the firing range.",
+        "[Base] Fix -> Fixed issue where Alter’s teammate would not get an MRB when crafting banners if Alter had selected the “Friends” upgrade, but was dead."
       ]
     },
     {
-      "patch": "July 17, 2025 Patch",
+      "patch": "Season 23 : From the Rift (Midseason)",
       "details": [
-        "Void Nexus:\nIncreased time for knocked allies to use portal by 1s.\nIncreased chase portal open duration from 8s to 10s.\nDecreased warning time of portal from 3.5s to 2.5s",
-        "Upgrades: Level 2\nNEW Controller of Worlds: grants access to  Controller perks.\nFriends: removed."
+        "[Base] Buff -> Loot in Death Boxes can now be pinged while using Alter’s passive.",
+        "[Passive] Nerf -> Void Nexus: cooldown reduced to 120s (was 180s)."
       ]
     },
     {
-      "patch": "June 24, 2025 Patch",
+      "patch": "Season 22 : Shockwave",
       "details": [
-        "Chase portal usage warning delay reduced to 3.5s (was 5s)"
+        "[Base] Buff -> Channel time when knocked decreased to 2s.",
+        "[Base] Nerf -> Chase portal duration decreased 8s.",
+        "[Base] Adjust -> Chase portal opening delay increased to 8s.",
+        "[Base] Buff -> Increased travel speed to void nexus by about 40%.",
+        "[Base] Buff -> Ult cooldown reduced to 3 min.",
+        "[Perks] Adjust -> NEW Ringmaster: gain access to Ring Consoles"
       ]
     },
     {
-      "patch": "June 03, 2025 Patch",
+      "patch": "Season 21 : Upheaval",
       "details": [
-        "Reduced the delay when following an enemy Alter's Ultimate portal from 8s -> 6s.",
-        "Increased Nexus re-activation delay from 30s -> 60s."
-      ]
-    },
-    {
-      "patch": "March 25, 2025 Patch",
-      "details": [
-        "Void Passage\nNow has two charges\nMaximum portal depth increased to 30m (was 20m)\nCooldown reduced to 20s (was 30s, Tac Cooldown+ upgrade integrated into base kit)\nHealth Bars shown on enemies after going through your own Void Passage (Void Vision upgrade integrated into base kit)\nMaximum length of Void Siphon (interactable rope with tactical portals) created from ceilings increased to 45m (was 30m)\nAlso now created when placing unreachable portals on walls with a maximum length of 20m\nPlacement preview now shows where a Void Siphon will be created, if there will be one\nVoid Passage briefly highlights enemies on the other side immediately after placement",
-        "Void Nexus\nNow reusable with each player having their own 30s cooldown\nTwo can be active in the world at the same time (integrated part of Multidimensional upgrade into base kit)\nInteract directly with a Void Nexus to 'summon' your knocked allies, and summoned allies can move and use their knockdown shield\nUlt is otherwise not interactable from a short distance, making it easier to revive a squadmate without accidentally triggering the Void Nexus",
-        "Gift From The Rift: can now grab Banners when using passive on a squadmate’s Death Box",
-        "Upgrades: Level 2\nRingmaster: removed\nVoid Vision: removed\nNEW “Friends”: gain all support perks (access Support Bins, faster revives with health regen, gain MRB with Banners (works with Gift from the Rift))\nNEW Eye to Another World: gain all Recon Perks (access Recon Beacons, gain threat vision when ADSing)",
-        "Upgrades: Level 3\nMultidimensional: removed\nTactical Cooldown+: removed\nNEW Void Breacher: using a friendly Void Passage grants move speed and improved reloads\nNEW Staring into the Void: Void Passage scan duration +15s for Alter (lasts duration of the Void Passage)\nNote: scan requires line of sight to enemy from the portal exit and to the portal entrance for Alter"
-      ]
-    },
-    {
-      "patch": "January 07, 2025 Patch",
-      "details": [
-        "Void Nexus\nCooldown reduced to 120s (was 180s)\nNo longer times out by default\nRange increased to 300m (was 200m)",
-        "Upgrades: Level 3\n Eternal Nexus: removed, moved into base kit\nNEW File:Multidimensional.svg Multidimensional: grants a second Void Nexus and both can exist at the same time",
-        "Loot in Death Boxes can now be pinged while using Alter’s  passive",
-        "Passive prompt should no longer show up without looking at a Death Box occasionally, including after respawning"
-      ]
-    },
-    {
-      "patch": "June 25, 2024 Patch",
-      "details": [
-        "Void Passage: Crypto's  Drone EMP will now affect all players phased by the Void Passage"
-      ]
-    },
-    {
-      "patch": "May 07, 2024 Patch",
-      "details": [
-        "Added."
+        "[Base] Buff -> Players should no longer rarely get stuck in the ceiling/floor when using a Void Passage.",
+        "[Base] Fix -> Stuck projectiles (such as Arc Stars) now fall off correctly when traveling through a Void Passage.",
+        "[Base] Fix -> Tac’s Void Siphon (the interactable part) no longer missing a cooldown after exiting a Void Passage.",
+        "[Passive] Buff -> Into the Void and Dimensional Rift: nearby enemies will be highlighted for players traveling through the Void"
       ]
     }
   ],
@@ -109,25 +91,25 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "name": "Eye to another world",
+          "description": "Gained access to Ring Consoles, allowing for easier navigation and strategy.",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "name": "Controller of worlds",
+          "description": "Gained access to Ring Consoles, allowing for easier navigation and strategy.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "name": "Staring into the void",
+          "description": "A mysterious perk that offers unknown benefits.",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "name": "Void Breacher",
+          "description": "Gained access to Ring Consoles, allowing for easier navigation and strategy.",
           "recommended": false
         }
       }

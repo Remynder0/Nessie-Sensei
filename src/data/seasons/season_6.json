@@ -1,711 +1,1085 @@
 {
-  "season": "6",
-  "name": "Boosted",
-  "start_date": "August 18, 2020",
-  "end_date": "November 04, 2020",
-  "infobox": {
+    "season": "6",
     "name": "Boosted",
-    "New Legend": "Rampart",
-    "New weapon": "Volt SMG",
-    "Featured map": "World's Edge",
-    "Season Quest": "\" The First Ship",
-    "Theme": "Cars/Racing",
-    "Reactive weapon": "G7 Scout",
-    "Start date": "August 18, 2020",
-    "End date": "November 04, 2020",
-    "Events": "Aftermarket | Fight or Fright (2020) Fight or Fright"
-  },
-  "max_level": 110,
-  "rewards": {
-    "level_1": {
-      "premium": [
-        "Sentinel Skin: Rollcage",
-        "Bangalore Skin: Victory Lap",
-        "Octane Skin: Hit and Run",
-        "Mirage Skin: Stunt Double",
-        "XP Boost [ note 2 ]"
-      ],
-      "free": [
-        "Rampart Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_2": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Rampart Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_3": {
-      "premium": [
-        "Apex Coins 50"
-      ],
-      "free": [
-        "Pathfinder Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_4": {
-      "premium": [
-        "Octane Holo-Spray : Catch me if you can!"
-      ],
-      "free": [
-        "Gibraltar Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_5": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_6": {
-      "premium": [
-        "XP Boost [ note 2 ]"
-      ],
-      "free": [
-        "Wraith Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_7": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Crypto Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_8": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_9": {
-      "premium": [
-        "Music Pack : Boosted"
-      ],
-      "free": [
-        "Bangalore Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_10": {
-      "premium": [
-        "R-99 SMG Skin: Carbon Cross"
-      ],
-      "free": [
-        "Wattson Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_11": {
-      "premium": [
-        "Charm Weapon Charm : Tools of the Trade"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_12": {
-      "premium": [
-        "Pathfinder Banner Frame : Energized"
-      ],
-      "free": [
-        "Octane Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_13": {
-      "premium": [
-        "Apex Coins 50"
-      ],
-      "free": [
-        "Loba Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_14": {
-      "premium": [
-        "XP Boost [ note 2 ]"
-      ],
-      "free": [
-        "Lifeline Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_15": {
-      "premium": [
-        "Longbow DMR Skin: Rumble Strip"
-      ],
-      "free": [
-        "Mirage Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_16": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Caustic Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_17": {
-      "premium": [
-        "HAVOC Rifle Skin: Circuit Board"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_18": {
-      "premium": [
-        "Revenant Banner Frame : Death Tuner"
-      ],
-      "free": [
-        "Bloodhound Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_19": {
-      "premium": [
-        "L-STAR EMG Skin: Notched"
-      ],
-      "free": [
-        "Revenant Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_20": {
-      "premium": [
-        "Wraith Banner Frame : On The Prowl"
-      ],
-      "free": [
-        "Revenant Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_21": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Bloodhound Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_22": {
-      "premium": [
-        "XP Boost [ note 2 ]"
-      ],
-      "free": [
-        "Caustic Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_23": {
-      "premium": [
-        "Loading Screen : Destination Unkown"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_24": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Mirage Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_25": {
-      "premium": [
-        "Pathfinder Skin: Full Throttle"
-      ],
-      "free": [
-        "Lifeline Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_26": {
-      "premium": [
-        "Mastiff Shotgun Skin: Acid Burn"
-      ],
-      "free": [
-        "Loba Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_27": {
-      "premium": [
-        "Charm Weapon Charm : Fantastic Plastic"
-      ],
-      "free": [
-        "Octane Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_28": {
-      "premium": [
-        "Bangalore Banner Frame : Muscled Up"
-      ],
-      "free": [
-        "Wattson Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_29": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_30": {
-      "premium": [
-        "XP Boost [ note 2 ]"
-      ],
-      "free": [
-        "Bangalore Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_31": {
-      "premium": [
-        "Loading Screen : Self-Destruct"
-      ],
-      "free": [
-        "Crypto Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_32": {
-      "premium": [
-        "Mozambique Shotgun Skin: Short Shifter"
-      ],
-      "free": [
-        "Wraith Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_33": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Gibraltar Stat Tracker : Season 6 Wins"
-      ]
-    },
-    "level_34": {
-      "premium": [
-        "Bangalore Skydive Emote : Controlled Demolition"
-      ],
-      "free": [
-        "Pathfinder Stat Tracker : Season 6 Kills"
-      ]
-    },
-    "level_35": {
-      "premium": [
-        "EVA-8 Auto Skin: Exposed Core"
-      ],
-      "free": []
-    },
-    "level_36": {
-      "premium": [
-        "Caustic Banner Frame : Failed Emissions"
-      ],
-      "free": []
-    },
-    "level_37": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_38": {
-      "premium": [
-        "XP Boost [ note 2 ]"
-      ],
-      "free": []
-    },
-    "level_39": {
-      "premium": [
-        "Octane Quip Kill Quip : I was bored until you came along"
-      ],
-      "free": []
-    },
-    "level_40": {
-      "premium": [
-        "VK-47 Flatline Skin: Spray Coat"
-      ],
-      "free": []
-    },
-    "level_41": {
-      "premium": [
-        "Pathfinder Quip Kill Quip : I'm going to a party after this"
-      ],
-      "free": []
-    },
-    "level_42": {
-      "premium": [
-        "Charm Weapon Charm : Rims"
-      ],
-      "free": []
-    },
-    "level_43": {
-      "premium": [
-        "Gibraltar Quip Kill Quip : You're a bit too slow, brother"
-      ],
-      "free": []
-    },
-    "level_44": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_45": {
-      "premium": [
-        "Wraith Skydive Emote : Spiralling Void"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_46": {
-      "premium": [
-        "XP Boost [ note 2 ]"
-      ],
-      "free": []
-    },
-    "level_47": {
-      "premium": [
-        "Loading Screen : Aftermatch"
-      ],
-      "free": []
-    },
-    "level_48": {
-      "premium": [
-        "Alternator SMG Skin: Hot Pursuit"
-      ],
-      "free": []
-    },
-    "level_49": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_50": {
-      "premium": [
-        "Bloodhound Skin: Road Warrior"
-      ],
-      "free": []
-    },
-    "level_51": {
-      "premium": [
-        "P2020 Skin: Open Circuit"
-      ],
-      "free": []
-    },
-    "level_52": {
-      "premium": [
-        "Octane Banner Frame : Fuel Injected"
-      ],
-      "free": []
-    },
-    "level_53": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Rampart Skin: Cascade"
-      ]
-    },
-    "level_54": {
-      "premium": [
-        "XP Boost [ note 2 ]"
-      ],
-      "free": []
-    },
-    "level_55": {
-      "premium": [
-        "M600 Spitfire Skin: Abstract"
-      ],
-      "free": []
-    },
-    "level_56": {
-      "premium": [
-        "Loading Screen : The Referral"
-      ],
-      "free": []
-    },
-    "level_57": {
-      "premium": [
-        "Devotion LMG Skin: The Finisher"
-      ],
-      "free": []
-    },
-    "level_58": {
-      "premium": [
-        "R-301 Carbine Skin: Jet Setter"
-      ],
-      "free": []
-    },
-    "level_59": {
-      "premium": [
-        "Rampart Skydive Emote : Spray and Sway"
-      ],
-      "free": []
-    },
-    "level_60": {
-      "premium": [
-        "Hemlok Burst AR Skin: Neon Glow"
-      ],
-      "free": []
-    },
-    "level_61": {
-      "premium": [
-        "Bloodhound Banner Frame : Boneyard Bound"
-      ],
-      "free": []
-    },
-    "level_62": {
-      "premium": [
-        "XP Boost [ note 2 ]"
-      ],
-      "free": []
-    },
-    "level_63": {
-      "premium": [
-        "Charge Rifle Skin: Mainframe Online"
-      ],
-      "free": []
-    },
-    "level_64": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_65": {
-      "premium": [
-        "Triple Take Skin: Ocean Breeze"
-      ],
-      "free": []
-    },
-    "level_66": {
-      "premium": [
-        "Charm Weapon Charm : Chrome Hound"
-      ],
-      "free": []
-    },
-    "level_67": {
-      "premium": [
-        "Rampart Quip Kill Quip : Maybe give it a rest"
-      ],
-      "free": []
-    },
-    "level_68": {
-      "premium": [
-        "Lifeline Banner Frame : Car Package"
-      ],
-      "free": []
-    },
-    "level_69": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_70": {
-      "premium": [
-        "XP Boost [ note 2 ]"
-      ],
-      "free": []
-    },
-    "level_71": {
-      "premium": [
-        "Bloodhound Holo-Spray : Slátra and victory!"
-      ],
-      "free": []
-    },
-    "level_72": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_73": {
-      "premium": [
-        "Lifeline Quip Kill Quip : This ain't no place for you"
-      ],
-      "free": []
-    },
-    "level_74": {
-      "premium": [
-        "Loading Screen : Midnight Pint"
-      ],
-      "free": []
-    },
-    "level_75": {
-      "premium": [
-        "Sentinel Skin: Grieving Widow"
-      ],
-      "free": []
-    },
-    "level_76": {
-      "premium": [
-        "Charm Weapon Charm : The Score"
-      ],
-      "free": []
-    },
-    "level_77": {
-      "premium": [
-        "Loba Banner Frame : Moonlit Gateway"
-      ],
-      "free": []
-    },
-    "level_78": {
-      "premium": [
-        "Wraith Holo-Spray : Looking for me?"
-      ],
-      "free": []
-    },
-    "level_79": {
-      "premium": [
-        "Prowler Burst PDW Skin: Royal Streak"
-      ],
-      "free": []
-    },
-    "level_80": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_81": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_82": {
-      "premium": [
-        "Kraber .50-Cal Sniper Skin: Outside Groove"
-      ],
-      "free": []
-    },
-    "level_83": {
-      "premium": [
-        "Revenant Skydive Emote : Exhumed"
-      ],
-      "free": []
-    },
-    "level_84": {
-      "premium": [
-        "Rampart Banner Frame : Pit Lane"
-      ],
-      "free": []
-    },
-    "level_85": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_86": {
-      "premium": [
-        "Mirage Holo-Spray : Bamboozled!"
-      ],
-      "free": []
-    },
-    "level_87": {
-      "premium": [
-        "Peacekeeper Skin: Infinite Overload"
-      ],
-      "free": []
-    },
-    "level_88": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_89": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_90": {
-      "premium": [
-        "Wingman Skin: Gridlocked"
-      ],
-      "free": []
-    },
-    "level_91": {
-      "premium": [
-        "Music Pack : Rampart"
-      ],
-      "free": []
-    },
-    "level_92": {
-      "premium": [
-        "Caustic Skydive Emote : Chemtrails"
-      ],
-      "free": []
-    },
-    "level_93": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_94": {
-      "premium": [
-        "Loba Holo-Spray : It's not me. It's you."
-      ],
-      "free": []
-    },
-    "level_95": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_96": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_97": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_98": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Volt SMG Skin: Data Protector"
-      ]
-    },
-    "level_99": {
-      "premium": [
-        "RE-45 Auto Skin: Neon Candy"
-      ],
-      "free": [
-        "RE-45 Auto Skin: Speed Trap"
-      ]
-    },
-    "level_100": {
-      "premium": [
-        "G7 Scout Skin: Supersonic"
-      ],
-      "free": [
-        "G7 Scout Skin: Downforce"
-      ]
-    },
-    "level_110": {
-      "premium": [
-        "G7 Scout Skin: Hypersonic"
-      ],
-      "free": [
-        "Badge : Boosted Level Season 6 Badge"
-      ]
+    "start_date": "August 18, 2020",
+    "end_date": "November 04, 2020",
+    "infobox": {
+        "name": "Boosted",
+        "New Legend": "Rampart",
+        "New weapon": "Volt SMG",
+        "Featured map": "World's Edge",
+        "Season Quest": "\" The First Ship",
+        "Theme": "Cars/Racing",
+        "Reactive weapon": "G7 Scout",
+        "Start date": "August 18, 2020",
+        "End date": "November 04, 2020",
+        "Events": "Aftermarket | Fight or Fright (2020) Fight or Fright"
+    },
+    "max_level": 110,
+    "rewards": {
+        "level_1": {
+            "premium": [
+                "Sentinel Skin: Rollcage",
+                "Bangalore Skin: Victory Lap",
+                "Octane Skin: Hit and Run",
+                "Mirage Skin: Stunt Double",
+                "XP Boost [ note 2 ]"
+            ],
+            "free": [
+                "Rampart Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_2": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Rampart Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_3": {
+            "premium": [
+                "Apex Coins 50"
+            ],
+            "free": [
+                "Pathfinder Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_4": {
+            "premium": [
+                "Octane Holo-Spray : Catch me if you can!"
+            ],
+            "free": [
+                "Gibraltar Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_5": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_6": {
+            "premium": [
+                "XP Boost [ note 2 ]"
+            ],
+            "free": [
+                "Wraith Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_7": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Crypto Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_8": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_9": {
+            "premium": [
+                "Music Pack : Boosted"
+            ],
+            "free": [
+                "Bangalore Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_10": {
+            "premium": [
+                "R-99 SMG Skin: Carbon Cross"
+            ],
+            "free": [
+                "Wattson Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_11": {
+            "premium": [
+                "Charm Weapon Charm : Tools of the Trade"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_12": {
+            "premium": [
+                "Pathfinder Banner Frame : Energized"
+            ],
+            "free": [
+                "Octane Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_13": {
+            "premium": [
+                "Apex Coins 50"
+            ],
+            "free": [
+                "Loba Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_14": {
+            "premium": [
+                "XP Boost [ note 2 ]"
+            ],
+            "free": [
+                "Lifeline Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_15": {
+            "premium": [
+                "Longbow DMR Skin: Rumble Strip"
+            ],
+            "free": [
+                "Mirage Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_16": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Caustic Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_17": {
+            "premium": [
+                "HAVOC Rifle Skin: Circuit Board"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_18": {
+            "premium": [
+                "Revenant Banner Frame : Death Tuner"
+            ],
+            "free": [
+                "Bloodhound Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_19": {
+            "premium": [
+                "L-STAR EMG Skin: Notched"
+            ],
+            "free": [
+                "Revenant Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_20": {
+            "premium": [
+                "Wraith Banner Frame : On The Prowl"
+            ],
+            "free": [
+                "Revenant Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_21": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Bloodhound Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_22": {
+            "premium": [
+                "XP Boost [ note 2 ]"
+            ],
+            "free": [
+                "Caustic Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_23": {
+            "premium": [
+                "Loading Screen : Destination Unkown"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_24": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Mirage Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_25": {
+            "premium": [
+                "Pathfinder Skin: Full Throttle"
+            ],
+            "free": [
+                "Lifeline Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_26": {
+            "premium": [
+                "Mastiff Shotgun Skin: Acid Burn"
+            ],
+            "free": [
+                "Loba Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_27": {
+            "premium": [
+                "Charm Weapon Charm : Fantastic Plastic"
+            ],
+            "free": [
+                "Octane Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_28": {
+            "premium": [
+                "Bangalore Banner Frame : Muscled Up"
+            ],
+            "free": [
+                "Wattson Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_29": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_30": {
+            "premium": [
+                "XP Boost [ note 2 ]"
+            ],
+            "free": [
+                "Bangalore Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_31": {
+            "premium": [
+                "Loading Screen : Self-Destruct"
+            ],
+            "free": [
+                "Crypto Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_32": {
+            "premium": [
+                "Mozambique Shotgun Skin: Short Shifter"
+            ],
+            "free": [
+                "Wraith Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_33": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Gibraltar Stat Tracker : Season 6 Wins"
+            ]
+        },
+        "level_34": {
+            "premium": [
+                "Bangalore Skydive Emote : Controlled Demolition"
+            ],
+            "free": [
+                "Pathfinder Stat Tracker : Season 6 Kills"
+            ]
+        },
+        "level_35": {
+            "premium": [
+                "EVA-8 Auto Skin: Exposed Core"
+            ],
+            "free": []
+        },
+        "level_36": {
+            "premium": [
+                "Caustic Banner Frame : Failed Emissions"
+            ],
+            "free": []
+        },
+        "level_37": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_38": {
+            "premium": [
+                "XP Boost [ note 2 ]"
+            ],
+            "free": []
+        },
+        "level_39": {
+            "premium": [
+                "Octane Quip Kill Quip : I was bored until you came along"
+            ],
+            "free": []
+        },
+        "level_40": {
+            "premium": [
+                "VK-47 Flatline Skin: Spray Coat"
+            ],
+            "free": []
+        },
+        "level_41": {
+            "premium": [
+                "Pathfinder Quip Kill Quip : I'm going to a party after this"
+            ],
+            "free": []
+        },
+        "level_42": {
+            "premium": [
+                "Charm Weapon Charm : Rims"
+            ],
+            "free": []
+        },
+        "level_43": {
+            "premium": [
+                "Gibraltar Quip Kill Quip : You're a bit too slow, brother"
+            ],
+            "free": []
+        },
+        "level_44": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_45": {
+            "premium": [
+                "Wraith Skydive Emote : Spiralling Void"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_46": {
+            "premium": [
+                "XP Boost [ note 2 ]"
+            ],
+            "free": []
+        },
+        "level_47": {
+            "premium": [
+                "Loading Screen : Aftermatch"
+            ],
+            "free": []
+        },
+        "level_48": {
+            "premium": [
+                "Alternator SMG Skin: Hot Pursuit"
+            ],
+            "free": []
+        },
+        "level_49": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_50": {
+            "premium": [
+                "Bloodhound Skin: Road Warrior"
+            ],
+            "free": []
+        },
+        "level_51": {
+            "premium": [
+                "P2020 Skin: Open Circuit"
+            ],
+            "free": []
+        },
+        "level_52": {
+            "premium": [
+                "Octane Banner Frame : Fuel Injected"
+            ],
+            "free": []
+        },
+        "level_53": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Rampart Skin: Cascade"
+            ]
+        },
+        "level_54": {
+            "premium": [
+                "XP Boost [ note 2 ]"
+            ],
+            "free": []
+        },
+        "level_55": {
+            "premium": [
+                "M600 Spitfire Skin: Abstract"
+            ],
+            "free": []
+        },
+        "level_56": {
+            "premium": [
+                "Loading Screen : The Referral"
+            ],
+            "free": []
+        },
+        "level_57": {
+            "premium": [
+                "Devotion LMG Skin: The Finisher"
+            ],
+            "free": []
+        },
+        "level_58": {
+            "premium": [
+                "R-301 Carbine Skin: Jet Setter"
+            ],
+            "free": []
+        },
+        "level_59": {
+            "premium": [
+                "Rampart Skydive Emote : Spray and Sway"
+            ],
+            "free": []
+        },
+        "level_60": {
+            "premium": [
+                "Hemlok Burst AR Skin: Neon Glow"
+            ],
+            "free": []
+        },
+        "level_61": {
+            "premium": [
+                "Bloodhound Banner Frame : Boneyard Bound"
+            ],
+            "free": []
+        },
+        "level_62": {
+            "premium": [
+                "XP Boost [ note 2 ]"
+            ],
+            "free": []
+        },
+        "level_63": {
+            "premium": [
+                "Charge Rifle Skin: Mainframe Online"
+            ],
+            "free": []
+        },
+        "level_64": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_65": {
+            "premium": [
+                "Triple Take Skin: Ocean Breeze"
+            ],
+            "free": []
+        },
+        "level_66": {
+            "premium": [
+                "Charm Weapon Charm : Chrome Hound"
+            ],
+            "free": []
+        },
+        "level_67": {
+            "premium": [
+                "Rampart Quip Kill Quip : Maybe give it a rest"
+            ],
+            "free": []
+        },
+        "level_68": {
+            "premium": [
+                "Lifeline Banner Frame : Car Package"
+            ],
+            "free": []
+        },
+        "level_69": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_70": {
+            "premium": [
+                "XP Boost [ note 2 ]"
+            ],
+            "free": []
+        },
+        "level_71": {
+            "premium": [
+                "Bloodhound Holo-Spray : Slátra and victory!"
+            ],
+            "free": []
+        },
+        "level_72": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_73": {
+            "premium": [
+                "Lifeline Quip Kill Quip : This ain't no place for you"
+            ],
+            "free": []
+        },
+        "level_74": {
+            "premium": [
+                "Loading Screen : Midnight Pint"
+            ],
+            "free": []
+        },
+        "level_75": {
+            "premium": [
+                "Sentinel Skin: Grieving Widow"
+            ],
+            "free": []
+        },
+        "level_76": {
+            "premium": [
+                "Charm Weapon Charm : The Score"
+            ],
+            "free": []
+        },
+        "level_77": {
+            "premium": [
+                "Loba Banner Frame : Moonlit Gateway"
+            ],
+            "free": []
+        },
+        "level_78": {
+            "premium": [
+                "Wraith Holo-Spray : Looking for me?"
+            ],
+            "free": []
+        },
+        "level_79": {
+            "premium": [
+                "Prowler Burst PDW Skin: Royal Streak"
+            ],
+            "free": []
+        },
+        "level_80": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_81": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_82": {
+            "premium": [
+                "Kraber .50-Cal Sniper Skin: Outside Groove"
+            ],
+            "free": []
+        },
+        "level_83": {
+            "premium": [
+                "Revenant Skydive Emote : Exhumed"
+            ],
+            "free": []
+        },
+        "level_84": {
+            "premium": [
+                "Rampart Banner Frame : Pit Lane"
+            ],
+            "free": []
+        },
+        "level_85": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_86": {
+            "premium": [
+                "Mirage Holo-Spray : Bamboozled!"
+            ],
+            "free": []
+        },
+        "level_87": {
+            "premium": [
+                "Peacekeeper Skin: Infinite Overload"
+            ],
+            "free": []
+        },
+        "level_88": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_89": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_90": {
+            "premium": [
+                "Wingman Skin: Gridlocked"
+            ],
+            "free": []
+        },
+        "level_91": {
+            "premium": [
+                "Music Pack : Rampart"
+            ],
+            "free": []
+        },
+        "level_92": {
+            "premium": [
+                "Caustic Skydive Emote : Chemtrails"
+            ],
+            "free": []
+        },
+        "level_93": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_94": {
+            "premium": [
+                "Loba Holo-Spray : It's not me. It's you."
+            ],
+            "free": []
+        },
+        "level_95": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_96": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_97": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_98": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Volt SMG Skin: Data Protector"
+            ]
+        },
+        "level_99": {
+            "premium": [
+                "RE-45 Auto Skin: Neon Candy"
+            ],
+            "free": [
+                "RE-45 Auto Skin: Speed Trap"
+            ]
+        },
+        "level_100": {
+            "premium": [
+                "G7 Scout Skin: Supersonic"
+            ],
+            "free": [
+                "G7 Scout Skin: Downforce"
+            ]
+        },
+        "level_110": {
+            "premium": [
+                "G7 Scout Skin: Hypersonic"
+            ],
+            "free": [
+                "Badge : Boosted Level Season 6 Badge"
+            ]
+        }
+    },
+    "patches": {
+        "Bangalore": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Double Time : vitesse de déplacement augmentée."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Tactical Sense : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Caustic": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Nox Gas : zone de gaz plus grande."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Nox Gas Grenade : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Gibraltar": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Gunner's Mate : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Loba": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Burglar's Eye : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Burglar's Eye : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Ultimate] Nerf -> Burglar's Cut : réduction de la zone de gaz."
+                ]
+            }
+        ],
+        "Octane": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Swift Mend : vitesse de déplacement augmentée."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Swift Mend : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Rampart": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Gunner's Mate : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Ultimate] Nerf -> Dome Shield : réduction de la zone de protection."
+                ]
+            }
+        ],
+        "Revenant": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Silence : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Silence : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Ultimate] Nerf -> Death Totem : réduction de la zone de protection."
+                ]
+            }
+        ],
+        "Wattson": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Intervene : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Intervene : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Ultimate] Nerf -> Interception Pylon : réduction de la zone de protection."
+                ]
+            }
+        ],
+        "Bloodhound": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Eye of the Allfather : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Eye of the Allfather : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Ultimate] Nerf -> Beast of the Hunt : réduction de la zone de gaz."
+                ]
+            }
+        ],
+        "Caustic (Perks)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Perks] Buff -> Nox Gas Grenade : vitesse de déplacement augmentée."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Nerf -> Nox Gas Grenade : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Gibraltar (Perks)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Perks] Buff -> Gunner's Mate : vitesse de déplacement augmentée."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Nerf -> Gunner's Mate : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Loba (Perks)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Perks] Buff -> Burglar's Eye : vitesse de déplacement augmentée.",
+                    "[Perks] Nerf -> Burglar's Eye : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Burglar's Eye : description du changement."
+                ]
+            }
+        ],
+        "Octane (Perks)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Perks] Buff -> Swift Mend : vitesse de déplacement augmentée."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Nerf -> Swift Mend : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Rampart (Perks)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Perks] Buff -> Gunner's Mate : vitesse de déplacement augmentée.",
+                    "[Perks] Nerf -> Gunner's Mate : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Gunner's Mate : description du changement."
+                ]
+            }
+        ],
+        "Revenant (Perks)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Perks] Buff -> Silence : vitesse de déplacement augmentée.",
+                    "[Perks] Nerf -> Silence : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Silence : description du changement."
+                ]
+            }
+        ],
+        "Wattson (Perks)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Perks] Buff -> Intervene : vitesse de déplacement augmentée.",
+                    "[Perks] Nerf -> Intervene : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Intervene : description du changement."
+                ]
+            }
+        ],
+        "Bloodhound (Perks)": [],
+        "Bloodhound (Legend)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Eye of the Allfather : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Eye of the Allfather : réduction du temps de recharge."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Ultimate] Nerf -> Beast of the Hunt : réduction de la zone de gaz."
+                ]
+            }
+        ],
+        "Caustic (Legend)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Nox Gas : vitesse de déplacement augmentée."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Nox Gas Grenade : description du changement."
+                ]
+            }
+        ],
+        "Gibraltar (Legend)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Gunner's Mate : description du changement."
+                ]
+            }
+        ],
+        "Loba (Legend)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Burglar's Eye : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Burglar's Eye : description du changement."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Ultimate] Nerf -> Burglar's Cut : réduction de la zone de gaz."
+                ]
+            }
+        ],
+        "Octane (Legend)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Swift Mend : vitesse de déplacement augmentée."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Adjust -> Swift Mend : description du changement."
+                ]
+            }
+        ],
+        "Rampart (Legend)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Gunner's Mate : description du changement."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Ultimate] Nerf -> Dome Shield : réduction de la zone de protection."
+                ]
+            }
+        ],
+        "Revenant (Legend)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Silence : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Silence : description du changement."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Ultimate] Nerf -> Death Totem : réduction de la zone de protection."
+                ]
+            }
+        ],
+        "Wattson (Legend)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Passive] Buff -> Intervene : vitesse de déplacement augmentée.",
+                    "[Perks] Adjust -> Intervene : description du changement."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Ultimate] Nerf -> Interception Pylon : réduction de la zone de protection."
+                ]
+            }
+        ],
+        "Bangalore (Perks)": [
+            {
+                "patch": "Saison 3",
+                "details": [
+                    "[Perks] Buff -> Tactical Sense : vitesse de déplacement augmentée."
+                ]
+            },
+            {
+                "patch": "Takeover: Loba's Heist",
+                "details": [
+                    "[Perks] Nerf -> Tactical Sense : réduction du temps de recharge."
+                ]
+            }
+        ],
+        "Caustic (Legend) (Perks)": [],
+        "Gibraltar (Legend) (Perks)": [],
+        "Loba (Legend) (Perks)": [],
+        "Octane (Legend) (Perks)": [],
+        "Rampart (Legend) (Perks)": [],
+        "Revenant (Legend) (Perks)": [],
+        "Wattson (Legend) (Perks)": []
     }
-  }
 }

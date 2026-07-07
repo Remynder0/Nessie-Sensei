@@ -10,55 +10,78 @@
   "abilities": {
     "passive": {
       "name": "Warlord's Ire",
-      "description": "Temporarily highlight enemies you've damaged.Move faster with shotguns.",
+      "description": "Temporarily highlight enemies you've damaged. Move faster with shotguns, but at a reduced speed boost. Mad Maggie takes 50% less fire damage from all sources.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Riot Drill",
-      "description": "Fire a drill that attaches to an obstacle and burns enemies on the other side.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Nerf]: Cooldown increased. (Cooldown: 22s -> 28s)",
-      "cooldown": "22s -> 28s"
+      "description": "Fire a drill that attaches to an obstacle and burns enemies on the other side. The drill now comes out immediately after releasing the button, with firing animation sped up by 10%. Wheels Down: increased duration.",
+      "cooldown": "28s"
     },
     "ultimate": {
       "name": "Wrecking Ball",
-      "description": "Throw a ball that releases speed-boosting pads and detonates near enemies.\n\n[Patch Apex Legends™: Overclocked Midseason Patch Notes - Buff]: Speed boost replaced by sprint boost.",
+      "description": "Throw a ball that releases speed-boosting pads and detonates near enemies, with improved durability. The Fortified buff from repulsors now reduces some other types of damage, like explosive damage.",
       "cooldown": "2 minutes"
     }
   },
   "patch_history": [
     {
-      "patch": "Saison 29 : Overclocked (Midseason)",
+      "patch": "Season 29 : Overclocked",
       "details": [
-        "[Tactical] Nerf -> Cooldown increased. (Cooldown: 22s -> 28s)",
-        "[Ultimate] Buff -> Speed boost replaced by sprint boost."
+        "[Base] Fix -> Fixed Wrecking Ball sometimes failing to destroy doors when hitting them at the upper edges."
       ]
     },
     {
-      "patch": "Saison 29 : Overclocked",
+      "patch": "Season 27 : Amped (Midseason)",
       "details": [
-        "[Tactical] Adjust -> Increased Cooldown from 22 seconds to 28 seconds.",
-        "[Ultimate] Adjust -> The speed boost granted from running on the pucks dropped by the wrecking ball has been replaced by a sprint boost.",
-        "Will no longer speed up all movement, just when sprinting."
+        "[Base] Adjust -> The Fortified buff from Mad Maggie’s Wrecking Ball repulsors now reduces some other types of damage (like explosive damage) to match how it works on characters who naturally have Fortified."
       ]
     },
     {
-      "patch": "September 16, 2025 Patch",
+      "patch": "Season 26 : Showdown (Midseason)",
       "details": [
-        "Riot Drill\nFiring animation sped up by 10%\nDrill now comes out immediately after releasing the button (was delayed by a few frames)",
-        "Wrecking Ball\nThrow animation sped up 25%\nWrecking Ball is now more reliable at moving around/over obstacles\nExplosions deal up to 25 damage (was up to 20)\nReduced lifetime to 7s (was 10s)\nSpeed pads increase movement speed for 3.5s (was 2s)\nSpeed pads give  Fortified buff for the duration, doesn’t stack with already fortified Legends\nSpeed pads last 20s (was 60s)\nSpeed pads deactivate 6s for the player using it after being used\nSpeed pads no longer drop from the final explosion",
-        "Upgrades: Level 2\nShots Shots Shots: removed\nNEW Gunrunning: Passive movement speed increase also works with SMGs and Pistols\nFire Ball: now drops magma patches along the ground as it moves and Mad Maggie takes 50% less fire damage from all sources"
+        "[Base] Fix -> Wrecking Ball no longer causes a crash when thrown near a door."
       ]
     },
     {
-      "patch": "August 09, 2022 Patch",
+      "patch": "Season 26 : Showdown",
       "details": [
-        "Riot Drill\nProjectile Launch Speed doubled.",
-        "Wrecking Ball\nWill travel twice as far while dropping the same amount of magnets.\nDuration increased from 5 sec → 10 sec.\nMagnet Spawn delay increased from 0.4 sec → 0.8 sec.\nWrecking Ball will deal damage to enemy placeable objects: Black Market, Castle Walls, Exhibit, Death Totem, Mobile Shield, Black Hole, Amped Cover, and Gas Barrels. It will also destroy Gibraltar's Dome of Protection.\nFixed Wrecking Ball not blinding and slowing enemies."
+        "[Passive] Buff -> Fire Ball: now drops magma patches along the ground as it moves and Mad Maggie takes 50% less fire damage from all sources.",
+        "[Tactical] Adjust -> Riot Drill: firing animation sped up by 10%, drill now comes out immediately after releasing the button."
       ]
     },
     {
-      "patch": "February 08, 2022 Patch",
+      "patch": "Season 20 : Breakout",
       "details": [
-        "Introduced."
+        "[Perks] Adjust -> Wrecking Ball will no longer be destroyed on first enemy hit."
+      ]
+    },
+    {
+      "patch": "Season 16 : Revelry",
+      "details": [
+        "[Passive] Buff -> Warlord's Vision: increased vision range and duration.",
+        "[Tactical] Nerf -> Warlord's Call: reduced damage and radius."
+      ]
+    },
+    {
+      "patch": "Season 14 : Hunted",
+      "details": [
+        "[Passive] Nerf -> Warlord's Vision : reduced vision duration.",
+        "[Tactical] Buff -> Warlord's Call : increased damage.",
+        "[Perks] Adjust -> Warlord's Vision : increased vision range."
+      ]
+    },
+    {
+      "patch": "Season 13 : Saviors",
+      "details": [
+        "[Passive] Nerf -> Wheels Down : reduced speed boost.",
+        "[Tactical] Buff -> Wheels Down : increased duration."
+      ]
+    },
+    {
+      "patch": "Season 12 : Defiance",
+      "details": [
+        "[Base] Introduced"
       ]
     }
   ],
@@ -71,24 +94,24 @@
       "level_2": {
         "left": {
           "name": "Perk Niv. 2 Gauche",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": false
         },
         "right": {
           "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "description": "Increased vision range.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Perk Niv. 3 Gauche",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": true
         },
         "right": {
           "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "description": "",
           "recommended": false
         }
       }

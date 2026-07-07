@@ -1,767 +1,917 @@
 {
-  "season": "11",
-  "name": "Escape",
-  "start_date": "November 2, 2021",
-  "end_date": "February 8, 2022",
-  "infobox": {
+    "season": "11",
     "name": "Escape",
-    "New Legend": "Ash",
-    "New weapon": "C.A.R. SMG",
-    "Featured map": "Storm Point",
-    "Season Quest": "\" Trouble in Paradise",
-    "Theme": "Tropical paradises and exotic landmarks",
-    "Reactive weapon": "Prowler Burst PDW",
-    "Start date": "November 2, 2021",
-    "End date": "February 8, 2022",
-    "Events": "Raiders | Dark Depths"
-  },
-  "max_level": 110,
-  "rewards": {
-    "level_1": {
-      "premium": [
-        "Bocek Compound Bow Compound Fracture",
-        "Wraith Vision Walker",
-        "Revenant Skinwalker",
-        "Loba Poison Dart",
-        "XP Boost [ note 1 ]"
-      ],
-      "free": []
-    },
-    "level_2": {
-      "premium": [
-        "Wraith Banner Frame Tide Storm"
-      ],
-      "free": [
-        "Loading Screen Escape to Paradise!"
-      ]
-    },
-    "level_3": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_4": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Music Pack Escape"
-      ]
-    },
-    "level_5": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Coins 100"
-      ]
-    },
-    "level_6": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Mozambique Shotgun Venom Punch"
-      ]
-    },
-    "level_7": {
-      "premium": [
-        "Wraith Quip Kill Quip : Next time you should try a different path"
-      ],
-      "free": [
-        "Gibraltar Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_8": {
-      "premium": [
-        "Loading Screen HELL"
-      ],
-      "free": [
-        "Gibraltar Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_9": {
-      "premium": [
-        "Charm Void Convergence"
-      ],
-      "free": [
-        "Caustic Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_10": {
-      "premium": [
-        "Wraith Holo-Spray Did You Blink?"
-      ],
-      "free": [
-        "Caustic Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_11": {
-      "premium": [
-        "Volt SMG Ante Up"
-      ],
-      "free": [
-        "Wattson Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_12": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Wattson Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_13": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_14": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Hemlok Burst AR Hardwire Sprawl"
-      ]
-    },
-    "level_15": {
-      "premium": [
-        "Loba Quip Kill Quip : I hope that wasn't supposed to impress me"
-      ],
-      "free": [
-        "Rampart Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_16": {
-      "premium": [
-        "Charm Fear Pattern"
-      ],
-      "free": [
-        "Rampart Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_17": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_18": {
-      "premium": [
-        "Loba Banner Frame Business and Pleasure"
-      ],
-      "free": [
-        "Loading Screen Confounding Variables"
-      ]
-    },
-    "level_19": {
-      "premium": [
-        "Loba Holo-Spray I Get What I Want"
-      ],
-      "free": [
-        "Ash Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_20": {
-      "premium": [
-        "Prowler Burst PDW Warhead Storage"
-      ],
-      "free": [
-        "Ash Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_21": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_22": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Diamond Accuracy"
-      ]
-    },
-    "level_23": {
-      "premium": [
-        "Mirage Stat Tracker Kills"
-      ],
-      "free": [
-        "Lifeline Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_24": {
-      "premium": [
-        "Mirage Stat Tracker Damage Done"
-      ],
-      "free": [
-        "Lifeline Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_25": {
-      "premium": [
-        "Desert Mirage"
-      ],
-      "free": [
-        "Loba Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_26": {
-      "premium": [
-        "Mirage Stat Tracker Wins"
-      ],
-      "free": [
-        "Loba Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_27": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Bloodhound Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_28": {
-      "premium": [
-        "M600 Spitfire Cover Fire"
-      ],
-      "free": [
-        "Bloodhound Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_29": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_30": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Pathfinder Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_31": {
-      "premium": [
-        "Loading Screen Her Mother's Child"
-      ],
-      "free": [
-        "Charm Hoodwinked Helmet"
-      ]
-    },
-    "level_32": {
-      "premium": [
-        "Mirage Holo-Spray Getting Ring Ready"
-      ],
-      "free": [
-        "Pathfinder Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_33": {
-      "premium": [
-        "Mirage Quip Kill Quip : 'Twas beauty that killed the beast"
-      ],
-      "free": [
-        "Crypto Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_34": {
-      "premium": [
-        "Mirage Banner Frame Greener Pastures"
-      ],
-      "free": [
-        "Crypto Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_35": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Valkyrie Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_36": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Valkyrie Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_37": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_38": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Dead Red"
-      ]
-    },
-    "level_39": {
-      "premium": [
-        "Rampart Holo-Spray Wait 'Til Ya Meet Sheila!"
-      ],
-      "free": [
-        "Seer Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_40": {
-      "premium": [
-        "Rampart Banner Frame New Development"
-      ],
-      "free": [
-        "Seer Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_41": {
-      "premium": [
-        "G7 Scout Triangulation"
-      ],
-      "free": []
-    },
-    "level_42": {
-      "premium": [
-        "Rampart Quip Kill Quip : Oh mate you fouled this one up good, eh?"
-      ],
-      "free": [
-        "Loading Screen A Poem For Ash"
-      ]
-    },
-    "level_43": {
-      "premium": [
-        "Charm Second Hand Defense"
-      ],
-      "free": [
-        "Wraith Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_44": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Wraith Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_45": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Rampart Firestarter"
-      ]
-    },
-    "level_46": {
-      "premium": [
-        "30-30 Repeater Bucking Bronco"
-      ],
-      "free": [
-        "Loading Screen Subject: Random Thoughts"
-      ]
-    },
-    "level_47": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Bangalore Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_48": {
-      "premium": [
-        "Gibraltar Stat Tracker Kills"
-      ],
-      "free": [
-        "Bangalore Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_49": {
-      "premium": [
-        "Gibraltar Stat Tracker Damage Done"
-      ],
-      "free": [
-        "Mirage Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_50": {
-      "premium": [
-        "Gibraltar Glorious Combatant"
-      ],
-      "free": [
-        "Mirage Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_51": {
-      "premium": [
-        "Gibraltar Stat Tracker Wins"
-      ],
-      "free": [
-        "Octane Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_52": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Octane Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_53": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": [
-        "Alternator SMG Jawmuncher"
-      ]
-    },
-    "level_54": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Longbow DMR New Age Maverick"
-      ]
-    },
-    "level_55": {
-      "premium": [
-        "Charm Domepiece Protector"
-      ],
-      "free": [
-        "Revenant Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_56": {
-      "premium": [
-        "Music Pack Ash"
-      ],
-      "free": [
-        "Revenant Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_57": {
-      "premium": [
-        "Gibraltar Holo-Spray Knock Knock!"
-      ],
-      "free": [
-        "Horizon Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_58": {
-      "premium": [
-        "Gibraltar Banner Frame Winds of Time"
-      ],
-      "free": [
-        "Horizon Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_59": {
-      "premium": [
-        "Gibraltar Quip Kill Quip : You know how to put a smile on my face"
-      ],
-      "free": [
-        "Fuse Stat Tracker Season 11 Wins"
-      ]
-    },
-    "level_60": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Fuse Stat Tracker Season 11 Kills"
-      ]
-    },
-    "level_61": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Crafting Metals 120"
-      ]
-    },
-    "level_62": {
-      "premium": [
-        "R-99 SMG Fresh Vector"
-      ],
-      "free": []
-    },
-    "level_63": {
-      "premium": [
-        "Loading Screen Recovered Message"
-      ],
-      "free": []
-    },
-    "level_64": {
-      "premium": [
-        "Charm Nightmare Fuel"
-      ],
-      "free": []
-    },
-    "level_65": {
-      "premium": [
-        "Mastiff Shotgun Pellet Sunrise"
-      ],
-      "free": []
-    },
-    "level_66": {
-      "premium": [
-        "Kraber .50-Cal Sniper King Kraber"
-      ],
-      "free": []
-    },
-    "level_67": {
-      "premium": [
-        "Rampart Cosmetic Emote : The Light Bombastic"
-      ],
-      "free": []
-    },
-    "level_68": {
-      "premium": [
-        "Triple Take Orange Crush"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_69": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": []
-    },
-    "level_70": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Bangalore Quip Kill Quip : Looks like you failed the mission"
-      ]
-    },
-    "level_71": {
-      "premium": [
-        "Devotion LMG Ground Fire"
-      ],
-      "free": []
-    },
-    "level_72": {
-      "premium": [
-        "Bangalore Banner Frame Sun And Gun"
-      ],
-      "free": []
-    },
-    "level_73": {
-      "premium": [
-        "EVA-8 Auto Face Pollution"
-      ],
-      "free": []
-    },
-    "level_74": {
-      "premium": [
-        "Bangalore Hard Target"
-      ],
-      "free": []
-    },
-    "level_75": {
-      "premium": [
-        "Bangalore Holo-Spray Stay Sharp"
-      ],
-      "free": []
-    },
-    "level_76": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_77": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": [
-        "Charm Eyes On The Prize"
-      ]
-    },
-    "level_78": {
-      "premium": [
-        "Peacekeeper Good Politics"
-      ],
-      "free": [
-        "Caustic Holo-Spray Death Inspires Me"
-      ]
-    },
-    "level_79": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_80": {
-      "premium": [
-        "Caustic Black Into Blue"
-      ],
-      "free": []
-    },
-    "level_81": {
-      "premium": [
-        "Charm Bleed Time Zero"
-      ],
-      "free": []
-    },
-    "level_82": {
-      "premium": [
-        "Caustic Quip Kill Quip : The meek won't inherit the earth"
-      ],
-      "free": []
-    },
-    "level_83": {
-      "premium": [
-        "Caustic Banner Frame Pressure Paranoia"
-      ],
-      "free": []
-    },
-    "level_84": {
-      "premium": [
-        "HAVOC Rifle Be Aggressive"
-      ],
-      "free": []
-    },
-    "level_85": {
-      "premium": [
-        "Crafting Metals 120"
-      ],
-      "free": [
-        "Loading Screen Animals of the Outlands"
-      ]
-    },
-    "level_86": {
-      "premium": [
-        "XP Boost [ note 1 ]"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_87": {
-      "premium": [
-        "Charm Traditional Transformation"
-      ],
-      "free": []
-    },
-    "level_88": {
-      "premium": [
-        "Revenant Banner Frame Tsunami Breach"
-      ],
-      "free": []
-    },
-    "level_89": {
-      "premium": [
-        "VK-47 Flatline Gridlock"
-      ],
-      "free": []
-    },
-    "level_90": {
-      "premium": [
-        "Charge Rifle Aubergine Dream"
-      ],
-      "free": []
-    },
-    "level_91": {
-      "premium": [
-        "Revenant Holo-Spray You're Already Dead"
-      ],
-      "free": [
-        "Apex Coins 100"
-      ]
-    },
-    "level_92": {
-      "premium": [
-        "Revenant Quip Kill Quip : Who are you? Never mind I don't care"
-      ],
-      "free": [
-        "Loading Screen The Definition of Family"
-      ]
-    },
-    "level_93": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_94": {
-      "premium": [
-        "Sentinel No Mercy"
-      ],
-      "free": [
-        "Apex Pack"
-      ]
-    },
-    "level_95": {
-      "premium": [
-        "Loading Screen Paquette Repair Service"
-      ],
-      "free": []
-    },
-    "level_96": {
-      "premium": [
-        "Valkyrie Skydive Emote Laid Back"
-      ],
-      "free": []
-    },
-    "level_97": {
-      "premium": [
-        "R-301 Carbine One Blood"
-      ],
-      "free": []
-    },
-    "level_98": {
-      "premium": [
-        "Apex Pack"
-      ],
-      "free": []
-    },
-    "level_99": {
-      "premium": [
-        "Apex Coins 100"
-      ],
-      "free": []
-    },
-    "level_100": {
-      "premium": [
-        "Prowler Burst PDW Pipe Dream"
-      ],
-      "free": [
-        "Apex Coins 100"
-      ]
-    },
-    "level_110": {
-      "premium": [
-        "Prowler Burst PDW Fatal Attraction"
-      ],
-      "free": [
-        "Badge : Escape Level Season 11"
-      ]
+    "start_date": "November 2, 2021",
+    "end_date": "February 8, 2022",
+    "infobox": {
+        "name": "Escape",
+        "New Legend": "Ash",
+        "New weapon": "C.A.R. SMG",
+        "Featured map": "Storm Point",
+        "Season Quest": "\" Trouble in Paradise",
+        "Theme": "Tropical paradises and exotic landmarks",
+        "Reactive weapon": "Prowler Burst PDW",
+        "Start date": "November 2, 2021",
+        "End date": "February 8, 2022",
+        "Events": "Raiders | Dark Depths"
+    },
+    "max_level": 110,
+    "rewards": {
+        "level_1": {
+            "premium": [
+                "Bocek Compound Bow Compound Fracture",
+                "Wraith Vision Walker",
+                "Revenant Skinwalker",
+                "Loba Poison Dart",
+                "XP Boost [ note 1 ]"
+            ],
+            "free": []
+        },
+        "level_2": {
+            "premium": [
+                "Wraith Banner Frame Tide Storm"
+            ],
+            "free": [
+                "Loading Screen Escape to Paradise!"
+            ]
+        },
+        "level_3": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_4": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Music Pack Escape"
+            ]
+        },
+        "level_5": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Coins 100"
+            ]
+        },
+        "level_6": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Mozambique Shotgun Venom Punch"
+            ]
+        },
+        "level_7": {
+            "premium": [
+                "Wraith Quip Kill Quip : Next time you should try a different path"
+            ],
+            "free": [
+                "Gibraltar Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_8": {
+            "premium": [
+                "Loading Screen HELL"
+            ],
+            "free": [
+                "Gibraltar Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_9": {
+            "premium": [
+                "Charm Void Convergence"
+            ],
+            "free": [
+                "Caustic Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_10": {
+            "premium": [
+                "Wraith Holo-Spray Did You Blink?"
+            ],
+            "free": [
+                "Caustic Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_11": {
+            "premium": [
+                "Volt SMG Ante Up"
+            ],
+            "free": [
+                "Wattson Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_12": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Wattson Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_13": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_14": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Hemlok Burst AR Hardwire Sprawl"
+            ]
+        },
+        "level_15": {
+            "premium": [
+                "Loba Quip Kill Quip : I hope that wasn't supposed to impress me"
+            ],
+            "free": [
+                "Rampart Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_16": {
+            "premium": [
+                "Charm Fear Pattern"
+            ],
+            "free": [
+                "Rampart Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_17": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_18": {
+            "premium": [
+                "Loba Banner Frame Business and Pleasure"
+            ],
+            "free": [
+                "Loading Screen Confounding Variables"
+            ]
+        },
+        "level_19": {
+            "premium": [
+                "Loba Holo-Spray I Get What I Want"
+            ],
+            "free": [
+                "Ash Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_20": {
+            "premium": [
+                "Prowler Burst PDW Warhead Storage"
+            ],
+            "free": [
+                "Ash Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_21": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_22": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Diamond Accuracy"
+            ]
+        },
+        "level_23": {
+            "premium": [
+                "Mirage Stat Tracker Kills"
+            ],
+            "free": [
+                "Lifeline Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_24": {
+            "premium": [
+                "Mirage Stat Tracker Damage Done"
+            ],
+            "free": [
+                "Lifeline Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_25": {
+            "premium": [
+                "Desert Mirage"
+            ],
+            "free": [
+                "Loba Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_26": {
+            "premium": [
+                "Mirage Stat Tracker Wins"
+            ],
+            "free": [
+                "Loba Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_27": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Bloodhound Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_28": {
+            "premium": [
+                "M600 Spitfire Cover Fire"
+            ],
+            "free": [
+                "Bloodhound Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_29": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_30": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Pathfinder Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_31": {
+            "premium": [
+                "Loading Screen Her Mother's Child"
+            ],
+            "free": [
+                "Charm Hoodwinked Helmet"
+            ]
+        },
+        "level_32": {
+            "premium": [
+                "Mirage Holo-Spray Getting Ring Ready"
+            ],
+            "free": [
+                "Pathfinder Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_33": {
+            "premium": [
+                "Mirage Quip Kill Quip : 'Twas beauty that killed the beast"
+            ],
+            "free": [
+                "Crypto Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_34": {
+            "premium": [
+                "Mirage Banner Frame Greener Pastures"
+            ],
+            "free": [
+                "Crypto Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_35": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Valkyrie Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_36": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Valkyrie Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_37": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_38": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Dead Red"
+            ]
+        },
+        "level_39": {
+            "premium": [
+                "Rampart Holo-Spray Wait 'Til Ya Meet Sheila!"
+            ],
+            "free": [
+                "Seer Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_40": {
+            "premium": [
+                "Rampart Banner Frame New Development"
+            ],
+            "free": [
+                "Seer Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_41": {
+            "premium": [
+                "G7 Scout Triangulation"
+            ],
+            "free": []
+        },
+        "level_42": {
+            "premium": [
+                "Rampart Quip Kill Quip : Oh mate you fouled this one up good, eh?"
+            ],
+            "free": [
+                "Loading Screen A Poem For Ash"
+            ]
+        },
+        "level_43": {
+            "premium": [
+                "Charm Second Hand Defense"
+            ],
+            "free": [
+                "Wraith Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_44": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Wraith Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_45": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Rampart Firestarter"
+            ]
+        },
+        "level_46": {
+            "premium": [
+                "30-30 Repeater Bucking Bronco"
+            ],
+            "free": [
+                "Loading Screen Subject: Random Thoughts"
+            ]
+        },
+        "level_47": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Bangalore Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_48": {
+            "premium": [
+                "Gibraltar Stat Tracker Kills"
+            ],
+            "free": [
+                "Bangalore Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_49": {
+            "premium": [
+                "Gibraltar Stat Tracker Damage Done"
+            ],
+            "free": [
+                "Mirage Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_50": {
+            "premium": [
+                "Gibraltar Glorious Combatant"
+            ],
+            "free": [
+                "Mirage Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_51": {
+            "premium": [
+                "Gibraltar Stat Tracker Wins"
+            ],
+            "free": [
+                "Octane Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_52": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Octane Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_53": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": [
+                "Alternator SMG Jawmuncher"
+            ]
+        },
+        "level_54": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Longbow DMR New Age Maverick"
+            ]
+        },
+        "level_55": {
+            "premium": [
+                "Charm Domepiece Protector"
+            ],
+            "free": [
+                "Revenant Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_56": {
+            "premium": [
+                "Music Pack Ash"
+            ],
+            "free": [
+                "Revenant Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_57": {
+            "premium": [
+                "Gibraltar Holo-Spray Knock Knock!"
+            ],
+            "free": [
+                "Horizon Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_58": {
+            "premium": [
+                "Gibraltar Banner Frame Winds of Time"
+            ],
+            "free": [
+                "Horizon Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_59": {
+            "premium": [
+                "Gibraltar Quip Kill Quip : You know how to put a smile on my face"
+            ],
+            "free": [
+                "Fuse Stat Tracker Season 11 Wins"
+            ]
+        },
+        "level_60": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Fuse Stat Tracker Season 11 Kills"
+            ]
+        },
+        "level_61": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Crafting Metals 120"
+            ]
+        },
+        "level_62": {
+            "premium": [
+                "R-99 SMG Fresh Vector"
+            ],
+            "free": []
+        },
+        "level_63": {
+            "premium": [
+                "Loading Screen Recovered Message"
+            ],
+            "free": []
+        },
+        "level_64": {
+            "premium": [
+                "Charm Nightmare Fuel"
+            ],
+            "free": []
+        },
+        "level_65": {
+            "premium": [
+                "Mastiff Shotgun Pellet Sunrise"
+            ],
+            "free": []
+        },
+        "level_66": {
+            "premium": [
+                "Kraber .50-Cal Sniper King Kraber"
+            ],
+            "free": []
+        },
+        "level_67": {
+            "premium": [
+                "Rampart Cosmetic Emote : The Light Bombastic"
+            ],
+            "free": []
+        },
+        "level_68": {
+            "premium": [
+                "Triple Take Orange Crush"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_69": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": []
+        },
+        "level_70": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Bangalore Quip Kill Quip : Looks like you failed the mission"
+            ]
+        },
+        "level_71": {
+            "premium": [
+                "Devotion LMG Ground Fire"
+            ],
+            "free": []
+        },
+        "level_72": {
+            "premium": [
+                "Bangalore Banner Frame Sun And Gun"
+            ],
+            "free": []
+        },
+        "level_73": {
+            "premium": [
+                "EVA-8 Auto Face Pollution"
+            ],
+            "free": []
+        },
+        "level_74": {
+            "premium": [
+                "Bangalore Hard Target"
+            ],
+            "free": []
+        },
+        "level_75": {
+            "premium": [
+                "Bangalore Holo-Spray Stay Sharp"
+            ],
+            "free": []
+        },
+        "level_76": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_77": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": [
+                "Charm Eyes On The Prize"
+            ]
+        },
+        "level_78": {
+            "premium": [
+                "Peacekeeper Good Politics"
+            ],
+            "free": [
+                "Caustic Holo-Spray Death Inspires Me"
+            ]
+        },
+        "level_79": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_80": {
+            "premium": [
+                "Caustic Black Into Blue"
+            ],
+            "free": []
+        },
+        "level_81": {
+            "premium": [
+                "Charm Bleed Time Zero"
+            ],
+            "free": []
+        },
+        "level_82": {
+            "premium": [
+                "Caustic Quip Kill Quip : The meek won't inherit the earth"
+            ],
+            "free": []
+        },
+        "level_83": {
+            "premium": [
+                "Caustic Banner Frame Pressure Paranoia"
+            ],
+            "free": []
+        },
+        "level_84": {
+            "premium": [
+                "HAVOC Rifle Be Aggressive"
+            ],
+            "free": []
+        },
+        "level_85": {
+            "premium": [
+                "Crafting Metals 120"
+            ],
+            "free": [
+                "Loading Screen Animals of the Outlands"
+            ]
+        },
+        "level_86": {
+            "premium": [
+                "XP Boost [ note 1 ]"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_87": {
+            "premium": [
+                "Charm Traditional Transformation"
+            ],
+            "free": []
+        },
+        "level_88": {
+            "premium": [
+                "Revenant Banner Frame Tsunami Breach"
+            ],
+            "free": []
+        },
+        "level_89": {
+            "premium": [
+                "VK-47 Flatline Gridlock"
+            ],
+            "free": []
+        },
+        "level_90": {
+            "premium": [
+                "Charge Rifle Aubergine Dream"
+            ],
+            "free": []
+        },
+        "level_91": {
+            "premium": [
+                "Revenant Holo-Spray You're Already Dead"
+            ],
+            "free": [
+                "Apex Coins 100"
+            ]
+        },
+        "level_92": {
+            "premium": [
+                "Revenant Quip Kill Quip : Who are you? Never mind I don't care"
+            ],
+            "free": [
+                "Loading Screen The Definition of Family"
+            ]
+        },
+        "level_93": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_94": {
+            "premium": [
+                "Sentinel No Mercy"
+            ],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_95": {
+            "premium": [
+                "Loading Screen Paquette Repair Service"
+            ],
+            "free": []
+        },
+        "level_96": {
+            "premium": [
+                "Valkyrie Skydive Emote Laid Back"
+            ],
+            "free": []
+        },
+        "level_97": {
+            "premium": [
+                "R-301 Carbine One Blood"
+            ],
+            "free": []
+        },
+        "level_98": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_99": {
+            "premium": [
+                "Apex Coins 100"
+            ],
+            "free": []
+        },
+        "level_100": {
+            "premium": [
+                "Prowler Burst PDW Pipe Dream"
+            ],
+            "free": [
+                "Apex Coins 100"
+            ]
+        },
+        "level_110": {
+            "premium": [
+                "Prowler Burst PDW Fatal Attraction"
+            ],
+            "free": [
+                "Badge : Escape Level Season 11"
+            ]
+        }
+    },
+    "patches": {
+        "Bangalore": [
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Passive] Nerf -> Double Time: reduced movement speed by 10%"
+                ]
+            }
+        ],
+        "Caustic": [
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Ultimate] Buff -> Nox Gas Grenade now has a longer duration and increased damage"
+                ]
+            },
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Tactical] Adjust -> Nox Gas Grenade: reduced gas cloud size, but increased its speed and duration"
+                ]
+            }
+        ],
+        "Gibraltar": [
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Passive] Buff -> Gun Shield now blocks more damage and has a longer duration"
+                ]
+            },
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Ultimate] Adjust -> Defensive Bombardment: reduced the number of bombs, but increased their damage"
+                ]
+            }
+        ],
+        "Loba": [
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Perks] Buff -> Burglar's Eye: increased its effectiveness and now also reveals enemy positions for a short time after they've been seen"
+                ]
+            },
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Perks] Adjust -> Burglar's Eye: reduced the cooldown, but increased the duration of the reveal effect"
+                ]
+            }
+        ],
+        "Octane": [
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Passive] Buff -> Swift Mend now heals Octane for more health over time"
+                ]
+            },
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Tactical] Adjust -> Swift Medic: reduced the healing amount, but increased its speed and duration"
+                ]
+            }
+        ],
+        "Rampart": [
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Passive] Buff -> Gun Shield now blocks more damage and has a longer duration"
+                ]
+            },
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Ultimate] Adjust -> Dome Shield: reduced the number of shields, but increased their damage absorption"
+                ]
+            }
+        ],
+        "Revenant": [
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Passive] Buff -> Stalker's Eye now reveals enemy positions for a longer time after they've been seen"
+                ]
+            },
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Ultimate] Adjust -> Silence: reduced the duration, but increased its effectiveness and now also silences enemies in a larger area"
+                ]
+            }
+        ],
+        "Seer": [
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Perks] Buff -> Insight: increased its effectiveness and now also reveals enemy positions for a short time after they've been seen"
+                ]
+            },
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Perks] Adjust -> Insight: reduced the cooldown, but increased the duration of the reveal effect"
+                ]
+            }
+        ],
+        "Vantage": [
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Passive] Buff -> Eagle's Eye now reveals enemy positions for a longer time after they've been seen"
+                ]
+            },
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Tactical] Adjust -> Lookout: reduced the healing amount, but increased its speed and duration"
+                ]
+            }
+        ],
+        "Wraith": [
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Passive] Buff -> Voices From the Void now reveals enemy positions for a longer time after they've been seen"
+                ]
+            },
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Ultimate] Adjust -> Dimensional Rift: reduced the duration, but increased its effectiveness and now also teleports Wraith to a new location"
+                ]
+            }
+        ],
+        "Legend Upgrades/Perks": [
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Perks] Buff -> Burglar's Eye: increased its effectiveness and now also reveals enemy positions for a short time after they've been seen"
+                ]
+            },
+            {
+                "patch": "Escape",
+                "details": [
+                    "[Perks] Adjust -> Burglar's Eye: reduced the cooldown, but increased the duration of the reveal effect"
+                ]
+            }
+        ]
     }
-  }
 }
