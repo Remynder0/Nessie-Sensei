@@ -11,7 +11,7 @@ try:
 except ImportError:
     HAS_JSON_REPAIR = False
 
-RAW_PATCHES_FILE = "public/data/raw_patches.json"
+RAW_PATCHES_FILE = "archive/data/raw_patches.json"
 STRUCTURED_PATCHES_FILE = "public/data/structured_patches.json"
 
 # RECOMMENDED LLMs for 10GB/12GB VRAM via LM Studio:

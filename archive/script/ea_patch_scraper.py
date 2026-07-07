@@ -4,7 +4,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-OUTPUT_FILE = "public/data/raw_patches.json"
+OUTPUT_FILE = "archive/data/raw_patches.json"
 LOCALES = ["en-us"]
 
 HEADERS = {
