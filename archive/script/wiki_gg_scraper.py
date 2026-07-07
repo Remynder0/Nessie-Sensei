@@ -92,6 +92,34 @@ def extract_rich_text(cell):
         
     return items
 
+def extract_infobox(html):
+    soup = BeautifulSoup(html, 'html.parser')
+    infobox_div = soup.find('div', class_=lambda c: c and 'infobox' in c)
+    data = {}
+    if not infobox_div:
+        return data
+        
+    tables = infobox_div.find_all('table', class_='infobox-table')
+    for table in tables:
+        # Extract season name (usually in an <i> tag inside an infobox-centered td)
+        for td in table.find_all('td', class_='infobox-centered'):
+            i_tag = td.find('i')
+            if i_tag and 'name' not in data:
+                data['name'] = clean_text(i_tag.text)
+                
+        # Extract all key-value rows
+        for row in table.find_all('tr', class_='infobox-row'):
+            th = row.find('th', class_='infobox-row-name')
+            td = row.find('td', class_='infobox-row-value')
+            if th and td:
+                key = clean_text(th.text)
+                # Use extract_rich_text to nicely format multi-line cells (like events)
+                val_items = extract_rich_text(td)
+                val = " | ".join(val_items) if val_items else clean_text(td.text)
+                data[key] = val
+                
+    return data
+
 def parse_battle_pass_tables(html):
     """Finds and parses all battle pass tables in the HTML page."""
     soup = BeautifulSoup(html, 'html.parser')
@@ -159,6 +187,27 @@ def parse_battle_pass_tables(html):
             
     return results
 
+def update_season_file(season_key, infobox_data):
+    filepath = f"src/data/seasons/{season_key.lower()}.json"
+    if not os.path.exists(filepath):
+        filepath = f"src/data/seasons/{season_key.lower()}_1.json"
+        
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            data['name'] = infobox_data.get('name', '')
+            data['start_date'] = infobox_data.get('Start date', '')
+            data['end_date'] = infobox_data.get('End date', '')
+            data['infobox'] = infobox_data
+            
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            print(f"    -> Updated {filepath} with infobox data.")
+        except Exception as e:
+            print(f"    -> Error updating {filepath}: {e}")
+
 def main():
     all_seasons_data = {}
     output_filename = "archive/apex_battle_pass_wiki_gg.json"
@@ -174,26 +223,42 @@ def main():
         try:
             html = get_html_with_edge(url)
             parsed_tables = parse_battle_pass_tables(html)
+            infobox_data = extract_infobox(html)
+            
+            season_obj = {
+                "infobox": infobox_data,
+                "rewards": []
+            }
             
             if not parsed_tables:
                 print(f"  -> WARNING: No battle pass rewards table found for Season {season}.")
-                all_seasons_data[f"Season_{season}"] = []
+                all_seasons_data[f"Season_{season}"] = season_obj
+                update_season_file(f"Season_{season}", infobox_data)
             # If there's more than one table, it's likely a split-based season (Seasons 22+)
             elif len(parsed_tables) > 1:
                 print(f"  -> Found {len(parsed_tables)} splits/tables for Season {season}.")
                 for idx, rewards in enumerate(parsed_tables):
                     split_num = idx + 1
                     key = f"Season_{season}_{split_num}"
-                    all_seasons_data[key] = rewards
+                    all_seasons_data[key] = {
+                        "infobox": infobox_data,
+                        "rewards": rewards
+                    }
                     print(f"    -> Saved Split {split_num}: {len(rewards)} levels.")
+                    update_season_file(key, infobox_data)
             else:
                 rewards = parsed_tables[0]
-                all_seasons_data[f"Season_{season}"] = rewards
+                season_obj["rewards"] = rewards
+                all_seasons_data[f"Season_{season}"] = season_obj
                 print(f"  -> Saved Season {season}: {len(rewards)} levels.")
+                update_season_file(f"Season_{season}", infobox_data)
                 
         except Exception as e:
             print(f"  -> ERROR: Failed to process Season {season}: {e}")
-            all_seasons_data[f"Season_{season}"] = []
+            all_seasons_data[f"Season_{season}"] = {
+                "infobox": {},
+                "rewards": []
+            }
             
         # Polite delay to prevent Cloudflare bans (random between 4.0 and 7.0 seconds)
         delay = random.uniform(4.0, 7.0)

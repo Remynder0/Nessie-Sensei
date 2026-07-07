@@ -1,5 +1,18 @@
 {
   "season": "1",
+  "name": "Wild Frontier",
+  "start_date": "March 19, 2019",
+  "end_date": "June 18, 2019",
+  "infobox": {
+    "name": "Wild Frontier",
+    "New Legend": "Octane",
+    "Featured map": "Kings Canyon",
+    "Theme": "Prehistory",
+    "Reactive weapon": "HAVOC Rifle",
+    "Start date": "March 19, 2019",
+    "End date": "June 18, 2019",
+    "Events": "Legendary Hunt"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

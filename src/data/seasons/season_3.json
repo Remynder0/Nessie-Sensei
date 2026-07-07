@@ -1,5 +1,19 @@
 {
   "season": "3",
+  "name": "Meltdown",
+  "start_date": "October 01, 2019",
+  "end_date": "February 04, 2020",
+  "infobox": {
+    "name": "Meltdown",
+    "New Legend": "Crypto",
+    "New weapon": "Charge Rifle",
+    "Featured map": "World's Edge",
+    "Theme": "Fire/Ice",
+    "Reactive weapon": "Peacekeeper",
+    "Start date": "October 01, 2019",
+    "End date": "February 04, 2020",
+    "Events": "Fight or Fright (2019) Fight or Fright | Holo-Day Bash (2019) Holo-Day Bash | Grand Soirée"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

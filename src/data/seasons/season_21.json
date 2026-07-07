@@ -1,5 +1,18 @@
 {
   "season": "21",
+  "name": "Upheaval",
+  "start_date": "May 7, 2024",
+  "end_date": "August 6, 2024",
+  "infobox": {
+    "name": "Upheaval",
+    "New Legend": "Alter",
+    "Featured map": "Broken Moon",
+    "Theme": "Corrupted voidwalker",
+    "Reactive weapon": "30-30 Repeater",
+    "Start date": "May 7, 2024",
+    "End date": "August 6, 2024",
+    "Events": "Void Raider | Double Take | Void Reckoning"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

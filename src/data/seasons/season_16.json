@@ -1,5 +1,20 @@
 {
   "season": "16",
+  "name": "Revelry",
+  "start_date": "February 14, 2023",
+  "end_date": "May 9, 2023",
+  "infobox": {
+    "name": "Revelry",
+    "New Legend": "N/A",
+    "New weapon": "Nemesis Burst AR",
+    "Featured map": "World's Edge",
+    "Season Quest": "\" Weekend Warriors",
+    "Theme": "Celebration",
+    "Reactive weapon": "Mastiff Shotgun",
+    "Start date": "February 14, 2023",
+    "End date": "May 9, 2023",
+    "Events": "4th Anniversary | Imperial Guard | Sun Squad | Veiled"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

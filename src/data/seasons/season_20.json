@@ -1,5 +1,18 @@
 {
   "season": "20",
+  "name": "Breakout",
+  "start_date": "February 13, 2024",
+  "end_date": "May 7, 2024",
+  "infobox": {
+    "name": "Breakout",
+    "Featured map": "Storm Point",
+    "Season Quest": "\" Brighter Horizons",
+    "Theme": "Celebration, Comic, Ninja",
+    "Reactive weapon": "R-99 SMG | Flatline (Breakout challenge completion reward)",
+    "Start date": "February 13, 2024",
+    "End date": "May 7, 2024",
+    "Events": "5th Anniversary | Inner Beast | Shadow Society | Urban Assault"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

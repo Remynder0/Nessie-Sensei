@@ -1,5 +1,17 @@
 {
   "season": "24_1",
+  "name": "Takeover",
+  "start_date": "February 11, 2025",
+  "end_date": "May 6, 2025",
+  "infobox": {
+    "name": "Takeover",
+    "Featured map": "Kings Canyon | Broken Moon | Olympus",
+    "Theme": "Workout/Boxing",
+    "Reactive weapon": "Alternator SMG",
+    "Start date": "February 11, 2025",
+    "End date": "May 6, 2025",
+    "Events": "6th Anniversary | Beast Mode | Fight Force"
+  },
   "max_level": 60,
   "rewards": {
     "level_1": {

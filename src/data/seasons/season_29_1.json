@@ -413,5 +413,17 @@
       ],
       "free": []
     }
+  },
+  "name": "Overclocked",
+  "start_date": "May 5, 2026",
+  "end_date": "August 4, 2026",
+  "infobox": {
+    "name": "Overclocked",
+    "New Legend": "Axle",
+    "Theme": "Power up",
+    "Reactive weapon": "RE-45 Auto",
+    "Start date": "May 5, 2026",
+    "End date": "August 4, 2026",
+    "Events": "Overclocked Seasonal | Power Trip"
   }
 }

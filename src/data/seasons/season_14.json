@@ -1,5 +1,19 @@
 {
   "season": "14",
+  "name": "Hunted",
+  "start_date": "August 9, 2022",
+  "end_date": "November 1st, 2022",
+  "infobox": {
+    "name": "Hunted",
+    "New Legend": "Vantage",
+    "Featured map": "Kings Canyon",
+    "Season Quest": "\" Friends Like These",
+    "Theme": "Hunting and Wilderness",
+    "Reactive weapon": "Triple Take",
+    "Start date": "August 9, 2022",
+    "End date": "November 1st, 2022",
+    "Events": "Beast of Prey | Fight or Fright (2022) Fight or Fright"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

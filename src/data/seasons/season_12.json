@@ -1,5 +1,19 @@
 {
   "season": "12",
+  "name": "Defiance",
+  "start_date": "February 08, 2022",
+  "end_date": "May 10, 2022",
+  "infobox": {
+    "name": "Defiance",
+    "New Legend": "Mad Maggie",
+    "Featured map": "Olympus",
+    "Season Quest": "\" The Perfect Son",
+    "Theme": "Rebel Bikers",
+    "Reactive weapon": "Hemlok Burst AR",
+    "Start date": "February 08, 2022",
+    "End date": "May 10, 2022",
+    "Events": "3rd Anniversary | Warriors | Unshackled"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

@@ -1,5 +1,19 @@
 {
   "season": "15",
+  "name": "Eclipse",
+  "start_date": "November 1, 2022",
+  "end_date": "February 14, 2023",
+  "infobox": {
+    "name": "Eclipse",
+    "New Legend": "Catalyst",
+    "Featured map": "Broken Moon",
+    "Season Quest": "\" Reflections of the Moon",
+    "Theme": "Goth",
+    "Reactive weapon": "Charge Rifle",
+    "Start date": "November 1, 2022",
+    "End date": "February 14, 2023",
+    "Events": "Wintertide | Spellbound | Celestial Sunrise"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

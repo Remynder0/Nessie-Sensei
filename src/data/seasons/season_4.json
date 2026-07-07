@@ -1,5 +1,19 @@
 {
   "season": "4",
+  "name": "Assimilation",
+  "start_date": "February 04, 2020",
+  "end_date": "May 12, 2020",
+  "infobox": {
+    "name": "Assimilation",
+    "New Legend": "Revenant",
+    "New weapon": "Sentinel",
+    "Featured map": "World's Edge",
+    "Theme": "Robots",
+    "Reactive weapon": "VK-47 Flatline",
+    "Start date": "February 04, 2020",
+    "End date": "May 12, 2020",
+    "Events": "Valentine's Day Rendezvous | System Override | The Old Ways"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

@@ -1,5 +1,20 @@
 {
   "season": "6",
+  "name": "Boosted",
+  "start_date": "August 18, 2020",
+  "end_date": "November 04, 2020",
+  "infobox": {
+    "name": "Boosted",
+    "New Legend": "Rampart",
+    "New weapon": "Volt SMG",
+    "Featured map": "World's Edge",
+    "Season Quest": "\" The First Ship",
+    "Theme": "Cars/Racing",
+    "Reactive weapon": "G7 Scout",
+    "Start date": "August 18, 2020",
+    "End date": "November 04, 2020",
+    "Events": "Aftermarket | Fight or Fright (2020) Fight or Fright"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

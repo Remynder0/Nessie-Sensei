@@ -1,5 +1,19 @@
 {
   "season": "2",
+  "name": "Battle Charge",
+  "start_date": "July 02, 2019",
+  "end_date": "October 01, 2019",
+  "infobox": {
+    "name": "Battle Charge",
+    "New Legend": "Wattson",
+    "New weapon": "L-STAR EMG",
+    "Featured map": "Kings Canyon",
+    "Theme": "Royalty/Medieval times",
+    "Reactive weapon": "R-301 Carbine",
+    "Start date": "July 02, 2019",
+    "End date": "October 01, 2019",
+    "Events": "Iron Crown | Voidwalker"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

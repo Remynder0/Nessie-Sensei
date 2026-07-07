@@ -1,5 +1,20 @@
 {
   "season": "18",
+  "name": "Resurrection",
+  "start_date": "August 8, 2023",
+  "end_date": "October 31, 2023",
+  "infobox": {
+    "name": "Resurrection",
+    "New Legend": "Revenant Rework",
+    "New weapon": "Charge Rifle Rework",
+    "Featured map": "Broken Moon",
+    "Season Quest": "\"Kill Code: Revenant Reborn\"",
+    "Theme": "Tech/Horror",
+    "Reactive weapon": "EVA-8 Auto",
+    "Start date": "August 8, 2023",
+    "End date": "October 31, 2023",
+    "Events": "Death Dynasty | Harbingers | Doppelgangers"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

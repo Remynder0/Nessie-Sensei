@@ -1,5 +1,20 @@
 {
   "season": "11",
+  "name": "Escape",
+  "start_date": "November 2, 2021",
+  "end_date": "February 8, 2022",
+  "infobox": {
+    "name": "Escape",
+    "New Legend": "Ash",
+    "New weapon": "C.A.R. SMG",
+    "Featured map": "Storm Point",
+    "Season Quest": "\" Trouble in Paradise",
+    "Theme": "Tropical paradises and exotic landmarks",
+    "Reactive weapon": "Prowler Burst PDW",
+    "Start date": "November 2, 2021",
+    "End date": "February 8, 2022",
+    "Events": "Raiders | Dark Depths"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

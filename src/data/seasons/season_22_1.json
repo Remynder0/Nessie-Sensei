@@ -1,5 +1,17 @@
 {
   "season": "22_1",
+  "name": "Shockwave",
+  "start_date": "August 6, 2024",
+  "end_date": "November 5, 2024",
+  "infobox": {
+    "name": "Shockwave",
+    "Featured map": "E-District",
+    "Theme": "Retro/City",
+    "Reactive weapon": "P2020",
+    "Start date": "August 6, 2024",
+    "End date": "November 5, 2024",
+    "Events": "Temporal Chaos | Space Hunt | Techno Terror"
+  },
   "max_level": 60,
   "rewards": {
     "level_1": {

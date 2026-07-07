@@ -1,5 +1,19 @@
 {
   "season": "13",
+  "name": "Saviors",
+  "start_date": "May 10, 2022",
+  "end_date": "August 09, 2022",
+  "infobox": {
+    "name": "Saviors",
+    "New Legend": "Newcastle",
+    "Featured map": "Storm Point",
+    "Season Quest": "\" Family Secrets",
+    "Theme": "Knights and dragons",
+    "Reactive weapon": "M600 Spitfire",
+    "Start date": "May 10, 2022",
+    "End date": "August 09, 2022",
+    "Events": "Awakening | Gaiden"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

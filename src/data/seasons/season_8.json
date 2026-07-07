@@ -1,5 +1,20 @@
 {
   "season": "8",
+  "name": "Mayhem",
+  "start_date": "February 02, 2021",
+  "end_date": "May 04, 2021",
+  "infobox": {
+    "name": "Mayhem",
+    "New Legend": "Fuse",
+    "New weapon": "30-30 Repeater",
+    "Featured map": "Kings Canyon",
+    "Season Quest": "\" Armageddon",
+    "Theme": "Action",
+    "Reactive weapon": "Longbow DMR",
+    "Start date": "February 02, 2021",
+    "End date": "May 04, 2021",
+    "Events": "Anniversary | Chaos Theory | War Games"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

@@ -1,5 +1,19 @@
 {
   "season": "10",
+  "name": "Emergence",
+  "start_date": "August 03, 2021",
+  "end_date": "November 02, 2021",
+  "infobox": {
+    "name": "Emergence",
+    "New Legend": "Seer",
+    "New weapon": "Rampage",
+    "Featured map": "World's Edge",
+    "Theme": "Insects/animals",
+    "Reactive weapon": "Volt SMG",
+    "Start date": "August 03, 2021",
+    "End date": "November 02, 2021",
+    "Events": "Evolution | Monsters Within"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

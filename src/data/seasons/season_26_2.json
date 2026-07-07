@@ -1,5 +1,16 @@
 {
   "season": "26_2",
+  "name": "Showdown",
+  "start_date": "August 5, 2025",
+  "end_date": "November 4, 2025",
+  "infobox": {
+    "name": "Showdown",
+    "Theme": "Versus, competitive (Split 1) | Flora and Machine (Split 2)",
+    "Reactive weapon": "L-STAR EMG",
+    "Start date": "August 5, 2025",
+    "End date": "November 4, 2025",
+    "Events": "Galactic Games | Wild Iron | Raise Hell"
+  },
   "max_level": 60,
   "rewards": {
     "level_1": {

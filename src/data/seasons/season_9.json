@@ -1,5 +1,20 @@
 {
   "season": "9",
+  "name": "Legacy",
+  "start_date": "May 04, 2021",
+  "end_date": "August 03, 2021",
+  "infobox": {
+    "name": "Legacy",
+    "New Legend": "Valkyrie",
+    "New weapon": "Bocek Compound Bow",
+    "Featured map": "Olympus",
+    "Season Quest": "\" The Legacy Antigen",
+    "Theme": "Japanese culture",
+    "Reactive weapon": "Devotion LMG",
+    "Start date": "May 04, 2021",
+    "End date": "August 03, 2021",
+    "Events": "Genesis | Thrillseekers"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

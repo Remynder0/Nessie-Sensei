@@ -1,5 +1,19 @@
 {
   "season": "19",
+  "name": "Ignite",
+  "start_date": "October 31, 2023",
+  "end_date": "February 13, 2024",
+  "infobox": {
+    "name": "Ignite",
+    "New Legend": "Conduit",
+    "Featured map": "Storm Point",
+    "Season Quest": "\" Shine Bright: Conduit",
+    "Theme": "Uprising / Mythology",
+    "Reactive weapon": "Rampage LMG",
+    "Start date": "October 31, 2023",
+    "End date": "February 13, 2024",
+    "Events": "Post Malone Themed Event Apex Legends X Post Malone | Uprising | Apex Legends & FINAL FANTASY VII REBIRTH"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

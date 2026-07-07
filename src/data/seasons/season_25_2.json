@@ -1,5 +1,16 @@
 {
   "season": "25_2",
+  "name": "Prodigy",
+  "start_date": "May 6, 2025",
+  "end_date": "August 5, 2025",
+  "infobox": {
+    "name": "Prodigy",
+    "Theme": "Designer fashion/Luxury (Split 1) | Sports academy (Split 2)",
+    "Reactive weapon": "Nemesis Burst AR",
+    "Start date": "May 6, 2025",
+    "End date": "August 5, 2025",
+    "Events": "Death By Design | Future Icons | Haute Shot"
+  },
   "max_level": 60,
   "rewards": {
     "level_1": {

@@ -1,5 +1,19 @@
 {
   "season": "5",
+  "name": "Fortune's Favor",
+  "start_date": "May 12, 2020",
+  "end_date": "August 18, 2020",
+  "infobox": {
+    "name": "Fortune's Favor",
+    "New Legend": "Loba",
+    "Featured map": "Kings Canyon",
+    "Season Quest": "\" The Broken Ghost",
+    "Theme": "Exploration",
+    "Reactive weapon": "Wingman",
+    "Start date": "May 12, 2020",
+    "End date": "August 18, 2020",
+    "Events": "Lost Treasures"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

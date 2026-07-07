@@ -48,3 +48,7 @@ env/
 
 .vercel
 .env*
+
+# Tauri
+/target/
+/gen/schemas

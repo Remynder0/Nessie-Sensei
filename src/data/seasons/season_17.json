@@ -1,5 +1,20 @@
 {
   "season": "17",
+  "name": "Arsenal",
+  "start_date": "May 9, 2023",
+  "end_date": "August 8, 2023",
+  "infobox": {
+    "name": "Arsenal",
+    "New Legend": "Ballistic",
+    "New weapon": "N/A",
+    "Featured map": "World's Edge",
+    "Season Quest": "\" What's Past Is Prologue",
+    "Theme": "Cyberpunk",
+    "Reactive weapon": "C.A.R. SMG",
+    "Start date": "May 9, 2023",
+    "End date": "August 8, 2023",
+    "Events": "Threat Level | Dressed to Kill | Neon Network"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {

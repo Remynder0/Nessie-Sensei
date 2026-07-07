@@ -1,5 +1,19 @@
 {
   "season": "7",
+  "name": "Ascension",
+  "start_date": "November 04, 2020",
+  "end_date": "February 02, 2021",
+  "infobox": {
+    "name": "Ascension",
+    "New Legend": "Horizon",
+    "Featured map": "Olympus",
+    "Season Quest": "\" Family Portrait",
+    "Theme": "Fashion",
+    "Reactive weapon": "R-99 SMG",
+    "Start date": "November 04, 2020",
+    "End date": "February 02, 2021",
+    "Events": "Holo-Day Bash (2020) | Fight Night"
+  },
   "max_level": 110,
   "rewards": {
     "level_1": {
