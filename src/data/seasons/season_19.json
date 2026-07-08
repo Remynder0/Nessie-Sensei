@@ -1,798 +1,803 @@
 {
-    "season": "19",
+  "season": "19",
+  "name": "Ignite",
+  "start_date": "October 31, 2023",
+  "end_date": "February 13, 2024",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_19.svg?c2c83f",
     "name": "Ignite",
-    "start_date": "October 31, 2023",
-    "end_date": "February 13, 2024",
-    "infobox": {
-        "name": "Ignite",
-        "New Legend": "Conduit",
-        "Featured map": "Storm Point",
-        "Season Quest": "\" Shine Bright: Conduit",
-        "Theme": "Uprising / Mythology",
-        "Reactive weapon": "Rampage LMG",
-        "Start date": "October 31, 2023",
-        "End date": "February 13, 2024",
-        "Events": "Post Malone Themed Event Apex Legends X Post Malone | Uprising | Apex Legends & FINAL FANTASY VII REBIRTH"
+    "New Legend": "Conduit",
+    "Featured map": "Storm Point",
+    "Season Quest": "\" Shine Bright: Conduit",
+    "Theme": "Uprising / Mythology",
+    "Reactive weapon": "Rampage LMG",
+    "Start date": "October 31, 2023",
+    "End date": "February 13, 2024",
+    "Events": [
+      "Post Malone Themed Event Apex Legends X Post Malone",
+      "Uprising",
+      "Apex Legends & FINAL FANTASY VII REBIRTH"
+    ]
+  },
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Wattson Copper Conductor",
+        "Newcastle Gold Guard",
+        "Conduit Prism Powered",
+        "Nemesis Burst AR Glided Age",
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Transition The Last Gleaming"
+      ]
     },
-    "max_level": 110,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Wattson Copper Conductor",
-                "Newcastle Gold Guard",
-                "Conduit Prism Powered",
-                "Nemesis Burst AR Glided Age",
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Transition The Last Gleaming"
-            ]
-        },
-        "level_2": {
-            "premium": [
-                "Conduit Skydive Emote The Nexus Flip"
-            ],
-            "free": []
-        },
-        "level_3": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Music Pack Ignite"
-            ]
-        },
-        "level_5": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Portable Wreckage"
-            ]
-        },
-        "level_7": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "Charge Rifle Emblematic"
-            ],
-            "free": [
-                "Conduit Stat Tracker Season 19 Wins as Conduit"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Wraith Quip Kill Quip : I Saw Another You"
-            ],
-            "free": [
-                "Conduit Stat Tracker Season 19 Kills as Conduit"
-            ]
-        },
-        "level_10": {
-            "premium": [
-                "Sticker Cozy Doze"
-            ],
-            "free": [
-                "Bocek Compound Bow Squared Away"
-            ]
-        },
-        "level_11": {
-            "premium": [
-                "Bloodhound Banner Frame Arturus Maximus"
-            ],
-            "free": [
-                "Transition The Long Road Home"
-            ]
-        },
-        "level_12": {
-            "premium": [
-                "Catalyst Cosmetic Emote To Your Strength"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Devotion LMG Emblematic"
-            ]
-        },
-        "level_14": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Bangalore Stat Tracker Season 19 Wins as Bangalore"
-            ]
-        },
-        "level_15": {
-            "premium": [
-                "Rampart Stat Tracker Kills as Rampart"
-            ],
-            "free": [
-                "Bangalore Stat Tracker Season 19 Wins as Bangalore"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "Rampart Stat Tracker Wins as Rampart"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Rampart Stat Tracker Damage Done as Rampart"
-            ],
-            "free": [
-                "Sentinel Tessellator"
-            ]
-        },
-        "level_18": {
-            "premium": [
-                "Rampart Banner Frame A Thousand Cuts"
-            ],
-            "free": []
-        },
-        "level_19": {
-            "premium": [
-                "Rampart Holospray Long Live The Queen"
-            ],
-            "free": [
-                "Gibraltar Stat Tracker Season 19 Kills as Gibraltar"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Gibraltar Stat Tracker Season 19 Kills as Gibraltar"
-            ]
-        },
-        "level_21": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_22": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_23": {
-            "premium": [
-                "Rampart Quip Kill Quip : You Put Up A Fight"
-            ],
-            "free": [
-                "Fuse Stat Tracker Season 19 Wins as Fuse"
-            ]
-        },
-        "level_24": {
-            "premium": [
-                "Cresting Crown"
-            ],
-            "free": [
-                "Fuse Stat Tracker Season 19 Kills as Fuse"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Rampart Sly Sovereign"
-            ],
-            "free": [
-                "EVA-8 Auto Wire Cutter"
-            ]
-        },
-        "level_26": {
-            "premium": [
-                "Flatline Emblematic"
-            ],
-            "free": []
-        },
-        "level_27": {
-            "premium": [
-                "Wraith Cosmetic Emote Get It Together"
-            ],
-            "free": [
-                "Vantage Stat Tracker Season 19 Kills as Vantage"
-            ]
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Vantage Stat Tracker Gilded Wings"
-            ]
-        },
-        "level_29": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Kraber .50-Cal Sniper Gilded Wings"
-            ]
-        },
-        "level_30": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "Wattson Quip Kill Quip : Bon Voyage"
-            ],
-            "free": [
-                "Crypto Stat Tracker Season 19 Wins as Crypto"
-            ]
-        },
-        "level_32": {
-            "premium": [
-                "Wattson Banner Frame Powered Paradise"
-            ],
-            "free": [
-                "Crypto Stat Tracker Season 19 Kills as Crypto"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Charged Up"
-            ],
-            "free": [
-                "P2020 Lilac Defender"
-            ]
-        },
-        "level_34": {
-            "premium": [
-                "Wingman Tessellator"
-            ],
-            "free": []
-        },
-        "level_35": {
-            "premium": [
-                "Wattson Holospray Unveil Your Power"
-            ],
-            "free": [
-                "Catalyst Stat Tracker Season 19 Wins as Catalyst"
-            ]
-        },
-        "level_36": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Catalyst Stat Tracker Season 19 Kills as Catalyst"
-            ]
-        },
-        "level_37": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Prowler Burst PDW Squared Away"
-            ]
-        },
-        "level_38": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_39": {
-            "premium": [
-                "Token of Protection"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_40": {
-            "premium": [
-                "Newcastle Quip Kill Quip : We All Fight"
-            ],
-            "free": [
-                "Octane Stat Tracker Season 19 Wins as Octane"
-            ]
-        },
-        "level_41": {
-            "premium": [
-                "Newcastle Holospray World's Best Defender"
-            ],
-            "free": [
-                "Octane Stat Tracker Season 19 Kills as Octane"
-            ]
-        },
-        "level_42": {
-            "premium": [
-                "C.A.R. SMG Wire Cutter"
-            ],
-            "free": []
-        },
-        "level_43": {
-            "premium": [
-                "Newcastle Banner Frame Divine Bridge"
-            ],
-            "free": [
-                "Bloodhound Stat Tracker Season 19 Wins as Bloodhound"
-            ]
-        },
-        "level_44": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Bloodhound Stat Tracker Season 19 Kills as Bloodhound"
-            ]
-        },
-        "level_45": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Transition Custom Radia Plating"
-            ]
-        },
-        "level_46": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Octane Stat Tracker Kills as Octane"
-            ],
-            "free": [
-                "30-30 Repeater Squared Away"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Octane Stat Tracker Wins as Octane"
-            ],
-            "free": [
-                "Rampart Stat Tracker Season 19 Wins as Rampart"
-            ]
-        },
-        "level_49": {
-            "premium": [
-                "Octane Stat Tracker Damage Done as Octane"
-            ],
-            "free": [
-                "Rampart Stat Tracker Season 19 Kills as Rampart"
-            ]
-        },
-        "level_50": {
-            "premium": [
-                "Octane Godly Speed"
-            ],
-            "free": [
-                "Music Pack Conduit"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Avian Wings"
-            ],
-            "free": [
-                "Lifeline Stat Tracker Season 19 Wins as Lifeline"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "M600 Spitfire Glided Wings"
-            ],
-            "free": [
-                "Lifeline Stat Tracker Season 19 Kills as Lifeline"
-            ]
-        },
-        "level_53": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Volt SMG Emblematic"
-            ]
-        },
-        "level_54": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Octane Banner Frame Divine Kicks"
-            ],
-            "free": [
-                "Mirage Stat Tracker Season 19 Wins as Mirage"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Octane Quip Kill Quip : Out of the Fast Lane"
-            ],
-            "free": [
-                "Mirage Stat Tracker Season 19 Kills as Mirage"
-            ]
-        },
-        "level_57": {
-            "premium": [
-                "Octane Holospray Break Through"
-            ],
-            "free": [
-                "Mirage Celtic Trouble"
-            ]
-        },
-        "level_58": {
-            "premium": [
-                "Peacekeeper Tessellator"
-            ],
-            "free": []
-        },
-        "level_59": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Caustic Stat Tracker Season 19 Wins as Caustic"
-            ]
-        },
-        "level_60": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Caustic Stat Tracker Season 19 Kills as Caustic"
-            ]
-        },
-        "level_61": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_62": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_63": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "L-STAR EMG Tessellator"
-            ]
-        },
-        "level_64": {
-            "premium": [
-                "Ash Cosmetic Emote Can't Stomach This"
-            ],
-            "free": [
-                "Ballistic Stat Tracker Season 19 Wins as Ballistic"
-            ]
-        },
-        "level_65": {
-            "premium": [
-                "G7 Scout Heroes Past"
-            ],
-            "free": [
-                "Ballistic Stat Tracker Season 19 Kills as Ballistic"
-            ]
-        },
-        "level_66": {
-            "premium": [
-                "Loba Quip Kill Quip : This Was Lovely"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_67": {
-            "premium": [
-                "Wraith Banner Frame Yggdrasil Portal"
-            ],
-            "free": [
-                "Mad Maggie Stat Tracker Season 19 Wins as Mad Maggie"
-            ]
-        },
-        "level_68": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Mad Maggie Stat Tracker Season 19 Kills as Mad Maggie"
-            ]
-        },
-        "level_69": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Hemlok Burst AR Wire Cutter"
-            ]
-        },
-        "level_70": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_71": {
-            "premium": [
-                "Arcade Conduit"
-            ],
-            "free": [
-                "Loba Stat Tracker Season 19 Wins as Loba"
-            ]
-        },
-        "level_72": {
-            "premium": [
-                "HAVOC Rifle Lilac Defender"
-            ],
-            "free": [
-                "Loba Stat Tracker Season 19 Kills as Loba"
-            ]
-        },
-        "level_73": {
-            "premium": [
-                "Conduit Quip Kill Quip : One Step Closer to the Champion's Circle"
-            ],
-            "free": [
-                "Revenant Stat Tracker Season 19 Wins as Revenant"
-            ]
-        },
-        "level_74": {
-            "premium": [
-                "Conduit Holospray Don't Hold Back"
-            ],
-            "free": [
-                "Revenant Stat Tracker Season 19 Kills as Revenant"
-            ]
-        },
-        "level_75": {
-            "premium": [
-                "Conduit Banner Frame Ancient Village"
-            ],
-            "free": [
-                "Pathfinder Stat Tracker Season 19 Wins as Pathfinder"
-            ]
-        },
-        "level_76": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Pathfinder Stat Tracker Season 19 Kills as Pathfinder"
-            ]
-        },
-        "level_77": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_78": {
-            "premium": [
-                "R-301 Carbine Wire Cutter"
-            ],
-            "free": []
-        },
-        "level_79": {
-            "premium": [
-                "Revenant Banner Frame Tumultuous Temple"
-            ],
-            "free": [
-                "Seer Stat Tracker Season 19 Wins as Seer"
-            ]
-        },
-        "level_80": {
-            "premium": [
-                "Sticker Super Ness"
-            ],
-            "free": [
-                "Seer Stat Tracker Season 19 Kills as Seer"
-            ]
-        },
-        "level_81": {
-            "premium": [
-                "Bangalore Holospray Death Dealer"
-            ],
-            "free": [
-                "Valkyrie Stat Tracker Season 19 Wins as Valkyrie"
-            ]
-        },
-        "level_82": {
-            "premium": [
-                "Ballistic Cosmetic Emote Strong Brew"
-            ],
-            "free": [
-                "Valkyrie Stat Tracker Season 19 Kills as Valkyrie"
-            ]
-        },
-        "level_83": {
-            "premium": [
-                "Fuse Quip Kill Quip : A Bomb in the Hand's Worth Two"
-            ],
-            "free": [
-                "Newcastle Stat Tracker Season 19 Wins as Newcastle"
-            ]
-        },
-        "level_84": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Newcastle Stat Tracker Season 19 Kills as Newcastle"
-            ]
-        },
-        "level_85": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_86": {
-            "premium": [
-                "Transition Energy Conservation PSA"
-            ],
-            "free": []
-        },
-        "level_87": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Ash Stat Tracker Season 19 Wins as Ash"
-            ]
-        },
-        "level_88": {
-            "premium": [
-                "Bangalore Banner Frame Sacred Depths"
-            ],
-            "free": [
-                "Ash Stat Tracker Season 19 Kills as Ash"
-            ]
-        },
-        "level_89": {
-            "premium": [
-                "Triple Take Gilded Wings"
-            ],
-            "free": []
-        },
-        "level_90": {
-            "premium": [
-                "Horizon Skydive Emote The Cool Mom"
-            ],
-            "free": [
-                "Horizon Stat Tracker Season 19 Wins as Horizon"
-            ]
-        },
-        "level_91": {
-            "premium": [
-                "Vantage Quip Kill Quip : You Weren't Really Living, Anyway"
-            ],
-            "free": [
-                "Horizon Stat Tracker Season 19 Kills as Horizon"
-            ]
-        },
-        "level_92": {
-            "premium": [
-                "Jeweled Raven"
-            ],
-            "free": []
-        },
-        "level_93": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Transition Calling Triple-Kill CHamp"
-            ]
-        },
-        "level_94": {
-            "premium": [
-                "Mastiff Shotgun Lilac Defender"
-            ],
-            "free": []
-        },
-        "level_95": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Wraith Stat Tracker Season 19 Wins as Wraith"
-            ]
-        },
-        "level_96": {
-            "premium": [
-                "Fuse Holospray She'll be right"
-            ],
-            "free": [
-                "Wraith Stat Tracker Season 19 Kills as Wraith"
-            ]
-        },
-        "level_97": {
-            "premium": [
-                "Ash Banner Frame Fabled Betrayal"
-            ],
-            "free": []
-        },
-        "level_98": {
-            "premium": [
-                "Conduit Skydive Emote Quick Scan"
-            ],
-            "free": [
-                "Wattson Stat Tracker Season 19 Wins as Wattson"
-            ]
-        },
-        "level_99": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Wattson Stat Tracker Season 19 Kills as Wattson"
-            ]
-        },
-        "level_100": {
-            "premium": [
-                "Rampage LMG Grace of Odin"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_110": {
-            "premium": [
-                "Link=Rampage LMG Wrath of Fenrir"
-            ],
-            "free": [
-                "Badge : Ignite"
-            ]
-        }
+    "level_2": {
+      "premium": [
+        "Conduit Skydive Emote The Nexus Flip"
+      ],
+      "free": []
     },
-    "patches": {
-        "Conduit": [
-            {
-                "patch": "Apex Legends™: Ignite",
-                "details": [
-                    "[Base] Buff -> Conduit is having fun because she *knows* the Apex Games."
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Music Pack Ignite"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Portable Wreckage"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Charge Rifle Emblematic"
+      ],
+      "free": [
+        "Conduit Stat Tracker Season 19 Wins as Conduit"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Wraith Quip Kill Quip : I Saw Another You"
+      ],
+      "free": [
+        "Conduit Stat Tracker Season 19 Kills as Conduit"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Sticker Cozy Doze"
+      ],
+      "free": [
+        "Bocek Compound Bow Squared Away"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Bloodhound Banner Frame Arturus Maximus"
+      ],
+      "free": [
+        "Transition The Long Road Home"
+      ]
+    },
+    "level_12": {
+      "premium": [
+        "Catalyst Cosmetic Emote To Your Strength"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Devotion LMG Emblematic"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Bangalore Stat Tracker Season 19 Wins as Bangalore"
+      ]
+    },
+    "level_15": {
+      "premium": [
+        "Rampart Stat Tracker Kills as Rampart"
+      ],
+      "free": [
+        "Bangalore Stat Tracker Season 19 Wins as Bangalore"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Rampart Stat Tracker Wins as Rampart"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Rampart Stat Tracker Damage Done as Rampart"
+      ],
+      "free": [
+        "Sentinel Tessellator"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Rampart Banner Frame A Thousand Cuts"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Rampart Holospray Long Live The Queen"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker Season 19 Kills as Gibraltar"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker Season 19 Kills as Gibraltar"
+      ]
+    },
+    "level_21": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Rampart Quip Kill Quip : You Put Up A Fight"
+      ],
+      "free": [
+        "Fuse Stat Tracker Season 19 Wins as Fuse"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Cresting Crown"
+      ],
+      "free": [
+        "Fuse Stat Tracker Season 19 Kills as Fuse"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Rampart Sly Sovereign"
+      ],
+      "free": [
+        "EVA-8 Auto Wire Cutter"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "Flatline Emblematic"
+      ],
+      "free": []
+    },
+    "level_27": {
+      "premium": [
+        "Wraith Cosmetic Emote Get It Together"
+      ],
+      "free": [
+        "Vantage Stat Tracker Season 19 Kills as Vantage"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Vantage Stat Tracker Gilded Wings"
+      ]
+    },
+    "level_29": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Kraber .50-Cal Sniper Gilded Wings"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Wattson Quip Kill Quip : Bon Voyage"
+      ],
+      "free": [
+        "Crypto Stat Tracker Season 19 Wins as Crypto"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Wattson Banner Frame Powered Paradise"
+      ],
+      "free": [
+        "Crypto Stat Tracker Season 19 Kills as Crypto"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Charged Up"
+      ],
+      "free": [
+        "P2020 Lilac Defender"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "Wingman Tessellator"
+      ],
+      "free": []
+    },
+    "level_35": {
+      "premium": [
+        "Wattson Holospray Unveil Your Power"
+      ],
+      "free": [
+        "Catalyst Stat Tracker Season 19 Wins as Catalyst"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Catalyst Stat Tracker Season 19 Kills as Catalyst"
+      ]
+    },
+    "level_37": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Prowler Burst PDW Squared Away"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Token of Protection"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Newcastle Quip Kill Quip : We All Fight"
+      ],
+      "free": [
+        "Octane Stat Tracker Season 19 Wins as Octane"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "Newcastle Holospray World's Best Defender"
+      ],
+      "free": [
+        "Octane Stat Tracker Season 19 Kills as Octane"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "C.A.R. SMG Wire Cutter"
+      ],
+      "free": []
+    },
+    "level_43": {
+      "premium": [
+        "Newcastle Banner Frame Divine Bridge"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker Season 19 Wins as Bloodhound"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker Season 19 Kills as Bloodhound"
+      ]
+    },
+    "level_45": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Custom Radia Plating"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Octane Stat Tracker Kills as Octane"
+      ],
+      "free": [
+        "30-30 Repeater Squared Away"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Octane Stat Tracker Wins as Octane"
+      ],
+      "free": [
+        "Rampart Stat Tracker Season 19 Wins as Rampart"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Octane Stat Tracker Damage Done as Octane"
+      ],
+      "free": [
+        "Rampart Stat Tracker Season 19 Kills as Rampart"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Octane Godly Speed"
+      ],
+      "free": [
+        "Music Pack Conduit"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Avian Wings"
+      ],
+      "free": [
+        "Lifeline Stat Tracker Season 19 Wins as Lifeline"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "M600 Spitfire Glided Wings"
+      ],
+      "free": [
+        "Lifeline Stat Tracker Season 19 Kills as Lifeline"
+      ]
+    },
+    "level_53": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Volt SMG Emblematic"
+      ]
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Octane Banner Frame Divine Kicks"
+      ],
+      "free": [
+        "Mirage Stat Tracker Season 19 Wins as Mirage"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Octane Quip Kill Quip : Out of the Fast Lane"
+      ],
+      "free": [
+        "Mirage Stat Tracker Season 19 Kills as Mirage"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "Octane Holospray Break Through"
+      ],
+      "free": [
+        "Mirage Celtic Trouble"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Peacekeeper Tessellator"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Caustic Stat Tracker Season 19 Wins as Caustic"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Caustic Stat Tracker Season 19 Kills as Caustic"
+      ]
+    },
+    "level_61": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_63": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "L-STAR EMG Tessellator"
+      ]
+    },
+    "level_64": {
+      "premium": [
+        "Ash Cosmetic Emote Can't Stomach This"
+      ],
+      "free": [
+        "Ballistic Stat Tracker Season 19 Wins as Ballistic"
+      ]
+    },
+    "level_65": {
+      "premium": [
+        "G7 Scout Heroes Past"
+      ],
+      "free": [
+        "Ballistic Stat Tracker Season 19 Kills as Ballistic"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Loba Quip Kill Quip : This Was Lovely"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_67": {
+      "premium": [
+        "Wraith Banner Frame Yggdrasil Portal"
+      ],
+      "free": [
+        "Mad Maggie Stat Tracker Season 19 Wins as Mad Maggie"
+      ]
+    },
+    "level_68": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Mad Maggie Stat Tracker Season 19 Kills as Mad Maggie"
+      ]
+    },
+    "level_69": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Hemlok Burst AR Wire Cutter"
+      ]
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_71": {
+      "premium": [
+        "Arcade Conduit"
+      ],
+      "free": [
+        "Loba Stat Tracker Season 19 Wins as Loba"
+      ]
+    },
+    "level_72": {
+      "premium": [
+        "HAVOC Rifle Lilac Defender"
+      ],
+      "free": [
+        "Loba Stat Tracker Season 19 Kills as Loba"
+      ]
+    },
+    "level_73": {
+      "premium": [
+        "Conduit Quip Kill Quip : One Step Closer to the Champion's Circle"
+      ],
+      "free": [
+        "Revenant Stat Tracker Season 19 Wins as Revenant"
+      ]
+    },
+    "level_74": {
+      "premium": [
+        "Conduit Holospray Don't Hold Back"
+      ],
+      "free": [
+        "Revenant Stat Tracker Season 19 Kills as Revenant"
+      ]
+    },
+    "level_75": {
+      "premium": [
+        "Conduit Banner Frame Ancient Village"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker Season 19 Wins as Pathfinder"
+      ]
+    },
+    "level_76": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker Season 19 Kills as Pathfinder"
+      ]
+    },
+    "level_77": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_78": {
+      "premium": [
+        "R-301 Carbine Wire Cutter"
+      ],
+      "free": []
+    },
+    "level_79": {
+      "premium": [
+        "Revenant Banner Frame Tumultuous Temple"
+      ],
+      "free": [
+        "Seer Stat Tracker Season 19 Wins as Seer"
+      ]
+    },
+    "level_80": {
+      "premium": [
+        "Sticker Super Ness"
+      ],
+      "free": [
+        "Seer Stat Tracker Season 19 Kills as Seer"
+      ]
+    },
+    "level_81": {
+      "premium": [
+        "Bangalore Holospray Death Dealer"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker Season 19 Wins as Valkyrie"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "Ballistic Cosmetic Emote Strong Brew"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker Season 19 Kills as Valkyrie"
+      ]
+    },
+    "level_83": {
+      "premium": [
+        "Fuse Quip Kill Quip : A Bomb in the Hand's Worth Two"
+      ],
+      "free": [
+        "Newcastle Stat Tracker Season 19 Wins as Newcastle"
+      ]
+    },
+    "level_84": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Newcastle Stat Tracker Season 19 Kills as Newcastle"
+      ]
+    },
+    "level_85": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_86": {
+      "premium": [
+        "Transition Energy Conservation PSA"
+      ],
+      "free": []
+    },
+    "level_87": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Ash Stat Tracker Season 19 Wins as Ash"
+      ]
+    },
+    "level_88": {
+      "premium": [
+        "Bangalore Banner Frame Sacred Depths"
+      ],
+      "free": [
+        "Ash Stat Tracker Season 19 Kills as Ash"
+      ]
+    },
+    "level_89": {
+      "premium": [
+        "Triple Take Gilded Wings"
+      ],
+      "free": []
+    },
+    "level_90": {
+      "premium": [
+        "Horizon Skydive Emote The Cool Mom"
+      ],
+      "free": [
+        "Horizon Stat Tracker Season 19 Wins as Horizon"
+      ]
+    },
+    "level_91": {
+      "premium": [
+        "Vantage Quip Kill Quip : You Weren't Really Living, Anyway"
+      ],
+      "free": [
+        "Horizon Stat Tracker Season 19 Kills as Horizon"
+      ]
+    },
+    "level_92": {
+      "premium": [
+        "Jeweled Raven"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Calling Triple-Kill CHamp"
+      ]
+    },
+    "level_94": {
+      "premium": [
+        "Mastiff Shotgun Lilac Defender"
+      ],
+      "free": []
+    },
+    "level_95": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Wraith Stat Tracker Season 19 Wins as Wraith"
+      ]
+    },
+    "level_96": {
+      "premium": [
+        "Fuse Holospray She'll be right"
+      ],
+      "free": [
+        "Wraith Stat Tracker Season 19 Kills as Wraith"
+      ]
+    },
+    "level_97": {
+      "premium": [
+        "Ash Banner Frame Fabled Betrayal"
+      ],
+      "free": []
+    },
+    "level_98": {
+      "premium": [
+        "Conduit Skydive Emote Quick Scan"
+      ],
+      "free": [
+        "Wattson Stat Tracker Season 19 Wins as Wattson"
+      ]
+    },
+    "level_99": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Wattson Stat Tracker Season 19 Kills as Wattson"
+      ]
+    },
+    "level_100": {
+      "premium": [
+        "Rampage LMG Grace of Odin"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "Link=Rampage LMG Wrath of Fenrir"
+      ],
+      "free": [
+        "Badge : Ignite"
+      ]
     }
+  },
+  "patches": {
+    "Conduit": [
+      {
+        "patch": "Apex Legends™: Ignite",
+        "details": [
+          "[Base] Buff -> Conduit is having fun because she *knows* the Apex Games."
+        ]
+      }
+    ]
+  }
 }

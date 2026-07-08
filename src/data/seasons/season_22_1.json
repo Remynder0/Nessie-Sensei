@@ -1,560 +1,565 @@
 {
-    "season": "22_1",
+  "season": "22_1",
+  "name": "Shockwave",
+  "start_date": "August 6, 2024",
+  "end_date": "November 5, 2024",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_22.svg?c76563",
     "name": "Shockwave",
-    "start_date": "August 6, 2024",
-    "end_date": "November 5, 2024",
-    "infobox": {
-        "name": "Shockwave",
-        "Featured map": "E-District",
-        "Theme": "Retro/City",
-        "Reactive weapon": "P2020",
-        "Start date": "August 6, 2024",
-        "End date": "November 5, 2024",
-        "Events": "Temporal Chaos | Space Hunt | Techno Terror"
+    "Featured map": "E-District",
+    "Theme": "Retro/City",
+    "Reactive weapon": "P2020",
+    "Start date": "August 6, 2024",
+    "End date": "November 5, 2024",
+    "Events": [
+      "Temporal Chaos",
+      "Space Hunt",
+      "Techno Terror"
+    ]
+  },
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Pathfinder Vapor Wave",
+        "Volt SMG Wave Raver",
+        "Banner Frame Arcade Space",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
     },
-    "max_level": 60,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Pathfinder Vapor Wave",
-                "Volt SMG Wave Raver",
-                "Banner Frame Arcade Space",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_2": {
-            "premium": [
-                "Mastiff Shotgun The Equalizer"
-            ],
-            "free": [
-                "Transition What's Your E?"
-            ]
-        },
-        "level_3": {
-            "premium": [
-                "Crafting Metals 200",
-                "Pathfinder Apex Pack Pathfinder Pack"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Fuse Holospray Hot Stuff"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_6": {
-            "premium": [
-                "Stat Tracker Smooth Rider - Top",
-                "Stat Tracker Smooth Rider - Middle",
-                "Stat Tracker Smooth Rider - Bottom"
-            ],
-            "free": []
-        },
-        "level_7": {
-            "premium": [
-                "Fuse Emote : Uppercut"
-            ],
-            "free": [
-                "Music Pack Shockwave Split 1"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "Banner Frame Training Simulator"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_10": {
-            "premium": [
-                "Fuse Smooth Rider",
-                "Fuse Neon Demon [ + 1 ]"
-            ],
-            "free": []
-        },
-        "level_11": {
-            "premium": [
-                "Holospray You Got Shredded",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_12": {
-            "premium": [
-                "Banner Frame Arcade Overload"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Kawaii Dangerous"
-            ]
-        },
-        "level_14": {
-            "premium": [
-                "Apex Pack",
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Retro Reticle"
-            ],
-            "free": []
-        },
-        "level_16": {
-            "premium": [
-                "Wingman Shattered Pixels"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_18": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Rampart Holospray In The Zone"
-            ]
-        },
-        "level_19": {
-            "premium": [
-                "Mirage Quip Kill Quip : Have you seen my fanart?",
-                "Apex Coins 100",
-                "Mirage Skydive Emote Falling For You"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Exotic Shards 10 [ + 1 ]",
-                "Mirage Light Show"
-            ],
-            "free": []
-        },
-        "level_21": {
-            "premium": [
-                "Banner Frame Neon Classic",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_22": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_23": {
-            "premium": [
-                "Alternator SMG Night Glider"
-            ],
-            "free": []
-        },
-        "level_24": {
-            "premium": [
-                "Sticker Smooth Move"
-            ],
-            "free": []
-        },
-        "level_25": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Rampart Cosmetic Emote Sheila Shuffle"
-            ]
-        },
-        "level_26": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_27": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_28": {
-            "premium": [
-                "Holospray Pump It Up"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_30": {
-            "premium": [
-                "Exotic Shards 10",
-                "Peacekeeper Turning to Custard"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "Apex Coins 100",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_32": {
-            "premium": [
-                "Loba Quip Kill Quip : If this were a beauty contest... well",
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Triple Take Neon Sky"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Stat Tracker Cherry Bomb - Top",
-                "Stat Tracker Cherry Bomb - Middle",
-                "Stat Tracker Cherry Bomb - Bottom"
-            ],
-            "free": []
-        },
-        "level_34": {
-            "premium": [
-                "Apex Coins 100",
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_35": {
-            "premium": [
-                "Flatline Personal Touch"
-            ],
-            "free": []
-        },
-        "level_36": {
-            "premium": [
-                "Crafting Metals 200",
-                "Banner Frame Outpace"
-            ],
-            "free": [
-                "Transition Secret Recipe"
-            ]
-        },
-        "level_37": {
-            "premium": [
-                "Loba Cosmetic Emote Curtsy"
-            ],
-            "free": []
-        },
-        "level_38": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_39": {
-            "premium": [
-                "Holospray I Don't Miss"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_40": {
-            "premium": [
-                "Loba Demon Claws [ + 1 ]",
-                "Loba Cherry Bomb"
-            ],
-            "free": []
-        },
-        "level_41": {
-            "premium": [
-                "Banner Frame Arcade Burst",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_42": {
-            "premium": [
-                "Apex Pack",
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_43": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "EVA-8 Auto Acid Reign"
-            ]
-        },
-        "level_44": {
-            "premium": [
-                "Holospray In My Lane",
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_45": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Rampart Pop Star"
-            ]
-        },
-        "level_46": {
-            "premium": [
-                "Apex Coins 100",
-                "Alter Apex Pack Alter Pack"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Sticker Cherry Kiss",
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_48": {
-            "premium": [
-                "Alter Cosmetic Emote Void Guitar"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_49": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_50": {
-            "premium": [
-                "Alter Void Dipped"
-            ],
-            "free": []
-        },
-        "level_51": {
-            "premium": [
-                "Banner Frame Gamer's Paradise"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_53": {
-            "premium": [
-                "Bangalore Skydive Emote Spin Cycle",
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_54": {
-            "premium": [
-                "M600 Spitfire Heat of The Night"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Banner Frame Bubble Champion"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_57": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_58": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_59": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_60": {
-            "premium": [
-                "P2020 Hunter's Best Friend"
-            ],
-            "free": []
-        }
+    "level_2": {
+      "premium": [
+        "Mastiff Shotgun The Equalizer"
+      ],
+      "free": [
+        "Transition What's Your E?"
+      ]
     },
-    "patches": {
-        "Alter": [
-            {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
-                "details": [
-                    "[Base] Buff -> Channel time when knocked decreased to 2s.",
-                    "[Base] Nerf -> Chase portal duration decreased 8s.",
-                    "[Base] Adjust -> Chase portal opening delay increased to 8s.",
-                    "[Base] Buff -> Increased travel speed to void nexus by about 40%.",
-                    "[Base] Buff -> Ult cooldown reduced to 3 min."
-                ]
-            },
-            {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
-                "details": [
-                    "[Perks] Adjust -> NEW Ringmaster: gain access to Ring Consoles"
-                ]
-            }
-        ],
-        "Ballistic": [
-            {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
-                "details": [
-                    "[Passive] Buff -> Whistler: lock-on time decreased to 0.1s."
-                ]
-            }
-        ],
-        "Caustic": [
-            {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
-                "details": [
-                    "[Base] Fix -> Friendly traps are now differentiated from enemy traps"
-                ]
-            }
-        ],
-        "Crypto": [
-            {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
-                "details": [
-                    "[Passive] Buff -> Surveillance Drone: cooldown decreased to 30s.",
-                    "[Perks] Adjust -> NEW: It’s called Off the Grid: Crypto becomes cloaked when in drone",
-                    "[Perks] Buff -> Improved Satellite Imagery: Ult now scans anyone it hits for 4s and will track through walls"
-                ]
-            }
-        ],
-        "Fuse": [
-            {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
-                "details": [
-                    "[Passive] Nerf -> Hard capped the max radius of the scan area to be 450.",
-                    "[Passive] Fix -> Disallowed mortar targeting on multiple objects within the players control"
-                ]
-            }
-        ],
-        "Lifeline": [
-            {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
-                "details": [
-                    "[Perks] Adjust -> Upgrade - Gold-Plated: replaced Gold EVO Cache with Battery"
-                ]
-            }
-        ],
-        "Rampart": [
-            {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
-                "details": [
-                    "[Passive] Buff -> Sheila : ammo drains from pip charge with use",
-                    "[Passive] Nerf -> Maximum number of place turrets allowed is now 1"
-                ]
-            }
-        ],
-        "Revenant": [
-            {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
-                "details": [
-                    "[Ultimate] Nerf -> Reduced shield health to 50.",
-                    "[Passive] Buff -> Activation time doubled"
-                ]
-            }
-        ],
-        "Seer": [
-            {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
-                "details": [
-                    "[Passive] Buff -> Focus of Attention: healthbars persist for duration of Silence",
-                    "[Perks] Adjust -> NEW Split Focus: gain an additional Tac charge"
-                ]
-            }
-        ],
-        "Valkyrie": [
-            {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
-                "details": [
-                    "[Passive] Buff -> Now Recon Legend",
-                    "[Perks] Adjust -> Full Tank upgrade now includes a 50% reduction in refuel delay to 4s.",
-                    "[Passive] Buff -> Gains Threat Vision while jetpacking, stays on until feet hit the ground/zipline"
-                ]
-            }
-        ],
-        "Vantage": [
-            {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
-                "details": [
-                    "[Passive] Buff -> Echo Relocation: no longer requires LOS to Echo to launch",
-                    "[Ultimate] Buff -> Sniper’s Mark : 2nd Shot Multiplier is now 2.5x.",
-                    "[Perks] Adjust -> Ult Reload: now also doubles Ult Accel use speed in addition to providing 2 extra bullets"
-                ]
-            }
-        ],
-        "Wattson": [
-            {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
-                "details": [
-                    "[Perks] Adjust -> Power Pylon: now regenerates shield charge",
-                    "[Perks] Buff -> Emergency Power - Added: Increases Shield Regen Rate of Interception Pylon"
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Crafting Metals 200",
+        "Pathfinder Apex Pack Pathfinder Pack"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Fuse Holospray Hot Stuff"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_6": {
+      "premium": [
+        "Stat Tracker Smooth Rider - Top",
+        "Stat Tracker Smooth Rider - Middle",
+        "Stat Tracker Smooth Rider - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Fuse Emote : Uppercut"
+      ],
+      "free": [
+        "Music Pack Shockwave Split 1"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Banner Frame Training Simulator"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Fuse Smooth Rider",
+        "Fuse Neon Demon [ + 1 ]"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Holospray You Got Shredded",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Banner Frame Arcade Overload"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Kawaii Dangerous"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "Apex Pack",
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Retro Reticle"
+      ],
+      "free": []
+    },
+    "level_16": {
+      "premium": [
+        "Wingman Shattered Pixels"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Rampart Holospray In The Zone"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Mirage Quip Kill Quip : Have you seen my fanart?",
+        "Apex Coins 100",
+        "Mirage Skydive Emote Falling For You"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Exotic Shards 10 [ + 1 ]",
+        "Mirage Light Show"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Banner Frame Neon Classic",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Alternator SMG Night Glider"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Sticker Smooth Move"
+      ],
+      "free": []
+    },
+    "level_25": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Rampart Cosmetic Emote Sheila Shuffle"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_27": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Holospray Pump It Up"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Exotic Shards 10",
+        "Peacekeeper Turning to Custard"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Loba Quip Kill Quip : If this were a beauty contest... well",
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Triple Take Neon Sky"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Stat Tracker Cherry Bomb - Top",
+        "Stat Tracker Cherry Bomb - Middle",
+        "Stat Tracker Cherry Bomb - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Apex Coins 100",
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_35": {
+      "premium": [
+        "Flatline Personal Touch"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Crafting Metals 200",
+        "Banner Frame Outpace"
+      ],
+      "free": [
+        "Transition Secret Recipe"
+      ]
+    },
+    "level_37": {
+      "premium": [
+        "Loba Cosmetic Emote Curtsy"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Holospray I Don't Miss"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Loba Demon Claws [ + 1 ]",
+        "Loba Cherry Bomb"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Banner Frame Arcade Burst",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Apex Pack",
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_43": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "EVA-8 Auto Acid Reign"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Holospray In My Lane",
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Rampart Pop Star"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "Apex Coins 100",
+        "Alter Apex Pack Alter Pack"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Sticker Cherry Kiss",
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Alter Cosmetic Emote Void Guitar"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Alter Void Dipped"
+      ],
+      "free": []
+    },
+    "level_51": {
+      "premium": [
+        "Banner Frame Gamer's Paradise"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Bangalore Skydive Emote Spin Cycle",
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "M600 Spitfire Heat of The Night"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Banner Frame Bubble Champion"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "P2020 Hunter's Best Friend"
+      ],
+      "free": []
     }
+  },
+  "patches": {
+    "Alter": [
+      {
+        "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+        "details": [
+          "[Base] Buff -> Channel time when knocked decreased to 2s.",
+          "[Base] Nerf -> Chase portal duration decreased 8s.",
+          "[Base] Adjust -> Chase portal opening delay increased to 8s.",
+          "[Base] Buff -> Increased travel speed to void nexus by about 40%.",
+          "[Base] Buff -> Ult cooldown reduced to 3 min."
+        ]
+      },
+      {
+        "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+        "details": [
+          "[Perks] Adjust -> NEW Ringmaster: gain access to Ring Consoles"
+        ]
+      }
+    ],
+    "Ballistic": [
+      {
+        "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+        "details": [
+          "[Passive] Buff -> Whistler: lock-on time decreased to 0.1s."
+        ]
+      }
+    ],
+    "Caustic": [
+      {
+        "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
+        "details": [
+          "[Base] Fix -> Friendly traps are now differentiated from enemy traps"
+        ]
+      }
+    ],
+    "Crypto": [
+      {
+        "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+        "details": [
+          "[Passive] Buff -> Surveillance Drone: cooldown decreased to 30s.",
+          "[Perks] Adjust -> NEW: It’s called Off the Grid: Crypto becomes cloaked when in drone",
+          "[Perks] Buff -> Improved Satellite Imagery: Ult now scans anyone it hits for 4s and will track through walls"
+        ]
+      }
+    ],
+    "Fuse": [
+      {
+        "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
+        "details": [
+          "[Passive] Nerf -> Hard capped the max radius of the scan area to be 450.",
+          "[Passive] Fix -> Disallowed mortar targeting on multiple objects within the players control"
+        ]
+      }
+    ],
+    "Lifeline": [
+      {
+        "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+        "details": [
+          "[Perks] Adjust -> Upgrade - Gold-Plated: replaced Gold EVO Cache with Battery"
+        ]
+      }
+    ],
+    "Rampart": [
+      {
+        "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
+        "details": [
+          "[Passive] Buff -> Sheila : ammo drains from pip charge with use",
+          "[Passive] Nerf -> Maximum number of place turrets allowed is now 1"
+        ]
+      }
+    ],
+    "Revenant": [
+      {
+        "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
+        "details": [
+          "[Ultimate] Nerf -> Reduced shield health to 50.",
+          "[Passive] Buff -> Activation time doubled"
+        ]
+      }
+    ],
+    "Seer": [
+      {
+        "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+        "details": [
+          "[Passive] Buff -> Focus of Attention: healthbars persist for duration of Silence",
+          "[Perks] Adjust -> NEW Split Focus: gain an additional Tac charge"
+        ]
+      }
+    ],
+    "Valkyrie": [
+      {
+        "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
+        "details": [
+          "[Passive] Buff -> Now Recon Legend",
+          "[Perks] Adjust -> Full Tank upgrade now includes a 50% reduction in refuel delay to 4s.",
+          "[Passive] Buff -> Gains Threat Vision while jetpacking, stays on until feet hit the ground/zipline"
+        ]
+      }
+    ],
+    "Vantage": [
+      {
+        "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+        "details": [
+          "[Passive] Buff -> Echo Relocation: no longer requires LOS to Echo to launch",
+          "[Ultimate] Buff -> Sniper’s Mark : 2nd Shot Multiplier is now 2.5x.",
+          "[Perks] Adjust -> Ult Reload: now also doubles Ult Accel use speed in addition to providing 2 extra bullets"
+        ]
+      }
+    ],
+    "Wattson": [
+      {
+        "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+        "details": [
+          "[Perks] Adjust -> Power Pylon: now regenerates shield charge",
+          "[Perks] Buff -> Emergency Power - Added: Increases Shield Regen Rate of Interception Pylon"
+        ]
+      }
+    ]
+  }
 }

@@ -1,532 +1,537 @@
 {
-    "season": "24_1",
+  "season": "24_1",
+  "name": "Takeover",
+  "start_date": "February 11, 2025",
+  "end_date": "May 6, 2025",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_24.svg?a47750",
     "name": "Takeover",
-    "start_date": "February 11, 2025",
-    "end_date": "May 6, 2025",
-    "infobox": {
-        "name": "Takeover",
-        "Featured map": "Kings Canyon | Broken Moon | Olympus",
-        "Theme": "Workout/Boxing",
-        "Reactive weapon": "Alternator SMG",
-        "Start date": "February 11, 2025",
-        "End date": "May 6, 2025",
-        "Events": "6th Anniversary | Beast Mode | Fight Force"
+    "Featured map": "Kings Canyon | Broken Moon | Olympus",
+    "Theme": "Workout/Boxing",
+    "Reactive weapon": "Alternator SMG",
+    "Start date": "February 11, 2025",
+    "End date": "May 6, 2025",
+    "Events": [
+      "6th Anniversary",
+      "Beast Mode",
+      "Fight Force"
+    ]
+  },
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Fuse Violet Delight",
+        "Hemlok Burst AR Air Traffic Controller",
+        "Banner Frame Legend Locked In",
+        "Holospray WELCOME TO THE GUN SHOW",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
     },
-    "max_level": 60,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Fuse Violet Delight",
-                "Hemlok Burst AR Air Traffic Controller",
-                "Banner Frame Legend Locked In",
-                "Holospray WELCOME TO THE GUN SHOW",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_2": {
-            "premium": [
-                "Conduit Quip Kill Quip : Everyone Saw That"
-            ],
-            "free": [
-                "Transition Vamos"
-            ]
-        },
-        "level_3": {
-            "premium": [
-                "Newcastle Cosmetic Emote Hype Man"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Newcastle Holospray I Got This"
-            ],
-            "free": []
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "Stat Tracker Workout Gear - Top",
-                "Stat Tracker Workout Gear - Middle",
-                "Stat Tracker Workout Gear - Bottom"
-            ],
-            "free": []
-        },
-        "level_7": {
-            "premium": [
-                "Banner Frame Call the Shots"
-            ],
-            "free": [
-                "Music Pack Takeover Split 1"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "Devotion LMG Fortified Might"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_10": {
-            "premium": [
-                "Newcastle Workout Gear",
-                "Newcastle Holographic Knight +"
-            ],
-            "free": []
-        },
-        "level_11": {
-            "premium": [
-                "Locker-Ness Monster",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_12": {
-            "premium": [
-                "Banner Frame Eyes on Target"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_14": {
-            "premium": [
-                "Crypto Holospray Stay Ready"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "RE-45 Auto First Blush"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_18": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_19": {
-            "premium": [
-                "Sticker Dashing Smashing"
-            ],
-            "free": [
-                "Ballistic Cosmetic Emote Windswept Waltz"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Crypto Hot Pink Cold Stare",
-                "Exotic Shards 10 +"
-            ],
-            "free": []
-        },
-        "level_21": {
-            "premium": [
-                "Banner Frame Rage Gaze",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_22": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_23": {
-            "premium": [
-                "Charge Rifle Gecko Glazer"
-            ],
-            "free": []
-        },
-        "level_24": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Ballistic Holospray Challenge Accepted"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_26": {
-            "premium": [
-                "Pathfinder Skydive Emote Live Lasso"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Holospray Stay Cool"
-            ],
-            "free": []
-        },
-        "level_30": {
-            "premium": [
-                "Exotic Shards 10",
-                "R-301 Carbine Brass Bolter"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "Apex Coins 100",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_32": {
-            "premium": [
-                "Conduit Cosmetic Emote Kiss Cam"
-            ],
-            "free": [
-                "Mozambique Shotgun Limelight"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Stat Tracker Power Play - Top",
-                "Stat Tracker Power Play - Middle",
-                "Stat Tracker Power Play - Bottom"
-            ],
-            "free": []
-        },
-        "level_34": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Transition Your Second Favorite"
-            ]
-        },
-        "level_35": {
-            "premium": [
-                "C.A.R. SMG Pink Blitz"
-            ],
-            "free": []
-        },
-        "level_36": {
-            "premium": [
-                "Banner Frame Hype Traning"
-            ],
-            "free": []
-        },
-        "level_37": {
-            "premium": [
-                "Apex Pack",
-                "Conduit Holospray LIKE AND SUBSCRIBE"
-            ],
-            "free": []
-        },
-        "level_38": {
-            "premium": [
-                "Sticker Refueling"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_39": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_40": {
-            "premium": [
-                "Conduit Power Player",
-                "Conduit Grand Slam Hologram +"
-            ],
-            "free": []
-        },
-        "level_41": {
-            "premium": [
-                "Bangalore Cosmetic Emote My Turf",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_42": {
-            "premium": [
-                "Bangalore Quip Kill Quip : Dont let my badges fool ya"
-            ],
-            "free": [
-                "Ballistic Sublime Lime"
-            ]
-        },
-        "level_43": {
-            "premium": [
-                "Prowler Burst PDW Sun Spots"
-            ],
-            "free": []
-        },
-        "level_44": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_45": {
-            "premium": [
-                "Bangalore Holospray MEET ME IN THE RING"
-            ],
-            "free": []
-        },
-        "level_46": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Banner Frame Smoke Alarm"
-            ],
-            "free": []
-        },
-        "level_49": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_50": {
-            "premium": [
-                "Bangalore Oil Slick"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Holospray RISE AND GRIND"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_53": {
-            "premium": [
-                "Fuse Skydive Emote Big Fun Gun"
-            ],
-            "free": []
-        },
-        "level_54": {
-            "premium": [
-                "Triple Take Hot Stove"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Ballistic Banner Frame Triple Threat"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_57": {
-            "premium": [
-                "Crafting Metals 200",
-                "Banner Frame Carry On"
-            ],
-            "free": []
-        },
-        "level_58": {
-            "premium": [
-                "Sport Loot"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_59": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_60": {
-            "premium": [
-                "Alternator SMG Slithering Strike"
-            ],
-            "free": []
-        }
+    "level_2": {
+      "premium": [
+        "Conduit Quip Kill Quip : Everyone Saw That"
+      ],
+      "free": [
+        "Transition Vamos"
+      ]
     },
-    "patches": {
-        "Ash": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Passive] Buff -> Predator's Pursuit: added omnidirectional short-range dash.",
-                    "[Tactical] Buff -> Arc Snare: tether plants at location of projectile on impact, slightly harder to break and no longer gets instantly broken by some abilities.",
-                    "[Tactical] Buff -> Phase Breach: range increased to 100m, travel time reduced, improved reliability of placement, removed one frame delay on placement preview, now has VFX to show max range when in placement mode.",
-                    "[Perks] Adjust -> Upgrades: Level 2 - Greedy Snare moved to Level 2, Dual Breach adds additional ult charge.",
-                    "[Perks] Adjust -> Upgrades: Level 3 - Ghost in the Machine adds additional Dash charge."
-                ]
-            }
-        ],
-        "Ballistic": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Base] Buff -> Sling now upgrades with Level by default, can now carry Crate Weapons and they will gain infinite ammo with Ult.",
-                    "[Tactical] Buff -> Whistler: Tac now has 2 charges, overheat reaction time increased to 1.2s, Smart Bullet on ground damage increased to 20.",
-                    "[Ultimate] Buff -> Tempest: squad gains a speed boost when empowered by Ult.",
-                    "[Perks] Adjust -> Upgrades: Level 2 - Killing Time increases duration of Ult by 15s.",
-                    "[Perks] Adjust -> Upgrades: Level 3 - Extra Bullets doubles the number of Tac charges, Quiet Time: Overheat now also silences enemy for 6s."
-                ]
-            }
-        ],
-        "Crypto": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Tactical] Buff -> EMP: once again destroys Gibraltar’s Dome of Protection"
-                ]
-            }
-        ],
-        "Loba": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Ultimate] Buff -> Ult back to starting at 50% charge"
-                ]
-            }
-        ],
-        "Maggie": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Tactical] Buff -> Wrecking Ball: once again destroys Gibraltar’s Dome of Protection, will now destroy Newcastle’s Mobile Shield"
-                ]
-            }
-        ],
-        "Lifeline": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Base] Fix -> Crashing will no longer occur when gliding or using the D.O.C. Heal Drone",
-                    "[Base] Fix -> Gliding will no longer occasionally lower performance",
-                    "[Tactical] Fix -> Pathfinder grapple can once again attach to D.O.C. Halo"
-                ]
-            }
-        ],
-        "Mirage": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Ultimate] Fix -> Fixed a crash that could occur when using Mirage’s Ult near Gravity Cannons",
-                    "[Tactical] Fix -> Lifeline’s D.O.C. now cloaks properly to prevent revealing Mirage"
-                ]
-            }
-        ],
-        "Newcastle": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Ultimate] Fix -> Ult no longer canceled by Ash’s snare"
-                ]
-            }
-        ],
-        "Revenant": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Tactical] Fix -> Resolved rare crash that could occur when pouncing",
-                    "[Tactical] Fix -> Shadow Pounce now plays leap audio when spectating a Revenant"
-                ]
-            }
-        ],
-        "Valkyrie": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Tactical] Fix -> Tac now working inside of D.O.C. Halo and near Dome of Protection’s edges"
-                ]
-            }
-        ],
-        "Vantage": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Ultimate] Fix -> sprinting no longer available while using Ult Accelerant"
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Newcastle Cosmetic Emote Hype Man"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Newcastle Holospray I Got This"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Stat Tracker Workout Gear - Top",
+        "Stat Tracker Workout Gear - Middle",
+        "Stat Tracker Workout Gear - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Banner Frame Call the Shots"
+      ],
+      "free": [
+        "Music Pack Takeover Split 1"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Devotion LMG Fortified Might"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Newcastle Workout Gear",
+        "Newcastle Holographic Knight +"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Locker-Ness Monster",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Banner Frame Eyes on Target"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Crypto Holospray Stay Ready"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "RE-45 Auto First Blush"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Sticker Dashing Smashing"
+      ],
+      "free": [
+        "Ballistic Cosmetic Emote Windswept Waltz"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Crypto Hot Pink Cold Stare",
+        "Exotic Shards 10 +"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Banner Frame Rage Gaze",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Charge Rifle Gecko Glazer"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Ballistic Holospray Challenge Accepted"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Pathfinder Skydive Emote Live Lasso"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Holospray Stay Cool"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Exotic Shards 10",
+        "R-301 Carbine Brass Bolter"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Conduit Cosmetic Emote Kiss Cam"
+      ],
+      "free": [
+        "Mozambique Shotgun Limelight"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Stat Tracker Power Play - Top",
+        "Stat Tracker Power Play - Middle",
+        "Stat Tracker Power Play - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Your Second Favorite"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "C.A.R. SMG Pink Blitz"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Banner Frame Hype Traning"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Apex Pack",
+        "Conduit Holospray LIKE AND SUBSCRIBE"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Sticker Refueling"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Conduit Power Player",
+        "Conduit Grand Slam Hologram +"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Bangalore Cosmetic Emote My Turf",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Bangalore Quip Kill Quip : Dont let my badges fool ya"
+      ],
+      "free": [
+        "Ballistic Sublime Lime"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Prowler Burst PDW Sun Spots"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Bangalore Holospray MEET ME IN THE RING"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Banner Frame Smoke Alarm"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Bangalore Oil Slick"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Holospray RISE AND GRIND"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Fuse Skydive Emote Big Fun Gun"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Triple Take Hot Stove"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Ballistic Banner Frame Triple Threat"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Crafting Metals 200",
+        "Banner Frame Carry On"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Sport Loot"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Alternator SMG Slithering Strike"
+      ],
+      "free": []
     }
+  },
+  "patches": {
+    "Ash": [
+      {
+        "patch": "Takeover",
+        "details": [
+          "[Passive] Buff -> Predator's Pursuit: added omnidirectional short-range dash.",
+          "[Tactical] Buff -> Arc Snare: tether plants at location of projectile on impact, slightly harder to break and no longer gets instantly broken by some abilities.",
+          "[Tactical] Buff -> Phase Breach: range increased to 100m, travel time reduced, improved reliability of placement, removed one frame delay on placement preview, now has VFX to show max range when in placement mode.",
+          "[Perks] Adjust -> Upgrades: Level 2 - Greedy Snare moved to Level 2, Dual Breach adds additional ult charge.",
+          "[Perks] Adjust -> Upgrades: Level 3 - Ghost in the Machine adds additional Dash charge."
+        ]
+      }
+    ],
+    "Ballistic": [
+      {
+        "patch": "Takeover",
+        "details": [
+          "[Base] Buff -> Sling now upgrades with Level by default, can now carry Crate Weapons and they will gain infinite ammo with Ult.",
+          "[Tactical] Buff -> Whistler: Tac now has 2 charges, overheat reaction time increased to 1.2s, Smart Bullet on ground damage increased to 20.",
+          "[Ultimate] Buff -> Tempest: squad gains a speed boost when empowered by Ult.",
+          "[Perks] Adjust -> Upgrades: Level 2 - Killing Time increases duration of Ult by 15s.",
+          "[Perks] Adjust -> Upgrades: Level 3 - Extra Bullets doubles the number of Tac charges, Quiet Time: Overheat now also silences enemy for 6s."
+        ]
+      }
+    ],
+    "Crypto": [
+      {
+        "patch": "Takeover",
+        "details": [
+          "[Tactical] Buff -> EMP: once again destroys Gibraltar’s Dome of Protection"
+        ]
+      }
+    ],
+    "Loba": [
+      {
+        "patch": "Takeover",
+        "details": [
+          "[Ultimate] Buff -> Ult back to starting at 50% charge"
+        ]
+      }
+    ],
+    "Maggie": [
+      {
+        "patch": "Takeover",
+        "details": [
+          "[Tactical] Buff -> Wrecking Ball: once again destroys Gibraltar’s Dome of Protection, will now destroy Newcastle’s Mobile Shield"
+        ]
+      }
+    ],
+    "Lifeline": [
+      {
+        "patch": "Takeover",
+        "details": [
+          "[Base] Fix -> Crashing will no longer occur when gliding or using the D.O.C. Heal Drone",
+          "[Base] Fix -> Gliding will no longer occasionally lower performance",
+          "[Tactical] Fix -> Pathfinder grapple can once again attach to D.O.C. Halo"
+        ]
+      }
+    ],
+    "Mirage": [
+      {
+        "patch": "Takeover",
+        "details": [
+          "[Ultimate] Fix -> Fixed a crash that could occur when using Mirage’s Ult near Gravity Cannons",
+          "[Tactical] Fix -> Lifeline’s D.O.C. now cloaks properly to prevent revealing Mirage"
+        ]
+      }
+    ],
+    "Newcastle": [
+      {
+        "patch": "Takeover",
+        "details": [
+          "[Ultimate] Fix -> Ult no longer canceled by Ash’s snare"
+        ]
+      }
+    ],
+    "Revenant": [
+      {
+        "patch": "Takeover",
+        "details": [
+          "[Tactical] Fix -> Resolved rare crash that could occur when pouncing",
+          "[Tactical] Fix -> Shadow Pounce now plays leap audio when spectating a Revenant"
+        ]
+      }
+    ],
+    "Valkyrie": [
+      {
+        "patch": "Takeover",
+        "details": [
+          "[Tactical] Fix -> Tac now working inside of D.O.C. Halo and near Dome of Protection’s edges"
+        ]
+      }
+    ],
+    "Vantage": [
+      {
+        "patch": "Takeover",
+        "details": [
+          "[Ultimate] Fix -> sprinting no longer available while using Ult Accelerant"
+        ]
+      }
+    ]
+  }
 }

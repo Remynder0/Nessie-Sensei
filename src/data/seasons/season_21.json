@@ -1,924 +1,929 @@
 {
-    "season": "21",
+  "season": "21",
+  "name": "Upheaval",
+  "start_date": "May 7, 2024",
+  "end_date": "August 6, 2024",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_21.svg?a4dc22",
     "name": "Upheaval",
-    "start_date": "May 7, 2024",
-    "end_date": "August 6, 2024",
-    "infobox": {
-        "name": "Upheaval",
-        "New Legend": "Alter",
-        "Featured map": "Broken Moon",
-        "Theme": "Corrupted voidwalker",
-        "Reactive weapon": "30-30 Repeater",
-        "Start date": "May 7, 2024",
-        "End date": "August 6, 2024",
-        "Events": "Void Raider | Double Take | Void Reckoning"
+    "New Legend": "Alter",
+    "Featured map": "Broken Moon",
+    "Theme": "Corrupted voidwalker",
+    "Reactive weapon": "30-30 Repeater",
+    "Start date": "May 7, 2024",
+    "End date": "August 6, 2024",
+    "Events": [
+      "Void Raider",
+      "Double Take",
+      "Void Reckoning"
+    ]
+  },
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Alter Chaos' Embrace",
+        "Wraith Corrupted Void",
+        "Revenant Creeping Death",
+        "Volt SMG Void Touched",
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Transition Alert: Security Breach"
+      ]
     },
-    "max_level": 110,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Alter Chaos' Embrace",
-                "Wraith Corrupted Void",
-                "Revenant Creeping Death",
-                "Volt SMG Void Touched",
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Transition Alert: Security Breach"
-            ]
-        },
-        "level_2": {
-            "premium": [
-                "Alter Skydive Emote Tailspin"
-            ],
-            "free": []
-        },
-        "level_3": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Music Pack Upheaval"
-            ]
-        },
-        "level_5": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Ticked Off"
-            ]
-        },
-        "level_7": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "Longbow DMR Necrotic Devourer"
-            ],
-            "free": [
-                "Alter Stat Tracker Season 21 Wins as Alter"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Mad Maggie Quip Kill Quip : Don't try that weak tea with me"
-            ],
-            "free": [
-                "Alter Stat Tracker Season 21 Kills as Alter"
-            ]
-        },
-        "level_10": {
-            "premium": [
-                "Sticker Tainted Sight"
-            ],
-            "free": [
-                "M600 Spitfire Tech Takeover"
-            ]
-        },
-        "level_11": {
-            "premium": [
-                "Gibraltar Banner Frame Speed Trap"
-            ],
-            "free": [
-                "Transition One Last Chance"
-            ]
-        },
-        "level_12": {
-            "premium": [
-                "Lifeline Cosmetic Emote Blighted Breakdown"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "RE-45 Auto Necrotic Devourer"
-            ]
-        },
-        "level_14": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Horizon Stat Tracker Season 21 Wins as Horizon"
-            ]
-        },
-        "level_15": {
-            "premium": [
-                "Seer Stat Tracker Season 21 Kills as Seer"
-            ],
-            "free": [
-                "Horizon Stat Tracker Season 21 Kills as Horizon"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "Seer Stat Tracker Wins as Seer"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Seer Stat Tracker Damage Done as Seer"
-            ],
-            "free": [
-                "Charge Rifle Tech Takeover"
-            ]
-        },
-        "level_18": {
-            "premium": [
-                "Seer Banner Frame Bleeding Moon"
-            ],
-            "free": []
-        },
-        "level_19": {
-            "premium": [
-                "Seer Holospray This Is My Mark"
-            ],
-            "free": [
-                "Gibraltar Stat Tracker Season 21 Wins as Gibraltar"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Gibraltar Stat Tracker Season 21 Kills as Gibraltar"
-            ]
-        },
-        "level_21": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_22": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Seer Stat Tracker Season 21 Wins as Seer"
-            ]
-        },
-        "level_23": {
-            "premium": [
-                "Seer Quip Kill Quip : Art is not a distraction from pain"
-            ],
-            "free": [
-                "Seer Stat Tracker Season 21 Kills as Seer"
-            ]
-        },
-        "level_24": {
-            "premium": [
-                "Apex Blight"
-            ],
-            "free": []
-        },
-        "level_25": {
-            "premium": [
-                "Seer Creeping Void"
-            ],
-            "free": [
-                "30-30 Repeater Necrotic Devourer"
-            ]
-        },
-        "level_26": {
-            "premium": [
-                "Alternator SMG Necrotic Devourer"
-            ],
-            "free": []
-        },
-        "level_27": {
-            "premium": [
-                "Bloodhound Cosmetic Emote Dark Hunter"
-            ],
-            "free": [
-                "Fuse Stat Tracker Season 21 Wins as Fuse"
-            ]
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Fuse Stat Tracker Season 21 Kills as Fuse"
-            ]
-        },
-        "level_29": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Nemesis Burst AR Dark Infusion"
-            ]
-        },
-        "level_30": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Mirage Stat Tracker Season 21 Wins as Mirage"
-            ]
-        },
-        "level_31": {
-            "premium": [
-                "Wraith Quip Kill Quip : Stay home"
-            ],
-            "free": [
-                "Mirage Stat Tracker Season 21 Kills as Mirage"
-            ]
-        },
-        "level_32": {
-            "premium": [
-                "Wraith Banner Frame Dark Experiment"
-            ],
-            "free": []
-        },
-        "level_33": {
-            "premium": [
-                "Nocturnal Nature"
-            ],
-            "free": [
-                "R-301 Carbine Blighted Gemstone"
-            ]
-        },
-        "level_34": {
-            "premium": [
-                "R-99 SMG Tech Takeover"
-            ],
-            "free": []
-        },
-        "level_35": {
-            "premium": [
-                "Wraith Holospray Think Fast"
-            ],
-            "free": [
-                "Wraith Stat Tracker Season 21 Wins as Wraith"
-            ]
-        },
-        "level_36": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Wraith Stat Tracker Season 21 Kills as Wraith"
-            ]
-        },
-        "level_37": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Rampage LMG Tech Takeover"
-            ]
-        },
-        "level_38": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_39": {
-            "premium": [
-                "Hacked"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_40": {
-            "premium": [
-                "Revenant Quip Kill Quip : What if they won't miss you"
-            ],
-            "free": [
-                "Ash Stat Tracker Season 21 Wins as Ash"
-            ]
-        },
-        "level_41": {
-            "premium": [
-                "Revenant Holospray Born This Way"
-            ],
-            "free": [
-                "Ash Stat Tracker Season 21 Kills as Ash"
-            ]
-        },
-        "level_42": {
-            "premium": [
-                "Triple Take Necrotic Devourer"
-            ],
-            "free": []
-        },
-        "level_43": {
-            "premium": [
-                "Revenant Banner Frame Production Corruption"
-            ],
-            "free": []
-        },
-        "level_44": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_45": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Transition Loose Threads"
-            ]
-        },
-        "level_46": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Catalyst Stat Tracker Kills as Catalyst"
-            ],
-            "free": [
-                "Hemlok Burst AR Tech Takeover"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Catalyst Stat Tracker Wins as Catalyst"
-            ],
-            "free": [
-                "Caustic Stat Tracker Season 21 Wins as Caustic"
-            ]
-        },
-        "level_49": {
-            "premium": [
-                "Catalyst Stat Tracker Damage Done as Catalyst"
-            ],
-            "free": [
-                "Caustic Stat Tracker Season 21 Kills as Caustic"
-            ]
-        },
-        "level_50": {
-            "premium": [
-                "Catalyst Void Witch"
-            ],
-            "free": [
-                "Music Pack Alter"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Necro Ness"
-            ],
-            "free": [
-                "Vantage Stat Tracker Season 21 Wins as Vantage"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Devotion LMG Dark Infusion"
-            ],
-            "free": [
-                "Vantage Stat Tracker Season 21 Kills as Vantage"
-            ]
-        },
-        "level_53": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Bocek Compound Bow Necrotic Devourer"
-            ]
-        },
-        "level_54": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Conduit Stat Tracker Season 21 Wins as Conduit"
-            ]
-        },
-        "level_55": {
-            "premium": [
-                "Catalyst Banner Frame Cataclysm"
-            ],
-            "free": [
-                "Conduit Stat Tracker Season 21 Kills as Conduit"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Catalyst Quip Kill Quip : You'll want to see a doctor"
-            ],
-            "free": []
-        },
-        "level_57": {
-            "premium": [
-                "Catalyst Holospray Embrace The Dark"
-            ],
-            "free": [
-                "Valkyrie Necrotic Devourer"
-            ]
-        },
-        "level_58": {
-            "premium": [
-                "Prowler Burst PDW Tech Takeover"
-            ],
-            "free": []
-        },
-        "level_59": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Lifeline Stat Tracker Season 21 Wins as Lifeline"
-            ]
-        },
-        "level_60": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Lifeline Stat Tracker Season 21 Kills as Lifeline"
-            ]
-        },
-        "level_61": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_62": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_63": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "G7 Scout Tech Takeover"
-            ]
-        },
-        "level_64": {
-            "premium": [
-                "Gibraltar Cosmetic Emote Badbraltar"
-            ],
-            "free": [
-                "Mad Maggie Stat Tracker Season 21 Wins as Mad Maggie"
-            ]
-        },
-        "level_65": {
-            "premium": [
-                "L-STAR EMG Corrupt Memory"
-            ],
-            "free": [
-                "Mad Maggie Stat Tracker Season 21 Kills as Mad Maggie"
-            ]
-        },
-        "level_66": {
-            "premium": [
-                "Caustic Quip Kill Quip : Pray all you want"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_67": {
-            "premium": [
-                "Vantage Banner Frame Black Ice"
-            ],
-            "free": [
-                "Newcastle Stat Tracker Season 21 Wins as Newcastle"
-            ]
-        },
-        "level_68": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Newcastle Stat Tracker Season 21 Kills as Newcastle"
-            ]
-        },
-        "level_69": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "C.A.R SMG Necrotic Devourer"
-            ]
-        },
-        "level_70": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_71": {
-            "premium": [
-                "Wicked Wally"
-            ],
-            "free": [
-                "Valkyrie Stat Tracker Season 21 Wins as Valkyrie"
-            ]
-        },
-        "level_72": {
-            "premium": [
-                "Flatline Blighted Gemstone"
-            ],
-            "free": [
-                "Valkyrie Stat Tracker Season 21 Kills as Valkyrie"
-            ]
-        },
-        "level_73": {
-            "premium": [
-                "Alter Quip Kill Quip : You went out with a bang"
-            ],
-            "free": []
-        },
-        "level_74": {
-            "premium": [
-                "Alter Holospray I'll Only Haunt You"
-            ],
-            "free": [
-                "Ballistic Stat Tracker Season 21 Wins as Ballistic"
-            ]
-        },
-        "level_75": {
-            "premium": [
-                "Alter Banner Frame Corrupted Rift"
-            ],
-            "free": [
-                "Ballistic Stat Tracker Season 21 Kills as Ballistic"
-            ]
-        },
-        "level_76": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_77": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_78": {
-            "premium": [
-                "Peacekeeper Necrotic Devourer"
-            ],
-            "free": [
-                "Bloodhound Stat Tracker Season 21 Wins as Bloodhound"
-            ]
-        },
-        "level_79": {
-            "premium": [
-                "Horizon Banner Frame Event Horizon"
-            ],
-            "free": [
-                "Bloodhound Stat Tracker Season 21 Kills as Bloodhound"
-            ]
-        },
-        "level_80": {
-            "premium": [
-                "Sticker Witchy Strut"
-            ],
-            "free": [
-                "Bangalore Stat Tracker Season 21 Wins as Bangalore"
-            ]
-        },
-        "level_81": {
-            "premium": [
-                "Pathfinder Holospray Time To Kill, Friends"
-            ],
-            "free": [
-                "Bangalore Stat Tracker Season 21 Kills as Bangalore"
-            ]
-        },
-        "level_82": {
-            "premium": [
-                "Mirage Cosmetic Emote Mi-RAGE"
-            ],
-            "free": []
-        },
-        "level_83": {
-            "premium": [
-                "Ballistic Quip Kill Quip : You see? Plenty of battles left"
-            ],
-            "free": [
-                "Pathfinder Stat Tracker Season 21 Wins as Pathfinder"
-            ]
-        },
-        "level_84": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Pathfinder Stat Tracker Season 21 Kills as Pathfinder"
-            ]
-        },
-        "level_85": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_86": {
-            "premium": [
-                "Transition Onto the Next"
-            ],
-            "free": [
-                "Loba Stat Tracker Season 21 Wins as Loba"
-            ]
-        },
-        "level_87": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Loba Stat Tracker Season 21 Kills as Loba"
-            ]
-        },
-        "level_88": {
-            "premium": [
-                "Loba Banner Frame Breached Containment"
-            ],
-            "free": [
-                "Crypto Stat Tracker Season 21 Wins as Crypto"
-            ]
-        },
-        "level_89": {
-            "premium": [
-                "Exotic Shards 10"
-            ],
-            "free": [
-                "Crypto Stat Tracker Season 21 Kills as Crypto"
-            ]
-        },
-        "level_90": {
-            "premium": [
-                "Revenant Cosmetic Emote Party Pooper"
-            ],
-            "free": []
-        },
-        "level_91": {
-            "premium": [
-                "Crypto Quip Kill Quip : You dIdn't gave to make it so easy"
-            ],
-            "free": [
-                "Revenant Stat Tracker Season 21 Wins as Revenant"
-            ]
-        },
-        "level_92": {
-            "premium": [
-                "No Loot Here!"
-            ],
-            "free": [
-                "Revenant Stat Tracker Season 21 Kills as Revenant"
-            ]
-        },
-        "level_93": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Transition Nessie: Unclassified"
-            ]
-        },
-        "level_94": {
-            "premium": [
-                "Sentinel Blighted Gemstone"
-            ],
-            "free": [
-                "Rampart Stat Tracker Season 21 Wins as Rampart"
-            ]
-        },
-        "level_95": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Rampart Stat Tracker Season 21 Kills as Rampart"
-            ]
-        },
-        "level_96": {
-            "premium": [
-                "Caustic Holospray A New Variable"
-            ],
-            "free": [
-                "Octane Stat Tracker Season 21 Wins as Octane"
-            ]
-        },
-        "level_97": {
-            "premium": [
-                "Newcastle Banner Frame Hometown Horror"
-            ],
-            "free": [
-                "Octane Stat Tracker Season 21 Kills as Octane"
-            ]
-        },
-        "level_98": {
-            "premium": [
-                "Alter Skydive Emote Coming in Hot"
-            ],
-            "free": [
-                "Catalyst Stat Tracker Season 21 Wins as Catalyst"
-            ]
-        },
-        "level_99": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Catalyst Stat Tracker Season 21 Kills as Catalyst"
-            ]
-        },
-        "level_100": {
-            "premium": [
-                "30-30 Repeater Void Impulse"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_110": {
-            "premium": [
-                "30-30 Repeater Icon Reversed Polarity"
-            ],
-            "free": [
-                "Badge : Upheaval"
-            ]
-        }
+    "level_2": {
+      "premium": [
+        "Alter Skydive Emote Tailspin"
+      ],
+      "free": []
     },
-    "patches": {
-        "Alter": [
-            {
-                "patch": "Double down in the Double Take Collection Event",
-                "details": [
-                    "[Base] Buff -> Players should no longer rarely get stuck in the ceiling/floor when using a Void Passage.",
-                    "[Base] Fix -> Stuck projectiles (such as Arc Stars) now fall off correctly when traveling through a Void Passage.",
-                    "[Base] Fix -> Tac’s Void Siphon (the interactable part) no longer missing a cooldown after exiting a Void Passage."
-                ]
-            },
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Passive] Buff -> Into the Void and Dimensional Rift: nearby enemies will be highlighted for players traveling through the Void"
-                ]
-            }
-        ],
-        "Ash": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Ultimate] Buff -> Phase Breach: inspired by some Alter tech, nearby enemies will be highlighted for players traveling through the Void"
-                ]
-            }
-        ],
-        "Ballistic": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Passive] Nerf -> Whistler: duration of speedy whistler restored to 2s",
-                    "[Perks] Buff -> Whistler: damage from a planted smart bullet increased to 10 (was 5)",
-                    "[Perks] Adjust -> Upgrades: NEW Sling-Shot: improves Ballistic’s base sling weapon to a blueset at Level 2 and a purpleset at Level 3"
-                ]
-            }
-        ],
-        "Bangalore": [
-            {
-                "patch": "Double down in the Double Take Collection Event",
-                "details": [
-                    "[Tactical] Buff -> Smoke Launcher: all players within smoke will now have a white highlight visible to other players in smoke within 20m"
-                ]
-            }
-        ],
-        "Bloodhound": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Passive] Buff -> Passive markers no longer appear for teammates not on player’s squad",
-                    "[Ultimate] Nerf -> Beast of the Hunt: cooldown increased to 4m (was 3m)",
-                    "[Perks] Adjust -> Upgrades: NEW Long Hunt: knocks extend Beast of the Hunt duration"
-                ]
-            }
-        ],
-        "Breakout": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Ultimate] Buff -> Lasting Bullet: Smart Bullet duration in-world is tripled.",
-                    "[Perks] Adjust -> Breakout: Level 2 - Taste of Blood: Gain 25 hp on knocks while Ultimate is active."
-                ]
-            }
-        ],
-        "Caustic": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Ultimate] Buff -> Gas damage and slow now stops immediately after Caustic’s squad is eliminated"
-                ]
-            }
-        ],
-        "Conduit": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Tactical] Nerf -> Radiant Transfer: Can no longer target a Revenant while Forged Shadows is active"
-                ]
-            }
-        ],
-        "Crypto": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Perks] Buff -> Neurolink: Network Traffic upgrade now integrated into base kit",
-                    "[Perks] Adjust -> Upgrades: NEW Quick Ping: improved drone handling (faster accel/decel)"
-                ]
-            }
-        ],
-        "Catalyst": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Ultimate] Buff -> Piercing Spikes: cooldown decreased to 20s (was 25s)",
-                    "[Perks] Adjust -> Upgrades: NEW Ferro-Door: fully rebuild and reinforce missing doors with Passive"
-                ]
-            }
-        ],
-        "Fuse": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Ultimate] Buff -> Big Bang: removed, replaced by Ring Master: gain access to Ring Consoles"
-                ]
-            }
-        ],
-        "Newcastle": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Passive] Buff -> Castle Wall: will now destroy incoming projectiles headed towards the front of the wall while energized"
-                ]
-            }
-        ],
-        "Octane": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Perks] Adjust -> Upgrades: Thick Skin: now Level 2 and 3, updated to take 5 less Stim damage"
-                ]
-            }
-        ],
-        "Wattson": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Ultimate] Buff -> Falling Stars: Pylons will stop spawning Arc Stars when her squad is eliminated"
-                ]
-            }
-        ],
-        "Wraith": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
-                "details": [
-                    "[Passive] Buff -> Into the Void and Dimensional Rift: nearby enemies will be highlighted for players traveling through the Void"
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Music Pack Upheaval"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Ticked Off"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Longbow DMR Necrotic Devourer"
+      ],
+      "free": [
+        "Alter Stat Tracker Season 21 Wins as Alter"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Mad Maggie Quip Kill Quip : Don't try that weak tea with me"
+      ],
+      "free": [
+        "Alter Stat Tracker Season 21 Kills as Alter"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Sticker Tainted Sight"
+      ],
+      "free": [
+        "M600 Spitfire Tech Takeover"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Gibraltar Banner Frame Speed Trap"
+      ],
+      "free": [
+        "Transition One Last Chance"
+      ]
+    },
+    "level_12": {
+      "premium": [
+        "Lifeline Cosmetic Emote Blighted Breakdown"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "RE-45 Auto Necrotic Devourer"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Horizon Stat Tracker Season 21 Wins as Horizon"
+      ]
+    },
+    "level_15": {
+      "premium": [
+        "Seer Stat Tracker Season 21 Kills as Seer"
+      ],
+      "free": [
+        "Horizon Stat Tracker Season 21 Kills as Horizon"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Seer Stat Tracker Wins as Seer"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Seer Stat Tracker Damage Done as Seer"
+      ],
+      "free": [
+        "Charge Rifle Tech Takeover"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Seer Banner Frame Bleeding Moon"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Seer Holospray This Is My Mark"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker Season 21 Wins as Gibraltar"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker Season 21 Kills as Gibraltar"
+      ]
+    },
+    "level_21": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Seer Stat Tracker Season 21 Wins as Seer"
+      ]
+    },
+    "level_23": {
+      "premium": [
+        "Seer Quip Kill Quip : Art is not a distraction from pain"
+      ],
+      "free": [
+        "Seer Stat Tracker Season 21 Kills as Seer"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Apex Blight"
+      ],
+      "free": []
+    },
+    "level_25": {
+      "premium": [
+        "Seer Creeping Void"
+      ],
+      "free": [
+        "30-30 Repeater Necrotic Devourer"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "Alternator SMG Necrotic Devourer"
+      ],
+      "free": []
+    },
+    "level_27": {
+      "premium": [
+        "Bloodhound Cosmetic Emote Dark Hunter"
+      ],
+      "free": [
+        "Fuse Stat Tracker Season 21 Wins as Fuse"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Fuse Stat Tracker Season 21 Kills as Fuse"
+      ]
+    },
+    "level_29": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Nemesis Burst AR Dark Infusion"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Mirage Stat Tracker Season 21 Wins as Mirage"
+      ]
+    },
+    "level_31": {
+      "premium": [
+        "Wraith Quip Kill Quip : Stay home"
+      ],
+      "free": [
+        "Mirage Stat Tracker Season 21 Kills as Mirage"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Wraith Banner Frame Dark Experiment"
+      ],
+      "free": []
+    },
+    "level_33": {
+      "premium": [
+        "Nocturnal Nature"
+      ],
+      "free": [
+        "R-301 Carbine Blighted Gemstone"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "R-99 SMG Tech Takeover"
+      ],
+      "free": []
+    },
+    "level_35": {
+      "premium": [
+        "Wraith Holospray Think Fast"
+      ],
+      "free": [
+        "Wraith Stat Tracker Season 21 Wins as Wraith"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Wraith Stat Tracker Season 21 Kills as Wraith"
+      ]
+    },
+    "level_37": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Rampage LMG Tech Takeover"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Hacked"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Revenant Quip Kill Quip : What if they won't miss you"
+      ],
+      "free": [
+        "Ash Stat Tracker Season 21 Wins as Ash"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "Revenant Holospray Born This Way"
+      ],
+      "free": [
+        "Ash Stat Tracker Season 21 Kills as Ash"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "Triple Take Necrotic Devourer"
+      ],
+      "free": []
+    },
+    "level_43": {
+      "premium": [
+        "Revenant Banner Frame Production Corruption"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Loose Threads"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Catalyst Stat Tracker Kills as Catalyst"
+      ],
+      "free": [
+        "Hemlok Burst AR Tech Takeover"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Catalyst Stat Tracker Wins as Catalyst"
+      ],
+      "free": [
+        "Caustic Stat Tracker Season 21 Wins as Caustic"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Catalyst Stat Tracker Damage Done as Catalyst"
+      ],
+      "free": [
+        "Caustic Stat Tracker Season 21 Kills as Caustic"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Catalyst Void Witch"
+      ],
+      "free": [
+        "Music Pack Alter"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Necro Ness"
+      ],
+      "free": [
+        "Vantage Stat Tracker Season 21 Wins as Vantage"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Devotion LMG Dark Infusion"
+      ],
+      "free": [
+        "Vantage Stat Tracker Season 21 Kills as Vantage"
+      ]
+    },
+    "level_53": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Bocek Compound Bow Necrotic Devourer"
+      ]
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Conduit Stat Tracker Season 21 Wins as Conduit"
+      ]
+    },
+    "level_55": {
+      "premium": [
+        "Catalyst Banner Frame Cataclysm"
+      ],
+      "free": [
+        "Conduit Stat Tracker Season 21 Kills as Conduit"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Catalyst Quip Kill Quip : You'll want to see a doctor"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Catalyst Holospray Embrace The Dark"
+      ],
+      "free": [
+        "Valkyrie Necrotic Devourer"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Prowler Burst PDW Tech Takeover"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Lifeline Stat Tracker Season 21 Wins as Lifeline"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Lifeline Stat Tracker Season 21 Kills as Lifeline"
+      ]
+    },
+    "level_61": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_63": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "G7 Scout Tech Takeover"
+      ]
+    },
+    "level_64": {
+      "premium": [
+        "Gibraltar Cosmetic Emote Badbraltar"
+      ],
+      "free": [
+        "Mad Maggie Stat Tracker Season 21 Wins as Mad Maggie"
+      ]
+    },
+    "level_65": {
+      "premium": [
+        "L-STAR EMG Corrupt Memory"
+      ],
+      "free": [
+        "Mad Maggie Stat Tracker Season 21 Kills as Mad Maggie"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Caustic Quip Kill Quip : Pray all you want"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_67": {
+      "premium": [
+        "Vantage Banner Frame Black Ice"
+      ],
+      "free": [
+        "Newcastle Stat Tracker Season 21 Wins as Newcastle"
+      ]
+    },
+    "level_68": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Newcastle Stat Tracker Season 21 Kills as Newcastle"
+      ]
+    },
+    "level_69": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "C.A.R SMG Necrotic Devourer"
+      ]
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_71": {
+      "premium": [
+        "Wicked Wally"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker Season 21 Wins as Valkyrie"
+      ]
+    },
+    "level_72": {
+      "premium": [
+        "Flatline Blighted Gemstone"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker Season 21 Kills as Valkyrie"
+      ]
+    },
+    "level_73": {
+      "premium": [
+        "Alter Quip Kill Quip : You went out with a bang"
+      ],
+      "free": []
+    },
+    "level_74": {
+      "premium": [
+        "Alter Holospray I'll Only Haunt You"
+      ],
+      "free": [
+        "Ballistic Stat Tracker Season 21 Wins as Ballistic"
+      ]
+    },
+    "level_75": {
+      "premium": [
+        "Alter Banner Frame Corrupted Rift"
+      ],
+      "free": [
+        "Ballistic Stat Tracker Season 21 Kills as Ballistic"
+      ]
+    },
+    "level_76": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_78": {
+      "premium": [
+        "Peacekeeper Necrotic Devourer"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker Season 21 Wins as Bloodhound"
+      ]
+    },
+    "level_79": {
+      "premium": [
+        "Horizon Banner Frame Event Horizon"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker Season 21 Kills as Bloodhound"
+      ]
+    },
+    "level_80": {
+      "premium": [
+        "Sticker Witchy Strut"
+      ],
+      "free": [
+        "Bangalore Stat Tracker Season 21 Wins as Bangalore"
+      ]
+    },
+    "level_81": {
+      "premium": [
+        "Pathfinder Holospray Time To Kill, Friends"
+      ],
+      "free": [
+        "Bangalore Stat Tracker Season 21 Kills as Bangalore"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "Mirage Cosmetic Emote Mi-RAGE"
+      ],
+      "free": []
+    },
+    "level_83": {
+      "premium": [
+        "Ballistic Quip Kill Quip : You see? Plenty of battles left"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker Season 21 Wins as Pathfinder"
+      ]
+    },
+    "level_84": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker Season 21 Kills as Pathfinder"
+      ]
+    },
+    "level_85": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_86": {
+      "premium": [
+        "Transition Onto the Next"
+      ],
+      "free": [
+        "Loba Stat Tracker Season 21 Wins as Loba"
+      ]
+    },
+    "level_87": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Loba Stat Tracker Season 21 Kills as Loba"
+      ]
+    },
+    "level_88": {
+      "premium": [
+        "Loba Banner Frame Breached Containment"
+      ],
+      "free": [
+        "Crypto Stat Tracker Season 21 Wins as Crypto"
+      ]
+    },
+    "level_89": {
+      "premium": [
+        "Exotic Shards 10"
+      ],
+      "free": [
+        "Crypto Stat Tracker Season 21 Kills as Crypto"
+      ]
+    },
+    "level_90": {
+      "premium": [
+        "Revenant Cosmetic Emote Party Pooper"
+      ],
+      "free": []
+    },
+    "level_91": {
+      "premium": [
+        "Crypto Quip Kill Quip : You dIdn't gave to make it so easy"
+      ],
+      "free": [
+        "Revenant Stat Tracker Season 21 Wins as Revenant"
+      ]
+    },
+    "level_92": {
+      "premium": [
+        "No Loot Here!"
+      ],
+      "free": [
+        "Revenant Stat Tracker Season 21 Kills as Revenant"
+      ]
+    },
+    "level_93": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Nessie: Unclassified"
+      ]
+    },
+    "level_94": {
+      "premium": [
+        "Sentinel Blighted Gemstone"
+      ],
+      "free": [
+        "Rampart Stat Tracker Season 21 Wins as Rampart"
+      ]
+    },
+    "level_95": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Rampart Stat Tracker Season 21 Kills as Rampart"
+      ]
+    },
+    "level_96": {
+      "premium": [
+        "Caustic Holospray A New Variable"
+      ],
+      "free": [
+        "Octane Stat Tracker Season 21 Wins as Octane"
+      ]
+    },
+    "level_97": {
+      "premium": [
+        "Newcastle Banner Frame Hometown Horror"
+      ],
+      "free": [
+        "Octane Stat Tracker Season 21 Kills as Octane"
+      ]
+    },
+    "level_98": {
+      "premium": [
+        "Alter Skydive Emote Coming in Hot"
+      ],
+      "free": [
+        "Catalyst Stat Tracker Season 21 Wins as Catalyst"
+      ]
+    },
+    "level_99": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Catalyst Stat Tracker Season 21 Kills as Catalyst"
+      ]
+    },
+    "level_100": {
+      "premium": [
+        "30-30 Repeater Void Impulse"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "30-30 Repeater Icon Reversed Polarity"
+      ],
+      "free": [
+        "Badge : Upheaval"
+      ]
     }
+  },
+  "patches": {
+    "Alter": [
+      {
+        "patch": "Double down in the Double Take Collection Event",
+        "details": [
+          "[Base] Buff -> Players should no longer rarely get stuck in the ceiling/floor when using a Void Passage.",
+          "[Base] Fix -> Stuck projectiles (such as Arc Stars) now fall off correctly when traveling through a Void Passage.",
+          "[Base] Fix -> Tac’s Void Siphon (the interactable part) no longer missing a cooldown after exiting a Void Passage."
+        ]
+      },
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Passive] Buff -> Into the Void and Dimensional Rift: nearby enemies will be highlighted for players traveling through the Void"
+        ]
+      }
+    ],
+    "Ash": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Ultimate] Buff -> Phase Breach: inspired by some Alter tech, nearby enemies will be highlighted for players traveling through the Void"
+        ]
+      }
+    ],
+    "Ballistic": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Passive] Nerf -> Whistler: duration of speedy whistler restored to 2s",
+          "[Perks] Buff -> Whistler: damage from a planted smart bullet increased to 10 (was 5)",
+          "[Perks] Adjust -> Upgrades: NEW Sling-Shot: improves Ballistic’s base sling weapon to a blueset at Level 2 and a purpleset at Level 3"
+        ]
+      }
+    ],
+    "Bangalore": [
+      {
+        "patch": "Double down in the Double Take Collection Event",
+        "details": [
+          "[Tactical] Buff -> Smoke Launcher: all players within smoke will now have a white highlight visible to other players in smoke within 20m"
+        ]
+      }
+    ],
+    "Bloodhound": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Passive] Buff -> Passive markers no longer appear for teammates not on player’s squad",
+          "[Ultimate] Nerf -> Beast of the Hunt: cooldown increased to 4m (was 3m)",
+          "[Perks] Adjust -> Upgrades: NEW Long Hunt: knocks extend Beast of the Hunt duration"
+        ]
+      }
+    ],
+    "Breakout": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Ultimate] Buff -> Lasting Bullet: Smart Bullet duration in-world is tripled.",
+          "[Perks] Adjust -> Breakout: Level 2 - Taste of Blood: Gain 25 hp on knocks while Ultimate is active."
+        ]
+      }
+    ],
+    "Caustic": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Ultimate] Buff -> Gas damage and slow now stops immediately after Caustic’s squad is eliminated"
+        ]
+      }
+    ],
+    "Conduit": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Tactical] Nerf -> Radiant Transfer: Can no longer target a Revenant while Forged Shadows is active"
+        ]
+      }
+    ],
+    "Crypto": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Perks] Buff -> Neurolink: Network Traffic upgrade now integrated into base kit",
+          "[Perks] Adjust -> Upgrades: NEW Quick Ping: improved drone handling (faster accel/decel)"
+        ]
+      }
+    ],
+    "Catalyst": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Ultimate] Buff -> Piercing Spikes: cooldown decreased to 20s (was 25s)",
+          "[Perks] Adjust -> Upgrades: NEW Ferro-Door: fully rebuild and reinforce missing doors with Passive"
+        ]
+      }
+    ],
+    "Fuse": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Ultimate] Buff -> Big Bang: removed, replaced by Ring Master: gain access to Ring Consoles"
+        ]
+      }
+    ],
+    "Newcastle": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Passive] Buff -> Castle Wall: will now destroy incoming projectiles headed towards the front of the wall while energized"
+        ]
+      }
+    ],
+    "Octane": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Perks] Adjust -> Upgrades: Thick Skin: now Level 2 and 3, updated to take 5 less Stim damage"
+        ]
+      }
+    ],
+    "Wattson": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Ultimate] Buff -> Falling Stars: Pylons will stop spawning Arc Stars when her squad is eliminated"
+        ]
+      }
+    ],
+    "Wraith": [
+      {
+        "patch": "Apex Legends™: Upheaval Patch Notes",
+        "details": [
+          "[Passive] Buff -> Into the Void and Dimensional Rift: nearby enemies will be highlighted for players traveling through the Void"
+        ]
+      }
+    ]
+  }
 }

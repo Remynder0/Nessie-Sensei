@@ -9,7 +9,7 @@ import TabProbabilities from './components/tabs/TabProbabilities.vue'
 import TabSimulation from './components/tabs/TabSimulation.vue'
 import TabStats from './components/tabs/TabStats.vue'
 import TabSort from './components/tabs/TabSort.vue'
-import TabBattlePass from './components/tabs/TabBattlePass.vue'
+import TabSeason from './components/tabs/TabSeason.vue'
 import SyncStatus from './components/SyncStatus.vue'
 import FeedbackBubble from './components/FeedbackBubble.vue'
 import { initSync } from './logic/syncService'
@@ -24,7 +24,7 @@ const allTabs = [
   { id: 'TeamGen', nameKey: 'nav.teamGen', component: TabTeamGen },
   { id: 'Legends', nameKey: 'nav.legends', component: TabLegends },
   { id: 'PackCalculator', nameKey: 'nav.packCalculator', component: TabPackCalculator },
-  { id: 'BattlePass', nameKey: 'nav.battlePass', component: TabBattlePass },
+  { id: 'Season', nameKey: 'nav.season', component: TabSeason },
   { id: 'Probabilities', nameKey: 'nav.probabilities', component: TabProbabilities },
   { id: 'Simulation', nameKey: 'nav.simulation', component: TabSimulation, adminOnly: true },
   { id: 'Stats', nameKey: 'nav.stats', component: TabStats, adminOnly: true },

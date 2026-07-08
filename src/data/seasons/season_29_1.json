@@ -1,543 +1,547 @@
 {
-    "season": "29",
-    "max_level": 60,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Axle Cell Signal",
-                "VK-47 Flatline Live Wire",
-                "Banner Frame Weapon Rack",
-                "Holospray Time to Improvise",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_2": {
-            "premium": [
-                "Conduit Quip Kill Quip : Zapped both of us"
-            ],
-            "free": [
-                "Transition Trash Talk"
-            ]
-        },
-        "level_3": {
-            "premium": [
-                "Conduit Skydive Emote Somer-Assault"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Holospray Grilling Time"
-            ],
-            "free": []
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "Stat Tracker Shadow Flare - Top",
-                "Stat Tracker Shadow Flare - Middle",
-                "Stat Tracker Shadow Flare - Bottom"
-            ],
-            "free": []
-        },
-        "level_7": {
-            "premium": [
-                "Banner Frame Fractured Forge"
-            ],
-            "free": [
-                "Music Pack Overclocked Split 1: Axle"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "R-99 SMG Celestial Luxe"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_10": {
-            "premium": [
-                "Conduit Shadow Flare",
-                "Conduit Genesis +"
-            ],
-            "free": []
-        },
-        "level_11": {
-            "premium": [
-                "Sticker Too Tough",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_12": {
-            "premium": [
-                "Banner Frame Shatter Swarm"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_14": {
-            "premium": [
-                "Holospray No More Limits"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "Mozambique Shotgun Morbid Curiosity"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_18": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_19": {
-            "premium": [
-                "Sticker Big Hit"
-            ],
-            "free": [
-                "Vantage Cosmetic Emote Jam Session"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Seer Shadow Network",
-                "Exotic Shards 10 +"
-            ],
-            "free": []
-        },
-        "level_21": {
-            "premium": [
-                "Banner Frame Rear View",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_22": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_23": {
-            "premium": [
-                "30-30 Repeater Red Streak"
-            ],
-            "free": []
-        },
-        "level_24": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Holospray Cleared"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_26": {
-            "premium": [
-                "Axle Skydive Emote Crowd Work"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Holospray Try and Catch Up"
-            ],
-            "free": []
-        },
-        "level_30": {
-            "premium": [
-                "Exotic Shards 10",
-                "Nemesis Burst AR Energy Efficient"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "Apex Coins 100",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_32": {
-            "premium": [
-                "Seer Skydive Emote Pirouette"
-            ],
-            "free": [
-                "Bocek Compound Bow Sweet Escape"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Stat Tracker Dark Web - Top",
-                "Stat Tracker Dark Web - Middle",
-                "Stat Tracker Dark Web - Bottoom"
-            ],
-            "free": []
-        },
-        "level_34": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Transition Letter from Mutti"
-            ]
-        },
-        "level_35": {
-            "premium": [
-                "Kraber .50-Cal Sniper Turbo Galaxy"
-            ],
-            "free": []
-        },
-        "level_36": {
-            "premium": [
-                "Banner Frame Surveillance"
-            ],
-            "free": []
-        },
-        "level_37": {
-            "premium": [
-                "Holospray Five Steps Ahead"
-            ],
-            "free": []
-        },
-        "level_38": {
-            "premium": [
-                "Sticker Fresh Paint"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_39": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_40": {
-            "premium": [
-                "Crypto Dark Web",
-                "Crypto Vapor Runner +"
-            ],
-            "free": []
-        },
-        "level_41": {
-            "premium": [
-                "Newcastle Cosmetic Emote Shadowboxer",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_42": {
-            "premium": [
-                "Crypto Quip Kill Quip : Do not blame yourself"
-            ],
-            "free": [
-                "Lifeline Cyber Rose"
-            ]
-        },
-        "level_43": {
-            "premium": [
-                "L-STAR EMG Hyperpink"
-            ],
-            "free": []
-        },
-        "level_44": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_45": {
-            "premium": [
-                "Holospray Overclockin"
-            ],
-            "free": []
-        },
-        "level_46": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Banner Frame Power Coil"
-            ],
-            "free": []
-        },
-        "level_49": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_50": {
-            "premium": [
-                "Wattson Electrochem"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Holospray Bringing the Big Guns"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Apex Coins"
-            ],
-            "free": []
-        },
-        "level_53": {
-            "premium": [
-                "Ballistic Skydive Emote Power Pack"
-            ],
-            "free": []
-        },
-        "level_54": {
-            "premium": [
-                "Peacekeeper Hot Wired"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Banner Frame Clear!"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_57": {
-            "premium": [
-                "Crafting Metals 200",
-                "Banner Frame Ultra Upgrades"
-            ],
-            "free": []
-        },
-        "level_58": {
-            "premium": [
-                "Sticker Too Cute"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_59": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_60": {
-            "premium": [
-                "RE-45 Electrification"
-            ],
-            "free": []
-        }
+  "season": "29",
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Axle Cell Signal",
+        "VK-47 Flatline Live Wire",
+        "Banner Frame Weapon Rack",
+        "Holospray Time to Improvise",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
     },
-    "name": "Overclocked",
-    "start_date": "May 5, 2026",
-    "end_date": "August 4, 2026",
-    "infobox": {
-        "name": "Overclocked",
-        "New Legend": "Axle",
-        "Theme": "Power up",
-        "Reactive weapon": "RE-45 Auto",
-        "Start date": "May 5, 2026",
-        "End date": "August 4, 2026",
-        "Events": "Overclocked Seasonal | Power Trip"
+    "level_2": {
+      "premium": [
+        "Conduit Quip Kill Quip : Zapped both of us"
+      ],
+      "free": [
+        "Transition Trash Talk"
+      ]
     },
-    "patches": {
-        "Axle": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Passive] Buff -> Drift : Increased control while sliding.",
-                    "[Tactical] Adjust -> Nitro Gate : Stepping into a Nitro Gate forces users into a speedy slide, where they have greatly increased velocity and lateral control."
-                ]
-            }
-        ],
-        "Vantage": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Base] Fix -> Fixed an issue where there was a slight delay before having intended ADS accuracy despite being fully zoomed into scope",
-                    "[Base] Fix -> Fixed bug where Vantage could equip weapons in fight night.",
-                    "[Base] Fix -> Fixed how Spotter’s Lens gave decoys a low priority so the real Mirage is less obvious to find."
-                ]
-            }
-        ],
-        "Conduit": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Passive] Adjust -> New Effect: If Savior’s Speed is active when sprinting toward a Skirmisher, gain an additional 5% movement speed",
-                    "[Tactical] Nerf -> Decreased Regen Duration from 9s to 6s",
-                    "[Tactical] Nerf -> Decreased Regen from 20/s to 15/s",
-                    "[Perks] Buff -> Cooldown adjusted to 27s"
-                ]
-            }
-        ],
-        "Alter": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Tactical] Nerf -> Increased Cooldown from 20s to 25s",
-                    "[Ultimate] Nerf -> Decreased Range from 300m to 250m"
-                ]
-            }
-        ],
-        "Ash": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Passive] Buff -> Cooldown from 12s to 10s",
-                    "[Passive] Buff -> Velocity from 425 to 450"
-                ]
-            }
-        ],
-        "Newcastle": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Base] Fix -> Fixed the ultimate slam not destroying Catalyst’s reinforcements on an empty door frame."
-                ]
-            }
-        ],
-        "Revenant": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Base] Fix -> Fixed sometimes being able to cancel your tactical early and ready your guns sooner than intended."
-                ]
-            }
-        ],
-        "Lifeline": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Base] Fix -> Fixed self revive in Wildcard sometimes not using the right animation and having inaccurate UI timings."
-                ]
-            }
-        ],
-        "Loba": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Base] Fix -> Fixed an issue where black market could steal banners crafted by an enemy squad."
-                ]
-            }
-        ],
-        "Octane": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Perks] Buff -> Added new VO for Stim Surge"
-                ]
-            }
-        ],
-        "Mad Maggie": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Base] Fix -> Fixed Wrecking Ball sometimes failing to destroy doors when hitting them at the upper edges."
-                ]
-            }
-        ],
-        "Fuse": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Base] Fix -> Fixed Motherload not properly penetrating some Legend abilities."
-                ]
-            }
-        ],
-        "Gibraltar": [
-            {
-                "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
-                "details": [
-                    "[Base] Fix -> Fixed an issue where overlapping Thunder Domes would allow a player to pass into a dome unharmed."
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Conduit Skydive Emote Somer-Assault"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Holospray Grilling Time"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Stat Tracker Shadow Flare - Top",
+        "Stat Tracker Shadow Flare - Middle",
+        "Stat Tracker Shadow Flare - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Banner Frame Fractured Forge"
+      ],
+      "free": [
+        "Music Pack Overclocked Split 1: Axle"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "R-99 SMG Celestial Luxe"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Conduit Shadow Flare",
+        "Conduit Genesis +"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Sticker Too Tough",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Banner Frame Shatter Swarm"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Holospray No More Limits"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Mozambique Shotgun Morbid Curiosity"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Sticker Big Hit"
+      ],
+      "free": [
+        "Vantage Cosmetic Emote Jam Session"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Seer Shadow Network",
+        "Exotic Shards 10 +"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Banner Frame Rear View",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "30-30 Repeater Red Streak"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Holospray Cleared"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Axle Skydive Emote Crowd Work"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Holospray Try and Catch Up"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Exotic Shards 10",
+        "Nemesis Burst AR Energy Efficient"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Seer Skydive Emote Pirouette"
+      ],
+      "free": [
+        "Bocek Compound Bow Sweet Escape"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Stat Tracker Dark Web - Top",
+        "Stat Tracker Dark Web - Middle",
+        "Stat Tracker Dark Web - Bottoom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Letter from Mutti"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Kraber .50-Cal Sniper Turbo Galaxy"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Banner Frame Surveillance"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Holospray Five Steps Ahead"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Sticker Fresh Paint"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Crypto Dark Web",
+        "Crypto Vapor Runner +"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Newcastle Cosmetic Emote Shadowboxer",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Crypto Quip Kill Quip : Do not blame yourself"
+      ],
+      "free": [
+        "Lifeline Cyber Rose"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "L-STAR EMG Hyperpink"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Holospray Overclockin"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Banner Frame Power Coil"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Wattson Electrochem"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Holospray Bringing the Big Guns"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Apex Coins"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Ballistic Skydive Emote Power Pack"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Peacekeeper Hot Wired"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Banner Frame Clear!"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Crafting Metals 200",
+        "Banner Frame Ultra Upgrades"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Sticker Too Cute"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "RE-45 Electrification"
+      ],
+      "free": []
     }
+  },
+  "name": "Overclocked",
+  "start_date": "May 5, 2026",
+  "end_date": "August 4, 2026",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_29.svg?7bab89",
+    "name": "Overclocked",
+    "New Legend": "Axle",
+    "Theme": "Power up",
+    "Reactive weapon": "RE-45 Auto",
+    "Start date": "May 5, 2026",
+    "End date": "August 4, 2026",
+    "Events": [
+      "Overclocked Seasonal",
+      "Power Trip"
+    ]
+  },
+  "patches": {
+    "Axle": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Passive] Buff -> Drift : Increased control while sliding.",
+          "[Tactical] Adjust -> Nitro Gate : Stepping into a Nitro Gate forces users into a speedy slide, where they have greatly increased velocity and lateral control."
+        ]
+      }
+    ],
+    "Vantage": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Base] Fix -> Fixed an issue where there was a slight delay before having intended ADS accuracy despite being fully zoomed into scope",
+          "[Base] Fix -> Fixed bug where Vantage could equip weapons in fight night.",
+          "[Base] Fix -> Fixed how Spotter’s Lens gave decoys a low priority so the real Mirage is less obvious to find."
+        ]
+      }
+    ],
+    "Conduit": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Passive] Adjust -> New Effect: If Savior’s Speed is active when sprinting toward a Skirmisher, gain an additional 5% movement speed",
+          "[Tactical] Nerf -> Decreased Regen Duration from 9s to 6s",
+          "[Tactical] Nerf -> Decreased Regen from 20/s to 15/s",
+          "[Perks] Buff -> Cooldown adjusted to 27s"
+        ]
+      }
+    ],
+    "Alter": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Tactical] Nerf -> Increased Cooldown from 20s to 25s",
+          "[Ultimate] Nerf -> Decreased Range from 300m to 250m"
+        ]
+      }
+    ],
+    "Ash": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Passive] Buff -> Cooldown from 12s to 10s",
+          "[Passive] Buff -> Velocity from 425 to 450"
+        ]
+      }
+    ],
+    "Newcastle": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Base] Fix -> Fixed the ultimate slam not destroying Catalyst’s reinforcements on an empty door frame."
+        ]
+      }
+    ],
+    "Revenant": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Base] Fix -> Fixed sometimes being able to cancel your tactical early and ready your guns sooner than intended."
+        ]
+      }
+    ],
+    "Lifeline": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Base] Fix -> Fixed self revive in Wildcard sometimes not using the right animation and having inaccurate UI timings."
+        ]
+      }
+    ],
+    "Loba": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Base] Fix -> Fixed an issue where black market could steal banners crafted by an enemy squad."
+        ]
+      }
+    ],
+    "Octane": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Perks] Buff -> Added new VO for Stim Surge"
+        ]
+      }
+    ],
+    "Mad Maggie": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Base] Fix -> Fixed Wrecking Ball sometimes failing to destroy doors when hitting them at the upper edges."
+        ]
+      }
+    ],
+    "Fuse": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Base] Fix -> Fixed Motherload not properly penetrating some Legend abilities."
+        ]
+      }
+    ],
+    "Gibraltar": [
+      {
+        "patch": "Apex Legends™: Overclocked Patch Notes (2026-05-04)",
+        "details": [
+          "[Base] Fix -> Fixed an issue where overlapping Thunder Domes would allow a player to pass into a dome unharmed."
+        ]
+      }
+    ]
+  }
 }

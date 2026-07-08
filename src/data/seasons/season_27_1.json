@@ -1,470 +1,474 @@
 {
-    "season": "27_1",
+  "season": "27_1",
+  "name": "Amped",
+  "start_date": "November 4, 2025",
+  "end_date": "February 10, 2026",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_27.svg?94a025",
     "name": "Amped",
-    "start_date": "November 4, 2025",
-    "end_date": "February 10, 2026",
-    "infobox": {
-        "name": "Amped",
-        "Featured map": "Olympus",
-        "Theme": "Musical Festival / Stadium Pop",
-        "Reactive weapon": "Sentinel",
-        "Start date": "November 4, 2025",
-        "End date": "February 10, 2026",
-        "Events": "Amped Seasonal Collection Amped Seasonal | Supersonic Winter Wipeout"
+    "Featured map": "Olympus",
+    "Theme": "Musical Festival / Stadium Pop",
+    "Reactive weapon": "Sentinel",
+    "Start date": "November 4, 2025",
+    "End date": "February 10, 2026",
+    "Events": [
+      "Amped Seasonal Collection Amped Seasonal",
+      "Supersonic Winter Wipeout"
+    ]
+  },
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Bangalore Prismatic Heart",
+        "HAVOC Rifle Prism Pop",
+        "Banner Frame Stage Presence",
+        "Holospray Big Regrets",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
     },
-    "max_level": 60,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Bangalore Prismatic Heart",
-                "HAVOC Rifle Prism Pop",
-                "Banner Frame Stage Presence",
-                "Holospray Big Regrets",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_2": {
-            "premium": [
-                "Wattson Quip Kill Quip : Pour One Down"
-            ],
-            "free": [
-                "Transition A Bit of Research"
-            ]
-        },
-        "level_3": {
-            "premium": [
-                "Bangalore Skydive Emote Pour One Down"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Holospray Feeling the Love"
-            ],
-            "free": []
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "Stat Tracker Static Trance - Top",
-                "Stat Tracker Static Trance - Middle",
-                "Stat Tracker Static Trance - Bottom"
-            ],
-            "free": []
-        },
-        "level_7": {
-            "premium": [
-                "Banner Frame Lovely Myth"
-            ],
-            "free": [
-                "Music Pack Amped Split 1"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "Rampage LMG Passionate Burn"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_10": {
-            "premium": [
-                "Wattson Static Trance",
-                "Wattson Shocking Aura +"
-            ],
-            "free": []
-        },
-        "level_11": {
-            "premium": [
-                "Sticker Killer Instinct",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_12": {
-            "premium": [
-                "Banner Frame Midnight Love"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_14": {
-            "premium": [
-                "Holospray Cheering for You"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "RE-45 Heart Flutter"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_18": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_19": {
-            "premium": [
-                "Sticker Rock the Mic"
-            ],
-            "free": [
-                "Octane Cosmetic Emote Cool Down"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Vantage Heart Attack",
-                "Exotic Shards 10 +"
-            ],
-            "free": []
-        },
-        "level_21": {
-            "premium": [
-                "Banner Frame Heart Beats",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_22": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_23": {
-            "premium": [
-                "VK-47 Flatline Love Pulse"
-            ],
-            "free": []
-        },
-        "level_24": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Holospray I Made It Look Easy"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_26": {
-            "premium": [
-                "Loba Skydive Emote Crowd Killer"
-            ],
-            "free": [
-                "Amped Seasonal Collection Amped Pack"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Holospray Emotional Support"
-            ],
-            "free": []
-        },
-        "level_30": {
-            "premium": [
-                "Exotic Shards 10",
-                "M600 Spitfire K-Love"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "Apex Coins 100",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_32": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Nemesis Burst AR Fox's Aura"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Stat Tracker Streamline Glider - Top",
-                "Stat Tracker Streamline Glider - Middle",
-                "Stat Tracker Streamline Glider - Bottom"
-            ],
-            "free": []
-        },
-        "level_34": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Transition Business Purpose"
-            ]
-        },
-        "level_35": {
-            "premium": [
-                "30-30 Repeater Fatal Attraction"
-            ],
-            "free": []
-        },
-        "level_36": {
-            "premium": [
-                "Banner Frame Dragon Heart"
-            ],
-            "free": []
-        },
-        "level_37": {
-            "premium": [
-                "Holospray Denied"
-            ],
-            "free": []
-        },
-        "level_38": {
-            "premium": [
-                "Sticker Retro Hits"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_39": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_40": {
-            "premium": [
-                "Valkyrie Streamline Glider",
-                "Valkyrie Oni Aura +"
-            ],
-            "free": []
-        },
-        "level_41": {
-            "premium": [
-                "Fuse Skydive Emote Rocket Boosted",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_42": {
-            "premium": [
-                "Valkyrie Quip Kill Quip : Be Like Me"
-            ],
-            "free": [
-                "Loba Speed Diva"
-            ]
-        },
-        "level_43": {
-            "premium": [
-                "Longbow DMR Heartache"
-            ],
-            "free": []
-        },
-        "level_44": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_45": {
-            "premium": [
-                "Holospray Congratu-bloody-lations"
-            ],
-            "free": []
-        },
-        "level_46": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Banner Frame Sleek Rocker"
-            ],
-            "free": []
-        },
-        "level_49": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_50": {
-            "premium": [
-                "Fuse Old Flame"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Holospray Killin' It."
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_53": {
-            "premium": [
-                "Wraith Skydive Emote Amped Up"
-            ],
-            "free": []
-        },
-        "level_54": {
-            "premium": [
-                "Kraber .50-Cal Sniper Star-crossed"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Banner Frame Chrome Couture"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_57": {
-            "premium": [
-                "Crafting Metals 200",
-                "Banner Frame Going Platinum"
-            ],
-            "free": []
-        },
-        "level_58": {
-            "premium": [
-                "Sticker Big Shipper"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_59": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_60": {
-            "premium": [
-                "Sentinel Heart Piercer"
-            ],
-            "free": []
-        }
+    "level_2": {
+      "premium": [
+        "Wattson Quip Kill Quip : Pour One Down"
+      ],
+      "free": [
+        "Transition A Bit of Research"
+      ]
     },
-    "patches": {
-        "Valkyrie": [
-            {
-                "patch": "Amped Patch Notes (2025-11-03)",
-                "details": [
-                    "[Passive] Buff -> Jetpack cooldown and fly speed reworked.",
-                    "[Tactical] Buff -> Missile Swarm: removed self damage and stun effect, added short full body scan on hit, tac damage now puts movement passives on cooldown, removed 5 seconds of cooldown, removed vertical clearance firing restriction, improved missile pathing to work better in some situations such as low clearance situations (firing indoors or at targets under a bridge), increased max range.",
-                    "[Ultimate] Buff -> Skyward Dive: increased launch height 15% (integrated Afterburners upgrade), reduced cooldown by 30 seconds, reduced delay before takeoff, slightly reduced time slowly rising before takeoff, removed self cancel cooldown penalty, reduced damage cooldown penalty.",
-                    "[Perks] Adjust -> Upgrades: Level 2 - Afterburners: Removed (included by default), Eyes in the Sky: Moved to Level 2, Full Coverage: Changes missile swarm pattern to 4x5 (was 3x5); Level 3 - Supersonic: Ultimate launch time reduced ~50%, Aerial Expert: Improves jetpack horizontal speed, significantly improves handling, decreases initial fuel consumption, slightly reduces total fuel."
-                ]
-            }
-        ],
-        "Rampart": [
-            {
-                "patch": "Amped Patch Notes (2025-11-03)",
-                "details": [
-                    "[Passive] Buff -> Battle Modder: adds additional effect to old passive (Modded Loader). Cover walls permanently gain health as Rampart gains Evo Levels.",
-                    "[Tactical] Buff -> Amped Cover: adds amped shield roof to wall, walls can now be charged by doing damage through the amped shield or by having the wall be damaged by enemies. Wall charge is converted to a speed boost by going over the wall - Wall can store up to 300 damage, which results in a 15 second speed boost at full charge. Speed boost time scales linearly with stored charge.",
-                    "[Perks] Adjust -> Upgrades: Level 2 - Combat reserve: Bigger ammo stacks, extra grenades slots, access red weapon supply bins, Locked and Loaded: gain faster reloads and infinite ammo when behind amped cover and shield is in tact; Level 3 - Rebuild Module. Amped cover will regen health and rebuild shield section after not being damaged for a period of time."
-                ]
-            }
-        ],
-        "Horizon": [
-            {
-                "patch": "Amped Patch Notes (2025-11-03)",
-                "details": [
-                    "[Passive] Buff -> Gravity Lift: increased lift speed, increased hover time at top of lift, cooldown reductions.",
-                    "[Ultimate] Buff -> Black Hole: reduced cooldown by 30 seconds, increased health.",
-                    "[Perks] Adjust -> Upgrades: Level 2 - Gravity Boots: Press crouch while in the air to fall much more quickly, Newt Scoot: Press jump after exiting gravity lift to glide; Level 3 - Knock Expert: gain tactical charge on knocks."
-                ]
-            }
-        ],
-        "Revenant": [
-            {
-                "patch": "Amped Patch Notes (2025-11-03)",
-                "details": [
-                    "[Passive] Nerf -> Reduced the maximum possible velocity of Revenants Shadow Pounce"
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Bangalore Skydive Emote Pour One Down"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Holospray Feeling the Love"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Stat Tracker Static Trance - Top",
+        "Stat Tracker Static Trance - Middle",
+        "Stat Tracker Static Trance - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Banner Frame Lovely Myth"
+      ],
+      "free": [
+        "Music Pack Amped Split 1"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Rampage LMG Passionate Burn"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Wattson Static Trance",
+        "Wattson Shocking Aura +"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Sticker Killer Instinct",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Banner Frame Midnight Love"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Holospray Cheering for You"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "RE-45 Heart Flutter"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Sticker Rock the Mic"
+      ],
+      "free": [
+        "Octane Cosmetic Emote Cool Down"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Vantage Heart Attack",
+        "Exotic Shards 10 +"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Banner Frame Heart Beats",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "VK-47 Flatline Love Pulse"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Holospray I Made It Look Easy"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Loba Skydive Emote Crowd Killer"
+      ],
+      "free": [
+        "Amped Seasonal Collection Amped Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Holospray Emotional Support"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Exotic Shards 10",
+        "M600 Spitfire K-Love"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Nemesis Burst AR Fox's Aura"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Stat Tracker Streamline Glider - Top",
+        "Stat Tracker Streamline Glider - Middle",
+        "Stat Tracker Streamline Glider - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Business Purpose"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "30-30 Repeater Fatal Attraction"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Banner Frame Dragon Heart"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Holospray Denied"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Sticker Retro Hits"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Valkyrie Streamline Glider",
+        "Valkyrie Oni Aura +"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Fuse Skydive Emote Rocket Boosted",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Valkyrie Quip Kill Quip : Be Like Me"
+      ],
+      "free": [
+        "Loba Speed Diva"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Longbow DMR Heartache"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Holospray Congratu-bloody-lations"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Banner Frame Sleek Rocker"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Fuse Old Flame"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Holospray Killin' It."
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Wraith Skydive Emote Amped Up"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Kraber .50-Cal Sniper Star-crossed"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Banner Frame Chrome Couture"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Crafting Metals 200",
+        "Banner Frame Going Platinum"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Sticker Big Shipper"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Sentinel Heart Piercer"
+      ],
+      "free": []
     }
+  },
+  "patches": {
+    "Valkyrie": [
+      {
+        "patch": "Amped Patch Notes (2025-11-03)",
+        "details": [
+          "[Passive] Buff -> Jetpack cooldown and fly speed reworked.",
+          "[Tactical] Buff -> Missile Swarm: removed self damage and stun effect, added short full body scan on hit, tac damage now puts movement passives on cooldown, removed 5 seconds of cooldown, removed vertical clearance firing restriction, improved missile pathing to work better in some situations such as low clearance situations (firing indoors or at targets under a bridge), increased max range.",
+          "[Ultimate] Buff -> Skyward Dive: increased launch height 15% (integrated Afterburners upgrade), reduced cooldown by 30 seconds, reduced delay before takeoff, slightly reduced time slowly rising before takeoff, removed self cancel cooldown penalty, reduced damage cooldown penalty.",
+          "[Perks] Adjust -> Upgrades: Level 2 - Afterburners: Removed (included by default), Eyes in the Sky: Moved to Level 2, Full Coverage: Changes missile swarm pattern to 4x5 (was 3x5); Level 3 - Supersonic: Ultimate launch time reduced ~50%, Aerial Expert: Improves jetpack horizontal speed, significantly improves handling, decreases initial fuel consumption, slightly reduces total fuel."
+        ]
+      }
+    ],
+    "Rampart": [
+      {
+        "patch": "Amped Patch Notes (2025-11-03)",
+        "details": [
+          "[Passive] Buff -> Battle Modder: adds additional effect to old passive (Modded Loader). Cover walls permanently gain health as Rampart gains Evo Levels.",
+          "[Tactical] Buff -> Amped Cover: adds amped shield roof to wall, walls can now be charged by doing damage through the amped shield or by having the wall be damaged by enemies. Wall charge is converted to a speed boost by going over the wall - Wall can store up to 300 damage, which results in a 15 second speed boost at full charge. Speed boost time scales linearly with stored charge.",
+          "[Perks] Adjust -> Upgrades: Level 2 - Combat reserve: Bigger ammo stacks, extra grenades slots, access red weapon supply bins, Locked and Loaded: gain faster reloads and infinite ammo when behind amped cover and shield is in tact; Level 3 - Rebuild Module. Amped cover will regen health and rebuild shield section after not being damaged for a period of time."
+        ]
+      }
+    ],
+    "Horizon": [
+      {
+        "patch": "Amped Patch Notes (2025-11-03)",
+        "details": [
+          "[Passive] Buff -> Gravity Lift: increased lift speed, increased hover time at top of lift, cooldown reductions.",
+          "[Ultimate] Buff -> Black Hole: reduced cooldown by 30 seconds, increased health.",
+          "[Perks] Adjust -> Upgrades: Level 2 - Gravity Boots: Press crouch while in the air to fall much more quickly, Newt Scoot: Press jump after exiting gravity lift to glide; Level 3 - Knock Expert: gain tactical charge on knocks."
+        ]
+      }
+    ],
+    "Revenant": [
+      {
+        "patch": "Amped Patch Notes (2025-11-03)",
+        "details": [
+          "[Passive] Nerf -> Reduced the maximum possible velocity of Revenants Shadow Pounce"
+        ]
+      }
+    ]
+  }
 }

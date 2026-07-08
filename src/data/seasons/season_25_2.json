@@ -1,454 +1,459 @@
 {
-    "season": "25_2",
+  "season": "25_2",
+  "name": "Prodigy",
+  "start_date": "May 6, 2025",
+  "end_date": "August 5, 2025",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_25.svg?cb9c4b",
     "name": "Prodigy",
-    "start_date": "May 6, 2025",
-    "end_date": "August 5, 2025",
-    "infobox": {
-        "name": "Prodigy",
-        "Theme": "Designer fashion/Luxury (Split 1) | Sports academy (Split 2)",
-        "Reactive weapon": "Nemesis Burst AR",
-        "Start date": "May 6, 2025",
-        "End date": "August 5, 2025",
-        "Events": "Death By Design | Future Icons | Haute Shot"
+    "Theme": "Designer fashion/Luxury (Split 1) | Sports academy (Split 2)",
+    "Reactive weapon": "Nemesis Burst AR",
+    "Start date": "May 6, 2025",
+    "End date": "August 5, 2025",
+    "Events": [
+      "Death By Design",
+      "Future Icons",
+      "Haute Shot"
+    ]
+  },
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Pathfinder Fresh Install",
+        "Rampage LMG Self-Expression",
+        "Banner Frame Target Practice",
+        "Holospray Here Comes the Heat",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
     },
-    "max_level": 60,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Pathfinder Fresh Install",
-                "Rampage LMG Self-Expression",
-                "Banner Frame Target Practice",
-                "Holospray Here Comes the Heat",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_2": {
-            "premium": [
-                "Wraith Quip Kill Quip : Time to face the truth"
-            ],
-            "free": [
-                "Transition Nonna's Special Recipe"
-            ]
-        },
-        "level_3": {
-            "premium": [
-                "Pathfinder Cosmetic Emote Hydraulics Test"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Holospray Running Late"
-            ],
-            "free": []
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "Stat Tracker Problem Child - Top",
-                "Stat Tracker Problem Child - Middle",
-                "Stat Tracker Problem Child - Bottom"
-            ],
-            "free": []
-        },
-        "level_7": {
-            "premium": [
-                "Banner Frame Quick Study"
-            ],
-            "free": [
-                "Music Pack Prodigy Split 2"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "Flatline Artistic License"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_10": {
-            "premium": [
-                "Wraith Problem Child",
-                "Wraith Not a Phase +"
-            ],
-            "free": []
-        },
-        "level_11": {
-            "premium": [
-                "New Grad",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_12": {
-            "premium": [
-                "Banner Frame Extracurricular"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_14": {
-            "premium": [
-                "Holospray Listen Up"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "Longbow DMR Rise and Grind"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_18": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_19": {
-            "premium": [
-                "Sticker Blue Thunder"
-            ],
-            "free": [
-                "Wraith Cosmetic Emote Hitting the Cell"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Conduit Top of the Class",
-                "Exotic Shards 10 +"
-            ],
-            "free": []
-        },
-        "level_21": {
-            "premium": [
-                "Banner Frame Troublemaker",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_22": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_23": {
-            "premium": [
-                "G7 Scout ANessihilator"
-            ],
-            "free": []
-        },
-        "level_24": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Holospray Not My Vibe"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_26": {
-            "premium": [
-                "Conduit Skydive Emote Anti Gravity"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Holospray Actually..."
-            ],
-            "free": []
-        },
-        "level_30": {
-            "premium": [
-                "Exotic Shards 10",
-                "Mastiff Shotgun Peaches and Cream"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "Apex Coins 100",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_32": {
-            "premium": [
-                "Alter Cosmetic Emote Natural Advantage"
-            ],
-            "free": [
-                "RE-45 Auto Alterior Motives"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Stat Tracker Varsity Blues - Top",
-                "Stat Tracker Varsity Blues - Middle",
-                "Stat Tracker Varsity Blues - Bottom"
-            ],
-            "free": []
-        },
-        "level_34": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Transition Operation: Return Sparrow to the Nest"
-            ]
-        },
-        "level_35": {
-            "premium": [
-                "Peacekeeper Scratchpad"
-            ],
-            "free": []
-        },
-        "level_36": {
-            "premium": [
-                "Banner Frame Beautiful Game"
-            ],
-            "free": []
-        },
-        "level_37": {
-            "premium": [
-                "Apex Pack",
-                "Holospray You Got It, Bruddah"
-            ],
-            "free": []
-        },
-        "level_38": {
-            "premium": [
-                "Sticker Red-Handed"
-            ],
-            "free": []
-        },
-        "level_39": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_40": {
-            "premium": [
-                "Gibraltar Varsity Blues",
-                "Gibraltar Gold Star +"
-            ],
-            "free": []
-        },
-        "level_41": {
-            "premium": [
-                "Newcastle Cosmetic Emote Pumped and Ready",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_42": {
-            "premium": [
-                "Newcastle Quip Kill Quip : You've gonna learn more"
-            ],
-            "free": [
-                "Alter Rule Breaker"
-            ]
-        },
-        "level_43": {
-            "premium": [
-                "Alternator SMG Sticker Shock"
-            ],
-            "free": []
-        },
-        "level_44": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_45": {
-            "premium": [
-                "Holospray Send It!"
-            ],
-            "free": []
-        },
-        "level_46": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Banner Frame Late Night"
-            ],
-            "free": []
-        },
-        "level_49": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_50": {
-            "premium": [
-                "Newcastle Overachiever"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Holospray Fluffball"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_53": {
-            "premium": [
-                "Bloodhound Skydive Emote Return To Sender"
-            ],
-            "free": []
-        },
-        "level_54": {
-            "premium": [
-                "Devotion LMG Loud and Proud"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Banner Frame Alternative Studies"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_57": {
-            "premium": [
-                "Crafting Metals 200",
-                "Banner Frame Doodle Dreams"
-            ],
-            "free": []
-        },
-        "level_58": {
-            "premium": [
-                "Valedictorian"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_59": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_60": {
-            "premium": [
-                "Nemesis Burst AR Shatter Core"
-            ],
-            "free": []
-        }
+    "level_2": {
+      "premium": [
+        "Wraith Quip Kill Quip : Time to face the truth"
+      ],
+      "free": [
+        "Transition Nonna's Special Recipe"
+      ]
     },
-    "patches": {
-        "Caustic": [
-            {
-                "patch": "Bring the heat in the Haute Shot Event",
-                "details": [
-                    "[Base] Buff -> Nox Gas Trap duration extended to 22s (was 11s)",
-                    "[Passive] Buff -> Enemy Nox Gas Trap is highlighted"
-                ]
-            }
-        ],
-        "Mirage": [
-            {
-                "patch": "Bring the heat in the Haute Shot Event",
-                "details": [
-                    "[Base] Fix -> Power Sword VFX no longer visible while cloaked"
-                ]
-            }
-        ],
-        "Wattson": [
-            {
-                "patch": "Bring the heat in the Haute Shot Event",
-                "details": [
-                    "[Ultimate] Buff -> Ultimate Conductor upgrade fixed to not cause charging when it shouldn’t"
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Pathfinder Cosmetic Emote Hydraulics Test"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Holospray Running Late"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Stat Tracker Problem Child - Top",
+        "Stat Tracker Problem Child - Middle",
+        "Stat Tracker Problem Child - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Banner Frame Quick Study"
+      ],
+      "free": [
+        "Music Pack Prodigy Split 2"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Flatline Artistic License"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Wraith Problem Child",
+        "Wraith Not a Phase +"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "New Grad",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Banner Frame Extracurricular"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Holospray Listen Up"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Longbow DMR Rise and Grind"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Sticker Blue Thunder"
+      ],
+      "free": [
+        "Wraith Cosmetic Emote Hitting the Cell"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Conduit Top of the Class",
+        "Exotic Shards 10 +"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Banner Frame Troublemaker",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "G7 Scout ANessihilator"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Holospray Not My Vibe"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Conduit Skydive Emote Anti Gravity"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Holospray Actually..."
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Exotic Shards 10",
+        "Mastiff Shotgun Peaches and Cream"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Alter Cosmetic Emote Natural Advantage"
+      ],
+      "free": [
+        "RE-45 Auto Alterior Motives"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Stat Tracker Varsity Blues - Top",
+        "Stat Tracker Varsity Blues - Middle",
+        "Stat Tracker Varsity Blues - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Operation: Return Sparrow to the Nest"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Peacekeeper Scratchpad"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Banner Frame Beautiful Game"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Apex Pack",
+        "Holospray You Got It, Bruddah"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Sticker Red-Handed"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Gibraltar Varsity Blues",
+        "Gibraltar Gold Star +"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Newcastle Cosmetic Emote Pumped and Ready",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Newcastle Quip Kill Quip : You've gonna learn more"
+      ],
+      "free": [
+        "Alter Rule Breaker"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Alternator SMG Sticker Shock"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Holospray Send It!"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Banner Frame Late Night"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Newcastle Overachiever"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Holospray Fluffball"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Bloodhound Skydive Emote Return To Sender"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Devotion LMG Loud and Proud"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Banner Frame Alternative Studies"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Crafting Metals 200",
+        "Banner Frame Doodle Dreams"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Valedictorian"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Nemesis Burst AR Shatter Core"
+      ],
+      "free": []
     }
+  },
+  "patches": {
+    "Caustic": [
+      {
+        "patch": "Bring the heat in the Haute Shot Event",
+        "details": [
+          "[Base] Buff -> Nox Gas Trap duration extended to 22s (was 11s)",
+          "[Passive] Buff -> Enemy Nox Gas Trap is highlighted"
+        ]
+      }
+    ],
+    "Mirage": [
+      {
+        "patch": "Bring the heat in the Haute Shot Event",
+        "details": [
+          "[Base] Fix -> Power Sword VFX no longer visible while cloaked"
+        ]
+      }
+    ],
+    "Wattson": [
+      {
+        "patch": "Bring the heat in the Haute Shot Event",
+        "details": [
+          "[Ultimate] Buff -> Ultimate Conductor upgrade fixed to not cause charging when it shouldn’t"
+        ]
+      }
+    ]
+  }
 }

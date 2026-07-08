@@ -1,528 +1,534 @@
 {
-    "season": "23_1",
+  "season": "23_1",
+  "name": "From the Rift",
+  "start_date": "November 5, 2024",
+  "end_date": "February 10, 2025",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_23.svg?3e7d59",
     "name": "From the Rift",
-    "start_date": "November 5, 2024",
-    "end_date": "February 10, 2025",
-    "infobox": {
-        "name": "From the Rift",
-        "Featured map": "World's Edge | Broken Moon | Storm Point",
-        "Theme": "Space/Ice",
-        "Reactive weapon": "Mozambique",
-        "Start date": "November 5, 2024",
-        "End date": "February 10, 2025",
-        "Events": "Void Mercenaries | Winter's Haunt | Astral Anomaly | Lunar Rebirth"
+    "Featured map": "World's Edge | Broken Moon | Storm Point",
+    "Theme": "Space/Ice",
+    "Reactive weapon": "Mozambique",
+    "Start date": "November 5, 2024",
+    "End date": "February 10, 2025",
+    "Events": [
+      "Void Mercenaries",
+      "Winter's Haunt",
+      "Astral Anomaly",
+      "Lunar Rebirth"
+    ]
+  },
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Vantage Tundra Tracker",
+        "Kraber .50-Cal Sniper Cold Catastrophe",
+        "Banner Frame Under the Ice",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
     },
-    "max_level": 60,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Vantage Tundra Tracker",
-                "Kraber .50-Cal Sniper Cold Catastrophe",
-                "Banner Frame Under the Ice",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_2": {
-            "premium": [
-                "Vantage Cosmetic Emote Compelling Threat"
-            ],
-            "free": [
-                "Transition Starving Dog"
-            ]
-        },
-        "level_3": {
-            "premium": [
-                "Sticker Toxic Following"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Holospray Certain Death"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_6": {
-            "premium": [
-                "Stat Tracker Frigid Gaze - Top",
-                "Stat Tracker Frigid Gaze - Middle",
-                "Stat Tracker Frigid Gaze - Bottom"
-            ],
-            "free": []
-        },
-        "level_7": {
-            "premium": [
-                "Volt SMG Plasma Imprint"
-            ],
-            "free": [
-                "Music Pack From the Rift Split 1"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "Banner Frame Gas Leak"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_10": {
-            "premium": [
-                "Caustic Toxic Alchemist",
-                "Caustic Astral Anomaly +"
-            ],
-            "free": []
-        },
-        "level_11": {
-            "premium": [
-                "Holospray Whatever It Takes",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_12": {
-            "premium": [
-                "Banner Frame Anomolous Ending"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Lifeline Holospray How Yuh Feelin'?"
-            ]
-        },
-        "level_14": {
-            "premium": [
-                "R-301 Carbine Frostfire"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_16": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Horizon Cosmetic Emote Infectious Fight"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_18": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_19": {
-            "premium": [
-                "Horizon Quip Kill Quip : Light years from yer best"
-            ],
-            "free": []
-        },
-        "level_20": {
-            "premium": [
-                "Horizon Dark Voyager",
-                "Exotic Shards 10 +"
-            ],
-            "free": []
-        },
-        "level_21": {
-            "premium": [
-                "Banner Frame Mortal Fumes",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_22": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Crypto Cosmetic Emote On the Flipside"
-            ]
-        },
-        "level_23": {
-            "premium": [
-                "Devotion LMG Devoted Flow"
-            ],
-            "free": []
-        },
-        "level_24": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_25": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_26": {
-            "premium": [
-                "Sticker Cold Stare"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_28": {
-            "premium": [
-                "Lifeline Skydive Emote Sugar Glider"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Holospray Go On Without Me"
-            ],
-            "free": []
-        },
-        "level_30": {
-            "premium": [
-                "Exotic Shards 10",
-                "Rampage LMG Lethal Dose"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "Apex Coins 100",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_32": {
-            "premium": [
-                "Ash Quip Kill Quip : Did you expect a different outcome"
-            ],
-            "free": [
-                "L-STAR EMG Ectoplasmic Reductor"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Crafting Metals 200",
-                "Crypto Cosmetic Emote Body Hack"
-            ],
-            "free": []
-        },
-        "level_34": {
-            "premium": [
-                "Stat Tracker Toxic Alchemist",
-                "Stat Tracker Toxic Alchemist",
-                "Stat Tracker Toxic Alchemist"
-            ],
-            "free": []
-        },
-        "level_35": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Brainiac"
-            ]
-        },
-        "level_36": {
-            "premium": [
-                "Nemesis Burst AR Glacial Shatter"
-            ],
-            "free": []
-        },
-        "level_37": {
-            "premium": [
-                "Banner Frame Global Icebreak"
-            ],
-            "free": []
-        },
-        "level_38": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_39": {
-            "premium": [
-                "Holospray Sad Little Creature"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_40": {
-            "premium": [
-                "Ash Frigid Gaze",
-                "Ash Space Cluster +"
-            ],
-            "free": []
-        },
-        "level_41": {
-            "premium": [
-                "C.A.R SMG Toxic Infuser",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_42": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_43": {
-            "premium": [
-                "Holospray Work of Art"
-            ],
-            "free": []
-        },
-        "level_44": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Lifeline Corrupt Plasma"
-            ]
-        },
-        "level_45": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_46": {
-            "premium": [
-                "Banner Frame Artistic Recovery"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_48": {
-            "premium": [
-                "Seer Cosmetic Emote Heartbeat Remix"
-            ],
-            "free": [
-                "Transition Bedside Manner"
-            ]
-        },
-        "level_49": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_50": {
-            "premium": [
-                "Seer Alternative Artist"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_52": {
-            "premium": [
-                "Banner Frame Tune Up"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_53": {
-            "premium": [
-                "Code Breaker"
-            ],
-            "free": []
-        },
-        "level_54": {
-            "premium": [
-                "G7 Scout Void Scout"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_56": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Lifeline Banner Frame Transformative Essence"
-            ]
-        },
-        "level_57": {
-            "premium": [
-                "Crafting Metals 200",
-                "Holospray Madness"
-            ],
-            "free": []
-        },
-        "level_58": {
-            "premium": [
-                "Loba Skydive Emote Flying Flicker"
-            ],
-            "free": []
-        },
-        "level_59": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_60": {
-            "premium": [
-                "Mozambique Shotgun Phase Crusher"
-            ],
-            "free": []
-        }
+    "level_2": {
+      "premium": [
+        "Vantage Cosmetic Emote Compelling Threat"
+      ],
+      "free": [
+        "Transition Starving Dog"
+      ]
     },
-    "patches": {
-        "Ballistic": [],
-        "Conduit": [
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Passive] Buff -> Savior’s Speed : now works on ally Death Boxes and crafters when a banner can be retrieved, now works on Respawn Beacons and Mobile Respawn Beacons when carrying an ally banner, now works without min range limit on downed allies."
-                ]
-            },
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Perks] Adjust -> Battpack : in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
-                ]
-            }
-        ],
-        "Crypto": [
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Passive] Nerf -> Surveillance Drone : now takes ring damage (10% per ring tick)"
-                ]
-            },
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Perks] Adjust -> Off the Grid : players within 20m of Crypto will now be able to spot a faint cloaking “flicker” effect every 1.5s to help identify hidden Cryptos nearby, cloaked audio range and volume have been increased"
-                ]
-            }
-        ],
-        "Gibraltar": [
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Passive] Buff -> Dome of Protection : cooldown reduced to 17s (was 30s), no longer destroyed by Crypto’s EMP or Maggie’s Wrecking Ball"
-                ]
-            },
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Perks] Adjust -> Baby Bubble : now reduces cooldown to 12s (was 25s)"
-                ]
-            }
-        ],
-        "Horizon": [
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Perks] Adjust -> Battpack : in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
-                ]
-            }
-        ],
-        "Mirage": [
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Passive] Buff -> Life of the Party : health bars no longer show during Ultimate to give away the real Mirage"
-                ]
-            },
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Perks] Adjust -> Battpack : in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
-                ]
-            }
-        ],
-        "Newcastle": [
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Passive] Buff -> Mobile Shield : no longer takes damage, can now be repositioned even when Newcastle is downed"
-                ]
-            },
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Perks] Adjust -> Retrieve the Wounded : revive Shield HP/Tier increased by +50%"
-                ]
-            }
-        ],
-        "Revenant": [
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Passive] Buff -> Forged Shadows : shield will now regen up to 50HP instead of instantly refreshing after a 3s delay"
-                ]
-            }
-        ],
-        "Wattson": [
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Perks] Adjust -> Revive Expert : gives access to Support Class Revive Expert Perk"
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Sticker Toxic Following"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Holospray Certain Death"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_6": {
+      "premium": [
+        "Stat Tracker Frigid Gaze - Top",
+        "Stat Tracker Frigid Gaze - Middle",
+        "Stat Tracker Frigid Gaze - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Volt SMG Plasma Imprint"
+      ],
+      "free": [
+        "Music Pack From the Rift Split 1"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Banner Frame Gas Leak"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Caustic Toxic Alchemist",
+        "Caustic Astral Anomaly +"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Holospray Whatever It Takes",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Banner Frame Anomolous Ending"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Lifeline Holospray How Yuh Feelin'?"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "R-301 Carbine Frostfire"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_16": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Horizon Cosmetic Emote Infectious Fight"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Horizon Quip Kill Quip : Light years from yer best"
+      ],
+      "free": []
+    },
+    "level_20": {
+      "premium": [
+        "Horizon Dark Voyager",
+        "Exotic Shards 10 +"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Banner Frame Mortal Fumes",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Crypto Cosmetic Emote On the Flipside"
+      ]
+    },
+    "level_23": {
+      "premium": [
+        "Devotion LMG Devoted Flow"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_25": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Sticker Cold Stare"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Lifeline Skydive Emote Sugar Glider"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Holospray Go On Without Me"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Exotic Shards 10",
+        "Rampage LMG Lethal Dose"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Ash Quip Kill Quip : Did you expect a different outcome"
+      ],
+      "free": [
+        "L-STAR EMG Ectoplasmic Reductor"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Crafting Metals 200",
+        "Crypto Cosmetic Emote Body Hack"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Stat Tracker Toxic Alchemist",
+        "Stat Tracker Toxic Alchemist",
+        "Stat Tracker Toxic Alchemist"
+      ],
+      "free": []
+    },
+    "level_35": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Brainiac"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Nemesis Burst AR Glacial Shatter"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Banner Frame Global Icebreak"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Holospray Sad Little Creature"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Ash Frigid Gaze",
+        "Ash Space Cluster +"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "C.A.R SMG Toxic Infuser",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Holospray Work of Art"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Lifeline Corrupt Plasma"
+      ]
+    },
+    "level_45": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "Banner Frame Artistic Recovery"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Seer Cosmetic Emote Heartbeat Remix"
+      ],
+      "free": [
+        "Transition Bedside Manner"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Seer Alternative Artist"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_52": {
+      "premium": [
+        "Banner Frame Tune Up"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_53": {
+      "premium": [
+        "Code Breaker"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "G7 Scout Void Scout"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_56": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Lifeline Banner Frame Transformative Essence"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "Crafting Metals 200",
+        "Holospray Madness"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Loba Skydive Emote Flying Flicker"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Mozambique Shotgun Phase Crusher"
+      ],
+      "free": []
     }
+  },
+  "patches": {
+    "Ballistic": [],
+    "Conduit": [
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Passive] Buff -> Savior’s Speed : now works on ally Death Boxes and crafters when a banner can be retrieved, now works on Respawn Beacons and Mobile Respawn Beacons when carrying an ally banner, now works without min range limit on downed allies."
+        ]
+      },
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Perks] Adjust -> Battpack : in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
+        ]
+      }
+    ],
+    "Crypto": [
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Passive] Nerf -> Surveillance Drone : now takes ring damage (10% per ring tick)"
+        ]
+      },
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Perks] Adjust -> Off the Grid : players within 20m of Crypto will now be able to spot a faint cloaking “flicker” effect every 1.5s to help identify hidden Cryptos nearby, cloaked audio range and volume have been increased"
+        ]
+      }
+    ],
+    "Gibraltar": [
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Passive] Buff -> Dome of Protection : cooldown reduced to 17s (was 30s), no longer destroyed by Crypto’s EMP or Maggie’s Wrecking Ball"
+        ]
+      },
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Perks] Adjust -> Baby Bubble : now reduces cooldown to 12s (was 25s)"
+        ]
+      }
+    ],
+    "Horizon": [
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Perks] Adjust -> Battpack : in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
+        ]
+      }
+    ],
+    "Mirage": [
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Passive] Buff -> Life of the Party : health bars no longer show during Ultimate to give away the real Mirage"
+        ]
+      },
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Perks] Adjust -> Battpack : in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
+        ]
+      }
+    ],
+    "Newcastle": [
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Passive] Buff -> Mobile Shield : no longer takes damage, can now be repositioned even when Newcastle is downed"
+        ]
+      },
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Perks] Adjust -> Retrieve the Wounded : revive Shield HP/Tier increased by +50%"
+        ]
+      }
+    ],
+    "Revenant": [
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Passive] Buff -> Forged Shadows : shield will now regen up to 50HP instead of instantly refreshing after a 3s delay"
+        ]
+      }
+    ],
+    "Wattson": [
+      {
+        "patch": "New Updates Coming with Apex Legends™: From The Rift",
+        "details": [
+          "[Perks] Adjust -> Revive Expert : gives access to Support Class Revive Expert Perk"
+        ]
+      }
+    ]
+  }
 }
