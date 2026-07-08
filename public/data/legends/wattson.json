@@ -24,6 +24,38 @@
       "cooldown": "3 minutes"
     }
   },
+  "tactics": {
+    "playstyle": "Classification en cours...",
+    "weapons": [
+      "Inconnu"
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Help is Here",
+          "description": "Access support bins, improved revive and deathboxes have MRBs.",
+          "recommended": true
+        },
+        "right": {
+          "name": "Ultimate Conductor",
+          "description": "Damage enemies to reduce ultimate cooldown, knock gives 50% ult charge burst.",
+          "recommended": false
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Energized Healer",
+          "description": "Syringe and Shield cells heal double the amount.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Power Pylon",
+          "description": "Double Ultimate's HP, max capacity, and shield recharge rate.",
+          "recommended": true
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 28 : Breach",
@@ -114,37 +146,5 @@
         "[Interception Pylon] Nerf -> Reduced the maximum number of pylons that can be active from 3 to 1."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "Classification en cours...",
-    "weapons": [
-      "Inconnu"
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Low Profile",
-          "description": "Wattson gains increased movement speed while crouched, and leg shots now deal as much damage as body shots.",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "",
-          "recommended": false
-        }
-      }
-    }
-  }
+  ]
 }

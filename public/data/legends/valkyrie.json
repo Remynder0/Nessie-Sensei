@@ -69,26 +69,26 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "",
-          "recommended": false
+          "name": "Eyes in the Sky",
+          "description": "Enemies are revealed from farther away and through walls while skydiving.",
+          "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Eyes in the Sky upgrade now includes a 50% reduction in refuel delay to 4s.",
-          "recommended": true
+          "name": "Full Coverage",
+          "description": "-5s tactical cooldown, Missile swarm pattern modified from 4x3 to 4x5",
+          "recommended": false
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "",
+          "name": "Supersonic",
+          "description": "Ult launches players much faster.",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Full Coverage upgrade changes missile swarm pattern to 4x5, and Aerial Expert improves jetpack horizontal speed, significantly improves handling, decreases initial fuel consumption, slightly reduces total fuel.",
-          "recommended": false
+          "name": "Aerial Expert",
+          "description": "Decreases jetpack activation cost, increases horizontal speed. Consumes fuel slightly faster.",
+          "recommended": true
         }
       }
     }

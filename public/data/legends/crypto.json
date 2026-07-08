@@ -133,24 +133,24 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
+          "name": "Network Expansion",
           "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
+          "name": "Ally.MoveTo()",
           "description": "Quick Ping: improved drone handling (faster accel/decel)",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
+          "name": "Power Coupling",
           "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
+          "name": "Hackathon",
           "description": "Ally.MoveTo(): allows allies to move towards Crypto's location when in drone view.",
           "recommended": true
         }

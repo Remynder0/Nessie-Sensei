@@ -172,24 +172,24 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
+          "name": "Extra Traps",
           "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Residual Toxins",
+          "name": "Breath it in",
           "description": "Upgrades Level 2 description changed.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
+          "name": "Particle Diffuser",
           "description": "",
           "recommended": true
         },
         "right": {
-          "name": "Particle Diffuser",
+          "name": "Gas Fighter",
           "description": "",
           "recommended": false
         }

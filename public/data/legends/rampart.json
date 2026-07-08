@@ -137,13 +137,13 @@
       },
       "level_3": {
         "left": {
-          "name": "Rebuild Module",
-          "description": "Amped Cover will regen health and rebuild shield section after not being damaged for a period of time.",
+          "name": "Ramped Up",
+          "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Reduces reload time.",
+          "name": "Rebuild Module",
+          "description": "",
           "recommended": true
         }
       }

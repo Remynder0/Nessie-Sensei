@@ -131,24 +131,24 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
+          "name": "Wolf's Claws",
           "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
+          "name": "Shopping Spree",
           "description": "Reveals enemy positions for a short time after they've been seen, increasing the effectiveness of Burglar's Eye.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
+          "name": "Escape Artist",
           "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
+          "name": "Brand New Bag",
           "description": "Burglar's Eye now reveals enemy positions for a longer time after they've been seen, increasing the effectiveness of Burglar's Blitz.",
           "recommended": true
         }

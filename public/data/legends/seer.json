@@ -122,30 +122,23 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "A perk that could be useful for beginner players, revealing enemy positions and providing a short reveal effect after they've been seen.",
+          "name": "Lasting Beat",
+          "description": "Ult show enemy for 5s after leaving the zone.",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "A perk that could be useful for experienced players, with increased effectiveness and a longer duration of the reveal effect, also increasing the insight range.",
+          "name": "Energizing Focus",
+          "description": "",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "A perk that could be useful for advanced players, revealing enemy positions and providing a short reveal effect after they've been seen.",
+          "name": "Home Base",
+          "description": "",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "A perk that could be useful for experienced players, with increased effectiveness and a longer duration of the reveal effect.",
-          "recommended": false
-        }
-      },
-      "level_4": {
-        "left": {
           "name": "Split Focus",
           "description": "Gain an additional Tac charge.",
           "recommended": true

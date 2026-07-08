@@ -93,24 +93,24 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
+          "name": "Gunrunning",
           "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
+          "name": "Fire Ball",
           "description": "Increased vision range.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
+          "name": "Drillslinger",
           "description": "",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
+          "name": "Big Drill",
           "description": "",
           "recommended": false
         }

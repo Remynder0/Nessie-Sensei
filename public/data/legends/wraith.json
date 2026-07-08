@@ -36,25 +36,25 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "",
+          "name": "Sixth Sense",
+          "description": "Passive warns when nearby enemies count increases.",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Upgrades Level 2 description.",
+          "name": "Phase Dome",
+          "description": "Players whithin a radius of channeling portal will enter phase.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "",
+          "name": "Fast Phase",
+          "description": "Reduce tactical wind-up by 30%.",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "",
+          "name": "Void Jumper",
+          "description": "Double jump while in the Void and longer time in the Void.",
           "recommended": true
         }
       }

@@ -139,24 +139,24 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
+          "name": "Thunder Dome",
           "description": "Reduces damage taken by 10.",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
+          "name": "Dome Healing",
           "description": "Increases movement speed and reduces reload time.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
+          "name": "Triple Bombardment",
           "description": "Increases health regeneration and reduces damage taken by 15.",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
+          "name": "Fast Shotties",
           "description": "Donné manquante",
           "recommended": false
         }

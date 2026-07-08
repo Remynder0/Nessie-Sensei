@@ -79,12 +79,12 @@
       },
       "level_3": {
         "left": {
-          "name": "Defensive Line",
+          "name": "Ultimate Savior",
           "description": "",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
+          "name": "Defensive Line",
           "description": "",
           "recommended": false
         }

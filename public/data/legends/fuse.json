@@ -78,24 +78,24 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
+          "name": "Pyro Techniques",
           "description": "Wreckless took a 50% reduction in explosive damage.",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
+          "name": "Knuckle Jumper",
           "description": "",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
+          "name": "Reignition",
           "description": "",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
+          "name": "Wreckless",
           "description": "",
           "recommended": false
         }

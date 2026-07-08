@@ -98,26 +98,26 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "With Pathfinder's hitbox adjustments, it is easier to target him.",
+          "name": "Field Research",
+          "description": "Gain access to Survey Beacon, gain threat vision when aiming down sights.",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Pathfinder can now grapple ziplines.",
+          "name": "Ring Master",
+          "description": "Access Ring Consoles, gain zone overcharge and reinforce Hardlight.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "With Pathfinder's hitbox adjustments, it is easier to target him.",
-          "recommended": true
+          "name": "Landing Gear",
+          "description": "",
+          "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Pathfinder can now grapple ziplines.",
-          "recommended": false
+          "name": "Feeling Zippy",
+          "description": "",
+          "recommended": true
         }
       }
     }

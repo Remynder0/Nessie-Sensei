@@ -156,26 +156,25 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "Silence : vitesse de déplacement augmentée.",
+          "name": "Ultimate Cooldown",
+          "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Donnée manquante",
+          "name": "Try to Hide",
+          "description": "",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "Silence : réduction du temps de recharge.",
-          "recommended": false,
-          "cooldown": "20 seconds"
+          "name": "Ultimate Cooldown",
+          "description": "",
+          "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Donnée manquante",
+          "name": "Agile Assassin",
+          "description": "",
           "recommended": false
         }
       }

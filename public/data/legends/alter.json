@@ -92,25 +92,25 @@
       "level_2": {
         "left": {
           "name": "Eye to another world",
-          "description": "Gained access to Ring Consoles, allowing for easier navigation and strategy.",
+          "description": "Gain access to Survey Beacon, gain threat vision when aiming down sights.",
           "recommended": false
         },
         "right": {
           "name": "Controller of worlds",
-          "description": "Gained access to Ring Consoles, allowing for easier navigation and strategy.",
+          "description": "Access Ring Consoles, gain zone overcharge and reinforce Hardlight.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Staring into the void",
-          "description": "A mysterious perk that offers unknown benefits.",
-          "recommended": true
+          "description": "Scan on Void Passage Portals Extended by 15s.",
+          "recommended": false
         },
         "right": {
           "name": "Void Breacher",
-          "description": "Gained access to Ring Consoles, allowing for easier navigation and strategy.",
-          "recommended": false
+          "description": "Traveling trough a Void Passage give allies movement speed and weapon handling.",
+          "recommended": true
         }
       }
     }

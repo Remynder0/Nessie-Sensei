@@ -84,24 +84,24 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
+          "name": "Battpack",
           "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
+          "name": "Bigger Jam",
           "description": "Battpack: in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
+          "name": "Instant Barrier",
           "description": "",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
+          "name": "Enduring Barrier",
           "description": "",
           "recommended": false
         }

@@ -86,26 +86,26 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
+          "name": "Extended Flight",
           "description": "",
-          "recommended": false
+          "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
+          "name": "Battpack",
           "description": "D.O.C. Drone's recharge time has been reduced.",
-          "recommended": true
+          "recommended": false
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "",
-          "recommended": true
-        },
-        "right": {
-          "name": "Perk Niv. 3 Droite",
+          "name": "Enhanced Radio",
           "description": "",
           "recommended": false
+        },
+        "right": {
+          "name": "Tactical Cooldown+",
+          "description": "",
+          "recommended": true
         }
       }
     }

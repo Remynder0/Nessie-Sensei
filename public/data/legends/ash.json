@@ -108,24 +108,24 @@
       "level_2": {
         "left": {
           "name": "Ultimate Cooldown",
-          "description": "Unknown description",
+          "description": "Reduce ultimate cooldown by 30 seconds.",
           "recommended": false
         },
         "right": {
           "name": "Longer Reach",
-          "description": "Unknown description",
+          "description": "",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Twin Snare",
-          "description": "Unknown description",
+          "description": "",
           "recommended": true
         },
         "right": {
           "name": "Ghost in the Machine",
-          "description": "Adds additional Dash charge.",
+          "description": "",
           "recommended": false
         }
       }

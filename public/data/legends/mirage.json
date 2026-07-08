@@ -104,24 +104,24 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
+          "name": "Renaissance Man",
           "description": "",
           "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
+          "name": "Boozle-Eye",
           "description": "In addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes and allows Bamboozles to scan the target who shot the clone.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
+          "name": "Me Two",
           "description": "",
           "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
+          "name": "Bamboozle Bonus",
           "description": "",
           "recommended": false
         }

@@ -111,26 +111,26 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Perk Niv. 2 Gauche",
-          "description": "",
-          "recommended": false
+          "name": "Controlling my Prey",
+          "description": "Access Ring Consoles, gain zone overcharge.",
+          "recommended": true
         },
         "right": {
-          "name": "Perk Niv. 2 Droite",
-          "description": "Increased vision range and duration while using your passive ability.",
-          "recommended": true
+          "name": "Improved Mark",
+          "description": "Sniper's Mark become visible through walls. Applying mark briefly highlights enemy and reveals their healthbar to your team.",
+          "recommended": false
         }
       },
       "level_3": {
         "left": {
-          "name": "Perk Niv. 3 Gauche",
-          "description": "",
-          "recommended": true
+          "name": "Herd Tracking",
+          "description": "Spotter's Lens track the entire squad on ping.",
+          "recommended": false
         },
         "right": {
-          "name": "Perk Niv. 3 Droite",
-          "description": "Reduced damage and radius from your tactical ability.",
-          "recommended": false
+          "name": "Sniper Cover",
+          "description": "Attach a Gunshield to your ultimate sniper.",
+          "recommended": true
         }
       }
     }
