@@ -74,83 +74,58 @@
     {
       "patch": "Season 25 : Prodigy (Midseason)",
       "details": [
-        "[Ultimate] Buff -> Ultimate Conductor upgrade fixed to not cause charging when it shouldn’t"
+        "[Perks] Buff -> Ultimate Conductor upgrade fixed to not cause charging when it shouldn’t"
       ]
     },
     {
       "patch": "Season 25 : Prodigy",
       "details": [
         "[Passive] Buff -> Spark of Genius - Passive Shield Regen increased to 2s (was 1s)",
-        "[Perks] Adjust -> Upgrades: Level 2 - Help is Here: gain all support perks"
-      ]
-    },
-    {
-      "patch": "Season 23 : From the Rift",
-      "details": [
-        "[Perks] Adjust -> Revive Expert : gives access to Support Class Revive Expert Perk"
+        "[Perks] New -> Help is Here: gain all support perks"
       ]
     },
     {
       "patch": "Season 22 : Shockwave",
       "details": [
-        "[Perks] Adjust -> Power Pylon: now regenerates shield charge",
-        "[Perks] Buff -> Emergency Power - Added: Increases Shield Regen Rate of Interception Pylon"
+        "[Perks] Buff -> Power Pylon: now regenerates shield charge",
+        "[Perks] Buff -> Emergency Power: Increases Shield Regen Rate of Interception Pylon"
       ]
     },
     {
       "patch": "Season 21 : Upheaval",
       "details": [
-        "[Ultimate] Buff -> Falling Stars: Pylons will stop spawning Arc Stars when her squad is eliminated"
+        "[Perks] Buff -> Falling Stars: Pylons will stop spawning Arc Stars when her squad is eliminated"
       ]
     },
     {
       "patch": "Season 17 : Arsenal",
       "details": [
-        "[HAVOC Rifle animation] Adjust -> New inspection animation added exclusively for Wattson."
-      ]
-    },
-    {
-      "patch": "Season 16 : Revelry",
-      "details": [
-        "[Passive] Adjust -> Intervene: increased shield size but reduced shield duration.",
-        "[Ultimate] Nerf -> Interception Pylon: reduced pylon health and damage output."
+        "New -> inspection animation added exclusively for Wattson."
       ]
     },
     {
       "patch": "Season 8 : Mayhem",
       "details": [
-        "[Electric Blue skin] Fix -> Fixed an issue with her Electric Blue skin appearing without texture on console.",
-        "[Refund for Electric Blue skin] Refund -> Players who bought the skin before the fix will be refunded their Crafting Metals or Apex Coins, depending on which method they used.",
-        "[Spark of Genius] Buff -> Wattson now passively regenerates shield at a rate of 0.5hp/s.",
-        "[Interception Pylon regen rate] Buff -> Stacks with Interception Pylon regen rate."
+        "[Passive] Buff -> Wattson now passively regenerates shield at a rate of 0.5hp/s. Stacks with Interception Pylon regen rate."
       ]
     },
     {
       "patch": "Season 7 : Ascension",
       "details": [
-        "Fixed an issue with her Haute Drop skin obscuring views with the 1x Holo sight while using the Volt SMG, HAVOC Rifle, Longbow DMR, Sentinel, and R-301 Carbine.",
-        "Perimeter Security: Damage increased from 10 to 15."
-      ]
-    },
-    {
-      "patch": "Season 6 : Boosted",
-      "details": [
-        "[Passive] Buff -> Intervene : vitesse de déplacement augmentée.",
-        "[Perks] Adjust -> Intervene : réduction du temps de recharge.",
-        "[Ultimate] Nerf -> Interception Pylon : réduction de la zone de protection."
+        "[Tactical] Buff -> Perimeter Security: Damage increased from 10 to 15."
       ]
     },
     {
       "patch": "Season 4 : Assimilation",
       "details": [
-        "[Passive] Fix -> Low Profile: Leg shots now deal as much damage as body shots."
+        "[Passive] Nerf -> Low Profile: Leg shots now deal as much damage as body shots."
       ]
     },
     {
       "patch": "Season 2 : Battle Charge",
       "details": [
-        "[Perks] Buff -> Added Low Profile Perk.",
-        "[Interception Pylon] Nerf -> Reduced the maximum number of pylons that can be active from 3 to 1."
+        "[Passive] Buff -> Added Low Profile passive.",
+        "[Ultimate] Nerf -> Reduced the maximum number of pylons that can be active from 3 to 1."
       ]
     }
   ]

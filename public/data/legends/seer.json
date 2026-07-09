@@ -24,96 +24,6 @@
       "cooldown": "90 seconds"
     }
   },
-  "patch_history": [
-    {
-      "patch": "Season 26 : Showdown",
-      "details": [
-        "[Passive] Buff -> Heart Seeker: long view upgrade now permanent, increasing range for Passive + Tac to 75m (was 50m).",
-        "[Tactical] Adjust -> Focus of Attention: scan duration increased to 4s (was 2.5), slow duration to 1s (was 0.5s)."
-      ]
-    },
-    {
-      "patch": "Season 22 : Shockwave",
-      "details": [
-        "[Passive] Buff -> Focus of Attention: healthbars persist for duration of Silence",
-        "[Perks] Adjust -> NEW Split Focus: gain an additional Tac charge"
-      ]
-    },
-    {
-      "patch": "Season 20 : Breakout",
-      "details": [
-        "[Perks] Adjust -> Focus of Attention: decreased activation delay to 1.2s (was 1.4).",
-        "[Passive] Buff -> Ultimate Cooldown: reduces Ult Cooldown by 30s (Level 2)"
-      ]
-    },
-    {
-      "patch": "Season 17 : Arsenal",
-      "details": [
-        "[Heartbeat Sensor] Nerf -> Range reduced to 50m.",
-        "[Initial Heartbeat delay] Nerf -> Significantly reduced.",
-        "[Focus of Attention] Nerf -> Range reduced to 60m.",
-        "[Focus of Attention] Buff -> Firing speed increased (~30% faster).",
-        "[Focus of Attention] Fix -> Removed Heal Cancel, Revive Cancel, and Respawn Beacon Interaction Interrupt.",
-        "[Scan Time] Nerf -> Reduced to 2.5s (was 8s).",
-        "[Scan] Adjust -> Includes full body highlight.",
-        "[Enemies hit by Focus of Attention] Buff -> Slowed for 2.5s.",
-        "[Silence Time] Buff -> Increased to 10s (was 1.75).",
-        "[Enemies who are silenced by Seer] Buff -> Highlighted with threat outline to Seer and his teammates when in line of sight.",
-        "[Exhibit] Nerf -> Throw range reduced to ~15m (was ~50m).",
-        "[Exhibit] Fix -> Removed Diamond Scan Markers on Enemy Movement.",
-        "[Exhibit] Adjust -> Only shows footsteps of players moving in the zone.",
-        "[Diamond Markers] Fix -> Only appear with enemy gunfire for 1.25s."
-      ]
-    },
-    {
-      "patch": "Season 16 : Revelry",
-      "details": [
-        "[Passive] Buff -> Perceptive Insight: increased vision range and duration.",
-        "[Ultimate] Nerf -> Prowler's Sting: reduced damage and radius."
-      ]
-    },
-    {
-      "patch": "Season 15 : Eclipse",
-      "details": [
-        "[Base] Buff -> Audio from Seer's passive is now more audible to enemy players"
-      ]
-    },
-    {
-      "patch": "Season 14 : Hunted",
-      "details": [
-        "[Passive] Nerf -> Insight : reduced insight duration.",
-        "[Tactical] Buff -> Prowl : increased damage.",
-        "[Perks] Adjust -> Insight : increased insight range."
-      ]
-    },
-    {
-      "patch": "Season 13 : Saviors",
-      "details": [
-        "[Passive] Nerf -> Insight : reduced range.",
-        "[Ultimate] Buff -> Insight : increased duration."
-      ]
-    },
-    {
-      "patch": "Season 11 : Escape",
-      "details": [
-        "[Perks] Buff -> Insight: increased its effectiveness and now also reveals enemy positions for a short time after they've been seen",
-        "[Perks] Adjust -> Insight: reduced the cooldown, but increased the duration of the reveal effect"
-      ]
-    },
-    {
-      "patch": "Season 10 : Emergence",
-      "details": [
-        "[Ultimate] Nerf -> Prowler's Perch's tracking speed reduced by 20%."
-      ]
-    },
-    {
-      "patch": "Season 9 : Legacy",
-      "details": [
-        "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge.",
-        "[Perks] Adjust -> Upgrades Level 2 : description du changement."
-      ]
-    }
-  ],
   "tactics": {
     "playstyle": "A micro-information expert, Seer shines in prolonged indoor fights. He cancels enemy heals and revives with his tactical, creating massive windows of vulnerability.",
     "weapons": [
@@ -152,5 +62,31 @@
         }
       }
     }
-  }
+  },
+  "patch_history": [
+    {
+      "patch": "Season 20 : Breakout",
+      "details": [
+        "[Tactical] Buff -> Focus of Attention: decreased activation delay to 1.2s (was 1.4).",
+        "[Perks] New -> Ultimate Cooldown: reduces Ult Cooldown by 30s"
+      ]
+    },
+    {
+      "patch": "Season 17 : Arsenal",
+      "details": [
+        "[Passive] Nerf -> Range reduced to 50m.",
+        "[Passive] Buff -> Significantly reduced.",
+        "[Tactical] Nerf -> Range reduced to 60m.",
+        "[Tactical] Buff -> Firing speed increased (~30% faster).",
+        "[Tactical] Fix -> Removed Heal Cancel, Revive Cancel, and Respawn Beacon Interaction Interrupt.",
+        "[Tactical] Nerf -> Scan Time reduced to 2.5s (was 8s).",
+        "[Tactical] Adjust -> Includes full body highlight.",
+        "[Tactical] New -> Slowed for 2.5s.",
+        "[Tactical] Buff -> Silence Time increased to 10s (was 1.75).",
+        "[Tactical] Buff -> Highlighted with threat outline to Seer and his teammates when in line of sight.",
+        "[Ultimate] Nerf -> Throw range reduced to ~15m (was ~50m).",
+        "[Ultimate] Nerf -> Removed Diamond Scan Markers on Enemy Movement. Only shows footsteps of players moving in the zone. Only appear with enemy gunfire for 1.25s."
+      ]
+    }
+  ]
 }

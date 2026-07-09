@@ -24,43 +24,6 @@
       "cooldown": "1.75 minutes"
     }
   },
-  "patch_history": [
-    {
-      "patch": "Season 28 : Breach",
-      "details": [
-        "[Perks] Fix -> Fixed the ultimate being blocked by a Trident and leaving the scan on permanently"
-      ]
-    },
-    {
-      "patch": "Season 27 : Amped (Midseason)",
-      "details": [
-        "[Base] Fix -> Fixed issue where tactical could be interrupted by melee"
-      ]
-    },
-    {
-      "patch": "Season 27 : Amped",
-      "details": [
-        "[Passive] Buff -> Jetpack cooldown and fly speed reworked.",
-        "[Tactical] Buff -> Missile Swarm: removed self damage and stun effect, added short full body scan on hit, tac damage now puts movement passives on cooldown, removed 5 seconds of cooldown, removed vertical clearance firing restriction, improved missile pathing to work better in some situations such as low clearance situations (firing indoors or at targets under a bridge), increased max range.",
-        "[Ultimate] Buff -> Skyward Dive: increased launch height 15% (integrated Afterburners upgrade), reduced cooldown by 30 seconds, reduced delay before takeoff, slightly reduced time slowly rising before takeoff, removed self cancel cooldown penalty, reduced damage cooldown penalty.",
-        "[Perks] Adjust -> Upgrades: Level 2 - Afterburners: Removed (included by default), Eyes in the Sky: Moved to Level 2, Full Coverage: Changes missile swarm pattern to 4x5 (was 3x5); Level 3 - Supersonic: Ultimate launch time reduced ~50%, Aerial Expert: Improves jetpack horizontal speed, significantly improves handling, decreases initial fuel consumption, slightly reduces total fuel."
-      ]
-    },
-    {
-      "patch": "Season 24 : Takeover",
-      "details": [
-        "[Tactical] Fix -> Tac now working inside of D.O.C. Halo and near Dome of Protection’s edges"
-      ]
-    },
-    {
-      "patch": "Season 22 : Shockwave",
-      "details": [
-        "[Passive] Buff -> Now Recon Legend",
-        "[Perks] Adjust -> Full Tank upgrade now includes a 50% reduction in refuel delay to 4s.",
-        "[Passive] Buff -> Gains Threat Vision while jetpacking, stays on until feet hit the ground/zipline"
-      ]
-    }
-  ],
   "tactics": {
     "playstyle": "The queen of the skies and rotations. Valkyrie can instantly reposition to rooftops. Her ultimate remains the premier macro-rotation tool to avoid getting gatekept by the ring.",
     "weapons": [
@@ -99,5 +62,42 @@
         }
       }
     }
-  }
+  },
+  "patch_history": [
+    {
+      "patch": "Season 28 : Breach",
+      "details": [
+        "[Perks] Fix -> Fixed the ultimate being blocked by a Trident and leaving the scan on permanently"
+      ]
+    },
+    {
+      "patch": "Season 27 : Amped (Midseason)",
+      "details": [
+        "[Base] Fix -> Fixed issue where tactical could be interrupted by melee"
+      ]
+    },
+    {
+      "patch": "Season 27 : Amped",
+      "details": [
+        "[Passive] Buff -> Jetpack cooldown and fly speed reworked.",
+        "[Tactical] Buff -> Missile Swarm: removed self damage and stun effect, added short full body scan on hit, tac damage now puts movement passives on cooldown, removed 5 seconds of cooldown, removed vertical clearance firing restriction, improved missile pathing to work better in some situations such as low clearance situations (firing indoors or at targets under a bridge), increased max range.",
+        "[Ultimate] Buff -> Skyward Dive: increased launch height 15% (integrated Afterburners upgrade), reduced cooldown by 30 seconds, reduced delay before takeoff, slightly reduced time slowly rising before takeoff, removed self cancel cooldown penalty, reduced damage cooldown penalty.",
+        "[Perks] Adjust -> Upgrades: Level 2 - Afterburners: Removed (included by default), Eyes in the Sky: Moved to Level 2, Full Coverage: Changes missile swarm pattern to 4x5 (was 3x5); Level 3 - Supersonic: Ultimate launch time reduced ~50%, Aerial Expert: Improves jetpack horizontal speed, significantly improves handling, decreases initial fuel consumption, slightly reduces total fuel."
+      ]
+    },
+    {
+      "patch": "Season 24 : Takeover",
+      "details": [
+        "[Tactical] Fix -> Tac now working inside of D.O.C. Halo and near Dome of Protection’s edges"
+      ]
+    },
+    {
+      "patch": "Season 22 : Shockwave",
+      "details": [
+        "[Passive] Adjust -> Now Recon Legend",
+        "[Perks] Buff -> Full Tank upgrade now includes a 50% reduction in refuel delay to 4s.",
+        "[Passive] Buff -> Gains Threat Vision while jetpacking, stays on until feet hit the ground/zipline"
+      ]
+    }
+  ]  
 }

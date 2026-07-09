@@ -11,94 +11,19 @@
     "passive": {
       "name": "Predator's Pursuit",
       "description": "Added an omnidirectional short-range dash with increased velocity.",
-      "cooldown": "10s"
+      "cooldown": "12s"
     },
     "tactical": {
       "name": "Arc Snare",
-      "description": "Throw a spinning snare that damages and tethers the first enemy that gets too close. Damage has been increased due to Burglar's Blitz buff, with further increases from Bursts of Peace.",
+      "description": "Throw a spinning snare that damages and tethers the first enemy that gets too close.",
       "cooldown": "25s"
     },
     "ultimate": {
       "name": "Phase Breach",
-      "description": "Tear open a one-way portal to a targeted location. The minimum travel time for the ultimate has been increased to 0.5s, and nearby enemies will be highlighted for players traveling through the Void.",
+      "description": "Tear open a one-way portal to a targeted location. Nearby enemies will be highlighted for players traveling through the Void.",
       "cooldown": "2.5 minutes"
     }
   },
-  "patch_history": [
-    {
-      "patch": "Season 29 : Overclocked",
-      "details": [
-        "[Passive] Buff -> Cooldown from 12s to 10s",
-        "[Passive] Buff -> Velocity from 425 to 450"
-      ]
-    },
-    {
-      "patch": "Season 26 : Showdown",
-      "details": [
-        "[Passive] Nerf -> Predator's Pursuit: dash cooldown increased to 12s.",
-        "[Tactical] Adjust -> Arc Snare: breaks more easily, base duration now 6s."
-      ]
-    },
-    {
-      "patch": "Season 25 : Prodigy",
-      "details": [
-        "[Passive] Buff -> Passive: decreased dash cooldown to 8s (was 10s)",
-        "[Perks] Adjust -> Upgrades: Level 2 - Dual Breach: moved to Level 2",
-        "[Base] Fix -> Greedy Snare now plants correctly after the first hit",
-        "[Perks] Adjust -> Predator’s Pursuit: removed Death Box minimap locations/pings"
-      ]
-    },
-    {
-      "patch": "Season 24 : Takeover",
-      "details": [
-        "[Passive] Buff -> Predator's Pursuit: added omnidirectional short-range dash.",
-        "[Tactical] Buff -> Arc Snare: tether plants at location of projectile on impact, slightly harder to break and no longer gets instantly broken by some abilities.",
-        "[Tactical] Buff -> Phase Breach: range increased to 100m, travel time reduced, improved reliability of placement, removed one frame delay on placement preview, now has VFX to show max range when in placement mode.",
-        "[Perks] Adjust -> Upgrades: Level 2 - Greedy Snare moved to Level 2, Dual Breach adds additional ult charge.",
-        "[Perks] Adjust -> Upgrades: Level 3 - Ghost in the Machine adds additional Dash charge."
-      ]
-    },
-    {
-      "patch": "Season 21 : Upheaval",
-      "details": [
-        "[Ultimate] Buff -> Phase Breach: inspired by some Alter tech, nearby enemies will be highlighted for players traveling through the Void"
-      ]
-    },
-    {
-      "patch": "Season 17 : Arsenal",
-      "details": [
-        "[Dash] Nerf -> Dash ability removed."
-      ]
-    },
-    {
-      "patch": "Season 16 : Revelry",
-      "details": [
-        "[Passive] Buff -> Ash's passive ability now has a higher chance to trigger.",
-        "[Tactical] Adjust -> Bursts of Peace: increased damage at close range."
-      ]
-    },
-    {
-      "patch": "Season 14 : Hunted",
-      "details": [
-        "[Passive] Adjust -> Ash's passive ability now has a new effect.",
-        "[Tactical] Buff -> Burglar's Blitz : increased damage."
-      ]
-    },
-    {
-      "patch": "Season 13 : Saviors",
-      "details": [
-        "[Passive] Buff -> Ash's passive ability now has a increased duration.",
-        "[Tactical] Nerf -> Bursts of Flame : reduced damage."
-      ]
-    },
-    {
-      "patch": "Season 10 : Emergence",
-      "details": [
-        "[Passive] Buff -> Ash's passive ability now has a increased duration.",
-        "[Tactical] Adjust -> Burst Pierce: Increased damage at long range."
-      ]
-    }
-  ],
   "tactics": {
     "playstyle": "Ash is a surgical flanker. Use her tactical to lock down fleeing targets and her ultimate for instant vertical or horizontal repositioning. She favors versatile weapons and quick finishes.",
     "weapons": [
@@ -137,5 +62,45 @@
         }
       }
     }
-  }
+  },
+  "patch_history": [
+    {
+      "patch": "Season 29 : Overclocked",
+      "details": [
+        "[Passive] Buff -> Cooldown from 12s to 10s",
+        "[Passive] Buff -> Velocity from 425 to 450"
+      ]
+    },
+    {
+      "patch": "Season 26 : Showdown",
+      "details": [
+        "[Passive] Nerf -> Predator's Pursuit: dash cooldown increased to 12s.",
+        "[Tactical] Adjust -> Arc Snare: breaks more easily, base duration now 6s."
+      ]
+    },
+    {
+      "patch": "Season 25 : Prodigy",
+      "details": [
+        "[Passive] Buff -> Passive: decreased dash cooldown to 8s (was 10s)",
+        "[Perks] Adjust -> Upgrades: Level 2 - Dual Breach: moved to Level 2",
+        "[Perks] Adjust -> Predator’s Pursuit: removed Death Box minimap locations/pings"
+      ]
+    },
+    {
+      "patch": "Season 24 : Takeover",
+      "details": [
+        "[Passive] Buff -> Predator's Pursuit: added omnidirectional short-range dash.",
+        "[Tactical] Buff -> Arc Snare: tether plants at location of projectile on impact, slightly harder to break and no longer gets instantly broken by some abilities.",
+        "[Tactical] Buff -> Phase Breach: range increased to 100m, travel time reduced, improved reliability of placement, removed one frame delay on placement preview, now has VFX to show max range when in placement mode.",
+        "[Perks] Adjust -> Upgrades: Level 2 - Greedy Snare moved to Level 2, Dual Breach adds additional ult charge.",
+        "[Perks] Adjust -> Upgrades: Level 3 - Ghost in the Machine adds additional Dash charge."
+      ]
+    },
+    {
+      "patch": "Season 21 : Upheaval",
+      "details": [
+        "[Ultimate] Buff -> Phase Breach: inspired by some Alter tech, nearby enemies will be highlighted for players traveling through the Void"
+      ]
+    }
+  ]
 }

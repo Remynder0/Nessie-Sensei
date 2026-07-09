@@ -24,21 +24,6 @@
       "cooldown": "2.5 minutes"
     }
   },
-  "patch_history": [
-    {
-      "patch": "Season 26 : Showdown",
-      "details": [
-        "[Tactical] Adjust -> Tracker Dart: tracking duration now 12s (was 15)"
-      ]
-    },
-    {
-      "patch": "Season 25 : Prodigy",
-      "details": [
-        "[Passive] Buff -> Double Jump - Press jump while in the air to jump again",
-        "[Tactical] Buff -> Tracker Dart - Shoot a tracker from your gauntlet that will reveal enemies who walk within its line of sight"
-      ]
-    }
-  ],
   "tactics": {
     "playstyle": "Classification tactique indisponible ou en cours de validation pour cette légende.",
     "weapons": [
@@ -77,5 +62,19 @@
         }
       }
     }
-  }
+  },
+  "patch_history": [
+    {
+      "patch": "Season 26 : Showdown",
+      "details": [
+        "[Tactical] Adjust -> Tracker Dart: tracking duration now 12s (was 15)"
+      ]
+    },
+    {
+      "patch": "Season 25 : Prodigy",
+      "details": [
+        "Introduced."
+      ]
+    }
+  ]
 }

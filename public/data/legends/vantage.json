@@ -24,85 +24,6 @@
       "cooldown": "2 minutes 40 seconds"
     }
   },
-  "patch_history": [
-    {
-      "patch": "Season 29 : Overclocked",
-      "details": [
-        "[Base] Fix -> Fixed an issue where there was a slight delay before having intended ADS accuracy despite being fully zoomed into scope",
-        "[Base] Fix -> Fixed bug where Vantage could equip weapons in fight night.",
-        "[Base] Fix -> Fixed how Spotter’s Lens gave decoys a low priority so the real Mirage is less obvious to find."
-      ]
-    },
-    {
-      "patch": "Season 27 : Amped (Midseason)",
-      "details": [
-        "[Base] Fix -> Fixed the tactical range finder (blue dot surrounding the crosshair) not working"
-      ]
-    },
-    {
-      "patch": "Season 25 : Prodigy",
-      "details": [
-        "[Passive] Buff -> Spotter’s Lens - Can now ping up to 3 enemies at a time",
-        "[Tactical] Buff -> Echo Relocation - Echo will auto-recall after you jump"
-      ]
-    },
-    {
-      "patch": "Season 24 : Takeover",
-      "details": [
-        "[Ultimate] Fix -> sprinting no longer available while using Ult Accelerant"
-      ]
-    },
-    {
-      "patch": "Season 23 : From the Rift (Midseason)",
-      "details": [
-        "[Base] Buff -> Sniper’s Mark: reloading with an Ult Accelerant uses new animations and keeps the weapon active."
-      ]
-    },
-    {
-      "patch": "Season 22 : Shockwave",
-      "details": [
-        "[Passive] Buff -> Echo Relocation: no longer requires LOS to Echo to launch",
-        "[Ultimate] Buff -> Sniper’s Mark : 2nd Shot Multiplier is now 2.5x.",
-        "[Perks] Adjust -> Ult Reload: now also doubles Ult Accel use speed in addition to providing 2 extra bullets"
-      ]
-    },
-    {
-      "patch": "Season 16 : Revelry",
-      "details": [
-        "[Passive] Buff -> Eagle's Eye: increased vision range and duration.",
-        "[Tactical] Nerf -> Lookout: reduced damage and radius."
-      ]
-    },
-    {
-      "patch": "Season 14 : Hunted",
-      "details": [
-        "[Passive] Nerf -> Eagle's Eye : reduced scan duration.",
-        "[Tactical] Buff -> Lookout : increased damage.",
-        "[Perks] Adjust -> Eagle's Eye : increased scan range."
-      ]
-    },
-    {
-      "patch": "Season 13 : Saviors",
-      "details": [
-        "[Passive] Nerf -> Eagle's Eye : reduced zoom level.",
-        "[Tactical] Buff -> Eagle's Eye : increased duration."
-      ]
-    },
-    {
-      "patch": "Season 11 : Escape",
-      "details": [
-        "[Passive] Buff -> Eagle's Eye now reveals enemy positions for a longer time after they've been seen",
-        "[Tactical] Adjust -> Lookout: reduced the healing amount, but increased its speed and duration"
-      ]
-    },
-    {
-      "patch": "Season 9 : Legacy",
-      "details": [
-        "[Passive] Buff -> La vitesse a été améliorée.",
-        "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge."
-      ]
-    }
-  ],
   "tactics": {
     "playstyle": "A long-range sniper. Vantage must always seek high ground using her winged companion, gather intel on enemy shields, and open engagements with a decisive sniper shot.",
     "weapons": [
@@ -141,5 +62,34 @@
         }
       }
     }
-  }
+  },
+  "patch_history": [
+    {
+      "patch": "Season 29 : Overclocked",
+      "details": [
+        "[Ultimate] Fix -> Fixed an issue where there was a slight delay before having intended ADS accuracy despite being fully zoomed into scope",
+        "[Passive] Fix -> Fixed how Spotter’s Lens gave decoys a low priority so the real Mirage is less obvious to find."
+      ]
+    },
+    {
+      "patch": "Season 25 : Prodigy",
+      "details": [
+        "[Passive] Buff -> Spotter’s Lens - Can now ping up to 3 enemies at a time",
+        "[Tactical] Buff -> Echo Relocation - Echo will auto-recall after you jump"
+      ]
+    },
+    {
+      "patch": "Season 23 : From the Rift (Midseason)",
+      "details": [
+        "[Ultimate] Adjust -> Sniper’s Mark: reloading with an Ult Accelerant uses new animations and keeps the weapon active."
+      ]
+    },
+    {
+      "patch": "Season 22 : Shockwave",
+      "details": [
+        "[Tactical] Buff -> Echo Relocation: no longer requires LOS to Echo to launch",
+        "[Ultimate] Buff -> Sniper’s Mark : 2nd Shot Multiplier is now 2.5x."
+      ]
+    }
+  ]
 }

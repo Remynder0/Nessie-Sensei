@@ -24,65 +24,6 @@
       "cooldown": "2 minutes"
     }
   },
-  "patch_history": [
-    {
-      "patch": "Season 29 : Overclocked",
-      "details": [
-        "[Tactical] Nerf -> Increased Cooldown from 20s to 25s.",
-        "[Ultimate] Nerf -> Decreased Range from 300m to 250m.",
-        "[Ultimate] Nerf -> Increased Recall Time from 2s to 3s.",
-        "[Ultimate] Nerf -> Increased Ally Recall Time from 3s to 4s.",
-        "[Ultimate] Nerf -> Decreased Chase Portal Open Time from 6s to 4s.",
-        "[Perks] Adjust -> [Void Breacher]: Decreased movement speed from 30% to 15%."
-      ]
-    },
-    {
-      "patch": "Season 26 : Showdown (Midseason)",
-      "details": [
-        "[Base] Adjust -> Can no longer use Void Nexus while knocked (but you can still summon knocked teammates).",
-        "[Base] Fix -> Only 1 Void Nexus allowed in the world (was 2)."
-      ]
-    },
-    {
-      "patch": "Season 25 : Prodigy",
-      "details": [
-        "[Ultimate] Buff -> Chase portal usage warning delay reduced to 3.5s (was 5s)",
-        "[Ultimate] Buff -> Chase portal activation delay reduced to 6s (was 8s, Previous Hotfix)",
-        "[Ultimate] Nerf -> Cooldown after usage increased to 60s (was 30s, Previous Hotfix)",
-        "[Base] Fix -> Fixed issue where any legend would cancel the void nexus activation if you tried to travel to it while holding an ultimate in your hands.",
-        "[Base] Fix -> Fixed issue where Lifeline would cancel the void nexus activation if she did a hard fall impact.",
-        "[Base] Fix -> Fixed enemy and dummy highlighting in the void and from Alter’s tactical not working when friendly fire was enabled in the firing range.",
-        "[Base] Fix -> Fixed issue where Alter’s teammate would not get an MRB when crafting banners if Alter had selected the “Friends” upgrade, but was dead."
-      ]
-    },
-    {
-      "patch": "Season 23 : From the Rift (Midseason)",
-      "details": [
-        "[Base] Buff -> Loot in Death Boxes can now be pinged while using Alter’s passive.",
-        "[Passive] Nerf -> Void Nexus: cooldown reduced to 120s (was 180s)."
-      ]
-    },
-    {
-      "patch": "Season 22 : Shockwave",
-      "details": [
-        "[Base] Buff -> Channel time when knocked decreased to 2s.",
-        "[Base] Nerf -> Chase portal duration decreased 8s.",
-        "[Base] Adjust -> Chase portal opening delay increased to 8s.",
-        "[Base] Buff -> Increased travel speed to void nexus by about 40%.",
-        "[Base] Buff -> Ult cooldown reduced to 3 min.",
-        "[Perks] Adjust -> NEW Ringmaster: gain access to Ring Consoles"
-      ]
-    },
-    {
-      "patch": "Season 21 : Upheaval",
-      "details": [
-        "[Base] Buff -> Players should no longer rarely get stuck in the ceiling/floor when using a Void Passage.",
-        "[Base] Fix -> Stuck projectiles (such as Arc Stars) now fall off correctly when traveling through a Void Passage.",
-        "[Base] Fix -> Tac’s Void Siphon (the interactable part) no longer missing a cooldown after exiting a Void Passage.",
-        "[Passive] Buff -> Into the Void and Dimensional Rift: nearby enemies will be highlighted for players traveling through the Void"
-      ]
-    }
-  ],
   "tactics": {
     "playstyle": "Alter is an aggressive void manipulator. Her playstyle relies on surprise attacks through walls and structures. Ideal for disorienting the enemy team, she excels in close-quarters indoor combat.",
     "weapons": [
@@ -121,5 +62,64 @@
         }
       }
     }
-  }
+  },
+  "patch_history": [
+    {
+      "patch": "Season 29 : Overclocked",
+      "details": [
+        "[Tactical] Nerf -> Increased Cooldown from 20s to 25s.",
+        "[Ultimate] Nerf -> Decreased Range from 300m to 250m.",
+        "[Ultimate] Nerf -> Increased Recall Time from 2s to 3s.",
+        "[Ultimate] Nerf -> Increased Ally Recall Time from 3s to 4s.",
+        "[Ultimate] Nerf -> Decreased Chase Portal Open Time from 6s to 4s.",
+        "[Perks] Adjust -> [Void Breacher]: Decreased movement speed from 30% to 15%."
+      ]
+    },
+    {
+      "patch": "Season 26 : Showdown (Midseason)",
+      "details": [
+        "[Ultimate] Nerf -> Can no longer use Void Nexus while knocked (but you can still summon knocked teammates).",
+        "[Ultimate] Nerf -> Only 1 Void Nexus allowed in the world (was 2)."
+      ]
+    },
+    {
+      "patch": "Season 25 : Prodigy",
+      "details": [
+        "[Ultimate] Buff -> Chase portal usage warning delay reduced to 3.5s (was 5s)",
+        "[Ultimate] Nerf -> Chase portal activation delay reduced to 6s (was 8s, Previous Hotfix)",
+        "[Ultimate] Nerf -> Cooldown after usage increased to 60s (was 30s, Previous Hotfix)",
+        "[Ultimate] Fix -> Fixed issue where any legend would cancel the void nexus activation if you tried to travel to it while holding an ultimate in your hands.",
+        "[Ultimate] Fix -> Fixed issue where Lifeline would cancel the void nexus activation if she did a hard fall impact.",
+        "[Tactical] Fix -> Fixed enemy and dummy highlighting in the void and from Alter’s tactical not working when friendly fire was enabled in the firing range.",
+        "[Perks] Fix -> Fixed issue where Alter’s teammate would not get an MRB when crafting banners if Alter had selected the “Friends” upgrade, but was dead."
+      ]
+    },
+    {
+      "patch": "Season 23 : From the Rift (Midseason)",
+      "details": [
+        "[Passive] Buff -> Loot in Death Boxes can now be pinged while using Alter’s passive.",
+        "[Ultimate] Buff -> Void Nexus: cooldown reduced to 120s (was 180s)."
+      ]
+    },
+    {
+      "patch": "Season 22 : Shockwave",
+      "details": [
+        "[Ultimate] Buff -> Channel time when knocked decreased to 2s.",
+        "[Ultimate] Buff -> Chase portal duration decreased 8s.",
+        "[Ultimate] Buff -> Chase portal opening delay increased to 8s.",
+        "[Ultimate] Buff -> Increased travel speed to void nexus by about 40%.",
+        "[Ultimate] Buff -> Ult cooldown reduced to 3 min.",
+        "[Perks] Adjust -> NEW Ringmaster: gain access to Ring Consoles"
+      ]
+    },
+    {
+      "patch": "Season 21 : Upheaval",
+      "details": [
+        "[Tactical] Buff -> Players should no longer rarely get stuck in the ceiling/floor when using a Void Passage.",
+        "[Tactical] Fix -> Stuck projectiles (such as Arc Stars) now fall off correctly when traveling through a Void Passage.",
+        "[Passive] Fix -> Tac’s Void Siphon (the interactable part) no longer missing a cooldown after exiting a Void Passage.",
+        "[Passive] Buff -> Into the Void and Dimensional Rift: nearby enemies will be highlighted for players traveling through the Void"
+      ]
+    }
+  ]
 }

@@ -69,20 +69,20 @@
       "details": [
         "[Tactical] Buff -> Integrated the tactical cooldown reduction upgrade into her base kit (was 20s, now 15s)",
         "[Ultimate] Buff -> Integrated the ultimate cooldown reduction upgrade into her base kit (was 2.5 minutes, now 1.5 minutes), Increased casting speed animation for quicker activation",
-        "[Perks] Buff -> Phase Dome: When Wraith starts channeling her ultimate she will create a Phase Dome. This dome will last for 30s or until Wraith places her portal. Anyone who enters the Phase Dome will go into the void."
+        "[Perks] New -> Phase Dome: When Wraith starts channeling her ultimate she will create a Phase Dome. This dome will last for 30s or until Wraith places her portal. Anyone who enters the Phase Dome will go into the void."
       ]
     },
     {
       "patch": "Season 21 : Upheaval",
       "details": [
-        "[Passive] Buff -> Into the Void and Dimensional Rift: nearby enemies will be highlighted for players traveling through the Void"
+        "[Tactical] Buff -> Into the Void and Dimensional Rift: nearby enemies will be highlighted for players traveling through the Void"
       ]
     },
     {
       "patch": "Season 20 : Breakout",
       "details": [
         "[Perks] Adjust -> Tactical Cooldown: moved to Level 3.",
-        "[Passive] Buff -> Ultimate Cooldown: moved to Level 2"
+        "[Perks] Adjust -> Ultimate Cooldown: moved to Level 2"
       ]
     },
     {
@@ -93,78 +93,32 @@
       ]
     },
     {
-      "patch": "Season 14 : Hunted",
-      "details": [
-        "[Passive] Nerf -> Voices From the Void : reduced void duration.",
-        "[Tactical] Buff -> Smoke Launcher : increased damage.",
-        "[Perks] Adjust -> Voices From the Void : increased void range."
-      ]
-    },
-    {
-      "patch": "Season 13 : Saviors",
-      "details": [
-        "[Passive] Nerf -> Voices From the Void : reduced range.",
-        "[Ultimate] Buff -> Voices From the Void : increased duration."
-      ]
-    },
-    {
-      "patch": "Season 11 : Escape",
-      "details": [
-        "[Passive] Buff -> Voices From the Void now reveals enemy positions for a longer time after they've been seen",
-        "[Ultimate] Adjust -> Dimensional Rift: reduced the duration, but increased its effectiveness and now also teleports Wraith to a new location"
-      ]
-    },
-    {
-      "patch": "Season 10 : Emergence",
-      "details": [
-        "[Passive] Buff -> Voices From the Void now has increased duration.",
-        "[Tactical] Adjust -> Voices From the Void: Increased time between voice warnings."
-      ]
-    },
-    {
-      "patch": "Season 9 : Legacy",
-      "details": [
-        "[Passive] Buff -> La vitesse a été améliorée.",
-        "[Perks] Adjust -> Upgrades Level 2 : description du changement."
-      ]
-    },
-    {
       "patch": "Season 8 : Mayhem",
       "details": [
-        "[Dimensional Rift] Fix -> Fixed a server crash that happened when someone uses a Replicator and a portal at the same time.",
-        "[Woad Warrior skin] Fix -> Fixed an issue with her Woad Warrior skin having no texture when viewed in first-person.",
-        "[Into the Void] Fix -> Can no longer be canceled by jumping at a wall.",
-        "[The Perpetual Motion Skydive Emote] Buff -> The Perpetual Motion Skydive Emote will now work with Legendary skins.",
-        "[Hitbox adjustments] Fix -> Hitbox adjustments."
+        "[Tactical] Fix -> Can no longer be canceled by jumping at a wall.",
+        "Adjust -> Hitbox adjustments."
       ]
     },
     {
       "patch": "Season 7 : Ascension",
       "details": [
-        "Fixed an issue with Wraith’s Dimensional Rift getting destroyed by the Trident.",
-        "Dimensional Rift: Fixed an issue with priming a grenade cancelling Wraith's ultimate."
+        "[Ultimate] Fix -> Fixed an issue with Wraith’s Dimensional Rift getting destroyed by the Trident.",
+        "[Ultimate] Fix -> Dimensional Rift: Fixed an issue with priming a grenade cancelling Wraith's ultimate."
       ]
     },
     {
       "patch": "Season 4 : Assimilation",
       "details": [
-        "[Perks] Buff -> Dimensional Rift: Portals will now disappear after four seconds if both ends are outside the Ring.",
-        "[Perks] Fix -> Fixed cases where taller Legends could get stuck in geometry after using it.",
-        "[Perks] Fix -> Fixed an issue where mantling with Wraith could cause the camera to clip through the character."
-      ]
-    },
-    {
-      "patch": "Season 3 : Meltdown",
-      "details": [
-        "[Passive] Buff -> Voices From the Void : vitesse de déplacement augmentée.",
-        "[Perks] Adjust -> Voices From the Void : réduction du temps de recharge."
+        "[Ultimate] Nerf -> Dimensional Rift: Portals will now disappear after four seconds if both ends are outside the Ring.",
+        "[Ultimate] Fix -> Fixed cases where taller Legends could get stuck in geometry after using it.",
+        "Fix -> Fixed an issue where mantling with Wraith could cause the camera to clip through the character."
       ]
     },
     {
       "patch": "Season 1 : Wild Frontier",
       "details": [
-        "[Base] Adjust -> Into the Void: Cooldown increased from 20 to 25 seconds.",
-        "[Perks] Buff -> Dimensional Rift: Turned down the volume when Wraith activates a portal."
+        "[Tactical] Nerf -> Into the Void: Cooldown increased from 20 to 25 seconds.",
+        "[Ultimate] Buff -> Dimensional Rift: Turned down the volume when Wraith activates a portal."
       ]
     }
   ]
