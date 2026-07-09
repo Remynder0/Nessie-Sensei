@@ -104,9 +104,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "A long-range sniper. Vantage must always seek high ground using her winged companion, gather intel on enemy shields, and open engagements with a decisive sniper shot.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "kraber_.50-cal_sniper",
+        "name": "Kraber"
+      },
+      {
+        "id": "triple_take",
+        "name": "Triple Take"
+      }
     ],
     "perks": {
       "level_2": {

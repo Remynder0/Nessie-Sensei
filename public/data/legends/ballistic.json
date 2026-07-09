@@ -74,12 +74,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Spécialiste de l'assaut et du soutien armé. Gardez votre troisième arme (la Fronde) prête avec une arme à forte cadence (comme une R-99 ou un Havoc). Son Tactique permet de gagner presque n'importe quel duel 1v1 en surchauffant l'arme ennemie. Son Ultime est décisif pour les push d'équipe.",
+    "playstyle": "Ballistic is the weapon master. His style involves applying constant mid-range pressure with his Whistler, before popping his ultimate to boost the whole team and rushing in with his upgraded sling weapon.",
     "weapons": [
-      "R-301",
-      "Volt",
-      "R-99 (Fronde)",
-      "Havoc (Fronde)"
+      {
+        "id": "havoc_rifle",
+        "name": "Havoc"
+      },
+      {
+        "id": "alternator_smg",
+        "name": "Alternator"
+      }
     ],
     "perks": {
       "level_2": {

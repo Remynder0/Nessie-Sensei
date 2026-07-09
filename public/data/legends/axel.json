@@ -25,9 +25,16 @@
   },
   "patch_history": [],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "Classification tactique indisponible ou en cours de validation pour cette légende.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "r-301_carbine",
+        "name": "R-301 Carbine"
+      },
+      {
+        "id": "peacekeeper",
+        "name": "Peacekeeper"
+      }
     ],
     "perks": {
       "level_2": {

@@ -97,9 +97,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "The illusionist of chaos. Mirage's goal is to sow doubt in the opponent's mind. Close-range 1v1 fights are his strong suit, using his clones to buy those crucial split seconds needed for victory.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "volt_smg",
+        "name": "Volt SMG"
+      },
+      {
+        "id": "wingman",
+        "name": "Wingman"
+      }
     ],
     "perks": {
       "level_2": {

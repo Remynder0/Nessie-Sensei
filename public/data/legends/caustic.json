@@ -165,9 +165,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "Caustic's style is oppressive and territorial. He must trap enemies or entrench himself in closed spaces using his gas traps. In the final ring, he becomes one of the most formidable characters.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "hemlok_burst_ar",
+        "name": "Hemlok"
+      },
+      {
+        "id": "mastiff_shotgun",
+        "name": "Mastiff"
+      }
     ],
     "perks": {
       "level_2": {

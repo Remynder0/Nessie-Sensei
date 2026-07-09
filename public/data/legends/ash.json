@@ -100,9 +100,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "Ash is a surgical flanker. Use her tactical to lock down fleeing targets and her ultimate for instant vertical or horizontal repositioning. She favors versatile weapons and quick finishes.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "c.a.r._smg",
+        "name": "C.A.R. SMG"
+      },
+      {
+        "id": "peacekeeper",
+        "name": "Peacekeeper"
+      }
     ],
     "perks": {
       "level_2": {

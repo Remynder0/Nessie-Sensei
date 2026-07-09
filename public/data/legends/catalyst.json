@@ -49,9 +49,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "A battlefield controller, Catalyst reinforces doors and creates ferrofluid traps. Her ultimate divides the battlefield, allowing her to create artificial safe zones in open areas. Perfect for locking down buildings.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "vk-47_flatline",
+        "name": "Flatline"
+      },
+      {
+        "id": "peacekeeper",
+        "name": "Peacekeeper"
+      }
     ],
     "perks": {
       "level_2": {

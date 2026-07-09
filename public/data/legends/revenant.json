@@ -149,9 +149,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "The relentless assassin. Revenant excels in isolated fights, leaping onto a wounded target with his tactical, and wrapping himself in forged shadows via his ultimate to win the duel.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "prowler_burst_pdw",
+        "name": "Prowler PDW"
+      },
+      {
+        "id": "peacekeeper",
+        "name": "Peacekeeper"
+      }
     ],
     "perks": {
       "level_2": {

@@ -62,9 +62,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "The queen of the skies and rotations. Valkyrie can instantly reposition to rooftops. Her ultimate remains the premier macro-rotation tool to avoid getting gatekept by the ring.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "nemesis_burst_ar",
+        "name": "Nemesis"
+      },
+      {
+        "id": "mozambique_shotgun_akimbo",
+        "name": "Mozambique Akimbo"
+      }
     ],
     "perks": {
       "level_2": {

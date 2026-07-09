@@ -91,9 +91,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "The premier scout. Thanks to his grapple, Pathfinder has the best individual mobility in the game to take the high ground. His zipline helps the team make long, fast rotations.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "longbow_dmr",
+        "name": "Longbow"
+      },
+      {
+        "id": "r-301_carbine",
+        "name": "R-301 Carbine"
+      }
     ],
     "perks": {
       "level_2": {

@@ -84,9 +84,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "Alter is an aggressive void manipulator. Her playstyle relies on surprise attacks through walls and structures. Ideal for disorienting the enemy team, she excels in close-quarters indoor combat.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "r-99_smg",
+        "name": "R-99 SMG"
+      },
+      {
+        "id": "mastiff_shotgun",
+        "name": "Mastiff"
+      }
     ],
     "perks": {
       "level_2": {

@@ -83,9 +83,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "The hero of verticality, Horizon must gain the high ground over her targets. Her gravity lift allows the whole team to surprise enemies. Her ultimate combined with grenades is devastating.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "havoc_rifle",
+        "name": "Havoc"
+      },
+      {
+        "id": "wingman",
+        "name": "Wingman"
+      }
     ],
     "perks": {
       "level_2": {

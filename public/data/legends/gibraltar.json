@@ -132,9 +132,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "The team's shield. Gibraltar is an immovable fortress that excels in long-range poke fights thanks to his gun shield. His dome provides vital emergency protection in open areas.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "mastiff_shotgun",
+        "name": "Mastiff"
+      },
+      {
+        "id": "hemlok_burst_ar",
+        "name": "Hemlok"
+      }
     ],
     "perks": {
       "level_2": {

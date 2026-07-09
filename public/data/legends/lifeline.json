@@ -79,9 +79,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "The team's guardian angel. Lifeline's positioning is crucial: she must always be the last to fall. Her revive drone allows her to pick up an ally while continuing to lay down covering fire.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "r-301_carbine",
+        "name": "R-301 Carbine"
+      },
+      {
+        "id": "peacekeeper",
+        "name": "Peacekeeper"
+      }
     ],
     "perks": {
       "level_2": {

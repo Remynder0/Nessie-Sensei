@@ -118,9 +118,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "The team's bastion. Rampart requires anticipation to place her amped covers. She heavily punishes anyone who dares cross her in the open, and Sheila melts doors and shields alike.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "m600_spitfire",
+        "name": "Spitfire"
+      },
+      {
+        "id": "devotion_lmg",
+        "name": "Devotion"
+      }
     ],
     "perks": {
       "level_2": {

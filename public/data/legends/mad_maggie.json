@@ -86,9 +86,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "Aggressive by nature, Mad Maggie is the frontline assault specialist. Her drill destroys enemy cover and her ultimate paves the way. Shotguns are mandatory with her passive speed boost.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "mastiff_shotgun",
+        "name": "Mastiff"
+      },
+      {
+        "id": "vk-47_flatline",
+        "name": "Flatline"
+      }
     ],
     "perks": {
       "level_2": {

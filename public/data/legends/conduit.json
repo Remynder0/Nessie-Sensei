@@ -77,9 +77,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "An aggressive support, Conduit excels in prolonged fights. She should stay slightly behind the entry fragger to instantly recharge their shields, while using her ultimate to block flanking routes.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "nemesis_burst_ar",
+        "name": "Nemesis"
+      },
+      {
+        "id": "volt_smg",
+        "name": "Volt SMG"
+      }
     ],
     "perks": {
       "level_2": {

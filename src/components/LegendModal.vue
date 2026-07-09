@@ -386,10 +386,18 @@ const getPatchTypeClass = (type: string) => {
                             <h3 class="text-sm font-bold text-gray-400 uppercase tracking-widest font-mono mb-6 flex items-center gap-2">
                                 <span class="w-1.5 h-1.5 bg-apex-red block"></span> {{ $t('legends.recommendedWeapons') }}
                             </h3>
-                            <div class="flex flex-wrap gap-3">
-                                <div v-for="weapon in currentLegendDetails.tactics.weapons" :key="weapon" class="bg-black border border-titan-border px-4 py-2 font-mono text-white uppercase tracking-wider flex items-center gap-2">
-                                    <div class="w-1 h-1 bg-apex-red"></div>
-                                    {{ weapon }}
+                            <div class="flex flex-wrap gap-4">
+                                <div v-for="weapon in currentLegendDetails.tactics.weapons" :key="weapon.id || weapon" 
+                                     class="w-24 h-14 bg-black/50 border border-titan-border flex items-center justify-center p-2 group relative cursor-help transition-all hover:border-titan-cyan hover:bg-titan-cyan/10">
+                                    
+                                    <img v-if="weapon.id" :src="`/images/weapons/${weapon.id}.svg`" :alt="weapon.name" class="max-w-full max-h-full object-contain invert opacity-80 group-hover:opacity-100 transition-opacity" @error="hideImageOnError" />
+                                    <span v-else class="font-mono text-white text-[10px] text-center">{{ weapon }}</span>
+
+                                    <!-- Tooltip -->
+                                    <div v-if="weapon.name" class="absolute -top-10 left-1/2 -translate-x-1/2 bg-black border border-titan-cyan text-titan-cyan px-3 py-1 text-xs font-mono uppercase whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-20 shadow-[0_0_10px_rgba(45,212,191,0.2)]">
+                                        {{ weapon.name }}
+                                        <div class="absolute -bottom-[5px] left-1/2 -translate-x-1/2 border-l-4 border-r-4 border-t-4 border-l-transparent border-r-transparent border-t-titan-cyan w-0 h-0"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

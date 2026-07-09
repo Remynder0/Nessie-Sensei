@@ -117,9 +117,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "The ultimate tracker, Bloodhound must lead the squad. Their role is to scan before engaging a building. Under their ultimate, they become a fast predator favoring close-range weapons.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "prowler_burst_pdw",
+        "name": "Prowler PDW"
+      },
+      {
+        "id": "eva-8_auto",
+        "name": "EVA-8 Auto"
+      }
     ],
     "perks": {
       "level_2": {

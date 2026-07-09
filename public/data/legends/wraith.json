@@ -25,13 +25,16 @@
     }
   },
   "tactics": {
-    "playstyle": "Wraith est l'ultime entry-fragger. Son rôle est de prendre des angles agressifs pour trouver une ouverture (knock) ou infliger de lourds dégâts, puis utiliser son Tactique pour retourner à couvert en toute sécurité. Son Portail est crucial pour les rotations sécurisées de l'équipe, surtout en fin de partie ou pour extraire un allié abattu.",
+    "playstyle": "The classic entry fragger. Wraith's role is to initiate fights on the frontline, absorb pressure, and then escape safely with her phase. Her portal allows her to safely pull her team back.",
     "weapons": [
-      "R-99",
-      "Peacekeeper",
-      "Wingman",
-      "Volt",
-      "Havoc"
+      {
+        "id": "r-99_smg",
+        "name": "R-99 SMG"
+      },
+      {
+        "id": "wingman",
+        "name": "Wingman"
+      }
     ],
     "perks": {
       "level_2": {

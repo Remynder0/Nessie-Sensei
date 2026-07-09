@@ -124,9 +124,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "Loba is the queen of looting. Her playstyle ensures the team always has ammo and meds, allowing them to hold positions without running out of resources. Her bracelet offers a quick escape.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "sentinel_esr",
+        "name": "Sentinel"
+      },
+      {
+        "id": "r-99_smg",
+        "name": "R-99 SMG"
+      }
     ],
     "perks": {
       "level_2": {

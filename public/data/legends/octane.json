@@ -145,9 +145,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "Speed and assault. Octane is built for fast flanks and chases. The jump pad is excellent for aggressive rotations, but be careful not to die alone too far from the team.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "r-99_smg",
+        "name": "R-99 SMG"
+      },
+      {
+        "id": "eva-8_auto",
+        "name": "EVA-8 Auto"
+      }
     ],
     "perks": {
       "level_2": {

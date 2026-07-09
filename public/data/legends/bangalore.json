@@ -137,9 +137,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "Bangalore is a versatile warrior specialized in breaking lines of sight. Use her smoke to isolate enemies, loot safely, or cover an escape, while utilizing her passive speed boost during firefights.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "r-301_carbine",
+        "name": "R-301 Carbine"
+      },
+      {
+        "id": "volt_smg",
+        "name": "Volt SMG"
+      }
     ],
     "perks": {
       "level_2": {

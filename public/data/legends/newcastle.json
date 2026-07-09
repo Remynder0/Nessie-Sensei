@@ -60,9 +60,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "A mobile protector. Newcastle excels at securing impossible angles with his mobile shield and ultimate. He can revive allies right in the line of fire by dragging them to cover.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "peacekeeper",
+        "name": "Peacekeeper"
+      },
+      {
+        "id": "nemesis_burst_ar",
+        "name": "Nemesis"
+      }
     ],
     "perks": {
       "level_2": {

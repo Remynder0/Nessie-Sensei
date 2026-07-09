@@ -25,9 +25,16 @@
     }
   },
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "Wattson excels in area control and defense. Her goal is to secure a building or end-game zone with her electric fences, while using her pylon to counter ordnance and regen shields.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "nemesis_burst_ar",
+        "name": "Nemesis"
+      },
+      {
+        "id": "r-99_smg",
+        "name": "R-99 SMG"
+      }
     ],
     "perks": {
       "level_2": {

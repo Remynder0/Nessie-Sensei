@@ -126,9 +126,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "An information and set-up character. Crypto requires excellent coordination. His goal is to safely scan the area and initiate fights with a devastating EMP blast to enemy shields.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "g7_scout",
+        "name": "G7 Scout"
+      },
+      {
+        "id": "c.a.r._smg",
+        "name": "C.A.R. SMG"
+      }
     ],
     "perks": {
       "level_2": {

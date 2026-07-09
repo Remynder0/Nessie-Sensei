@@ -69,7 +69,7 @@ function hideErrorImage(event: Event) {
     <!-- Legends Grid -->
     <div class="flex-1 overflow-y-auto custom-scrollbar p-6 bg-black/40">
         <!-- Ungrouped Display -->
-        <div v-if="!groupByClass" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-12 gap-y-32 content-start pt-32 pb-8">
+        <div v-if="!groupByClass" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-12 gap-y-32 content-start pt-8 pb-8">
             <LegendGallery 
                 v-for="legend in filteredLegends" 
                 :key="legend.Name"
@@ -92,7 +92,7 @@ function hideErrorImage(event: Event) {
                     <h3 class="text-2xl font-black text-white tracking-widest uppercase font-sans">{{ className }}</h3>
                     <span class="text-titan-cyan font-mono text-sm ml-2">[{{ group.length }}]</span>
                 </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-12 gap-y-32 content-start pt-32">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-12 gap-y-32 content-start pt-8">
                     <LegendGallery 
                         v-for="legend in group" 
                         :key="legend.Name"

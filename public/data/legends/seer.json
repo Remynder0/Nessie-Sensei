@@ -115,9 +115,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "A micro-information expert, Seer shines in prolonged indoor fights. He cancels enemy heals and revives with his tactical, creating massive windows of vulnerability.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "c.a.r._smg",
+        "name": "C.A.R. SMG"
+      },
+      {
+        "id": "vk-47_flatline",
+        "name": "Flatline"
+      }
     ],
     "perks": {
       "level_2": {

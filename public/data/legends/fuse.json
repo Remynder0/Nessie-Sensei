@@ -71,9 +71,16 @@
     }
   ],
   "tactics": {
-    "playstyle": "Classification en cours...",
+    "playstyle": "An area denial specialist, Fuse must constantly harass the enemy with grenades and his tactical. His goal is to deplete opponent resources and prevent any revives or escapes.",
     "weapons": [
-      "Inconnu"
+      {
+        "id": "30-30_repeater",
+        "name": "30-30 Repeater"
+      },
+      {
+        "id": "rampage_lmg",
+        "name": "Rampage LMG"
+      }
     ],
     "perks": {
       "level_2": {
