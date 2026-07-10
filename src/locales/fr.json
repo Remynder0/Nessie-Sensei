@@ -4,7 +4,7 @@
     "legends": "Légendes",
     "packCalculator": "Heirloom Tracker",
     "battlePass": "Battle Pass",
-    "probabilities": "Analyse Prédic.",
+    "probabilities": "Synergies",
     "simulation": "Simulation",
     "stats": "Data Logs",
     "sort": "Tri Tactique"
@@ -88,5 +88,10 @@
     "step_prob_desc": "Nous avons sélectionné Pathfinder pour vous ! Observez les résultats : l'IA calcule avec quelles légendes il a statistiquement le plus de chances d'être joué de manière optimale.",
     "step_feedback_title": "Besoin d'aide ou un avis ?",
     "step_feedback_desc": "Cliquez ici pour signaler un bug, proposer une idée d'amélioration, soumettre un Fanart, ou revoir ce tutoriel à tout moment !"
+  },
+  "probabilities": {
+    "title": "Synergies",
+    "subtitle": "Sélectionnez une cible pour afficher le taux d'association prédictif avec les autres unités du réseau.",
+    "antiSynergy": "Anti-synergie"
   }
 }

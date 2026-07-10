@@ -4,7 +4,7 @@
     "legends": "Legends",
     "packCalculator": "Heirloom Tracker",
     "battlePass": "Battle Pass",
-    "probabilities": "Predictive Analysis",
+    "probabilities": "Synergies",
     "simulation": "Simulation",
     "stats": "Data Logs",
     "sort": "Tactical Sort"
@@ -90,5 +90,10 @@
     "step_prob_desc": "We selected Pathfinder for you! Observe the results: the AI calculates which legends he statistically has the best chance to be optimally played with.",
     "step_feedback_title": "Need help or feedback?",
     "step_feedback_desc": "Click here to report a bug, suggest an improvement idea, submit a Fanart, or review this tutorial at any time!"
+  },
+  "probabilities": {
+    "title": "Synergies",
+    "subtitle": "Select a target to display the predictive association rate with other units of the network.",
+    "antiSynergy": "Anti-synergy"
   }
 }
