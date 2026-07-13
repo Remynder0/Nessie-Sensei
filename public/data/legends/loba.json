@@ -24,6 +24,45 @@
       "cooldown": "1 minute 20 seconds"
     }
   },
+  "tactics": {
+    "playstyle": "Loba is the queen of looting. Her playstyle ensures the team always has ammo and meds, allowing them to hold positions without running out of resources. Her bracelet offers a quick escape.",
+    "weapons": [
+      {
+        "id": "sentinel_esr",
+        "name": "Sentinel"
+      },
+      {
+        "id": "r-99_smg",
+        "name": "R-99 SMG"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Wolf's Claws",
+          "description": "Faster weapon draw and speed boost after translocating.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Shopping Spree",
+          "description": "Squad can take 3 items from a friendly Black Market Boutique.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Escape Artist",
+          "description": "Loba can regenerate 25 shield HP after translocating.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Brand New Bag",
+          "description": "Grants the entire squad gold backpacks when selected.",
+          "recommended": true
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 29 : Overclocked",
@@ -122,44 +161,5 @@
         "[Ultimate] Nerf -> Burglar's Cut : réduction de la zone de gaz."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "Loba is the queen of looting. Her playstyle ensures the team always has ammo and meds, allowing them to hold positions without running out of resources. Her bracelet offers a quick escape.",
-    "weapons": [
-      {
-        "id": "sentinel_esr",
-        "name": "Sentinel"
-      },
-      {
-        "id": "r-99_smg",
-        "name": "R-99 SMG"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Wolf's Claws",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Shopping Spree",
-          "description": "Reveals enemy positions for a short time after they've been seen, increasing the effectiveness of Burglar's Eye.",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Escape Artist",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Brand New Bag",
-          "description": "Burglar's Eye now reveals enemy positions for a longer time after they've been seen, increasing the effectiveness of Burglar's Blitz.",
-          "recommended": true
-        }
-      }
-    }
-  }
+  ]
 }

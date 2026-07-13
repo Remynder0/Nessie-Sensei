@@ -24,6 +24,45 @@
       "cooldown": "3 minutes"
     }
   },
+  "tactics": {
+    "playstyle": "An information and set-up character. Crypto requires excellent coordination. His goal is to safely scan the area and initiate fights with a devastating EMP blast to enemy shields.",
+    "weapons": [
+      {
+        "id": "g7_scout",
+        "name": "G7 Scout"
+      },
+      {
+        "id": "c.a.r._smg",
+        "name": "C.A.R. SMG"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Network Expansion",
+          "description": "Increased range of Neurolink and EMP by 25%.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Ally.MoveTo()",
+          "description": "Crypto places a tracker on allies, allowing him to trailblaze to them.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Power Coupling",
+          "description": "Gain ult charge from using Survey Beacons and scanning enemies with drone.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Hackathon",
+          "description": "Speed up drone recharge rate and gain a speed boost after it explodes (EMP or destroyed).",
+          "recommended": true
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 28 : Breach",
@@ -124,44 +163,5 @@
         "[Perks] Fix -> Surveillance Drone: Fix for cases where players would not receive assist credit when using the drone to scan enemies."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "An information and set-up character. Crypto requires excellent coordination. His goal is to safely scan the area and initiate fights with a devastating EMP blast to enemy shields.",
-    "weapons": [
-      {
-        "id": "g7_scout",
-        "name": "G7 Scout"
-      },
-      {
-        "id": "c.a.r._smg",
-        "name": "C.A.R. SMG"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Network Expansion",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Ally.MoveTo()",
-          "description": "Quick Ping: improved drone handling (faster accel/decel)",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Power Coupling",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Hackathon",
-          "description": "Ally.MoveTo(): allows allies to move towards Crypto's location when in drone view.",
-          "recommended": true
-        }
-      }
-    }
-  }
+  ]
 }

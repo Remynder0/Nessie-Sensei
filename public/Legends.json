@@ -155,7 +155,7 @@
         },
         {
             "Name": "Revenant",
-            "Class": "skirmisher",
+            "Class": "assault",
             "stats": {
                 "scanning": 0,
                 "map_info": 0,
@@ -166,7 +166,7 @@
                 "shield": 5,
                 "healing": 0,
                 "barrier": 0,
-                "looting": 0,
+                "looting": 2,
                 "boost": 0
             }
         },

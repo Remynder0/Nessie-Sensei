@@ -24,6 +24,45 @@
       "cooldown": "2 minutes"
     }
   },
+  "tactics": {
+    "playstyle": "Aggressive by nature, Mad Maggie is the frontline assault specialist. Her drill destroys enemy cover and her ultimate paves the way. Shotguns are mandatory with her passive speed boost.",
+    "weapons": [
+      {
+        "id": "mastiff_shotgun",
+        "name": "Mastiff"
+      },
+      {
+        "id": "vk-47_flatline",
+        "name": "Flatline"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Gunrunning",
+          "description": "Your passive move speed applies to SMGs and Pistols, too.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Fire Ball",
+          "description": "Wrecking Ball now drops magma patches along the ground as it moves. Maggie takes 50% less fire damage from all sources.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Drillslinger",
+          "description": "Gain a Riot Drill charge. Reduce active duration by 25%.",
+          "recommended": true
+        },
+        "right": {
+          "name": "Big Drill",
+          "description": "Increase depth and width of Tactical by 50%",
+          "recommended": false
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 29 : Overclocked",
@@ -84,44 +123,5 @@
         "[Base] Introduced"
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "Aggressive by nature, Mad Maggie is the frontline assault specialist. Her drill destroys enemy cover and her ultimate paves the way. Shotguns are mandatory with her passive speed boost.",
-    "weapons": [
-      {
-        "id": "mastiff_shotgun",
-        "name": "Mastiff"
-      },
-      {
-        "id": "vk-47_flatline",
-        "name": "Flatline"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Gunrunning",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Fire Ball",
-          "description": "Increased vision range.",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Drillslinger",
-          "description": "",
-          "recommended": true
-        },
-        "right": {
-          "name": "Big Drill",
-          "description": "",
-          "recommended": false
-        }
-      }
-    }
-  }
+  ]
 }

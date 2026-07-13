@@ -24,6 +24,45 @@
       "cooldown": "1 minute"
     }
   },
+  "tactics": {
+    "playstyle": "Speed and assault. Octane is built for fast flanks and chases. The jump pad is excellent for aggressive rotations, but be careful not to die alone too far from the team.",
+    "weapons": [
+      {
+        "id": "r-99_smg",
+        "name": "R-99 SMG"
+      },
+      {
+        "id": "eva-8_auto",
+        "name": "EVA-8 Auto"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Thick Skin",
+          "description": "Take 5 less damage from Stim.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Squad Rush",
+          "description": "Allies gain Stim  after landing from a jump pad.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Daredevil",
+          "description": "Stim Surge lasts longer the less health you have.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Triple Jump",
+          "description": "Upgrade the jump pad to allow for a third jump.",
+          "recommended": false
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 29 : Overclocked",
@@ -143,44 +182,5 @@
         "[Base] Buff -> Introduced."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "Speed and assault. Octane is built for fast flanks and chases. The jump pad is excellent for aggressive rotations, but be careful not to die alone too far from the team.",
-    "weapons": [
-      {
-        "id": "r-99_smg",
-        "name": "R-99 SMG"
-      },
-      {
-        "id": "eva-8_auto",
-        "name": "EVA-8 Auto"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Thick Skin",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Squad Rush",
-          "description": "",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Daredevil",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Triple Jump",
-          "description": "",
-          "recommended": false
-        }
-      }
-    }
-  }
+  ]
 }

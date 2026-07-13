@@ -24,6 +24,45 @@
       "cooldown": "1 minute"
     }
   },
+  "tactics": {
+    "playstyle": "The illusionist of chaos. Mirage's goal is to sow doubt in the opponent's mind. Close-range 1v1 fights are his strong suit, using his clones to buy those crucial split seconds needed for victory.",
+    "weapons": [
+      {
+        "id": "volt_smg",
+        "name": "Volt SMG"
+      },
+      {
+        "id": "wingman",
+        "name": "Wingman"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Renaissance Man",
+          "description": "Can now interact with all other Classes’ world interactions: Assault Bins, Care Package scans, Survey Beacons, and Ring Consoles.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Boozle-Eye",
+          "description": "Successful Bamboozles also highlight enemies for a short time.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Me Two",
+          "description": "Gain a Decoy charge (can have 2 decoys out at once).",
+          "recommended": true
+        },
+        "right": {
+          "name": "Bamboozle Bonus",
+          "description": "Refreshes Tactical cooldown on successful Bamboozles.",
+          "recommended": false
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 25 : Prodigy (Midseason)",
@@ -95,44 +134,5 @@
         "[Perks] Buff -> Psyche Out: Reverted cooldown back to 15 seconds from 25."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "The illusionist of chaos. Mirage's goal is to sow doubt in the opponent's mind. Close-range 1v1 fights are his strong suit, using his clones to buy those crucial split seconds needed for victory.",
-    "weapons": [
-      {
-        "id": "volt_smg",
-        "name": "Volt SMG"
-      },
-      {
-        "id": "wingman",
-        "name": "Wingman"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Renaissance Man",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Boozle-Eye",
-          "description": "In addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes and allows Bamboozles to scan the target who shot the clone.",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Me Two",
-          "description": "",
-          "recommended": true
-        },
-        "right": {
-          "name": "Bamboozle Bonus",
-          "description": "",
-          "recommended": false
-        }
-      }
-    }
-  }
+  ]
 }

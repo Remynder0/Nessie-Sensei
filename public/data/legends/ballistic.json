@@ -24,6 +24,45 @@
       "cooldown": ""
     }
   },
+  "tactics": {
+    "playstyle": "Ballistic is the weapon master. His style involves applying constant mid-range pressure with his Whistler, before popping his ultimate to boost the whole team and rushing in with his upgraded sling weapon.",
+    "weapons": [
+      {
+        "id": "havoc_rifle",
+        "name": "Havoc"
+      },
+      {
+        "id": "alternator_smg",
+        "name": "Alternator"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Ammuvision",
+          "description": "Voit les munitions dans les deathboxes proches.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Care Package Insight",
+          "description": "Révèle l'emplacement des packs de soutien.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Extra Bullet",
+          "description": "Doubles the number of Whistler charges.",
+          "recommended": true
+        },
+        "right": {
+          "name": "Lasting Bullet",
+          "description": "Triple la durée du projectile Tactique posé dans l'environnement.",
+          "recommended": false
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 25 : Prodigy",
@@ -72,44 +111,5 @@
         "[Base] Buff -> Introduced."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "Ballistic is the weapon master. His style involves applying constant mid-range pressure with his Whistler, before popping his ultimate to boost the whole team and rushing in with his upgraded sling weapon.",
-    "weapons": [
-      {
-        "id": "havoc_rifle",
-        "name": "Havoc"
-      },
-      {
-        "id": "alternator_smg",
-        "name": "Alternator"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Ammuvision",
-          "description": "Voit les munitions dans les deathboxes proches.",
-          "recommended": false
-        },
-        "right": {
-          "name": "Care Package Insight",
-          "description": "Révèle l'emplacement des packs de soutien.",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Extra Bullet",
-          "description": "Doubles the number of Whistler charges.",
-          "recommended": true
-        },
-        "right": {
-          "name": "Lasting Bullet",
-          "description": "Triple la durée du projectile Tactique posé dans l'environnement.",
-          "recommended": false
-        }
-      }
-    }
-  }
+  ]
 }

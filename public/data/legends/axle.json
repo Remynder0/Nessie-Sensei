@@ -24,15 +24,6 @@
       "cooldown": "1.5 minutes"
     }
   },
-  "patch_history": [
-    {
-      "patch": "Season 29 : Overclocked",
-      "details": [
-        "[Passive] Buff -> Drift : Increased control while sliding.",
-        "[Tactical] Adjust -> Nitro Gate : Stepping into a Nitro Gate forces users into a speedy slide, where they have greatly increased velocity and lateral control."
-      ]
-    }
-  ],
   "tactics": {
     "playstyle": "Classification tactique indisponible ou en cours de validation pour cette légende.",
     "weapons": [
@@ -71,5 +62,14 @@
         }
       }
     }
-  }
+  },
+  "patch_history": [
+    {
+      "patch": "Season 29 : Overclocked",
+      "details": [
+        "[Passive] Buff -> Drift : Increased control while sliding.",
+        "[Tactical] Adjust -> Nitro Gate : Stepping into a Nitro Gate forces users into a speedy slide, where they have greatly increased velocity and lateral control."
+      ]
+    }
+  ]
 }

@@ -24,6 +24,45 @@
       "cooldown": "180 seconds"
     }
   },
+  "tactics": {
+    "playstyle": "The relentless assassin. Revenant excels in isolated fights, leaping onto a wounded target with his tactical, and wrapping himself in forged shadows via his ultimate to win the duel.",
+    "weapons": [
+      {
+        "id": "prowler_burst_pdw",
+        "name": "Prowler PDW"
+      },
+      {
+        "id": "peacekeeper",
+        "name": "Peacekeeper"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Ultimate Cooldown",
+          "description": "Reduce Ultimate cooldown by 30s.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Try to Hide",
+          "description": "Doubled the duration low health enemies are marked.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Tactical Cooldown",
+          "description": "Reduce Tactical cooldown by 5s.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Agile Assassin",
+          "description": "Total Shadow Pounce attack and charge time reduced by ~50%.",
+          "recommended": false
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 29 : Overclocked",
@@ -147,44 +186,5 @@
         "[Passive] Nerf -> Removed Low Profile."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "The relentless assassin. Revenant excels in isolated fights, leaping onto a wounded target with his tactical, and wrapping himself in forged shadows via his ultimate to win the duel.",
-    "weapons": [
-      {
-        "id": "prowler_burst_pdw",
-        "name": "Prowler PDW"
-      },
-      {
-        "id": "peacekeeper",
-        "name": "Peacekeeper"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Ultimate Cooldown",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Try to Hide",
-          "description": "",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Ultimate Cooldown",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Agile Assassin",
-          "description": "",
-          "recommended": false
-        }
-      }
-    }
-  }
+  ]
 }

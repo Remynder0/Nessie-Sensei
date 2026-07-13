@@ -24,6 +24,45 @@
       "cooldown": "3 minutes"
     }
   },
+  "tactics": {
+    "playstyle": "The team's guardian angel. Lifeline's positioning is crucial: she must always be the last to fall. Her revive drone allows her to pick up an ally while continuing to lay down covering fire.",
+    "weapons": [
+      {
+        "id": "r-301_carbine",
+        "name": "R-301 Carbine"
+      },
+      {
+        "id": "peacekeeper",
+        "name": "Peacekeeper"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Extended Flight",
+          "description": "Increased time before D.O.C. runs out of fuel by 1.5s.",
+          "recommended": true
+        },
+        "right": {
+          "name": "Battpack",
+          "description": "+1 Shield Battery stack limit. Shield Battery count shown on deathbox.",
+          "recommended": false
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Enhanced Radio",
+          "description": "Increased distance you can assign D.O.C. by 50%.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Tactical Cooldown+",
+          "description": "Reduce Tactical cooldown by 10%.",
+          "recommended": true
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 29 : Overclocked",
@@ -77,44 +116,5 @@
         "[Perks] Buff -> Care Package: Removed slight chance that Level 4 armor and helmets will appear on the Care Package."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "The team's guardian angel. Lifeline's positioning is crucial: she must always be the last to fall. Her revive drone allows her to pick up an ally while continuing to lay down covering fire.",
-    "weapons": [
-      {
-        "id": "r-301_carbine",
-        "name": "R-301 Carbine"
-      },
-      {
-        "id": "peacekeeper",
-        "name": "Peacekeeper"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Extended Flight",
-          "description": "",
-          "recommended": true
-        },
-        "right": {
-          "name": "Battpack",
-          "description": "D.O.C. Drone's recharge time has been reduced.",
-          "recommended": false
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Enhanced Radio",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Tactical Cooldown+",
-          "description": "",
-          "recommended": true
-        }
-      }
-    }
-  }
+  ]
 }

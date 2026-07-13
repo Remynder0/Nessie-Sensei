@@ -24,6 +24,57 @@
       "cooldown": "2.5 minutes"
     }
   },
+  "tactics": {
+    "playstyle": "The ultimate tracker, Bloodhound must lead the squad. Their role is to scan before engaging a building. Under their ultimate, they become a fast predator favoring close-range weapons.",
+    "weapons": [
+      {
+        "id": "prowler_burst_pdw",
+        "name": "Prowler PDW"
+      },
+      {
+        "id": "eva-8_auto",
+        "name": "EVA-8 Auto"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Taste of Blood",
+          "description": "",
+          "recommended": false
+        },
+        "right": {
+          "name": "Raven's flight",
+          "description": "Increases the duration of tracker.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Tactical Cooldown",
+          "description": "Reduces the cooldown of Eye of the Allfather.",
+          "recommended": true
+        },
+        "right": {
+          "name": "Long Hunt",
+          "description": "Extends the duration of Beast of the Hunt when a knock is made.",
+          "recommended": false
+        }
+      },
+      "level_4": {
+        "left": {
+          "name": "Odin's glare",
+          "description": "",
+          "recommended": true
+        },
+        "right": {
+          "name": "Hunter's agility",
+          "description": "",
+          "recommended": false
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 28 : Breach",
@@ -115,56 +166,5 @@
         "[Base] Buff -> Beast of the Hunt: Added better colorblind support"
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "The ultimate tracker, Bloodhound must lead the squad. Their role is to scan before engaging a building. Under their ultimate, they become a fast predator favoring close-range weapons.",
-    "weapons": [
-      {
-        "id": "prowler_burst_pdw",
-        "name": "Prowler PDW"
-      },
-      {
-        "id": "eva-8_auto",
-        "name": "EVA-8 Auto"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Taste of Blood",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Raven's flight",
-          "description": "Increases the duration of tracker.",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Tactical Cooldown",
-          "description": "Reduces the cooldown of Eye of the Allfather.",
-          "recommended": true
-        },
-        "right": {
-          "name": "Long Hunt",
-          "description": "Extends the duration of Beast of the Hunt when a knock is made.",
-          "recommended": false
-        }
-      },
-      "level_4": {
-        "left": {
-          "name": "Odin's glare",
-          "description": "",
-          "recommended": true
-        },
-        "right": {
-          "name": "Hunter's agility",
-          "description": "",
-          "recommended": false
-        }
-      }
-    }
-  }
+  ]
 }

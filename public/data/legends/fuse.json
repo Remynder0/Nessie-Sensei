@@ -24,6 +24,45 @@
       "cooldown": ""
     }
   },
+  "tactics": {
+    "playstyle": "An area denial specialist, Fuse must constantly harass the enemy with grenades and his tactical. His goal is to deplete opponent resources and prevent any revives or escapes.",
+    "weapons": [
+      {
+        "id": "30-30_repeater",
+        "name": "30-30 Repeater"
+      },
+      {
+        "id": "rampage_lmg",
+        "name": "Rampage LMG"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Pyro Techniques",
+          "description": "Ultimate Explosion create flames for 8 seconds",
+          "recommended": false
+        },
+        "right": {
+          "name": "Knuckle Jumper",
+          "description": "Jump near your tactical for a boost and 50% cooldown refund.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Reignition",
+          "description": "Ultimate recharges 1 second for every 2 explosives damage dealt.",
+          "recommended": true
+        },
+        "right": {
+          "name": "Wreckless",
+          "description": "Take 50% less explosive damage.",
+          "recommended": false
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 29 : Overclocked",
@@ -69,44 +108,5 @@
         "[The Motherlode] Buff -> When under a small enclosure, players will no longer be pushed out after using it."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "An area denial specialist, Fuse must constantly harass the enemy with grenades and his tactical. His goal is to deplete opponent resources and prevent any revives or escapes.",
-    "weapons": [
-      {
-        "id": "30-30_repeater",
-        "name": "30-30 Repeater"
-      },
-      {
-        "id": "rampage_lmg",
-        "name": "Rampage LMG"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Pyro Techniques",
-          "description": "Wreckless took a 50% reduction in explosive damage.",
-          "recommended": false
-        },
-        "right": {
-          "name": "Knuckle Jumper",
-          "description": "",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Reignition",
-          "description": "",
-          "recommended": true
-        },
-        "right": {
-          "name": "Wreckless",
-          "description": "",
-          "recommended": false
-        }
-      }
-    }
-  }
+  ]
 }

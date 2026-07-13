@@ -24,6 +24,45 @@
       "cooldown": "2 minutes"
     }
   },
+  "tactics": {
+    "playstyle": "A mobile protector. Newcastle excels at securing impossible angles with his mobile shield and ultimate. He can revive allies right in the line of fire by dragging them to cover.",
+    "weapons": [
+      {
+        "id": "peacekeeper",
+        "name": "Peacekeeper"
+      },
+      {
+        "id": "nemesis_burst_ar",
+        "name": "Nemesis"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Stronghold",
+          "description": "+500 HP to Castle Wall and extend energized barrier duration to 4 min.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Ready To Rumble",
+          "description": "Reload all weapons and begin full regeneration after reviving allies.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Ultimate Savior",
+          "description": "Castle Wall slam grants 15 sec of Shield Regen to each ally in the impact area.",
+          "recommended": true
+        },
+        "right": {
+          "name": "Defensive Line",
+          "description": "Tactical and Passive Shield will  repel the first enemy that comes into contact with it.",
+          "recommended": false
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 29 : Overclocked",
@@ -58,44 +97,5 @@
         "[Passive] Buff -> Castle Wall: will now destroy incoming projectiles headed towards the front of the wall while energized"
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "A mobile protector. Newcastle excels at securing impossible angles with his mobile shield and ultimate. He can revive allies right in the line of fire by dragging them to cover.",
-    "weapons": [
-      {
-        "id": "peacekeeper",
-        "name": "Peacekeeper"
-      },
-      {
-        "id": "nemesis_burst_ar",
-        "name": "Nemesis"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Stronghold",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Ready To Rumble",
-          "description": "",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Ultimate Savior",
-          "description": "",
-          "recommended": true
-        },
-        "right": {
-          "name": "Defensive Line",
-          "description": "",
-          "recommended": false
-        }
-      }
-    }
-  }
+  ]
 }

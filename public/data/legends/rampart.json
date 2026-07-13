@@ -23,6 +23,44 @@
       "description": "Wield a mobile minigun with a single high capacity magazine. Place it down for anyone to use as a stationary and reloadable turret (Max: 1). Sheila now has an increased angle of 180 degrees, but ammo drains from the pip charge with each use.",
       "cooldown": "90 seconds"
     }
+  },"tactics": {
+    "playstyle": "The team's bastion. Rampart requires anticipation to place her amped covers. She heavily punishes anyone who dares cross her in the open, and Sheila melts doors and shields alike.",
+    "weapons": [
+      {
+        "id": "m600_spitfire",
+        "name": "Spitfire"
+      },
+      {
+        "id": "devotion_lmg",
+        "name": "Devotion"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Combat Reserve",
+          "description": "Bigger ammo stacks, extra grenades slots, access red weapon supply bins.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Locked and Loaded",
+          "description": "Gain faster reloads and infinite ammo when behind Amped Cover and shield is intact.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Ramped Up",
+          "description": "Improved Mobile Sheila handling and spin-up time by 20%.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Rebuild Module",
+          "description": "Amped Cover will regenerate health and rebuild shield section after not being damaged for a period of time.",
+          "recommended": true
+        }
+      }
+    }
   },
   "patch_history": [
     {
@@ -116,44 +154,5 @@
         "[Perks] Adjust -> Gunner's Mate : réduction du temps de recharge."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "The team's bastion. Rampart requires anticipation to place her amped covers. She heavily punishes anyone who dares cross her in the open, and Sheila melts doors and shields alike.",
-    "weapons": [
-      {
-        "id": "m600_spitfire",
-        "name": "Spitfire"
-      },
-      {
-        "id": "devotion_lmg",
-        "name": "Devotion"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Combat Reserve",
-          "description": "Bigger ammo stacks, extra grenades slots, access red weapon supply bins.",
-          "recommended": false
-        },
-        "right": {
-          "name": "Locked and Loaded",
-          "description": "Gain faster reloads and infinite ammo when behind Amped Cover and shield is intact.",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Ramped Up",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Rebuild Module",
-          "description": "",
-          "recommended": true
-        }
-      }
-    }
-  }
+  ]
 }

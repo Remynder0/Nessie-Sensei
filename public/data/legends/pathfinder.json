@@ -24,6 +24,45 @@
       "cooldown": "2 minutes"
     }
   },
+  "tactics": {
+    "playstyle": "The premier scout. Thanks to his grapple, Pathfinder has the best individual mobility in the game to take the high ground. His zipline helps the team make long, fast rotations.",
+    "weapons": [
+      {
+        "id": "longbow_dmr",
+        "name": "Longbow"
+      },
+      {
+        "id": "r-301_carbine",
+        "name": "R-301 Carbine"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Field Research",
+          "description": "Gain access to Survey Beacon, gain threat vision when aiming down sights.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Ring Master",
+          "description": "Access Ring Consoles, gain zone overcharge and reinforce Hardlight.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Landing Gear",
+          "description": "Gain better air control and softer landing.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Feeling Zippy",
+          "description": "Gain a second zipline charge. Allies are faster on your energized ziplines.",
+          "recommended": true
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 28 : Breach",
@@ -89,44 +128,5 @@
         "[Perks] Fix -> Grappling Hook: Fixed the exploit where you could do infinite wall-climb."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "The premier scout. Thanks to his grapple, Pathfinder has the best individual mobility in the game to take the high ground. His zipline helps the team make long, fast rotations.",
-    "weapons": [
-      {
-        "id": "longbow_dmr",
-        "name": "Longbow"
-      },
-      {
-        "id": "r-301_carbine",
-        "name": "R-301 Carbine"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Field Research",
-          "description": "Gain access to Survey Beacon, gain threat vision when aiming down sights.",
-          "recommended": false
-        },
-        "right": {
-          "name": "Ring Master",
-          "description": "Access Ring Consoles, gain zone overcharge and reinforce Hardlight.",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Landing Gear",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Feeling Zippy",
-          "description": "",
-          "recommended": true
-        }
-      }
-    }
-  }
+  ]
 }

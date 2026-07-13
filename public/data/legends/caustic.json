@@ -24,6 +24,45 @@
       "cooldown": "3 minutes"
     }
   },
+  "tactics": {
+    "playstyle": "Caustic's style is oppressive and territorial. He must trap enemies or entrench himself in closed spaces using his gas traps. In the final ring, he becomes one of the most formidable characters.",
+    "weapons": [
+      {
+        "id": "hemlok_burst_ar",
+        "name": "Hemlok"
+      },
+      {
+        "id": "mastiff_shotgun",
+        "name": "Mastiff"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Extra Traps",
+          "description": "",
+          "recommended": false
+        },
+        "right": {
+          "name": "Breath it in",
+          "description": "Upgrades Level 2 description changed.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Particle Diffuser",
+          "description": "",
+          "recommended": true
+        },
+        "right": {
+          "name": "Gas Fighter",
+          "description": "",
+          "recommended": false
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 26 : Showdown",
@@ -163,44 +202,5 @@
         "[Base] Fix -> Fixed ADS view being blocked when using Caustic legendary skins with certain weapon/ optic combos"
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "Caustic's style is oppressive and territorial. He must trap enemies or entrench himself in closed spaces using his gas traps. In the final ring, he becomes one of the most formidable characters.",
-    "weapons": [
-      {
-        "id": "hemlok_burst_ar",
-        "name": "Hemlok"
-      },
-      {
-        "id": "mastiff_shotgun",
-        "name": "Mastiff"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Extra Traps",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Breath it in",
-          "description": "Upgrades Level 2 description changed.",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Particle Diffuser",
-          "description": "",
-          "recommended": true
-        },
-        "right": {
-          "name": "Gas Fighter",
-          "description": "",
-          "recommended": false
-        }
-      }
-    }
-  }
+  ]
 }

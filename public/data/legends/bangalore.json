@@ -24,6 +24,45 @@
       "cooldown": "4.5 minutes"
     }
   },
+  "tactics": {
+    "playstyle": "Bangalore is a versatile warrior specialized in breaking lines of sight. Use her smoke to isolate enemies, loot safely, or cover an escape, while utilizing her passive speed boost during firefights.",
+    "weapons": [
+      {
+        "id": "r-301_carbine",
+        "name": "R-301 Carbine"
+      },
+      {
+        "id": "volt_smg",
+        "name": "Volt SMG"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Electric Smoke",
+          "description": "",
+          "recommended": false
+        },
+        "right": {
+          "name": "Cover Me!",
+          "description": "Grants a shield to nearby teammates when you're downed, and they can revive you.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "EMC payload",
+          "description": "",
+          "recommended": true
+        },
+        "right": {
+          "name": "Medal of Honor",
+          "description": "Grants a 10% increase to your team's healing speed.",
+          "recommended": false
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 26 : Showdown",
@@ -135,44 +174,5 @@
         "[Base] Buff -> Double Time: Reduced move speed bonus from 40% to 30%"
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "Bangalore is a versatile warrior specialized in breaking lines of sight. Use her smoke to isolate enemies, loot safely, or cover an escape, while utilizing her passive speed boost during firefights.",
-    "weapons": [
-      {
-        "id": "r-301_carbine",
-        "name": "R-301 Carbine"
-      },
-      {
-        "id": "volt_smg",
-        "name": "Volt SMG"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Electric Smoke",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Cover Me!",
-          "description": "Grants a shield to nearby teammates when you're downed, and they can revive you.",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "EMC payload",
-          "description": "",
-          "recommended": true
-        },
-        "right": {
-          "name": "Medal of Honor",
-          "description": "Grants a 10% increase to your team's healing speed.",
-          "recommended": false
-        }
-      }
-    }
-  }
+  ]
 }

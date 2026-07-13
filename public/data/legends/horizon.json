@@ -24,6 +24,45 @@
       "cooldown": "2 minutes"
     }
   },
+  "tactics": {
+    "playstyle": "The hero of verticality, Horizon must gain the high ground over her targets. Her gravity lift allows the whole team to surprise enemies. Her ultimate combined with grenades is devastating.",
+    "weapons": [
+      {
+        "id": "havoc_rifle",
+        "name": "Havoc"
+      },
+      {
+        "id": "wingman",
+        "name": "Wingman"
+      }
+    ],
+    "perks": {
+      "level_2": {
+        "left": {
+          "name": "Gravity Boots",
+          "description": "Press crouch while in the air to fall much more quickly.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Newt Scoot",
+          "description": "Press jump after exiting gravity lift to glide.",
+          "recommended": true
+        }
+      },
+      "level_3": {
+        "left": {
+          "name": "Conservation of Energy",
+          "description": "Horizon's Spacewalk passive grants 25HP of shield regen on soft landings.",
+          "recommended": false
+        },
+        "right": {
+          "name": "Knock Expert",
+          "description": "Gain tactical charge on knocks.",
+          "recommended": true
+        }
+      }
+    }
+  },
   "patch_history": [
     {
       "patch": "Season 27 : Amped",
@@ -81,44 +120,5 @@
         "Introduced."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "The hero of verticality, Horizon must gain the high ground over her targets. Her gravity lift allows the whole team to surprise enemies. Her ultimate combined with grenades is devastating.",
-    "weapons": [
-      {
-        "id": "havoc_rifle",
-        "name": "Havoc"
-      },
-      {
-        "id": "wingman",
-        "name": "Wingman"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Gravity Boots",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Newt Scoot",
-          "description": "In addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes.",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Conservation of Energy",
-          "description": "",
-          "recommended": false
-        },
-        "right": {
-          "name": "Knock Expert",
-          "description": "Gain tactical charge on knocks.",
-          "recommended": true
-        }
-      }
-    }
-  }
+  ]
 }
