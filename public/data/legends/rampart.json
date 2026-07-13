@@ -23,7 +23,8 @@
       "description": "Wield a mobile minigun with a single high capacity magazine. Place it down for anyone to use as a stationary and reloadable turret (Max: 1). Sheila now has an increased angle of 180 degrees, but ammo drains from the pip charge with each use.",
       "cooldown": "90 seconds"
     }
-  },"tactics": {
+  },
+  "tactics": {
     "playstyle": "The team's bastion. Rampart requires anticipation to place her amped covers. She heavily punishes anyone who dares cross her in the open, and Sheila melts doors and shields alike.",
     "weapons": [
       {
@@ -61,98 +62,5 @@
         }
       }
     }
-  },
-  "patch_history": [
-    {
-      "patch": "Season 27 : Amped",
-      "details": [
-        "[Passive] Buff -> Battle Modder: adds additional effect to old passive (Modded Loader). Cover walls permanently gain health as Rampart gains Evo Levels.",
-        "[Tactical] Buff -> Amped Cover: adds amped shield roof to wall, walls can now be charged by doing damage through the amped shield or by having the wall be damaged by enemies. Wall charge is converted to a speed boost by going over the wall - Wall can store up to 300 damage, which results in a 15 second speed boost at full charge. Speed boost time scales linearly with stored charge.",
-        "[Perks] Adjust -> Upgrades: Level 2 - Combat reserve: Bigger ammo stacks, extra grenades slots, access red weapon supply bins, Locked and Loaded: gain faster reloads and infinite ammo when behind amped cover and shield is in tact; Level 3 - Rebuild Module. Amped cover will regen health and rebuild shield section after not being damaged for a period of time."
-      ]
-    },
-    {
-      "patch": "Season 22 : Shockwave",
-      "details": [
-        "[Passive] Buff -> Sheila : ammo drains from pip charge with use",
-        "[Passive] Nerf -> Maximum number of place turrets allowed is now 1"
-      ]
-    },
-    {
-      "patch": "Season 16 : Revelry",
-      "details": [
-        "[Passive] Buff -> Gunner's Mate: increased shield size and duration.",
-        "[Tactical] Adjust -> Dome Shield: increased dome health but reduced dome size."
-      ]
-    },
-    {
-      "patch": "Season 13 : Saviors",
-      "details": [
-        "[Passive] Nerf -> Gunner's Badge : reduced damage reduction.",
-        "[Ultimate] Buff -> Dome Shield : increased shield duration."
-      ]
-    },
-    {
-      "patch": "Season 11 : Escape",
-      "details": [
-        "[Passive] Buff -> Gun Shield now blocks more damage and has a longer duration",
-        "[Ultimate] Adjust -> Dome Shield: reduced the number of shields, but increased their damage absorption"
-      ]
-    },
-    {
-      "patch": "Season 9 : Legacy",
-      "details": [
-        "[Passive] Buff -> La défense a été renforcée.",
-        "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge."
-      ]
-    },
-    {
-      "patch": "Season 8 : Mayhem",
-      "details": [
-        "[Amped Cover] Fix -> Explosives damage Amped Cover normally, instead of inflicting 200 damage.",
-        "[Emplaced Minigun Sheila] Fix -> Explosives damage Sheila normally, instead of inflicting 175 damage.",
-        "[Emplaced Minigun Sheila] Fix -> Can no longer be used to get under the world when placed too close to the Phase Runner in Olympus.",
-        "[Emplaced Minigun Sheila] Buff -> Increased angle from 120° to 180°.",
-        "[Emplaced Minigun Sheila] Fix -> Can no longer be placed on Launch Pads in Octane's Gauntlet.",
-        "[Amped Cover] Buff -> Increased HP while building from 1 to 45 (sniper rounds still pierce through).",
-        "[Modded Loader] Fix -> Fixed an issue with it persisting even after changing characters in the Firing Range."
-      ]
-    },
-    {
-      "patch": "Season 7 : Ascension",
-      "details": [
-        "Fixed an issue with the Gold Standard skin having discolored teeth.",
-        "Amped Cover: Decreased cooldown from 30 seconds to 20 seconds.",
-        "Emplaced Minigun \"Sheila\":",
-        "Fixed an issue that allowed Rampart to place Sheila while in the Phase Runner.",
-        "Fix an issue where UI elements stayed on screen after using Sheila.",
-        "Amped Cover: Fixed an issue with the walls at the feet of the players on the train killing them.",
-        "Emplaced Minigun \"Sheila\": Fixed an issue with the turret on a Trident causing crashes. This ability is now re-enabled for use on the vehicle.",
-        "Emplaced Minigun \"Sheila\":",
-        "Fixed an issue with being able to put the turret on Crypto’s Surveillance Drone.",
-        "Temporarily disabled the ability to put the turret on the Trident to fix a bug causing crashes.",
-        "Amped Cover:",
-        "Build time decreased from 4 seconds to 3 seconds.",
-        "Fixed an issue with Rampart not being able to place a wall while jumping.",
-        "Emplaced Minigun \"Sheila\":",
-        "Spin-up time decreased from 2 seconds to 1.25 seconds.",
-        "Fixed an issue with Sheila teleporting when placed on a hatch in World's Edge Staging."
-      ]
-    },
-    {
-      "patch": "Season 6 : Boosted",
-      "details": [
-        "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée.",
-        "[Perks] Adjust -> Gunner's Mate : réduction du temps de recharge.",
-        "[Ultimate] Nerf -> Dome Shield : réduction de la zone de protection."
-      ]
-    },
-    {
-      "patch": "Season 3 : Meltdown",
-      "details": [
-        "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée.",
-        "[Perks] Adjust -> Gunner's Mate : réduction du temps de recharge."
-      ]
-    }
-  ]
+  }
 }

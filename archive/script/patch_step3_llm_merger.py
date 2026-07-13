@@ -12,10 +12,44 @@ try:
 except ImportError:
     HAS_JSON_REPAIR = False
 
+LEGENDS_DIR = "public/data/legends"
 SEASONS_DIR = "src/data/seasons"
 DEBUG_DIR = "debug"
 
 LM_STUDIO_URL = "http://localhost:1234/v1/chat/completions"
+
+def get_all_legends_context():
+    context = {}
+    if not os.path.exists(LEGENDS_DIR): return context
+    
+    for filename in os.listdir(LEGENDS_DIR):
+        if not filename.endswith('.json'): continue
+        filepath = os.path.join(LEGENDS_DIR, filename)
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                name = data.get('name', filename.replace('.json', '').capitalize())
+                abilities = data.get('abilities', {})
+                tactics = data.get('tactics', {})
+                perks = tactics.get('perks', {})
+                
+                context[name] = {
+                    "passive": abilities.get("passive", {}).get("name", "Unknown"),
+                    "tactical": abilities.get("tactical", {}).get("name", "Unknown"),
+                    "ultimate": abilities.get("ultimate", {}).get("name", "Unknown")
+                }
+                
+                perk_names = []
+                for level, choices in perks.items():
+                    for choice_key, choice_data in choices.items():
+                        if "name" in choice_data:
+                            perk_names.append(choice_data["name"])
+                
+                if perk_names:
+                    context[name]["perks"] = perk_names
+        except Exception:
+            pass
+    return context
 
 def load_json(filepath):
     if not os.path.exists(filepath): return None
@@ -37,7 +71,7 @@ def call_llm(messages, temperature=0.1):
     payload = {
         "messages": messages,
         "temperature": temperature,
-        "max_tokens": 8192,
+        "max_tokens": 2000,
         "stream": False
     }
     
@@ -77,38 +111,54 @@ def _parse_json_with_fallback(json_str):
                 pass
         raise e
 
-def merge_season_patches(season_name, target_start, target_end, ea_text, wiki_text):
+def merge_season_patches(season_name, target_start, target_end, ea_text, wiki_text, legends_context_dict):
     sys_prompt = f"""You are an expert game data analyst for Apex Legends.
 Your task is to analyze raw patch notes from EA and the Wiki for a specific season, and merge them into a strict, structured JSON format.
 
 INSTRUCTIONS:
-1. STRICT TIMEFRAME RULE: ONLY include patches published between {target_start.date()} and {target_end.date()}. Do NOT include patches from the next season. This is the exact same rule used by the scraper.
-2. Extract ALL legend ability/perk changes (Buffs, Nerfs, Adjusts, Fixes).
-3. CLASSIFICATION BY ABILITY NAME: You must classify changes as [Passive], [Tactical], or [Ultimate] by recognizing the ACTUAL IN-GAME NAME of the ability (e.g., if you see "Double Time" for Bangalore, you must know it is her [Passive]). Early patch notes do not explicitly say "Passive", so rely on your Apex Legends knowledge to identify them from the ability names.
-4. CLASSIFYING PERKS: The word "Upgrades" in the patch notes explicitly means "Perks". If a change modifies a Legend Upgrade/Perk (added in Season 20), classify it as [Perks]. You MUST recognize it by the word "Upgrades", the actual NAME of the upgrade, or the level (e.g., "Level 2"). Do NOT classify something as a Perk just because the word "perk" appears in older patch notes (e.g. the old "Low Profile" or "Fortified" traits), those are [Base] or [Passive] traits.
-5. Merge the data from EA and the Wiki to avoid duplicates.
-6. Group the changes by Legend name.
-7. Format the output STRICTLY as a JSON object containing a "patches" key. 
+1. STRICT TIMEFRAME RULE: ONLY include patches published between {target_start.date()} and {target_end.date()}. Do NOT include patches from the next season.
+2. Extract ALL legend ability/perk changes. Possible actions are: Buff, Nerf, Adjust, Fix, New, Rework.
+3. CLASSIFICATION: You must classify changes EXACTLY as [Passive], [Tactical], [Ultimate], [Perks], or [Base].
+   To do this, use the provided LEGENDS ABILITIES DICTIONARY. Find the name of the ability in the dictionary to know exactly what category it belongs to! Do not guess!
+4. REMOVE THE ABILITY NAME FROM THE TAG: Do not output "[Ability Name] Buff". The tag must be strictly the category. Format the text IN ENGLISH as: `[Category] Action -> Ability Name: Description of what changed.`
+5. "INTRODUCED" vs "REWORK": If a patch says a legend was released, format it EXACTLY as: `[Base] Introduced -> Legend released this season.`
+   HOWEVER, if it is a major REWORK (like Revenant in Season 18 or Lifeline in Season 22), do NOT use "Introduced". Instead, use `[Base] Rework -> Legend was completely reworked this season.` or `[Category] Rework -> Ability Name: (description)`.
+6. CLASSIFYING PERKS: The word "Upgrades" or "Level 2/3" explicitly means "Perks". If a change modifies a Legend Upgrade/Perk, classify it as [Perks].
+7. Format the output STRICTLY as a JSON object containing a "patches" key. Group changes by Legend name.
+8. ALL OUTPUT TEXT MUST BE IN ENGLISH.
 
 EXPECTED FORMAT:
 {{
   "patches": {{
     "Ballistic": [
       {{
-        "patch": "Nom du patch (ex: Saison X, ou Takeover)",
+        "patch": "Patch Name (e.g. Season 18 Patch)",
         "details": [
-          "[Base] Buff -> Le niveau de base a été amélioré.",
-          "[Passive] Nerf -> Double Time : réduction de vitesse.",
-          "[Ultimate] Buff -> L'ultime accorde un bonus de vitesse.",
-          "[Perks] Adjust -> [Nom du Perk] : description du changement."
+          "Introduced -> Legend released this season.",
+          "Rework -> Legend was completely reworked this season.",
+          "[Passive] Nerf -> Double Time: Movement speed reduced.",
+          "[Ultimate] Rework -> Forged Shadows: Replaced previous ultimate.",
+          "[Tactical] New -> Shadow Pounce: New ability added.",
+          "[Perks] Adjust -> Perk Name: Description of the change."
         ]
       }}
     ]
   }}
 }}
 """
+    
+    # Filter the context dictionary to only include legends mentioned in the text to save tokens
+    combined_text = (ea_text + " " + wiki_text).lower()
+    relevant_context = {
+        name: data for name, data in legends_context_dict.items()
+        if name.lower() in combined_text
+    }
+    
     user_prompt = f"""Target Season: {season_name}
 Valid Timeframe: {target_start.date()} to {target_end.date()}
+
+--- LEGENDS ABILITIES DICTIONARY ---
+{json.dumps(relevant_context, indent=2)}
 
 --- EA RAW DATA ---
 {ea_text if ea_text.strip() else "No EA data found."}
@@ -137,8 +187,11 @@ Please output ONLY the merged JSON object."""
         return None
 
 def main():
+    legends_context_dict = get_all_legends_context()
+    
     for filename in os.listdir(SEASONS_DIR):
         if not filename.endswith('.json'): continue
+        
         season_file = os.path.join(SEASONS_DIR, filename)
         season_id = filename.replace('season_', '').replace('.json', '')
         
@@ -174,7 +227,7 @@ def main():
                 wiki_text = f.read()
                 
         print(f"[Step 3 - LLM Merge] Merging EA and Wiki data for Season {season_id}...")
-        merged_data = merge_season_patches(season_data.get("name"), target_start, target_end, ea_text, wiki_text)
+        merged_data = merge_season_patches(season_data.get("name"), target_start, target_end, ea_text, wiki_text, legends_context_dict)
         
         if not merged_data or not isinstance(merged_data, dict):
             print(f"[FAILED] LLM failed to return a valid JSON object for Season {season_id}.\n")

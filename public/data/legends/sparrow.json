@@ -62,19 +62,5 @@
         }
       }
     }
-  },
-  "patch_history": [
-    {
-      "patch": "Season 26 : Showdown",
-      "details": [
-        "[Tactical] Adjust -> Tracker Dart: tracking duration now 12s (was 15)"
-      ]
-    },
-    {
-      "patch": "Season 25 : Prodigy",
-      "details": [
-        "Introduced."
-      ]
-    }
-  ]
+  }
 }

@@ -62,31 +62,5 @@
         }
       }
     }
-  },
-  "patch_history": [
-    {
-      "patch": "Season 20 : Breakout",
-      "details": [
-        "[Tactical] Buff -> Focus of Attention: decreased activation delay to 1.2s (was 1.4).",
-        "[Perks] New -> Ultimate Cooldown: reduces Ult Cooldown by 30s"
-      ]
-    },
-    {
-      "patch": "Season 17 : Arsenal",
-      "details": [
-        "[Passive] Nerf -> Range reduced to 50m.",
-        "[Passive] Buff -> Significantly reduced.",
-        "[Tactical] Nerf -> Range reduced to 60m.",
-        "[Tactical] Buff -> Firing speed increased (~30% faster).",
-        "[Tactical] Fix -> Removed Heal Cancel, Revive Cancel, and Respawn Beacon Interaction Interrupt.",
-        "[Tactical] Nerf -> Scan Time reduced to 2.5s (was 8s).",
-        "[Tactical] Adjust -> Includes full body highlight.",
-        "[Tactical] New -> Slowed for 2.5s.",
-        "[Tactical] Buff -> Silence Time increased to 10s (was 1.75).",
-        "[Tactical] Buff -> Highlighted with threat outline to Seer and his teammates when in line of sight.",
-        "[Ultimate] Nerf -> Throw range reduced to ~15m (was ~50m).",
-        "[Ultimate] Nerf -> Removed Diamond Scan Markers on Enemy Movement. Only shows footsteps of players moving in the zone. Only appear with enemy gunfire for 1.25s."
-      ]
-    }
-  ]
+  }
 }

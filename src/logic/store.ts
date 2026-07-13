@@ -80,11 +80,25 @@ export interface LegendDetails {
 }
 
 export const currentLegendDetails = ref<LegendDetails | null>(null);
+export const currentLegendPatchHistory = ref<any[]>([]);
 export const isLoadingLegendDetails = ref(false);
+
+const seasonModules = import.meta.glob('../data/seasons/*.json');
+
+function parseSeasonSortKey(path: string): number[] {
+    const match = path.match(/season_(\d+)(?:_(\d+))?\.json$/);
+    if (match) {
+        const major = parseInt(match[1]);
+        const minor = match[2] ? parseInt(match[2]) : 0;
+        return [major, minor];
+    }
+    return [0, 0];
+}
 
 export async function loadLegendDetails(legendName: string) {
     isLoadingLegendDetails.value = true;
     currentLegendDetails.value = null;
+    currentLegendPatchHistory.value = [];
     
     const formattedName = legendName.toLowerCase().replace(/ /g, '_');
     try {
@@ -94,6 +108,54 @@ export async function loadLegendDetails(legendName: string) {
         } else {
             console.error(`Failed to load details for ${legendName}`);
         }
+
+        // Dynamically build patch history from seasons
+        const history: any[] = [];
+        for (const path in seasonModules) {
+            const mod: any = await seasonModules[path]();
+            const seasonData = mod.default || mod;
+            
+            // To handle casing differences, we check case-insensitively
+            const legendKey = Object.keys(seasonData.patches || {}).find(
+                k => k.toLowerCase() === legendName.toLowerCase()
+            );
+
+            if (legendKey && seasonData.patches[legendKey]) {
+                const combined_details: string[] = [];
+                for (const patchEvent of seasonData.patches[legendKey]) {
+                    if (patchEvent.details) {
+                        combined_details.push(...patchEvent.details);
+                    }
+                }
+
+                if (combined_details.length > 0) {
+                    const seasonStr = String(seasonData.season || '');
+                    const baseSeason = seasonStr.split('_')[0];
+                    const isMidSeason = seasonStr.endsWith('_2');
+                    
+                    const patchName = isMidSeason 
+                        ? `Season ${baseSeason} : ${seasonData.name} (Midseason)`
+                        : `Season ${baseSeason} : ${seasonData.name}`;
+
+                    history.push({
+                        patch: patchName,
+                        details: combined_details,
+                        _sortKey: parseSeasonSortKey(path)
+                    });
+                }
+            }
+        }
+
+        // Sort descending (newest first)
+        history.sort((a, b) => {
+            if (a._sortKey[0] !== b._sortKey[0]) {
+                return b._sortKey[0] - a._sortKey[0];
+            }
+            return b._sortKey[1] - a._sortKey[1];
+        });
+
+        currentLegendPatchHistory.value = history;
+
     } catch (e) {
         console.error(`Error loading details for ${legendName}`, e);
     } finally {

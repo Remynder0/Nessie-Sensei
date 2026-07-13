@@ -62,57 +62,5 @@
         }
       }
     }
-  },
-  "patch_history": [
-    {
-      "patch": "Season 29 : Overclocked",
-      "details": [
-        "[Passive] Adjust -> New Effect: If Savior’s Speed is active when sprinting toward a Skirmisher, gain an additional 5% movement speed",
-        "[Tactical] Nerf -> Decreased Regen Duration from 9s to 6s",
-        "[Tactical] Nerf -> Decreased Regen from 20/s to 15/s",
-        "[Perks] Buff -> Cooldown adjusted to 27s"
-      ]
-    },
-    {
-      "patch": "Season 25 : Prodigy",
-      "details": [
-        "[Tactical] Buff -> Radiant Transfer - Reduce cooldown to 21s (was 31s, Previous Hotfix)",
-        "[Tactical] Buff -> Radiant Transfer - Reduce recharge delay after damage to 1s (was 2s)",
-        "[Base] Fix -> fixed crash with Passive when allies disconnected in certain states"
-      ]
-    },
-    {
-      "patch": "Season 23 : From the Rift",
-      "details": [
-        "[Passive] Buff -> Savior’s Speed : now works on ally Death Boxes and crafters when a banner can be retrieved, now works on Respawn Beacons and Mobile Respawn Beacons when carrying an ally banner, now works without min range limit on downed allies.",
-        "[Perks] Adjust -> Battpack : in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
-      ]
-    },
-    {
-      "patch": "Season 21 : Upheaval",
-      "details": [
-        "[Tactical] Nerf -> Radiant Transfer: Can no longer target a Revenant while Forged Shadows is active"
-      ]
-    },
-    {
-      "patch": "Season 20 : Breakout",
-      "details": [
-        "[Passive] Buff -> Radiant Transfer Cooldown Increased to 31s (was 26).",
-        "[Perks] Adjust -> Radiant Flash Cooldown increased to 26s (was 21s).",
-        "[Passive] Buff -> Temporary Shield generation rate decreased to 15HP/s (was 20HP/s)"
-      ]
-    },
-    {
-      "patch": "Season 19 : Ignite",
-      "details": [
-        "[Base] Buff -> Conduit is having fun because she *knows* the Apex Games."
-      ]
-    },
-    {
-      "patch": "Season 18 : Resurrection",
-      "details": [
-        "[Base] Buff -> Conduit is having fun because she *knows* the Apex Games."
-      ]
-    }
-  ]
+  }
 }

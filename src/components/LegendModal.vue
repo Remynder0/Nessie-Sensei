@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { currentLegendDetails, isLoadingLegendDetails } from '../logic/store'
+import { currentLegendDetails, isLoadingLegendDetails, currentLegendPatchHistory } from '../logic/store'
 
 const emit = defineEmits(['close'])
 
@@ -47,6 +47,9 @@ const getPatchTypeClass = (type: string) => {
     if (t.includes('nerf')) return 'text-apex-red border-apex-red/30 bg-apex-red/10';
     if (t.includes('adjust') || t.includes('ajust')) return 'text-titan-cyan border-titan-cyan/30 bg-titan-cyan/10';
     if (t.includes('fix') || t.includes('corr')) return 'text-yellow-400 border-yellow-400/30 bg-yellow-400/10';
+    if (t.includes('rework')) return 'text-fuchsia-400 border-fuchsia-400/30 bg-fuchsia-400/10';
+    if (t.includes('new')) return 'text-blue-400 border-blue-400/30 bg-blue-400/10';
+    if (t.includes('introduced') || t.includes('intro')) return 'text-titan-orange border-titan-orange/30 bg-titan-orange/10';
     return 'text-gray-400 border-gray-400/30 bg-gray-400/10';
 };
 </script>
@@ -228,7 +231,7 @@ const getPatchTypeClass = (type: string) => {
 
                 <!-- PATCH HISTORY TAB CONTENT -->
                 <template v-else-if="activeModalTab === 'patch'">
-                    <div v-if="!currentLegendDetails.patch_history || currentLegendDetails.patch_history.length === 0" class="flex-1 p-8 md:p-12 flex items-center justify-center text-gray-500 font-mono text-center">
+                    <div v-if="!currentLegendPatchHistory || currentLegendPatchHistory.length === 0" class="flex-1 p-8 md:p-12 flex items-center justify-center text-gray-500 font-mono text-center">
                         Aucun historique de patch.
                     </div>
                     <div v-else class="p-8 md:p-10 flex-1 bg-black/60">
@@ -236,7 +239,7 @@ const getPatchTypeClass = (type: string) => {
                             <span class="w-1.5 h-1.5 bg-gray-400 block"></span> {{ $t('legends.patchHistory') }}
                         </h3>
                         <div class="space-y-6">
-                            <div v-for="patch in currentLegendDetails.patch_history" :key="patch.patch" class="border-l-2 border-titan-border/50 pl-4 py-1">
+                            <div v-for="patch in currentLegendPatchHistory" :key="patch.patch" class="border-l-2 border-titan-border/50 pl-4 py-1">
                                 <h4 class="font-bold text-titan-cyan font-mono text-sm uppercase tracking-wider mb-3">{{ patch.patch }}</h4>
                                 <ul class="space-y-2.5 text-gray-400 text-sm">
                                     <li v-for="(detail, i) in patch.details" :key="i" class="leading-relaxed flex flex-col md:flex-row md:items-start gap-1.5 md:gap-3">

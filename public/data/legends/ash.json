@@ -62,45 +62,5 @@
         }
       }
     }
-  },
-  "patch_history": [
-    {
-      "patch": "Season 29 : Overclocked",
-      "details": [
-        "[Passive] Buff -> Cooldown from 12s to 10s",
-        "[Passive] Buff -> Velocity from 425 to 450"
-      ]
-    },
-    {
-      "patch": "Season 26 : Showdown",
-      "details": [
-        "[Passive] Nerf -> Predator's Pursuit: dash cooldown increased to 12s.",
-        "[Tactical] Adjust -> Arc Snare: breaks more easily, base duration now 6s."
-      ]
-    },
-    {
-      "patch": "Season 25 : Prodigy",
-      "details": [
-        "[Passive] Buff -> Passive: decreased dash cooldown to 8s (was 10s)",
-        "[Perks] Adjust -> Upgrades: Level 2 - Dual Breach: moved to Level 2",
-        "[Perks] Adjust -> Predator’s Pursuit: removed Death Box minimap locations/pings"
-      ]
-    },
-    {
-      "patch": "Season 24 : Takeover",
-      "details": [
-        "[Passive] Buff -> Predator's Pursuit: added omnidirectional short-range dash.",
-        "[Tactical] Buff -> Arc Snare: tether plants at location of projectile on impact, slightly harder to break and no longer gets instantly broken by some abilities.",
-        "[Tactical] Buff -> Phase Breach: range increased to 100m, travel time reduced, improved reliability of placement, removed one frame delay on placement preview, now has VFX to show max range when in placement mode.",
-        "[Perks] Adjust -> Upgrades: Level 2 - Greedy Snare moved to Level 2, Dual Breach adds additional ult charge.",
-        "[Perks] Adjust -> Upgrades: Level 3 - Ghost in the Machine adds additional Dash charge."
-      ]
-    },
-    {
-      "patch": "Season 21 : Upheaval",
-      "details": [
-        "[Ultimate] Buff -> Phase Breach: inspired by some Alter tech, nearby enemies will be highlighted for players traveling through the Void"
-      ]
-    }
-  ]
+  }
 }

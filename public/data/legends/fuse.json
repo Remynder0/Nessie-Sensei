@@ -62,51 +62,5 @@
         }
       }
     }
-  },
-  "patch_history": [
-    {
-      "patch": "Season 29 : Overclocked",
-      "details": [
-        "[Base] Fix -> Fixed Motherload not properly penetrating some Legend abilities."
-      ]
-    },
-    {
-      "patch": "Season 28 : Breach",
-      "details": [
-        "[Passive] Buff -> Fuse is no longer slowed when taking explosive damage",
-        "[Tactical] Buff -> Faster weapon stow time when switching to the tactical, Flattened the trajectory to make tap-firing more accurate, Reduced delay before explosions start up (was 1.7s, now 1.0s), Increased base damage (was 10, now 15), Reduced the duration by 50%",
-        "[Ultimate] Buff -> Fires a mortar that explodes against the ground, then sprays out smaller bombs around its landing point"
-      ]
-    },
-    {
-      "patch": "Season 22 : Shockwave",
-      "details": [
-        "[Passive] Nerf -> Hard capped the max radius of the scan area to be 450.",
-        "[Passive] Fix -> Disallowed mortar targeting on multiple objects within the players control"
-      ]
-    },
-    {
-      "patch": "Season 21 : Upheaval",
-      "details": [
-        "[Ultimate] Buff -> Big Bang: removed, replaced by Ring Master: gain access to Ring Consoles"
-      ]
-    },
-    {
-      "patch": "Season 20 : Breakout",
-      "details": [
-        "[Perks] Nerf -> Wreckless: explosive damage is now reduced by 50% (was 25%)."
-      ]
-    },
-    {
-      "patch": "Season 8 : Mayhem",
-      "details": [
-        "[Knuckle Cluster] Fix -> Fixed an issue that allowed it to do damage through shields.",
-        "[The Motherlode] Buff -> The Motherlode: Now damages and destroys Launch Pads.",
-        "[The Motherlode] Buff -> When under a small enclosure, players will no longer be pushed out after using it.",
-        "[Double Grenades] Nerf -> Players can no longer double their grenades after looting a dead Fuse’s Death Box.",
-        "[The Motherlode] Buff -> Now damages and destroys Launch Pads.",
-        "[The Motherlode] Buff -> When under a small enclosure, players will no longer be pushed out after using it."
-      ]
-    }
-  ]
+  }
 }

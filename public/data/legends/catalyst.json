@@ -62,29 +62,5 @@
         }
       }
     }
-  },
-  "patch_history": [
-    {
-      "patch": "Season 28 : Breach",
-      "details": [
-        "[Passive] Buff -> Can now reinforce up to 4 doors.",
-        "[Tactical] Buff -> Flattened the trajectory, slightly lowered the pitch, and increased the overall range, Increased size by roughly 50%, Reduced the delay before spikes can deal damage (was 2s, now 1s), Can now have 3 traps maximum (was 2)",
-        "[Tactical] Buff -> Flattened the trajectory, slightly lowered the pitch, and increased the overall range, Increased size by roughly 50%, Reduced the delay before spikes can deal damage (was 2s, now 1s), Can now have 3 traps maximum (was 2)"
-      ]
-    },
-    {
-      "patch": "Season 21 : Upheaval",
-      "details": [
-        "[Ultimate] Buff -> Piercing Spikes: cooldown decreased to 20s (was 25s)",
-        "[Perks] Adjust -> Upgrades: NEW Ferro-Door: fully rebuild and reinforce missing doors with Passive"
-      ]
-    },
-    {
-      "patch": "Season 13 : Saviors",
-      "details": [
-        "[Perks] Adjust -> Catalyst's Perk has been adjusted.",
-        "[Base] Buff -> Catalyst's base health has been increased."
-      ]
-    }
-  ]
+  }
 }

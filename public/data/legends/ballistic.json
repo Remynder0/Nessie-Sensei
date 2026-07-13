@@ -62,54 +62,5 @@
         }
       }
     }
-  },
-  "patch_history": [
-    {
-      "patch": "Season 25 : Prodigy",
-      "details": [
-        "[Tactical] Nerf -> Whistler - Damage on activation reduced to 15 (was 20)",
-        "[Tactical] Nerf -> Whistler - Damage from overheat reduced to 15 (was 30, Previous Hotfix)",
-        "[Ultimate] Fix -> Removed time extension from knocks"
-      ]
-    },
-    {
-      "patch": "Season 24 : Takeover",
-      "details": [
-        "[Base] Buff -> Sling now upgrades with Level by default, can now carry Crate Weapons and they will gain infinite ammo with Ult.",
-        "[Tactical] Buff -> Whistler: Tac now has 2 charges, overheat reaction time increased to 1.2s, Smart Bullet on ground damage increased to 20.",
-        "[Ultimate] Buff -> Tempest: squad gains a speed boost when empowered by Ult.",
-        "[Perks] Adjust -> Upgrades: Level 2 - Killing Time increases duration of Ult by 15s.",
-        "[Perks] Adjust -> Upgrades: Level 3 - Extra Bullets doubles the number of Tac charges, Quiet Time: Overheat now also silences enemy for 6s."
-      ]
-    },
-    {
-      "patch": "Season 22 : Shockwave",
-      "details": [
-        "[Passive] Buff -> Whistler: lock-on time decreased to 0.1s."
-      ]
-    },
-    {
-      "patch": "Season 21 : Upheaval",
-      "details": [
-        "[Passive] Nerf -> Whistler: duration of speedy whistler restored to 2s",
-        "[Perks] Buff -> Whistler: damage from a planted smart bullet increased to 10 (was 5)",
-        "[Perks] Adjust -> Upgrades: NEW Sling-Shot: improves Ballistic’s base sling weapon to a blueset at Level 2 and a purpleset at Level 3"
-      ]
-    },
-    {
-      "patch": "Season 20 : Breakout",
-      "details": [
-        "[Base] Nerf -> Lock-on will be more reliable in close range.",
-        "[Passive] Buff -> No longer generates ammo when swapping weapon from sling in the inventory.",
-        "[Perks] Adjust -> Sling Weapons now have all White attachments while equipped.",
-        "[Perks] Adjust -> Tempest: effect radius for ally range has been increased to 90m (was 13m)"
-      ]
-    },
-    {
-      "patch": "Season 17 : Arsenal",
-      "details": [
-        "[Base] Buff -> Introduced."
-      ]
-    }
-  ]
+  }
 }

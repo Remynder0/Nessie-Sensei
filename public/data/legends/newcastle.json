@@ -62,40 +62,5 @@
         }
       }
     }
-  },
-  "patch_history": [
-    {
-      "patch": "Season 29 : Overclocked",
-      "details": [
-        "[Base] Fix -> Fixed the ultimate slam not destroying Catalyst’s reinforcements on an empty door frame."
-      ]
-    },
-    {
-      "patch": "Season 27 : Amped (Midseason)",
-      "details": [
-        "[Passive] Buff -> Incorporate Heroes Hustle into base kit. Movement speed penalty reduced from 25% to 75%",
-        "[Tactical] Buff -> Incorporate Swift Shield into base kit. Movement speed increased from 160 to 250.",
-        "[Perks] Adjust -> Two new upgrades to replace Swift Shield and Heroes Hustle: Stronghold, Ready To Rumble, Defensive Line"
-      ]
-    },
-    {
-      "patch": "Season 24 : Takeover",
-      "details": [
-        "[Ultimate] Fix -> Ult no longer canceled by Ash’s snare"
-      ]
-    },
-    {
-      "patch": "Season 23 : From the Rift",
-      "details": [
-        "[Passive] Buff -> Mobile Shield : no longer takes damage, can now be repositioned even when Newcastle is downed",
-        "[Perks] Adjust -> Retrieve the Wounded : revive Shield HP/Tier increased by +50%"
-      ]
-    },
-    {
-      "patch": "Season 21 : Upheaval",
-      "details": [
-        "[Passive] Buff -> Castle Wall: will now destroy incoming projectiles headed towards the front of the wall while energized"
-      ]
-    }
-  ]
+  }
 }
