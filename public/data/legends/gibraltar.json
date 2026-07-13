@@ -169,44 +169,5 @@
         "[Base] Buff -> Gun Shield: Patched up the hole we found in the shield."
       ]
     }
-  ],
-  "tactics": {
-    "playstyle": "The team's shield. Gibraltar is an immovable fortress that excels in long-range poke fights thanks to his gun shield. His dome provides vital emergency protection in open areas.",
-    "weapons": [
-      {
-        "id": "mastiff_shotgun",
-        "name": "Mastiff"
-      },
-      {
-        "id": "hemlok_burst_ar",
-        "name": "Hemlok"
-      }
-    ],
-    "perks": {
-      "level_2": {
-        "left": {
-          "name": "Thunder Dome",
-          "description": "Reduces damage taken by 10.",
-          "recommended": false
-        },
-        "right": {
-          "name": "Dome Healing",
-          "description": "Increases movement speed and reduces reload time.",
-          "recommended": true
-        }
-      },
-      "level_3": {
-        "left": {
-          "name": "Triple Bombardment",
-          "description": "Increases health regeneration and reduces damage taken by 15.",
-          "recommended": true
-        },
-        "right": {
-          "name": "Fast Shotties",
-          "description": "Donné manquante",
-          "recommended": false
-        }
-      }
-    }
-  }
+  ]
 }

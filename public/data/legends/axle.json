@@ -40,36 +40,29 @@
       "level_2": {
         "left": {
           "name": "Super slider",
-          "description": "",
+          "description": "-5s Tactical cooldown; +1 max in-world count.",
           "recommended": false
         },
         "right": {
           "name": "Automata",
-          "description": "",
+          "description": "Gain a second Ultimate charge.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Jump gate",
-          "description": "",
+          "description": "Upgrade Tactical to give double jump.",
           "recommended": true
         },
         "right": {
           "name": "Sliding shooter",
-          "description": "",
+          "description": "Bullet shot while sliding come straight from the inventory instead of magazine.",
           "recommended": false
         }
       }
     }
   },
   "patch_history": [
-    {
-      "patch": "Season 29 : Overclocked",
-      "details": [
-        "[Passive] Buff -> Drift : Increased control while sliding.",
-        "[Tactical] Adjust -> Nitro Gate : Stepping into a Nitro Gate forces users into a speedy slide, where they have greatly increased velocity and lateral control."
-      ]
-    }
   ]
 }

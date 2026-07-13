@@ -40,24 +40,24 @@
       "level_2": {
         "left": {
           "name": "Taste of Blood",
-          "description": "",
+          "description": "Gain 50HP on knock while ultimate is active.",
           "recommended": false
         },
         "right": {
           "name": "Raven's flight",
-          "description": "Increases the duration of tracker.",
+          "description": "Raven finds enemies at twice the range.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Tactical Cooldown",
-          "description": "Reduces the cooldown of Eye of the Allfather.",
+          "description": "Tactical activates faster and has -5s cooldown.",
           "recommended": true
         },
         "right": {
           "name": "Long Hunt",
-          "description": "Extends the duration of Beast of the Hunt when a knock is made.",
+          "description": "Doubles the duration of Tactical full-body highlight.",
           "recommended": false
         }
       },

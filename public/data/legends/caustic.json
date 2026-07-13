@@ -9,8 +9,8 @@
   },
   "abilities": {
     "passive": {
-      "name": "Nox Vision",
-      "description": "Gain extra upgrade points by causing damage with gas, opening deathboxes and scanning ring consoles. Nox Gas now deals 10-15 damage per tick, causes aim punch, and increases visibility.",
+      "name": "Gas Fighter",
+      "description": "Gain extra upgrade points by causing damage with gas, opening deathboxes and scanning ring consoles.",
       "cooldown": ""
     },
     "tactical": {
@@ -40,24 +40,24 @@
       "level_2": {
         "left": {
           "name": "Extra Traps",
-          "description": "",
+          "description": "Gain aditionnal tactital charge and +2 traps in world.",
           "recommended": false
         },
         "right": {
           "name": "Breath it in",
-          "description": "Upgrades Level 2 description changed.",
+          "description": "Regenerate health while in your Gas.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Particle Diffuser",
-          "description": "",
+          "description": "Increase Ultimate area of effect by 50%.",
           "recommended": true
         },
         "right": {
           "name": "Gas Fighter",
-          "description": "",
+          "description": "tactical recharge 300% faster while in your Gas.",
           "recommended": false
         }
       }

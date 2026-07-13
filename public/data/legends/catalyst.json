@@ -40,24 +40,24 @@
       "level_2": {
         "left": {
           "name": "Hidden Spikes",
-          "description": "Donnée manquante, but now it's not entirely unknown.",
+          "description": "Spikes are hidden while dormant.",
           "recommended": false
         },
         "right": {
           "name": "Sole piercer",
-          "description": "Donnée manquante, but now it's not entirely unknown.",
+          "description": "Faster activation and more damage of piercing spikes.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Fero-door",
-          "description": "Fully rebuild and reinforce missing doors with Passive.",
+          "description": "Reinforce and repair doors with Passive.",
           "recommended": true
         },
         "right": {
           "name": "Resident veil",
-          "description": "Donnée manquante, but now it's not entirely unknown.",
+          "description": "Increased duration of Ultimate by 5 seconds.",
           "recommended": false
         }
       }

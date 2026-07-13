@@ -40,24 +40,24 @@
       "level_2": {
         "left": {
           "name": "Battpack",
-          "description": "",
+          "description": "+1 Shield Battery stack limit. Shield Battery count shown on deathbox.",
           "recommended": false
         },
         "right": {
           "name": "Bigger Jam",
-          "description": "",
+          "description": "Each Ultimate jammer's damages radius increases by 10%.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Instant Barrier",
-          "description": "",
+          "description": "Gain a portion of Radiant Transfer's shield regen instantly, but regen duration is reduced.",
           "recommended": true
         },
         "right": {
           "name": "Enduring Barrier",
-          "description": "",
+          "description": "Radiant Transfer's shield regen persists through taking damage.",
           "recommended": false
         }
       }

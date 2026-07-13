@@ -40,24 +40,24 @@
       "level_2": {
         "left": {
           "name": "Electric Smoke",
-          "description": "",
+          "description": "Electrify Tactical deal 100 damage to enemy ultimates and destroy Tactical.",
           "recommended": false
         },
         "right": {
           "name": "Cover Me!",
-          "description": "Grants a shield to nearby teammates when you're downed, and they can revive you.",
+          "description": "Allies within smoke regenerate health. Auto-ping enemies who trigger passive.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "EMC payload",
-          "description": "",
+          "description": "Electrify Ultimate dealing 10 more damage and destroy all enemy deployables.",
           "recommended": true
         },
         "right": {
           "name": "Medal of Honor",
-          "description": "Grants a 10% increase to your team's healing speed.",
+          "description": "Faster revive and trigger passive running towards knocked allies.",
           "recommended": false
         }
       }

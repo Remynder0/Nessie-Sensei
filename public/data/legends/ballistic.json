@@ -39,25 +39,25 @@
     "perks": {
       "level_2": {
         "left": {
-          "name": "Ammuvision",
-          "description": "Voit les munitions dans les deathboxes proches.",
+          "name": "Extra Bullet",
+          "description": "Gain an extra charge of Whistler.",
           "recommended": false
         },
         "right": {
-          "name": "Care Package Insight",
-          "description": "Révèle l'emplacement des packs de soutien.",
+          "name": "Trap Mode",
+          "description": "Trap will deal more damage and last longer.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
-          "name": "Extra Bullet",
-          "description": "Doubles the number of Whistler charges.",
+          "name": "Quiet Time",
+          "description": "Will no longer cause gun to overheat, but will Silence player instead. Longer Tactical cooldown.",
           "recommended": true
         },
         "right": {
-          "name": "Lasting Bullet",
-          "description": "Triple la durée du projectile Tactique posé dans l'environnement.",
+          "name": "Killing Time",
+          "description": "Increases the duration of Ultimate by 15s.",
           "recommended": false
         }
       }

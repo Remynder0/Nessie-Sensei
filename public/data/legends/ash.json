@@ -45,19 +45,19 @@
         },
         "right": {
           "name": "Longer Reach",
-          "description": "",
+          "description": "Ultimate increases range by 25m.",
           "recommended": true
         }
       },
       "level_3": {
         "left": {
           "name": "Twin Snare",
-          "description": "",
+          "description": "Gain a Tactical charge.",
           "recommended": true
         },
         "right": {
           "name": "Ghost in the Machine",
-          "description": "",
+          "description": "Tactical duration in world is tripled and can catch multiple enemies.",
           "recommended": false
         }
       }
