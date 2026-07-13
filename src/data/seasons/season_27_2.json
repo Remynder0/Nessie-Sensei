@@ -1,496 +1,500 @@
 {
-    "season": "27_2",
+  "season": "27_2",
+  "name": "Amped",
+  "start_date": "November 4, 2025",
+  "end_date": "February 10, 2026",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_27.svg?94a025",
     "name": "Amped",
-    "start_date": "November 4, 2025",
-    "end_date": "February 10, 2026",
-    "infobox": {
-        "name": "Amped",
-        "Featured map": "Olympus",
-        "Theme": "Musical Festival / Stadium Pop",
-        "Reactive weapon": "Sentinel",
-        "Start date": "November 4, 2025",
-        "End date": "February 10, 2026",
-        "Events": "Amped Seasonal Collection Amped Seasonal | Supersonic Winter Wipeout"
+    "Featured map": "Olympus",
+    "Theme": "Musical Festival / Stadium Pop",
+    "Reactive weapon": "Sentinel",
+    "Start date": "November 4, 2025",
+    "End date": "February 10, 2026",
+    "Events": [
+      "Amped Seasonal Collection Amped Seasonal",
+      "Supersonic Winter Wipeout"
+    ]
+  },
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Catalyst Arachnid Kiss",
+        "EVA-8 Auto Widow's Bite",
+        "Banner Frame Toxic Edge",
+        "Holospray Locked In",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
     },
-    "max_level": 60,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Catalyst Arachnid Kiss",
-                "EVA-8 Auto Widow's Bite",
-                "Banner Frame Toxic Edge",
-                "Holospray Locked In",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_2": {
-            "premium": [
-                "Catalyst Quip Kill Quip : One small step for me"
-            ],
-            "free": [
-                "Transition Check-In"
-            ]
-        },
-        "level_3": {
-            "premium": [
-                "Lifeline Skydive Emote Luge Groove"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Holospray Droppin' Hot"
-            ],
-            "free": []
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "Stat Tracker Cyber Kitten - Top",
-                "Stat Tracker Cyber Kitten - Middle",
-                "Stat Tracker Cyber Kitten - Bottom"
-            ],
-            "free": []
-        },
-        "level_7": {
-            "premium": [
-                "Banner Frame Triumphant Captain"
-            ],
-            "free": [
-                "Music Pack Amped Split 2"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "L-STAR EMG Resonant Wave"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_10": {
-            "premium": [
-                "Lifeline Cyber Kitten",
-                "Lifeline Midnight Lumosity +"
-            ],
-            "free": []
-        },
-        "level_11": {
-            "premium": [
-                "Sticker Rock and Roll With It",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_12": {
-            "premium": [
-                "Banner Frame Dormant Stinger"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_14": {
-            "premium": [
-                "Holospray True Mastery"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "P2020 Treacherous Crawl"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_18": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_19": {
-            "premium": [
-                "Sticker Sponsored Venom"
-            ],
-            "free": [
-                "Seer Emote A Rose For You"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Ash Scorpion Queen",
-                "Exotic Shards 10 +"
-            ],
-            "free": []
-        },
-        "level_21": {
-            "premium": [
-                "Banner Frame Wild Vibrance",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_22": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_23": {
-            "premium": [
-                "C.A.R. SMG Fancy Finish"
-            ],
-            "free": []
-        },
-        "level_24": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Holospray Eyes to the Sky"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_26": {
-            "premium": [
-                "Bloodhound Skydive Emote Natural Balance"
-            ],
-            "free": [
-                "Amped Seasonal Collection Amped Pack"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Holospray Ride or Die"
-            ],
-            "free": []
-        },
-        "level_30": {
-            "premium": [
-                "Exotic Shards 10",
-                "Hemlok Burst AR Rapid Surge"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "Apex Coins 100",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_32": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "R-99 SMG Tiger Strike"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Stat Tracker Alabaster Champion - Top",
-                "Stat Tracker Alabaster Champion - Middle",
-                "Stat Tracker Alabaster Champion - Bottom"
-            ],
-            "free": []
-        },
-        "level_34": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Transition A Future Discovery"
-            ]
-        },
-        "level_35": {
-            "premium": [
-                "R-301 Carbine Dynamic Reflection"
-            ],
-            "free": []
-        },
-        "level_36": {
-            "premium": [
-                "Banner Frame Atmospheric Entry"
-            ],
-            "free": []
-        },
-        "level_37": {
-            "premium": [
-                "Holospray Move It or Die"
-            ],
-            "free": []
-        },
-        "level_38": {
-            "premium": [
-                "Sticker Top of the Food Chain"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_39": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_40": {
-            "premium": [
-                "Bangalore Alabaster Champion",
-                "Bangalore Firestarter +"
-            ],
-            "free": []
-        },
-        "level_41": {
-            "premium": [
-                "Wraith Skydive Emote Rocket Racer",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_42": {
-            "premium": [
-                "Bangalore Quip Kill Quip : Every shot matters"
-            ],
-            "free": [
-                "Crypto Tiger Byte"
-            ]
-        },
-        "level_43": {
-            "premium": [
-                "Triple Take Lethal Wing"
-            ],
-            "free": []
-        },
-        "level_44": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_45": {
-            "premium": [
-                "Holospray One Step Ahead"
-            ],
-            "free": []
-        },
-        "level_46": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Banner Frame Winged Whirlwind"
-            ],
-            "free": []
-        },
-        "level_49": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_50": {
-            "premium": [
-                "Wraith Faded Wings"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Holospray Goin' Up"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_53": {
-            "premium": [
-                "Alter Skydive Emote Tail Dance"
-            ],
-            "free": []
-        },
-        "level_54": {
-            "premium": [
-                "Alternator SMG Serpentine Striker"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Banner Frame Champion's Ride"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_57": {
-            "premium": [
-                "Crafting Metals 200",
-                "Banner Frame Clear Vision"
-            ],
-            "free": []
-        },
-        "level_58": {
-            "premium": [
-                "Sticker Dive Speed"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_59": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_60": {
-            "premium": [
-                "Sentinel Polished Piercer"
-            ],
-            "free": []
-        }
+    "level_2": {
+      "premium": [
+        "Catalyst Quip Kill Quip : One small step for me"
+      ],
+      "free": [
+        "Transition Check-In"
+      ]
     },
-    "patches": {
-        "Octane": [
-            {
-                "patch": "Winter Wipeout Event",
-                "details": [
-                    "[Passive] Buff -> Swift Mend now heals more the less HP you have.",
-                    "[Tactical - Stim Surge] Adjust -> Added a new ability for Octane **Stim Surge**: If Octane uses his tactical again, while stim is already active, he uses a new mixture which grants him Fortified, triggers Swift Mend, and allows Swift Mend to continue healing through damage.",
-                    "[Tactical - Stim] Buff -> While stimmed, Octane can sprint and use consumables. Reduce the time before Octane can reuse his Stim from 1.8s to 0.7s. Stim speed increased by 5%",
-                    "[Ultimate] Buff -> JumpPad now has two charges. JumpPad has improved handling when double jumping.",
-                    "[Perks] Adjust -> Four new upgrades to replace all the base upgrades: Thick Skin, Squad Rush, Daredevil, Triple Jump"
-                ]
-            }
-        ],
-        "Newcastle": [
-            {
-                "patch": "Winter Wipeout Event",
-                "details": [
-                    "[Passive] Buff -> Incorporate Heroes Hustle into base kit. Movement speed penalty reduced from 25% to 75%",
-                    "[Tactical] Buff -> Incorporate Swift Shield into base kit. Movement speed increased from 160 to 250.",
-                    "[Perks] Adjust -> Two new upgrades to replace Swift Shield and Heroes Hustle: Stronghold, Ready To Rumble, Defensive Line"
-                ]
-            }
-        ],
-        "Crypto": [
-            {
-                "patch": "Winter Wipeout Event",
-                "details": [
-                    "[Passive] Buff -> Crypto gains long range Threat Vision while piloting his drone. Satellite Imagery incorporated into base kit.",
-                    "[Tactical] Adjust -> Reduced time to launch drone from 1.3 to 0.7s. Reduced time to reenter drone from 0.4 to 0.2s. Reduced animation frame that Crypto reenters drone from 7 to 2.",
-                    "[Perks] Adjust -> Two new upgrades to replace Off the Grid and Satellite Imagery: Ally.MoveTo(), Power Coupling"
-                ]
-            }
-        ],
-        "Revenant": [
-            {
-                "patch": "Winter Wipeout Event",
-                "details": [
-                    "[Tactical] Buff -> Increased max charge duration from 1.3 to 1.7s.",
-                    "[Ultimate] Buff -> Increased Ult time 2.0 to 2.2s (10% slower to deploy)"
-                ]
-            }
-        ],
-        "Mad Maggie": [
-            {
-                "patch": "Winter Wipeout Event",
-                "details": [
-                    "[Base] Adjust -> The Fortified buff from Mad Maggie’s Wrecking Ball repulsors now reduces some other types of damage (like explosive damage) to match how it works on characters who naturally have Fortified."
-                ]
-            }
-        ],
-        "Valkyrie": [
-            {
-                "patch": "Winter Wipeout Event",
-                "details": [
-                    "[Base] Fix -> Fixed issue where tactical could be interrupted by melee"
-                ]
-            }
-        ],
-        "Vantage": [
-            {
-                "patch": "Winter Wipeout Event",
-                "details": [
-                    "[Base] Fix -> Fixed the tactical range finder (blue dot surrounding the crosshair) not working"
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Lifeline Skydive Emote Luge Groove"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Holospray Droppin' Hot"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Stat Tracker Cyber Kitten - Top",
+        "Stat Tracker Cyber Kitten - Middle",
+        "Stat Tracker Cyber Kitten - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Banner Frame Triumphant Captain"
+      ],
+      "free": [
+        "Music Pack Amped Split 2"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "L-STAR EMG Resonant Wave"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Lifeline Cyber Kitten",
+        "Lifeline Midnight Lumosity +"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Sticker Rock and Roll With It",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Banner Frame Dormant Stinger"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Holospray True Mastery"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "P2020 Treacherous Crawl"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Sticker Sponsored Venom"
+      ],
+      "free": [
+        "Seer Emote A Rose For You"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Ash Scorpion Queen",
+        "Exotic Shards 10 +"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Banner Frame Wild Vibrance",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "C.A.R. SMG Fancy Finish"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Holospray Eyes to the Sky"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Bloodhound Skydive Emote Natural Balance"
+      ],
+      "free": [
+        "Amped Seasonal Collection Amped Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Holospray Ride or Die"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Exotic Shards 10",
+        "Hemlok Burst AR Rapid Surge"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "R-99 SMG Tiger Strike"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Stat Tracker Alabaster Champion - Top",
+        "Stat Tracker Alabaster Champion - Middle",
+        "Stat Tracker Alabaster Champion - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition A Future Discovery"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "R-301 Carbine Dynamic Reflection"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Banner Frame Atmospheric Entry"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Holospray Move It or Die"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Sticker Top of the Food Chain"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Bangalore Alabaster Champion",
+        "Bangalore Firestarter +"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Wraith Skydive Emote Rocket Racer",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Bangalore Quip Kill Quip : Every shot matters"
+      ],
+      "free": [
+        "Crypto Tiger Byte"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Triple Take Lethal Wing"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Holospray One Step Ahead"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Banner Frame Winged Whirlwind"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Wraith Faded Wings"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Holospray Goin' Up"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Alter Skydive Emote Tail Dance"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Alternator SMG Serpentine Striker"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Banner Frame Champion's Ride"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Crafting Metals 200",
+        "Banner Frame Clear Vision"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Sticker Dive Speed"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Sentinel Polished Piercer"
+      ],
+      "free": []
     }
+  },
+  "patches": {
+    "Octane": [
+      {
+        "patch": "Winter Wipeout Event",
+        "details": [
+          "[Passive] Buff -> Swift Mend now heals more the less HP you have.",
+          "[Tactical - Stim Surge] Adjust -> Added a new ability for Octane **Stim Surge**: If Octane uses his tactical again, while stim is already active, he uses a new mixture which grants him Fortified, triggers Swift Mend, and allows Swift Mend to continue healing through damage.",
+          "[Tactical - Stim] Buff -> While stimmed, Octane can sprint and use consumables. Reduce the time before Octane can reuse his Stim from 1.8s to 0.7s. Stim speed increased by 5%",
+          "[Ultimate] Buff -> JumpPad now has two charges. JumpPad has improved handling when double jumping.",
+          "[Perks] Adjust -> Four new upgrades to replace all the base upgrades: Thick Skin, Squad Rush, Daredevil, Triple Jump"
+        ]
+      }
+    ],
+    "Newcastle": [
+      {
+        "patch": "Winter Wipeout Event",
+        "details": [
+          "[Passive] Buff -> Incorporate Heroes Hustle into base kit. Movement speed penalty reduced from 25% to 75%",
+          "[Tactical] Buff -> Incorporate Swift Shield into base kit. Movement speed increased from 160 to 250.",
+          "[Perks] Adjust -> Two new upgrades to replace Swift Shield and Heroes Hustle: Stronghold, Ready To Rumble, Defensive Line"
+        ]
+      }
+    ],
+    "Crypto": [
+      {
+        "patch": "Winter Wipeout Event",
+        "details": [
+          "[Passive] Buff -> Crypto gains long range Threat Vision while piloting his drone. Satellite Imagery incorporated into base kit.",
+          "[Tactical] Adjust -> Reduced time to launch drone from 1.3 to 0.7s. Reduced time to reenter drone from 0.4 to 0.2s. Reduced animation frame that Crypto reenters drone from 7 to 2.",
+          "[Perks] Adjust -> Two new upgrades to replace Off the Grid and Satellite Imagery: Ally.MoveTo(), Power Coupling"
+        ]
+      }
+    ],
+    "Revenant": [
+      {
+        "patch": "Winter Wipeout Event",
+        "details": [
+          "[Tactical] Buff -> Increased max charge duration from 1.3 to 1.7s.",
+          "[Ultimate] Buff -> Increased Ult time 2.0 to 2.2s (10% slower to deploy)"
+        ]
+      }
+    ],
+    "Mad Maggie": [
+      {
+        "patch": "Winter Wipeout Event",
+        "details": [
+          "[Base] Adjust -> The Fortified buff from Mad Maggie’s Wrecking Ball repulsors now reduces some other types of damage (like explosive damage) to match how it works on characters who naturally have Fortified."
+        ]
+      }
+    ],
+    "Valkyrie": [
+      {
+        "patch": "Winter Wipeout Event",
+        "details": [
+          "[Base] Fix -> Fixed issue where tactical could be interrupted by melee"
+        ]
+      }
+    ],
+    "Vantage": [
+      {
+        "patch": "Winter Wipeout Event",
+        "details": [
+          "[Base] Fix -> Fixed the tactical range finder (blue dot surrounding the crosshair) not working"
+        ]
+      }
+    ]
+  }
 }

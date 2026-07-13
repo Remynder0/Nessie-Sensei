@@ -4,13 +4,18 @@
   "start_date": "August 6, 2024",
   "end_date": "November 5, 2024",
   "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_22.svg?c76563",
     "name": "Shockwave",
     "Featured map": "E-District",
     "Theme": "Retro/City",
     "Reactive weapon": "P2020",
     "Start date": "August 6, 2024",
     "End date": "November 5, 2024",
-    "Events": "Temporal Chaos | Space Hunt | Techno Terror"
+    "Events": [
+      "Temporal Chaos",
+      "Space Hunt",
+      "Techno Terror"
+    ]
   },
   "max_level": 60,
   "rewards": {

@@ -1,845 +1,849 @@
 {
-    "season": "10",
+  "season": "10",
+  "name": "Emergence",
+  "start_date": "August 03, 2021",
+  "end_date": "November 02, 2021",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_10.svg?fe85eb",
     "name": "Emergence",
-    "start_date": "August 03, 2021",
-    "end_date": "November 02, 2021",
-    "infobox": {
-        "name": "Emergence",
-        "New Legend": "Seer",
-        "New weapon": "Rampage",
-        "Featured map": "World's Edge",
-        "Theme": "Insects/animals",
-        "Reactive weapon": "Volt SMG",
-        "Start date": "August 03, 2021",
-        "End date": "November 02, 2021",
-        "Events": "Evolution | Monsters Within"
+    "New Legend": "Seer",
+    "New weapon": "Rampage",
+    "Featured map": "World's Edge",
+    "Theme": "Insects/animals",
+    "Reactive weapon": "Volt SMG",
+    "Start date": "August 03, 2021",
+    "End date": "November 02, 2021",
+    "Events": [
+      "Evolution",
+      "Monsters Within"
+    ]
+  },
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "30-30 Repeater skin: Winged Sun",
+        "Gibraltar skin: Hive Minded",
+        "Wattson skin: Magnetic Mantis",
+        "Seer skin: Heart of Gold",
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Loading Screen : Keep The Flame"
+      ]
     },
-    "max_level": 110,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "30-30 Repeater skin: Winged Sun",
-                "Gibraltar skin: Hive Minded",
-                "Wattson skin: Magnetic Mantis",
-                "Seer skin: Heart of Gold",
-                "XP Boost [ note 1 ]"
-            ],
-            "free": [
-                "Loading Screen : Keep The Flame"
-            ]
-        },
-        "level_2": {
-            "premium": [
-                "Seer Banner Frame : Plated Prophecy"
-            ],
-            "free": []
-        },
-        "level_3": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Seer Quip Kill Quip : Change is inevitable, my friend"
-            ],
-            "free": [
-                "Music Pack : Emergence"
-            ]
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "XP Boost [ note 1 ]"
-            ],
-            "free": [
-                "P2020 skin: Pollenation"
-            ]
-        },
-        "level_7": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Bangalore Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "Seer Holo-Spray : See You Soon My Friend"
-            ],
-            "free": [
-                "Fuse Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Charm Weapon Charm : Outback Snack"
-            ],
-            "free": [
-                "Loba Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_10": {
-            "premium": [
-                "Loading Screen : Deep Dive"
-            ],
-            "free": [
-                "Bangalore Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_11": {
-            "premium": [
-                "Rampage skin: Gossamer"
-            ],
-            "free": [
-                "Fuse Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_12": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Loba Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_13": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_14": {
-            "premium": [
-                "XP Boost [ note 1 ]"
-            ],
-            "free": [
-                "Alternator SMG skin: Charged"
-            ]
-        },
-        "level_15": {
-            "premium": [
-                "Wattson Quip Kill Quip : Your efforts were electroCUTE"
-            ],
-            "free": [
-                "Rampart Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "Charm Weapon Charm : Bug Buddy"
-            ],
-            "free": [
-                "Bloodhound Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_17": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Gibraltar Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_18": {
-            "premium": [
-                "Wattson Banner Frame : Bug Zapper"
-            ],
-            "free": [
-                "Rampart Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_19": {
-            "premium": [
-                "Wattson Holo-Spray : Spark of Genius"
-            ],
-            "free": [
-                "Bloodhound Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Triple Take skin: Warning Colors"
-            ],
-            "free": [
-                "Gibraltar Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_21": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_22": {
-            "premium": [
-                "XP Boost [ note 1 ]"
-            ],
-            "free": [
-                "Charm Weapon Charm : Compound Eyes In the Sky"
-            ]
-        },
-        "level_23": {
-            "premium": [
-                "Valkyrie Stat Tracker : Kills"
-            ],
-            "free": [
-                "Loading Screen : Why Is No One Else Freaking Out?"
-            ]
-        },
-        "level_24": {
-            "premium": [
-                "Valkyrie Stat Tracker : Damage Done"
-            ],
-            "free": [
-                "Mirage Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Valkyrie skin: Aerial Evolution"
-            ],
-            "free": [
-                "Revenant Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_26": {
-            "premium": [
-                "Valkyrie Stat Tracker : Wins"
-            ],
-            "free": [
-                "Wraith Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Caustic Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_28": {
-            "premium": [
-                "VK-47 Flatline skin: Temporal Scale"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_29": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Mozambique Shotgun skin: Web Spinner"
-            ]
-        },
-        "level_30": {
-            "premium": [
-                "XP Boost [ note 1 ]"
-            ],
-            "free": [
-                "Mirage Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_31": {
-            "premium": [
-                "Loading Screen : A Witty Bunch"
-            ],
-            "free": [
-                "Revenant Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_32": {
-            "premium": [
-                "Valkyrie Banner Frame : Aerial Acrobatics"
-            ],
-            "free": [
-                "Wraith Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Valkyrie Quip Kill Quip : This bloodsport really changes a girl"
-            ],
-            "free": [
-                "Caustic Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_34": {
-            "premium": [
-                "Valkyrie Holo-Spray : Swat This!"
-            ],
-            "free": [
-                "Horizon Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_35": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Octane Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_36": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Valkyrie Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_37": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_38": {
-            "premium": [
-                "XP Boost [ note 1 ]"
-            ],
-            "free": [
-                "EVA-8 Auto skin: Cell Wall"
-            ]
-        },
-        "level_39": {
-            "premium": [
-                "Bloodhound Holo-Spray : Night Watch"
-            ],
-            "free": [
-                "Horizon Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_40": {
-            "premium": [
-                "Bloodhound Banner Frame : Nested"
-            ],
-            "free": [
-                "Octane Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_41": {
-            "premium": [
-                "R-301 Carbine skin: Eyes and Ears"
-            ],
-            "free": [
-                "Valkyrie Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_42": {
-            "premium": [
-                "Bloodhound Quip Kill Quip : The hunter will always vinna"
-            ],
-            "free": [
-                "Seer Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_43": {
-            "premium": [
-                "Charm Weapon Charm : Perched"
-            ],
-            "free": [
-                "Crypto Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_44": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Lifeline Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_45": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Bloodhound skin: Hidden Hive"
-            ]
-        },
-        "level_46": {
-            "premium": [
-                "Horizon Stat Tracker : Kills"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_47": {
-            "premium": [
-                "XP Boost [ note 1 ]"
-            ],
-            "free": [
-                "Seer Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Horizon Stat Tracker : Damage Done"
-            ],
-            "free": [
-                "Crypto Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_49": {
-            "premium": [
-                "Rampage skin: Flutter"
-            ],
-            "free": [
-                "Lifeline Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_50": {
-            "premium": [
-                "Horizon skin: Biotic Luminary"
-            ],
-            "free": [
-                "Pathfinder Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Horizon Stat Tracker : Wins"
-            ],
-            "free": [
-                "Wattson Stat Tracker : Season 10 Wins"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_53": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "RE-45 Auto skin: Heat Burst"
-            ]
-        },
-        "level_54": {
-            "premium": [
-                "XP Boost [ note 1 ]"
-            ],
-            "free": [
-                "Loading Screen : Disciplinary Action"
-            ]
-        },
-        "level_55": {
-            "premium": [
-                "Charm Weapon Charm : Bug Out"
-            ],
-            "free": [
-                "Pathfinder Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Music Pack : Seer"
-            ],
-            "free": [
-                "Wattson Stat Tracker : Season 10 Kills"
-            ]
-        },
-        "level_57": {
-            "premium": [
-                "Horizon Holo-Spray : Wee Marvel of Science"
-            ],
-            "free": []
-        },
-        "level_58": {
-            "premium": [
-                "Horizon Banner Frame : Lush Landing"
-            ],
-            "free": []
-        },
-        "level_59": {
-            "premium": [
-                "Horizon Quip Kill Quip : Did ya think you'd be on top forever?"
-            ],
-            "free": []
-        },
-        "level_60": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_61": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Crafting Metals 120"
-            ]
-        },
-        "level_62": {
-            "premium": [
-                "XP Boost [ note 1 ]"
-            ],
-            "free": [
-                "Peacekeeper skin: Hive Circuit"
-            ]
-        },
-        "level_63": {
-            "premium": [
-                "Loading Screen : Eavesdroppin' a Line"
-            ],
-            "free": [
-                "Loading Screen : Lunar Impact Report"
-            ]
-        },
-        "level_64": {
-            "premium": [
-                "Charm Weapon Charm : Buzzkill"
-            ],
-            "free": []
-        },
-        "level_65": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_66": {
-            "premium": [
-                "Gibraltar Holo-Spray : Bee Careful"
-            ],
-            "free": []
-        },
-        "level_67": {
-            "premium": [
-                "Gibraltar Banner Frame : Queens Clutch"
-            ],
-            "free": []
-        },
-        "level_68": {
-            "premium": [
-                "Gibraltar Quip Kill Quip : We all change for the better"
-            ],
-            "free": []
-        },
-        "level_69": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "G7 Scout skin: Altered State"
-            ]
-        },
-        "level_70": {
-            "premium": [
-                "XP Boost [ note 1 ]"
-            ],
-            "free": [
-                "Longbow DMR skin: Emissary"
-            ]
-        },
-        "level_71": {
-            "premium": [
-                "Lifeline Quip Kill Quip : Change'll do yuh good"
-            ],
-            "free": []
-        },
-        "level_72": {
-            "premium": [
-                "Lifeline Banner Frame : Heat Treatment"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_73": {
-            "premium": [
-                "Lifeline Holo-Spray : Cold Blooded"
-            ],
-            "free": []
-        },
-        "level_74": {
-            "premium": [
-                "Lifeline skin: Data Driven"
-            ],
-            "free": []
-        },
-        "level_75": {
-            "premium": [
-                "M600 Spitfire skin: Snap Decision"
-            ],
-            "free": []
-        },
-        "level_76": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_77": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Charm Weapon Charm : Tail End"
-            ]
-        },
-        "level_78": {
-            "premium": [
-                "Pathfinder Holo-Spray : Say Hello To My Feathered Friends"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_79": {
-            "premium": [
-                "Pathfinder Banner Frame : Flashy"
-            ],
-            "free": []
-        },
-        "level_80": {
-            "premium": [
-                "Pathfinder skin: Iridescent Plumage"
-            ],
-            "free": []
-        },
-        "level_81": {
-            "premium": [
-                "Charm Weapon Charm : On Display"
-            ],
-            "free": []
-        },
-        "level_82": {
-            "premium": [
-                "Pathfinder Quip Kill Quip : I was a computer, now I'm a Legend"
-            ],
-            "free": []
-        },
-        "level_83": {
-            "premium": [
-                "R-99 SMG skin: Cell Division"
-            ],
-            "free": []
-        },
-        "level_84": {
-            "premium": [
-                "HAVOC Rifle skin: Perfect Cell"
-            ],
-            "free": []
-        },
-        "level_85": {
-            "premium": [
-                "Loading Screen : Biggest Fans"
-            ],
-            "free": [
-                "L-STAR EMG skin: Power Plating"
-            ]
-        },
-        "level_86": {
-            "premium": [
-                "Charge Rifle skin: Corrupted Hive"
-            ],
-            "free": [
-                "Mastiff Shotgun skin: Erosion"
-            ]
-        },
-        "level_87": {
-            "premium": [
-                "Loading Screen : Not So Far From The Tree"
-            ],
-            "free": []
-        },
-        "level_88": {
-            "premium": [
-                "Charm Weapon Charm : New Beginnings"
-            ],
-            "free": []
-        },
-        "level_89": {
-            "premium": [
-                "Wingman skin: Invasion"
-            ],
-            "free": []
-        },
-        "level_90": {
-            "premium": [
-                "Devotion LMG skin: Stacking Evidence"
-            ],
-            "free": []
-        },
-        "level_91": {
-            "premium": [
-                "Octane Emote: Cerebral Vortex"
-            ],
-            "free": []
-        },
-        "level_92": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_93": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Prowler Burst PDW skin: Monarch"
-            ]
-        },
-        "level_94": {
-            "premium": [
-                "Sentinel skin: Substructure"
-            ],
-            "free": [
-                "Holo-Spray : Mutate"
-            ]
-        },
-        "level_95": {
-            "premium": [
-                "Loading Screen : Dear Diary"
-            ],
-            "free": []
-        },
-        "level_96": {
-            "premium": [
-                "Seer Skydive Emote : Soul Invictus"
-            ],
-            "free": []
-        },
-        "level_97": {
-            "premium": [
-                "Hemlok Burst AR skin: Mimicry Complex"
-            ],
-            "free": []
-        },
-        "level_98": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_99": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_100": {
-            "premium": [
-                "Volt SMG skin: Symbiotic Relationship [ note 2 ]"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_110": {
-            "premium": [
-                "Volt SMG skin: Fatal Injection [ note 2 ]"
-            ],
-            "free": [
-                "Badge : Emergence Level Season 10"
-            ]
-        }
+    "level_2": {
+      "premium": [
+        "Seer Banner Frame : Plated Prophecy"
+      ],
+      "free": []
     },
-    "patches": {
-        "Ash": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Passive] Buff -> Ash's passive ability now has a increased duration.",
-                    "[Tactical] Adjust -> Burst Pierce: Increased damage at long range."
-                ]
-            }
-        ],
-        "Bloodhound": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Ultimate] Nerf -> Eye of the Allfather's tracking speed reduced by 20%.",
-                    "[Perks] Adjust -> Tracker Upgrade: Increased duration of tracker."
-                ]
-            }
-        ],
-        "Caustic": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Passive] Buff -> Nox Gas Grenade now has increased gas spread and duration."
-                ]
-            }
-        ],
-        "Gibraltar": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Ultimate] Adjust -> Gun Shield: Increased shield size, but reduced its duration."
-                ]
-            }
-        ],
-        "Loba": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Passive] Buff -> Burglar's Eye now has increased scan range and duration.",
-                    "[Tactical] Adjust -> Burglar's Eye: Increased scan speed."
-                ]
-            }
-        ],
-        "Octane": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Ultimate] Nerf -> Swift Mend's healing reduced by 20%."
-                ]
-            }
-        ],
-        "Revenant": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Passive] Buff -> Stalker's Eye now has increased scan range and duration.",
-                    "[Tactical] Adjust -> Silence: Increased silence duration."
-                ]
-            }
-        ],
-        "Seer": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Ultimate] Nerf -> Prowler's Perch's tracking speed reduced by 20%."
-                ]
-            }
-        ],
-        "Wraith": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Passive] Buff -> Voices From the Void now has increased duration.",
-                    "[Tactical] Adjust -> Voices From the Void: Increased time between voice warnings."
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Seer Quip Kill Quip : Change is inevitable, my friend"
+      ],
+      "free": [
+        "Music Pack : Emergence"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "P2020 skin: Pollenation"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Bangalore Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Seer Holo-Spray : See You Soon My Friend"
+      ],
+      "free": [
+        "Fuse Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Charm Weapon Charm : Outback Snack"
+      ],
+      "free": [
+        "Loba Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Loading Screen : Deep Dive"
+      ],
+      "free": [
+        "Bangalore Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Rampage skin: Gossamer"
+      ],
+      "free": [
+        "Fuse Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_12": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Loba Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Alternator SMG skin: Charged"
+      ]
+    },
+    "level_15": {
+      "premium": [
+        "Wattson Quip Kill Quip : Your efforts were electroCUTE"
+      ],
+      "free": [
+        "Rampart Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Charm Weapon Charm : Bug Buddy"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Wattson Banner Frame : Bug Zapper"
+      ],
+      "free": [
+        "Rampart Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Wattson Holo-Spray : Spark of Genius"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Triple Take skin: Warning Colors"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_21": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Charm Weapon Charm : Compound Eyes In the Sky"
+      ]
+    },
+    "level_23": {
+      "premium": [
+        "Valkyrie Stat Tracker : Kills"
+      ],
+      "free": [
+        "Loading Screen : Why Is No One Else Freaking Out?"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Valkyrie Stat Tracker : Damage Done"
+      ],
+      "free": [
+        "Mirage Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Valkyrie skin: Aerial Evolution"
+      ],
+      "free": [
+        "Revenant Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "Valkyrie Stat Tracker : Wins"
+      ],
+      "free": [
+        "Wraith Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Caustic Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "VK-47 Flatline skin: Temporal Scale"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_29": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Mozambique Shotgun skin: Web Spinner"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Mirage Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_31": {
+      "premium": [
+        "Loading Screen : A Witty Bunch"
+      ],
+      "free": [
+        "Revenant Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Valkyrie Banner Frame : Aerial Acrobatics"
+      ],
+      "free": [
+        "Wraith Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Valkyrie Quip Kill Quip : This bloodsport really changes a girl"
+      ],
+      "free": [
+        "Caustic Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "Valkyrie Holo-Spray : Swat This!"
+      ],
+      "free": [
+        "Horizon Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Octane Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_37": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "EVA-8 Auto skin: Cell Wall"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Bloodhound Holo-Spray : Night Watch"
+      ],
+      "free": [
+        "Horizon Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Bloodhound Banner Frame : Nested"
+      ],
+      "free": [
+        "Octane Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "R-301 Carbine skin: Eyes and Ears"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "Bloodhound Quip Kill Quip : The hunter will always vinna"
+      ],
+      "free": [
+        "Seer Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Charm Weapon Charm : Perched"
+      ],
+      "free": [
+        "Crypto Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Lifeline Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_45": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Bloodhound skin: Hidden Hive"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "Horizon Stat Tracker : Kills"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_47": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Seer Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Horizon Stat Tracker : Damage Done"
+      ],
+      "free": [
+        "Crypto Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Rampage skin: Flutter"
+      ],
+      "free": [
+        "Lifeline Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Horizon skin: Biotic Luminary"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Horizon Stat Tracker : Wins"
+      ],
+      "free": [
+        "Wattson Stat Tracker : Season 10 Wins"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "RE-45 Auto skin: Heat Burst"
+      ]
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Loading Screen : Disciplinary Action"
+      ]
+    },
+    "level_55": {
+      "premium": [
+        "Charm Weapon Charm : Bug Out"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Music Pack : Seer"
+      ],
+      "free": [
+        "Wattson Stat Tracker : Season 10 Kills"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "Horizon Holo-Spray : Wee Marvel of Science"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Horizon Banner Frame : Lush Landing"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Horizon Quip Kill Quip : Did ya think you'd be on top forever?"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_61": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Crafting Metals 120"
+      ]
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Peacekeeper skin: Hive Circuit"
+      ]
+    },
+    "level_63": {
+      "premium": [
+        "Loading Screen : Eavesdroppin' a Line"
+      ],
+      "free": [
+        "Loading Screen : Lunar Impact Report"
+      ]
+    },
+    "level_64": {
+      "premium": [
+        "Charm Weapon Charm : Buzzkill"
+      ],
+      "free": []
+    },
+    "level_65": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_66": {
+      "premium": [
+        "Gibraltar Holo-Spray : Bee Careful"
+      ],
+      "free": []
+    },
+    "level_67": {
+      "premium": [
+        "Gibraltar Banner Frame : Queens Clutch"
+      ],
+      "free": []
+    },
+    "level_68": {
+      "premium": [
+        "Gibraltar Quip Kill Quip : We all change for the better"
+      ],
+      "free": []
+    },
+    "level_69": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "G7 Scout skin: Altered State"
+      ]
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ note 1 ]"
+      ],
+      "free": [
+        "Longbow DMR skin: Emissary"
+      ]
+    },
+    "level_71": {
+      "premium": [
+        "Lifeline Quip Kill Quip : Change'll do yuh good"
+      ],
+      "free": []
+    },
+    "level_72": {
+      "premium": [
+        "Lifeline Banner Frame : Heat Treatment"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_73": {
+      "premium": [
+        "Lifeline Holo-Spray : Cold Blooded"
+      ],
+      "free": []
+    },
+    "level_74": {
+      "premium": [
+        "Lifeline skin: Data Driven"
+      ],
+      "free": []
+    },
+    "level_75": {
+      "premium": [
+        "M600 Spitfire skin: Snap Decision"
+      ],
+      "free": []
+    },
+    "level_76": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Charm Weapon Charm : Tail End"
+      ]
+    },
+    "level_78": {
+      "premium": [
+        "Pathfinder Holo-Spray : Say Hello To My Feathered Friends"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_79": {
+      "premium": [
+        "Pathfinder Banner Frame : Flashy"
+      ],
+      "free": []
+    },
+    "level_80": {
+      "premium": [
+        "Pathfinder skin: Iridescent Plumage"
+      ],
+      "free": []
+    },
+    "level_81": {
+      "premium": [
+        "Charm Weapon Charm : On Display"
+      ],
+      "free": []
+    },
+    "level_82": {
+      "premium": [
+        "Pathfinder Quip Kill Quip : I was a computer, now I'm a Legend"
+      ],
+      "free": []
+    },
+    "level_83": {
+      "premium": [
+        "R-99 SMG skin: Cell Division"
+      ],
+      "free": []
+    },
+    "level_84": {
+      "premium": [
+        "HAVOC Rifle skin: Perfect Cell"
+      ],
+      "free": []
+    },
+    "level_85": {
+      "premium": [
+        "Loading Screen : Biggest Fans"
+      ],
+      "free": [
+        "L-STAR EMG skin: Power Plating"
+      ]
+    },
+    "level_86": {
+      "premium": [
+        "Charge Rifle skin: Corrupted Hive"
+      ],
+      "free": [
+        "Mastiff Shotgun skin: Erosion"
+      ]
+    },
+    "level_87": {
+      "premium": [
+        "Loading Screen : Not So Far From The Tree"
+      ],
+      "free": []
+    },
+    "level_88": {
+      "premium": [
+        "Charm Weapon Charm : New Beginnings"
+      ],
+      "free": []
+    },
+    "level_89": {
+      "premium": [
+        "Wingman skin: Invasion"
+      ],
+      "free": []
+    },
+    "level_90": {
+      "premium": [
+        "Devotion LMG skin: Stacking Evidence"
+      ],
+      "free": []
+    },
+    "level_91": {
+      "premium": [
+        "Octane Emote: Cerebral Vortex"
+      ],
+      "free": []
+    },
+    "level_92": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Prowler Burst PDW skin: Monarch"
+      ]
+    },
+    "level_94": {
+      "premium": [
+        "Sentinel skin: Substructure"
+      ],
+      "free": [
+        "Holo-Spray : Mutate"
+      ]
+    },
+    "level_95": {
+      "premium": [
+        "Loading Screen : Dear Diary"
+      ],
+      "free": []
+    },
+    "level_96": {
+      "premium": [
+        "Seer Skydive Emote : Soul Invictus"
+      ],
+      "free": []
+    },
+    "level_97": {
+      "premium": [
+        "Hemlok Burst AR skin: Mimicry Complex"
+      ],
+      "free": []
+    },
+    "level_98": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_99": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_100": {
+      "premium": [
+        "Volt SMG skin: Symbiotic Relationship [ note 2 ]"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "Volt SMG skin: Fatal Injection [ note 2 ]"
+      ],
+      "free": [
+        "Badge : Emergence Level Season 10"
+      ]
     }
+  },
+  "patches": {
+    "Ash": [
+      {
+        "patch": "Emergence",
+        "details": [
+          "[Passive] Buff -> Ash's passive ability now has a increased duration.",
+          "[Tactical] Adjust -> Burst Pierce: Increased damage at long range."
+        ]
+      }
+    ],
+    "Bloodhound": [
+      {
+        "patch": "Emergence",
+        "details": [
+          "[Ultimate] Nerf -> Eye of the Allfather's tracking speed reduced by 20%.",
+          "[Perks] Adjust -> Tracker Upgrade: Increased duration of tracker."
+        ]
+      }
+    ],
+    "Caustic": [
+      {
+        "patch": "Emergence",
+        "details": [
+          "[Passive] Buff -> Nox Gas Grenade now has increased gas spread and duration."
+        ]
+      }
+    ],
+    "Gibraltar": [
+      {
+        "patch": "Emergence",
+        "details": [
+          "[Ultimate] Adjust -> Gun Shield: Increased shield size, but reduced its duration."
+        ]
+      }
+    ],
+    "Loba": [
+      {
+        "patch": "Emergence",
+        "details": [
+          "[Passive] Buff -> Burglar's Eye now has increased scan range and duration.",
+          "[Tactical] Adjust -> Burglar's Eye: Increased scan speed."
+        ]
+      }
+    ],
+    "Octane": [
+      {
+        "patch": "Emergence",
+        "details": [
+          "[Ultimate] Nerf -> Swift Mend's healing reduced by 20%."
+        ]
+      }
+    ],
+    "Revenant": [
+      {
+        "patch": "Emergence",
+        "details": [
+          "[Passive] Buff -> Stalker's Eye now has increased scan range and duration.",
+          "[Tactical] Adjust -> Silence: Increased silence duration."
+        ]
+      }
+    ],
+    "Seer": [
+      {
+        "patch": "Emergence",
+        "details": [
+          "[Ultimate] Nerf -> Prowler's Perch's tracking speed reduced by 20%."
+        ]
+      }
+    ],
+    "Wraith": [
+      {
+        "patch": "Emergence",
+        "details": [
+          "[Passive] Buff -> Voices From the Void now has increased duration.",
+          "[Tactical] Adjust -> Voices From the Void: Increased time between voice warnings."
+        ]
+      }
+    ]
+  }
 }

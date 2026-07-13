@@ -3,7 +3,7 @@
     "teamGen": "Link & Deploy",
     "legends": "Legends",
     "packCalculator": "Heirloom Tracker",
-    "battlePass": "Battle Pass",
+    "season": "Season",
     "probabilities": "Synergies",
     "simulation": "Simulation",
     "stats": "Data Logs",
@@ -41,16 +41,22 @@
     "bestPerks": "Best Perks",
     "noTacticsData": "No tactical data available for this legend."
   },
-  "battlePass": {
-    "title": "Battle Pass View",
-    "subtitle": "Seasons rewards archive",
+  "season": {
+    "title": "Season",
+    "subtitle": "Season details, battle pass and patch notes",
     "selectSeason": "Select a Season",
     "reactiveSkin": "Reactive Skin",
     "level": "Level",
     "premium": "Premium",
     "free": "Free",
     "noData": "No data found for this season.",
-    "unknown": "Unknown"
+    "unknown": "Unknown",
+    "prevSeason": "Previous",
+    "nextSeason": "Next",
+    "infobox": "Infobox",
+    "patchNotes": "Patch Notes",
+    "levelsChunk": "Levels {start} - {end}",
+    "battlePass": "Battle Pass"
   },
   "app": {
     "connecting": "ESTABLISHING CONNECTION...",

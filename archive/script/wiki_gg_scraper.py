@@ -99,6 +99,22 @@ def extract_infobox(html):
     if not infobox_div:
         return data
         
+    # Extract logo url
+    logo_img = None
+    for td in infobox_div.find_all('td'):
+        classes = td.get('class', [])
+        if ('infobox-centered' in classes or 'infobox-image' in classes) and 'infobox-row-value' not in classes:
+            img = td.find('img')
+            if img and img.has_attr('src'):
+                logo_img = img
+                break
+                
+    if logo_img:
+        src = logo_img['src']
+        if src.startswith('/'):
+            src = "https://apexlegends.wiki.gg" + src
+        data['logo_url'] = src
+            
     tables = infobox_div.find_all('table', class_='infobox-table')
     for table in tables:
         # Extract season name (usually in an <i> tag inside an infobox-centered td)
@@ -113,10 +129,12 @@ def extract_infobox(html):
             td = row.find('td', class_='infobox-row-value')
             if th and td:
                 key = clean_text(th.text)
-                # Use extract_rich_text to nicely format multi-line cells (like events)
                 val_items = extract_rich_text(td)
-                val = " | ".join(val_items) if val_items else clean_text(td.text)
-                data[key] = val
+                
+                if key == 'Events':
+                    data[key] = val_items if val_items else [clean_text(td.text)]
+                else:
+                    data[key] = " | ".join(val_items) if val_items else clean_text(td.text)
                 
     return data
 

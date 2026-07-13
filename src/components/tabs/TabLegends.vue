@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { legendsData, loadLegendDetails, currentLegendDetails, isLoadingLegendDetails } from '../../logic/store'
+import { legendsData, loadLegendDetails } from '../../logic/store'
 import LegendGallery from '../LegendGallery.vue'
 import LegendModal from '../LegendModal.vue'
 
