@@ -666,90 +666,49 @@
         }
     },
     "patches": {
-        "Bangalore": [
+        "Crypto": [
             {
-                "patch": "Saison 1",
+                "patch": "January 14, 2020 Patch",
                 "details": [
-                    "[Passive] Buff -> Double Time : vitesse de déplacement augmentée."
+                    "[Passive] Adjust -> Neurolink: Increased health from 1 to 30.",
+                    "[Tactical] Fix -> Nox Gas Trap: Fixed visual bug for when he first drops into game, the Drone UI reports that it is \"recharging\" (as if it has been destroyed pre-drop), but progress does not complete / progress.",
+                    "[Ultimate] Adjust -> Drone EMP: No longer affects friendly traps or deployables. No longer slows teammates."
                 ]
             },
             {
-                "patch": "Takeover: Loba's Heist",
+                "patch": "November 05, 2019 Patch",
                 "details": [
-                    "[Perks] Adjust -> Secure Transmission : réduction du temps de recharge."
-                ]
-            }
-        ],
-        "Caustic": [
-            {
-                "patch": "Saison 1",
-                "details": [
-                    "[Passive] Buff -> Nox Gas : zone de gaz plus grande."
+                    "[Ultimate] Buff -> Drone EMP: Will now damage armor that players have dropped.",
+                    "[Perks] Fix -> Fixed a bug where Lifeline’s D.O.C. Heal Drone couldn’t heal Crypto while he was in his drone."
                 ]
             },
             {
-                "patch": "Takeover: Loba's Heist",
+                "patch": "October 01, 2019 Patch",
                 "details": [
-                    "[Perks] Adjust -> Nox Gas Grenade : réduction du temps de recharge."
-                ]
-            }
-        ],
-        "Gibraltar": [
-            {
-                "patch": "Saison 1",
-                "details": [
-                    "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Adjust -> Gunner's Mate : réduction du temps de recharge."
-                ]
-            }
-        ],
-        "Lifeline": [
-            {
-                "patch": "Saison 1",
-                "details": [
-                    "[Passive] Buff -> D.O.C. : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> D.O.C. Drone : réduction du temps de recharge."
+                    "Introduced -> Legend released this season."
                 ]
             }
         ],
         "Octane": [
             {
-                "patch": "Saison 1",
+                "patch": "October 01, 2019 Patch",
                 "details": [
-                    "[Passive] Buff -> Swift Mend : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Swift Mend : réduction du temps de recharge."
+                    "[Tactical] Fix -> Stim Surge: Fixed an issue with FoV scaling messing up ADS aim sensitivity."
+                ]
+            }
+        ],
+        "Wattson": [
+            {
+                "patch": "January 14, 2020 Patch",
+                "details": [
+                    "[Ultimate] Adjust -> Interception Pylon: Fix for the pylon to prevent being able to deploy it through walls.",
+                    "[Ultimate] Buff -> Interception Pylon: The Pylon is now significantly more aggressive in the way it shoots down grenades."
                 ]
             },
             {
-                "patch": "Takeover: Loba's Heist",
+                "patch": "December 03, 2019 Patch",
                 "details": [
-                    "[Ultimate] Nerf -> Launch Pad : réduction de la distance."
-                ]
-            }
-        ],
-        "Rampart": [
-            {
-                "patch": "Saison 1",
-                "details": [
-                    "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Gunner's Mate : réduction du temps de recharge."
-                ]
-            }
-        ],
-        "Revenant": [
-            "No data available"
-        ],
-        "Wraith": [
-            {
-                "patch": "Saison 1",
-                "details": [
-                    "[Passive] Buff -> Voices From the Void : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Voices From the Void : réduction du temps de recharge."
+                    "[Ultimate] Adjust -> Interception Pylon: The Pylon is now significantly more aggressive in the way it shoots down grenades. Rather than just identifying between incoming and outgoing projectiles, it now predicts the trajectory of grenades thrown within the interception zone and intercepts them if they will land anywhere within that zone."
                 ]
             }
         ]

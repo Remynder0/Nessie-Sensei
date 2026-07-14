@@ -709,377 +709,121 @@
         }
     },
     "patches": {
-        "Bangalore": [
+        "Crypto": [
             {
-                "patch": "Saison 3",
+                "patch": "August 18, 2020 Patch",
                 "details": [
-                    "[Passive] Buff -> Double Time : vitesse de déplacement augmentée."
+                    "[Class] New -> Recon Passive Perk: Crypto can now use Survey Beacons.",
+                    "[Tactical] Adjust -> Surveillance Drone: Can now open loot vaults if Crypto has a Vault Key in his inventory. It consumes the key as usual.",
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an issue with the drone not detecting Wattson's Perimeter Security fences.",
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an audio issue with Survey Beacons sometimes making very little sound when using it in the drone view.",
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an issue with his drone not taking damage from directly below.",
+                    "[Ultimate] Adjust -> Drone EMP: Now slows teammates.",
+                    "[Ultimate] Fix -> Drone EMP: Fixed an issue with EMP not destroying Loba’s Black Market Boutique."
                 ]
             },
             {
-                "patch": "Takeover: Loba's Heist",
+                "patch": "September 03, 2020 Patch",
                 "details": [
-                    "[Perks] Adjust -> Tactical Sense : réduction du temps de recharge."
-                ]
-            }
-        ],
-        "Caustic": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Passive] Buff -> Nox Gas : zone de gaz plus grande."
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an issue with the drone not detecting players while on a Emplaced Minigun \"Sheila\".",
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an issue where while the drone is in Caustic gas the whole server would hear the drone audio."
                 ]
             },
             {
-                "patch": "Takeover: Loba's Heist",
+                "patch": "October 06, 2020 Patch",
                 "details": [
-                    "[Perks] Adjust -> Nox Gas Grenade : réduction du temps de recharge."
-                ]
-            }
-        ],
-        "Gibraltar": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Adjust -> Gunner's Mate : réduction du temps de recharge."
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an issue with Crypto being able to use his drone while using Loba’s Black Market Boutique.",
+                    "[Ultimate] Fix -> Drone EMP: Fixed an issue with VFX shows false positive when hitting Crypto’s Drone."
                 ]
             }
         ],
         "Loba": [
             {
-                "patch": "Saison 3",
+                "patch": "August 18, 2020 Patch",
                 "details": [
-                    "[Passive] Buff -> Burglar's Eye : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Burglar's Eye : réduction du temps de recharge."
+                    "[Passive] Adjust -> Eye for Quality and Black Market Boutique: Increased range from 3100 units to 4500 units (77.5m to 112.5m).",
+                    "[Ultimate] Adjust -> Black Market Boutique: Is now 50% charged at the start of every match.",
+                    "[Tactical] Fix -> Burglar's Best Friend: Fixed inconsistencies with teleporting onto a supply ship.",
+                    "[Tactical] Fix -> Burglar's Best Friend: Fixed an issue allowing teleporting into drills around Lava Fissure.",
+                    "[Tactical] Fix -> Burglar's Best Friend: Fixed an issue preventing teleporting on certain terrain in Staging."
                 ]
             },
             {
-                "patch": "Takeover: Loba's Heist",
+                "patch": "September 03, 2020 Patch",
                 "details": [
-                    "[Ultimate] Nerf -> Burglar's Cut : réduction de la zone de gaz."
+                    "[Tactical] Fix -> Burglar's Best Friend: Fixed an issue causing the teleport to fail in certain areas."
+                ]
+            },
+            {
+                "patch": "October 06, 2020 Patch",
+                "details": [
+                    "[Passive] Adjust -> Eye for Quality and Black Market Boutique: Increased range from 3100 units to 4500 units (77.5m to 112.5m).",
+                    "[Ultimate] Adjust -> Black Market Boutique: Is now 50% charged at the start of every match.",
+                    "[Tactical] Fix -> Burglar's Best Friend: Fixed an issue with enemies getting teleported with Loba when they melee her when she teleports."
                 ]
             }
         ],
         "Octane": [
             {
-                "patch": "Saison 3",
+                "patch": "August 18, 2020 Patch",
                 "details": [
-                    "[Passive] Buff -> Swift Mend : vitesse de déplacement augmentée."
+                    "[Tactical] Adjust -> Stim: Now able to use while healing, but not removing the incurred slowness."
                 ]
             },
             {
-                "patch": "Takeover: Loba's Heist",
+                "patch": "October 06, 2020 Patch",
                 "details": [
-                    "[Perks] Adjust -> Swift Mend : réduction du temps de recharge."
+                    "[Perks] Fix -> No longer able to drop Holo-Sprays while using Stim."
                 ]
             }
         ],
         "Rampart": [
             {
-                "patch": "Saison 3",
+                "patch": "August 18, 2020 Patch",
                 "details": [
-                    "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Gunner's Mate : réduction du temps de recharge."
+                    "Introduced -> Legend released this season."
                 ]
             },
             {
-                "patch": "Takeover: Loba's Heist",
+                "patch": "September 03, 2020 Patch",
                 "details": [
-                    "[Ultimate] Nerf -> Dome Shield : réduction de la zone de protection."
+                    "[Tactical] Fix -> Amped Cover: Fixed Amped Cover from floating in the air when placed on a supply ship.",
+                    "[Tactical] Fix -> Amped Cover: Fixed an issue with the Longbow DMR, Triple Take, Mastiff Shotgun, and Sentinel not always receiving the Amped Cover buff.",
+                    "[Tactical] Fix -> Amped Cover: Fixed an issue with Amped Cover being able to be placed at bad angles around the map.",
+                    "[Tactical] Fix -> Amped Cover: Fixed an issue with the Amped Cover not being destroyed by the initial blast of Charge Rifle.",
+                    "[Tactical] Fix -> Amped Cover: Fixed an issue with bullets getting amped before they cross the amped wall from certain angles."
+                ]
+            },
+            {
+                "patch": "October 06, 2020 Patch",
+                "details": [
+                    "[Ultimate] Buff -> Emplaced Minigun \"Sheila\": Increased the rate at which the bullet spread tightens.",
+                    "[Ultimate] Fix -> Emplaced Minigun \"Sheila\": Fixed an issue with being able to place Sheila on loot bins.",
+                    "[Ultimate] Fix -> Emplaced Minigun \"Sheila\": Fixed an issue with doors closing when dismounting a placed Sheila in a doorway."
+                ]
+            },
+            {
+                "patch": "August 20, 2020 Patch",
+                "details": [
+                    "[Tactical] Fix -> Amped Cover: Fixed client error with it in softened gore locales.",
+                    "[Tactical] Fix -> Amped Cover: Fixed a server error causing immediate disconnects when Rampart puts down a wall."
                 ]
             }
         ],
         "Revenant": [
             {
-                "patch": "Saison 3",
+                "patch": "August 18, 2020 Patch",
                 "details": [
-                    "[Passive] Buff -> Silence : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Silence : réduction du temps de recharge."
+                    "[Ultimate] Adjust -> Death Totem: For 2 seconds after being recalled by the totem, players cannot use Wraith’s Dimensional Rift.",
+                    "[Tactical] Fix -> Death Totem: Fixed an issue with enemies getting teleported with Revenant when they melee him before he teleports back to the totem."
                 ]
             },
             {
-                "patch": "Takeover: Loba's Heist",
+                "patch": "October 06, 2020 Patch",
                 "details": [
-                    "[Ultimate] Nerf -> Death Totem : réduction de la zone de protection."
+                    "[Ultimate] Fix -> Replicator: Fixed an issue with the HUD of the Replicator staying on the screen when the totem effect wears off."
                 ]
             }
-        ],
-        "Wattson": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Passive] Buff -> Intervene : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Intervene : réduction du temps de recharge."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Ultimate] Nerf -> Interception Pylon : réduction de la zone de protection."
-                ]
-            }
-        ],
-        "Bloodhound": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Passive] Buff -> Eye of the Allfather : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Eye of the Allfather : réduction du temps de recharge."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Ultimate] Nerf -> Beast of the Hunt : réduction de la zone de gaz."
-                ]
-            }
-        ],
-        "Caustic (Perks)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Perks] Buff -> Nox Gas Grenade : vitesse de déplacement augmentée."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Nerf -> Nox Gas Grenade : réduction du temps de recharge."
-                ]
-            }
-        ],
-        "Gibraltar (Perks)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Perks] Buff -> Gunner's Mate : vitesse de déplacement augmentée."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Nerf -> Gunner's Mate : réduction du temps de recharge."
-                ]
-            }
-        ],
-        "Loba (Perks)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Perks] Buff -> Burglar's Eye : vitesse de déplacement augmentée.",
-                    "[Perks] Nerf -> Burglar's Eye : réduction du temps de recharge."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Adjust -> Burglar's Eye : description du changement."
-                ]
-            }
-        ],
-        "Octane (Perks)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Perks] Buff -> Swift Mend : vitesse de déplacement augmentée."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Nerf -> Swift Mend : réduction du temps de recharge."
-                ]
-            }
-        ],
-        "Rampart (Perks)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Perks] Buff -> Gunner's Mate : vitesse de déplacement augmentée.",
-                    "[Perks] Nerf -> Gunner's Mate : réduction du temps de recharge."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Adjust -> Gunner's Mate : description du changement."
-                ]
-            }
-        ],
-        "Revenant (Perks)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Perks] Buff -> Silence : vitesse de déplacement augmentée.",
-                    "[Perks] Nerf -> Silence : réduction du temps de recharge."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Adjust -> Silence : description du changement."
-                ]
-            }
-        ],
-        "Wattson (Perks)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Perks] Buff -> Intervene : vitesse de déplacement augmentée.",
-                    "[Perks] Nerf -> Intervene : réduction du temps de recharge."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Adjust -> Intervene : description du changement."
-                ]
-            }
-        ],
-        "Bloodhound (Perks)": [],
-        "Bloodhound (Legend)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Passive] Buff -> Eye of the Allfather : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Eye of the Allfather : réduction du temps de recharge."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Ultimate] Nerf -> Beast of the Hunt : réduction de la zone de gaz."
-                ]
-            }
-        ],
-        "Caustic (Legend)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Passive] Buff -> Nox Gas : vitesse de déplacement augmentée."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Adjust -> Nox Gas Grenade : description du changement."
-                ]
-            }
-        ],
-        "Gibraltar (Legend)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Adjust -> Gunner's Mate : description du changement."
-                ]
-            }
-        ],
-        "Loba (Legend)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Passive] Buff -> Burglar's Eye : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Burglar's Eye : description du changement."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Ultimate] Nerf -> Burglar's Cut : réduction de la zone de gaz."
-                ]
-            }
-        ],
-        "Octane (Legend)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Passive] Buff -> Swift Mend : vitesse de déplacement augmentée."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Adjust -> Swift Mend : description du changement."
-                ]
-            }
-        ],
-        "Rampart (Legend)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Passive] Buff -> Gunner's Mate : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Gunner's Mate : description du changement."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Ultimate] Nerf -> Dome Shield : réduction de la zone de protection."
-                ]
-            }
-        ],
-        "Revenant (Legend)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Passive] Buff -> Silence : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Silence : description du changement."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Ultimate] Nerf -> Death Totem : réduction de la zone de protection."
-                ]
-            }
-        ],
-        "Wattson (Legend)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Passive] Buff -> Intervene : vitesse de déplacement augmentée.",
-                    "[Perks] Adjust -> Intervene : description du changement."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Ultimate] Nerf -> Interception Pylon : réduction de la zone de protection."
-                ]
-            }
-        ],
-        "Bangalore (Perks)": [
-            {
-                "patch": "Saison 3",
-                "details": [
-                    "[Perks] Buff -> Tactical Sense : vitesse de déplacement augmentée."
-                ]
-            },
-            {
-                "patch": "Takeover: Loba's Heist",
-                "details": [
-                    "[Perks] Nerf -> Tactical Sense : réduction du temps de recharge."
-                ]
-            }
-        ],
-        "Caustic (Legend) (Perks)": [],
-        "Gibraltar (Legend) (Perks)": [],
-        "Loba (Legend) (Perks)": [],
-        "Octane (Legend) (Perks)": [],
-        "Rampart (Legend) (Perks)": [],
-        "Revenant (Legend) (Perks)": [],
-        "Wattson (Legend) (Perks)": []
+        ]
     }
 }

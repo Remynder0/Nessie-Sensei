@@ -666,27 +666,19 @@
         }
     },
     "patches": {
-        "Bangalore": [
-            {
-                "patch": "March 03, 2020 Patch",
-                "details": [
-                    "[Base] Fix -> Fixed bug for cases where Bangalore would appear invisible when equipped with certain skins."
-                ]
-            }
-        ],
         "Bloodhound": [
             {
                 "patch": "February 04, 2020 Patch",
                 "details": [
-                    "[Ultimate] Buff -> Increased the scan distance by 3x.",
-                    "[Ultimate] Buff -> Increased time to activate from 0.4 seconds to 0.8 seconds.",
-                    "[Ultimate] Buff -> Increased duration of scan from 2 seconds to 3 seconds."
+                    "[Tactical] Buff -> Increased the scan distance by 3x.",
+                    "[Tactical] Buff -> Increased time to activate from 0.4 seconds to 0.8 seconds.",
+                    "[Tactical] Buff -> Increased duration of scan from 2 seconds to 3 seconds."
                 ]
             },
             {
                 "patch": "March 03, 2020 Patch",
                 "details": [
-                    "[Perks] Adjust -> Tracker: Added a new clue: Weapon Reloaded"
+                    "[Passive] Adjust -> Tracker: Added a new clue: Weapon Reloaded"
                 ]
             }
         ],
@@ -694,7 +686,7 @@
             {
                 "patch": "February 04, 2020 Patch",
                 "details": [
-                    "[Perks] Fix -> Surveillance Drone: Dome of Protection no longer can stick to drone."
+                    "[Tactical] Fix -> Surveillance Drone: Dome of Protection no longer can stick to drone."
                 ]
             },
             {
@@ -716,28 +708,24 @@
             {
                 "patch": "March 03, 2020 Patch",
                 "details": [
-                    "[Base] Nerf -> Gun Shield: Health reduced from 75 to 50.",
-                    "[Perks] Fix -> Dome of Protection: Fixed an issue with the player being able to place the dome on Crypto’s drone, allowing the dome to be mobile while in use."
+                    "[Passive] Nerf -> Gun Shield: Health reduced from 75 to 50.",
+                    "[Tactical] Fix -> Dome of Protection: Fixed an issue with the player being able to place the dome on Crypto’s drone, allowing the dome to be mobile while in use."
                 ]
             },
             {
                 "patch": "April 07, 2020 Patch",
                 "details": [
-                    "[Base] Nerf -> Gun Shield: Now disabled if silenced by Revenant."
+                    "[Passive] Nerf -> Gun Shield: Now disabled if silenced by Revenant."
                 ]
             }
         ],
         "Lifeline": [
             {
-                "patch": "February 04, 2020 Patch",
-                "details": []
-            },
-            {
                 "patch": "April 07, 2020 Patch",
                 "details": [
-                    "[Perks] Buff -> Combat Medic: Lifeline can now access secret compartments with more loot on Blue Supply Bins.",
-                    "[Perks] Buff -> Combat Medic: The secondary compartment will always contain some mixture of health items, weapon attachments, and Knockdown Shields.",
-                    "[Perks] Fix -> Low Profile: Leg shots now deal as much damage as body shots."
+                    "[Passive] Buff -> Combat Medic: Lifeline can now access secret compartments with more loot on Blue Supply Bins.",
+                    "[Passive] Buff -> Combat Medic: The secondary compartment will always contain some mixture of health items, weapon attachments, and Knockdown Shields.",
+                    "[Passive] Nerf -> Low Profile: Leg shots now deal as much damage as body shots."
                 ]
             }
         ],
@@ -755,26 +743,18 @@
         ],
         "Pathfinder": [
             {
-                "patch": "February 04, 2020 Patch",
-                "details": []
-            },
-            {
                 "patch": "April 07, 2020 Patch",
                 "details": [
-                    "[Perks] Adjust -> Grappling Hook: Increased cooldown from 13 seconds to 15 seconds.",
-                    "[Perks] Fix -> Low Profile: Leg shots now deal as much damage as body shots."
+                    "[Tactical] Nerf -> Grappling Hook: Increased cooldown from 13 seconds to 15 seconds.",
+                    "[Passive] Nerf -> Low Profile: Leg shots now deal as much damage as body shots."
                 ]
             }
         ],
         "Revenant": [
             {
-                "patch": "February 04, 2020 Patch",
-                "details": []
-            },
-            {
                 "patch": "March 03, 2020 Patch",
                 "details": [
-                    "[Perks] Fix -> Silence: Fixed getting assist credit when placing the ability on a player who is downed."
+                    "[Tactical] Fix -> Silence: Fixed getting assist credit when placing the ability on a player who is downed."
                 ]
             },
             {
@@ -788,7 +768,13 @@
                     "[Ultimate] Fix -> Death Totem: Characters are now respawned with 50 health (or whatever health they had when they activated it, if lower) instead of 1.",
                     "[Ultimate] Fix -> Death Totem: Fixed bug for cases when Revenant places the totem on the train, a player is respawned to it while on the train, and the train is moving, the player could be respawned somewhere else on the map or even off the map.",
                     "[Ultimate] Fix -> Death Totem: Fixed bug for cases where players that were under Revenant’s Death Protection could still be healed by Lifeline’s D.O.C. Heal Drone and Wattson’s Interception Pylon.",
-                    "[Passive] Nerf -> Removed Low Profile."
+                    "[Passive] Buff -> Removed Low Profile."
+                ]
+            },
+            {
+                "patch": "February 04, 2020 Patch",
+                "details": [
+                    "Introduced -> Revenant released this season."
                 ]
             }
         ],
@@ -796,7 +782,7 @@
             {
                 "patch": "April 07, 2020 Patch",
                 "details": [
-                    "[Passive] Fix -> Low Profile: Leg shots now deal as much damage as body shots."
+                    "[Passive] Nerf -> Low Profile: Leg shots now deal as much damage as body shots."
                 ]
             }
         ],

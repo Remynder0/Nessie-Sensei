@@ -666,8 +666,8 @@
             {
                 "patch": "September 03, 2019 Patch",
                 "details": [
-                    "[Perks] Buff -> Added Low Profile Perk.",
-                    "[Interception Pylon] Nerf -> Reduced the maximum number of pylons that can be active from 3 to 1."
+                    "[Class] New -> Low Profile: Added to Wattson.",
+                    "[Ultimate] Nerf -> Interception Pylon: Reduced maximum active pylons from 3 to 1."
                 ]
             }
         ]

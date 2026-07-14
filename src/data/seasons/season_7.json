@@ -740,217 +740,137 @@
         }
     },
     "patches": {
-        "Bangalore": [
-            {
-                "patch": "November 04, 2020 Patch",
-                "details": [
-                    "Rolling Thunder: Reduced the time it takes for explosion from 8 seconds to 6 seconds."
-                ]
-            },
-            {
-                "patch": "January 05, 2021 Patch",
-                "details": [
-                    "Fixed an issue with Bangalore’s Rolling Thunder missile passing through hatch doors when they are closed in World's Edge."
-                ]
-            }
-        ],
-        "Bloodhound": [
-            {
-                "patch": "January 05, 2021 Patch",
-                "details": [
-                    "Fixed an issue with Bloodhound’s UI disappearing after interacting with Horizon’s Gravity Lift."
-                ]
-            }
-        ],
-        "Caustic": [
-            {
-                "patch": "November 04, 2020 Patch",
-                "details": [
-                    "Nox Gas Trap/ Nox Gas Grenade: Nox Gas no longer causes a blur effect. Damage increased from 4–10 to 6–12."
-                ]
-            }
-        ],
         "Crypto": [
             {
                 "patch": "November 18, 2020 Patch",
                 "details": [
-                    "Surveillance Drone: Fixed an issue with being able to put Rampart’s Emplaced Minigun \"Sheila\" on the drone."
-                ]
-            },
-            {
-                "patch": "January 05, 2021 Patch",
-                "details": [
-                    "Surveillance Drone:",
-                    "Fixed an issue with Hack consuming two Vault Keys if two keys were in Crypto’s inventory.",
-                    "Fixed an issue with Hack getting stuck within the Trident when deployed as a passenger and the trident is on a ramp."
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an issue with Hack consuming two Vault Keys if two keys were in Crypto’s inventory.",
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an issue with Hack getting stuck within the Trident when deployed as a passenger and the trident is on a ramp."
                 ]
             },
             {
                 "patch": "November 04, 2020 Patch",
                 "details": [
-                    "Surveillance Drone:",
-                    "Fixed an issue with the drone being able to drop items from Crypto’s inventory.",
-                    "Fixed an issue with the drone not being able to fit through certain windows.",
-                    "Fixed an issue with the drone marking friendly Mirage decoys as enemies."
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an issue with the drone being able to drop items from Crypto’s inventory.",
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an issue with the drone not being able to fit through certain windows.",
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an issue with the drone marking friendly Mirage decoys as enemies."
+                ]
+            },
+            {
+                "patch": "January 05, 2021 Patch",
+                "details": [
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an issue with being able to put Rampart’s Emplaced Minigun \"Sheila\" on the drone."
                 ]
             }
         ],
         "Horizon": [
             {
-                "patch": "January 05, 2021 Patch",
+                "patch": "November 04, 2020 Patch",
                 "details": [
-                    "Gravity Lift: Increased effective cooldown from 16 seconds to 21 seconds. (The 15-second cooldown began 5 seconds later.)",
-                    "Black Hole: Cooldown now starts when N.E.W.T. disappears.",
-                    "Fixed an issue with Horizon’s abilities not affecting Lifeline’s DOC and Crypto’s drone."
+                    "Introduced -> Legend released this season.",
+                    "[Passive] Fix -> Spacewalk: Fixed an issue with Horizon’s abilities not affecting Lifeline’s DOC and Crypto’s drone."
                 ]
             },
             {
-                "patch": "November 04, 2020 Patch",
+                "patch": "January 05, 2021 Patch",
                 "details": [
-                    "Introduced."
+                    "[Tactical] Nerf -> Gravity Lift: Increased effective cooldown from 16 seconds to 21 seconds.",
+                    "[Ultimate] Nerf -> Black Hole: Cooldown now starts when N.E.W.T. disappears."
                 ]
             }
         ],
         "Loba": [
             {
-                "patch": "January 05, 2021 Patch",
+                "patch": "November 04, 2020 Patch",
                 "details": [
-                    "Burglar's Best Friend: Fixed a lot of windows in World's Edge that prevented Loba’s bracelet from passing through."
+                    "[Tactical] Fix -> Burglar's Blitz: Fixed a lot of windows in World's Edge that prevented Loba’s bracelet from passing through."
                 ]
             },
             {
-                "patch": "November 04, 2020 Patch",
+                "patch": "January 05, 2021 Patch",
                 "details": [
-                    "Black Market Boutique: Ammo taken no longer has a maximum limit nor takes up space towards the two items allowed to be taken."
-                ]
-            }
-        ],
-        "Mirage": [
-            {
-                "patch": "November 04, 2020 Patch",
-                "details": [
-                    "Psyche Out/ Life of the Party: Decoys now have 45 HP."
+                    "[Ultimate] Fix -> Black Market Boutique: Ammo taken no longer has a maximum limit nor takes up space towards the two items allowed to be taken."
                 ]
             }
         ],
         "Octane": [
             {
-                "patch": "January 07, 2021 Patch",
+                "patch": "November 04, 2020 Patch",
                 "details": [
-                    "Launch Pad: Fixed an issue with it preventing players from jumping."
+                    "[Passive] Buff -> Swift Mend: Tripled healing rate (from 0.5 hp/s to 1.5 hp/s)."
                 ]
             },
             {
-                "patch": "November 04, 2020 Patch",
+                "patch": "January 07, 2021 Patch",
                 "details": [
-                    "Swift Mend: Tripled healing rate (from 0.5 hp/s to 1.5 hp/s)."
-                ]
-            }
-        ],
-        "Pathfinder": [
-            {
-                "patch": "November 04, 2020 Patch",
-                "details": [
-                    "Grappling Hook:",
-                    "Pathfinder no longer needs to be on the ground for Grappling Hook to be considered finished.",
-                    "The speed to which Pathfinder needs to drop for Grappling Hook to be considered finished was increased from 300 units per second to 500 units per second.",
-                    "Reduced maximum cooldown from 35 seconds to 30.",
-                    "Reduced maximum travel time to 5 seconds, instead of uncapped. This means that effectively, you can never incur more than a 35-second cooldown.",
-                    "The amount of distance you can travel before you hit maximum cooldown was roughly doubled.",
-                    "Zipline Gun: Fixed an issue with ziplines going through platforms when deployed from underneath.",
-                    "Made adjustments to Pathfinder’s hitbox."
+                    "[Ultimate] Fix -> Launch Pad: Fixed an issue with it preventing players from jumping."
                 ]
             }
         ],
         "Rampart": [
             {
-                "patch": "January 14, 2021 Patch",
+                "patch": "November 04, 2020 Patch",
                 "details": [
-                    "Fixed an issue with the Gold Standard skin having discolored teeth."
+                    "[Tactical] Buff -> Amped Cover: Build time decreased from 4 seconds to 3 seconds.",
+                    "[Tactical] Fix -> Amped Cover: Fixed an issue with Rampart not being able to place a wall while jumping.",
+                    "[Ultimate] Buff -> Emplaced Minigun \"Sheila\": Spin-up time decreased from 2 seconds to 1.25 seconds.",
+                    "[Ultimate] Fix -> Emplaced Minigun \"Sheila\": Fixed an issue with Sheila teleporting when placed on a hatch in World's Edge Staging."
                 ]
             },
             {
                 "patch": "January 05, 2021 Patch",
                 "details": [
-                    "Amped Cover: Decreased cooldown from 30 seconds to 20 seconds.",
-                    "Emplaced Minigun \"Sheila\":",
-                    "Fixed an issue that allowed Rampart to place Sheila while in the Phase Runner.",
-                    "Fix an issue where UI elements stayed on screen after using Sheila."
+                    "[Tactical] Nerf -> Amped Cover: Decreased cooldown from 30 seconds to 20 seconds.",
+                    "[Ultimate] Fix -> Emplaced Minigun \"Sheila\": Fixed an issue that allowed Rampart to place Sheila while in the Phase Runner.",
+                    "[Ultimate] Fix -> Emplaced Minigun \"Sheila\": Fix an issue where UI elements stayed on screen after using Sheila."
                 ]
             },
             {
                 "patch": "December 09, 2020 Patch",
                 "details": [
-                    "Amped Cover: Fixed an issue with the walls at the feet of the players on the train killing them."
+                    "[Tactical] Fix -> Amped Cover: Fixed an issue with the walls at the feet of the players on the train killing them."
                 ]
             },
             {
                 "patch": "December 01, 2020 Patch",
                 "details": [
-                    "Emplaced Minigun \"Sheila\": Fixed an issue with the turret on a Trident causing crashes. This ability is now re-enabled for use on the vehicle."
+                    "[Ultimate] Fix -> Emplaced Minigun \"Sheila\": Fixed an issue with the turret on a Trident causing crashes. This ability is now re-enabled for use on the vehicle."
                 ]
             },
             {
                 "patch": "November 18, 2020 Patch",
                 "details": [
-                    "Emplaced Minigun \"Sheila\":",
-                    "Fixed an issue with being able to put the turret on Crypto’s Surveillance Drone.",
-                    "Temporarily disabled the ability to put the turret on the Trident to fix a bug causing crashes."
-                ]
-            },
-            {
-                "patch": "November 04, 2020 Patch",
-                "details": [
-                    "Amped Cover:",
-                    "Build time decreased from 4 seconds to 3 seconds.",
-                    "Fixed an issue with Rampart not being able to place a wall while jumping.",
-                    "Emplaced Minigun \"Sheila\":",
-                    "Spin-up time decreased from 2 seconds to 1.25 seconds.",
-                    "Fixed an issue with Sheila teleporting when placed on a hatch in World's Edge Staging."
+                    "[Ultimate] Fix -> Emplaced Minigun \"Sheila\": Fixed an issue with being able to put the turret on Crypto’s Surveillance Drone.",
+                    "[Ultimate] Fix -> Emplaced Minigun \"Sheila\": Temporarily disabled the ability to put the turret on the Trident to fix a bug causing crashes."
                 ]
             }
         ],
         "Revenant": [
             {
-                "patch": "January 05, 2021 Patch",
+                "patch": "November 04, 2020 Patch",
                 "details": [
-                    "Death Totem:",
-                    "Fixed an issue causing other players to teleport with Revenant if they punch Revenant when he has very little health.",
-                    "Fixed an issue that didn’t allow Revenant to deploy the totem while on the Trident."
+                    "[Passive] Fix -> Death Totem: Fixed an issue with Revenant getting pushed into geometry when his totem was deployed in tight spaces."
                 ]
             },
             {
-                "patch": "November 04, 2020 Patch",
+                "patch": "January 05, 2021 Patch",
                 "details": [
-                    "Death Totem: Fixed an issue with Revenant getting pushed into geometry when his totem was deployed in tight spaces."
+                    "[Tactical] Fix -> Death Totem: Fixed an issue causing other players to teleport with Revenant if they punch Revenant when he has very little health.",
+                    "[Tactical] Fix -> Death Totem: Fixed an issue that didn’t allow Revenant to deploy the totem while on the Trident."
                 ]
             }
         ],
         "Wattson": [
             {
+                "patch": "November 04, 2020 Patch",
+                "details": [
+                    "[Tactical] Buff -> Perimeter Security: Damage increased from 10 to 15."
+                ]
+            },
+            {
                 "patch": "January 14, 2021 Patch",
                 "details": [
-                    "Fixed an issue with her Haute Drop skin obscuring views with the 1x Holo sight while using the Volt SMG, HAVOC Rifle, Longbow DMR, Sentinel, and R-301 Carbine."
-                ]
-            },
-            {
-                "patch": "November 04, 2020 Patch",
-                "details": [
-                    "Perimeter Security: Damage increased from 10 to 15."
-                ]
-            }
-        ],
-        "Wraith": [
-            {
-                "patch": "January 05, 2021 Patch",
-                "details": [
-                    "Fixed an issue with Wraith’s Dimensional Rift getting destroyed by the Trident."
-                ]
-            },
-            {
-                "patch": "November 04, 2020 Patch",
-                "details": [
-                    "Dimensional Rift: Fixed an issue with priming a grenade cancelling Wraith's ultimate."
+                    "Fix -> Fixed an issue with her Haute Drop skin obscuring views with the 1x Holo sight while using the Volt SMG, HAVOC Rifle, Longbow DMR, Sentinel, and R-301 Carbine."
                 ]
             }
         ]

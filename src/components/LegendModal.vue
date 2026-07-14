@@ -52,6 +52,50 @@ const getPatchTypeClass = (type: string) => {
     if (t.includes('introduced') || t.includes('intro')) return 'text-titan-orange border-titan-orange/30 bg-titan-orange/10';
     return 'text-gray-400 border-gray-400/30 bg-gray-400/10';
 };
+
+const CATEGORY_ORDER = [
+    { key: 'passive', label: 'Passive' },
+    { key: 'tactical', label: 'Tactical' },
+    { key: 'ultimate', label: 'Ultimate' },
+    { key: 'perks', label: 'Perks' },
+    { key: 'class', label: 'Class' },
+    { key: 'others', label: 'Others' }
+];
+
+const groupPatchDetails = (details: string[]) => {
+    const groups: Record<string, any[]> = {
+        passive: [],
+        tactical: [],
+        ultimate: [],
+        perks: [],
+        class: [],
+        others: []
+    };
+    
+    for (const detail of details) {
+        const parsed = parsePatchDetail(detail);
+        if (parsed.isFormatted) {
+            let catKey = parsed.ability.replace(/\[|\]/g, '').toLowerCase();
+            if (catKey === 'base' || !groups.hasOwnProperty(catKey)) {
+                catKey = 'others';
+            }
+            groups[catKey].push(parsed);
+        } else {
+            groups.others.push(parsed);
+        }
+    }
+    
+    const result = [];
+    for (const cat of CATEGORY_ORDER) {
+        if (groups[cat.key].length > 0) {
+            result.push({
+                category: cat.label,
+                items: groups[cat.key]
+            });
+        }
+    }
+    return result;
+};
 </script>
 
 <template>
@@ -241,25 +285,35 @@ const getPatchTypeClass = (type: string) => {
                         <div class="space-y-6">
                             <div v-for="patch in currentLegendPatchHistory" :key="patch.patch" class="border-l-2 border-titan-border/50 pl-4 py-1">
                                 <h4 class="font-bold text-titan-cyan font-mono text-sm uppercase tracking-wider mb-3">{{ patch.patch }}</h4>
-                                <ul class="space-y-2.5 text-gray-400 text-sm">
-                                    <li v-for="(detail, i) in patch.details" :key="i" class="leading-relaxed flex flex-col md:flex-row md:items-start gap-1.5 md:gap-3">
-                                        <template v-if="parsePatchDetail(detail).isFormatted">
-                                            <div class="flex items-center gap-2 shrink-0 mt-0.5">
-                                                <span class="font-mono text-xs font-bold text-white">{{ parsePatchDetail(detail).ability }}</span>
-                                                <span class="font-mono text-[10px] uppercase tracking-wider px-1.5 py-0.5 border" :class="getPatchTypeClass(parsePatchDetail(detail).type)">
-                                                    {{ parsePatchDetail(detail).type }}
-                                                </span>
-                                            </div>
-                                            <span class="text-gray-300 md:pt-0.5">{{ parsePatchDetail(detail).text }}</span>
-                                        </template>
-                                        <template v-else>
-                                            <span class="text-gray-400 flex items-start gap-2">
-                                                <span class="w-1.5 h-1.5 rounded-full bg-titan-border/50 shrink-0 mt-1.5 block"></span>
-                                                <span>{{ detail }}</span>
-                                            </span>
-                                        </template>
-                                    </li>
-                                </ul>
+                                
+                                <div class="space-y-4">
+                                    <template v-for="group in groupPatchDetails(patch.details)" :key="group.category">
+                                        <div>
+                                            <h5 class="text-[10px] font-bold text-gray-500 uppercase tracking-widest font-mono mb-2 flex items-center gap-2">
+                                                <span class="w-1 h-1 bg-gray-500 rounded-full block"></span>
+                                                {{ group.category }}
+                                            </h5>
+                                            <ul class="space-y-2.5 text-gray-400 text-sm pl-2 md:pl-3 border-l border-gray-700/50">
+                                                <li v-for="(item, i) in group.items" :key="i" class="leading-relaxed flex flex-col md:flex-row md:items-start gap-1.5 md:gap-3">
+                                                    <template v-if="item.isFormatted">
+                                                        <div class="flex items-center gap-2 shrink-0 mt-0.5">
+                                                            <span class="font-mono text-[10px] uppercase tracking-wider px-1.5 py-0.5 border" :class="getPatchTypeClass(item.type)">
+                                                                {{ item.type }}
+                                                            </span>
+                                                        </div>
+                                                        <span class="text-gray-300 md:pt-0.5">{{ item.text }}</span>
+                                                    </template>
+                                                    <template v-else>
+                                                        <span class="text-gray-400 flex items-start gap-2">
+                                                            <span class="w-1.5 h-1.5 rounded-full bg-titan-border/50 shrink-0 mt-1.5 block"></span>
+                                                            <span>{{ item.text }}</span>
+                                                        </span>
+                                                    </template>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </template>
+                                </div>
                             </div>
                         </div>
                     </div>

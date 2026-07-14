@@ -764,80 +764,70 @@
         }
     },
     "patches": {
-        "Ash": [
+        "Fuse": [
             {
-                "patch": "Emergence",
+                "patch": "August 03, 2021 Patch",
                 "details": [
-                    "[Passive] Buff -> Ash's passive ability now has a increased duration.",
-                    "[Tactical] Adjust -> Burst Pierce: Increased damage at long range."
+                    "[Passive] Adjust -> Grenadier: Enhanced throw power can be now be toggled on and off by pressing the utility action button (default H//) while holding a grenade.",
+                    "[Tactical] Adjust -> Knuckle Cluster: Now lasts twice as long with the same amount of damage.",
+                    "[Ultimate] Buff -> The Motherlode: Now highlights enemies affected by the fire."
                 ]
             }
         ],
-        "Bloodhound": [
+        "Horizon": [
             {
-                "patch": "Emergence",
+                "patch": "August 03, 2021 Patch",
                 "details": [
-                    "[Ultimate] Nerf -> Eye of the Allfather's tracking speed reduced by 20%.",
-                    "[Perks] Adjust -> Tracker Upgrade: Increased duration of tracker."
-                ]
-            }
-        ],
-        "Caustic": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Passive] Buff -> Nox Gas Grenade now has increased gas spread and duration."
-                ]
-            }
-        ],
-        "Gibraltar": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Ultimate] Adjust -> Gun Shield: Increased shield size, but reduced its duration."
-                ]
-            }
-        ],
-        "Loba": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Passive] Buff -> Burglar's Eye now has increased scan range and duration.",
-                    "[Tactical] Adjust -> Burglar's Eye: Increased scan speed."
+                    "[Tactical] Buff -> Gravity Lift: Increased lift speed.",
+                    "[Ultimate] Nerf -> Black Hole: Reduced the slow after the initial pull."
                 ]
             }
         ],
         "Octane": [
             {
-                "patch": "Emergence",
+                "patch": "September 14, 2021 Patch",
                 "details": [
-                    "[Ultimate] Nerf -> Swift Mend's healing reduced by 20%."
+                    "[Passive] Nerf -> Swift Mend: Reduced healing rate from 1.5 to 1.0 hp/sec.",
+                    "[Ultimate] Nerf -> Launch Pad: Reduced jump pad horizontal distance by 10% - 15%."
+                ]
+            }
+        ],
+        "Rampart": [
+            {
+                "patch": "September 14, 2021 Patch",
+                "details": [
+                    "[Base] Rework -> Mobile Minigun \"Sheila\": Changed name from Emplaced Minigun to Mobile Minigun. Now able to run around with Sheila out, and shoot while walking. The spin-up is longer, and she only gets 1 magazine in this mode. Sheila can now be put away and pulled back out until you run out of ammo (or hit the cooldown time). At any point, the turret can still be placed down for your teammates to use. Once placed, it has infinite reloads and acts just like the previous version, but cannot be picked back up."
+                ]
+            },
+            {
+                "patch": "October 20, 2021 Patch",
+                "details": [
+                    "[Ultimate] Fix -> Mobile Minigun \"Sheila\": Fixed some melee and spin-up exploits related to the mobile version."
                 ]
             }
         ],
         "Revenant": [
             {
-                "patch": "Emergence",
+                "patch": "September 14, 2021 Patch",
                 "details": [
-                    "[Passive] Buff -> Stalker's Eye now has increased scan range and duration.",
-                    "[Tactical] Adjust -> Silence: Increased silence duration."
+                    "[Passive] Adjust -> Death Totem: Added some visual effects to increase visibility for when a totem is placed nearby.",
+                    "[Tactical] Fix -> Death Totem: Added a brief slow after being recalled."
+                ]
+            },
+            {
+                "patch": "August 03, 2021 Patch",
+                "details": [
+                    "[Ultimate] Adjust -> Death Totem: Added a visual and audio cue when Death Totem protection is about to end which can be seen/heard by other players."
                 ]
             }
         ],
         "Seer": [
             {
-                "patch": "Emergence",
+                "patch": "August 23, 2021 Patch",
                 "details": [
-                    "[Ultimate] Nerf -> Prowler's Perch's tracking speed reduced by 20%."
-                ]
-            }
-        ],
-        "Wraith": [
-            {
-                "patch": "Emergence",
-                "details": [
-                    "[Passive] Buff -> Voices From the Void now has increased duration.",
-                    "[Tactical] Adjust -> Voices From the Void: Increased time between voice warnings."
+                    "[Passive] Adjust -> Heart Seeker: Increased delay between sensor spikes for targets at full health from 1.25 to 1.75 seconds. Removed center-circle ellipses. Reduced range of blue spikes beyond 75 meters. Reduced field of view.",
+                    "[Tactical] Nerf -> Focus of Attention: Increased detonation delay from 1.4 to 1.6 seconds. Removed damage. Remove blinding effect. Reduced screen shake VFX when hit. Increased slow to movement speed while priming. Lowered volume on audio. Fixed effects in the Firing Range being visible when it's not supposed to be.",
+                    "[Ultimate] Nerf -> Exhibit: Increased cooldown from 90 to 120 seconds. Lowered volume on audio."
                 ]
             }
         ]

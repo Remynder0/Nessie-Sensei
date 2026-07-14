@@ -757,92 +757,157 @@
         }
     },
     "patches": {
-        "Bangalore": [
+        "Crypto": [
             {
-                "patch": "Saison 8",
+                "patch": "May 04, 2021 Patch",
                 "details": [
-                    "[Passive] Nerf -> Double Time : réduction de vitesse."
+                    "Fix -> Fixed bugs with the Dragonskin skin.",
+                    "[Tactical] Adjust -> Surveillance Drone: Can now see survey beacon icon in drone view.",
+                    "[Tactical] Adjust -> Surveillance Drone: Can now scan and open care packages."
+                ]
+            },
+            {
+                "patch": "June 29, 2021 Patch",
+                "details": [
+                    "[Tactical] Fix -> Surveillance Drone: Can no longer be used to \"hijack\" a Respawn Beacon that's already in use."
                 ]
             }
         ],
-        "Caustic": [
+        "Fuse": [
             {
-                "patch": "Takeover: Caustic",
+                "patch": "May 04, 2021 Patch",
                 "details": [
-                    "[Ultimate] Buff -> Le poison a été renforcé.",
-                    "[Perks] Adjust -> Upgrades Level 2 : description du changement."
+                    "[Tactical] Buff -> Knuckle Cluster: Now has 2 charges.",
+                    "[Tactical] Buff -> Knuckle Cluster: Reduced cooldown from 25s to 20s."
                 ]
             }
         ],
-        "Gibraltar": [
+        "Horizon": [
             {
-                "patch": "Saison 8",
+                "patch": "May 04, 2021 Patch",
                 "details": [
-                    "[Passive] Buff -> Le bouclier de Gibraltar a été renforcé.",
-                    "[Perks] Adjust -> Upgrades Level 2 : description du changement."
+                    "[Tactical] Nerf -> Gravity Lift: Reduced lift speed by 30%.",
+                    "[Tactical] Adjust -> Gravity Lift: Reduced side-to-side acceleration.",
+                    "[Tactical] Adjust -> Gravity Lift: Limited the time you can sit at the top of Gravity Lift to 2 seconds.",
+                    "[Tactical] Nerf -> Gravity Lift: Increased cooldown from 15s to 20s."
+                ]
+            },
+            {
+                "patch": "May 04, 2021 Patch",
+                "details": [
+                    "[Ultimate] Fix -> Black Hole: Fixed an issue with NEWT not getting refunded if it immediately dies due to a bad spot.",
+                    "[Tactical/Ultimate] Nerf -> Horizon’s abilities will now get zapped by Wattson's Interception Pylon."
                 ]
             }
         ],
         "Loba": [
             {
-                "patch": "Saison 8",
+                "patch": "May 04, 2021 Patch",
                 "details": [
-                    "[Passive] Buff -> Le vol a été amélioré.",
-                    "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge."
+                    "[Tactical] Buff -> Burglar's Blitz: Can now run and slide at full speed while aiming the bracelet and while the bracelet is in the air.",
+                    "[Tactical] Adjust -> Burglar's Blitz: Loba will no longer be slowed after translocating.",
+                    "[Tactical] Fix -> Burglar's Blitz: Fixed a lot of bugs that caused bracelet tosses to fail."
+                ]
+            },
+            {
+                "patch": "July 19, 2021 Patch",
+                "details": [
+                    "[Ultimate] Fix -> Black Market Boutique: Fixed a bug preventing players with a custom control layout with \"Extra Character Action\" bound from looting from Deathboxes or the Black Market Boutique."
+                ]
+            },
+            {
+                "patch": "May 04, 2021 Patch",
+                "details": [
+                    "[Ultimate] Nerf -> Black Market Boutique: Increased cooldown from 90s to 120s."
                 ]
             }
         ],
         "Octane": [
             {
-                "patch": "Saison 8",
+                "patch": "June 29, 2021 Patch",
                 "details": [
-                    "[Passive] Buff -> La vitesse a été améliorée.",
-                    "[Perks] Adjust -> Upgrades Level 2 : description du changement."
+                    "[Ultimate] Nerf -> Launch Pad: Increased cooldown from 60s to 90s."
                 ]
-            }
-        ],
-        "Rampart": [
+            },
             {
-                "patch": "Saison 8",
+                "patch": "May 04, 2021 Patch",
                 "details": [
-                    "[Passive] Buff -> La défense a été renforcée.",
-                    "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge."
+                    "[Tactical] Buff -> Stim Surge: Reduced cooldown between stims from 4s to 1s.",
+                    "[Tactical] Nerf -> Stim Surge: Increased health cost from 12hp to 20hp."
+                ]
+            },
+            {
+                "patch": "May 04, 2021 Patch",
+                "details": [
+                    "[Ultimate] Adjust -> Launch Pad: Increased bullet spread while in the air and shooting from the low launch pad trajectory.",
+                    "[Ultimate] Fix -> Launch Pad: Grenades will no longer get stuck and disappear when being bounced off of launch pads.",
+                    "[Ultimate] Fix -> Launch Pad: Death Totems will no longer bounce when a Jump Pad is placed under it."
                 ]
             }
         ],
         "Revenant": [
             {
-                "patch": "Takeover: Revenant",
+                "patch": "July 19, 2021 Patch",
                 "details": [
-                    "[Passive] Buff -> La vitesse a été améliorée.",
-                    "[Perks] Adjust -> Upgrades Level 2 : description du changement."
+                    "Fix -> Revenant's Heirloom: Fixed an issue where having Revenant's Heirloom equipped would cause slides to not travel very far while healing."
+                ]
+            },
+            {
+                "patch": "June 29, 2021 Patch",
+                "details": [
+                    "Adjust -> Revenant: Slightly decreased hitbox size.",
+                    "[Tactical] Buff -> Stalker: Significantly increased climb height.",
+                    "[Tactical] Nerf -> Silence: Duration decreased from 20 seconds to 15 seconds.",
+                    "[Ultimate] Nerf -> Death Totem: Duration reduced by 5 seconds."
                 ]
             }
         ],
-        "Seer": [
+        "Valkyrie": [
             {
-                "patch": "Saison 8",
+                "patch": "May 27, 2021 Patch",
                 "details": [
-                    "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge.",
-                    "[Perks] Adjust -> Upgrades Level 2 : description du changement."
+                    "[Tactical] Adjust -> Missile Swarm: hovering now consumes the same amount of fuel compared to not hovering when using the tactical."
+                ]
+            },
+            {
+                "patch": "May 24, 2021 Patch",
+                "details": [
+                    "[Ultimate] Adjust -> Skyward Dive: Added a short input delay after using the ability to prevent players from accidentally activating - then immediately cancelling - the ability by accident.",
+                    "[Ultimate] Fix -> Skyward Dive: Fixed a bug that allowed the ability to be activated shortly after using a Launch Pad."
+                ]
+            },
+            {
+                "patch": "May 12, 2021 Patch",
+                "details": [
+                    "Fix -> Valkyrie: Temporarily disabled in the Firing Range to fix an exploit that was allowing players to rack up an infinite amount of kills for their stats."
+                ]
+            },
+            {
+                "patch": "May 11, 2021 Patch",
+                "details": [
+                    "[Passive] Fix -> VTOL Jets: No longer highlights dead players."
+                ]
+            },
+            {
+                "patch": "May 04, 2021 Patch",
+                "details": [
+                    "Introduced -> Valkyrie: Introduced."
                 ]
             }
         ],
-        "Vantage": [
+        "Wattson": [
             {
-                "patch": "Saison 8",
+                "patch": "May 24, 2021 Patch",
                 "details": [
-                    "[Passive] Buff -> La vitesse a été améliorée.",
-                    "[Ultimate] Nerf -> L'ultime a été réduit en temps de recharge."
+                    "[Tactical] Fix -> Perimeter Security: Restored slow effect when running into the fences."
                 ]
-            }
-        ],
-        "Wraith": [
+            },
             {
-                "patch": "Saison 8",
+                "patch": "May 04, 2021 Patch",
                 "details": [
-                    "[Passive] Buff -> La vitesse a été améliorée.",
-                    "[Perks] Adjust -> Upgrades Level 2 : description du changement."
+                    "[Class] Buff -> Removed Low Profile.",
+                    "[Ultimate] Adjust -> Interception Pylon: Will now intercept Horizon’s abilities.",
+                    "[Tactical] Fix -> Perimeter Security: Fixed the “Extend” prompt for the fences not appearing in certain situations."
                 ]
             }
         ]

@@ -712,64 +712,108 @@
         }
     },
     "patches": {
-        "Bangalore": [
+        "Crypto": [
             {
-                "patch": "Saison 3",
+                "patch": "June 23, 2020 Patch",
                 "details": [
-                    "[Passive] Buff -> Double Time : augmentation de la durée.",
-                    "[Tactical] Adjust -> Smoke Launcher : nouvelle description."
-                ]
-            }
-        ],
-        "Caustic": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Ultimate] Nerf -> Nox Gas Grenade : réduction du temps de recharge."
+                    "[Tactical] Adjust -> Surveillance Drone: Now takes 1.5 seconds to start controlling (was 2.5 seconds).",
+                    "[Tactical] Fix -> Surveillance Drone: Fixed an issue with the drone flying without input if the player was sprinting with the double-tap to sprint option.",
+                    "[Ultimate] Buff -> Drone EMP: Now destroys Wattson’s Interception Pylon and Loba's Black Market Boutique."
                 ]
             },
             {
-                "patch": "Saison 3",
+                "patch": "May 12, 2020 Patch",
                 "details": [
-                    "[Passive] Buff -> Nox Vision : augmentation de la portée."
+                    "[Tactical] New -> Surveillance Drone: Crypto can now ping banners, while in drone view, to warn teammates of nearby squads.",
+                    "[Ultimate] Fix -> Drone EMP now affects DUMMIE in the Firing Range."
                 ]
             }
         ],
-        "Gibraltar": [
+        "Loba": [
             {
-                "patch": "Takeover",
+                "patch": "July 09, 2020 Patch",
                 "details": [
-                    "[Ultimate] Nerf -> Gun Shield : réduction du temps de recharge."
+                    "[Tactical] Adjust -> Burglar's Best Friend: Improved usability on World's Edge."
                 ]
             },
             {
-                "patch": "Saison 3",
+                "patch": "July 07, 2020 Patch",
                 "details": [
-                    "[Passive] Buff -> Gun Shield : augmentation de la durée.",
-                    "[Perks] Adjust -> Ironclad : nouvelle description."
+                    "[Tactical] Fix -> Burglar's Best Friend: Addressed Loba's bracelet usability on World's Edge. There are still some known cases we're continuing to work on but it should work much better now."
+                ]
+            },
+            {
+                "patch": "June 23, 2020 Patch",
+                "details": [
+                    "[Tactical] Buff -> Burglar's Best Friend: No longer intercepted by Wattson’s Interception Pylon.",
+                    "[Ultimate] Adjust -> Black Market Boutique: Will now only pick up 1 stack of ammo (rather than 1 stack + the amount that was required to fill whatever partial stack you had in your inventory).",
+                    "[Ultimate] Fix -> Black Market Boutique: Fixed an issue with it not showing the correct range.",
+                    "[Ultimate] Fix -> Black Market Boutique: Now shows correct ammo count for care package weapons.",
+                    "[Ultimate] Fix -> Black Market Boutique: Now refunded if it gets caught between two doors.",
+                    "[Perks] Buff -> Ultimate Accelerants now give her 20% ultimate charge (from 17.5%)."
+                ]
+            },
+            {
+                "patch": "May 12, 2020 Patch",
+                "details": [
+                    "Introduced -> Loba released this season."
                 ]
             }
         ],
-        "Loba": [],
         "Octane": [
             {
-                "patch": "Takeover",
+                "patch": "June 30, 2020 Patch",
                 "details": [
-                    "[Tactical] Nerf -> Swift Mend : réduction de la régénération de santé.",
-                    "[Perks] Adjust -> Swift Mend : nouvelle description."
+                    "[Tactical] Fix -> Stim: No longer able to use it while healing.",
+                    "[Passive] Fix -> Swift Mend: Fixed an issue with the regen being delayed after the use of Stim.",
+                    "[Fix] -> Fixed issues with being pulled out of ADS, weapon firing stopping when Stim ends/landing from a Launch Pad."
                 ]
             },
             {
-                "patch": "Saison 3",
+                "patch": "June 23, 2020 Patch",
                 "details": [
-                    "[Ultimate] Buff -> Launch Pad : augmentation du temps de recharge."
+                    "[Tactical] Buff -> Stim: Now removes speed impairing effects when activated.",
+                    "[Tactical] Buff -> Stim: Sprinting speed is increased from 30% to 40%."
+                ]
+            },
+            {
+                "patch": "May 12, 2020 Patch",
+                "details": [
+                    "[Ultimate] Adjust -> Launch Pad: Cooldown reduced from 90 seconds to 60 seconds."
                 ]
             }
         ],
-        "Rampart": [],
         "Revenant": [
-            "No data found"
+            {
+                "patch": "June 30, 2020 Patch",
+                "details": [
+                    "[Ultimate] Fix -> Death Totem: Fixed an issue where if death protection wears off during a revive, it cancels the revive."
+                ]
+            },
+            {
+                "patch": "June 23, 2020 Patch",
+                "details": [
+                    "[Tactical] Buff -> Silence: Will now cancel Pathfinder mid-grapple and Wraith mid- Into the Void attempt (before it activates).",
+                    "[Tactical] Buff -> Silence: Will now prevent Mirage cloaked revive and decoy control activation.",
+                    "[Tactical] Buff -> Silence: Will now prevent Lifeline Combat Revive.",
+                    "[Tactical] Fix -> Silence: Fixed an issue with the audio of the ability cutting off halfway through its playback."
+                ]
+            },
+            {
+                "patch": "May 12, 2020 Patch",
+                "details": [
+                    "[Ultimate] Adjust -> Death Totem: Fixed an issue with it being visible through smoke or gas."
+                ]
+            }
         ],
-        "Wraith": []
+        "Wattson": [
+            {
+                "patch": "June 23, 2020 Patch",
+                "details": [
+                    "[Ultimate] Buff -> Interception Pylon: Now only lasts for 90 seconds, instead of infinite.",
+                    "[Ultimate] Buff -> Interception Pylon: Increased number of active pylons from 1 to 3."
+                ]
+            }
+        ]
     }
 }

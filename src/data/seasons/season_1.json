@@ -681,7 +681,7 @@
             {
                 "patch": "March 19, 2019 Patch",
                 "details": [
-                    "[Base] Buff -> Double Time: Reduced move speed bonus from 40% to 30%"
+                    "[Passive] Buff -> Double Time: Reduced move speed bonus from 40% to 30%"
                 ]
             }
         ],
@@ -689,7 +689,7 @@
             {
                 "patch": "March 19, 2019 Patch",
                 "details": [
-                    "[Base] Buff -> Beast of the Hunt: Added better colorblind support"
+                    "[Ultimate] Fix -> Beast of the Hunt: Added better colorblind support"
                 ]
             }
         ],
@@ -697,20 +697,20 @@
             {
                 "patch": "April 16, 2019 Patch",
                 "details": [
-                    "[Perks] Buff -> Fortified Passive Perk added which reduces damage taken by 10%",
-                    "[Base] Buff -> Gas Damage per tick increased from 1 to 4",
-                    "[Base] Buff -> Nox Gas Grenade: Throw distance increased from 28 meters to 33 meters"
+                    "[Class] Buff -> Fortified Passive Perk added which reduces damage taken by 10%",
+                    "[Tactical/Ultimate] Buff -> Gas Damage per tick increased from 1 to 4",
+                    "[Ultimate] Buff -> Nox Gas Grenade: Throw distance increased from 28 meters to 33 meters"
                 ]
             },
             {
                 "patch": "March 19, 2019 Patch",
                 "details": [
-                    "[Base] Adjust -> Adjusted hitbox to better align with shape.",
-                    "[Perks] Buff -> Nox Gas Trap: Reduced cooldown of Traps from 30 to 25 seconds.",
-                    "[Perks] Buff -> Nox Gas Trap: Increased radius and proximity radius by about 10%",
-                    "[Perks] Fix -> Nox Gas Trap: Removed a 1-second delay on the smoke dealing damage to players",
-                    "[Base] Adjust -> Nox Gas Grenade: Reduced cooldown from 2:30 to 2:00 minutes.",
-                    "[Base] Fix -> Fixed ADS view being blocked when using Caustic legendary skins with certain weapon/ optic combos"
+                    "Adjust -> Adjusted hitbox to better align with shape.",
+                    "[Tactical] Buff -> Nox Gas Trap: Reduced cooldown of Traps from 30 to 25 seconds.",
+                    "[Tactical] Buff -> Nox Gas Trap: Increased radius and proximity radius by about 10%",
+                    "[Tactical] Buff -> Nox Gas Trap: Removed a 1-second delay on the smoke dealing damage to players",
+                    "[Ultimate] Buff -> Nox Gas Grenade: Reduced cooldown from 2:30 to 2:00 minutes.",
+                    "Fix -> Fixed ADS view being blocked when using Caustic legendary skins with certain weapon/ optic combos"
                 ]
             }
         ],
@@ -718,22 +718,16 @@
             {
                 "patch": "April 16, 2019 Patch",
                 "details": [
-                    "[Perks] Buff -> Added Fortified Passive Perk which reduces damage taken by 10%",
-                    "[Base] Buff -> Gun Shield: Health increased from 50 to 75"
-                ]
-            },
-            {
-                "patch": "April 03, 2019 Patch",
-                "details": [
-                    "[Base] Adjust -> Adjusted the hitbox for Gibraltar to better align with his shape."
+                    "[Class] Buff -> Added Fortified Passive Perk which reduces damage taken by 10%",
+                    "[Passive] Buff -> Gun Shield: Health increased from 50 to 75"
                 ]
             },
             {
                 "patch": "March 19, 2019 Patch",
                 "details": [
-                    "[Base] Adjust -> Adjusted the hitbox for Gibraltar to better align with his shape.",
-                    "[Perks] Fix -> Defensive Bombardment: Fixed a bug where teammates are not affected by Shell Shock. This was meant to be the same as Bangalore's ultimate.",
-                    "[Base] Buff -> Gun Shield: Patched up the hole we found in the shield."
+                    "Adjust -> Adjusted the hitbox for Gibraltar to better align with his shape.",
+                    "[Ultimate] Fix -> Defensive Bombardment: Fixed a bug where teammates are not affected by Shell Shock. This was meant to be the same as Bangalore's ultimate.",
+                    "[Passive] Fix -> Gun Shield: Patched up the hole we found in the shield."
                 ]
             }
         ],
@@ -741,10 +735,10 @@
             {
                 "patch": "March 19, 2019 Patch",
                 "details": [
-                    "[Perks] Fix -> Combat Medic: Fixed issue where the revive shield wouldn’t stay put while on a moving platform.",
-                    "[Perks] Fix -> D.O.C. Heal Drone: Fixed bug where occasionally the drone would stay connected to a player but not heal them.",
-                    "[Perks] Buff -> D.O.C. Heal Drone: Limited the number of drones that can connect to a player to 2",
-                    "[Perks] Buff -> Care Package: Removed slight chance that Level 4 armor and helmets will appear on the Care Package."
+                    "[Passive] Fix -> Combat Medic: Fixed issue where the revive shield wouldn’t stay put while on a moving platform.",
+                    "[Tactical] Fix -> D.O.C. Heal Drone: Fixed bug where occasionally the drone would stay connected to a player but not heal them.",
+                    "[Tactical] Buff -> D.O.C. Heal Drone: Limited the number of drones that can connect to a player to 2",
+                    "[Ultimate] Buff -> Care Package: Removed slight chance that Level 4 armor and helmets will appear on the Care Package."
                 ]
             }
         ],
@@ -752,13 +746,13 @@
             {
                 "patch": "April 03, 2019 Patch",
                 "details": [
-                    "[Base] Adjust -> Launch Pad: No longer affects players when using Wraith's Into the Void ability."
+                    "[Ultimate] Fix -> Launch Pad: No longer affects players when using Wraith's Into the Void ability."
                 ]
             },
             {
                 "patch": "March 19, 2019 Patch",
                 "details": [
-                    "[Base] Buff -> Introduced."
+                    "Introduced -> Legend released this season."
                 ]
             }
         ],
@@ -766,11 +760,11 @@
             {
                 "patch": "March 19, 2019 Patch",
                 "details": [
-                    "[Base] Adjust -> Adjusted hitboxes for Gibraltar, Caustic, and Pathfinder to better align with their shapes.",
-                    "[Perks] Buff -> Insider Knowledge: Increased the number of beacons in the world from 10 to 12",
-                    "[Perks] Fix -> Zipline Gun: Fixed zipline not deploying when jumping.",
-                    "[Perks] Buff -> Grappling Hook: Pathfinder can now grapple ziplines.",
-                    "[Perks] Fix -> Grappling Hook: Fixed the exploit where you could do infinite wall-climb."
+                    "Adjust -> Adjusted hitboxes for Gibraltar, Caustic, and Pathfinder to better align with their shapes.",
+                    "[Class] Buff -> Insider Knowledge: Increased the number of beacons in the world from 10 to 12",
+                    "[Ultimate] Fix -> Zipline Gun: Fixed zipline not deploying when jumping.",
+                    "[Tactical] Buff -> Grappling Hook: Pathfinder can now grapple ziplines.",
+                    "[Tactical] Fix -> Grappling Hook: Fixed the exploit where you could do infinite wall-climb."
                 ]
             }
         ],
@@ -778,8 +772,8 @@
             {
                 "patch": "March 19, 2019 Patch",
                 "details": [
-                    "[Base] Adjust -> Into the Void: Cooldown increased from 20 to 25 seconds.",
-                    "[Perks] Buff -> Dimensional Rift: Turned down the volume when Wraith activates a portal."
+                    "[Tactical] Nerf -> Into the Void: Cooldown increased from 20 to 25 seconds.",
+                    "[Ultimate] Buff -> Dimensional Rift: Turned down the volume when Wraith activates a portal."
                 ]
             }
         ]
