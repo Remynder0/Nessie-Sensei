@@ -7,6 +7,7 @@ export const antiSynergiesData = ref<AntiSynergy[]>([]);
 export const specialSynergiesData = ref<SpecialSynergy[]>([]);
 export const historyData = ref<HistoryRecord[]>([]);
 export const isLoaded = ref(false);
+export const latestPatchStatus = ref<Record<string, string>>({});
 
 export async function loadGameData() {
     if (isLoaded.value) return;
@@ -35,6 +36,8 @@ export async function loadGameData() {
             // On pourrait fusionner de manière plus intelligente, mais pour l'instant on écrase ou on concatène
             historyData.value = parsed;
         }
+
+        await computeLatestPatchStatus();
 
         isLoaded.value = true;
     } catch (e) {
@@ -93,6 +96,46 @@ function parseSeasonSortKey(path: string): number[] {
         return [major, minor];
     }
     return [0, 0];
+}
+
+export const isLatestPatchRecent = ref(false);
+
+export async function computeLatestPatchStatus() {
+    let latestSeasonPath: string | null = null;
+    let latestSortKey = [-1, -1];
+
+    for (const path in seasonModules) {
+        const sortKey = parseSeasonSortKey(path);
+        if (sortKey[0] > latestSortKey[0] || (sortKey[0] === latestSortKey[0] && sortKey[1] > latestSortKey[1])) {
+            latestSortKey = sortKey;
+            latestSeasonPath = path;
+        }
+    }
+
+    if (latestSeasonPath) {
+        const mod: any = await seasonModules[latestSeasonPath]();
+        const seasonData = mod.default || mod;
+        if (seasonData.start_date) {
+            const patchDate = new Date(seasonData.start_date);
+            const now = new Date();
+            const diffTime = now.getTime() - patchDate.getTime();
+            const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+            
+            // Only show if the patch was released within the last 14 days
+            isLatestPatchRecent.value = diffDays >= 0 && diffDays <= 14;
+        }
+    }
+
+    // List last Patch
+    const manualImpacts: Record<string, string> = {
+        'axle': 'introduced',
+        'alter': 'nerf',
+        'ash': 'buff',
+        'conduit': 'major_nerf',
+        'vantage': 'major_buff'
+    };
+
+    latestPatchStatus.value = manualImpacts;
 }
 
 export async function loadLegendDetails(legendName: string) {

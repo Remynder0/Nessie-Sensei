@@ -2,10 +2,23 @@
 import { ref } from 'vue'
 import { currentLegendDetails, isLoadingLegendDetails, currentLegendPatchHistory } from '../logic/store'
 
+const props = defineProps<{
+    initialTab?: string,
+    highlightLatestPatch?: boolean
+}>()
+
 const emit = defineEmits(['close'])
 
-const activeModalTab = ref('infos')
+const activeModalTab = ref(props.initialTab || 'infos')
 const showFullBio = ref(false)
+
+const isHighlightingPatch = ref(false)
+if (props.highlightLatestPatch) {
+    isHighlightingPatch.value = true
+    setTimeout(() => {
+        isHighlightingPatch.value = false
+    }, 1500)
+}
 
 const formatImgName = (name: string) => name.toLowerCase().replace(/ /g, '_')
 
@@ -96,6 +109,11 @@ const groupPatchDetails = (details: string[]) => {
     }
     return result;
 };
+
+function hideImageOnError(event: Event) {
+    const img = event.target as HTMLImageElement;
+    if (img) img.style.display = 'none';
+}
 </script>
 
 <template>
@@ -283,8 +301,11 @@ const groupPatchDetails = (details: string[]) => {
                             <span class="w-1.5 h-1.5 bg-gray-400 block"></span> {{ $t('legends.patchHistory') }}
                         </h3>
                         <div class="space-y-6">
-                            <div v-for="patch in currentLegendPatchHistory" :key="patch.patch" class="border-l-2 border-titan-border/50 pl-4 py-1">
-                                <h4 class="font-bold text-titan-cyan font-mono text-sm uppercase tracking-wider mb-3">{{ patch.patch }}</h4>
+                            <div v-for="(patch, index) in currentLegendPatchHistory" :key="patch.patch" 
+                                 class="border-l-2 pl-4 py-1 transition-all duration-1000"
+                                 :class="(index === 0 && isHighlightingPatch) ? 'border-titan-orange/80 bg-titan-orange/10 shadow-[inset_0_0_20px_rgba(255,165,0,0.2)]' : 'border-titan-border/50'">
+                                <h4 class="font-bold font-mono text-sm uppercase tracking-wider mb-3 transition-colors duration-1000"
+                                    :class="(index === 0 && isHighlightingPatch) ? 'text-titan-orange' : 'text-titan-cyan'">{{ patch.patch }}</h4>
                                 
                                 <div class="space-y-4">
                                     <template v-for="group in groupPatchDetails(patch.details)" :key="group.category">

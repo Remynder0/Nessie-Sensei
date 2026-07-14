@@ -86,6 +86,7 @@ function handleGridPortraitError(event: Event, fallbackSrc: string) {
 </template>
 
 <style scoped>
+
 .marvel-card {
   width: 70%;
   height: 200px;
