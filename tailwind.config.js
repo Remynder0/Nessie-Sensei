@@ -18,6 +18,10 @@ export default {
           orange: '#ff5a00',
           panel: '#15191e',
           border: '#2a313a'
+        },
+        theme: {
+          primary: 'var(--theme-primary)',
+          secondary: 'var(--theme-secondary)'
         }
       },
       fontFamily: {

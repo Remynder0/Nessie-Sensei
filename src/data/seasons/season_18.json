@@ -783,11 +783,83 @@
         }
     },
     "patches": {
+        "Ballistic": [
+            {
+                "patch": "August 08, 2023 Patch",
+                "details": [
+                    "[Passive] Nerf -> Sling: Movement speed reduced.",
+                    "[Tactical] Nerf -> Whistler: Reduced delay before an overheated weapon starts cooling down to 1s (was 2s), Reduced how long it takes an overheated weapon to cooldown to 8s (was 12s)"
+                ]
+            }
+        ],
         "Conduit": [
             {
-                "patch": "Apex Legends: Ignite",
+                "patch": "New Updates Coming With Apex Legends™: Ignite",
                 "details": [
-                    "[Base] Buff -> Conduit is having fun because she *knows* the Apex Games."
+                    "Introduced -> Conduit released this season."
+                ]
+            }
+        ],
+        "Fuse": [
+            {
+                "patch": "September 19, 2023 Patch",
+                "details": [
+                    "[Tactical] Buff -> Knuckle Cluster: Deployment speed increased."
+                ]
+            }
+        ],
+        "Horizon": [
+            {
+                "patch": "September 19, 2023 Patch",
+                "details": [
+                    "[Tactical] Nerf -> Gravity Lift: Weapon accuracy decreased while in Lift (more spread), Vertical Lift speed reduced by 20%, Hover time at top of Lift reduced from 2.0s to 0.5s"
+                ]
+            }
+        ],
+        "Loba": [
+            {
+                "patch": "August 08, 2023 Patch",
+                "details": [
+                    "[Tactical] Buff -> Burglar's Blitz: Cooldown reduced from 30 seconds to 25.",
+                    "[Ultimate] Nerf -> Black Market Boutique: Cooldown increased from 120 seconds to 150.",
+                    "Buff -> Ultimate Accelerants: Now restore 25% charge (up from 20%)."
+                ]
+            }
+        ],
+        "Rampart": [
+            {
+                "patch": "September 19, 2023 Patch",
+                "details": [
+                    "[Tactical] Buff -> Amped Cover: Placement time reduced from 3s to 2s, Rampart now remains in placement mode after deploying a wall."
+                ]
+            }
+        ],
+        "Revenant": [
+            {
+                "patch": "September 19, 2023 Patch",
+                "details": [
+                    "[Ultimate] Nerf -> Forged Shadows: Reduced time extension from knocks from 10s to 5s, Extra damage to the shroud will bleedthrough to Revenant if it breaks.",
+                    "[Tactical] Buff -> Shadow Pounce: Slightly increased pounce angle compensation when looking at the ground."
+                ]
+            },
+            {
+                "patch": "August 30, 2023 Patch",
+                "details": [
+                    "[Ultimate] Fix -> Forged Shadows: Revenant can no longer damage his own ability with melee but will take damage from his own ordnance"
+                ]
+            },
+            {
+                "patch": "August 08, 2023 Patch",
+                "details": [
+                    "Rework -> Revenant was completely reworked this season: Class changed to Skirmisher, New passive ability: Assassin's Instinct, New tactical ability: Shadow Pounce, New ultimate ability: Forged Shadows, Updated Revenant's Legend select animation and healing animation."
+                ]
+            }
+        ],
+        "Seer": [
+            {
+                "patch": "August 08, 2023 Patch",
+                "details": [
+                    "[Tactical] Nerf -> Focus of Attention: Slow Duration reduced to 0.5s (was 2.5s), Silence Duration reduced to 8s (was 10s), Firing Speed increased to 1.4s (was 0.9s)"
                 ]
             }
         ]

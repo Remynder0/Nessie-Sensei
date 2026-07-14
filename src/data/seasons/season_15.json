@@ -778,12 +778,19 @@
         }
     },
     "patches": {
-        "Wraith": [
+        "Catalyst": [
             {
                 "patch": "November 30, 2022 Patch",
                 "details": [
-                    "[Base] Buff -> While in Phase, Wraith will now see doors sealed by Catalyst's passive.",
-                    "[Base] Buff -> While in Phase, Wraith will not be affected by Catalyst's ferrofluid."
+                    "[Passive] Adjust -> Doors sealed by passive: Now visible to Wraith in Phase.",
+                    "[Passive] Adjust -> Wraith not affected by ferrofluid while in Phase.",
+                    "[Tactical] Buff -> Crypto's drone can no longer open doors sealed by passive."
+                ]
+            },
+            {
+                "patch": "November 01, 2022 Patch",
+                "details": [
+                    "Introduced -> Legend released this season."
                 ]
             }
         ],
@@ -791,7 +798,7 @@
             {
                 "patch": "November 01, 2022 Patch",
                 "details": [
-                    "[Perks] Buff -> Loba can now open the secret compartment of Extended Supply Bins."
+                    "[Class] New -> Loba can now open the secret compartment of Extended Supply Bins."
                 ]
             }
         ],
@@ -799,7 +806,7 @@
             {
                 "patch": "January 10, 2023 Patch",
                 "details": [
-                    "[Base] Buff -> Audio from Seer's passive is now more audible to enemy players"
+                    "[Passive] Adjust -> Seer's passive audio is now more audible to enemy players."
                 ]
             }
         ]

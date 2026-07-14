@@ -765,151 +765,29 @@
         }
     },
     "patches": {
-        "Bangalore": [
+        "Ash": [
             {
-                "patch": "Escape",
+                "patch": "November 02, 2021 Patch",
                 "details": [
-                    "[Passive] Nerf -> Double Time: reduced movement speed by 10%"
-                ]
-            }
-        ],
-        "Caustic": [
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Ultimate] Buff -> Nox Gas Grenade now has a longer duration and increased damage"
-                ]
-            },
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Tactical] Adjust -> Nox Gas Grenade: reduced gas cloud size, but increased its speed and duration"
-                ]
-            }
-        ],
-        "Gibraltar": [
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Passive] Buff -> Gun Shield now blocks more damage and has a longer duration"
-                ]
-            },
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Ultimate] Adjust -> Defensive Bombardment: reduced the number of bombs, but increased their damage"
-                ]
-            }
-        ],
-        "Loba": [
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Perks] Buff -> Burglar's Eye: increased its effectiveness and now also reveals enemy positions for a short time after they've been seen"
-                ]
-            },
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Perks] Adjust -> Burglar's Eye: reduced the cooldown, but increased the duration of the reveal effect"
-                ]
-            }
-        ],
-        "Octane": [
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Passive] Buff -> Swift Mend now heals Octane for more health over time"
-                ]
-            },
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Tactical] Adjust -> Swift Medic: reduced the healing amount, but increased its speed and duration"
-                ]
-            }
-        ],
-        "Rampart": [
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Passive] Buff -> Gun Shield now blocks more damage and has a longer duration"
-                ]
-            },
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Ultimate] Adjust -> Dome Shield: reduced the number of shields, but increased their damage absorption"
-                ]
-            }
-        ],
-        "Revenant": [
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Passive] Buff -> Stalker's Eye now reveals enemy positions for a longer time after they've been seen"
-                ]
-            },
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Ultimate] Adjust -> Silence: reduced the duration, but increased its effectiveness and now also silences enemies in a larger area"
+                    "Introduced -> Legend released this season."
                 ]
             }
         ],
         "Seer": [
             {
-                "patch": "Escape",
+                "patch": "December 07, 2021 Patch",
                 "details": [
-                    "[Perks] Buff -> Insight: increased its effectiveness and now also reveals enemy positions for a short time after they've been seen"
-                ]
-            },
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Perks] Adjust -> Insight: reduced the cooldown, but increased the duration of the reveal effect"
+                    "[Tactical] Buff -> Focus of Attention: Detonation delay decreased from 1.6s to 1.4s."
                 ]
             }
         ],
-        "Vantage": [
+        "Wattson": [
             {
-                "patch": "Escape",
+                "patch": "November 02, 2021 Patch",
                 "details": [
-                    "[Passive] Buff -> Eagle's Eye now reveals enemy positions for a longer time after they've been seen"
-                ]
-            },
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Tactical] Adjust -> Lookout: reduced the healing amount, but increased its speed and duration"
-                ]
-            }
-        ],
-        "Wraith": [
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Passive] Buff -> Voices From the Void now reveals enemy positions for a longer time after they've been seen"
-                ]
-            },
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Ultimate] Adjust -> Dimensional Rift: reduced the duration, but increased its effectiveness and now also teleports Wraith to a new location"
-                ]
-            }
-        ],
-        "Legend Upgrades/Perks": [
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Perks] Buff -> Burglar's Eye: increased its effectiveness and now also reveals enemy positions for a short time after they've been seen"
-                ]
-            },
-            {
-                "patch": "Escape",
-                "details": [
-                    "[Perks] Adjust -> Burglar's Eye: reduced the cooldown, but increased the duration of the reveal effect"
+                    "[Passive] Fix -> Spark of Genius: Improved reliability and responsiveness.",
+                    "[Tactical] Buff -> Perimeter Security: Increased damage on crossing a Fence by 33%, debuff duration by 100%, time allowance to be hit again by 100%, recharge time by 50%, placement range by 50% and delay between Fences shutting off and reactivating after an ally passes through by 60%.",
+                    "[Ultimate] Rework -> Interception Pylon: Number of active Pylons reduced from 3 to 1, lasts forever, has a pool of 250 Shields that can be distributed to nearby players, increased shield recharge rate by 150%, and smoothed regen rate. When a Pylon is out of Shields, it no longer recharges players' Shields but can still zap incoming ordnance. Taking damage while regenerating Shields via the Pylon delays continued regeneration by 1 second. The UI on the ground and HUD elements now displays the amount of Shields that remain in the Pylon. Pinging a friendly Pylon will now display the percentage of Shields remaining in the Pylon. Ordnance-zapping has been moderately reworked."
                 ]
             }
         ]

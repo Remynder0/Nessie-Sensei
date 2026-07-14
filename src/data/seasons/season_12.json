@@ -772,40 +772,18 @@
         }
     },
     "patches": {
-        "Caustic": [
-            {
-                "patch": "February 08, 2022 Patch",
-                "details": [
-                    "[Base] Buff -> Nox Gas Traps are now destroyable after detonation.",
-                    "[Base] Adjust -> The Barrels now have 150 hp.",
-                    "[Base] Buff -> Gas effects will now linger for two seconds after barrel destruction or expiration (gas particles still linger a bit longer as they dissipate).",
-                    "[Base] Adjust -> Detonated traps will now expire at 11 seconds (+2 second gas lingering) instead of 12.5 seconds (no lingering).",
-                    "[Base] Fix -> Fixed issue where barrels that are still being deployed (mid-throw) were not being deleted after Caustic dies."
-                ]
-            }
-        ],
         "Crypto": [
             {
                 "patch": "February 08, 2022 Patch",
                 "details": [
-                    "[Base] Adjust -> The deployment of the Drone has received a rework.",
-                    "[Base] Buff -> Pressing the Tactical button causes Crypto to send the Drone flying in a straight line in the direction of Crypto's view for a few seconds.",
-                    "[Base] Buff -> If thrown to a wall (or other geo), the Drone will hit the wall and re-orient itself so that it's facing away from the wall.",
-                    "[Base] Adjust -> Crypto no longer immediately accesses Drone View after deploying his Drone in this way.",
-                    "[Base] Buff -> Pressing and holding the [Tactical] button will launch the Drone forward in the same way, but then Crypto will immediately access Drone View.",
-                    "[Base] Buff -> Added gamestate (e.g. Ring information, round timers), minimap, killfeed, team status, and ping information to the Drone's HUD.",
-                    "[Base] Adjust -> Repurposed the Drone HUD's old Crypto health/shield presentation into displaying the health of the Drone itself.",
-                    "[Base] Buff -> Survey Beacon markers are now displayed in-world while piloting the Drone (same as when controlling Crypto himself).",
-                    "[Perks] Nerf -> Reduced Drone health from 60 -> 50.",
-                    "[Base] Adjust -> The HUD marker for the Drone has been tweaked to increase visibility.",
-                    "[Base] Buff -> The HUD marker for the Drone is now always displayed on-screen while the Drone is deployed (instead of only when the Drone was off-screen)."
+                    "[Tactical] Rework -> Surveillance Drone: Deployment changed to fly in a straight line and re-orient itself when hitting walls."
                 ]
             },
             {
                 "patch": "March 29, 2022 Patch",
                 "details": [
-                    "[Perks] Fix -> Fix for bug when Crypto's animation would glitch after using a finisher while in death protection.",
-                    "[Perks] Fix -> Fix for cases where Crypto can throw out multiple drones."
+                    "[Perks] Fix -> Network Expansion: Fixed bug with animation glitch after using finisher while in death protection.",
+                    "[Perks] Fix -> Ally.MoveTo(): Fixed cases where Crypto can throw out multiple drones."
                 ]
             }
         ],
@@ -813,7 +791,7 @@
             {
                 "patch": "February 08, 2022 Patch",
                 "details": [
-                    "[Base] Introduced"
+                    "Introduced -> Legend released this season."
                 ]
             }
         ]

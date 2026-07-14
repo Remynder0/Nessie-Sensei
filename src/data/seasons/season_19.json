@@ -788,9 +788,70 @@
     "patches": {
         "Conduit": [
             {
-                "patch": "Apex Legends™: Ignite",
+                "patch": "January 09, 2024 Patch",
                 "details": [
-                    "[Base] Buff -> Conduit is having fun because she *knows* the Apex Games."
+                    "[Ultimate] Adjust -> Energy Barricade mines: Castle Wall impact will now destroy them.",
+                    "[Ultimate] Fix -> Energy Barricade V-Shape deployment when looking directly at the ground fixed.",
+                    "[Tactical] Fix -> Tactical can no longer be used on respawning team still in dropship.",
+                    "[Ultimate] Adjust -> Jammers: Improved visibility."
+                ]
+            },
+            {
+                "patch": "October 31, 2023 Patch",
+                "details": [
+                    "Introduced -> Conduit released this season."
+                ]
+            }
+        ],
+        "Catalyst": [
+            {
+                "patch": "January 09, 2024 Patch",
+                "details": [
+                    "[Tactical] Nerf -> Piercing Spikes: Now require line-of-sight to an enemy player to activate.",
+                    "[Tactical] Adjust -> Piercing Spikes: Spikes that have not been activated will still slow players.",
+                    "[Ultimate] Nerf -> Dark Veil: Cooldown now starts after the wall comes down.",
+                    "[Ultimate] Nerf -> Dark Veil: Reduced lifetime to 25s (was 30s)."
+                ]
+            },
+            {
+                "patch": "October 31, 2023 Patch",
+                "details": [
+                    "[Tactical] Adjust -> Piercing Spikes: Core no longer blocks projectiles, allowing bullets to pass through.",
+                    "[Tactical] Nerf -> Piercing Spikes: Max in-world count reduced to 2 (was 3).",
+                    "[Tactical] Nerf -> Piercing Spikes: Throw range decreased by about 50%."
+                ]
+            }
+        ],
+        "Horizon": [
+            {
+                "patch": "January 09, 2024 Patch",
+                "details": [
+                    "[Passive] Quality of Life -> Soft Landings: Audio now plays in world (not just for Horizon)."
+                ]
+            }
+        ],
+        "Newcastle": [
+            {
+                "patch": "January 09, 2024 Patch",
+                "details": [
+                    "[Ultimate] Adjust -> Castle Wall: impact will now destroy Conduit’s Energy Barricade mines.",
+                    "[Tactical] Nerf -> Mobile Shield: can now be destroyed by enemy Crypto Drone EMP."
+                ]
+            }
+        ],
+        "Rampart": [
+            {
+                "patch": "January 09, 2024 Patch",
+                "details": [
+                    "[Tactical] Adjust -> Amped Walls: no longer destroyed by friendly Crypto Drone EMP or Mad Maggie’s Wrecking Ball."
+                ]
+            }
+        ],
+        "Vantage": [
+            {
+                "patch": "October 31, 2023 Patch",
+                "details": [
+                    "[Ultimate] Buff -> Sniper's Mark: bullet count increased to 6 (was 5)."
                 ]
             }
         ]

@@ -801,31 +801,24 @@
             {
                 "patch": "Rule the underground in the Shadow Society Event",
                 "details": [
-                    "[Base] Nerf -> Lock-on will be more reliable in close range.",
-                    "[Passive] Buff -> No longer generates ammo when swapping weapon from sling in the inventory."
+                    "[Tactical] Buff -> Lock-on will be more reliable in close range.",
+                    "[Passive] Fix -> No longer generates ammo when swapping weapon from sling in the inventory."
                 ]
             },
             {
                 "patch": "Apex Legends™: Breakout Patch Notes",
                 "details": [
-                    "[Perks] Adjust -> Sling Weapons now have all White attachments while equipped.",
-                    "[Perks] Adjust -> Tempest: effect radius for ally range has been increased to 90m (was 13m)"
+                    "[Passive] Buff -> Sling Weapons now have all White attachments while equipped.",
+                    "[Ultimate] Buff -> Tempest: effect radius for ally range has been increased to 90m (was 13m)"
                 ]
             }
         ],
         "Bangalore": [
             {
-                "patch": "Rule the underground in the Shadow Society Event",
-                "details": [
-                    "[Passive] Nerf -> Double Time : réduction de vitesse.",
-                    "[Ultimate] Buff -> L'ultime accorde un bonus de vitesse."
-                ]
-            },
-            {
                 "patch": "Apex Legends™: Breakout Patch Notes",
                 "details": [
-                    "[Perks] Adjust -> Rolling Thunder Cooldown increased to 4.5m (was 4).",
-                    "[Passive] Buff -> Smoke duration decreased to 11s (was 18)."
+                    "[Ultimate] Nerf -> Rolling Thunder Cooldown increased to 4.5m (was 4).",
+                    "[Tactical] Nerf -> Smoke duration decreased to 11s (was 18)."
                 ]
             }
         ],
@@ -842,7 +835,7 @@
             {
                 "patch": "Rule the underground in the Shadow Society Event",
                 "details": [
-                    "[Passive] Buff -> Gas Damage now increases by 1 each tick (was 5/5/6/6 etc.).",
+                    "[Tactical/Ultimate] Buff -> Gas Damage now increases by 1 each tick (was 5/5/6/6 etc.).",
                     "[Perks] Adjust -> Particle Diffuser: moved to Level 3.",
                     "[Perks] Adjust -> Residual Toxins: moved to Level 2."
                 ]
@@ -852,14 +845,14 @@
             {
                 "patch": "Rule the underground in the Shadow Society Event",
                 "details": [
-                    "[Passive] Buff -> Radiant Transfer Cooldown Increased to 31s (was 26)."
+                    "[Tactical] Nerf -> Radiant Transfer Cooldown Increased to 31s (was 26)."
                 ]
             },
             {
                 "patch": "Apex Legends™: Breakout Patch Notes",
                 "details": [
-                    "[Perks] Adjust -> Radiant Flash Cooldown increased to 26s (was 21s).",
-                    "[Passive] Buff -> Temporary Shield generation rate decreased to 15HP/s (was 20HP/s)"
+                    "[Tactical] Nerf -> Radiant Transfer Cooldown increased to 26s (was 21s).",
+                    "[Tactical] Nerf -> Temporary Shield generation rate decreased to 15HP/s (was 20HP/s)"
                 ]
             }
         ],
@@ -867,7 +860,7 @@
             {
                 "patch": "Rule the underground in the Shadow Society Event",
                 "details": [
-                    "[Perks] Nerf -> Wreckless: explosive damage is now reduced by 50% (was 25%)."
+                    "[Perks] Buff -> Wreckless: explosive damage is now reduced by 50% (was 25%)."
                 ]
             }
         ],
@@ -876,13 +869,13 @@
                 "patch": "Rule the underground in the Shadow Society Event",
                 "details": [
                     "[Perks] Adjust -> Tactical Cooldown+: removed.",
-                    "[Passive] Buff -> Gift Wrapped: removed."
+                    "[Perks] Adjust -> Gift Wrapped: removed."
                 ]
             },
             {
                 "patch": "Apex Legends™: Breakout Patch Notes",
                 "details": [
-                    "[Perks] Adjust -> Care Package now has a 50/50 chance to drop an extra piece of smart equipment (vs. large consumable) instead of an Armor."
+                    "[Ultimate] Adjust -> Care Package now has a 50/50 chance to drop an extra piece of smart equipment (vs. large consumable) instead of an Armor."
                 ]
             }
         ],
@@ -890,13 +883,13 @@
             {
                 "patch": "Rule the underground in the Shadow Society Event",
                 "details": [
-                    "[Perks] Nerf -> Wreckless: explosive damage is now reduced by 50% (was 25%)."
+                    "[Passive] Buff -> Wreckless: explosive damage is now reduced by 50% (was 25%)."
                 ]
             },
             {
                 "patch": "Apex Legends™: Breakout Patch Notes",
                 "details": [
-                    "[Passive] Buff -> Jump Pad audio falloff of double-jump has been adjusted to be slightly less audible from long distances."
+                    "[Ultimate] Adjust -> Jump Pad audio falloff of double-jump has been adjusted to be slightly less audible from long distances."
                 ]
             }
         ],
@@ -904,13 +897,13 @@
             {
                 "patch": "Rule the underground in the Shadow Society Event",
                 "details": [
-                    "[Perks] Adjust -> Zipline Zen: damage reduction increased to 50% (was 25%)."
+                    "[Perks] Buff -> Zipline Zen: damage reduction increased to 50% (was 25%)."
                 ]
             },
             {
                 "patch": "Apex Legends™: Breakout Patch Notes",
                 "details": [
-                    "[Passive] Buff -> Insider Knowledge Scanning Care Packages now awards 50% Ult Charge (was 100%) and 15s Ult Cooldown (was 10s)"
+                    "[Passive] Nerf -> Insider Knowledge Scanning Care Packages now awards 50% Ult Charge (was 100%) and 15s Ult Cooldown (was 10s)"
                 ]
             }
         ],
@@ -918,15 +911,15 @@
             {
                 "patch": "Rule the underground in the Shadow Society Event",
                 "details": [
-                    "[Passive] Nerf -> Forged in Shadows Knocks no longer refresh the Tactical during Ultimate.",
-                    "[Ultimate] Buff -> Ultimate Cooldown Increased by 60s."
+                    "[Tactical] Nerf -> Forged in Shadows Knocks no longer refresh the Tactical during Ultimate.",
+                    "[Ultimate] Nerf -> Ultimate Cooldown Increased by 60s."
                 ]
             },
             {
                 "patch": "Apex Legends™: Breakout Patch Notes",
                 "details": [
                     "[Perks] Adjust -> Tactical Cooldown: moved to Level 3.",
-                    "[Passive] Buff -> Ultimate Cooldown: reduces Ult Cooldown by 30s (Level 2)"
+                    "[Perks] New -> Ultimate Cooldown: reduces Ult Cooldown by 30s (Level 2)"
                 ]
             }
         ],
@@ -934,8 +927,8 @@
             {
                 "patch": "Rule the underground in the Shadow Society Event",
                 "details": [
-                    "[Perks] Adjust -> Focus of Attention: decreased activation delay to 1.2s (was 1.4).",
-                    "[Passive] Buff -> Ultimate Cooldown: reduces Ult Cooldown by 30s (Level 2)"
+                    "[Tactical] Buff -> Focus of Attention: decreased activation delay to 1.2s (was 1.4).",
+                    "[Perks] New -> Ultimate Cooldown: reduces Ult Cooldown by 30s (Level 2)"
                 ]
             }
         ],
@@ -944,7 +937,7 @@
                 "patch": "Rule the underground in the Shadow Society Event",
                 "details": [
                     "[Perks] Adjust -> Tactical Cooldown: moved to Level 3.",
-                    "[Passive] Buff -> Ultimate Cooldown: moved to Level 2"
+                    "[Perks] Adjust -> Ultimate Cooldown: moved to Level 2"
                 ]
             }
         ],
@@ -952,7 +945,7 @@
             {
                 "patch": "Apex Legends™: Breakout Patch Notes",
                 "details": [
-                    "[Perks] Adjust -> Wrecking Ball will no longer be destroyed on first enemy hit."
+                    "[Ultimate] Buff -> Wrecking Ball will no longer be destroyed on first enemy hit."
                 ]
             }
         ]

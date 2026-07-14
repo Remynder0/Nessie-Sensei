@@ -775,151 +775,32 @@
     "patches": {
         "Ash": [
             {
-                "patch": "Revelry",
+                "patch": "March 28, 2023 Patch",
                 "details": [
-                    "[Passive] Buff -> Ash's passive ability now has a higher chance to trigger.",
-                    "[Tactical] Adjust -> Bursts of Peace: increased damage at close range."
-                ]
-            }
-        ],
-        "Bangalore": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Passive] Buff -> Double Time: increased movement speed while sliding.",
-                    "[Ultimate] Nerf -> Rolling Thunder: reduced damage and radius."
-                ]
-            }
-        ],
-        "Bloodhound": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Passive] Adjust -> Eye of the Allfather: increased scan duration."
-                ]
-            }
-        ],
-        "Caustic": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Tactical] Buff -> Nox Gas Grenade: increased gas spread and duration."
-                ]
-            }
-        ],
-        "Crypto": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Passive] Adjust -> Neurolink: increased data collection range.",
-                    "[Ultimate] Nerf -> Surveillance Drone: reduced drone health and damage output."
-                ]
-            }
-        ],
-        "Gibraltar": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Passive] Buff -> Gunner's Mate: increased shield size and duration."
+                    "[Tactical] Buff -> Arc Snare: Cooldown decreased from 25s to 20s.",
+                    "[Tactical] Buff -> Arc Snare: Travel speed increased from 700 to 1200.",
+                    "[Tactical] Adjust -> Arc Snare: Tether activation delay and snare grow time decreased by about 50%."
                 ]
             }
         ],
         "Horizon": [
             {
-                "patch": "Revelry",
+                "patch": "February 14, 2023 Patch",
                 "details": [
-                    "[Tactical] Nerf -> Black Hole: reduced damage and radius.",
-                    "[Ultimate] Adjust -> Gravity Lift: increased lift speed but reduced lift duration."
-                ]
-            }
-        ],
-        "Loba": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Passive] Buff -> Burglar's Eye: increased vision range and duration.",
-                    "[Tactical] Nerf -> Burglar's Blink: reduced blink distance and cooldown."
-                ]
-            }
-        ],
-        "Mad Maggie": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Passive] Buff -> Warlord's Vision: increased vision range and duration.",
-                    "[Tactical] Nerf -> Warlord's Call: reduced damage and radius."
-                ]
-            }
-        ],
-        "Mirage": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Passive] Adjust -> Encore: increased decoy duration but reduced number of decoys.",
-                    "[Tactical] Nerf -> Psyche Out: reduced damage and radius."
-                ]
-            }
-        ],
-        "Octane": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Passive] Buff -> Swift Mend: increased healing rate while moving.",
-                    "[Ultimate] Nerf -> Launch Pad: reduced launch speed and distance."
-                ]
-            }
-        ],
-        "Rampart": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Passive] Buff -> Gunner's Mate: increased shield size and duration.",
-                    "[Tactical] Adjust -> Dome Shield: increased dome health but reduced dome size."
+                    "[Tactical] Nerf -> Gravity Lift: Increased weapon spread in Gravity Lift.",
+                    "[Tactical] Buff -> Gravity Lift: Increased vertical speed of Gravity Lift by 10%."
                 ]
             }
         ],
         "Seer": [
             {
-                "patch": "Revelry",
+                "patch": "February 14, 2023 Patch",
                 "details": [
-                    "[Passive] Buff -> Perceptive Insight: increased vision range and duration.",
-                    "[Ultimate] Nerf -> Prowler's Sting: reduced damage and radius."
-                ]
-            }
-        ],
-        "Vantage": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Passive] Buff -> Eagle's Eye: increased vision range and duration.",
-                    "[Tactical] Nerf -> Lookout: reduced damage and radius."
-                ]
-            }
-        ],
-        "Wattson": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Passive] Adjust -> Intervene: increased shield size but reduced shield duration.",
-                    "[Ultimate] Nerf -> Interception Pylon: reduced pylon health and damage output."
-                ]
-            }
-        ],
-        "Zoey": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Passive] Buff -> Wildcat's Eye: increased vision range and duration.",
-                    "[Tactical] Nerf -> Wildcat's Sprint: reduced sprint speed and distance."
-                ]
-            }
-        ],
-        "Perks": [
-            {
-                "patch": "Revelry",
-                "details": [
-                    "[Perks] Adjust -> [Level 2 Upgrade]: increased healing rate while moving.",
-                    "[Perks] Nerf -> [Level 3 Upgrade]: reduced shield size and duration."
+                    "[Passive] Adjust -> Heart Seeker: Activation is now delayed to match raise animation of weapon or unarmed.",
+                    "[Passive] Adjust -> Heart Seeker: Lock-On indication will now only show on heartbeat cadence of target.",
+                    "[Tactical] Nerf -> Focus of Attention: No longer shows full body scan on scanned targets.",
+                    "[Ultimate] Nerf -> Exhibit: Duration reduced from 30s to 25s.",
+                    "[Ultimate] Nerf -> Exhibit: Cooldown increased from 120s to 180s."
                 ]
             }
         ]

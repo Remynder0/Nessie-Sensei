@@ -774,660 +774,89 @@
         }
     },
     "patches": {
-        "Ash": [
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Passive] Adjust -> Ash's passive ability now has a new effect.",
-                    "[Tactical] Buff -> Burglar's Blitz : increased damage."
-                ]
-            }
-        ],
-        "Bloodhound": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Ultimate] Nerf -> Eye of the Allfather : reduced scan duration."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Tracker's Insight : increased tracking range.",
-                    "[Perks] Buff -> Keen Scout : increased scout duration."
-                ]
-            }
-        ],
-        "Caustic": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Ultimate] Nerf -> Nox Gas Grenade : reduced gas damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Nox Gas Grenade : increased gas duration."
-                ]
-            }
-        ],
-        "Gibraltar": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Passive] Buff -> Gun Shield : increased shield size.",
-                    "[Ultimate] Nerf -> Defensive Bombardment : reduced damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Gun Shield : increased shield regeneration rate."
-                ]
-            }
-        ],
         "Horizon": [
             {
-                "patch": "Takeover: Resurrection",
+                "patch": "August 09, 2022 Patch",
                 "details": [
-                    "[Passive] Nerf -> Gravity Lift : reduced lift duration.",
-                    "[Tactical] Buff -> Black Hole : increased damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Gravity Lift : increased lift range."
-                ]
-            }
-        ],
-        "Loba": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Passive] Nerf -> Burglar's Eye : reduced scan duration.",
-                    "[Tactical] Buff -> Burglar's Blitz : increased damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Burglar's Eye : increased scan range."
+                    "[Ultimate] Nerf -> Black Hole: N.E.W.T. takes 50% more damage from explosives.",
+                    "[Ultimate] Nerf -> Black Hole: N.E.W.T. is now susceptible to friendly damage."
                 ]
             }
         ],
         "Mad Maggie": [
             {
-                "patch": "Takeover: Resurrection",
+                "patch": "August 09, 2022 Patch",
                 "details": [
-                    "[Passive] Nerf -> Warlord's Vision : reduced vision duration.",
-                    "[Tactical] Buff -> Warlord's Call : increased damage."
+                    "[Tactical] Buff -> Riot Drill: Projectile Launch Speed doubled.",
+                    "[Ultimate] Adjust -> Wrecking Ball: Will travel twice as far while dropping the same amount of magnets.",
+                    "[Ultimate] Adjust -> Wrecking Ball: Duration increased from 5 sec → 10 sec.",
+                    "[Ultimate] Adjust -> Wrecking Ball: Magnet Spawn delay increased from 0.4 sec → 0.8 sec.",
+                    "[Ultimate] Fix -> Wrecking Ball: Fixed Wrecking Ball not blinding and slowing enemies."
                 ]
-            },
+            }
+        ],
+        "Newcastle": [
             {
-                "patch": "Saison 9",
+                "patch": "August 09, 2022 Patch",
                 "details": [
-                    "[Perks] Adjust -> Warlord's Vision : increased vision range."
+                    "[Passive] Buff -> Retrieve the Wounded: Increased move speed during revive by 25%.",
+                    "[Passive] Buff -> Retrieve the Wounded: Reduced turn slow while reviving by 50%.",
+                    "[Passive] Buff -> Retrieve the Wounded: Increased White Knockdown shield health from 150 → 200.",
+                    "[Passive] Buff -> Retrieve the Wounded: Increase Blue Knockdown shield health from 250 → 300.",
+                    "[Tactical] Buff -> Mobile Shield: Increased hp from 350 → 500",
+                    "[Tactical] Buff -> Mobile Shield: Doubled max movement speed.",
+                    "[Ultimate] Buff -> Castle Wall: Added turn slow to electrical barrier effects and increased the severity of the slow effect to movement."
+                ]
+            }
+        ],
+        "Rampart": [
+            {
+                "patch": "August 09, 2022 Patch",
+                "details": [
+                    "[Tactical] Adjust -> Amped Cover: Now ignores friendly collision on placement (i.e. placing walls around teammates will feel more smooth)."
                 ]
             }
         ],
         "Revenant": [
             {
-                "patch": "Takeover: Resurrection",
+                "patch": "August 09, 2022 Patch",
                 "details": [
-                    "[Passive] Nerf -> Stalker's Eye : reduced scan duration.",
-                    "[Tactical] Buff -> Silence : increased damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Stalker's Eye : increased scan range."
+                    "[Passive] Adjust -> Death Totem: Will now show a placement preview when activated instead of placing immediately."
                 ]
             }
         ],
-        "Seer": [
+        "Valkyrie": [
             {
-                "patch": "Takeover: Resurrection",
+                "patch": "August 09, 2022 Patch",
                 "details": [
-                    "[Passive] Nerf -> Insight : reduced insight duration.",
-                    "[Tactical] Buff -> Prowl : increased damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Insight : increased insight range."
+                    "[Tactical] Nerf -> VTOL Jets: Acceleration on activation decreased by about 8%.",
+                    "[Tactical] Nerf -> VTOL Jets: Fuel consumption on activation increased by 33%.",
+                    "[Tactical] Fix -> VTOL Jets: Aerial boosting & strafing take a 20% debuff when hit by slowing effects.",
+                    "[Tactical] Adjust -> VTOL Jets: Added a third orange state to the fuel meter UI between green (>60%) and red (<30%).",
+                    "[Tactical] Adjust -> VTOL Jets: Jetfighter HUD: Mirage's Decoys will now be scanned when skydiving.",
+                    "[Tactical] Fix -> Missile Swarm: Aim/turn slow removed.",
+                    "[Tactical] Nerf -> Missile Swarm: Move slow duration decreased from 2.5s → 2.0s.",
+                    "[Tactical] Nerf -> Missile Swarm: Reducing the explosion radius from 175 → 125.",
+                    "[Ultimate] Nerf -> Skyward Dive: Height reduction of 25%.",
+                    "[Ultimate] Adjust -> Skyward Dive: Launch time reduced from 5.5s → 5.0s."
                 ]
             }
         ],
         "Vantage": [
             {
-                "patch": "Takeover: Resurrection",
+                "patch": "August 09, 2022 Patch",
                 "details": [
-                    "[Passive] Nerf -> Eagle's Eye : reduced scan duration.",
-                    "[Tactical] Buff -> Lookout : increased damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Eagle's Eye : increased scan range."
+                    "Introduced -> Legend released this season."
                 ]
             }
         ],
-        "Wraith": [
+        "Wattson": [
             {
-                "patch": "Takeover: Resurrection",
+                "patch": "August 09, 2022 Patch",
                 "details": [
-                    "[Passive] Nerf -> Voices From the Void : reduced void duration.",
-                    "[Tactical] Buff -> Smoke Launcher : increased damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Voices From the Void : increased void range."
+                    "[Tactical] Adjust -> Perimeter Security: Improvements to Perimeter Security placement system."
                 ]
             }
-        ],
-        "Zoey": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Passive] Nerf -> Wildcat's Eye : reduced scan duration.",
-                    "[Tactical] Buff -> Wildcat's Call : increased damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Wildcat's Eye : increased scan range."
-                ]
-            }
-        ],
-        "Bangalore": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Passive] Nerf -> Double Time : reduced speed.",
-                    "[Tactical] Buff -> Rolling Thunder : increased damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Rolling Thunder : increased thunder duration."
-                ]
-            }
-        ],
-        "Bloodhound (Perks)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Tracker's Insight : increased tracking range.",
-                    "[Perks] Buff -> Keen Scout : increased scout duration."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Nox Gas Grenade : increased gas duration."
-                ]
-            }
-        ],
-        "Caustic (Perks)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Nox Gas Grenade : increased gas damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Nox Gas Grenade : increased gas duration."
-                ]
-            }
-        ],
-        "Gibraltar (Perks)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Gun Shield : increased shield regeneration rate."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Gun Shield : increased shield size."
-                ]
-            }
-        ],
-        "Horizon (Perks)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Gravity Lift : increased lift range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Gravity Lift : increased lift duration."
-                ]
-            }
-        ],
-        "Loba (Perks)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Burglar's Eye : increased scan range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Burglar's Eye : increased scan duration."
-                ]
-            }
-        ],
-        "Mad Maggie (Perks)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Warlord's Vision : increased vision range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Warlord's Vision : increased vision duration."
-                ]
-            }
-        ],
-        "Revenant (Perks)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Silence : increased damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Stalker's Eye : increased scan duration."
-                ]
-            }
-        ],
-        "Seer (Perks)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Insight : increased insight range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Insight : increased insight duration."
-                ]
-            }
-        ],
-        "Vantage (Perks)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Eagle's Eye : increased scan range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Eagle's Eye : increased scan duration."
-                ]
-            }
-        ],
-        "Wraith (Perks)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Voices From the Void : increased void range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Voices From the Void : increased void duration."
-                ]
-            }
-        ],
-        "Zoey (Perks)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Wildcat's Eye : increased scan range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Wildcat's Eye : increased scan duration."
-                ]
-            }
-        ],
-        "Bloodhound Upgrades": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Tracker's Insight : increased tracking range.",
-                    "[Perks] Buff -> Keen Scout : increased scout duration."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Nox Gas Grenade : increased gas duration."
-                ]
-            }
-        ],
-        "Caustic Upgrades": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Nox Gas Grenade : increased gas damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Nox Gas Grenade : increased gas duration."
-                ]
-            }
-        ],
-        "Gibraltar Upgrades": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Gun Shield : increased shield regeneration rate."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Gun Shield : increased shield size."
-                ]
-            }
-        ],
-        "Horizon Upgrades": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Gravity Lift : increased lift range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Gravity Lift : increased lift duration."
-                ]
-            }
-        ],
-        "Loba Upgrades": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Burglar's Eye : increased scan range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Burglar's Eye : increased scan duration."
-                ]
-            }
-        ],
-        "Mad Maggie Upgrades": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Warlord's Vision : increased vision range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Warlord's Vision : increased vision duration."
-                ]
-            }
-        ],
-        "Revenant Upgrades": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Silence : increased damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Stalker's Eye : increased scan duration."
-                ]
-            }
-        ],
-        "Seer Upgrades": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Insight : increased insight range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Insight : increased insight duration."
-                ]
-            }
-        ],
-        "Vantage Upgrades": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Eagle's Eye : increased scan range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Eagle's Eye : increased scan duration."
-                ]
-            }
-        ],
-        "Wraith Upgrades": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Voices From the Void : increased void range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Voices From the Void : increased void duration."
-                ]
-            }
-        ],
-        "Zoey Upgrades": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Wildcat's Eye : increased scan range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": [
-                    "[Perks] Adjust -> Wildcat's Eye : increased scan duration."
-                ]
-            }
-        ],
-        "Bangalore Upgrades": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Rolling Thunder : increased damage.",
-                    "[Perks] Adjust -> Rolling Thunder : increased thunder duration."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": []
-            }
-        ],
-        "Bloodhound Upgrades (Level 2)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Tracker's Insight : increased tracking range.",
-                    "[Perks] Buff -> Keen Scout : increased scout duration."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": []
-            }
-        ],
-        "Caustic Upgrades (Level 2)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Nox Gas Grenade : increased gas damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": []
-            }
-        ],
-        "Gibraltar Upgrades (Level 2)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Gun Shield : increased shield regeneration rate."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": []
-            }
-        ],
-        "Horizon Upgrades (Level 2)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Gravity Lift : increased lift range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": []
-            }
-        ],
-        "Loba Upgrades (Level 2)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Burglar's Eye : increased scan range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": []
-            }
-        ],
-        "Mad Maggie Upgrades (Level 2)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Warlord's Vision : increased vision range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": []
-            }
-        ],
-        "Revenant Upgrades (Level 2)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Silence : increased damage."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": []
-            }
-        ],
-        "Seer Upgrades (Level 2)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Insight : increased insight range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": []
-            }
-        ],
-        "Vantage Upgrades (Level 2)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Eagle's Eye : increased scan range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": []
-            }
-        ],
-        "Wraith Upgrades (Level 2)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Voices From the Void : increased void range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": []
-            }
-        ],
-        "Zoey Upgrades (Level 2)": [
-            {
-                "patch": "Takeover: Resurrection",
-                "details": [
-                    "[Perks] Buff -> Wildcat's Eye : increased scan range."
-                ]
-            },
-            {
-                "patch": "Saison 9",
-                "details": []
-            }
-        ],
-        "Bloodhound Upgrades (Level 3)": [],
-        "Caustic Upgrades (Level 3)": [],
-        "Gibraltar Upgrades (Level 3)": [],
-        "Horizon Upgrades (Level 3)": [],
-        "Loba Upgrades (Level 3)": [],
-        "Mad Maggie Upgrades (Level 3)": [],
-        "Revenant Upgrades (Level 3)": [],
-        "Seer Upgrades (Level 3)": [],
-        "Vantage Upgrades (Level 3)": [],
-        "Wraith Upgrades (Level 3)": [],
-        "Zoey Upgrades (Level 3)": []
+        ]
     }
 }

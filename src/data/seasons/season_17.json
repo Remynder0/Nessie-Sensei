@@ -783,36 +783,11 @@
         }
     },
     "patches": {
-        "Ash": [
-            {
-                "patch": "July 26, 2023 Patch",
-                "details": [
-                    "[Dash] Nerf -> Dash ability removed."
-                ]
-            }
-        ],
         "Ballistic": [
             {
                 "patch": "May 09, 2023 Patch",
                 "details": [
-                    "[Base] Buff -> Introduced."
-                ]
-            }
-        ],
-        "Bangalore": [
-            {
-                "patch": "May 09, 2023 Patch",
-                "details": [
-                    "[C.A.R. SMG pickup animation] Adjust -> Shifted to Ballistic.",
-                    "[G7 Scout inspection animations] Adjust -> Two new animations."
-                ]
-            }
-        ],
-        "Mirage": [
-            {
-                "patch": "May 09, 2023 Patch",
-                "details": [
-                    "[Class] Buff -> Class changed from Skirmisher to Support."
+                    "Introduced -> Legend released this season."
                 ]
             }
         ],
@@ -820,20 +795,14 @@
             {
                 "patch": "June 20, 2023 Patch",
                 "details": [
-                    "[Heartbeat Sensor] Nerf -> Range reduced to 50m.",
-                    "[Initial Heartbeat delay] Nerf -> Significantly reduced.",
-                    "[Focus of Attention] Nerf -> Range reduced to 60m.",
-                    "[Focus of Attention] Buff -> Firing speed increased (~30% faster).",
-                    "[Focus of Attention] Fix -> Removed Heal Cancel, Revive Cancel, and Respawn Beacon Interaction Interrupt.",
-                    "[Scan Time] Nerf -> Reduced to 2.5s (was 8s).",
-                    "[Scan] Adjust -> Includes full body highlight.",
-                    "[Enemies hit by Focus of Attention] Buff -> Slowed for 2.5s.",
-                    "[Silence Time] Buff -> Increased to 10s (was 1.75).",
-                    "[Enemies who are silenced by Seer] Buff -> Highlighted with threat outline to Seer and his teammates when in line of sight.",
-                    "[Exhibit] Nerf -> Throw range reduced to ~15m (was ~50m).",
-                    "[Exhibit] Fix -> Removed Diamond Scan Markers on Enemy Movement.",
-                    "[Exhibit] Adjust -> Only shows footsteps of players moving in the zone.",
-                    "[Diamond Markers] Fix -> Only appear with enemy gunfire for 1.25s."
+                    "[Passive] Nerf -> Heart Seeker: Range reduced to 50m.",
+                    "[Tactical] Adjust -> Focus of Attention: Firing speed increased (~30% faster).",
+                    "[Tactical] Nerf -> Focus of Attention: Removed Heal Cancel, Revive Cancel, Respawn Beacon Interaction Interrupt.",
+                    "[Tactical] Nerf -> Focus of Attention: Scan time reduced to 2.5s (was 8s).",
+                    "[Tactical] New -> Focus of Attention: Enemies hit by Focus of Attention are now slowed for 2.5s.",
+                    "[Tactical] Buff -> Focus of Attention: Silence time increased to 10s (was 1.75).",
+                    "[Ultimate] Nerf -> Exhibit: Throw range reduced to ~15m (was ~50m).",
+                    "[Ultimate] Adjust -> Exhibit: Removed Diamond Scan Markers on Enemy Movement. Now only shows footsteps of players moving in the zone."
                 ]
             }
         ],
@@ -841,7 +810,7 @@
             {
                 "patch": "May 09, 2023 Patch",
                 "details": [
-                    "[HAVOC Rifle animation] Adjust -> New inspection animation added exclusively for Wattson."
+                    "New -> (Undocumented) one new animation inspecting the HAVOC Rifle exclusively for Wattson."
                 ]
             }
         ]

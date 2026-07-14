@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import { currentLegendDetails, isLoadingLegendDetails, currentLegendPatchHistory } from '../logic/store'
+import { ref, computed } from 'vue'
+import { currentLegendDetails, isLoadingLegendDetails, currentLegendPatchHistory, legendsData } from '../logic/store'
+import { legendThemes, defaultTheme, hexToRgb } from '../logic/legendThemes'
 
 const props = defineProps<{
     initialTab?: string,
@@ -11,6 +12,26 @@ const emit = defineEmits(['close'])
 
 const activeModalTab = ref(props.initialTab || 'infos')
 const showFullBio = ref(false)
+
+const legendClass = computed(() => {
+    if (!currentLegendDetails.value) return '';
+    const legend = legendsData.value.find(l => l.Name === currentLegendDetails.value.name);
+    return legend ? legend.Class || '' : '';
+});
+
+const currentTheme = computed(() => {
+    if (!currentLegendDetails.value) return defaultTheme;
+    return legendThemes[currentLegendDetails.value.name] || defaultTheme;
+});
+
+const getAbilityName = (category: string) => {
+    if (!currentLegendDetails.value) return '';
+    if (category === 'Tactical') return currentLegendDetails.value.abilities?.tactical?.name || '';
+    if (category === 'Passive') return currentLegendDetails.value.abilities?.passive?.name || '';
+    if (category === 'Ultimate') return currentLegendDetails.value.abilities?.ultimate?.name || '';
+    if (category === 'Class') return legendClass.value;
+    return '';
+};
 
 const isHighlightingPatch = ref(false)
 if (props.highlightLatestPatch) {
@@ -41,10 +62,16 @@ function handleImageError(event: Event, fallbackSrc: string, errorFlagRef: 'port
 const parsePatchDetail = (detail: string) => {
     const match = detail.match(/^(\[.*?\])\s*(.*?)\s*->\s*(.*)$/);
     if (match) {
+        let text = match[3];
+        // Strip ability name at the beginning (e.g. "Tempest: ")
+        text = text.replace(/^[^:]{1,30}:\s*/, '');
+        // Capitalize
+        text = text.charAt(0).toUpperCase() + text.slice(1);
+        
         return {
             ability: match[1],
             type: match[2],
-            text: match[3],
+            text: text,
             isFormatted: true
         };
     }
@@ -122,9 +149,14 @@ function hideImageOnError(event: Event) {
         <div class="absolute inset-0 bg-black/80 backdrop-blur-md" @click="emit('close')"></div>
         
         <!-- Modal Content (Larger dimensions for more space) -->
-        <div class="relative w-full max-w-[98%] xl:max-w-[95vw] h-full max-h-[95vh] bg-black border border-titan-cyan shadow-[0_0_50px_rgba(45,212,191,0.15)] flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+        <div class="relative w-full max-w-[98%] xl:max-w-[95vw] h-full max-h-[95vh] bg-[color-mix(in_srgb,var(--theme-primary)_15%,#0f0f11)] border border-theme-primary shadow-[0_0_50px_rgba(var(--theme-primary-rgb),0.15)] flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-200"
+             :style="{
+                 '--theme-primary': currentTheme.primary,
+                 '--theme-secondary': currentTheme.secondary,
+                 '--theme-primary-rgb': hexToRgb(currentTheme.primary)
+             }">
             <!-- Close Button -->
-            <button @click="emit('close')" class="absolute top-4 right-4 z-50 w-12 h-12 flex items-center justify-center bg-black/80 border border-titan-border text-gray-400 hover:text-white hover:border-titan-orange transition-colors group">
+            <button @click="emit('close')" class="absolute top-4 right-4 z-50 w-12 h-12 flex items-center justify-center bg-black/80 border border-titan-border text-gray-400 hover:text-white hover:border-theme-secondary transition-colors group">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 group-hover:rotate-90 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
@@ -132,8 +164,8 @@ function hideImageOnError(event: Event) {
 
             <!-- Loading State -->
             <div v-if="isLoadingLegendDetails" class="flex-1 flex items-center justify-center">
-                <div class="text-titan-orange font-mono animate-pulse flex items-center gap-3">
-                    <span class="block w-3 h-3 bg-titan-orange"></span> {{ $t('legends.extracting') }}
+                <div class="text-theme-secondary font-mono animate-pulse flex items-center gap-3">
+                    <span class="block w-3 h-3 bg-theme-secondary"></span> {{ $t('legends.extracting') }}
                 </div>
             </div>
 
@@ -149,40 +181,40 @@ function hideImageOnError(event: Event) {
                     />
                     <div class="absolute inset-0 p-8 flex flex-col justify-end z-10 bg-gradient-to-r from-black via-black/90 to-transparent">
                         <h1 class="text-6xl md:text-7xl font-black text-white uppercase tracking-tighter drop-shadow-lg">{{ currentLegendDetails.name }}</h1>
-                        <div class="text-titan-cyan font-mono tracking-widest uppercase mt-4 text-sm flex items-center gap-6">
-                            <span class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-titan-cyan"></div> {{ currentLegendDetails.lore.real_name || $t('legends.unknownIdentity') }}</span>
-                            <span v-if="currentLegendDetails.lore.age" class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-titan-cyan"></div> {{ $t('legends.age') }} {{ currentLegendDetails.lore.age }}</span>
+                        <div class="text-theme-primary font-mono tracking-widest uppercase mt-4 text-sm flex items-center gap-6">
+                            <span class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-theme-primary"></div> {{ currentLegendDetails.lore.real_name || $t('legends.unknownIdentity') }}</span>
+                            <span v-if="currentLegendDetails.lore.age" class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-theme-primary"></div> {{ $t('legends.age') }} {{ currentLegendDetails.lore.age }}</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Modal Tabs -->
-                <div class="flex border-b border-titan-border bg-black/80 shrink-0 overflow-x-auto custom-scrollbar">
+                <div class="flex border-b border-titan-border bg-[rgba(var(--theme-primary-rgb),0.05)] shrink-0 overflow-x-auto custom-scrollbar">
                     <button 
                         @click="activeModalTab = 'infos'" 
                         class="flex-1 py-4 px-4 font-mono uppercase tracking-widest text-xs sm:text-sm transition-colors border-b-2 whitespace-nowrap"
-                        :class="activeModalTab === 'infos' ? 'text-titan-cyan border-titan-cyan bg-titan-cyan/5' : 'text-gray-500 border-transparent hover:text-white hover:bg-white/5'"
+                        :class="activeModalTab === 'infos' ? 'text-theme-secondary border-theme-secondary bg-[rgba(var(--theme-primary-rgb),0.1)]' : 'text-gray-500 border-transparent hover:text-white hover:bg-white/5'"
                     >
                         {{ $t('legends.tabInfos') }}
                     </button>
                     <button 
                         @click="activeModalTab = 'perks'" 
                         class="flex-1 py-4 px-4 font-mono uppercase tracking-widest text-xs sm:text-sm transition-colors border-b-2 whitespace-nowrap"
-                        :class="activeModalTab === 'perks' ? 'text-titan-cyan border-titan-cyan bg-titan-cyan/5' : 'text-gray-500 border-transparent hover:text-white hover:bg-white/5'"
+                        :class="activeModalTab === 'perks' ? 'text-theme-secondary border-theme-secondary bg-[rgba(var(--theme-primary-rgb),0.1)]' : 'text-gray-500 border-transparent hover:text-white hover:bg-white/5'"
                     >
                         {{ $t('legends.tabPerks') }}
                     </button>
                     <button 
                         @click="activeModalTab = 'playstyle'" 
                         class="flex-1 py-4 px-4 font-mono uppercase tracking-widest text-xs sm:text-sm transition-colors border-b-2 whitespace-nowrap"
-                        :class="activeModalTab === 'playstyle' ? 'text-titan-cyan border-titan-cyan bg-titan-cyan/5' : 'text-gray-500 border-transparent hover:text-white hover:bg-white/5'"
+                        :class="activeModalTab === 'playstyle' ? 'text-theme-secondary border-theme-secondary bg-[rgba(var(--theme-primary-rgb),0.1)]' : 'text-gray-500 border-transparent hover:text-white hover:bg-white/5'"
                     >
                         {{ $t('legends.tabPlaystyle') }}
                     </button>
                     <button 
                         @click="activeModalTab = 'patch'" 
                         class="flex-1 py-4 px-4 font-mono uppercase tracking-widest text-xs sm:text-sm transition-colors border-b-2 whitespace-nowrap"
-                        :class="activeModalTab === 'patch' ? 'text-titan-cyan border-titan-cyan bg-titan-cyan/5' : 'text-gray-500 border-transparent hover:text-white hover:bg-white/5'"
+                        :class="activeModalTab === 'patch' ? 'text-theme-secondary border-theme-secondary bg-[rgba(var(--theme-primary-rgb),0.1)]' : 'text-gray-500 border-transparent hover:text-white hover:bg-white/5'"
                     >
                         {{ $t('legends.tabPatch') }}
                     </button>
@@ -191,7 +223,7 @@ function hideImageOnError(event: Event) {
                 <!-- INFOS TAB CONTENT -->
                 <template v-if="activeModalTab === 'infos'">
                     <!-- Body Area -->
-                    <div class="p-8 md:p-10 flex-1 flex flex-col lg:flex-row gap-12 bg-black/60">
+                    <div class="p-8 md:p-10 flex-1 flex flex-col lg:flex-row gap-12 bg-transparent">
                     <!-- Lore -->
                     <div class="flex-1 space-y-8">
                         <div>
@@ -206,8 +238,8 @@ function hideImageOnError(event: Event) {
                                 <span class="w-1.5 h-1.5 bg-gray-400 block"></span> {{ $t('legends.bio') }}
                             </h3>
                             <div class="relative">
-                                <p class="text-gray-300 font-sans leading-relaxed text-justify whitespace-pre-line" :class="{'line-clamp-4': !showFullBio}">{{ currentLegendDetails.lore.bio }}</p>
-                                <button v-if="currentLegendDetails.lore.bio.length > 250" @click="showFullBio = !showFullBio" class="text-titan-cyan text-xs font-mono uppercase mt-3 hover:text-white transition-colors border border-titan-cyan/30 px-3 py-1 bg-black/50">
+                                <p class="text-gray-300 font-sans leading-relaxed text-justify whitespace-pre-line text-lg font-medium drop-shadow-sm" :class="{'line-clamp-4': !showFullBio}">{{ currentLegendDetails.lore.bio }}</p>
+                                <button v-if="currentLegendDetails.lore.bio.length > 250" @click="showFullBio = !showFullBio" class="text-theme-secondary text-xs font-mono uppercase mt-3 hover:text-white transition-colors border border-[var(--theme-secondary)] px-3 py-1 bg-black/50">
                                     {{ showFullBio ? $t('legends.readLess') : $t('legends.readMore') }}
                                 </button>
                             </div>
@@ -217,15 +249,15 @@ function hideImageOnError(event: Event) {
                     <!-- Abilities -->
                     <div class="flex-1 space-y-8 lg:border-l lg:border-titan-border/50 lg:pl-12">
                         <div class="relative">
-                            <div class="absolute -left-12 top-1 bottom-1 w-px bg-titan-cyan/30 hidden lg:block"></div>
-                            <h3 class="text-xs font-bold text-titan-cyan uppercase tracking-widest font-mono mb-6 flex items-center gap-2">
-                                <span class="w-2 h-2 bg-titan-cyan block"></span> {{ $t('legends.tacticalAbilities') }}
+                            <div class="absolute -left-12 top-1 bottom-1 w-px bg-[rgba(var(--theme-primary-rgb),0.3)] hidden lg:block"></div>
+                            <h3 class="text-xs font-bold text-theme-secondary uppercase tracking-widest font-mono mb-6 flex items-center gap-2">
+                                <span class="w-2 h-2 bg-theme-secondary block"></span> {{ $t('legends.tacticalAbilities') }}
                             </h3>
 
                             <div class="space-y-8">
                                 <!-- Passive -->
                                 <div class="flex gap-5 items-start group">
-                                    <div class="w-14 h-14 mt-1 bg-black/80 border border-titan-border shrink-0 flex items-center justify-center group-hover:border-titan-cyan group-hover:bg-titan-cyan/5 transition-colors">
+                                    <div class="w-14 h-14 mt-1 bg-black/80 border border-titan-border shrink-0 flex items-center justify-center group-hover:border-theme-secondary group-hover:bg-[rgba(var(--theme-primary-rgb),0.1)] transition-colors">
                                         <img 
                                             :src="`/images/legends/abilities/${formatImgName(currentLegendDetails.name)}_ability_2.svg`"
                                             @error="handleImageError($event, `/images/legends/abilities/${formatImgName(currentLegendDetails.name)}_ability_2.png`, 'ability2Error')"
@@ -237,8 +269,8 @@ function hideImageOnError(event: Event) {
                                     <div>
                                         <div class="text-[10px] text-gray-500 font-mono uppercase tracking-widest mb-1">{{ $t('legends.passive') }}</div>
                                         <h4 class="font-bold text-white uppercase tracking-wider text-lg">{{ currentLegendDetails.abilities.passive.name || $t('legends.unknown') }}</h4>
-                                        <p v-if="currentLegendDetails.abilities.passive.description" class="text-sm text-gray-400 mt-2 font-sans">{{ currentLegendDetails.abilities.passive.description }}</p>
-                                        <div v-if="currentLegendDetails.abilities.passive.cooldown && currentLegendDetails.abilities.passive.cooldown !== '?'" class="mt-2 text-[10px] font-mono text-titan-cyan uppercase border border-titan-cyan/30 inline-block px-2 py-0.5 rounded-sm">
+                                        <p v-if="currentLegendDetails.abilities.passive.description" class="text-base text-gray-400 mt-2 font-sans font-medium drop-shadow-sm leading-relaxed">{{ currentLegendDetails.abilities.passive.description }}</p>
+                                        <div v-if="currentLegendDetails.abilities.passive.cooldown && currentLegendDetails.abilities.passive.cooldown !== '?'" class="mt-2 text-[10px] font-mono text-theme-secondary uppercase border border-[var(--theme-secondary)] inline-block px-2 py-0.5 rounded-sm">
                                             {{ $t('legends.cooldown') }}: {{ currentLegendDetails.abilities.passive.cooldown }}
                                         </div>
                                     </div>
@@ -246,7 +278,7 @@ function hideImageOnError(event: Event) {
 
                                 <!-- Tactical -->
                                 <div class="flex gap-5 items-start group">
-                                    <div class="w-14 h-14 mt-1 bg-black/80 border border-titan-border shrink-0 flex items-center justify-center group-hover:border-titan-cyan group-hover:bg-titan-cyan/5 transition-colors">
+                                    <div class="w-14 h-14 mt-1 bg-black/80 border border-titan-border shrink-0 flex items-center justify-center group-hover:border-theme-secondary group-hover:bg-[rgba(var(--theme-primary-rgb),0.1)] transition-colors">
                                         <img 
                                             :src="`/images/legends/abilities/${formatImgName(currentLegendDetails.name)}_ability_1.svg`"
                                             @error="handleImageError($event, `/images/legends/abilities/${formatImgName(currentLegendDetails.name)}_ability_1.png`, 'ability1Error')"
@@ -258,8 +290,8 @@ function hideImageOnError(event: Event) {
                                     <div>
                                         <div class="text-[10px] text-gray-500 font-mono uppercase tracking-widest mb-1">{{ $t('legends.tactical') }}</div>
                                         <h4 class="font-bold text-white uppercase tracking-wider text-lg">{{ currentLegendDetails.abilities.tactical.name || $t('legends.unknown') }}</h4>
-                                        <p v-if="currentLegendDetails.abilities.tactical.description" class="text-sm text-gray-400 mt-2 font-sans">{{ currentLegendDetails.abilities.tactical.description }}</p>
-                                        <div v-if="currentLegendDetails.abilities.tactical.cooldown && currentLegendDetails.abilities.tactical.cooldown !== '?'" class="mt-2 text-[10px] font-mono text-titan-cyan uppercase border border-titan-cyan/30 inline-block px-2 py-0.5 rounded-sm">
+                                        <p v-if="currentLegendDetails.abilities.tactical.description" class="text-base text-gray-400 mt-2 font-sans font-medium drop-shadow-sm leading-relaxed">{{ currentLegendDetails.abilities.tactical.description }}</p>
+                                        <div v-if="currentLegendDetails.abilities.tactical.cooldown && currentLegendDetails.abilities.tactical.cooldown !== '?'" class="mt-2 text-[10px] font-mono text-theme-secondary uppercase border border-[var(--theme-secondary)] inline-block px-2 py-0.5 rounded-sm">
                                             {{ $t('legends.cooldown') }}: {{ currentLegendDetails.abilities.tactical.cooldown }}
                                         </div>
                                     </div>
@@ -267,20 +299,20 @@ function hideImageOnError(event: Event) {
 
                                 <!-- Ultimate -->
                                 <div class="flex gap-5 items-start group">
-                                    <div class="w-14 h-14 mt-1 bg-black/80 border border-titan-orange shrink-0 flex items-center justify-center group-hover:bg-titan-orange/10 transition-colors">
+                                    <div class="w-14 h-14 mt-1 bg-black/80 border border-titan-border shrink-0 flex items-center justify-center group-hover:border-theme-secondary group-hover:bg-[rgba(var(--theme-primary-rgb),0.1)] transition-colors">
                                         <img 
                                             :src="`/images/legends/abilities/${formatImgName(currentLegendDetails.name)}_ability_3.svg`"
                                             @error="handleImageError($event, `/images/legends/abilities/${formatImgName(currentLegendDetails.name)}_ability_3.png`, 'ability3Error')"
                                             v-show="!ability3Error"
                                             class="w-8 h-8 invert opacity-90 group-hover:opacity-100 transition-opacity"
                                         />
-                                        <span v-if="ability3Error" class="text-titan-orange/50 font-mono text-xs">ULT</span>
+                                        <span v-if="ability3Error" class="text-gray-600 font-mono text-xs">ULT</span>
                                     </div>
                                     <div>
-                                        <div class="text-[10px] text-titan-orange font-mono uppercase tracking-widest mb-1">{{ $t('legends.ultimate') }}</div>
+                                        <div class="text-[10px] text-theme-secondary font-mono uppercase tracking-widest mb-1">{{ $t('legends.ultimate') }}</div>
                                         <h4 class="font-bold text-white uppercase tracking-wider text-lg">{{ currentLegendDetails.abilities.ultimate.name || $t('legends.unknown') }}</h4>
-                                        <p v-if="currentLegendDetails.abilities.ultimate.description" class="text-sm text-gray-400 mt-2 font-sans">{{ currentLegendDetails.abilities.ultimate.description }}</p>
-                                        <div v-if="currentLegendDetails.abilities.ultimate.cooldown && currentLegendDetails.abilities.ultimate.cooldown !== '?'" class="mt-2 text-[10px] font-mono text-titan-orange uppercase border border-titan-orange/30 inline-block px-2 py-0.5 rounded-sm">
+                                        <p v-if="currentLegendDetails.abilities.ultimate.description" class="text-base text-gray-400 mt-2 font-sans font-medium drop-shadow-sm leading-relaxed">{{ currentLegendDetails.abilities.ultimate.description }}</p>
+                                        <div v-if="currentLegendDetails.abilities.ultimate.cooldown && currentLegendDetails.abilities.ultimate.cooldown !== '?'" class="mt-2 text-[10px] font-mono text-theme-secondary uppercase border border-[var(--theme-secondary)] inline-block px-2 py-0.5 rounded-sm">
                                             {{ $t('legends.cooldown') }}: {{ currentLegendDetails.abilities.ultimate.cooldown }}
                                         </div>
                                     </div>
@@ -296,38 +328,70 @@ function hideImageOnError(event: Event) {
                     <div v-if="!currentLegendPatchHistory || currentLegendPatchHistory.length === 0" class="flex-1 p-8 md:p-12 flex items-center justify-center text-gray-500 font-mono text-center">
                         Aucun historique de patch.
                     </div>
-                    <div v-else class="p-8 md:p-10 flex-1 bg-black/60">
-                        <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest font-mono mb-6 flex items-center gap-2">
+                    <div v-else class="p-8 md:p-10 flex-1 bg-transparent overflow-y-auto custom-scrollbar">
+                        <h3 class="text-sm font-bold text-gray-400 uppercase tracking-widest font-mono mb-8 flex items-center gap-2">
                             <span class="w-1.5 h-1.5 bg-gray-400 block"></span> {{ $t('legends.patchHistory') }}
                         </h3>
-                        <div class="space-y-6">
+                        <div class="space-y-12 ml-4 md:ml-6">
                             <div v-for="(patch, index) in currentLegendPatchHistory" :key="patch.patch" 
-                                 class="border-l-2 pl-4 py-1 transition-all duration-1000"
-                                 :class="(index === 0 && isHighlightingPatch) ? 'border-titan-orange/80 bg-titan-orange/10 shadow-[inset_0_0_20px_rgba(255,165,0,0.2)]' : 'border-titan-border/50'">
-                                <h4 class="font-bold font-mono text-sm uppercase tracking-wider mb-3 transition-colors duration-1000"
-                                    :class="(index === 0 && isHighlightingPatch) ? 'text-titan-orange' : 'text-titan-cyan'">{{ patch.patch }}</h4>
+                                 class="relative transition-all duration-1000"
+                                 :class="(index === 0 && isHighlightingPatch) ? 'bg-[rgba(var(--theme-primary-rgb),0.05)] shadow-[inset_0_0_30px_rgba(var(--theme-primary-rgb),0.1)] p-4 -mx-4 rounded-sm border border-[rgba(var(--theme-primary-rgb),0.2)]' : ''">
+                                 
+                                <div class="absolute -left-4 md:-left-6 top-2 bottom-0 w-px bg-titan-border/30" :class="(index === 0 && isHighlightingPatch) ? 'bg-[rgba(var(--theme-primary-rgb),0.5)] shadow-[0_0_10px_rgba(var(--theme-primary-rgb),0.5)]' : ''"></div>
+
+                                <h4 class="font-bold font-mono text-lg uppercase tracking-wider mb-6 flex items-center gap-3 transition-colors duration-1000"
+                                    :class="(index === 0 && isHighlightingPatch) ? 'text-theme-primary' : 'text-theme-secondary'">
+                                    <div class="w-2 h-2 rounded-full absolute -left-[1.1rem] md:-left-[1.6rem] top-2.5 transition-colors duration-1000" :class="(index === 0 && isHighlightingPatch) ? 'bg-theme-primary shadow-[0_0_10px_rgba(var(--theme-primary-rgb),1)]' : 'bg-theme-secondary'"></div>
+                                    {{ patch.patch }}
+                                </h4>
                                 
-                                <div class="space-y-4">
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <template v-for="group in groupPatchDetails(patch.details)" :key="group.category">
-                                        <div>
-                                            <h5 class="text-[10px] font-bold text-gray-500 uppercase tracking-widest font-mono mb-2 flex items-center gap-2">
-                                                <span class="w-1 h-1 bg-gray-500 rounded-full block"></span>
-                                                {{ group.category }}
-                                            </h5>
-                                            <ul class="space-y-2.5 text-gray-400 text-sm pl-2 md:pl-3 border-l border-gray-700/50">
-                                                <li v-for="(item, i) in group.items" :key="i" class="leading-relaxed flex flex-col md:flex-row md:items-start gap-1.5 md:gap-3">
+                                        <div class="bg-[rgba(var(--theme-primary-rgb),0.05)] border border-[rgba(var(--theme-primary-rgb),0.1)] p-5 hover:border-[rgba(var(--theme-primary-rgb),0.3)] transition-colors">
+                                            <div class="flex items-center gap-3 mb-4 border-b border-titan-border/20 pb-3">
+                                                <template v-if="group.category === 'Tactical'">
+                                                    <div class="w-8 h-8 bg-black/80 border border-titan-border flex items-center justify-center p-1.5 shrink-0">
+                                                        <img :src="`/images/legends/abilities/${formatImgName(currentLegendDetails.name)}_ability_1.svg`" @error="hideImageOnError" class="w-full h-full invert opacity-80 drop-shadow" />
+                                                    </div>
+                                                </template>
+                                                <template v-else-if="group.category === 'Passive'">
+                                                    <div class="w-8 h-8 bg-black/80 border border-titan-border flex items-center justify-center p-1.5 shrink-0">
+                                                        <img :src="`/images/legends/abilities/${formatImgName(currentLegendDetails.name)}_ability_2.svg`" @error="hideImageOnError" class="w-full h-full invert opacity-80 drop-shadow" />
+                                                    </div>
+                                                </template>
+                                                <template v-else-if="group.category === 'Ultimate'">
+                                                    <div class="w-8 h-8 bg-black/80 border border-titan-border flex items-center justify-center p-1.5 shrink-0">
+                                                        <img :src="`/images/legends/abilities/${formatImgName(currentLegendDetails.name)}_ability_3.svg`" @error="hideImageOnError" class="w-full h-full invert opacity-80 drop-shadow" />
+                                                    </div>
+                                                </template>
+                                                <template v-else-if="group.category === 'Class'">
+                                                    <div class="w-8 h-8 bg-black/80 border border-titan-border flex items-center justify-center p-1.5 shrink-0">
+                                                        <img :src="`/images/legends/classes/${formatImgName(legendClass)}_class.svg`" @error="hideImageOnError" class="w-full h-full invert opacity-80 drop-shadow" />
+                                                    </div>
+                                                </template>
+                                                
+                                                <div>
+                                                    <div class="text-[10px] text-gray-500 font-mono tracking-widest uppercase flex items-center gap-2">
+                                                        <span v-if="!['Tactical', 'Passive', 'Ultimate', 'Class'].includes(group.category)" class="w-1.5 h-1.5 bg-gray-500 rounded-sm block"></span>
+                                                        {{ group.category }}
+                                                    </div>
+                                                    <div v-if="getAbilityName(group.category)" class="text-sm font-bold text-white tracking-wider uppercase font-sans mt-0.5">{{ getAbilityName(group.category) }}</div>
+                                                </div>
+                                            </div>
+                                            <ul class="space-y-4 text-gray-400 text-sm">
+                                                <li v-for="(item, i) in group.items" :key="i" class="leading-relaxed flex flex-col gap-1.5">
                                                     <template v-if="item.isFormatted">
-                                                        <div class="flex items-center gap-2 shrink-0 mt-0.5">
-                                                            <span class="font-mono text-[10px] uppercase tracking-wider px-1.5 py-0.5 border" :class="getPatchTypeClass(item.type)">
+                                                        <div class="flex items-center">
+                                                            <span class="font-mono text-[9px] uppercase tracking-wider px-1.5 py-0.5 border" :class="getPatchTypeClass(item.type)">
                                                                 {{ item.type }}
                                                             </span>
                                                         </div>
-                                                        <span class="text-gray-300 md:pt-0.5">{{ item.text }}</span>
+                                                        <span class="text-gray-300 text-base font-medium drop-shadow-sm">{{ item.text }}</span>
                                                     </template>
                                                     <template v-else>
                                                         <span class="text-gray-400 flex items-start gap-2">
                                                             <span class="w-1.5 h-1.5 rounded-full bg-titan-border/50 shrink-0 mt-1.5 block"></span>
-                                                            <span>{{ item.text }}</span>
+                                                            <span class="text-base font-medium drop-shadow-sm">{{ item.text }}</span>
                                                         </span>
                                                     </template>
                                                 </li>
@@ -345,7 +409,7 @@ function hideImageOnError(event: Event) {
                     <div v-if="!currentLegendDetails.tactics" class="flex-1 p-8 md:p-12 flex items-center justify-center text-gray-500 font-mono text-center">
                         {{ $t('legends.noTacticsData') }}
                     </div>
-                    <div v-else class="p-8 md:p-12 flex-1 flex flex-col gap-12 bg-black/60 overflow-y-auto custom-scrollbar">
+                    <div v-else class="p-8 md:p-12 flex-1 flex flex-col gap-12 bg-transparent overflow-y-auto custom-scrollbar">
                         <div class="flex flex-col gap-12">
                             <!-- Perks Tree -->
                             <div class="w-full">
@@ -450,13 +514,13 @@ function hideImageOnError(event: Event) {
                     <div v-if="!currentLegendDetails.tactics" class="flex-1 p-8 md:p-12 flex items-center justify-center text-gray-500 font-mono text-center">
                         {{ $t('legends.noTacticsData') }}
                     </div>
-                    <div v-else class="p-8 md:p-12 flex-1 flex flex-col gap-12 bg-black/60 overflow-y-auto custom-scrollbar">
+                    <div v-else class="p-8 md:p-12 flex-1 flex flex-col gap-12 bg-transparent overflow-y-auto custom-scrollbar">
                         <!-- Playstyle -->
                         <div>
                             <h3 class="text-sm font-bold text-gray-400 uppercase tracking-widest font-mono mb-4 flex items-center gap-2">
                                 <span class="w-1.5 h-1.5 bg-titan-cyan block"></span> {{ $t('legends.playstyle') }}
                             </h3>
-                            <p class="text-white font-sans text-lg md:text-xl leading-relaxed text-justify">{{ currentLegendDetails.tactics.playstyle }}</p>
+                            <p class="text-white font-sans text-xl md:text-2xl leading-relaxed text-justify font-medium drop-shadow-md">{{ currentLegendDetails.tactics.playstyle }}</p>
                         </div>
 
                         <!-- Weapons -->
