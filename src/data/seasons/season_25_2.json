@@ -425,28 +425,128 @@
         }
     },
     "patches": {
+         "Alter": [
+            {
+                "patch": "Future Icons Event (2025-06-20)",
+                "details": [
+                    "[Ultimate] Nerf -> Chase portal usage warning delay reduced to 3.5s (was 5s)",
+                    "[Ultimate] Nerf -> Chase portal activation delay reduced to 6s (was 8s, Previous Hotfix)",
+                    "[Ultimate] Nerf -> Cooldown after usage increased to 60s (was 30s, Previous Hotfix)"
+                ]
+            }
+        ],
+        "Ash": [
+            {
+                "patch": "Future Icons Event (2025-06-20)",
+                "details": [
+                    "[Passive] Buff -> Passive: decreased dash cooldown to 8s (was 10s)",
+                    "[Perks] Adjust -> Dual Breach: moved to Level 2",
+                    "[Perks] Adjust -> Greedy Snare and Twin Snares: moved to Level 3",
+                    "[Perks] Removed -> Ghost in the Machine: adds additional Dash charge.",
+                    "[Perks] New -> Charged Knock: gain HP regen on a knock"
+                ]
+            },
+            {
+                "patch": "July 17, 2025 Patch",
+                "details": [
+                    "[Class] Class changed to Skirmisher."
+                ]
+            }
+        ],
+        "Ballistic": [
+            {
+                "patch": "Future Icons Event (2025-06-20)",
+                "details": [
+                    "[Tactical] Nerf -> Whistler: Damage on activation reduced to 15 (was 20)",
+                    "[Tactical] Nerf -> Whistler: Damage from overheat reduced to 15 (was 30, Previous Hotfix)",
+                    "[Ultimate] Nerf -> Removed time extension from knocks"
+                ]
+            },
+            {
+                "patch": "July 17, 2025 Patch",
+                "details": [
+                    "[Base] Whistler charges reduced from 2 to 1.",
+                    "[Ultimate] Nerf -> Tempest no longer grants a speed boost to Ballistic's allies."
+                ]
+            }
+        ],
         "Caustic": [
             {
-                "patch": "Bring the heat in the Haute Shot Event",
+                "patch": "Haute Shot Event (2025-07-10)",
                 "details": [
-                    "[Base] Buff -> Nox Gas Trap duration extended to 22s (was 11s)",
-                    "[Passive] Buff -> Enemy Nox Gas Trap is highlighted"
+                    "[Tactical] Buff -> Nox Gas Trap duration extended to 22s (was 11s)",
+                    "[Tactical] Nerf -> Enemy Nox Gas Trap is highlighted"
+                ]
+            }
+        ],
+        "Conduit": [
+            {
+                "patch": "Future Icons Event (2025-06-20)",
+                "details": [
+                    "[Tactical] Buff -> Radiant Transfer: Reduce cooldown to 21s (was 31s, Previous Hotfix)",
+                    "[Tactical] Buff -> Radiant Transfer: Reduce recharge delay after damage to 1s (was 2s)"
                 ]
             }
         ],
         "Mirage": [
-            {
-                "patch": "Bring the heat in the Haute Shot Event",
+        {
+                "patch": "Future Icons Event (2025-06-20)",
                 "details": [
-                    "[Base] Fix -> Power Sword VFX no longer visible while cloaked"
+                    "[Passive] Buff -> decoys now swap weapons when you do and also properly holster melee weapons"
+                ]
+            }
+        ],
+        "Revenant": [
+            {
+                "patch": "July 17, 2025 Patch",
+                "details": [
+                    "[Base] Class changed to Assault.",
+                    "[Tactical] Buff -> Minimum Velocity increased from 700 to 800.",
+                    "[Tactical] Buff -> Maximum Velocity increased from 1150 to 1400.",
+                    "[Tactical] Adjust -> Improved Ground Detection, making guns faster to reequip upon landing."
+                ]
+            }
+        ],
+        "Vantage": [
+            {
+                "patch": "Future Icons Event (2025-06-20)",
+                "details": [
+                    "[Tactical] Buff -> Spotter's Lens: Can now ping up to 3 enemies at a time.",
+                    "[Tactical] Buff -> Spotter's Lens: Can see the health bars of targeted enemy.",
+                    "[Tactical] Adjust -> Spotter's Lens: Pinging an enemy will reveal their position when further than 50m away (was 100m).",
+                    "[Ultimate] Nerf -> Sniper's Mark laser duration reduced from 15s to 10s."
+                ]
+            },
+            {
+                "patch": "July 17, 2025 Patch",
+                "details": [
+                    "[Perks] New -> Controlling my Prey: gain access to Ring Consoles and zone overcharge.",
+                    "[Perks] New -> Improved Mark: marked enemy icon is visible through walls, briefly highlights enemies, and reveals their health bar to your squad upon mark."
                 ]
             }
         ],
         "Wattson": [
             {
-                "patch": "Bring the heat in the Haute Shot Event",
+                "patch": "Future Icons Event (2025-06-20)",
                 "details": [
-                    "[Ultimate] Buff -> Ultimate Conductor upgrade fixed to not cause charging when it shouldn’t"
+                    "[Passive] Buff -> Passive Shield Regen increased to 2s (was 1s).",
+                    "[Tactical] Buff -> Perimeter Security: Increase fence node HP to 50 (was 25).",
+                    "[Tactical] Buff -> Perimeter Security: Cooldown reduced to 4s (was 15s).",
+                    "[Tactical] Buff -> Perimeter Security: Fences now slow sliding and jumping enemies, and consume cooldowns on Ash’s dash and Sparrow’s double jump.",
+                    "[Tactical] Buff -> Perimeter Security: Fences placed across doors will electrify the doors.",
+                    "[Tactical] Buff -> Perimeter Security: Stuns enemies when they open an electrified door or kicks it in.",
+                    "[Tactical] Fix -> Removed doors exploding when opened into the line of a fence.",
+                    "[Ultimate] Buff -> Falling Stars integrated into base kit.",
+                    "[Perks] Removed -> Falling Stars: Pylons will stop spawning Arc Stars when her squad is eliminated.",
+                    "[Perks] New -> Help is Here: gain all support perks (access Support Bins, faster revives with health regen, gain MRB with Banners).",
+                    "[Perks] New -> Ultimate Conductor: damage to enemies is converted to Ult charge and knocks give a burst of 30% Ult charge.",
+                    "[Perks] New -> NEW Energized Healer: gain double small med healing"
+                ]
+            },
+            {
+                "patch": "July 17, 2025 Patch",
+                "details": [
+                    "[Perks] Buff -> Increased Ultimate Conductor upgrade's knock burst from 30% to 50% Ultimate charge."
                 ]
             }
         ]

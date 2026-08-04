@@ -379,10 +379,52 @@
         }
     },
     "patches": {
-        "Ballistic": [
+        "Ash": [
             {
-                "patch": "",
-                "details": []
+                "patch": "March 25, 2025 Patch",
+                "details": [
+                    "[Ultimate] Nerf -> Phase Breach cooldown increased from 120 seconds to 150.",
+                    "[Passive] Nerf -> Predator's Pursuit: dash cooldown increased to 10s (was 5s)."
+                ]
+            },
+            {
+                "patch": "April 08, 2025 Patch",
+                "details": [
+                    "[Ultimate] Buff -> Phase Breach: Increased maximum distance travel time from 1.4s to 2.5s.",
+                    "[Ultimate] Buff -> Phase Breach: Increased minimum distance travel time from 0.3s to 0.5s."
+                ]
+            }
+        ],
+        "Conduit": [
+            {
+                "patch": "April 08, 2025 Patch",
+                "details": [
+                    "[Tactical] Buff -> Radiant Transfer: Increased HP regen per tick from 3 to 4."
+                ]
+            }
+        ],
+        "Revenant": [
+            {
+                "patch": "March 25, 2025 Patch",
+                "details": [
+                    "[Passive] Buff -> Assassin's Instinct: Allies now see the low health tracking marker like Revenant.",
+                    "[Tactical] Buff -> Shadow Pounce: activation time reduced by ~30%, cooldown reduced to 20s (was 25s).",
+                    "[Ultimate] Buff -> Forged Shadows: Ult Shield HP increased by 25.",
+                    "[Perks] Removed -> Murder Machine.",
+                    "[Perks] New -> Try To Hide: doubles the duration of the passive mark when getting enemies to low health", 
+                    "[Perks] Removed -> Grim Leaper.",
+                    "[Perks] New -> Agile Assassin: reduces Shadow Pounce activation time and charge time by half.",
+                    "[Perks] Adjust -> Tactical Cooldown: now reduces to 15s (was 20s)."
+                ]
+            }
+        ],
+        "Seer": [
+            {
+                "patch": "April 08, 2025 Patch",
+                "details": [
+                    "[Tactical] Buff -> Focus of Attention: Decreased activation delay to 0.8s (was 1.4).",
+                    "[Tactical] Buff -> Focus of Attention: Decreased time to finish to 0.9s (was 1.0)"
+                ]
             }
         ]
     }

@@ -9,18 +9,18 @@
   },
   "abilities": {
     "passive": {
-      "name": "Recon Legend",
+      "name": "VTOL Jets",
       "description": "Press the jump key while in the air to engage jetpack. You can switch between hold and toggle mode in the options menu. Gains Threat Vision while jetpacking, which stays on until your feet hit the ground or you zipline.",
       "cooldown": ""
     },
     "tactical": {
       "name": "Missile Swarm",
-      "description": "Fire a swarm of mini-rockets that damage and disorient the enemy with a short full body scan on hit. Tac damage now puts movement passives on cooldown.",
+      "description": "Fire a swarm of mini-rockets that damage and disorient the enemy with a short full body scan on hit.",
       "cooldown": ""
     },
     "ultimate": {
       "name": "Skyward Dive",
-      "description": "Press once to prepare for launch. Teammates can interact with Valkyrie to join the launch. Press again to launch into the air and skydive, reaching a 15% increased height.",
+      "description": "Press once to prepare for launch. Teammates can interact with Valkyrie to join the launch. Press again to launch into the air and skydive.",
       "cooldown": "1.75 minutes"
     }
   },

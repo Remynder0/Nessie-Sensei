@@ -430,101 +430,70 @@
     "patches": {
         "Ash": [
             {
-                "patch": "Takeover",
+                "patch": "Takeover Patch Notes (2025-02-10)",
                 "details": [
-                    "[Passive] Buff -> Predator's Pursuit: added omnidirectional short-range dash.",
-                    "[Tactical] Buff -> Arc Snare: tether plants at location of projectile on impact, slightly harder to break and no longer gets instantly broken by some abilities.",
-                    "[Tactical] Buff -> Phase Breach: range increased to 100m, travel time reduced, improved reliability of placement, removed one frame delay on placement preview, now has VFX to show max range when in placement mode.",
-                    "[Perks] Adjust -> Upgrades: Level 2 - Greedy Snare moved to Level 2, Dual Breach adds additional ult charge.",
-                    "[Perks] Adjust -> Upgrades: Level 3 - Ghost in the Machine adds additional Dash charge."
+                    "[Passive] Removed -> ability to scan Death Boxes to reveal killers, but they’ll still show on the minimap and map with info on how recently they died.",
+                    "[Passive] New -> Predator's Pursuit: press the Jump key while in the air to perform a dash.",
+                    "[Tactical ] Buff -> Arc Snare: tether plants at location of projectile on impact, slightly harder to break and no longer gets instantly broken by some abilities.",
+                    "[Ultimate] Buff -> Phase Breach: range increased to 100m (was ~76m), travel time reduced, improved reliability of placement, removed one frame delay on placement preview, now has VFX to show max range when in placement mode.",
+                    "[Perks] Removed -> Murder Machine: ",
+                    "[Perks] Removed -> One Minute to Live: ",
+                    "[Perks] New -> Dual Breach: adds additional ult charge",
+                    "[Perks] Adjust -> Greedy Snare: moved to Level 2.",
+                    "[Perks] New -> Ghost in the Machine: adds additional Dash charge."
+                ]
+            },
+            {
+                "patch": "February 19, 2025 Patch",
+                "details": [
+                    "[Perks] Adjust -> Dual Breach: upgrade moved to Level 3.",
+                    "[Perks] Adjust -> Twin Snares: upgrade moved to Level 2."
                 ]
             }
         ],
         "Ballistic": [
             {
-                "patch": "Takeover",
+                "patch": "Takeover Patch Notes (2025-02-10)",
                 "details": [
-                    "[Base] Buff -> Sling now upgrades with Level by default, can now carry Crate Weapons and they will gain infinite ammo with Ult.",
-                    "[Tactical] Buff -> Whistler: Tac now has 2 charges, overheat reaction time increased to 1.2s, Smart Bullet on ground damage increased to 20.",
+                    "[Passive] Buff -> Sling: now upgrades with Level by default, can now carry Crate Weapons and they will gain infinite ammo with Ult.",
+                    "[Tactical] Buff -> Whistler: Tac now has 2 charges, Overheat reaction time increased to 1.2s (was 1s), Smart Bullet on ground damage increased to 20 (was 10).",
                     "[Ultimate] Buff -> Tempest: squad gains a speed boost when empowered by Ult.",
-                    "[Perks] Adjust -> Upgrades: Level 2 - Killing Time increases duration of Ult by 15s.",
-                    "[Perks] Adjust -> Upgrades: Level 3 - Extra Bullets doubles the number of Tac charges, Quiet Time: Overheat now also silences enemy for 6s."
+                    "[Perks] Removed -> Sling Shot (integrated into base kit)",
+                    "[Perks] New -> Killing Time: increases duration of Ult by 15s.",
+                    "[Perks] Buff -> Extra Bullets: doubles the number of Tac charges (was +1 charge).",
+                    "[Perks] Buff -> Quiet Time: Overheat now also silences enemy for 6s"
                 ]
             }
         ],
         "Crypto": [
             {
-                "patch": "Takeover",
+                "patch": "Takeover Patch Notes (2025-02-10)",
                 "details": [
-                    "[Tactical] Buff -> EMP: once again destroys Gibraltar’s Dome of Protection"
+                    "[Ultimate] Buff -> EMP: once again destroys Gibraltar's Dome of Protection."
                 ]
             }
         ],
         "Loba": [
             {
-                "patch": "Takeover",
+                "patch": "Takeover Patch Notes (2025-02-10)",
                 "details": [
-                    "[Ultimate] Buff -> Ult back to starting at 50% charge"
+                    "[Ultimate] Adjust -> Ult back to starting at 50% charge."
                 ]
             }
         ],
-        "Maggie": [
+        "Mad Maggie": [
             {
-                "patch": "Takeover",
+                "patch": "Takeover Patch Notes (2025-02-10)",
                 "details": [
-                    "[Tactical] Buff -> Wrecking Ball: once again destroys Gibraltar’s Dome of Protection, will now destroy Newcastle’s Mobile Shield"
-                ]
-            }
-        ],
-        "Lifeline": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Base] Fix -> Crashing will no longer occur when gliding or using the D.O.C. Heal Drone",
-                    "[Base] Fix -> Gliding will no longer occasionally lower performance",
-                    "[Tactical] Fix -> Pathfinder grapple can once again attach to D.O.C. Halo"
-                ]
-            }
-        ],
-        "Mirage": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Ultimate] Fix -> Fixed a crash that could occur when using Mirage’s Ult near Gravity Cannons",
-                    "[Tactical] Fix -> Lifeline’s D.O.C. now cloaks properly to prevent revealing Mirage"
-                ]
-            }
-        ],
-        "Newcastle": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Ultimate] Fix -> Ult no longer canceled by Ash’s snare"
-                ]
-            }
-        ],
-        "Revenant": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Tactical] Fix -> Resolved rare crash that could occur when pouncing",
-                    "[Tactical] Fix -> Shadow Pounce now plays leap audio when spectating a Revenant"
+                    "[Ultimate] Buff -> Wrecking Ball: Once again destroys Gibraltar’s Dome of Protection. Will now destroy Newcastle’s Mobile Shield."
                 ]
             }
         ],
         "Valkyrie": [
             {
-                "patch": "Takeover",
+                "patch": "Takeover Patch Notes (2025-02-10)",
                 "details": [
-                    "[Tactical] Fix -> Tac now working inside of D.O.C. Halo and near Dome of Protection’s edges"
-                ]
-            }
-        ],
-        "Vantage": [
-            {
-                "patch": "Takeover",
-                "details": [
-                    "[Ultimate] Fix -> sprinting no longer available while using Ult Accelerant"
+                    "[Tactical] Fix -> Tac now working inside of D.O.C. Halo and near Dome of Protection’s edges."
                 ]
             }
         ]

@@ -40,7 +40,7 @@
       "level_2": {
         "left": {
           "name": "Renaissance Man",
-          "description": "Can now interact with all other Classes’ world interactions: Assault Bins, Care Package scans, Survey Beacons, and Ring Consoles.",
+          "description": "Can now interact with all other Classes’ world interactions: Assault Bins, Care Package scans, Survey Beacons, and Ring Consoles. (Mirage and his team will ONLY gain EVO for these interactions if the squad also has a member of that class.)",
           "recommended": false
         },
         "right": {

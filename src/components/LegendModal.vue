@@ -63,8 +63,10 @@ const parsePatchDetail = (detail: string) => {
     const match = detail.match(/^(\[.*?\])\s*(.*?)\s*->\s*(.*)$/);
     if (match) {
         let text = match[3];
-        // Strip ability name at the beginning (e.g. "Tempest: ")
-        text = text.replace(/^[^:]{1,30}:\s*/, '');
+        // Strip ability name at the beginning (e.g. "Tempest: ") except for Perks
+        if (!match[1].toLowerCase().includes('perk')) {
+            text = text.replace(/^[^:]{1,30}:\s*/, '');
+        }
         // Capitalize
         text = text.charAt(0).toUpperCase() + text.slice(1);
         
@@ -90,6 +92,7 @@ const getPatchTypeClass = (type: string) => {
     if (t.includes('rework')) return 'text-fuchsia-400 border-fuchsia-400/30 bg-fuchsia-400/10';
     if (t.includes('new')) return 'text-blue-400 border-blue-400/30 bg-blue-400/10';
     if (t.includes('introduced') || t.includes('intro')) return 'text-titan-orange border-titan-orange/30 bg-titan-orange/10';
+    if (t.includes('removed')) return 'text-gray-500 border-gray-500/30 bg-gray-500/10';
     return 'text-gray-400 border-gray-400/30 bg-gray-400/10';
 };
 
@@ -386,7 +389,7 @@ function hideImageOnError(event: Event) {
                                                                 {{ item.type }}
                                                             </span>
                                                         </div>
-                                                        <span class="text-gray-300 text-base font-medium drop-shadow-sm">{{ item.text }}</span>
+                                                        <span class="text-gray-300 text-base font-medium drop-shadow-sm" :class="{'line-through opacity-50': item.type.toLowerCase().includes('remove')}">{{ item.text }}</span>
                                                     </template>
                                                     <template v-else>
                                                         <span class="text-gray-400 flex items-start gap-2">

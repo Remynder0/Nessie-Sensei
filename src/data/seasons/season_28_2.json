@@ -1,0 +1,145 @@
+{
+     "name": "Breach",
+    "start_date": "February 10, 2026",
+    "end_date": "May 5, 2026",
+    "infobox": {
+        "name": "Breach",
+        "Theme": "Military / Spec Ops",
+        "Reactive weapon": "Bocek Compound Bow",
+        "Start date": "February 10, 2026",
+        "End date": "May 5, 2026",
+        "Events": "7th Anniversary | Apex Legends X Gundam File:Aftershock.svg Aftershock"
+    },
+    "max_level": 60,
+    "rewards": {
+        "level_5": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_7": {
+            "premium": [],
+            "free": []
+        },
+        "level_9": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_15": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_17": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_22": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_26": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_27": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_37": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_38": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_44": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_47": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_51": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_55": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_58": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        }
+    },
+    "patches": {
+        "Gibraltar": [
+            {
+                "patch": "Aftershock Event Patch Notes (2026-03-23)",
+                "details": [
+                    "[Passive] New -> Momentum Boost: If Gibraltar maintains sprint speed for a couple of seconds he will get a speed boost. This will only trigger while unarmed or if the weapon doesn't have a sprint speed restriction. Gibraltar punch will deal double damage to Hardlight",
+                    "[Tactical] Buff -> Cooldown on Dome of Protection reduced (was 17s, now 13s)",
+                    "[Ultimate] Buff -> Integrated the size increase upgrade into his base kit, increasing radius by 20%",
+                    "[Ultimate] Buff -> Call in time for the missiles has been sped up",
+                    "[Ultimate] Buff -> Can now throw your ultimate before the ultimate equip animation finishes",
+                    "[Perks] New -> Thunder Dome: The dome becomes electrified when placed, and will deal 50 damage and slow the first enemy to enter",
+                    "[Perks] New -> Healing Dome: Dome duration increases 4s and any player within the healing dome will get double small meds healing",
+                    "[Perks] New -> Triple Bombardment: Splits the ultimate into 3 charges, reducing the radius and number of missiles for each",
+                    "[Perks] Removed -> Big Bruddah, Bubble Bunker, Baby Bubble"
+                ]
+            }
+        ],
+        "Wraith": [
+            {
+                "patch": "Aftershock Event Patch Notes (2026-03-23)",
+                "details": [
+                    "[Tactical] Buff -> Integrated the tactical cooldown reduction upgrade into her base kit (was 20s, now 15s)",
+                    "[Ultimate] Buff -> Integrated the ultimate cooldown reduction upgrade into her base kit (was 2.5 minutes, now 1.5 minutes)",
+                    "[Ultimate] Buff -> Increased casting speed animation for quicker activation",
+                    "[Perks] New -> Phase Dome: When Wraith starts channeling her ultimate she will create a Phase Dome. This dome will last for 30s or until Wraith places her portal. Anyone who enters the Phase Dome will go into the void.",
+                    "[Perks] Buff -> Phase Jumper: Wraith will stay in the void for longer when using her tactical (was 4s, now 6s) and will gain double jump while in the void"
+                ]
+            }
+        ],
+        "Wattson": [
+            {
+                "patch": "Aftershock Event  Patch Notes (2026-03-23)",
+                "details": [
+                    "[Tactical] Buff -> Placing a fence in front of a Hardlight mesh will reinforce it; if the mesh is broken the fence will rebuild and reinforce it",
+                    "[Tactical] Buff -> Increased fence damage (was 20, now 35)",
+                    "[Tactical] Buff -> Reduced fence deployment time (was 1s, now 0.5s)",
+                    "[Ultimate] Buff -> When Wattson’s ultimate is placed it will reinforce Hardlight meshes in the zone of the pylon; if the mesh is broken it will rebuild and reinforce the mesh."
+                ]
+            }
+        ]
+    }
+}

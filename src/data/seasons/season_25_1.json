@@ -425,80 +425,17 @@
         }
     },
     "patches": {
-        "Alter": [
-            {
-                "patch": "Face Off in the Future Icons Event",
-                "details": [
-                    "[Ultimate] Buff -> Chase portal usage warning delay reduced to 3.5s (was 5s)",
-                    "[Ultimate] Buff -> Chase portal activation delay reduced to 6s (was 8s, Previous Hotfix)",
-                    "[Ultimate] Nerf -> Cooldown after usage increased to 60s (was 30s, Previous Hotfix)"
-                ]
-            },
-            {
-                "patch": "Apex Legends™: Prodigy Patch Notes",
-                "details": [
-                    "[Base] Fix -> Fixed issue where any legend would cancel the void nexus activation if you tried to travel to it while holding an ultimate in your hands.",
-                    "[Base] Fix -> Fixed issue where Lifeline would cancel the void nexus activation if she did a hard fall impact.",
-                    "[Base] Fix -> Fixed enemy and dummy highlighting in the void and from Alter’s tactical not working when friendly fire was enabled in the firing range.",
-                    "[Base] Fix -> Fixed issue where Alter’s teammate would not get an MRB when crafting banners if Alter had selected the “Friends” upgrade, but was dead."
-                ]
-            }
-        ],
         "Ash": [
             {
-                "patch": "Face Off in the Future Icons Event",
+                "patch": "Prodigy Patch Notes (2025-05-05)",
                 "details": [
-                    "[Passive] Buff -> Passive: decreased dash cooldown to 8s (was 10s)",
-                    "[Perks] Adjust -> Upgrades: Level 2 - Dual Breach: moved to Level 2"
-                ]
-            },
-            {
-                "patch": "Apex Legends™: Prodigy Patch Notes",
-                "details": [
-                    "[Base] Fix -> Greedy Snare now plants correctly after the first hit",
                     "[Perks] Adjust -> Predator’s Pursuit: removed Death Box minimap locations/pings"
-                ]
-            }
-        ],
-        "Ballistic": [
-            {
-                "patch": "Face Off in the Future Icons Event",
-                "details": [
-                    "[Tactical] Nerf -> Whistler - Damage on activation reduced to 15 (was 20)",
-                    "[Tactical] Nerf -> Whistler - Damage from overheat reduced to 15 (was 30, Previous Hotfix)"
-                ]
-            },
-            {
-                "patch": "Apex Legends™: Prodigy Patch Notes",
-                "details": [
-                    "[Ultimate] Fix -> Removed time extension from knocks"
-                ]
-            }
-        ],
-        "Conduit": [
-            {
-                "patch": "Face Off in the Future Icons Event",
-                "details": [
-                    "[Tactical] Buff -> Radiant Transfer - Reduce cooldown to 21s (was 31s, Previous Hotfix)",
-                    "[Tactical] Buff -> Radiant Transfer - Reduce recharge delay after damage to 1s (was 2s)"
-                ]
-            },
-            {
-                "patch": "Apex Legends™: Prodigy Patch Notes",
-                "details": [
-                    "[Base] Fix -> fixed crash with Passive when allies disconnected in certain states"
                 ]
             }
         ],
         "Mirage": [
             {
-                "patch": "Face Off in the Future Icons Event",
-                "details": [
-                    "[Tac & Ult] Buff -> decoys now swap weapons when you do and also properly holster melee weapons"
-                ]
-            },
-            {
-                "patch": "Apex Legends™: Prodigy Patch Notes",
+                "patch": "Prodigy Patch Notes (2025-05-05)",
                 "details": [
                     "[Base] Fix -> Cloak while healing should no longer occasionally end early when exiting a Lifeline Halo",
                     "[Base] Fix -> Ult cloak should no longer end early when immediately reviving an ally"
@@ -507,19 +444,22 @@
         ],
         "Pathfinder": [
             {
-                "patch": "Apex Legends™: Prodigy Patch Notes",
+                "patch": "Prodigy Patch Notes (2025-05-05)",
                 "details": [
                     "[Tactical] Buff -> Grappling Hook: cooldown now variable, ranging from 10-30s depending on distance traveled (was flat 30s)",
-                    "[Perks] Adjust -> Zipline Gun - Damage mitigation increased to 50% (was 25%)"
+                    "[Perks] Buff -> Zipline Gun: Damage mitigation increased to 50% (was 25%)",
+                    "[Perks] Removed -> Zipline Zen (integrated into base)",
+                    "[Perks] New -> Feeling Zippy: gain a second Zipline Gun charge",
+                    "[Perks] Removed -> Grapple Cooldown+",
+                    "[Perks] New -> Grapple God: gain a second Grappling Hook charge"
                 ]
             }
         ],
         "Sparrow": [
             {
-                "patch": "Apex Legends™: Prodigy Patch Notes",
+                "patch": "Prodigy Patch Notes (2025-05-05)",
                 "details": [
-                    "[Passive] Buff -> Double Jump - Press jump while in the air to jump again",
-                    "[Tactical] Buff -> Tracker Dart - Shoot a tracker from your gauntlet that will reveal enemies who walk within its line of sight"
+                    "Introduced -> Legend released this season."
                 ]
             }
         ],
@@ -527,8 +467,8 @@
             {
                 "patch": "Face Off in the Future Icons Event",
                 "details": [
-                    "[Passive] Buff -> Spotter’s Lens - Can now ping up to 3 enemies at a time",
-                    "[Tactical] Buff -> Echo Relocation - Echo will auto-recall after you jump"
+                    "[Passive] Buff -> Spotter’s Lens: Can now ping up to 3 enemies at a time",
+                    "[Tactical] Buff -> Echo Relocation: Echo will auto-recall after you jump"
                 ]
             }
         ],
@@ -536,8 +476,8 @@
             {
                 "patch": "Face Off in the Future Icons Event",
                 "details": [
-                    "[Passive] Buff -> Spark of Genius - Passive Shield Regen increased to 2s (was 1s)",
-                    "[Perks] Adjust -> Upgrades: Level 2 - Help is Here: gain all support perks"
+                    "[Passive] Buff -> Spark of Genius: Passive Shield Regen increased to 2s (was 1s)",
+                    "[Perks] Adjust -> Upgrades: Level 2: Help is Here: gain all support perks"
                 ]
             }
         ]

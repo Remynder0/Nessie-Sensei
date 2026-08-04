@@ -430,62 +430,70 @@
     "patches": {
         "Alter": [
             {
-                "patch": "Transcend the Otherworld in the Astral Anomaly Event",
+                "patch": "The Astral Anomaly Event (2025-01-06)",
                 "details": [
-                    "[Base] Buff -> Loot in Death Boxes can now be pinged while using Alter’s passive.",
-                    "[Passive] Nerf -> Void Nexus: cooldown reduced to 120s (was 180s)."
+                    "[Ultimate] Buff -> Void Nexus: Cooldown reduced to 120s (was 180s).",
+                    "[Ultimate] Buff -> Void Nexus: Range increased to 300m (was 200m)",
+                    "[Ultimate] Buff -> Void Nexus: No longer times out by default",
+                    "[Perks] Removed -> Eternal Nexus: Ult no longer times out",
+                    "[Perks] New -> Multidimensional: grants a second Void Nexus and both can exist at the same time"
                 ]
             }
         ],
         "Horizon": [
             {
-                "patch": "Transcend the Otherworld in the Astral Anomaly Event",
+                "patch": "The Astral Anomaly Event (2025-01-06)",
                 "details": [
-                    "[Base] Buff -> Gravity Lift: adjusted visual effects of the lift to reduce visual load on the battlefield.",
-                    "[Base] Buff -> Gravity Lift: adjusted audio of players in the lift to be more noticeable."
+                    "[Tactical] Adjust -> Gravity Lift: adjusted visual effects of the lift to reduce visual load on the battlefield, adjusted audio of players in the lift to be more noticeable."
                 ]
             }
         ],
         "Loba": [
             {
-                "patch": "Transcend the Otherworld in the Astral Anomaly Event",
+                "patch": "The Astral Anomaly Event (2025-01-06)",
                 "details": [
-                    "[Ultimate] Buff -> Black Market: ultimate starts with 99% charge (was 50%).",
-                    "[Perks] Adjust -> Burglar’s Best Friend: now has two charges.",
-                    "[Perks] Adjust -> Burglar’s Best Friend: reduced Tac toss time slightly and recovery time significantly.",
-                    "[Perks] Adjust -> Burglar’s Best Friend: reduced sound FX and VFX on thrown bracelet.",
-                    "[Base] Buff -> Eye for Quality: Loba can ADS when unarmed to see the loot UI for items highlighted by her passive.",
-                    "[Perks] Nerf -> Upgrades: Level 2 High Value: removed, Market Expansion: removed, Shopping Spree: moved to Level 2, reworked to allow entire squad to take 3 items from a friendly Black Market, Wolf’s Claws: gain speed boost and significantly faster weapon draw after a teleport.",
-                    "[Perks] Buff -> Upgrades: Level 3 Brand New Bag: entire squad receives gold backpacks when selected, Escape Artist: Loba can regenerate 50 shield HP after teleporting with her Tac, damage stops the regen."
+                    "[Ultimate] Buff -> Black Market: ultimate starts with 99% charge (was 50%), added griefing protection, can now be remotely picked-up", 
+                    "[Ultimate] Buff -> Can now grab banners (does not consume a Black Market usage), can now open vaults without a key, but no EVO is awarded.",
+                    "[Ultimate] Buff -> Small meds (shield cells and syringes) no longer consume a Black Market usage.",
+                    "[Tactical] Buff -> Burglar's Best Friend: now has two charges, reduced Tac toss time slightly and recovery time significantly.",
+                    "[Passive] Buff -> Eye for Quality: Loba can ADS when unarmed to see the loot UI for items highlighted by her passive.",
+                    "[Perks] Buff -> Shopping Spree: reworked to allow entire squad to take 3 items from a friendly Black Market", 
+                    "[Perks] Removed -> High Value",
+                    "[Perks] Removed -> Market Expansion",
+                    "[Perks] New -> Wolf’s Claws: gain speed boost and significantly faster weapon draw after a teleport.",
+                    "[Perks] Removed -> Tactical Upgrad",
+                    "[Perks] New -> Brand New Bag: entire squad receives gold backpacks when selected", 
+                    "[Perks] New -> Escape Artist: Loba can regenerate 50 shield HP after teleporting with her Tac, damage stops the regen."
                 ]
             }
         ],
         "Mirage": [
             {
-                "patch": "Transcend the Otherworld in the Astral Anomaly Event",
+                "patch": "The Astral Anomaly Event (2025-01-06)",
                 "details": [
-                    "[Passive] Buff -> Now You See Me…: now also cloaks when using a healing consumable item.",
-                    "[Passive] Nerf -> Now You See Me…: cloak is removed by damage, ability use, or dropping the heal action.",
-                    "[Passive] Adjust -> Now You See Me…: entering cloak now only takes 1s (was 1.5s).",
-                    "[Perks] Buff -> Upgrades: Level 2 Boozle-Eye: Bamboozles now also scan the target who shot the clone, Renaissance Man: gain access to all other Classes’ world interactions: Assault Bins, Care Package scans, Survey Beacons, and Ring Consoles."
+                    "[Passive] Buff -> Now You See Me…: now also cloaks when using a healing consumable item, entering cloak now only takes 1s (was 1.5s), after a revive, Mirage now has increased speed while cloaked.",
+                    "[Perks] Removed -> More Me",
+                    "[Perks] New -> Boozle-Eye: Bamboozles now also scan the target who shot the clone",
+                    "[Perks] Removed -> Battpack: in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes.", 
+                    "[Perks] New -> Renaissance Man: gain access to all other Classes’ world interactions: Assault Bins, Care Package scans, Survey Beacons, and Ring Consoles."
                 ]
             }
         ],
         "Pathfinder": [
             {
-                "patch": "Transcend the Otherworld in the Astral Anomaly Event",
+                "patch": "The Astral Anomaly Event (2025-01-06)",
                 "details": [
-                    "[Base] Nerf -> Grappling Hook: cooldown increased to 30s (was variable).",
+                    "[Tactical] Nerf -> Grappling Hook: cooldown increased to 30s (was variable)", 
                     "[Perks] Nerf -> Insider Knowledge: reduced Max Cooldown earned from Scanning Care Packages, reduced zipline change gained by Scanning Care Packages.",
-                    "[Perks] Adjust -> Upgrade - Zipline Zen: damage reduction reduced to 25% (was 50%)."
+                    "[Passive] Nerf -> Zipline Zen: damage reduction reduced to 25% (was 50%)."
                 ]
             }
         ],
         "Vantage": [
             {
-                "patch": "Transcend the Otherworld in the Astral Anomaly Event",
+                "patch": "The Astral Anomaly Event (2025-01-06)",
                 "details": [
-                    "[Base] Buff -> Sniper’s Mark: reloading with an Ult Accelerant uses new animations and keeps the weapon active."
+                    "[Ultimate] Adjust -> Sniper's Mark: reloading with an Ult Accelerant uses new animations and keeps the weapon active."
                 ]
             }
         ]

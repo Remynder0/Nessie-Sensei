@@ -429,66 +429,71 @@
     "patches": {
         "Octane": [
             {
-                "patch": "Winter Wipeout Event",
+                "patch": "Winter Wipeout Event Patch Notes (2026-01-05)",
                 "details": [
-                    "[Passive] Buff -> Swift Mend now heals more the less HP you have.",
-                    "[Tactical - Stim Surge] Adjust -> Added a new ability for Octane **Stim Surge**: If Octane uses his tactical again, while stim is already active, he uses a new mixture which grants him Fortified, triggers Swift Mend, and allows Swift Mend to continue healing through damage.",
-                    "[Tactical - Stim] Buff -> While stimmed, Octane can sprint and use consumables. Reduce the time before Octane can reuse his Stim from 1.8s to 0.7s. Stim speed increased by 5%",
-                    "[Ultimate] Buff -> JumpPad now has two charges. JumpPad has improved handling when double jumping.",
-                    "[Perks] Adjust -> Four new upgrades to replace all the base upgrades: Thick Skin, Squad Rush, Daredevil, Triple Jump"
+                    "[Passive] Buff -> Swift Mend: base healing increased from 1.5 HPS to 3.0 HPS",
+                    "[Passive] Buff -> Swift Mend: max healing heals for 9 HPS",
+                    "[Tactical] New -> Stim Surge: If Octane uses his tactical again, while stim is already active, he uses a new mixture which grants him Fortified, triggers Swift Mend, and allows Swift Mend to continue healing through damage",
+                    "[Tactical] Adjust -> Stim Surge: lasts 6s, costs 0 HP to use, reapplies Stim effect for entire duration, has a 20s cooldown but does not put Stim on cooldown",
+                    "[Tactical] Adjust -> Stim Surge: Fortified reduces damage by 15% and grants immunity to bullet slow",
+                    "[Tactical] Adjust -> Stim Surge: Players can hold tac button to automatically buffer Stim Surge",
+                    "[Tactical] Buff -> Stim: While stimmed, Octane can sprint and use consumables",
+                    "[Tactical] Buff -> Stim: Reduce the time before Octane can reuse his Stim from 1.8s to 0.7s",
+                    "[Tactical] Buff -> Stim: Stim speed increased by 5%",
+                    "[Ultimate] Adjust -> JumpPad: Incorporated Mad Hops and Aerial Agility into the base kit",
+                    "[Ultimate] Buff -> JumpPad: JumpPad now has two charges",
+                    "[Ultimate] Buff -> JumpPad: JumpPad has improved handling when double jumping",
+                    "[Ultimate] Buff -> JumpPad: JumpPads are useable immediately after hitting the ground",
+                    "[Perks] Removed -> Perk: all the base upgrades replaced",
+                    "[Perks] New -> Level 2 Perk: Thick Skin: Stim costs 10 less health to use",
+                    "[Perks] New -> Level 2 Perk: Squad Rush: Everyone who uses your JumpPad gains Stim on land",
+                    "[Perks] New -> Level 3 Perk: Daredevil: Gain fast reload on shield cracks and increase Stim Surge duration the less HP you have",
+                    "[Perks] New -> Level 3 Perk: Triple Jump: Gain a third jump from JumpPads"
                 ]
             }
         ],
         "Newcastle": [
             {
-                "patch": "Winter Wipeout Event",
+                "patch": "Winter Wipeout Event Patch Notes (2026-01-05)",
                 "details": [
-                    "[Passive] Buff -> Incorporate Heroes Hustle into base kit. Movement speed penalty reduced from 25% to 75%",
-                    "[Tactical] Buff -> Incorporate Swift Shield into base kit. Movement speed increased from 160 to 250.",
-                    "[Perks] Adjust -> Two new upgrades to replace Swift Shield and Heroes Hustle: Stronghold, Ready To Rumble, Defensive Line"
+                    "[Passive] Adjust -> Retrieve the Wounded: Incorporate Heroes Hustle into base kit",
+                    "[Passive] Buff -> Retrieve the Wounded: Movement speed penalty reduced from 25% to 75%",
+                    "[Tactical] Adjust -> Mobile Shield: Incorporate Swift Shield into base kit",
+                    "[Tactical] Buff -> Mobile Shield: Movement speed increased from 160 to 250",
+                    "[Perks] Removed -> Perk: Heroes Hustle and Swift Shield replaced",
+                    "[Perks] Adjust -> Level 2 Perk: Stronghold moves down to replace Heroes Hustle",
+                    "[Perks] New -> Level 2 Perk: Ready To Rumble: Reviving a player auto loads Newcastle's weapons and triggers full regen (Replaces Swift Shield)",
+                    "[Perks] New -> Level 3 Perk: Defensive Line: Tactical and Revive Shield knocks back enemies once (Replaces Stronghold)"
                 ]
             }
         ],
         "Crypto": [
             {
-                "patch": "Winter Wipeout Event",
+                "patch": "Winter Wipeout Event Patch Notes (2026-01-05)",
                 "details": [
-                    "[Passive] Buff -> Crypto gains long range Threat Vision while piloting his drone. Satellite Imagery incorporated into base kit.",
-                    "[Tactical] Adjust -> Reduced time to launch drone from 1.3 to 0.7s. Reduced time to reenter drone from 0.4 to 0.2s. Reduced animation frame that Crypto reenters drone from 7 to 2.",
-                    "[Perks] Adjust -> Two new upgrades to replace Off the Grid and Satellite Imagery: Ally.MoveTo(), Power Coupling"
+                    "[Passive] Buff -> Neurolink: Crypto gains long range Threat Vision while piloting his drone",
+                    "[Passive] Adjust -> Neurolink: Satellite Imagery incorporated into base kit",
+                    "[Passive] Buff -> Neurolink: Increase duration of scan by 1.5s",
+                    "[Passive] Buff -> Neurolink: Receive a short scan on EMP",
+                    "[Tactical] Buff -> Surveillance Drone: Reduced time to launch drone from 1.3 to 0.7s",
+                    "[Tactical] Buff -> Surveillance Drone: Reduced time to reenter drone from 0.4 to 0.2s",
+                    "[Tactical] Buff -> Surveillance Drone: Reduced animation frame that Crypto reenters drone from 7 to 2",
+                    "[Tactical] Buff -> Surveillance Drone: Drone can collect EVO Harvesters",
+                    "[Tactical] Buff -> Surveillance Drone: Crypto can now enter and exit drone while using Ziplines",
+                    "[Tactical] Adjust -> Surveillance Drone: Off the Grid Incorporated into base kit",
+                    "[Tactical] Buff -> Surveillance Drone: Crypto cloaks while piloting his drone",
+                    "[Perks] Removed -> Perk: Off the Grid and Satellite Imagery replaced",
+                    "[Perks] New -> Perk: Ally.MoveTo(): Crypto can Trailblaze to all allies (Replaces Off the Grid)",
+                    "[Perks] New -> Perk: Power Coupling: Crypto gains Ultimate charge from using scan beacons and scanning enemies with his drone (Replaces Satellite Imagery)"
                 ]
             }
         ],
         "Revenant": [
             {
-                "patch": "Winter Wipeout Event",
+                "patch": "Winter Wipeout Event Patch Notes (2026-01-05)",
                 "details": [
-                    "[Tactical] Buff -> Increased max charge duration from 1.3 to 1.7s.",
-                    "[Ultimate] Buff -> Increased Ult time 2.0 to 2.2s (10% slower to deploy)"
-                ]
-            }
-        ],
-        "Mad Maggie": [
-            {
-                "patch": "Winter Wipeout Event",
-                "details": [
-                    "[Base] Adjust -> The Fortified buff from Mad Maggie’s Wrecking Ball repulsors now reduces some other types of damage (like explosive damage) to match how it works on characters who naturally have Fortified."
-                ]
-            }
-        ],
-        "Valkyrie": [
-            {
-                "patch": "Winter Wipeout Event",
-                "details": [
-                    "[Base] Fix -> Fixed issue where tactical could be interrupted by melee"
-                ]
-            }
-        ],
-        "Vantage": [
-            {
-                "patch": "Winter Wipeout Event",
-                "details": [
-                    "[Base] Fix -> Fixed the tactical range finder (blue dot surrounding the crosshair) not working"
+                    "[Tactical] Buff -> Shadow Pounce: Increased max charge duration from 1.3 to 1.7s",
+                    "[Ultimate] Nerf -> Forged Shadows: Increased Ult time 2.0 to 2.2s (10% slower to deploy)"
                 ]
             }
         ]

@@ -427,11 +427,88 @@
         }
     },
     "patches": {
+        "Ash": [
+            {
+                "patch": "Wild Iron Event Patch Notes (2025-09-10)",
+                "details": [
+                    "[Passive] Nerf -> Predator's Pursuit: Increased dash cooldown to 12s (was 8s)",
+                    "[Passive] Nerf -> Predator's Pursuit: Dash gives less of a boost when not dashing in the direction you're moving",
+                    "[Tactical] Nerf -> Arc Snare: Breaks more easily, base duration now 6s (was 8s)",
+                    "[Tactical] Nerf -> Arc Snare: Less pulling strength",
+                    "[Tactical] Nerf -> Arc Snare: Doesn't deal extra damage to shields",
+                    "[Perks] Removed-> Dual Breach & Marked for Death",
+                    "[Perks] New -> Longer Reach: increases Phase Breach range by 25m",
+                    "[Perks] New -> Ultimate Cooldown: reduces Phase Breach cooldown by 30s"
+                ]
+            }
+        ],
+        "Caustic": [
+            {
+                "patch": "Wild Iron Event Patch Notes (2025-09-10)",
+                "details": [
+                    "[Passive] Nerf -> Nox Gas: Damage from gas ramps up more slowly, increases every 2 ticks (was every tick)",
+                    "[Passive] Nerf -> Nox Gas: Removed aim punch when taking damage"
+                ]
+            }
+        ],
         "Mad Maggie": [
             {
-                "patch": "Raise Hell Event",
+                "patch": "Wild Iron Event Patch Notes (2025-09-10)",
                 "details": [
-                    "[Base] Fix -> Wrecking Ball no longer causes a crash when thrown near a door."
+                    "[Tactical] Buff -> Riot Drill: Firing animation sped up by 10%",
+                    "[Tactical] Buff -> Riot Drill: Drill now comes out immediately after releasing the button (was delayed by a few frames)",
+                    "[Ultimate] Buff -> Wrecking Ball: Throw animation sped up 25%",
+                    "[Ultimate] Adjust -> Wrecking Ball: Wrecking Ball is now more reliable at moving around/over obstacles",
+                    "[Ultimate] Buff -> Wrecking Ball: Explosions deal up to 25 damage (was up to 20)",
+                    "[Ultimate] Nerf -> Wrecking Ball: Reduced lifetime to 7s (was 10s)",
+                    "[Ultimate] Buff -> Wrecking Ball: Speed pads increase movement speed for 3.5s (was 2s)",
+                    "[Ultimate] Buff -> Wrecking Ball: Speed pads give fortified buff for the duration, doesn’t stack with already fortified Legends",
+                    "[Ultimate] Nerf -> Wrecking Ball: Speed pads last 20s (was 60s)",
+                    "[Ultimate] Nerf -> Wrecking Ball: Speed pads deactivate 6s for the player using it after being used",
+                    "[Ultimate] Adjust -> Wrecking Ball: Speed pads no longer drop from the final explosion",
+                    "[Perks] Removed -> Shots Shots Shots: Auto-Reload Shotguns on knocks",
+                    "[Perks] New -> Gunrunning: Passive movement speed increase also works with SMGs and Pistols",
+                    "[Perks] Buff -> Fire Ball: now drops magma patches along the ground as it moves and Mad Maggie takes 50% less fire damage from all sources"
+                ]
+            }
+        ],
+        "Seer": [
+            {
+                "patch": "Wild Iron Event Patch Notes (2025-09-10)",
+                "details": [
+                    "[Passive] Buff -> Heart Seeker: Long View upgrade now permanent, increasing range for Passive + Tac to 75m (was 50m)",
+                    "[Passive] Adjust -> Heart Seeker: Now one constant heartbeat instead of differing beats for each enemy",
+                    "[Passive] Adjust -> Heart Seeker: Directional waveforms are now taller or shorter depending on whether the enemy is close or far from where you are aiming",
+                    "[Tactical] Buff -> Focus of Attention: Reduced weapon holster time by 60% when activating Tac with a gun out",
+                    "[Tactical] Buff -> Focus of Attention: Scanning someone with Tac now gives Seer a speed boost for 4s",
+                    "[Tactical] Adjust -> Focus of Attention: Scan duration increased to 4s (was 2.5), slow duration to 1s (was 0.5s), and silence duration reduced to 2.5s (was 8s)",
+                    "[Tactical] Buff -> Focus of Attention: Cooldown reduced to 20s (was 30s)",
+                    "[Tactical] Nerf -> Focus of Attention: Increased delay before the scan goes off to 1s (was 0.7s)",
+                    "[Ultimate] Buff -> Exhibit: Artist's Reach upgrade now permanent, increased throw range to ~50m (was 15m)",
+                    "[Ultimate] Buff -> Exhibit: Sphere radius increased to 38m (was 34m)",
+                    "[Ultimate] Buff -> Exhibit: Seer gains enhanced jumping and ADS hover while inside any Exhibit",
+                    "[Ultimate] Nerf -> Exhibit: Added threat indicator within 15m of the center that enemies will see",
+                    "[Ultimate] Adjust -> Exhibit: Adjusted throw's pitch while aiming so you don't have to aim as far up to get longer throws",
+                    "[Perks] Removed -> Artist’s Reach",
+                    "[Perks] Removed -> Ultimate Cooldown",
+                    "[Perks] New -> Lasting Beats: enemies who leave the dome have their locations shown for 5s",
+                    "[Perks] New -> Home Base: Tac recharges 4x as fast in your Exhibit sphere",
+                    "[Perks] Removed -> Long View",
+                    "[Perks] New -> Energizing Focus: regen 25 shields when hitting an enemy with Tac",
+                    "[Perks] Adjust -> Split Focus: no longer has a downside"
+                ]
+            }
+        ],
+        "Sparrow": [
+            {
+                "patch": "Wild Iron Event Patch Notes (2025-09-10)",
+                "details": [
+                    "[Tactical] Nerf -> Tracker Dart: Tracking duration now 12s (was 15)",
+                    "[Tactical] Adjust -> Tracker Dart: New VFX when aiming to show if your dart will activate a nearby Enemy Scan Beacon",
+                    "[Ultimate] Nerf -> Stinger Bolt: Bolt health now 400 (was 550)",
+                    "[Ultimate] Nerf -> Stinger Bolt: Bolt’s pulsing now slows Sparrow and his allies, not just enemies",
+                    "[Ultimate] Adjust -> Stinger Bolt: Adjusted the animations when aiming Stinger Bolt to make it easier to see the trajectory",
+                    "[Perks] Nerf -> Level 2 Perk: Extra Traps: now gives 1 additional trap in world (was 2)"
                 ]
             }
         ]

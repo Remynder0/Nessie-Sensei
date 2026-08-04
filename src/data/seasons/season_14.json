@@ -829,11 +829,11 @@
             {
                 "patch": "August 09, 2022 Patch",
                 "details": [
-                    "[Tactical] Nerf -> VTOL Jets: Acceleration on activation decreased by about 8%.",
-                    "[Tactical] Nerf -> VTOL Jets: Fuel consumption on activation increased by 33%.",
-                    "[Tactical] Fix -> VTOL Jets: Aerial boosting & strafing take a 20% debuff when hit by slowing effects.",
-                    "[Tactical] Adjust -> VTOL Jets: Added a third orange state to the fuel meter UI between green (>60%) and red (<30%).",
-                    "[Tactical] Adjust -> VTOL Jets: Jetfighter HUD: Mirage's Decoys will now be scanned when skydiving.",
+                    "[Passive] Nerf -> VTOL Jets: Acceleration on activation decreased by about 8%.",
+                    "[Passive] Nerf -> VTOL Jets: Fuel consumption on activation increased by 33%.",
+                    "[Passive] Fix -> VTOL Jets: Aerial boosting & strafing take a 20% debuff when hit by slowing effects.",
+                    "[Passive] Adjust -> VTOL Jets: Added a third orange state to the fuel meter UI between green (>60%) and red (<30%).",
+                    "[Passive] Adjust -> VTOL Jets: Jetfighter HUD: Mirage's Decoys will now be scanned when skydiving.",
                     "[Tactical] Fix -> Missile Swarm: Aim/turn slow removed.",
                     "[Tactical] Nerf -> Missile Swarm: Move slow duration decreased from 2.5s → 2.0s.",
                     "[Tactical] Nerf -> Missile Swarm: Reducing the explosion radius from 175 → 125.",

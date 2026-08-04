@@ -789,15 +789,16 @@
             {
                 "patch": "Double down in the Double Take Collection Event",
                 "details": [
-                    "[Base] Buff -> Players should no longer rarely get stuck in the ceiling/floor when using a Void Passage.",
-                    "[Base] Fix -> Stuck projectiles (such as Arc Stars) now fall off correctly when traveling through a Void Passage.",
-                    "[Base] Fix -> Tac’s Void Siphon (the interactable part) no longer missing a cooldown after exiting a Void Passage."
+                    "[Tactical] Nerf -> Void Passage: Crypto EMP will now affect all players phased by the Void Passage",
+                    "[Tactical] Fix -> Players should no longer rarely get stuck in the ceiling/floor when using a Void Passage.",
+                    "[Tactical] Fix -> Stuck projectiles (such as Arc Stars) now fall off correctly when traveling through a Void Passage.",
+                    "[Tactical] Fix -> Tac’s Void Siphon (the interactable part) no longer missing a cooldown after exiting a Void Passage."
                 ]
             },
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
-                    "[Passive] Buff -> Into the Void and Dimensional Rift: nearby enemies will be highlighted for players traveling through the Void"
+                    "Introduced -> Legend released this season."
                 ]
             }
         ],
@@ -805,6 +806,8 @@
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
+                    "[Tactical] Buff -> Changed to left-hand cast",
+                    "[Tactical] Buff -> No longer stows weapons or interrupts consumable use when launching",
                     "[Ultimate] Buff -> Phase Breach: inspired by some Alter tech, nearby enemies will be highlighted for players traveling through the Void"
                 ]
             }
@@ -813,9 +816,9 @@
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
-                    "[Passive] Nerf -> Whistler: duration of speedy whistler restored to 2s",
-                    "[Perks] Buff -> Whistler: damage from a planted smart bullet increased to 10 (was 5)",
-                    "[Perks] Adjust -> Upgrades: NEW Sling-Shot: improves Ballistic’s base sling weapon to a blueset at Level 2 and a purpleset at Level 3"
+                    "[Tactical] Buff -> Whistler: damage from a planted smart bullet increased to 10 (was 5)",
+                    "[Perks] Removed -> Care Package Insight",
+                    "[Perks] New -> Sling-Shot: improves Ballistic’s base sling weapon to a blueset at Level 2 and a purpleset at Level 3"
                 ]
             }
         ],
@@ -828,21 +831,23 @@
             }
         ],
         "Bloodhound": [
-            {
-                "patch": "Apex Legends™: Upheaval Patch Notes",
+            {   
+                "patch": "Double down in the Double Take Collection Event",
                 "details": [
-                    "[Passive] Buff -> Passive markers no longer appear for teammates not on player’s squad",
-                    "[Ultimate] Nerf -> Beast of the Hunt: cooldown increased to 4m (was 3m)",
-                    "[Perks] Adjust -> Upgrades: NEW Long Hunt: knocks extend Beast of the Hunt duration"
+                    "[Ultimate] Nerf -> Beast of the Hunt: threat vision is no longer visible through smoke or gas",
+                    "[Perks] Buff -> Raven’s Blessing: Ult charge reduced to 20% (was 25%)",
+                    "[Perks] New -> Sighthound: reduced Tac cooldown by 50% while Ultimate is active",
+                    "[Perks] New -> Flock: Removed enemy range requirement for White Raven spawns"
                 ]
-            }
-        ],
-        "Breakout": [
+            },
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
-                    "[Ultimate] Buff -> Lasting Bullet: Smart Bullet duration in-world is tripled.",
-                    "[Perks] Adjust -> Breakout: Level 2 - Taste of Blood: Gain 25 hp on knocks while Ultimate is active."
+                    "[Passive] Fix -> Passive markers no longer appear for teammates not on player’s squad",
+                    "[Ultimate] Nerf -> Beast of the Hunt: cooldown increased to 4m (was 3m)",
+                    "[Ultimate] Nerf -> Knocks with Ult active no longer extend duration",
+                    "[Perks] Buff -> Taste of Blood: buffed HP gain on knock to 50 (was 25)",
+                    "[Perks] New -> Long Hunt: knocks extend Beast of the Hunt duration"
                 ]
             }
         ],
@@ -850,7 +855,8 @@
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
-                    "[Ultimate] Buff -> Gas damage and slow now stops immediately after Caustic’s squad is eliminated"
+                    "Nerf -> Gas damage and slow now stops immediately after Caustic’s squad is eliminated",
+                    "Nerf -> Gas damage ramps from 4 → 10 max (was 5 → uncapped), damage on knocked players down to flat 4 (was 5)"
                 ]
             }
         ],
@@ -858,7 +864,9 @@
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
-                    "[Tactical] Nerf -> Radiant Transfer: Can no longer target a Revenant while Forged Shadows is active"
+                    "[Tactical] Nerf -> Radiant Transfer: Can no longer target a Revenant while Forged Shadows is active",
+                    "[Perks] Removed -> Battery Collection",
+                    "[Perks] New -> Battpack: can stack up to 3 Shield Batteries per inventory slot (doesn’t stack with Gold Backpack)"
                 ]
             }
         ],
@@ -866,8 +874,11 @@
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
-                    "[Perks] Buff -> Neurolink: Network Traffic upgrade now integrated into base kit",
-                    "[Perks] Adjust -> Upgrades: NEW Quick Ping: improved drone handling (faster accel/decel)"
+                    "[Passive] Buff -> Neurolink: Network Traffic upgrade now integrated into base kit",
+                    "[Perks] Removed -> Tac & Ultimate Cooldowns",
+                    "[Perks] New -> Quick Ping: improved drone handling (faster accel/decel)",
+                    "[Perks] New -> Satellite Imagery: drone scan persists for an additional 1.5s",
+                    "[Perks] New -> Hackathon: cut the drone cooldown in half, gain a speed boost anytime he uses his Ult or the drone is destroyed"
                 ]
             }
         ],
@@ -875,8 +886,11 @@
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
-                    "[Ultimate] Buff -> Piercing Spikes: cooldown decreased to 20s (was 25s)",
-                    "[Perks] Adjust -> Upgrades: NEW Ferro-Door: fully rebuild and reinforce missing doors with Passive"
+                    "[Tactical] Buff -> Piercing Spikes: cooldown decreased to 20s (was 25s)",
+                    "[Tactical] Buff -> Long Cast upgrade integrated into base Tactical",
+                    "[Ultimate] Buff -> Dark Veil length increased to 45m (was 40m)",
+                    "[Perks] Removed -> Long Cast: Increase Spike throw range by 40%.",
+                    "[Perks] New ->Ferro-Door: fully rebuild and reinforce missing doors with Passive"
                 ]
             }
         ],
@@ -884,7 +898,9 @@
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
-                    "[Ultimate] Buff -> Big Bang: removed, replaced by Ring Master: gain access to Ring Consoles"
+                    "[Perks] Removed -> Big Bang: See ordnance through walls & death boxes.",
+                    "[Perks] New -> Ring Master: gain access to Ring Consoles",
+                    "[Perks] Buff -> Scar Tissue: Take a flat 20 damage when crossing The Motherlode instead of 37 (50% of 75 hp) over time"
                 ]
             }
         ],
@@ -892,7 +908,10 @@
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
-                    "[Passive] Buff -> Castle Wall: will now destroy incoming projectiles headed towards the front of the wall while energized"
+                    "[Tactical] Buff -> Mobile Shield: throw anim speed increased (~2.5x faster)",
+                    "[Ultimate] Buff -> Castle Wall: will now destroy incoming projectiles headed towards the front of the wall while energized",
+                    "[Ultimate] Buff -> Castle Wall energized duration increased to 1m (was 30s)",
+                    "[Perks] Buff -> Stronghold: increased energized duration to 3m (was 2.5m)"
                 ]
             }
         ],
@@ -900,7 +919,24 @@
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
-                    "[Perks] Adjust -> Upgrades: Thick Skin: now Level 2 and 3, updated to take 5 less Stim damage"
+                    "[Perks] Removed -> Wreckless: -50% Explosive damage",
+                    "[Perks] Adjust -> Thick Skin: now Level 2 and 3, updated to take 5 less Stim damage"
+                ]
+            }
+        ],
+         "Pathfinder": [
+            {
+                "patch": "Double down in the Double Take Collection Event",
+                "details": [
+                    "[Perks] Buff -> Down & Away: Tac will now refresh on BOTH knocks and assisted knocks within a 3s window"
+                ]
+            }
+        ],
+         "Revenant": [
+            {
+                "patch": "Double down in the Double Take Collection Event",
+                "details": [
+                    "[Perks] Buff -> Grim Leaper: Tac will now refresh on BOTH knocks and assisted knocks within a 3s window"
                 ]
             }
         ],
@@ -908,7 +944,8 @@
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
-                    "[Ultimate] Buff -> Falling Stars: Pylons will stop spawning Arc Stars when her squad is eliminated"
+                    "[Perks] Adjust -> Falling Stars: Pylons will stop spawning Arc Stars when her squad is eliminated",
+                    "[Perks] Buff -> Split Circuit: no longer reduces shield regen capacity"
                 ]
             }
         ],
@@ -916,7 +953,8 @@
             {
                 "patch": "Apex Legends™: Upheaval Patch Notes",
                 "details": [
-                    "[Passive] Buff -> Into the Void and Dimensional Rift: nearby enemies will be highlighted for players traveling through the Void"
+                    "[Tactical] Buff -> nearby enemies will be highlighted for players traveling through the Void",
+                    "[Ultimate] Buff -> nearby enemies will be highlighted for players traveling through the Void"
                 ]
             }
         ]

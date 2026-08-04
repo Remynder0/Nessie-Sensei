@@ -432,95 +432,96 @@
         "Ballistic": [],
         "Conduit": [
             {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
+                "patch": "From The Rift Patch Notes (2024-11-05)",
                 "details": [
-                    "[Passive] Buff -> Savior’s Speed : now works on ally Death Boxes and crafters when a banner can be retrieved, now works on Respawn Beacons and Mobile Respawn Beacons when carrying an ally banner, now works without min range limit on downed allies."
-                ]
-            },
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Perks] Adjust -> Battpack : in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
+                    "[Passive] Buff -> Savior's Speed: now works on ally Death Boxes and crafters when a banner can be retrieved.",
+                    "[Passive] Buff -> Savior's Speed: now works on Respawn Beacons and Mobile Respawn Beacons when carrying an ally banner.",
+                    "[Passive] Buff -> Savior's Speed: now works without min range limit on downed allies, allowing Conduit to race all the way to her fallen teammate.",
+                    "[Perks] Buff -> Battpack: in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes."
                 ]
             }
         ],
         "Crypto": [
             {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
+                "patch": "From The Rift Patch Notes (2024-11-05)",
                 "details": [
-                    "[Passive] Nerf -> Surveillance Drone : now takes ring damage (10% per ring tick)"
-                ]
-            },
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Perks] Adjust -> Off the Grid : players within 20m of Crypto will now be able to spot a faint cloaking “flicker” effect every 1.5s to help identify hidden Cryptos nearby, cloaked audio range and volume have been increased"
+                    "[Tactical] Nerf -> Surveillance Drone: now takes ring damage (10% per ring tick)",
+                    "[Perks] Nerf -> Off the Grid: Players within 20m of Crypto will now be able to spot a faint cloaking “flicker” effect every 1.5s to help identify hidden Cryptos nearby",
+                    "[Perks] Nerf -> Off the Grid: Cloaked audio range and volume have been increased"
                 ]
             }
         ],
         "Gibraltar": [
             {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
+                "patch": "From The Rift Patch Notes (2024-11-05)",
                 "details": [
-                    "[Passive] Buff -> Dome of Protection : cooldown reduced to 17s (was 30s), no longer destroyed by Crypto’s EMP or Maggie’s Wrecking Ball"
-                ]
-            },
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Perks] Adjust -> Baby Bubble : now reduces cooldown to 12s (was 25s)"
+                    "[Tactical] Buff -> Dome of Protection: Cooldown reduced to 17s (was 30s)",
+                    "[Tactical] Buff -> Dome of Protection: No longer destroyed by Crypto’s EMP or Maggie’s Wrecking Ball",
+                    "[Perks] Removed -> Fresh Start: Revives allies to 50HP",
+                    "[Perks] Removed -> Shots Shots Shots: Auto-Reload Shotguns on knocks",
+                    "[Perks] New -> Big Bruddah: increase Ult Radius by 20%",
+                    "[Perks] New -> Fast Shotties: move faster with shotguns and auto-reload shotguns on knocks",
+                    "[Perks] Buff ->  Baby Bubble: now reduces cooldown to 12s (was 25s)"
                 ]
             }
         ],
         "Horizon": [
             {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
+                "patch": "From The Rift Patch Notes (2024-11-05)",
                 "details": [
-                    "[Perks] Adjust -> Battpack : in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
+                    "[Perks] Removed -> Battery Collection: Shield Battery count shown above Death Boxes",
+                    "[Perks] New -> Battpack: in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
                 ]
             }
         ],
         "Mirage": [
             {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
+                "patch": "From The Rift Patch Notes (2024-11-05)",
                 "details": [
-                    "[Passive] Buff -> Life of the Party : health bars no longer show during Ultimate to give away the real Mirage"
-                ]
-            },
-            {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
-                "details": [
-                    "[Perks] Adjust -> Battpack : in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
+                    "[Ultimate] Buff -> Life of the Party: health bars no longer show during Ultimate to give away the real Mirage",
+                    "[Perks] Removed -> Miracle Worker: Revive allies with 75HP regen.",
+                    "[Perks] New -> Battpack: in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes"
                 ]
             }
         ],
         "Newcastle": [
             {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
+                "patch": "From The Rift Patch Notes (2024-11-05)",
                 "details": [
-                    "[Passive] Buff -> Mobile Shield : no longer takes damage, can now be repositioned even when Newcastle is downed"
+                    "[Tactical] Buff -> Mobile Shield: No longer takes damage",
+                    "[Tactical] Buff -> Mobile Shield: Can now be repositioned even when Newcastle is downed",
+                    "[Passive] Buff -> Retrieve the Wounded: White 300 (was 200), Blue 450 (was 300), Purple/Gold 750 (was 500)",
+                    "[Perks] Removed -> Thick Shield: Mobile Shield HP Increased by 250.",
+                    "[Perks] New -> Hero’s Hustle: Increased move speed while reviving.",
+                    "[Perks] Removed -> Miracle Worker: Revive allies with 75HP regen.",
+                    "[Perks] New -> Ultimate Savior: Allies in impact range gain shield regen for 15s.",
+                    "[Perks] Buff -> Stronghold: Castle Wall HP improvement increased to 500 (was 250)"
                 ]
             },
             {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
+                "patch": "December 09, 2024 Patch",
                 "details": [
-                    "[Perks] Adjust -> Retrieve the Wounded : revive Shield HP/Tier increased by +50%"
+                    "[Passive] Nerf -> Retrieve the Wounded: Revive shield HP lowered to 250/400/600",
+                    "[Tactical] Nerf -> Mobile Shield: Is no longer invulnerable, has 750 HP.",
+                    "[Tactical] Nerf -> Mobile Shield: Cooldown increased to 20s.",
+                    "[Perks] Adjust -> The Swift Shield Upgrade now reduces the cooldown to 12s"
                 ]
             }
         ],
         "Revenant": [
             {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
+                "patch": "From The Rift Patch Notes (2024-11-05)",
                 "details": [
-                    "[Passive] Buff -> Forged Shadows : shield will now regen up to 50HP instead of instantly refreshing after a 3s delay"
+                    "[Ultimate] Nerf -> Forged Shadows: shield will now regen up to 50HP instead of instantly refreshing after a 3s delay"
                 ]
             }
         ],
         "Wattson": [
             {
-                "patch": "New Updates Coming with Apex Legends™: From The Rift",
+                "patch": "From The Rift Patch Notes (2024-11-05)",
                 "details": [
-                    "[Perks] Adjust -> Revive Expert : gives access to Support Class Revive Expert Perk"
+                    "[Perks] Removed -> Fresh Start: Revives allies to 50HP.",
+                    "[Perks] New -> Revive Expert: Revive allies faster and with HP regen."
                 ]
             }
         ]

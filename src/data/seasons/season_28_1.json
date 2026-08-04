@@ -1,5 +1,15 @@
 {
-    "season": "28",
+    "name": "Breach",
+    "start_date": "February 10, 2026",
+    "end_date": "May 5, 2026",
+    "infobox": {
+        "name": "Breach",
+        "Theme": "Military / Spec Ops",
+        "Reactive weapon": "Bocek Compound Bow",
+        "Start date": "February 10, 2026",
+        "End date": "May 5, 2026",
+        "Events": "7th Anniversary | Apex Legends X Gundam File:Aftershock.svg Aftershock"
+    },
     "max_level": 60,
     "rewards": {
         "level_1": {
@@ -414,121 +424,94 @@
             "free": []
         }
     },
-    "name": "Breach",
-    "start_date": "February 10, 2026",
-    "end_date": "May 5, 2026",
-    "infobox": {
-        "name": "Breach",
-        "Theme": "Military / Spec Ops",
-        "Reactive weapon": "Bocek Compound Bow",
-        "Start date": "February 10, 2026",
-        "End date": "May 5, 2026",
-        "Events": "7th Anniversary | Apex Legends X Gundam File:Aftershock.svg Aftershock"
-    },
     "patches": {
         "Ballistic": [],
         "Bloodhound": [
             {
-                "patch": "Aftershock Event + Midseason Patch Notes (2026-03-23)",
+                "patch": "Breach Patch Notes (2026-02-09)",
                 "details": [
-                    "[Passive] Buff -> Enemies outside of 13m no longer block white ravens from spawning.",
-                    "[Tactical] Buff -> Total scan duration up to 4s, full-body duration remains half the full scan duration.",
-                    "[Ultimate] Buff -> Cooldown reduced to 2.5 minutes, activation time reduced by ~20%"
-                ]
-            },
-            {
-                "patch": "Apex Legends™: Breach Patch Notes (2026-02-09)",
-                "details": [
-                    "[Passive] Buff -> Clues more than 13m away no longer block White ravens.",
-                    "[Tactical] Buff -> Reduced screen coloration during scan, fewer clues will pop-up on screen when your tactical successfully scans an enemy.",
-                    "[Ultimate] Buff -> Knocks while your ultimate is active increase the duration by 5s (will always reset to 10s if below)."
+                    "[Passive] Buff -> Enemies outside of 13m no longer block white ravens from spawning (Flock upgrade brought into base kit)",
+                    "[Passive] Buff -> Clues more than 13m away no longer block White ravens (was ~50m)",
+                    "[Tactical] Buff -> Total scan duration up to 4s (was 3s), full-body duration remains half the full scan duration (so now 2s, was 1.5s)",
+                    "[Tactical] Adjust -> Enhanced scan visibility",
+                    "[Ultimate] Buff -> Cooldown reduced to 2.5 minutes (was 4 minutes)",
+                    "[Ultimate] Buff -> Activation time reduced by ~20%",
+                    "[Ultimate] Adjust -> After activation, the wider FOV gradually shifts back to your normal FOV",
+                    "[Ultimate] Buff -> Knocks while your ultimate is active increase the duration by 5s (will always reset to 10s if below)",
+                    "[Perks] New -> Taste of Blood: Regen 50 health when getting a knock while your ultimate is active",
+                    "[Perks] New -> Raven’s Flight: When activating your white ravens, they can ping enemies twice as far as normal",
+                    "[Perks] New -> Hunter’s Agility: Your tactical is faster to use and has -5s cooldown",
+                    "[Perks] Removed -> Raven’s Blessing, Flock, and Sighthound"
                 ]
             }
         ],
         "Catalyst": [
             {
-                "patch": "Aftershock Event + Midseason Patch Notes (2026-03-23)",
+                "patch": "Breach Patch Notes (2026-02-09)",
                 "details": [
-                    "[Passive] Buff -> Can now reinforce up to 4 doors.",
-                    "[Tactical] Buff -> Flattened the trajectory, slightly lowered the pitch, and increased the overall range, Increased size by roughly 50%, Reduced the delay before spikes can deal damage (was 2s, now 1s), Can now have 3 traps maximum (was 2)"
-                ]
-            },
-            {
-                "patch": "Apex Legends™: Breach Patch Notes (2026-02-09)",
-                "details": [
-                    "[Tactical] Buff -> Flattened the trajectory, slightly lowered the pitch, and increased the overall range, Increased size by roughly 50%, Reduced the delay before spikes can deal damage (was 2s, now 1s), Can now have 3 traps maximum (was 2)"
+                    "[Passive] Buff -> Can now reinforce up to 4 doors (was 2)",
+                    "[Tactical] Buff -> Increased size by roughly 50%",
+                    "[Tactical] Buff -> Reduced the delay before spikes can deal damage (was 2s, now 1s)",
+                    "[Tactical] Buff -> Can now have 3 traps maximum (was 2)",
+                    "[Tactical] Adjust -> Activation radius reduced by 20% (how close you have to be before the spikes stand up and the core is vulnerable)",
+                    "[Ultimate] Buff -> You can now toggle to deploy the ultimate horizontally",
+                    "[Ultimate] Buff -> Length increased by 5m",
+                    "[Ultimate] Buff -> The wall can now build up through standard doors, Lifeline’s D.O.C. Halo, and Gibraltar’s Dome of Protection.",
+                    "[Ultimate] Nerf -> Reduced Dark Veil duration when enemies walk through (was 7s, now 5s)",
+                    "[Perks] New -> Hidden Spikes: The spike pool is now hidden to enemies while inactive",
+                    "[Perks] New -> Sole Piercer: Spike traps activate 50% faster and deal 5 more damage per hit",
+                    "[Perks] Removed -> Sister Spikes and Long Veil"
                 ]
             }
         ],
         "Crypto": [
             {
-                "patch": "Apex Legends™: Breach Patch Notes (2026-02-09)",
+                "patch": "Breach Patch Notes (2026-02-09)",
                 "details": [
-                    "[Tactical] Nerf -> Prevent Power Coupling for 5s after EMP, Reduced charge gained from scanning players from 10 to 5"
+                    "[Tactical] Nerf -> Prevent Power Coupling for 5s after EMP",
+                    "[Tactical] Nerf -> Reduced charge gained from scanning players from 10 to 5"
                 ]
             }
         ],
         "Fuse": [
             {
-                "patch": "Apex Legends™: Breach Patch Notes (2026-02-09)",
+                "patch": "Breach Patch Notes (2026-02-09)",
                 "details": [
                     "[Passive] Buff -> Fuse is no longer slowed when taking explosive damage",
-                    "[Tactical] Buff -> Faster weapon stow time when switching to the tactical, Flattened the trajectory to make tap-firing more accurate, Reduced delay before explosions start up (was 1.7s, now 1.0s), Increased base damage (was 10, now 15), Reduced the duration by 50%",
-                    "[Ultimate] Buff -> Fires a mortar that explodes against the ground, then sprays out smaller bombs around its landing point"
-                ]
-            }
-        ],
-        "Gibraltar": [
-            {
-                "patch": "Aftershock Event + Midseason Patch Notes (2026-03-23)",
-                "details": [
-                    "[Passive] Buff -> New Passive - Momentum Boost",
-                    "[Tactical] Nerf -> Cooldown on Dome of Protection reduced (was 17s, now 13s)",
-                    "[Ultimate] Buff -> Integrated the size increase upgrade into his base kit, increasing radius by 20%, Call in time for the missiles has been sped up"
+                    "[Tactical] Buff -> Faster weapon stow time when switching to the tactical",
+                    "[Tactical] Buff -> Reduced delay before explosions start up (was 1.7s, now 1.0s)",
+                    "[Tactical] Buff -> Increased base damage (was 10, now 15)",
+                    "[Tactical] Adjust -> Reduced the duration by 50%",
+                    "[Ultimate] Reworked -> Refreshed ultimate behavior. Fires a mortar that explodes against the ground, then sprays out smaller bombs around its landing point. When aiming down sights, the mortar can pierce cover up to 13m deep and deliver explosives to the other side.",
+                    "[Perks] New -> Pyro Techniques: Your ultimate will drop behind patches of fire for 8 seconds after the bombs explode",
+                    "[Perks] New -> Knuckle Jumper: Jumping when next to your own Knuckle Clusters will give you an explosive boost (destroys the cluster afterwards).",
+                    "[Perks] New -> Reignition: Dealing explosive damage to enemies recharges your ultimate (for every 2 damage dealt, reduces cooldown by 1 second)",
+                    "[Perks] Removed -> Ring Master, Scar Tissue, and Knuckle Hustler"
                 ]
             }
         ],
         "Octane": [
             {
-                "patch": "Apex Legends™: Breach Patch Notes (2026-02-09)",
+                "patch": "Breach Patch Notes (2026-02-09)",
                 "details": [
-                    "[Tactical] Nerf -> Max Duration extension reduced from 6s to 3s",
-                    "[Perks] Fix -> Fixed FOV scaling issues with Stim Surge, Fixed Stim Surge sometimes lowering your speed, Fixed Stim Surge being used first if it was previously canceled with a mantle, Fixed a bug where Stim Surge would trigger automatically in a multitude of contexts, Fixed a bug where Daredevil could grant Battle Surge movement speed buff in addition to fast reloads"
+                    "[Perks] Nerf -> Daredevil: Max Duration extension reduced from 6s to 3s"
                 ]
             }
         ],
         "Pathfinder": [
             {
-                "patch": "Apex Legends™: Breach Patch Notes (2026-02-09)",
+                "patch": "Breach Patch Notes (2026-02-09)",
                 "details": [
-                    "[Perks] Buff -> Feeling Zippy additionally increases allied movement speed on Energized Ziplines from 1000 -&gt; 1350, Feeling Zippy additionally increases allied acceleration on Energized Ziplines from 700 -&gt; 800"
+                    "[Perks] Buff -> Feeling Zippy additionally increases allied movement speed on Energized Ziplines from 1000 -> 1350",
+                    "[Perks] Buff -> Feeling Zippy additionally increases allied acceleration on Energized Ziplines from 700 -> 800"
                 ]
             }
         ],
         "Valkyrie": [
             {
-                "patch": "Apex Legends™: Breach Patch Notes (2026-02-09)",
+                "patch": "Breach Patch Notes (2026-02-09)",
                 "details": [
-                    "[Perks] Fix -> Fixed the ultimate being blocked by a Trident and leaving the scan on permanently"
-                ]
-            }
-        ],
-        "Wattson": [
-            {
-                "patch": "Aftershock Event + Midseason Patch Notes (2026-03-23)",
-                "details": [
-                    "[Tactical] Buff -> Placing a fence in front of a Hardlight mesh will reinforce it; if the mesh is broken the fence will rebuild and reinforce it, Increased fence damage (was 20, now 35), Reduced fence deployment time (was 1s, now 0.5s)",
-                    "[Ultimate] Buff -> When Wattson’s ultimate is placed it will reinforce Hardlight meshes in the zone of the pylon; if the mesh is broken it will rebuild and reinforce the mesh."
-                ]
-            }
-        ],
-        "Wraith": [
-            {
-                "patch": "Aftershock Event + Midseason Patch Notes (2026-03-23)",
-                "details": [
-                    "[Tactical] Buff -> Integrated the tactical cooldown reduction upgrade into her base kit (was 20s, now 15s)",
-                    "[Ultimate] Buff -> Integrated the ultimate cooldown reduction upgrade into her base kit (was 2.5 minutes, now 1.5 minutes), Increased casting speed animation for quicker activation",
-                    "[Perks] Buff -> Phase Dome: When Wraith starts channeling her ultimate she will create a Phase Dome. This dome will last for 30s or until Wraith places her portal. Anyone who enters the Phase Dome will go into the void."
+                    "[Ultimate] Fix -> Fixed the ultimate being blocked by a Trident and leaving the scan on permanently"
                 ]
             }
         ]

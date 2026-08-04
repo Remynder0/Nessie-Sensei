@@ -427,67 +427,58 @@
         }
     },
     "patches": {
-        "Ash": [
+        "Bangalore": [
             {
-                "patch": "Get explosive in the Wild Iron Event",
+                "patch": "Showdown Patch Notes (2025-08-04)",
                 "details": [
-                    "[Passive] Nerf -> Predator's Pursuit: dash cooldown increased to 12s.",
-                    "[Tactical] Adjust -> Arc Snare: breaks more easily, base duration now 6s."
+                    "[Passive] Buff -> Double Time: Speed increased by 5%",
+                    "[Tactical] Adjust -> Smoke Launcher: Canister breaks and travels through doors",
+                    "[Tactical] Buff -> Smoke Launcher: Projectile speed increased to 2900 (was 2500)",
+                    "[Tactical] Buff -> Smoke Launcher: Pull out time reduced to 0.25 (was 0.35)",
+                    "[Tactical] Buff -> Smoke Launcher: Cooldown reduced to 30s (was 35s)",
+                    "[Tactical] Adjust -> Smoke Launcher: Smoke now reactive: ordnance and abilities can disable it for 5s when used inside/nearby",
+                    "[Ultimate] Buff -> Rolling Thunder: Cooldown reduced to 210s (was 270s)",
+                    "[Ultimate] Buff -> Rolling Thunder: Reduced anim frame to fire projectile to 1 (was 5)",
+                    "[Perks] Removed ->  Ultimate Cooldown+ & Tactical Cooldown",
+                    "[Perks] Adjust -> Cover Me: moved to Level 2",
+                    "[Perks] Adjust -> Electric Smoke: electrifies Tac dealing 100 damage to enemy Ults and destroys Tacs",
+                    "[Perks] Removed -> Refuge: integrated into Cover Me",
+                    "[Perks] New -> ECM Payload: electrifies Ult dealing 10 more damage, destroys enemy deployables",
+                    "[Perks] New -> Medal of Honor: faster revives and passive triggers running towards knocked allies"
                 ]
             }
         ],
         "Caustic": [
             {
-                "patch": "Get explosive in the Wild Iron Event",
+                "patch": "Showdown Patch Notes (2025-08-04)",
                 "details": [
-                    "[Passive] Buff -> Nox Gas: damage increased to 10-15 (was 4-10), causes aim punch, increased visibility."
-                ]
-            },
-            {
-                "patch": "Apex Legends™: Showdown Patch Notes",
-                "details": [
-                    "[Passive] Buff -> Field Research: gain research points from poisoning enemies, opening unique Death Boxes, and scanning ring consoles.",
-                    "[Tactical] Adjust -> Nox Gas Trap: trap health increased to 225 (was 150), trap can be activated earlier while inflating."
-                ]
-            }
-        ],
-        "Mad Maggie": [
-            {
-                "patch": "Get explosive in the Wild Iron Event",
-                "details": [
-                    "[Passive] Buff -> Fire Ball: now drops magma patches along the ground as it moves and Mad Maggie takes 50% less fire damage from all sources.",
-                    "[Tactical] Adjust -> Riot Drill: firing animation sped up by 10%, drill now comes out immediately after releasing the button."
-                ]
-            }
-        ],
-        "Seer": [
-            {
-                "patch": "Get explosive in the Wild Iron Event",
-                "details": [
-                    "[Passive] Buff -> Heart Seeker: long view upgrade now permanent, increasing range for Passive + Tac to 75m (was 50m)."
-                ]
-            },
-            {
-                "patch": "Apex Legends™: Showdown Patch Notes",
-                "details": [
-                    "[Tactical] Adjust -> Focus of Attention: scan duration increased to 4s (was 2.5), slow duration to 1s (was 0.5s)."
-                ]
-            }
-        ],
-        "Sparrow": [
-            {
-                "patch": "Get explosive in the Wild Iron Event",
-                "details": [
-                    "[Tactical] Adjust -> Tracker Dart: tracking duration now 12s (was 15)"
-                ]
-            }
-        ],
-        "Bangalore": [
-            {
-                "patch": "Apex Legends™: Showdown Patch Notes",
-                "details": [
-                    "[Passive] Buff -> Double Time: speed increased by 5%",
-                    "[Tactical] Adjust -> Smoke Launcher: canister breaks and travels through doors, projectile speed increased to 2900 (was 2500)."
+                    "[Passive] Buff -> Nox Gas: Damage Increased to 10-15 (was 4-10)",
+                    "[Passive] Adjust -> Nox Gas: Now causes aim punch to victims when causing damage",
+                    "[Passive] Adjust -> Nox Gas: Caustic’s Health Bar does not show while inside",
+                    "[Passive] Adjust -> Nox Gas: Increased visibility both outside and inside his own gas. Green highlighting is still active. Clouds now have threat indicators for victims.",
+                    "[Passive] Adjust -> Nox Gas: Now Grounds enemies: slowing them once and draining them of movement cooldowns",
+                    "[Passive] Adjust -> Nox Gas: “Slow” changed: immediately drains velocity to the desired speed even if the target is moving at high velocity or in the air",
+                    "[Passive] Adjust -> Nox Gas: Gas now reactive: ordnance and abilities can disable it for 5s when used inside/nearby",
+                    "[Passive] New -> Field Research: Gain research points from poisoning enemies, opening unique Death Boxes, and scanning ring consoles. Unlock an upgrade point for every 100 research points (max 2).",
+                    "[Tactical] Buff -> Nox Gas Trap: Trap health increased to 225 (was 150)",
+                    "[Tactical] Buff -> Nox Gas Trap: Trap can be activated earlier while inflating",
+                    "[Tactical] Buff -> Nox Gas Trap: Reduced toss and stow by 0.1s",
+                    "[Tactical] Buff -> Nox Gas Trap: Increased trap activation radius to 260 (was 140)",
+                    "[Tactical] Buff -> Nox Gas Trap: Increased gas radius to 300 (was 282)",
+                    "[Tactical] Buff -> Nox Gas Trap: Doubled lifetime to 22s (was 11s)",
+                    "[Tactical] Adjust -> Nox Gas Trap: Caustic traps take ring damage",
+                    "[Tactical] Nerf -> Nox Gas Trap: Increased activation delay to 0.8s (was 0.2s)",
+                    "[Tactical] Adjust -> Nox Gas Trap: Traps take bullet damage while inflating",
+                    "[Tactical] Adjust -> Nox Gas Trap: Traps take critical (1.4x) damage when hit in the o-ring/base",
+                    "[Ultimate] Buff -> Nox Gas Grenade: Reduced cooldown to 2min (was 3m)",
+                    "[Ultimate] Buff -> Nox Gas Grenade: Reduced toss and stow time by 0.05s",
+                    "[Ultimate] Buff -> Nox Gas Grenade: Increased projectile speed to 1500 (was 1300)",
+                    "[Ultimate] Buff -> Nox Gas Grenade: Increase duration to 20s (was 15s)",
+                    "[Perks] Removed -> Parabolic Force & Residual Toxins (integrated into base kit)",
+                    "[Perks] New -> Extra Traps: one additional charge, increased max in world by 2",
+                    "[Perks] Adjust -> Breathe It In: moved to Level 2",
+                    "[Perks] New -> Gas Fighter: Tac recharges 300% faster while in gas",
+                    "[Perks] Adjust -> Particle Diffuser: increases Ult radius by +50%"
                 ]
             }
         ]

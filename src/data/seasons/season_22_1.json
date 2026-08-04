@@ -434,122 +434,100 @@
         "level_60": {
             "premium": [
                 "P2020 Hunter's Best Friend"
-            ],
+            ], 
             "free": []
         }
     },
     "patches": {
         "Alter": [
             {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+                "patch": "Shockwave Patch Notes (2024-08-05)",
                 "details": [
-                    "[Base] Buff -> Channel time when knocked decreased to 2s.",
-                    "[Base] Nerf -> Chase portal duration decreased 8s.",
-                    "[Base] Adjust -> Chase portal opening delay increased to 8s.",
-                    "[Base] Buff -> Increased travel speed to void nexus by about 40%.",
-                    "[Base] Buff -> Ult cooldown reduced to 3 min."
+                    "[Ultimate] Buff -> Channel time when knocked decreased to 2s (was 3s).",
+                    "[Ultimate] Buff -> Chase portal duration decreased 8s (was 10s).",
+                    "[Ultimate] Buff -> Chase portal opening delay increased to 8s (was 6s).",
+                    "[Ultimate] Buff -> Increased travel speed to void nexus by about 40% (was 1800).",
+                    "[Ultimate] Buff -> Ult cooldown reduced to 3 min (was 3.5m)."
                 ]
             },
             {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+                "patch": "Shockwave Patch Notes (2024-08-05)",
                 "details": [
-                    "[Perks] Adjust -> NEW Ringmaster: gain access to Ring Consoles"
+                    "[Perks] Removed -> Ult Cooldown",
+                    "[Perks] New -> Ringmaster: gain access to Ring Consoles"
                 ]
             }
         ],
         "Ballistic": [
             {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+                "patch": "Shockwave Patch Notes (2024-08-05)",
                 "details": [
-                    "[Passive] Buff -> Whistler: lock-on time decreased to 0.1s."
+                    "[Tactical] Buff -> Whistler: lock-on time decreased to 0.1s (was 0.3s)."
                 ]
             }
         ],
         "Caustic": [
             {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
+                "patch": "Shockwave Patch Notes (2024-08-05)",
                 "details": [
-                    "[Base] Fix -> Friendly traps are now differentiated from enemy traps"
+                    "[Tactical] Adjust -> Friendly traps are now differentiated from enemy traps"
                 ]
             }
         ],
         "Crypto": [
             {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+                "patch": "Shockwave Patch Notes (2024-08-05)",
                 "details": [
-                    "[Passive] Buff -> Surveillance Drone: cooldown decreased to 30s.",
-                    "[Perks] Adjust -> NEW: It’s called Off the Grid: Crypto becomes cloaked when in drone",
-                    "[Perks] Buff -> Improved Satellite Imagery: Ult now scans anyone it hits for 4s and will track through walls"
-                ]
-            }
-        ],
-        "Fuse": [
-            {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
-                "details": [
-                    "[Passive] Nerf -> Hard capped the max radius of the scan area to be 450.",
-                    "[Passive] Fix -> Disallowed mortar targeting on multiple objects within the players control"
+                    "[Tactical] Buff -> Surveillance Drone: cooldown decreased to 30s (was 40s).",
+                    "[Tactical] Buff -> Surveillance Drone: improved handling now integrated into base kit.",
+                    "[Perks] Removed -> Quick Ping: improved handling",
+                    "[Perks] New -> Off the Grid: Crypto becomes cloaked when in drone",
+                    "[Perks] Buff -> Satellite Imagery: Ult now scans anyone it hits for 4s and will track through walls"
                 ]
             }
         ],
         "Lifeline": [
             {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+                "patch": "Shockwave Patch Notes (2024-08-05)",
                 "details": [
-                    "[Perks] Adjust -> Upgrade - Gold-Plated: replaced Gold EVO Cache with Battery"
+                    "[Perks] Adjust -> Gold-Plated: replaced Gold EVO Cache with Battery"
                 ]
             }
         ],
         "Rampart": [
             {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
+                "patch": "Shockwave Patch Notes (2024-08-05)",
                 "details": [
-                    "[Passive] Buff -> Sheila : ammo drains from pip charge with use",
-                    "[Passive] Nerf -> Maximum number of place turrets allowed is now 1"
+                    "[Ultimate] Buff -> Sheila : ammo drains from pip charge with use. No longer requires a full charge to equip.",
+                    "[Ultimate] Nerf -> Maximum number of place turrets allowed is now 1"
                 ]
             }
-        ],
-        "Revenant": [
-            {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
-                "details": [
-                    "[Ultimate] Nerf -> Reduced shield health to 50.",
-                    "[Passive] Buff -> Activation time doubled"
-                ]
-            }
+            
         ],
         "Seer": [
             {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+                "patch": "Shockwave Patch Notes (2024-08-05)",
                 "details": [
-                    "[Passive] Buff -> Focus of Attention: healthbars persist for duration of Silence",
-                    "[Perks] Adjust -> NEW Split Focus: gain an additional Tac charge"
-                ]
-            }
-        ],
-        "Valkyrie": [
-            {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
-                "details": [
-                    "[Passive] Buff -> Now Recon Legend",
-                    "[Perks] Adjust -> Full Tank upgrade now includes a 50% reduction in refuel delay to 4s.",
-                    "[Passive] Buff -> Gains Threat Vision while jetpacking, stays on until feet hit the ground/zipline"
+                    "[Tactical] Buff -> Focus of Attention: healthbars persist for duration of Silence",
+                    "[Perks] Removed -> Focus Scan",
+                    "[Perks] New -> Split Focus: gain an additional Tac charge"
                 ]
             }
         ],
         "Vantage": [
             {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+                "patch": "Shockwave Patch Notes (2024-08-05)",
                 "details": [
-                    "[Passive] Buff -> Echo Relocation: no longer requires LOS to Echo to launch",
+                    "[Tactical] Buff -> Echo Relocation: no longer requires LOS to Echo to launch",
                     "[Ultimate] Buff -> Sniper’s Mark : 2nd Shot Multiplier is now 2.5x.",
-                    "[Perks] Adjust -> Ult Reload: now also doubles Ult Accel use speed in addition to providing 2 extra bullets"
+                    "[Passive] Buff -> added to all optics and more improvements",
+                    "[Perks] Buff -> Ult Reload: now also doubles Ult Accel use speed in addition to providing 2 extra bullets"
                 ]
             }
         ],
         "Wattson": [
             {
-                "patch": "Apex Legends™: Shockwave Patch Notes (2024-08-05)",
+                "patch": "Shockwave Patch Notes (2024-08-05)",
                 "details": [
                     "[Perks] Adjust -> Power Pylon: now regenerates shield charge",
                     "[Perks] Buff -> Emergency Power - Added: Increases Shield Regen Rate of Interception Pylon"

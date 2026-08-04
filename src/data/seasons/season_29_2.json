@@ -1,0 +1,198 @@
+{
+    "name": "Overclocked",
+    "start_date": "May 5, 2026",
+    "end_date": "August 4, 2026",
+    "infobox": {
+        "name": "Overclocked",
+        "New Legend": "Axle",
+        "Theme": "Power up",
+        "Reactive weapon": "RE-45 Auto",
+        "Start date": "May 5, 2026",
+        "End date": "August 4, 2026",
+        "Events": "Overclocked Seasonal | Power Trip"
+    },
+    "max_level": 60,
+    "rewards": {
+        "level_5": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_7": {
+            "premium": [],
+            "free": []
+        },
+        "level_9": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_15": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_17": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_22": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_26": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_27": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_38": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_44": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_47": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_51": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        },
+        "level_53": {
+            "premium": [],
+            "free": []
+        },
+        "level_55": {
+            "premium": [
+                "Apex Pack"
+            ],
+            "free": []
+        },
+        "level_58": {
+            "premium": [],
+            "free": [
+                "Apex Pack"
+            ]
+        }
+    },
+    "patches": {
+        "Ballistic": [
+            {
+                "patch": "Midseason Patch Notes (2026-06-22)",
+                "details": [
+                    "[Passive] Buff -> Ballistic now respawns with his Sling weapon in all game modes.",
+                    "[Tactical] Reworked -> Overheat now only applies to one weapon.",
+                    "[Tactical] Reworked -> If a player has a weapon out when hit by Whistler the overheat debuff applies only to that weapon.",
+                    "[Tactical] Reworked -> If the player is unarmed when hit by Whistler it applies to the weapon in the first weapon slot.",
+                    "[Tactical] Reworked -> Overheat no longer degrades when not firing or swapping to another weapon.",
+                    "[Tactical] Reworked -> Overheat does not increment when swapping to another weapon and shooting.",
+                    "[Tactical] Buff -> Overheat damage increased from 15 to 50.",
+                    "[Tactical] Buff -> Overheat debuff duration increased from 12 to 15.",
+                    "[Tactical] Buff -> Tactical charges increased from 1 to 2.",
+                    "[Tactical] Adjust -> The overheat debuff no longer re-applies if you hit someone who is already overheating and you cannot apply it to multiple guns on the same player.",
+                    "[Ultimate] Buff -> Ballistic and teammates within range get a sprint boost when his Ultimate is activated. (Previously only Ballistic got a speed boost)",
+                    "[Perks] New -> Extra Bullet: Gain an additional Tactical charge.",
+                    "[Perks] New -> Trap Mode: When placed in the world, Ballistic’s Tactical lasts 15 seconds and deals 35 damage if an enemy walks into it.",
+                    "[Perks] New -> Quiet Time: Ballistic’s Tactical no longer applies overheat. Instead it adds silence and slow on hit. It also has a longer cooldown.",
+                    "[Perks] Adjust -> Killing Time: Now moved to level 3."
+                ]
+            }
+        ],
+        "Pathfinder": [
+            {
+                "patch": "Midseason Patch Notes (2026-06-22)",
+                "details": [
+                    "[Passive] Buff -> Pathfinder now tucks in his legs while riding horizontal ziplines. This should make him a little harder to hit when riding on his Ultimate and other ziplines in the world.",
+                    "[Tactical] Buff -> Tactical charges increased from 1 to 2.",
+                    "[Tactical] Buff -> Removed the progressive cooldown and it is now a flat 20 seconds.",
+                    "[Ultimate] Buff -> Increased launch speed of the zipline projectile.",
+                    "[Ultimate] Buff -> Reduced cooldown from 3 minutes to 2 minutes.",
+                    "[Perks] Buff -> Field Research: Now grants all Recon perks instead of just the survey beacon scan.",
+                    "[Perks] Buff -> Ringmaster: Now grants all Controller perks instead of just the ring console access.",
+                    "[Perks] New -> Landing Gear: Grants more air control and faster recovery from hard landings. This replaces the 2 Tactical charges Upgrade."
+                ]
+            }
+        ],
+        "Seer": [
+            {
+                "patch": "Midseason Patch Notes (2026-06-22)",
+                "details": [
+                    "[Passive] Buff -> Increased the activation speed of the heartbeat sensor.",
+                    "[Passive] Nerf -> Decreased the interval time between heartbeats.",
+                    "[Passive] Buff -> Decreased activation time for unarmed ADSing",
+                    "[Tactical] Buff -> Reduced the delay between the launch and hit.",
+                    "[Tactical] Buff -> Improved the slow on hit, should now halt faster moving Legends more effectively.",
+                    "[Ultimate] Buff -> Upon deployment, there is now a quick 2 second scan of the area which will highlight any enemy in the area.",
+                    "[Ultimate] Buff -> Enemies that enter the area after it’s deployed will also be scanned for 2 seconds.",
+                    "[Ultimate] Buff -> Cloaked enemies will now show footsteps if they are within the Ultimate zone."
+                ]
+            }
+        ],
+        "Axle": [
+            {
+                "patch": "Midseason Patch Notes (2026-06-22)",
+                "details": [
+                    "[Tactical] Nerf -> Reduced max in-world count from 3 to 2.",
+                    "[Tactical] Nerf -> Reduced hp from 150 to 100.",
+                    "[Tactical] Nerf -> Knocked players can no longer slide across zip codes as Axle or while under the effect of a Nitro Gate. They can still boost through a Nitro Gate, but once the effect times out, they will slow down accordingly.",
+                    "[Ultimate] Nerf -> Kickstart now displaces victims on a parabolic arc based on their velocity at the moment of impact, instead of straight up.",
+                    "[Ultimate] Adjust -> Reduced enemy highlight duration slightly to better match stun duration.",
+                    "[Perks] Nerf -> Super Slider Upgrade no longer grants a second Tactical charge. Instead, it now grants Nitro Gate a 5 second cooldown reduction and +1 max in-world count."
+                ]
+            }
+        ],
+        "Mad Maggie": [
+            {
+                "patch": "Midseason Patch Notes (2026-06-22)",
+                "details": [
+                    "[Tactical] Nerf -> Increased Cooldown from 22 seconds to 28 seconds.",
+                    "[Ultimate] Nerf -> The speed boost granted from running on the pucks dropped by the wrecking ball has been replaced by a sprint boost. Will no longer speed up all movement, just when sprinting."
+                ]
+            }
+        ],
+        "Valkyrie": [
+            {
+                "patch": "Midseason Patch Notes (2026-06-22)",
+                "details": [
+                    "[Passive] Nerf -> Removed the recent improvement, which allowed her to land faster from skydiving."
+                ]
+            }
+        ],
+        "Conduit": [
+            {
+                "patch": "Midseason Patch Notes (2026-06-22)",
+                "details": [
+                    "[Tactical] Nerf ->  Decreased Regen Rate from 15/s to 10/s, Increased Regen Duration from 6s to 8s, Decreased Ally Total Regen from 90 to 80, Decreased Conduit Total Regen from 60 to 56",
+                    "[Tactical] Nerf -> Increased Cooldown from 27 seconds to 30 seconds",
+                    "[Perks] Adjust -> Instant Barrier: Increased Regen Duration from 4s to 6s",
+                    "[Perks] Nerf -> Enduring Barrier: No longer grants regen through ring damage"
+                ]
+            }
+        ]
+    }
+}
