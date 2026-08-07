@@ -10,18 +10,27 @@
   "abilities": {
     "passive": {
       "name": "Combat Glide",
-      "description": "Hold Space/// mid-air to use D.O.C. to briefly glide. Deploy D.O.C to revive teammates, leaving Lifeline free to defend.",
-      "cooldown": ""
+      "description": "Hold Jump mid-air to use D.O.C. to briefly glide. Deploy D.O.C to revive teammates, leaving Lifeline free to defend."
     },
     "tactical": {
       "name": "D.O.C. Heal Drone",
       "description": "D.O.C. heals all nearby allies at an increased rate. D.O.C. can be assigned to follow allies once deployed.",
-      "cooldown": ""
+      "stats": {
+        "Cooldown": "25s",
+        "Heal Rate": "8 HP/s",
+        "Duration": "20s",
+        "Radius": "6m"
+      }
     },
     "ultimate": {
       "name": "D.O.C. Halo",
       "description": "Throw D.O.C. to activate his Halo Shield System. All players inside use Health & Shield consumables faster.",
-      "cooldown": "3 minutes"
+      "stats": {
+        "Cooldown": "180s",
+        "Duration": "20s",
+        "Radius": "6.5m",
+        "Heal Speed": "-50%"
+      }
     }
   },
   "tactics": {

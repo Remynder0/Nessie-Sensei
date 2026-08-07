@@ -796,7 +796,7 @@
             {
                 "patch": "September 14, 2021 Patch",
                 "details": [
-                    "[Base] Rework -> Mobile Minigun \"Sheila\": Changed name from Emplaced Minigun to Mobile Minigun. Now able to run around with Sheila out, and shoot while walking. The spin-up is longer, and she only gets 1 magazine in this mode. Sheila can now be put away and pulled back out until you run out of ammo (or hit the cooldown time). At any point, the turret can still be placed down for your teammates to use. Once placed, it has infinite reloads and acts just like the previous version, but cannot be picked back up."
+                    "[Ultimate] Rework -> Mobile Minigun \"Sheila\": Changed name from Emplaced Minigun to Mobile Minigun. Now able to run around with Sheila out, and shoot while walking. The spin-up is longer, and she only gets 1 magazine in this mode. Sheila can now be put away and pulled back out until you run out of ammo (or hit the cooldown time). At any point, the turret can still be placed down for your teammates to use. Once placed, it has infinite reloads and acts just like the previous version, but cannot be picked back up."
                 ]
             },
             {

@@ -11,17 +11,30 @@
     "passive": {
       "name": "Eye for Quality",
       "description": "Nearby epic and legendary loot, as well as unopened Care Packages, can be seen through walls with increased scan range and duration. The range is the same as Black Market Boutique. Open loot vaults without a key. Loba can ADS when unarmed to see the loot UI for items highlighted by her passive.",
-      "cooldown": ""
+      "stats": {
+        "Range": "112.5m"
+      }
     },
     "tactical": {
       "name": "Burglar's Blitz",
-      "description": "Teleport to hard-to-reach places or escape trouble quickly by throwing your jump drive bracelet, with increased movement speed and scan speed. The bracelet now works in more areas and fixes issues with getting stuck.",
-      "cooldown": "15 seconds"
+      "description": "Teleport to hard-to-reach places or escape trouble quickly by throwing your jump drive bracelet.",
+      "stats": {
+        "Cooldown": "25s",
+        "Charges": "2",
+        "Max Flat Range": "~75m",
+        "Max High Ground Range": "~100m"
+      }
     },
     "ultimate": {
       "name": "Black Market Boutique",
-      "description": "Place a portable device that allows you to teleport nearby loot to your inventory. Ammo, small meds and teammate banners are free. The gas zone has been reduced in size. Ammo taken no longer has a maximum limit nor takes up space towards the two items allowed to be taken.",
-      "cooldown": "1 minute 20 seconds"
+      "description": "Place a portable device that allows you to teleport nearby loot to your inventory. Ammo, small meds and teammate banners are free.",
+      "stats": {
+        "Cooldown": "150s",
+        "Duration": "infinite",
+        "Initial Charge": "50%",
+        "HP": "100",
+        "Ult Accelerant Charge": "25%"
+      }
     }
   },
   "tactics": {

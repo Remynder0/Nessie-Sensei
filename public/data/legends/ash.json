@@ -11,17 +11,29 @@
     "passive": {
       "name": "Predator's Pursuit",
       "description": "Added an omnidirectional short-range dash with increased velocity.",
-      "cooldown": "12s"
+      "stats": {
+        "Cooldown": "10s",
+        "Velocity": "450"
+      }
     },
     "tactical": {
       "name": "Arc Snare",
       "description": "Throw a spinning snare that damages and tethers the first enemy that gets too close.",
-      "cooldown": "25s"
+      "stats": {
+        "Cooldown": "20s",
+        "Travel Speed": "1200",
+        "Duration": "6s"
+      }
     },
     "ultimate": {
       "name": "Phase Breach",
       "description": "Tear open a one-way portal to a targeted location. Nearby enemies will be highlighted for players traveling through the Void.",
-      "cooldown": "2.5 minutes"
+      "stats": {
+        "Cooldown": "150s",
+        "Range": "100m",
+        "Max Travel Time": "2.5s",
+        "Min Travel Time": "0.5s"
+      }
     }
   },
   "tactics": {

@@ -10,18 +10,35 @@
   "abilities": {
     "passive": {
       "name": "Heart Seeker",
-      "description": "Hear and visualize the heartbeats of enemies within 75m when aiming down sights, if enemies are beyond this range the marker turns blue and pulsates with less intensity. Insight duration has been increased.",
-      "cooldown": ""
+      "description": "Hear and visualize the heartbeats of enemies when aiming down sights, if enemies are beyond this range the marker turns blue and pulsates with less intensity.",
+      "stats": {
+        "Range": "75m"
+      }
     },
     "tactical": {
       "name": "Focus of Attention",
       "description": "Summon micro-drones to emit a delayed blast that goes through walls silencing and revealing enemies, dealing damage while slowing them for 1s. The blast now has a range of 60m and fires ~30% faster. Activation delay is reduced to 1.2 seconds. Healthbars persist on silenced enemies for the duration of Silence.",
-      "cooldown": "20 seconds"
+      "stats": {
+        "Cooldown": "20s",
+        "Range": "75m",
+        "Scan Duration": "4s",
+        "Silence Duration": "2.5s",
+        "Slow Duration": "1s",
+        "Speed Boost Duration": "4s",
+        "Speed Boost": "20%"
+      }
     },
     "ultimate": {
       "name": "Exhibit",
       "description": "Create a sphere of micro-drones that reveal the location of enemies moving quickly or firing their weapons within. Enemies hit by this ability are slowed for 2.5s and highlighted with threat outline to Seer and his teammates when in line of sight. You can double jump while inside the sphere.",
-      "cooldown": "90 seconds"
+      "stats": {
+        "Cooldown": "180s",
+        "Duration": "25s",
+        "Throw Range": "~50m",
+        "Radius": "38m",
+        "Device Health": "125",
+        "Scan Duration": "2s"
+      }
     }
   },
   "tactics": {

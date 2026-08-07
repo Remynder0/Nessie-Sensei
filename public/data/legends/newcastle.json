@@ -10,18 +10,34 @@
   "abilities": {
     "passive": {
       "name": "Retrieve the Wounded",
-      "description": "Drag downed allies as you revive and protect them with your Revive Shield, which has been strengthened.",
-      "cooldown": ""
+      "description": "Drag downed allies as you revive and protect them with your Revive Shield.",
+      "stats": {
+        "Revive Shield HP (White)": "250",
+        "Revive Shield HP (Blue)": "400",
+        "Revive Shield HP (Purple/Gold)": "600"
+      }
     },
     "tactical": {
       "name": "Mobile Shield",
-      "description": "Throw a drone that projects a moveable energy shield. This drone is now indestructible and moves at 250 speed.",
-      "cooldown": "20 seconds"
+      "description": "Throw a drone that projects a moveable energy shield.",
+      "stats": {
+        "Cooldown": "20s",
+        "Health": "750",
+        "Movement Speed": "250"
+      }
     },
     "ultimate": {
       "name": "Castle Wall",
       "description": "Leap to an ally or target area and slam down, creating a fortified stronghold. While energized, the wall will destroy incoming projectiles headed towards the front of the wall.",
-      "cooldown": "2 minutes"
+      "stats": {
+        "Cooldown": "120s",
+        "Segment Health": "750",
+        "Duration": "30s",
+        "Leap Range": "35m",
+        "Ally Leap Range": "75m",
+        "Energized Duration": "60s",
+        "Energized Damage": "40"
+      }
     }
   },
   "tactics": {

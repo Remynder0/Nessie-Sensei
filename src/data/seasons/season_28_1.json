@@ -1,4 +1,5 @@
 {
+    "season": "28_1",
     "name": "Breach",
     "start_date": "February 10, 2026",
     "end_date": "May 5, 2026",
@@ -425,7 +426,6 @@
         }
     },
     "patches": {
-        "Ballistic": [],
         "Bloodhound": [
             {
                 "patch": "Breach Patch Notes (2026-02-09)",

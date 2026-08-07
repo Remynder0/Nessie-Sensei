@@ -39,7 +39,8 @@
     "playstyle": "Playstyle",
     "recommendedWeapons": "Recommended Weapons",
     "bestPerks": "Best Perks",
-    "noTacticsData": "No tactical data available for this legend."
+    "noTacticsData": "No tactical data available for this legend.",
+    "rework": "Rework"
   },
   "battlePass": {
     "title": "Battle Pass View",

@@ -10,18 +10,38 @@
   "abilities": {
     "passive": {
       "name": "Savior's Speed",
-      "description": "Sprint faster towards allies that are out of range of your tactical, including ally Death Boxes and crafters when a banner can be retrieved, Respawn Beacons and Mobile Respawn Beacons when carrying an ally banner, and downed allies without any minimum range limit. If Savior’s Speed is active when sprinting toward a Skirmisher, gain an additional 5% movement speed.",
-      "cooldown": ""
+      "description": "Sprint faster towards allies that are out of range of your tactical, including ally Death Boxes and crafters when a banner can be retrieved, Respawn Beacons and Mobile Respawn Beacons when carrying an ally banner, and downed allies without any minimum range limit.",
+      "stats": {
+        "Speed Boost": "30%",
+        "Skirmisher Bonus": "+5%"
+      }
     },
     "tactical": {
       "name": "Radiant Transfer",
-      "description": "Send a surge of energy to a teammate and yourself, temporarily regenerating shields at 15HP/s for 6s. Note: This ability cannot target Revenant while Forged Shadows is active. The recharge delay after damage has been reduced to 1s.",
-      "cooldown": "27s"
+      "description": "Send a surge of energy to a teammate and yourself, temporarily regenerating shields when in danger.",
+      "stats": {
+        "Cooldown": "27s",
+        "Charges": "2",
+        "Range": "50m",
+        "Regen Rate": "10 HP/s",
+        "Regen Duration": "8s",
+        "Ally Total Regen": "80",
+        "Conduit Total Regen": "56",
+        "Temporary Shield Duration": "30s"
+      }
     },
     "ultimate": {
       "name": "Energy Barricade",
       "description": "Deploy an array of shield jamming devices which damage and slow enemies.",
-      "cooldown": "2.5 minutes"
+      "stats": {
+        "Cooldown": "150s",
+        "Deploy Time": "4s",
+        "Lifetime": "45s",
+        "Damage": "10/s",
+        "Slow On Hit": "15%",
+        "Radius": "10m",
+        "HP": "250"
+      }
     }
   },
   "tactics": {

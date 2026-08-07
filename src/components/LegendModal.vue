@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { currentLegendDetails, isLoadingLegendDetails, currentLegendPatchHistory, legendsData } from '../logic/store'
 import { legendThemes, defaultTheme, hexToRgb } from '../logic/legendThemes'
 
@@ -60,19 +60,28 @@ function handleImageError(event: Event, fallbackSrc: string, errorFlagRef: 'port
 }
 
 const parsePatchDetail = (detail: string) => {
-    const match = detail.match(/^(\[.*?\])\s*(.*?)\s*->\s*(.*)$/);
+    const match = detail.match(/^(?:(\[.*?\])\s*)?(.*?)\s*->\s*(.*)$/);
     if (match) {
         let text = match[3];
         // Strip ability name at the beginning (e.g. "Tempest: ") except for Perks
-        if (!match[1].toLowerCase().includes('perk')) {
+        if (match[1] && !match[1].toLowerCase().includes('perk')) {
             text = text.replace(/^[^:]{1,30}:\s*/, '');
         }
         // Capitalize
         text = text.charAt(0).toUpperCase() + text.slice(1);
         
+        let type = match[2].trim();
+        let ability = match[1] || '[Base]';
+
+        // Fix if type is empty (e.g., "[Rework] -> ..." or "[Fix] -> ...")
+        if (type === '') {
+            type = ability.replace(/\[|\]/g, '').trim();
+            ability = '[Base]';
+        }
+        
         return {
-            ability: match[1],
-            type: match[2],
+            ability: ability,
+            type: type,
             text: text,
             isFormatted: true
         };
@@ -83,13 +92,25 @@ const parsePatchDetail = (detail: string) => {
     };
 };
 
+const formatReworkText = (text: string) => {
+    if (!text.includes(':')) return [text];
+    
+    const parts = text.split(':');
+    const intro = parts[0] + ':';
+    let rest = parts.slice(1).join(':').trim();
+    
+    const details = rest.split(/,\s+(?=[A-Z])/);
+    
+    return [intro, ...details];
+};
+
 const getPatchTypeClass = (type: string) => {
     const t = type.toLowerCase();
     if (t.includes('buff')) return 'text-green-400 border-green-400/30 bg-green-400/10';
     if (t.includes('nerf')) return 'text-apex-red border-apex-red/30 bg-apex-red/10';
-    if (t.includes('adjust') || t.includes('ajust')) return 'text-titan-cyan border-titan-cyan/30 bg-titan-cyan/10';
+    if (t.includes('adjust')) return 'text-titan-cyan border-titan-cyan/30 bg-titan-cyan/10';
     if (t.includes('fix') || t.includes('corr')) return 'text-yellow-400 border-yellow-400/30 bg-yellow-400/10';
-    if (t.includes('rework')) return 'text-fuchsia-400 border-fuchsia-400/30 bg-fuchsia-400/10';
+    if (t.includes('rework') || t.includes('reborn') || t.includes('revived')) return 'text-fuchsia-400 border-fuchsia-400/30 bg-fuchsia-400/10';
     if (t.includes('new')) return 'text-blue-400 border-blue-400/30 bg-blue-400/10';
     if (t.includes('introduced') || t.includes('intro')) return 'text-titan-orange border-titan-orange/30 bg-titan-orange/10';
     if (t.includes('removed')) return 'text-gray-500 border-gray-500/30 bg-gray-500/10';
@@ -97,6 +118,7 @@ const getPatchTypeClass = (type: string) => {
 };
 
 const CATEGORY_ORDER = [
+    { key: 'rework', label: 'Rework' },
     { key: 'passive', label: 'Passive' },
     { key: 'tactical', label: 'Tactical' },
     { key: 'ultimate', label: 'Ultimate' },
@@ -107,6 +129,7 @@ const CATEGORY_ORDER = [
 
 const groupPatchDetails = (details: string[]) => {
     const groups: Record<string, any[]> = {
+        rework: [],
         passive: [],
         tactical: [],
         ultimate: [],
@@ -119,7 +142,9 @@ const groupPatchDetails = (details: string[]) => {
         const parsed = parsePatchDetail(detail);
         if (parsed.isFormatted) {
             let catKey = parsed.ability.replace(/\[|\]/g, '').toLowerCase();
-            if (catKey === 'base' || !groups.hasOwnProperty(catKey)) {
+            if (catKey === 'base' && parsed.type.toLowerCase() === 'rework') {
+                catKey = 'rework';
+            } else if (catKey === 'base' || !groups.hasOwnProperty(catKey)) {
                 catKey = 'others';
             }
             groups[catKey].push(parsed);

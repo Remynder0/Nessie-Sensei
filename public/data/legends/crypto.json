@@ -11,17 +11,37 @@
     "passive": {
       "name": "Neurolink",
       "description": "Crypto and his teammates see what his Surveillance Drone detects up to a long range, with Threat Vision.",
-      "cooldown": ""
+      "stats": {
+        "Scan Persist Duration": "1.5s",
+        "Scan Range": "30m"
+      }
     },
     "tactical": {
       "name": "Surveillance Drone",
       "description": "Deploy an aerial camera drone that can remotely interact with Survey Beacons, Respawn Beacons, and ally Banner cards. Primary weapons will automatically reload while in drone view. Pressing the Tactical button causes Crypto to send the Drone flying in a straight line in the direction of Crypto's view for a few seconds. If thrown to a wall (or other geo), the Drone will hit the wall and re-orient itself so that it's facing away from the wall.",
-      "cooldown": "30 seconds"
+      "stats": {
+        "Cooldown": "30s",
+        "Drone Health": "50",
+        "Range Piloted": "200m",
+        "Range Idle": "240m",
+        "Range Interact": "7m",
+        "Launch Time": "0.7s",
+        "Re-entry Time": "0.2s",
+        "Recall Time": "~2s",
+        "Ring Damage Taken": "10% per tick"
+      }
     },
     "ultimate": {
       "name": "Drone EMP",
-      "description": "Charge up an EMP from your drone. The blast deals 50 shield damage, slows players, and destroys traps. After using EMP, Crypto is prevented from Power Coupling for 5 seconds.",
-      "cooldown": "3 minutes"
+      "description": "Charge up an EMP from your drone. The blast deals shield damage, slows players, and destroys traps.",
+      "stats": {
+        "Cooldown": "180s",
+        "Shield Damage": "50",
+        "Range": "30m",
+        "Detonation Delay": "3s",
+        "Scan Duration": "1.5s",
+        "Minimap Disable Duration": "2s"
+      }
     }
   },
   "tactics": {

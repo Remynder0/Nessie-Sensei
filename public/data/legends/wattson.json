@@ -10,18 +10,33 @@
   "abilities": {
     "passive": {
       "name": "Spark of Genius",
-      "description": "Intervene: Increased movement speed. Wattson now passively regenerates shield at a rate of 0.5hp/s, with increased shield size but reduced shield duration.",
-      "cooldown": ""
+      "description": "Ultimate Accelerants fully charge Wattson's ultimate. She can also carry more Ultimate Accelerants and use them faster. Wattson slowly restores her shields over time.",
+      "stats": {
+        "Shield Regen Rate": "2 HP/s"
+      }
     },
     "tactical": {
       "name": "Perimeter Security",
-      "description": "Create electrified fences by connecting nodes. Fences damage and slow enemies. Fences near doors will electrify them. Damage increased to 35, with increased fence deployment speed (0.5s). Additionally, placing a fence in front of a Hardlight mesh will reinforce it; if the mesh is broken the fence will rebuild and reinforce it.",
-      "cooldown": "4 seconds"
+      "description": "Create electrified fences by connecting nodes. Fences damage and slow enemies. Fences near doors will electrify them. Additionally, placing a fence in front of a Hardlight mesh will reinforce it; if the mesh is broken the fence will rebuild and reinforce it.",
+      "stats": {
+        "Cooldown": "4s",
+        "Damage": "35",
+        "Node HP": "50",
+        "Deployment Time": "0.5s"
+      }
     },
     "ultimate": {
       "name": "Interception Pylon",
-      "description": "Place an electrified pylon (Max: 1) that destroys incoming ordnance and repairs damaged shields, but with reduced protection area. Intercepted ordnances are converted into Arc Stars. Reduced pylon health and damage output. When Wattson's ultimate is placed it will reinforce Hardlight meshes in the zone of the pylon; if the mesh is broken it will rebuild and reinforce the mesh.",
-      "cooldown": "3 minutes"
+      "description": "Place an electrified pylon that destroys incoming ordnance and repairs damaged shields. Intercepted ordnances are converted into Arc Stars. When Wattson's ultimate is placed it will reinforce Hardlight meshes in the zone of the pylon; if the mesh is broken it will rebuild and reinforce the mesh.",
+      "stats": {
+        "Cooldown": "180s",
+        "Max Pylons": "1",
+        "Duration": "Infinite",
+        "Radius": "15m",
+        "Pylon HP": "150",
+        "Pylon Shield Regen Rate": "3 HP/s",
+        "Shield Pool": "250"
+      }
     }
   },
   "tactics": {

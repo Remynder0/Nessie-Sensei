@@ -500,7 +500,7 @@
             {
                 "patch": "July 17, 2025 Patch",
                 "details": [
-                    "[Base] Class changed to Assault.",
+                    "Class changed from Skirmisher to Assault.",
                     "[Tactical] Buff -> Minimum Velocity increased from 700 to 800.",
                     "[Tactical] Buff -> Maximum Velocity increased from 1150 to 1400.",
                     "[Tactical] Adjust -> Improved Ground Detection, making guns faster to reequip upon landing."

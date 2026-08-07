@@ -2,7 +2,7 @@
   "name": "Mad Maggie",
   "lore": {
     "real_name": "Margaret Kōhere",
-    "age": "56[1]",
+    "age": "56",
     "home_world": "Salvo",
     "gender": "Female",
     "bio": "Margaret Kōhere - the woman who would one day be known as Mad Maggie - grew up in one of the dustiest, dullest corners of Salvo without any family to speak of. She was fortunate, then, to meet a kindred chaotic spirit: an adventurous young boy named Walter Fitzroy. The two were inseparable, and in their teenage years, they became mercenaries. Eventually this duo grew into the Cracked Talon - a powerful mercenary operation. It was here she earned her nom de guerre: Mad Maggie. But when rival warlord Sandringham Kelly signed a treaty with the Syndicate, Maggie’s hopes for an independent Salvo were ruined, and Fuse abandoned her for the  Games, leaving Maggie very mad indeed…\nBy sabotaging Fuse’s entrance into the Apex games, Maggie planned to expose how weak the Syndicate was, in hopes it would spark rebellion on Salvo.\nFuse would assemble a team to take down Maggie… only for the pair to have a heart to heart where they came to accept each other’s choices: Fuse will always follow the fun, and Maggie will always follow the cause.\nIt seemed as though Maggie fell to her death after that exchange...But she was apprehended by the Syndicate, and sentenced to fight to the death in the Apex Games. So she will: just not hers.\n\nFor more information on Mad Maggie's story, see Mad Maggie (character)."
@@ -10,18 +10,36 @@
   "abilities": {
     "passive": {
       "name": "Warlord's Ire",
-      "description": "Temporarily highlight enemies you've damaged. Move faster with shotguns, but at a reduced speed boost. Mad Maggie takes 50% less fire damage from all sources.",
-      "cooldown": ""
+      "description": "Temporarily highlight enemies you've damaged. Move faster with shotguns (doesn't deactivate speed penalty).",
+      "stats": {
+        "Shotgun Bonus Speed": "15%",
+        "Scan Duration": "0.8s"
+      }
     },
     "tactical": {
       "name": "Riot Drill",
-      "description": "Fire a drill that attaches to an obstacle and burns enemies on the other side. The drill now comes out immediately after releasing the button, with firing animation sped up by 10%. Wheels Down: increased duration.",
-      "cooldown": "28s"
+      "description": "Fire a drill that attaches to an obstacle and burns enemies on the other side.",
+      "stats": {
+        "Cooldown": "28s",
+        "Lifetime": "9s",
+        "Total Damage": "160",
+        "Pierce Depth": "13m",
+        "Flare Range": "5m"
+      }
     },
     "ultimate": {
       "name": "Wrecking Ball",
-      "description": "Throw a ball that releases speed-boosting pads and detonates near enemies, with improved durability. The Fortified buff from repulsors now reduces some other types of damage, like explosive damage.",
-      "cooldown": "2 minutes"
+      "description": "Throw a ball that releases speed-boosting pads and detonates near enemies.",
+      "stats": {
+        "Cooldown": "120s",
+        "Max Lifetime": "7s",
+        "Explosion Damage": "25",
+        "Sprint Boost": "30%",
+        "Pad Buff Duration": "3.5s",
+        "Pad Lifetime": "20s",
+        "Pad Deactivation Time": "6s",
+        "Magnet Spawn Interval": "0.8s"
+      }
     }
   },
   "tactics": {

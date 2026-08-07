@@ -37,7 +37,8 @@
     "playstyle": "Style de jeu",
     "recommendedWeapons": "Armes recommandées",
     "bestPerks": "Meilleures Améliorations (Perks)",
-    "noTacticsData": "Aucune donnée tactique disponible pour cette légende."
+    "noTacticsData": "Aucune donnée tactique disponible pour cette légende.",
+    "rework": "Refonte"
   },
   "battlePass": {
     "title": "Consultation Battle Pass",

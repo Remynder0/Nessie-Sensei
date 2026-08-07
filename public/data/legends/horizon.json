@@ -10,18 +10,29 @@
   "abilities": {
     "passive": {
       "name": "Spacewalk",
-      "description": "Increase air control and reduce fall impacts with Horizon’s custom spacesuit.",
-      "cooldown": ""
+      "description": "Increase air control and reduce fall impacts with Horizon’s custom spacesuit."
     },
     "tactical": {
       "name": "Gravity Lift",
-      "description": "Reverses the flow of gravity, lifting players upward at an increased speed but for a reduced duration. Using a zipline after a Gravity Lift will no longer increase accuracy. Visual effects have been adjusted to reduce visual load on the battlefield and audio has been made more noticeable.",
-      "cooldown": ""
+      "description": "Reverses the flow of gravity, lifting players upward and boosting them outward when they exit.",
+      "stats": {
+        "Cooldown": "20s",
+        "Height": "30m",
+        "Duration": "10s",
+        "Lift Speed": "375",
+        "Hover Time": "1.5s",
+        "Cooldown Delay": "2s"
+      }
     },
     "ultimate": {
       "name": "Black Hole",
-      "description": "Deploy N.E.W.T. to create a micro black hole that pulls players in towards it, dealing damage and with a radius.",
-      "cooldown": "2 minutes"
+      "description": "Deploy N.E.W.T. to create a micro black hole that pulls players in towards it.",
+      "stats": {
+        "Cooldown": "180s",
+        "Radius": "10m",
+        "Duration": "12s",
+        "Health": "225"
+      }
     }
   },
   "tactics": {

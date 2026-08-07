@@ -9,19 +9,33 @@
   },
   "abilities": {
     "passive": {
-      "name": "Momentum Boost",
-      "description": "Gibraltar gains a speed boost after taking damage, allowing him to quickly reposition himself.",
-      "cooldown": ""
+      "name": "Gun Shield",
+      "description": "Aiming down sights deploys a gun shield that blocks incoming fire. Gain a speed boost when maintaining max unarmed sprint for a few seconds.",
+      "stats": {
+        "Gun Shield Health": "50",
+        "Cooldown Regeneration": "9s",
+        "Speed Boost": "30%",
+        "Punch Damage vs Hardlight": "2x"
+      }
     },
     "tactical": {
       "name": "Dome of Protection",
-      "description": "Blocks incoming and outgoing attacks. The dome can now be placed on mobile objects.",
-      "cooldown": "13 seconds"
+      "description": "Blocks incoming and outgoing attacks. Gibraltar revives allies 33% faster while inside his dome.",
+      "stats": {
+        "Cooldown": "13s",
+        "Radius": "6m",
+        "Duration": "12s"
+      }
     },
     "ultimate": {
       "name": "Defensive Bombardment",
-      "description": "Call in a concentrated mortar strike on a marked position, affecting teammates with Shell Shock. Each bomb deals increased damage and has a larger radius.",
-      "cooldown": "2 minutes 20 seconds"
+      "description": "Call in a concentrated mortar strike on a marked position, affecting teammates with Shell Shock.",
+      "stats": {
+        "Cooldown": "180s",
+        "Damage": "40",
+        "Radius": "30m",
+        "Duration": "6s"
+      }
     }
   },
   "tactics": {

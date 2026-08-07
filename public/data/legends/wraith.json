@@ -10,18 +10,27 @@
   "abilities": {
     "passive": {
       "name": "Voices from the Void",
-      "description": "A voice warns you when danger approaches. As far as you can tell, it's on your side. This ability now reveals enemy positions for a longer time after they've been seen.",
-      "cooldown": ""
+      "description": "A voice warns you when danger approaches. As far as you can tell, it's on your side. This ability now reveals enemy positions for a longer time after they've been seen."
     },
     "tactical": {
       "name": "Into the Void",
-      "description": "Reposition quickly through the safety of void space, avoiding all damage. Nearby enemies will be highlighted for players traveling through the Void. This ability can no longer be canceled by jumping at a wall.",
-      "cooldown": 15
+      "description": "Reposition quickly through the safety of void space, avoiding all damage. Nearby enemies will be highlighted for players traveling through the Void.",
+      "stats": {
+        "Cooldown": "15s",
+        "Activation Time": "0.8s",
+        "Duration": "4s",
+        "Speed Boost": "30%"
+      }
     },
     "ultimate": {
       "name": "Dimensional Rift",
       "description": "Link two locations with portals for 30 seconds, allowing anyone to use them. The volume is turned down when Wraith activates a portal. Portals will now disappear after four seconds if both ends are outside the Ring. This ability also teleports Wraith to a new location. Nearby enemies will be highlighted for players traveling through the Void. When activated, Wraith creates a Phase Dome that lasts 30s or until she places her portal.",
-      "cooldown": 90
+      "stats": {
+        "Cooldown": "90s",
+        "Range": "~155m",
+        "Out of Ring Duration": "~5s",
+        "Duration": "40s"
+      }
     }
   },
   "tactics": {

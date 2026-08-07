@@ -9,19 +9,37 @@
   },
   "abilities": {
     "passive": {
-      "name": "Gas Fighter",
+      "name": "Field Research",
       "description": "Gain extra upgrade points by causing damage with gas, opening deathboxes and scanning ring consoles.",
-      "cooldown": ""
+      "stats": {
+        "Gain per Gas damage": "50% (rounded down)",
+        "Gain per Deathbox": "30",
+        "Gain per Ring Console": "40"
+      }
     },
     "tactical": {
       "name": "Nox Gas Trap",
-      "description": "Place up to 6 canisters that release deadly Nox gas when shot or triggered by enemies. Nox Gas damages and grounds enemies with a damage range of 5, has a health of 225, and lasts for an unspecified duration.",
-      "cooldown": "25 seconds"
+      "description": "Place up to 6 canisters that release deadly Nox gas when shot or triggered by enemies.",
+      "stats": {
+        "Cooldown": "25s",
+        "Damage": "10-15 (increases every 2 ticks)",
+        "Damage (Knocked)": "4",
+        "Health": "225",
+        "Duration": "22s",
+        "Activation Radius": "260",
+        "Gas Radius": "300",
+        "Activation Delay": "0.8s"
+      }
     },
     "ultimate": {
       "name": "Nox Gas Grenade",
       "description": "Blankets a large area in Nox Gas, dealing increased damage. However, the gas damage has been reduced. Nox Gas damages and grounds enemies, with a throw distance of 33 meters. The gas dissipates immediately after Caustic's team is eliminated.",
-      "cooldown": "3 minutes"
+      "stats": {
+        "Cooldown": "2m",
+        "Throw Distance": "33m",
+        "Projectile Speed": "1500",
+        "Duration": "20s"
+      }
     }
   },
   "tactics": {

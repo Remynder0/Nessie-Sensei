@@ -10,18 +10,41 @@
   "abilities": {
     "passive": {
       "name": "Battle Modder",
-      "description": "Increased magazine/heat capacity and faster reloads/recharge when using LMGs and the Minigun. Amped Cover permanently gains health with each Evo level, and its defensive capabilities have been reinforced.",
-      "cooldown": ""
+      "description": "Increased magazine/heat capacity and faster reloads/recharge when using LMGs and the Minigun. Amped Cover permanently gains health with each Evo level.",
+      "stats": {
+        "LMG Magazine Size": "+15%",
+        "LMG Reload Speed": "-25%",
+        "Wall HP": "400/600/800",
+        "Wall Shield HP": "175/200/225"
+      }
     },
     "tactical": {
       "name": "Amped Cover",
-      "description": "Build a dome-cover wall, which deploys a smaller but more durable cover that blocks incoming shots. Damage through or to Amped Shield charges the wall. Passing over the wall converts charges to a speed boost.",
-      "cooldown": "20 seconds"
+      "description": "Build a crouch-cover wall, which deploys a full-cover amped wall that blocks incoming shots and amps outgoing shots. Damage through or to Amped Cover charges the wall. Passing over the wall converts charges to a sprint boost.",
+      "stats": {
+        "Cooldown": "20s",
+        "Charge": "3",
+        "Damage Boost": "20%",
+        "Placement Time": "2s",
+        "Deploy Health": "100",
+        "Max Stored Damage": "300",
+        "Max Sprint Boost Duration": "15s",
+        "Damage Stored (Through)": "25%",
+        "Damage Stored (Amped)": "100%"
+      }
     },
     "ultimate": {
       "name": "Mobile Minigun \"Sheila\"",
-      "description": "Wield a mobile minigun with a single high capacity magazine. Place it down for anyone to use as a stationary and reloadable turret (Max: 1). Sheila now has an increased angle of 180 degrees, but ammo drains from the pip charge with each use.",
-      "cooldown": "90 seconds"
+      "description": "Wield a mobile minigun with a single high capacity magazine. Place it down for anyone to use as a stationary and reloadable turret.",
+      "stats": {
+        "Cooldown": "120s",
+        "Ammo Capacity": "150(173)",
+        "Damage": "14",
+        "rounds per Pip Charge": "43",
+        "Spin-Up Time": "1.25s",
+        "Max Placed Turrets": "1",
+        "Re-enter Delay": "0.15s"
+      }
     }
   },
   "tactics": {

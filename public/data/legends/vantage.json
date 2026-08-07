@@ -11,17 +11,42 @@
     "passive": {
       "name": "Spotter's Lens",
       "description": "Aim down sights to scout with your eyepiece to see enemy healthbars and team shield levels for a longer time after they've been seen. Ping to track multiple far away targets, up to 3 enemies at a time.",
-      "cooldown": ""
+      "stats": {
+        "Max Pinged Enemies": "3",
+        "Reveal Position Distance": "50m",
+        "Ultimate Bullet Generation": "70% (per team tracked)",
+        "Tracking Cooldown": "10s (per team)"
+      }
     },
     "tactical": {
       "name": "Echo Relocation",
       "description": "Position your winged companion Echo and then Launch toward him. Echo will auto-recall after you jump. Gain a Double Jump when you reach Echo, or crouch to cancel the jump early.",
-      "cooldown": "17 seconds"
+      "stats": {
+        "Cooldown": "17s",
+        "Echo Send Distance": "50m",
+        "Echo Max Distance": "65m",
+        "Velocity": "21m/s"
+      }
     },
     "ultimate": {
       "name": "Sniper's Mark",
       "description": "Use your custom sniper rifle to mark enemy targets which applies a damage bonus for you and your team. Shooting will enable a targeting laser for a short duration when aiming down sights.",
-      "cooldown": "2 minutes 40 seconds"
+      "stats": {
+        "Cooldown": "160s",
+        "Bullet Count": "6",
+        "Damage": "50",
+        "Damage Bonus": "15%",
+        "2nd Shot Multiplier": "2.5x",
+        "Laser Duration": "10s",
+
+        "Normal Scope Magnification": "4x",
+        "Canted Scope Magnification": "2x",
+        "Normal ADS Time": "0.5s",
+        "Canted ADS Time": "0.4s",
+        "Canted Rechamber Time": "1.1s",
+        "Deploy Time": "1.3s",
+        "Holster Time": "0.4s"
+      }
     }
   },
   "tactics": {

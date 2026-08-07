@@ -10,18 +10,30 @@
   "abilities": {
     "passive": {
       "name": "Drift",
-      "description": "Increased control while sliding.",
-      "cooldown": ""
+      "description": "Increased control while sliding."
     },
     "tactical": {
       "name": "Nitro Gate",
-      "description": "Deploy a speed gate that sends users into a boosted slide.\n\nReduced max in-world count from 3 to 2. Reduced hp from 150 to 100. Stepping into a Nitro Gate forces users into a speedy slide, where they have greatly increased velocity and lateral control.",
-      "cooldown": "25 seconds"
+      "description": "Deploy a speed gate that sends users into a boosted slide.",
+      "stats": {
+        "Cooldown": "25s",
+        "Speed Velocity": "750",
+        "Effect Duration": "0.25s-3s",
+        "Max In-World Count": "2",
+        "HP": "100"
+      }
     },
     "ultimate": {
       "name": "Kickstart",
       "description": "Deploy an enemy-seeking drone that displaces targets on impact.\n\nKickstart now displaces victims on a parabolic arc based on their velocity at the moment of impact, instead of straight up. Reduced enemy highlight duration slightly to better match stun duration.",
-      "cooldown": "1.5 minutes"
+      "stats": {
+        "Cooldown": "90s",
+        "Drone Velocity": "650",
+        "Maximum Lifetime": "15s",
+        "Damage": "25",
+        "Stun Duration": "1.5s",
+        "HP": "200"
+      }
     }
   },
   "tactics": {

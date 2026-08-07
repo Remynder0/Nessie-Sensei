@@ -10,18 +10,35 @@
   "abilities": {
     "passive": {
       "name": "Assassin's Instinct",
-      "description": "Highlights nearby visible enemies that are low on health for a longer time after they've been seen. You crouch walk faster and have improved wall climbing.",
-      "cooldown": ""
+      "description": "Highlights nearby visible enemies that are low on health. You crouch walk faster and have improved wall climbing.",
+      "stats": {
+        "Highlight Range": "30m",
+        "Highlight Threshold": "40 HP",
+        "Wall Climb Speed": "+25%"
+      }
     },
     "tactical": {
       "name": "Shadow Pounce",
-      "description": "Unleash a powerful pounce forwards. Hold to charge for further distance. Deals damage, disables enemy abilities, including Mirage's cloaked revive/respawn and Octane's Swift Mend, and knocks down enemies within the area of effect.",
-      "cooldown": "20 seconds"
+      "description": "Unleash a powerful pounce forwards. Hold to charge for further distance.",
+      "stats": {
+        "Cooldown": "20s",
+        "Minimum Velocity": "800",
+        "Maximum Velocity": "1400",
+        "Minimum Charge Duration": "0.5s",
+        "Max Charge Duration": "1.7s"
+      }
     },
     "ultimate": {
       "name": "Forged Shadows",
       "description": "Forge a shroud of hardened shadows around you that block damage and regenerate. Knockdowns will start regenerating your shadows up to 50 HP, with an initial delay of 3 seconds. Death Totem: Characters are respawned with 50 health (or whatever health they had when they activated it, if lower). The protection zone has been reduced. Silence now silences enemies in a larger area and is more effective.",
-      "cooldown": "180 seconds"
+      "stats": {
+        "Cooldown": "180s",
+        "Shield Health": "75",
+        "Duration": "25s",
+        "Shield Regen Delay": "3s",
+        "Time Extension on Knock": "5s",
+        "Activation Time": "2.2s"
+      }
     }
   },
   "tactics": {

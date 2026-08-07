@@ -11,17 +11,35 @@
     "passive": {
       "name": "VTOL Jets",
       "description": "Press the jump key while in the air to engage jetpack. You can switch between hold and toggle mode in the options menu. Gains Threat Vision while jetpacking, which stays on until your feet hit the ground or you zipline.",
-      "cooldown": ""
+      "stats": {
+        "Total Fuel Duration": "6s",
+        "Refuel Delay": "2.5s",
+        "Full Refuel Time": "3s",
+        "Slow Debuff on Hit": "-20%"
+      }
     },
     "tactical": {
       "name": "Missile Swarm",
       "description": "Fire a swarm of mini-rockets that damage and disorient the enemy with a short full body scan on hit.",
-      "cooldown": ""
+      "stats": {
+        "Cooldown": "25s",
+        "Damage": "25",
+        "Slow Duration": "2s",
+        "Explosion Radius": "125",
+        "Scan Duration": "1.5s",
+        "Max Range": "125m"
+      }
     },
     "ultimate": {
       "name": "Skyward Dive",
       "description": "Press once to prepare for launch. Teammates can interact with Valkyrie to join the launch. Press again to launch into the air and skydive.",
-      "cooldown": "1.75 minutes"
+      "stats": {
+        "Cooldown": "150s",
+        "Delay Before Takeoff": "1.5s",
+        "Launch Time": "6.5s",
+        "Launch Height": "~150m",
+        "Damage Cooldown Penalty": "30s"
+      }
     }
   },
   "tactics": {

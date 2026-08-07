@@ -11,17 +11,29 @@
     "passive": {
       "name": "Tracker",
       "description": "Foes leave behind clues for you to find, including weapon reloaded. White Ravens may appear to guide you to battle and charge your abilities.",
-      "cooldown": ""
+      "stats": {
+        "White Raven Block Distance": "13m"
+      }
     },
     "tactical": {
       "name": "Eye of the Allfather",
       "description": "Briefly reveal enemies, traps, and clues through all structures in front of you. Movement speed is increased. This ability now scans players even if they have already been scanned by a different Bloodhound.",
-      "cooldown": "25 seconds"
+      "stats": {
+        "Cooldown": "25s",
+        "Activation Time": "0.8s",
+        "Scan Duration": "4s",
+        "Full-Body Highlight Duration": "2s"
+      }
     },
     "ultimate": {
       "name": "Beast of the Hunt",
       "description": "Transform into the ultimate hunter. Launches a White Raven and enhances senses to see cold tracks and move faster. Knocks will refresh your tactical and extend the hunt duration.",
-      "cooldown": "2.5 minutes"
+      "stats": {
+        "Cooldown": "150s",
+        "Knock Duration Extension": "5s (resets to 10s minimum)",
+        "Duration": "30s",
+        "Speed Boost": "30%"
+      }
     }
   },
   "tactics": {

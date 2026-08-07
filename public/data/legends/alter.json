@@ -10,18 +10,39 @@
   "abilities": {
     "passive": {
       "name": "Gift From The Rift",
-      "description": "Can remotely interact with a deathbox to claim one item. Cannot be a shield core. Loot in Death Boxes can now be pinged while using Alter's passive.",
-      "cooldown": ""
+      "description": "Can remotely interact with a deathbox to claim one item. Cannot be a shield core. Loot in Death Boxes can be pinged while using Alter's passive.",
+      "stats": {
+        "Range": "75m"
+      }
     },
     "tactical": {
       "name": "Void Passage",
-      "description": "Creates a portal passageway through a surface, allowing players and projectiles to safely traverse it without getting stuck in the ceiling or floor. The portal is now active for 8s after opening.",
-      "cooldown": "25 seconds"
+      "description": "Creates a portal passageway through a surface.",
+      "stats": {
+        "Cooldown": "25s",
+        "Charges": "2",
+        "Pierce Depth": "30m",
+        "Duration": "15s",
+        "highlight scan upon creation": "0.7s",
+        "highlight scan upon usage": "1s*"
+      }
     },
     "ultimate": {
       "name": "Void Nexus",
-      "description": "Create a regroup point that all allies can remotely interact with to open a phase tunnel back to that location.",
-      "cooldown": "2 minutes"
+      "description": "Create a regroup point that all allies can remotely interact with to open a phase tunnel back to that location. (Takes damage outside The Ring)",
+      "stats": {
+        "Cooldown": "120s",
+        "Range": "250m",
+        "Recall Time": "3s",
+        "Ally Recall Time": "4s",
+        "Travel Speed": "2520",
+        "Duration": "Infinite",
+        "Chase Portal Delay": "6s",
+        "Chase Portal Usage Warning Delay": "3.5s",
+        "Chase Portal Duration": "4s",
+        "Cooldown After Usage": "60s",
+        "HP": "130"
+      }
     }
   },
   "tactics": {

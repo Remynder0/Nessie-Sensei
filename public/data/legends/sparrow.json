@@ -11,17 +11,32 @@
     "passive": {
       "name": "Double Jump",
       "description": "Press jump while in the air to jump again.",
-      "cooldown": ""
+      "stats": {
+        "Cooldown": "2s"
+      }
     },
     "tactical": {
       "name": "Tracker Dart",
       "description": "Shoot a tracker from your gauntlet that will reveal enemies who walk within its line of sight for 12 seconds.",
-      "cooldown": "35 seconds"
+      "stats": {
+        "Cooldown": "35s",
+        "Charges": "3",
+        "Radius": "15m",
+        "Max in World": "5",
+        "Tracking Duration": "12s"
+      }
     },
     "ultimate": {
       "name": "Stinger Bolt",
       "description": "Shoots a large arrow that anchors where it lands. After charging up, it will shock anyone within its range, causing damage and slowing down opponents it hits.",
-      "cooldown": "2.5 minutes"
+      "stats": {
+        "Cooldown": "150s",
+        "Radius": "20m",
+        "Bolt Health": "400",
+        "Charge Time": "3s",
+        "Duration": "6s",
+        "Damage": "20/s"
+      }
     }
   },
   "tactics": {

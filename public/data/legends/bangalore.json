@@ -10,18 +10,32 @@
   "abilities": {
     "passive": {
       "name": "Double Time",
-      "description": "Taking fire while sprinting makes you move faster due to augmentation, increasing your movement speed by a moderate amount (5%).",
-      "cooldown": ""
+      "description": "Taking fire while sprinting makes you move faster for a brief time.",
+      "stats": {
+        "Speed Boost": "35%",
+        "Effect Duration": "2s"
+      }
     },
     "tactical": {
       "name": "Smoke Launcher",
-      "description": "Fire a high-velocity smoke canister that explodes into a smoke wall on impact, providing less cover and disrupting enemy positions. The smoke now lasts for 11 seconds. All players within the smoke will have a white highlight visible to other players in smoke within 20m.",
-      "cooldown": "20 seconds"
+      "description": "Fire a high-velocity smoke canister that explodes into a smoke wall on impact, providing less cover and disrupting enemy positions.All players within the smoke will have a white highlight.",
+      "stats": {
+        "Duration": "11s",
+        "Cooldown": "30s",
+        "Projectile Speed": "2900",
+        "Pull Out Time": "0.25s",
+        "Highlight Range": "20m"
+      }
     },
     "ultimate": {
       "name": "Rolling Thunder",
-      "description": "Call in an artillery strike that slowly creeps across the landscape, starting left from the flare's position. The explosion now takes 8 seconds to complete, dealing reduced damage and having a smaller radius. Rolling Thunder also grants a speed bonus.",
-      "cooldown": "4.5 minutes"
+      "description": "Call in an artillery strike that slowly creeps across the landscape, starting left from the flare's position.",
+      "stats": {
+        "Cooldown": "210s",
+        "Detonation Time": "6s",
+        "Damage": "40",
+        "Stun Duration": "6s"
+      }
     }
   },
   "tactics": {

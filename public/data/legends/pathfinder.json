@@ -10,18 +10,33 @@
   "abilities": {
     "passive": {
       "name": "Insider Knowledge",
-      "description": "Scan a Care Package, Ring Console, or Survey Beacon to recharge 50% of the Zipline Gun and permanently reduce its cooldown by 15s.",
-      "cooldown": ""
+      "description": "Scan a Care Package, Ring Console, or Survey Beacon to recharge the Zipline Gun and permanently reduce its cooldown.",
+      "stats": {
+        "Ultimate Charge Gained": "25%",
+        "Cooldown Reduction": "10s",
+        "Max Cooldown Reduction": "40s"
+      }
     },
     "tactical": {
       "name": "Grappling Hook",
-      "description": "Grapple to get to out-of-reach places quickly. Pathfinder no longer needs to be on the ground for Grappling Hook to be considered finished, and the speed to which Pathfinder needs to drop for Grappling Hook to be considered finished was increased from 300 units per second to 500 units per second.",
-      "cooldown": "10-30 seconds (dependent on distance traveled)"
+      "description": "Grapple to get to out-of-reach places quickly.",
+      "stats": {
+        "Cooldown": "20s",
+        "Charges": "2",
+        "Range": "21m"
+      }
     },
     "ultimate": {
       "name": "Zipline Gun",
-      "description": "Create a zipline for everyone to use. Riders take 50% less damage while its energized. Fixed an issue with ziplines going through platforms when deployed from underneath.",
-      "cooldown": "2 minutes"
+      "description": "Create a zipline for everyone to use. Riders take less damage while its energized.",
+      "stats": {
+        "Cooldown": "120s",
+        "Range": "200m",
+        "Speed boost": "+66%",
+        "Energized Duration": "30s",
+        "Damage Reduction": "50%",
+        "Max in World": "4"
+      }
     }
   },
   "tactics": {

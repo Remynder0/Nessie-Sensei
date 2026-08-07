@@ -10,18 +10,30 @@
   "abilities": {
     "passive": {
       "name": "Now You See Me...",
-      "description": "Automatically cloak when using Respawn Beacons or healing consumable items, but this ability is now disabled if silenced by Revenant while reviving teammates or downed. The cloak is removed by damage, ability use, or dropping the heal action.",
-      "cooldown": ""
+      "description": "Automatically cloak when using Respawn Beacons or healing consumable items. Spawn a decoy and cloak when downed.",
+      "stats": {
+        "Downed Invisibility": "5s",
+        "Healing Cooldown": "5s"
+      }
     },
     "tactical": {
       "name": "Psyche Out",
-      "description": "Send out a holographic decoy to confuse the enemy. Press ⬆️ to control the decoy. The decoy has 30 HP, makes footstep sounds, and swaps weapons with you when you do, also properly holstering melee weapons.",
-      "cooldown": "15 seconds"
+      "description": "Send out a holographic decoy to confuse the enemy. The enemy who shoots it will be tracked with a marker.",
+      "stats": {
+        "Cooldown": "15s",
+        "Decoy Health": "45",
+        "Scan Duration": "3.5s",
+        "Decoy Lifetime": "60s"
+      }
     },
     "ultimate": {
       "name": "Life of the Party",
-      "description": "Mirage deploys a team of controllable decoys to distract enemies. Each decoy has 45 HP, lasts for 30 seconds, and only 3 decoys are deployed.",
-      "cooldown": "1 minute"
+      "description": "Mirage deploys a team of controllable decoys to distract enemies.",
+      "stats": {
+        "Cooldown": "60s",
+        "Decoys Deployed": "6",
+        "Decoy Lifetime": "15s"
+      }
     }
   },
   "tactics": {

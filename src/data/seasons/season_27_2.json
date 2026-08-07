@@ -433,7 +433,7 @@
                 "details": [
                     "[Passive] Buff -> Swift Mend: base healing increased from 1.5 HPS to 3.0 HPS",
                     "[Passive] Buff -> Swift Mend: max healing heals for 9 HPS",
-                    "[Tactical] New -> Stim Surge: If Octane uses his tactical again, while stim is already active, he uses a new mixture which grants him Fortified, triggers Swift Mend, and allows Swift Mend to continue healing through damage",
+                    "[Tactical] Reworked -> Stim Surge: If Octane uses his tactical again, while stim is already active, he uses a new mixture which grants him Fortified, triggers Swift Mend, and allows Swift Mend to continue healing through damage",
                     "[Tactical] Adjust -> Stim Surge: lasts 6s, costs 0 HP to use, reapplies Stim effect for entire duration, has a 20s cooldown but does not put Stim on cooldown",
                     "[Tactical] Adjust -> Stim Surge: Fortified reduces damage by 15% and grants immunity to bullet slow",
                     "[Tactical] Adjust -> Stim Surge: Players can hold tac button to automatically buffer Stim Surge",

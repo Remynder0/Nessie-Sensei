@@ -11,17 +11,34 @@
     "passive": {
       "name": "Barricade",
       "description": "Reinforce doors, strengthening them and locking them to enemies. Spaces where doors have been destroyed can also be reinforced.",
-      "cooldown": ""
+      "stats": {
+        "Max Doors": "4",
+        "Reinforced Door HP": "4 melee",
+        "Ferro-door HP": "2 melee"
+      }
     },
     "tactical": {
       "name": "Piercing Spikes",
       "description": "Throw out a patch of ferrofluid which turns into spikes when enemies are near. Catalyst remains immune to enemy spikes. The spikes now deal damage after 1 second and can be placed up to 3 times.",
-      "cooldown": "20 seconds"
+      "stats": {
+        "Cooldown": "20s",
+        "Charges": "2",
+        "Damage Delay": "1s",
+        "Damage": "15",
+        "Max Traps": "3",
+        "Orb HP": "300 (1 melee)"
+      }
     },
     "ultimate": {
       "name": "Dark Veil",
       "description": "Raise a permeable wall of ferrofluid. Enemies who walk through it will be slowed and partially blinded for a brief time.",
-      "cooldown": "2 minutes 30 seconds"
+      "stats": {
+        "Cooldown": "150s",
+        "Lifetime": "25s",
+        "Length": "50m",
+        "Effect Duration": "5s",
+        "Slow": "15%"
+      }
     }
   },
   "tactics": {

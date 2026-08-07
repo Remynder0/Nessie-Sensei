@@ -10,18 +10,34 @@
   "abilities": {
     "passive": {
       "name": "Swift Mend",
-      "description": "Automatically restores health at an increased rate while moving, with a greater healing effect when Octane's health is low.",
-      "cooldown": ""
+      "description": "Automatically restores health out of combat, at an increased rate when Octane's health is low.",
+      "stats": {
+        "Base Healing": "3.0 HP/s",
+        "Max Healing": "9.0 HP/s"
+      }
     },
     "tactical": {
       "name": "Stim Surge",
-      "description": "Increase walk speed by 30% and sprint speed by 40% for 15 seconds. Grants Fortified status, triggers Swift Mend, and allows it to continue healing through damage while active. Costs Health to use. Reduction to slows while active.",
-      "cooldown": "0.7 seconds"
+      "description": "Increase walk speed by and sprint speed by 40% at the costs of Health. Reduction to slows while active.",
+      "stats": {
+        "Cooldown": "0.7s",
+        "Stim Health Cost": "20 HP",
+        "Stim Speed Boost": "35% Walk / 45% Sprint",
+        "Stim Duration": "6s",
+        "Stim Surge Health Cost": "0 HP",
+        "Stim Surge Duration": "6s",
+        "Stim Surge Cooldown": "26s"
+      }
     },
     "ultimate": {
       "name": "Launch Pad",
-      "description": "Deploy a jump pad that catapults anyone through the air, excluding players affected by Wraith's Into the Void ability. Press the jump button to double jump. Hitting from a standing position will launch along a high arc, while hitting from a crouched position will launch along a low arc.",
-      "cooldown": "1 minute"
+      "description": "Deploy a jump pad that catapults anyone through the air. Press the jump button to double jump. Hitting from a standing position will launch along a high arc, while hitting from a crouched position will launch along a low arc.",
+      "stats": {
+        "Cooldown": "90s",
+        "Charges": "2",
+        "Max in World": "2",
+        "Health": "200"
+      }
     }
   },
   "tactics": {

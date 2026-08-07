@@ -10,18 +10,30 @@
   "abilities": {
     "passive": {
       "name": "Sling",
-      "description": "Store a third weapon in the sling. Access either via inventory or Character Utility Action. The sling weapon can now carry crate weapons and will gain infinite ammo when Tempest is activated.",
-      "cooldown": ""
+      "description": "Store a third weapon in the sling. Access either via inventory or Character Utility Action. The sling weapon can now carry crate weapons and will gain infinite ammo when Tempest is activated."
     },
     "tactical": {
       "name": "Whistler",
       "description": "Shoots a projectile that heats up an enemy's gun as they shoot. Overheating causes damage. Hold the tactical to lock-on, which will be more reliable in close range and takes 1.2 seconds. Whistler now deals 15 damage on activation and 15 damage from overheat.",
-      "cooldown": ""
+      "stats": {
+        "Charges": "2",
+        "Lock-on Time": "0.1s",
+        "Hit Damage": "15",
+        "Trap Damage": "20",
+        "Overheat Reaction Time": "1.2s",
+        "Overheat Damage": "50",
+        "Overheat Debuff Duration": "15s"
+      }
     },
     "ultimate": {
       "name": "Tempest",
       "description": "When activated, nearby teammates get faster reloads, faster armed move speed, infinite ammo within a 90m radius, and a speed boost. Ballistic's sling weapon will be equipped and upgraded to gold.",
-      "cooldown": ""
+      "stats": {
+        "Effect Radius": "90m",
+        "Duration": "30s",
+        "Activation Time": "3s",
+        "Sprint Boost": "15%"
+      }
     }
   },
   "tactics": {

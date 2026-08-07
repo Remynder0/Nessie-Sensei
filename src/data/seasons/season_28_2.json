@@ -1,5 +1,6 @@
 {
-     "name": "Breach",
+    "season": "28_2",
+    "name": "Breach",
     "start_date": "February 10, 2026",
     "end_date": "May 5, 2026",
     "infobox": {
@@ -106,7 +107,7 @@
             {
                 "patch": "Aftershock Event Patch Notes (2026-03-23)",
                 "details": [
-                    "[Passive] New -> Momentum Boost: If Gibraltar maintains sprint speed for a couple of seconds he will get a speed boost. This will only trigger while unarmed or if the weapon doesn't have a sprint speed restriction. Gibraltar punch will deal double damage to Hardlight",
+                    "[Passive] Reworked -> Momentum Boost: If Gibraltar maintains sprint speed for a couple of seconds he will get a speed boost. This will only trigger while unarmed or if the weapon doesn't have a sprint speed restriction. Gibraltar punch will deal double damage to Hardlight",
                     "[Tactical] Buff -> Cooldown on Dome of Protection reduced (was 17s, now 13s)",
                     "[Ultimate] Buff -> Integrated the size increase upgrade into his base kit, increasing radius by 20%",
                     "[Ultimate] Buff -> Call in time for the missiles has been sped up",

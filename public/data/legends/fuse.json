@@ -11,17 +11,31 @@
     "passive": {
       "name": "Grenadier",
       "description": "Stack an extra grenade per inventory slot. Fire grenades farther, faster, and more accurately.",
-      "cooldown": ""
+      "stats": {
+        "Grenade Throw Speed": "+70%"
+      }
     },
     "tactical": {
       "name": "Knuckle Cluster",
-      "description": "Launch a cluster bomb that continuously expels airburst explosives on impact, dealing 11.25 damage through shields. It now fires faster with reduced delay before explosions start up (1 second). The trajectory is flattened for more accurate tap-firing.",
-      "cooldown": "20 seconds"
+      "description": "Launch a cluster bomb that continuously expels airburst explosives on impact.",
+      "stats": {
+        "Cooldown": "20s",
+        "Charges": "2",
+        "Stick Damage": "10",
+        "Maximum Damage": "70",
+        "Explosion Delay": "1s"
+      }
     },
     "ultimate": {
-      "name": "Ring Master",
-      "description": "Gain access to Ring Consoles. Fires a mortar that explodes against the ground, then sprays out smaller bombs around its landing point.",
-      "cooldown": ""
+      "name": "The Motherlode",
+      "description": "Launch a bomb that scatters explosives around its landing point. Aim down sights to launch a cover-piercing bomb.",
+      "stats": {
+        "Cooldown": "120s",
+        "Detonation Radius": "3.5m",
+        "Detonation Damage": "40",
+        "Explosive Radius": "2.25m",
+        "Explosive Damage": "30"
+      }
     }
   },
   "tactics": {
