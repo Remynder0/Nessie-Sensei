@@ -115,7 +115,7 @@ const hideImageOnError = (event: Event) => {
   <div class="h-full flex flex-col space-y-6">
     <div class="flex justify-between items-end border-b border-titan-border pb-4">
       <div>
-        <h2 class="text-2xl font-black text-white font-mono uppercase tracking-widest">{{ $t('battlePass.title') }}</h2>
+        <h2 class="text-2xl font-black text-white font-display uppercase tracking-widest">{{ $t('battlePass.title') }}</h2>
         <p class="text-gray-400 text-sm mt-1">{{ $t('battlePass.subtitle') }}</p>
       </div>
     </div>
@@ -136,7 +136,7 @@ const hideImageOnError = (event: Event) => {
       
       <div v-if="selectedSeasonMeta?.weaponSkin && selectedSeasonMeta.weaponSkin !== 'Inconnu'" class="ml-auto flex items-center gap-4 bg-black/60 border border-titan-border/50 px-4 py-2 z-10">
           <div class="flex flex-col">
-              <span class="text-[10px] text-gray-500 font-mono uppercase tracking-widest mb-1">{{ $t('battlePass.reactiveSkin') }}</span>
+              <span class="text-[13px] text-gray-500 font-mono uppercase tracking-widest mb-1">{{ $t('battlePass.reactiveSkin') }}</span>
               <span class="text-white font-bold tracking-wider font-mono text-sm">{{ getWeaponDetails(selectedSeasonMeta.weaponSkin).skin }}</span>
           </div>
           <div class="w-24 h-12 flex items-center justify-center shrink-0 ml-4">

@@ -47,7 +47,7 @@ const classBgColor = computed(() => {
             />
             <span v-if="iconError" class="text-gray-600 font-bold font-mono text-xl">?</span>
           </div>
-          <h2 class="text-xl md:text-2xl font-black text-white font-sans uppercase tracking-wider">{{ legend.Name }}</h2>
+          <h2 class="text-xl md:text-2xl font-black text-white font-display uppercase tracking-wider">{{ legend.Name }}</h2>
         </div>
         
         <div 
@@ -62,17 +62,17 @@ const classBgColor = computed(() => {
               @error="classIconError = true"
               class="w-5 h-5 opacity-90 invert drop-shadow"
           />
-          <span v-if="classIconError" class="text-[10px] font-mono text-white uppercase px-1">{{ legend.Class.substring(0,3) }}</span>
+          <span v-if="classIconError" class="text-[13px] font-mono text-white uppercase px-1">{{ legend.Class.substring(0,3) }}</span>
         </div>
       </div>
 
       <div class="space-y-2 mt-6">
         <div v-for="[statName, val] in topStats" :key="statName" class="flex items-center">
-          <div class="w-24 text-[10px] text-gray-400 capitalize font-mono">{{ statName.replace('_', ' ') }}</div>
+          <div class="w-24 text-[13px] text-gray-400 capitalize font-mono">{{ statName.replace('_', ' ') }}</div>
           <div class="flex-1 bg-black/60 h-1 overflow-hidden border border-titan-border/50">
             <div class="bg-titan-cyan h-full transition-all" :style="{ width: `${val * 10}%` }"></div>
           </div>
-          <div class="w-6 text-right text-[10px] font-bold text-white font-mono">{{ val }}</div>
+          <div class="w-6 text-right text-[13px] font-bold text-white font-mono">{{ val }}</div>
         </div>
       </div>
     </div>

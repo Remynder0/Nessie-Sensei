@@ -56,7 +56,7 @@ function handleLink() {
         <div class="glass-panel titan-beveled w-full max-w-md p-8 relative">
             <button @click="showModal = false" class="absolute top-4 right-4 text-gray-500 hover:text-white font-mono text-xl">&times;</button>
             
-            <h2 class="text-2xl font-black text-white uppercase font-sans tracking-wider mb-6 flex items-center gap-2">
+            <h2 class="text-2xl font-black text-white uppercase font-display tracking-wider mb-6 flex items-center gap-2">
                 <span class="w-3 h-3 bg-titan-cyan block"></span> DATA LINK
             </h2>
 
@@ -64,9 +64,9 @@ function handleLink() {
                 <p class="text-xs text-gray-400 font-mono mb-2 uppercase tracking-widest">Votre Code Identifiant :</p>
                 <button @click="copyToClipboard" class="w-full bg-black/50 border border-titan-cyan p-4 text-center group hover:bg-titan-cyan/10 transition-colors relative">
                     <span class="text-3xl font-mono text-white font-bold tracking-widest group-hover:text-titan-cyan transition-colors">{{ syncCode }}</span>
-                    <span v-if="copySuccess" class="absolute -top-3 right-2 bg-titan-cyan text-black text-[10px] px-2 py-1 font-bold uppercase">Copié !</span>
+                    <span v-if="copySuccess" class="absolute -top-3 right-2 bg-titan-cyan text-black text-[13px] px-2 py-1 font-bold uppercase">Copié !</span>
                 </button>
-                <p class="text-[10px] text-gray-500 font-mono mt-2 text-center">Ce code a été copié dans votre presse-papier.</p>
+                <p class="text-[13px] text-gray-500 font-mono mt-2 text-center">Ce code a été copié dans votre presse-papier.</p>
             </div>
 
             <div class="border-t border-titan-border pt-6">
@@ -87,7 +87,7 @@ function handleLink() {
                         Lier
                     </button>
                 </div>
-                <p class="text-[10px] text-gray-500 font-mono mt-2 text-center">Attention : Lier un appareil écrasera les données locales actuelles.</p>
+                <p class="text-[13px] text-gray-500 font-mono mt-2 text-center">Attention : Lier un appareil écrasera les données locales actuelles.</p>
             </div>
         </div>
     </div>

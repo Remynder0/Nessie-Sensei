@@ -19,7 +19,7 @@ const sortedLegends = computed(() => {
 <template>
   <div class="h-full flex flex-col">
     <div class="mb-6">
-        <h2 class="text-3xl font-black text-white tracking-tighter uppercase font-mono">
+        <h2 class="text-3xl font-black text-white tracking-tighter uppercase font-display">
           <span class="text-titan-cyan mr-2">>></span>Tri Tactique
         </h2>
         <p class="text-gray-400 text-sm font-mono mt-1">Filtrage des unités par spécialité</p>

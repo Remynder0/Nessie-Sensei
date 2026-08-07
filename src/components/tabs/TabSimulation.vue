@@ -55,7 +55,7 @@ function runSimulation() {
 <template>
   <div class="h-full flex flex-col">
     <div class="mb-6">
-        <h2 class="text-3xl font-black text-white tracking-tighter uppercase font-mono">
+        <h2 class="text-3xl font-black text-white tracking-tighter uppercase font-display">
           <span class="text-titan-cyan mr-2">>></span>Simulation de Présence
         </h2>
         <p class="text-gray-400 text-sm font-mono mt-1">Analyse du taux d'apparition par itérations massives</p>
@@ -84,7 +84,7 @@ function runSimulation() {
     </div>
 
     <div v-if="results.length > 0" class="flex-1 overflow-hidden flex flex-col">
-        <h3 class="text-white font-mono text-xl uppercase mb-4 flex items-center gap-2">
+        <h3 class="text-white font-display text-xl uppercase mb-4 flex items-center gap-2">
             <span class="w-3 h-3 bg-titan-orange inline-block"></span>
             Taux de sélection de l'algorithme
         </h3>

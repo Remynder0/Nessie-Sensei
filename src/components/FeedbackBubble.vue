@@ -53,7 +53,7 @@ const submitFeedback = () => {
       class="absolute bottom-16 right-0 w-[340px] bg-black/95 backdrop-blur-md border border-titan-border shadow-2xl origin-bottom-right animate-in zoom-in-95 duration-200"
     >
       <div class="p-4 border-b border-titan-border bg-black/50">
-        <h3 class="font-black text-white uppercase tracking-widest font-mono text-sm flex items-center gap-2">
+        <h3 class="font-black text-white uppercase tracking-widest font-display text-sm flex items-center gap-2">
           <span class="w-2 h-2 block" :class="isSubmitted ? 'bg-green-500' : 'bg-titan-cyan'"></span>
           {{ $t('feedback.title') }}
         </h3>
@@ -70,7 +70,7 @@ const submitFeedback = () => {
         <form v-else @submit.prevent="submitFeedback" class="space-y-4">
           <!-- Type Select -->
           <div>
-            <label class="block text-[10px] text-gray-500 font-mono uppercase tracking-widest mb-1">{{ $t('feedback.type') }}</label>
+            <label class="block text-[13px] text-gray-500 font-mono uppercase tracking-widest mb-1">{{ $t('feedback.type') }}</label>
             <select v-model="selectedType" class="w-full bg-black/50 border border-titan-border text-white px-3 py-2 font-mono text-xs focus:outline-none focus:border-titan-cyan transition-colors">
               <option value="bug">{{ $t('feedback.bug') }}</option>
               <option value="improvement">{{ $t('feedback.improvement') }}</option>
@@ -81,7 +81,7 @@ const submitFeedback = () => {
 
           <!-- Message / Link -->
           <div>
-            <label class="block text-[10px] text-gray-500 font-mono uppercase tracking-widest mb-1">{{ $t('feedback.message') }}</label>
+            <label class="block text-[13px] text-gray-500 font-mono uppercase tracking-widest mb-1">{{ $t('feedback.message') }}</label>
             <textarea 
               v-model="message" 
               rows="3" 
@@ -92,7 +92,7 @@ const submitFeedback = () => {
 
           <!-- Contact info -->
           <div>
-            <label class="block text-[10px] text-gray-500 font-mono uppercase tracking-widest mb-1">{{ $t('feedback.contact') }}</label>
+            <label class="block text-[13px] text-gray-500 font-mono uppercase tracking-widest mb-1">{{ $t('feedback.contact') }}</label>
             <input 
               v-model="contact" 
               type="text" 
@@ -122,7 +122,7 @@ const submitFeedback = () => {
         <!-- Review Tutorial Button -->
         <button 
           @click="startTutorial(true); toggleOpen()"
-          class="w-full mt-4 flex items-center justify-center gap-2 px-4 py-2 text-[10px] font-mono uppercase tracking-widest text-titan-cyan/70 hover:text-titan-cyan hover:bg-titan-cyan/5 transition-colors border border-transparent hover:border-titan-cyan/30"
+          class="w-full mt-4 flex items-center justify-center gap-2 px-4 py-2 text-[13px] font-mono uppercase tracking-widest text-titan-cyan/70 hover:text-titan-cyan hover:bg-titan-cyan/5 transition-colors border border-transparent hover:border-titan-cyan/30"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />

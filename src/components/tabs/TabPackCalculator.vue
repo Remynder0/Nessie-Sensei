@@ -44,7 +44,7 @@ const togglePurchased = (index: number) => {
     <div class="border-b border-titan-border pb-4 shrink-0 space-y-4">
       <div class="flex items-center justify-between">
         <div>
-          <h2 class="text-2xl font-black font-mono text-white tracking-widest uppercase flex items-center gap-3">
+          <h2 class="text-2xl font-black font-display text-white tracking-widest uppercase flex items-center gap-3">
             <span class="w-3 h-3 bg-titan-cyan block"></span>
             HEIRLOOM TRACKER
           </h2>
@@ -90,7 +90,7 @@ const togglePurchased = (index: number) => {
         <!-- Account Level Card -->
         <div id="tour-pack-input" class="bg-titan-panel border border-titan-border p-5 relative group overflow-hidden">
           <div class="absolute top-0 left-0 w-1 h-full bg-titan-cyan transition-all group-hover:w-2"></div>
-          <h3 class="text-lg font-bold font-mono text-white mb-4 pl-4 border-b border-titan-border/50 pb-2 flex justify-between">
+          <h3 class="text-lg font-bold font-display text-white mb-4 pl-4 border-b border-titan-border/50 pb-2 flex justify-between">
             <span>NIVEAU DE COMPTE</span>
             <span class="text-titan-cyan">{{ levelPacks }} PACKS</span>
           </h3>
@@ -124,7 +124,7 @@ const togglePurchased = (index: number) => {
         <!-- Purchased & Treasure Packs Card -->
         <div class="bg-titan-panel border border-titan-border p-5 relative group overflow-hidden">
           <div class="absolute top-0 left-0 w-1 h-full bg-titan-orange transition-all group-hover:w-2"></div>
-          <h3 class="text-lg font-bold font-mono text-white mb-4 pl-4 border-b border-titan-border/50 pb-2 flex justify-between">
+          <h3 class="text-lg font-bold font-display text-white mb-4 pl-4 border-b border-titan-border/50 pb-2 flex justify-between">
             <span>AUTRES PACKS</span>
             <span class="text-titan-orange">{{ purchasedPacks + bonusPacks }} PACKS</span>
           </h3>
@@ -164,7 +164,7 @@ const togglePurchased = (index: number) => {
       <!-- Right Column: Battle Passes -->
       <div id="tour-pack-seasons" class="bg-titan-panel border border-titan-border p-5 relative flex flex-col min-h-[400px]">
         <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-titan-cyan"></div>
-        <h3 class="text-lg font-bold font-mono text-white mb-4 border-b border-titan-border/50 pb-2 flex justify-between shrink-0">
+        <h3 class="text-lg font-bold font-display text-white mb-4 border-b border-titan-border/50 pb-2 flex justify-between shrink-0">
           <span>PASS DE COMBAT</span>
           <span class="text-white">{{ bpPacks }} PACKS</span>
         </h3>
@@ -177,7 +177,7 @@ const togglePurchased = (index: number) => {
           >
             <div class="flex flex-col w-36">
               <span class="font-mono text-sm text-gray-300">{{ season.name }}</span>
-              <span class="font-mono text-[10px] text-gray-500 truncate" :title="season.weaponSkin">{{ season.weaponSkin }}</span>
+              <span class="font-mono text-[13px] text-gray-500 truncate" :title="season.weaponSkin">{{ season.weaponSkin }}</span>
             </div>
             
             <!-- Checkbox Premium -->
@@ -213,14 +213,14 @@ const togglePurchased = (index: number) => {
               <button 
                 v-if="season.level < season.maxLevel"
                 @click="maxSeason(index)"
-                class="text-[10px] font-mono bg-purple-500/10 text-purple-400 border border-purple-500/30 px-2 py-1 hover:bg-purple-500 hover:text-white transition-colors"
+                class="text-[13px] font-mono bg-purple-500/10 text-purple-400 border border-purple-500/30 px-2 py-1 hover:bg-purple-500 hover:text-white transition-colors"
               >
                 MAX
               </button>
               <button 
                 v-else
                 @click="resetSeason(index)"
-                class="text-[10px] font-mono bg-apex-red/10 text-apex-red border border-apex-red/30 px-2 py-1 hover:bg-apex-red hover:text-white transition-colors"
+                class="text-[13px] font-mono bg-apex-red/10 text-apex-red border border-apex-red/30 px-2 py-1 hover:bg-apex-red hover:text-white transition-colors"
               >
                 RST
               </button>

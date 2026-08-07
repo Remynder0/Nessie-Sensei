@@ -75,7 +75,7 @@ const patchStatusClass = (status: string) => {
 const patchStatusIcon = (status: string) => {
     switch (status) {
         case 'introduced': 
-            return '<span class="text-[10px] font-black tracking-wider mt-0.5">NEW</span>';
+            return '<span class="text-[13px] font-black tracking-wider mt-0.5">NEW</span>';
         case 'rework': 
             return `<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5L12 0z"/></svg>`;
         case 'major_buff': 
@@ -135,7 +135,7 @@ function hideErrorImage(event: Event) {
     <!-- Top Search Bar & Header -->
     <div class="p-6 border-b border-titan-border bg-black/60 shrink-0 flex flex-col md:flex-row md:items-center justify-between gap-4 z-10">
         <div class="flex items-center">
-            <h2 class="text-2xl font-black text-white tracking-widest uppercase font-mono flex items-center shrink-0">
+            <h2 class="text-2xl font-black text-white tracking-widest uppercase font-display flex items-center shrink-0">
                 <span class="text-titan-cyan mr-3 block w-3 h-3 bg-titan-cyan"></span> 
                 {{ $t('legends.title') }}
             </h2>
@@ -162,7 +162,7 @@ function hideErrorImage(event: Event) {
                         <span class="flex items-center justify-center" v-html="patchStatusIcon(l.status)"></span>
                     </div>
 
-                    <div class="absolute top-12 left-1/2 -translate-x-1/2 bg-black/90 border px-2 py-1 text-[10px] font-mono whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity z-50 pointer-events-none" :class="patchStatusClass(l.status)">
+                    <div class="absolute top-12 left-1/2 -translate-x-1/2 bg-black/90 border px-2 py-1 text-[13px] font-mono whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity z-50 pointer-events-none" :class="patchStatusClass(l.status)">
                         {{ l.name }} : {{ patchStatusTooltip(l.status) }}
                     </div>
                 </div>
@@ -209,7 +209,7 @@ function hideErrorImage(event: Event) {
                             @error="hideErrorImage"
                         />
                     </div>
-                    <h3 class="text-2xl font-black text-white tracking-widest uppercase font-sans">{{ className }}</h3>
+                    <h3 class="text-2xl font-black text-white tracking-widest uppercase font-display">{{ className }}</h3>
                     <span class="text-titan-cyan font-mono text-sm ml-2">[{{ group.length }}]</span>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-12 gap-y-32 content-start pt-8">

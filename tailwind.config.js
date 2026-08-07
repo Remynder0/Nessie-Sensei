@@ -25,8 +25,9 @@ export default {
         }
       },
       fontFamily: {
-        mono: ['"Share Tech Mono"', '"Courier New"', 'monospace'],
-        sans: ['"Rajdhani"', 'sans-serif']
+        sans: ['Inter', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+        display: ['Chakra Petch', 'sans-serif'],
       }
     },
   },

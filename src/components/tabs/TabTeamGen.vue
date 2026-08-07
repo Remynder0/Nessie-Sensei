@@ -44,7 +44,7 @@ onMounted(() => {
   <div class="h-full flex flex-col">
     <div class="flex justify-between items-end mb-6">
       <div>
-        <h2 class="text-3xl font-black text-white tracking-tighter uppercase font-mono">
+        <h2 class="text-3xl font-black text-white tracking-tighter uppercase font-display">
           <span class="text-titan-cyan mr-2">>></span>Liaison & Déploiement
         </h2>
         <p class="text-gray-400 text-sm font-mono mt-1">Générateur tactique d'escouade</p>
@@ -81,7 +81,7 @@ onMounted(() => {
             
             <div class="flex justify-between items-center mb-2 pl-4">
                 <div>
-                    <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest font-mono mb-1">Rapport d'Analyse</h3>
+                    <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest font-display mb-1">Rapport d'Analyse</h3>
                     <div class="text-3xl font-black text-white font-mono uppercase">
                         Profil : <span class="text-titan-cyan">{{ currentArchetype }}</span>
                     </div>
@@ -94,7 +94,7 @@ onMounted(() => {
 
             <div v-if="currentSpecialSynergies.length > 0" class="space-y-2 pl-4 mt-4">
               <div v-for="syn in currentSpecialSynergies" :key="syn.name" class="bg-titan-orange/10 border-l-2 border-titan-orange p-3">
-                <h4 class="font-bold text-titan-orange text-sm uppercase font-mono flex items-center gap-2">
+                <h4 class="font-bold text-titan-orange text-sm uppercase font-display flex items-center gap-2">
                   <span class="w-2 h-2 bg-titan-orange inline-block"></span> {{ syn.name }}
                 </h4>
                 <p class="text-xs text-gray-300 mt-1 font-mono ml-4">{{ syn.description }}</p>
@@ -105,7 +105,7 @@ onMounted(() => {
           <!-- Historic Logger -->
           <div id="tour-teamgen-save" class="glass-panel titan-beveled p-6 relative flex flex-col justify-center">
               <div class="absolute top-0 right-0 w-2 h-full bg-titan-orange"></div>
-              <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest font-mono mb-3">Enregistrer Résultat</h3>
+              <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest font-display mb-3">Enregistrer Résultat</h3>
               
               <div v-if="saveSuccess" class="bg-green-500/20 border border-green-500 text-green-400 p-3 text-sm font-mono uppercase text-center">
                   Données sauvegardées.<br/>L'algorithme s'adapte.

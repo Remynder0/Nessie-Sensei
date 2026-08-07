@@ -66,15 +66,15 @@ onMounted(async () => {
       <div class="p-6 border-b border-titan-border">
         <div class="flex items-center gap-5">
           <img src="/nessie-sensei.png" alt="Nessie-Sensei" class="h-32 object-contain drop-shadow-md" />
-          <h1 class="text-2xl font-black text-white font-mono uppercase tracking-tighter leading-none">
+          <h1 class="text-2xl font-black text-white font-display uppercase tracking-tighter leading-none">
             NESSIE<br/><span class="text-titan-orange">SENSEI</span>
           </h1>
         </div>
         <div class="flex justify-between items-center mt-2">
-            <div class="text-titan-cyan text-[10px] font-mono tracking-widest uppercase">OS.Titan_Link // v2.0</div>
+            <div class="text-titan-cyan text-[13px] font-mono tracking-widest uppercase">OS.Titan_Link // v2.0</div>
             
             <!-- Language Selector -->
-            <select v-model="$i18n.locale" class="bg-black/50 border border-titan-border text-titan-cyan text-[10px] font-mono uppercase px-1 py-0.5 outline-none hover:border-titan-cyan transition-colors">
+            <select v-model="$i18n.locale" class="bg-black/50 border border-titan-border text-titan-cyan text-[13px] font-mono uppercase px-1 py-0.5 outline-none hover:border-titan-cyan transition-colors">
                 <option value="fr">FR</option>
                 <option value="en">EN</option>
             </select>
@@ -92,7 +92,7 @@ onMounted(async () => {
         >
           <span v-if="currentTab === tab.id" class="absolute left-2 top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 bg-black"></span>
           <span :class="currentTab === tab.id ? 'pl-3' : ''" class="transition-all">{{ $t(tab.nameKey) }}</span>
-          <span v-if="tab.adminOnly" class="text-[10px] px-1 py-0.5 leading-none" :class="currentTab === tab.id ? 'text-black border-black border opacity-70' : 'text-apex-red border-apex-red border opacity-70'">ADM</span>
+          <span v-if="tab.adminOnly" class="text-[13px] px-1 py-0.5 leading-none" :class="currentTab === tab.id ? 'text-black border-black border opacity-70' : 'text-apex-red border-apex-red border opacity-70'">ADM</span>
         </button>
       </nav>
 
@@ -115,7 +115,7 @@ onMounted(async () => {
           </KeepAlive>
         </div>
         
-        <footer class="mt-4 pt-2 border-t border-titan-border/30 text-center text-gray-500/70 text-[10px] font-mono leading-tight shrink-0 whitespace-pre-line">
+        <footer class="mt-4 pt-2 border-t border-titan-border/30 text-center text-gray-500/70 text-[13px] font-mono leading-tight shrink-0 whitespace-pre-line">
           {{ $t('app.footer') }}
         </footer>
       </div>

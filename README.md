@@ -51,12 +51,13 @@ The project strictly separates the interface (Vue components) from the business 
 ├── archive/                  # Python scraping scripts (excluded from web deployment)
 ├── public/
 │   ├── data/
-│   │   ├── legends/           # Raw data per legend
-│   │   └── seasons/           # Raw data per Battle Pass season
+│   │   └── legends/           # Raw data per legend (dynamic runtime fetch)
 │   ├── images/                # Assets (legends, weapons)
 │   ├── Legends.json           # Consolidated legend and synergy data
 │   └── history.json           # Initial history (ignored by git, generated/updated locally)
 ├── src/
+│   ├── data/
+│   │   └── seasons/           # Battle pass & patch data (static build-time bundle)
 │   ├── assets/                 # Static images and icons
 │   ├── components/
 │   │   ├── tabs/                # Main application views (one tab = one feature)
@@ -110,9 +111,14 @@ Project rule: **no user-facing text strings should be hardcoded.**
 - In TypeScript code: `i18n.global.t('text.key')`
 - Any new key must be added **simultaneously** in `src/locales/fr.json` and `src/locales/en.json`.
 
-## Game Data
+## Game Data Architecture
 
-Legend data (`public/data/legends/`) and season data (`public/data/seasons/`) are consolidated in `public/Legends.json`. They are prepared and updated via Python scripts located in `archive/` and `legends_composer/`, which are not part of the deployed bundle.
+To optimize performance in Vite, game data is split into two distinct locations based on how it's loaded:
+
+- **`public/data/legends/`**: Large JSON files containing legend lore and stats. Placed in `public/` so they can be lazily fetched at runtime (via `fetch()`) only when a legend is selected, preventing massive initial bundle sizes.
+- **`src/data/seasons/`**: Patch notes and season progression data. Placed in `src/` so they can be bundled directly into the application at build time (via `import.meta.glob`), allowing instantaneous access across the app.
+
+These files are prepared and updated via Python scripts located in `archive/` and `legends_composer/`, which are not part of the deployed bundle.
 
 ## Commit Convention
 
