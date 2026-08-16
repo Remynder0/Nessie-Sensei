@@ -1,759 +1,1214 @@
 {
-    "season": "13",
+  "season": "13",
+  "name": "Saviors",
+  "start_date": "May 10, 2022",
+  "end_date": "August 09, 2022",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_13.svg?b4d65c",
     "name": "Saviors",
-    "start_date": "May 10, 2022",
-    "end_date": "August 09, 2022",
-    "infobox": {
-        "name": "Saviors",
-        "New Legend": "Newcastle",
-        "Featured map": "Storm Point",
-        "Season Quest": "\" Family Secrets",
-        "Theme": "Knights and dragons",
-        "Reactive weapon": "M600 Spitfire",
-        "Start date": "May 10, 2022",
-        "End date": "August 09, 2022",
-        "Events": "Awakening | Gaiden"
+    "New Legend": "Newcastle",
+    "Featured map": "Storm Point",
+    "Season Quest": "\" Family Secrets",
+    "Theme": "Knights and dragons",
+    "Reactive weapon": "M600 Spitfire",
+    "Start date": "May 10, 2022",
+    "End date": "August 09, 2022",
+    "Events": [
+      "Awakening",
+      "Gaiden"
+    ]
+  },
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "C.A.R. SMG Wyrmborn",
+        "Pathfinder Gilded Grappler",
+        "Mad Maggie Lava Queen",
+        "Newcastle Firewall",
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Loading Screen Pre-Orders Now Open!"
+      ]
     },
-    "max_level": 110,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "C.A.R. SMG Wyrmborn",
-                "Pathfinder Gilded Grappler",
-                "Mad Maggie Lava Queen",
-                "Newcastle Firewall",
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Loading Screen Pre-Orders Now Open!"
-            ]
-        },
-        "level_2": {
-            "premium": [
-                "Newcastle Skydive Emote Three, Two, One"
-            ],
-            "free": []
-        },
-        "level_3": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Music Pack Savior"
-            ]
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_7": {
-            "premium": [
-                "Mad Maggie Quip Kill Quip : You were all sizzle and no steak"
-            ],
-            "free": [
-                "Sentinel Shedding the Dead"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "Charm Lava Drill"
-            ],
-            "free": [
-                "Mad Maggie Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "HAVOC Rifle Scaled Tapestry"
-            ],
-            "free": [
-                "Gibraltar Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_10": {
-            "premium": [
-                "Mad Maggie Banner Frame Burning Embrace"
-            ],
-            "free": [
-                "Wraith Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_11": {
-            "premium": [
-                "Mad Maggie Holo-Spray Eat this, Eggs!"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_12": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Mozambique Shotgun Lion Tamer"
-            ]
-        },
-        "level_14": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Loading Screen Inside the Outlands: Episode 1082.5"
-            ],
-            "free": [
-                "Charge Rifle Scales and Stripes"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "Gibraltar Banner Frame Brudda in Arms"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "R-301 Carbine Saint's End"
-            ],
-            "free": [
-                "Fuse Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_18": {
-            "premium": [
-                "Wraith Holo-Spray All the Tales are True"
-            ],
-            "free": [
-                "Mirage Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_19": {
-            "premium": [
-                "Gibraltar Cosmetic Emote Side Hustle"
-            ],
-            "free": [
-                "Revenant Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_21": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Bocek Compound Bow Fate Sealer"
-            ]
-        },
-        "level_22": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_23": {
-            "premium": [
-                "Fuse Stat Tracker Wins"
-            ],
-            "free": [
-                "Bloodhound Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_24": {
-            "premium": [
-                "Fuse Stat Tracker Damage Done"
-            ],
-            "free": []
-        },
-        "level_25": {
-            "premium": [
-                "Fuse Sir Fitzroy"
-            ],
-            "free": [
-                "Lifeline Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_26": {
-            "premium": [
-                "Fuse Stat Tracker Kills"
-            ],
-            "free": [
-                "Newcastle Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Kraber .50-Cal Sniper Regal Seals"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "RE-45 Auto Guardian's Battlecrest"
-            ]
-        },
-        "level_30": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "Bloodhound Quip Kill Quip : By your hand, through me"
-            ],
-            "free": [
-                "Seer Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_32": {
-            "premium": [
-                "Charm Charm of Nature"
-            ],
-            "free": []
-        },
-        "level_33": {
-            "premium": [
-                "Triple Take Fantastic Trails"
-            ],
-            "free": [
-                "Ash Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_34": {
-            "premium": [
-                "Bloodhound Banner Frame Cold Sparks"
-            ],
-            "free": [
-                "Horizon Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_35": {
-            "premium": [
-                "Bloodhound Holo-Spray Fire At Will"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_37": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "30-30 Repeater Singed Sight"
-            ]
-        },
-        "level_39": {
-            "premium": [
-                "Newcastle Quip Kill Quip : Real Heroes Get Back Up"
-            ],
-            "free": [
-                "Octane Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_41": {
-            "premium": [
-                "Volt SMG Retro Ball"
-            ],
-            "free": [
-                "Wattson Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_42": {
-            "premium": [
-                "Newcastle Banner Frame The Hot Seat"
-            ],
-            "free": [
-                "Pathfinder Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_43": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Newcastle Holo-Spray You Can't Choose Your Family"
-            ]
-        },
-        "level_45": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Peacekeeper Scaled Silhouette"
-            ]
-        },
-        "level_47": {
-            "premium": [
-                "Wingman Imbued Fury"
-            ],
-            "free": [
-                "Loba Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Bloodhound Stat Tracker Wins"
-            ],
-            "free": [
-                "Valkyrie Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_49": {
-            "premium": [
-                "Bloodhound Stat Tracker Kills"
-            ],
-            "free": [
-                "Crypto Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_50": {
-            "premium": [
-                "Bloodhound Feral's Future"
-            ],
-            "free": [
-                "Castic Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Bloodhound Stat Tracker Damage Done"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_53": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Charm Royal Crest"
-            ]
-        },
-        "level_55": {
-            "premium": [
-                "Loading Screen ApexGamesDaily Presents..."
-            ],
-            "free": [
-                "Bangalore Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Fuse Quip Kill Quip : We're Not Here To Shag Spiders"
-            ],
-            "free": [
-                "Bangalore Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_57": {
-            "premium": [
-                "Charm Lordly Helm"
-            ],
-            "free": [
-                "Caustic Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_58": {
-            "premium": [
-                "VK-47 Flatline Gilded Lineage"
-            ],
-            "free": [
-                "Crypto Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_59": {
-            "premium": [
-                "Fuse Banner Frame Tower Defense"
-            ],
-            "free": [
-                "Crypto Blue Dragon"
-            ]
-        },
-        "level_60": {
-            "premium": [
-                "Fuse Holo-Spray Roger That Boss"
-            ],
-            "free": []
-        },
-        "level_61": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Devotion LMG Serpent's Blood"
-            ]
-        },
-        "level_62": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_63": {
-            "premium": [
-                "Charm Defender Axe"
-            ],
-            "free": [
-                "Valkyrie Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_64": {
-            "premium": [
-                "L-STAR EMG Highborn"
-            ],
-            "free": [
-                "Pathfinder Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_65": {
-            "premium": [
-                "Fuse Banner Frame Ancient Infusion"
-            ],
-            "free": [
-                "Loba Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_66": {
-            "premium": [
-                "Valkyrie Quip Kill Quip : I Stick A Fork In You, You're Done"
-            ],
-            "free": [
-                "Wattson Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_67": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Loading Screen Selfish Mistakes"
-            ]
-        },
-        "level_68": {
-            "premium": [
-                "Rampage LMG The Dragon's Clutch"
-            ],
-            "free": []
-        },
-        "level_69": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "G7 Scout Quicksilver"
-            ]
-        },
-        "level_70": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_71": {
-            "premium": [
-                "Pathfinder Quip Kill Quip : Look On The Brightside - I Won"
-            ],
-            "free": [
-                "Octane Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_72": {
-            "premium": [
-                "Charm I Call Dibs"
-            ],
-            "free": [
-                "Horizon Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_73": {
-            "premium": [
-                "Hemlok Burst AR Rare Throwback"
-            ],
-            "free": [
-                "Ash Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_74": {
-            "premium": [
-                "Pathfinder Banner Frame Return to Sender"
-            ],
-            "free": [
-                "Rampart Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_75": {
-            "premium": [
-                "Pathfinder Holo-Spray Zip It!"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_76": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_77": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Music Pack Newcastle"
-            ]
-        },
-        "level_78": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_79": {
-            "premium": [
-                "Alternator SMG Virtual Hero"
-            ],
-            "free": [
-                "Rampart Stat Tracker Season 13 Wins"
-            ]
-        },
-        "level_80": {
-            "premium": [
-                "Charm Mighty Incisor"
-            ],
-            "free": [
-                "Seer Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_81": {
-            "premium": [
-                "Valkyrie Holo-Spray No One Looks Up"
-            ],
-            "free": [
-                "Newcastle Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_82": {
-            "premium": [
-                "Loading Screen Out With the Old, In With the New"
-            ],
-            "free": [
-                "Lifeline Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_83": {
-            "premium": [
-                "Crypto Skydive Emote Circling Back"
-            ],
-            "free": [
-                "Loading Screen Nothing Personal"
-            ]
-        },
-        "level_84": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_85": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Prowler Burst PDW Dragon Crest"
-            ]
-        },
-        "level_86": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_87": {
-            "premium": [
-                "Charm Battle Crested"
-            ],
-            "free": [
-                "Bloodhound Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_88": {
-            "premium": [
-                "R-99 SMG Contained Corruption"
-            ],
-            "free": [
-                "Revenant Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_89": {
-            "premium": [
-                "Caustic Banner Frame Venom Eggs"
-            ],
-            "free": [
-                "Mirage Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_90": {
-            "premium": [
-                "Bangalore Holo-Spray You Can Choose Your Friends"
-            ],
-            "free": [
-                "Fuse Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_91": {
-            "premium": [
-                "Newcastle Skydive Emote Air Defense"
-            ],
-            "free": [
-                "P2020 Spinal Double Tap"
-            ]
-        },
-        "level_92": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_93": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_94": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_95": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Horizon Quip Kill Quip : You Seem A Bit Dense"
-            ]
-        },
-        "level_96": {
-            "premium": [
-                "Charm Finders Keepers"
-            ],
-            "free": [
-                "Wraith Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_97": {
-            "premium": [
-                "Mirage Cosmetic Emote Terrible Twos"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_98": {
-            "premium": [
-                "Longbow DMR Wings of Wrath"
-            ],
-            "free": [
-                "Gibraltar Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_99": {
-            "premium": [
-                "Mirage Quip Kill Quip : I Thought You Were Someone Else"
-            ],
-            "free": [
-                "Mad Maggie Stat Tracker Season 13 Kills"
-            ]
-        },
-        "level_100": {
-            "premium": [
-                "M600 Spitfire Winter Soul"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_110": {
-            "premium": [
-                "M600 Spitfire Molten Soul"
-            ],
-            "free": [
-                "Badge : Saviors Level Season 13"
-            ]
-        }
+    "level_2": {
+      "premium": [
+        "Newcastle Skydive Emote Three, Two, One"
+      ],
+      "free": []
     },
-    "patches": {
-        "Newcastle": [
-            {
-                "patch": "May 10, 2022 Patch",
-                "details": [
-                    "Introduced -> Legend released this season."
-                ]
-            }
-        ],
-        "Rampart": [
-            {
-                "patch": "May 10, 2022 Patch",
-                "details": [
-                    "[Ultimate] Buff -> Mobile Minigun \"Sheila\": Reduced spin-up time from 1.75 to 1.25.",
-                    "[Tactical] Buff -> Amped Cover: Increased health while deploying from 45 to 120 and reduced deploy time from 4.25 to 3.6."
-                ]
-            }
-        ],
-        "Valkyrie": [
-            {
-                "patch": "May 10, 2022 Patch",
-                "details": [
-                    "[Ultimate] Nerf -> Skyward Dive: No longer possible to spin in the air while launching."
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Music Pack Savior"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Mad Maggie Quip Kill Quip : You were all sizzle and no steak"
+      ],
+      "free": [
+        "Sentinel Shedding the Dead"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Charm Lava Drill"
+      ],
+      "free": [
+        "Mad Maggie Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "HAVOC Rifle Scaled Tapestry"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Mad Maggie Banner Frame Burning Embrace"
+      ],
+      "free": [
+        "Wraith Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Mad Maggie Holo-Spray Eat this, Eggs!"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_12": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Mozambique Shotgun Lion Tamer"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Loading Screen Inside the Outlands: Episode 1082.5"
+      ],
+      "free": [
+        "Charge Rifle Scales and Stripes"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Gibraltar Banner Frame Brudda in Arms"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "R-301 Carbine Saint's End"
+      ],
+      "free": [
+        "Fuse Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Wraith Holo-Spray All the Tales are True"
+      ],
+      "free": [
+        "Mirage Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Gibraltar Cosmetic Emote Side Hustle"
+      ],
+      "free": [
+        "Revenant Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Bocek Compound Bow Fate Sealer"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "Fuse Stat Tracker Wins"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Fuse Stat Tracker Damage Done"
+      ],
+      "free": []
+    },
+    "level_25": {
+      "premium": [
+        "Fuse Sir Fitzroy"
+      ],
+      "free": [
+        "Lifeline Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "Fuse Stat Tracker Kills"
+      ],
+      "free": [
+        "Newcastle Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Kraber .50-Cal Sniper Regal Seals"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "RE-45 Auto Guardian's Battlecrest"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Bloodhound Quip Kill Quip : By your hand, through me"
+      ],
+      "free": [
+        "Seer Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Charm Charm of Nature"
+      ],
+      "free": []
+    },
+    "level_33": {
+      "premium": [
+        "Triple Take Fantastic Trails"
+      ],
+      "free": [
+        "Ash Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "Bloodhound Banner Frame Cold Sparks"
+      ],
+      "free": [
+        "Horizon Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Bloodhound Holo-Spray Fire At Will"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_37": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "30-30 Repeater Singed Sight"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Newcastle Quip Kill Quip : Real Heroes Get Back Up"
+      ],
+      "free": [
+        "Octane Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "Volt SMG Retro Ball"
+      ],
+      "free": [
+        "Wattson Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "Newcastle Banner Frame The Hot Seat"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Newcastle Holo-Spray You Can't Choose Your Family"
+      ]
+    },
+    "level_45": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Peacekeeper Scaled Silhouette"
+      ]
+    },
+    "level_47": {
+      "premium": [
+        "Wingman Imbued Fury"
+      ],
+      "free": [
+        "Loba Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Bloodhound Stat Tracker Wins"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Bloodhound Stat Tracker Kills"
+      ],
+      "free": [
+        "Crypto Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Bloodhound Feral's Future"
+      ],
+      "free": [
+        "Castic Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Bloodhound Stat Tracker Damage Done"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_53": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Charm Royal Crest"
+      ]
+    },
+    "level_55": {
+      "premium": [
+        "Loading Screen ApexGamesDaily Presents..."
+      ],
+      "free": [
+        "Bangalore Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Fuse Quip Kill Quip : We're Not Here To Shag Spiders"
+      ],
+      "free": [
+        "Bangalore Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "Charm Lordly Helm"
+      ],
+      "free": [
+        "Caustic Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "VK-47 Flatline Gilded Lineage"
+      ],
+      "free": [
+        "Crypto Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Fuse Banner Frame Tower Defense"
+      ],
+      "free": [
+        "Crypto Blue Dragon"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Fuse Holo-Spray Roger That Boss"
+      ],
+      "free": []
+    },
+    "level_61": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Devotion LMG Serpent's Blood"
+      ]
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_63": {
+      "premium": [
+        "Charm Defender Axe"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_64": {
+      "premium": [
+        "L-STAR EMG Highborn"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_65": {
+      "premium": [
+        "Fuse Banner Frame Ancient Infusion"
+      ],
+      "free": [
+        "Loba Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Valkyrie Quip Kill Quip : I Stick A Fork In You, You're Done"
+      ],
+      "free": [
+        "Wattson Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_67": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Loading Screen Selfish Mistakes"
+      ]
+    },
+    "level_68": {
+      "premium": [
+        "Rampage LMG The Dragon's Clutch"
+      ],
+      "free": []
+    },
+    "level_69": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "G7 Scout Quicksilver"
+      ]
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_71": {
+      "premium": [
+        "Pathfinder Quip Kill Quip : Look On The Brightside - I Won"
+      ],
+      "free": [
+        "Octane Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_72": {
+      "premium": [
+        "Charm I Call Dibs"
+      ],
+      "free": [
+        "Horizon Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_73": {
+      "premium": [
+        "Hemlok Burst AR Rare Throwback"
+      ],
+      "free": [
+        "Ash Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_74": {
+      "premium": [
+        "Pathfinder Banner Frame Return to Sender"
+      ],
+      "free": [
+        "Rampart Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_75": {
+      "premium": [
+        "Pathfinder Holo-Spray Zip It!"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_76": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Music Pack Newcastle"
+      ]
+    },
+    "level_78": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_79": {
+      "premium": [
+        "Alternator SMG Virtual Hero"
+      ],
+      "free": [
+        "Rampart Stat Tracker Season 13 Wins"
+      ]
+    },
+    "level_80": {
+      "premium": [
+        "Charm Mighty Incisor"
+      ],
+      "free": [
+        "Seer Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_81": {
+      "premium": [
+        "Valkyrie Holo-Spray No One Looks Up"
+      ],
+      "free": [
+        "Newcastle Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "Loading Screen Out With the Old, In With the New"
+      ],
+      "free": [
+        "Lifeline Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_83": {
+      "premium": [
+        "Crypto Skydive Emote Circling Back"
+      ],
+      "free": [
+        "Loading Screen Nothing Personal"
+      ]
+    },
+    "level_84": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_85": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Prowler Burst PDW Dragon Crest"
+      ]
+    },
+    "level_86": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_87": {
+      "premium": [
+        "Charm Battle Crested"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_88": {
+      "premium": [
+        "R-99 SMG Contained Corruption"
+      ],
+      "free": [
+        "Revenant Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_89": {
+      "premium": [
+        "Caustic Banner Frame Venom Eggs"
+      ],
+      "free": [
+        "Mirage Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_90": {
+      "premium": [
+        "Bangalore Holo-Spray You Can Choose Your Friends"
+      ],
+      "free": [
+        "Fuse Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_91": {
+      "premium": [
+        "Newcastle Skydive Emote Air Defense"
+      ],
+      "free": [
+        "P2020 Spinal Double Tap"
+      ]
+    },
+    "level_92": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_94": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_95": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Horizon Quip Kill Quip : You Seem A Bit Dense"
+      ]
+    },
+    "level_96": {
+      "premium": [
+        "Charm Finders Keepers"
+      ],
+      "free": [
+        "Wraith Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_97": {
+      "premium": [
+        "Mirage Cosmetic Emote Terrible Twos"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_98": {
+      "premium": [
+        "Longbow DMR Wings of Wrath"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_99": {
+      "premium": [
+        "Mirage Quip Kill Quip : I Thought You Were Someone Else"
+      ],
+      "free": [
+        "Mad Maggie Stat Tracker Season 13 Kills"
+      ]
+    },
+    "level_100": {
+      "premium": [
+        "M600 Spitfire Winter Soul"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "M600 Spitfire Molten Soul"
+      ],
+      "free": [
+        "Badge : Saviors Level Season 13"
+      ]
     }
+  },
+  "patches": {
+    "Ash": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Passive] Buff -> Ash's passive ability now has a increased duration.",
+          "[Tactical] Nerf -> Bursts of Flame : reduced damage."
+        ]
+      }
+    ],
+    "Bloodhound": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Adjust -> Bloodhound's base movement speed has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Buff -> Level 2 Upgrade : increased tracking range."
+        ]
+      }
+    ],
+    "Caustic": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Passive] Nerf -> Nox Gas : reduced damage over time."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Ultimate] Buff -> Nox Gas Grenade : increased gas duration."
+        ]
+      }
+    ],
+    "Catalyst": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Catalyst's Perk has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Catalyst's base health has been increased."
+        ]
+      }
+    ],
+    "Mad Maggie": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Passive] Nerf -> Wheels Down : reduced speed boost."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Tactical] Buff -> Wheels Down : increased duration."
+        ]
+      }
+    ],
+    "Seer": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Passive] Nerf -> Insight : reduced range."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Ultimate] Buff -> Insight : increased duration."
+        ]
+      }
+    ],
+    "Vantage": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Passive] Nerf -> Eagle's Eye : reduced zoom level."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Tactical] Buff -> Eagle's Eye : increased duration."
+        ]
+      }
+    ],
+    "Wraith": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Passive] Nerf -> Voices From the Void : reduced range."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Ultimate] Buff -> Voices From the Void : increased duration."
+        ]
+      }
+    ],
+    "Revenant": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Passive] Nerf -> Stalker's Eye : reduced range."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Ultimate] Buff -> Silence : increased duration."
+        ]
+      }
+    ],
+    "Loba": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Loba's Perk has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Loba's base movement speed has been increased."
+        ]
+      }
+    ],
+    "Octane": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Passive] Nerf -> Swift Mend : reduced healing rate."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Tactical] Buff -> Swift Mend : increased duration."
+        ]
+      }
+    ],
+    "Rampart": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Passive] Nerf -> Gunner's Badge : reduced damage reduction."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Ultimate] Buff -> Dome Shield : increased shield duration."
+        ]
+      }
+    ],
+    "Bangalore": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Passive] Nerf -> Double Time : reduced speed boost."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Tactical] Buff -> Rolling Thunder : increased damage."
+        ]
+      }
+    ],
+    "Bloodhound's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Bloodhound's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Bloodhound's base health has been increased."
+        ]
+      }
+    ],
+    "Catalyst's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Catalyst's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Catalyst's base health has been increased."
+        ]
+      }
+    ],
+    "Loba's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Loba's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Loba's base movement speed has been increased."
+        ]
+      }
+    ],
+    "Revenant's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Revenant's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Revenant's base health has been increased."
+        ]
+      }
+    ],
+    "Seer's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Seer's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Seer's base health has been increased."
+        ]
+      }
+    ],
+    "Vantage's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Vantage's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Vantage's base health has been increased."
+        ]
+      }
+    ],
+    "Wraith's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Wraith's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Wraith's base health has been increased."
+        ]
+      }
+    ],
+    "Caustic's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Caustic's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Caustic's base health has been increased."
+        ]
+      }
+    ],
+    "Mad Maggie's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Mad Maggie's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Mad Maggie's base health has been increased."
+        ]
+      }
+    ],
+    "Octane's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Octane's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Octane's base health has been increased."
+        ]
+      }
+    ],
+    "Rampart's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Rampart's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Rampart's base health has been increased."
+        ]
+      }
+    ],
+    "Bangalore's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Bangalore's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Bangalore's base health has been increased."
+        ]
+      }
+    ],
+    "Ash's Upgrade": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Ash's Level 2 Upgrade has been adjusted."
+        ]
+      },
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Base] Buff -> Ash's base health has been increased."
+        ]
+      }
+    ],
+    "Bloodhound's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Bloodhound's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Bloodhound's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ],
+    "Catalyst's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Catalyst's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Catalyst's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ],
+    "Loba's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Loba's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Loba's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ],
+    "Revenant's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Revenant's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Revenent's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ],
+    "Seer's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Seer's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Seer's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ],
+    "Vantage's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Vantage's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Vantage's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ],
+    "Wraith's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Wraith's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Wraith's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ],
+    "Caustic's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Caustic's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Caustic's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ],
+    "Mad Maggie's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Mad Maggie's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Mad Maggie's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ],
+    "Octane's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Octane's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Octane's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ],
+    "Rampart's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Rampart's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Rampart's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ],
+    "Bangalore's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Bangalore's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Bangalore's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ],
+    "Ash's Upgrades": [
+      {
+        "patch": "Saviors",
+        "details": [
+          "[Perks] Adjust -> Ash's Level 2 Upgrade has been adjusted.",
+          "[Perks] Adjust -> Ash's Level 3 Upgrade has been adjusted."
+        ]
+      }
+    ]
+  }
 }

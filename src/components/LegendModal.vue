@@ -138,7 +138,8 @@ const formatReworkText = (text: string) => {
     return [intro, ...details];
 };
 
-const getPatchTypeClass = (type: string) => {
+const getPatchTypeClass = (type: string | undefined) => {
+    if (!type) return 'text-gray-400 border-gray-400/30 bg-gray-400/10';
     const t = type.toLowerCase();
     if (t.includes('buff')) return 'text-green-400 border-green-400/30 bg-green-400/10';
     if (t.includes('nerf')) return 'text-apex-red border-apex-red/30 bg-apex-red/10';

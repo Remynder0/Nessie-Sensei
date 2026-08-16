@@ -1,501 +1,499 @@
 {
-    "season": "23_2",
+  "season": "23_2",
+  "name": "From the Rift",
+  "start_date": "November 5, 2024",
+  "end_date": "February 10, 2025",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_23.svg?3e7d59",
     "name": "From the Rift",
-    "start_date": "November 5, 2024",
-    "end_date": "February 10, 2025",
-    "infobox": {
-        "name": "From the Rift",
-        "Featured map": "World's Edge | Broken Moon | Storm Point",
-        "Theme": "Space/Ice",
-        "Reactive weapon": "Mozambique",
-        "Start date": "November 5, 2024",
-        "End date": "February 10, 2025",
-        "Events": "Void Mercenaries | Winter's Haunt | Astral Anomaly | Lunar Rebirth"
+    "Featured map": "World's Edge | Broken Moon | Storm Point",
+    "Theme": "Space/Ice",
+    "Reactive weapon": "Mozambique",
+    "Start date": "November 5, 2024",
+    "End date": "February 10, 2025",
+    "Events": [
+      "Void Mercenaries",
+      "Winter's Haunt",
+      "Astral Anomaly",
+      "Lunar Rebirth"
+    ]
+  },
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Mad Maggie Bubblegum Flare",
+        "HAVOC Rifle Star Chomp",
+        "Banner Frame Happy Valley Adventure",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
     },
-    "max_level": 60,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Mad Maggie Bubblegum Flare",
-                "HAVOC Rifle Star Chomp",
-                "Banner Frame Happy Valley Adventure",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_2": {
-            "premium": [
-                "Holospray Hands Off"
-            ],
-            "free": [
-                "Transition Mirror Mirror"
-            ]
-        },
-        "level_3": {
-            "premium": [
-                "Wattson Quip Kill Quip : It's not fair, I know"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Pathfinder Cosmetic Emote Robotic Groove"
-            ],
-            "free": []
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "Stat Tracker Paw Patroller - Top",
-                "Stat Tracker Paw Patroller - Middle",
-                "Stat Tracker Paw Patroller - Bottom"
-            ],
-            "free": []
-        },
-        "level_7": {
-            "premium": [
-                "Banner Frame Paw Prize"
-            ],
-            "free": [
-                "Music Pack From the Rift Split 2"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "Mastiff Shotgun Paw Powered"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_10": {
-            "premium": [
-                "Pathfinder Paw Patroller",
-                "Pathfinder Catfinder +"
-            ],
-            "free": []
-        },
-        "level_11": {
-            "premium": [
-                "Holospray Nothing Personal",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_12": {
-            "premium": [
-                "Banner Frame Happy Tea Time"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_14": {
-            "premium": [
-                "Holospray It's Just You and Me Friend"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "Longbow DMR Butterfly Beauty"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_18": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_19": {
-            "premium": [
-                "Sticker Mecha Mate"
-            ],
-            "free": [
-                "Gibraltar Cosmetic Emote Big Shame"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Loba Sherbet Sunset",
-                "Exotic Shards 10 +"
-            ],
-            "free": []
-        },
-        "level_21": {
-            "premium": [
-                "Banner Frame Pet Pals",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_22": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_23": {
-            "premium": [
-                "P2020 Dino Snacks"
-            ],
-            "free": []
-        },
-        "level_24": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Holospray Cheese"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_26": {
-            "premium": [
-                "Crypto Skydive Emote In-flight Misfire"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Mad Maggie Cosmetic Emote Running Man Mags"
-            ],
-            "free": []
-        },
-        "level_30": {
-            "premium": [
-                "Exotic Shards 10",
-                "C.A.R. SMG Legend's Best Friend"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "Apex Coins 100",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_32": {
-            "premium": [
-                "Little E-Reader"
-            ],
-            "free": [
-                "Rampage LMG Shark Attack"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Stat Tracker Nighttime Nessie - Top",
-                "Stat Tracker Nighttime Nessie - Middle",
-                "Stat Tracker Nighttime Nessie - Bottom"
-            ],
-            "free": []
-        },
-        "level_34": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Transition Dance Encounter"
-            ]
-        },
-        "level_35": {
-            "premium": [
-                "Alternator SMG Nessinator"
-            ],
-            "free": []
-        },
-        "level_36": {
-            "premium": [
-                "Banner Frame Nessie Dreamland"
-            ],
-            "free": []
-        },
-        "level_37": {
-            "premium": [
-                "Sticker Luminous Love"
-            ],
-            "free": []
-        },
-        "level_38": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_39": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_40": {
-            "premium": [
-                "Wattson Nighttime Nessie",
-                "Wattson Heart Signal +"
-            ],
-            "free": []
-        },
-        "level_41": {
-            "premium": [
-                "Bloodhound Cosmetic Emote Higher Devotion",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_42": {
-            "premium": [
-                "Bloodhound Quip Kill Quip : My Task is far from done"
-            ],
-            "free": []
-        },
-        "level_43": {
-            "premium": [
-                "Bocek Compound Bow Loch-ed On"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_44": {
-            "premium": [
-                "Holospray Come Geta"
-            ],
-            "free": []
-        },
-        "level_45": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Gibraltar Shark Bite"
-            ]
-        },
-        "level_46": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_48": {
-            "premium": [
-                "Banner Frame Spa Day"
-            ],
-            "free": [
-                "Bessie"
-            ]
-        },
-        "level_49": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_50": {
-            "premium": [
-                "Bloodhound Dino Camouflage"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Holospray Let Me Do It For You"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_53": {
-            "premium": [
-                "Wraith Skydive Emote Tired Dive"
-            ],
-            "free": []
-        },
-        "level_54": {
-            "premium": [
-                "Flatline Outfoxed"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Gibraltar Banner Frame Pixel Pet"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_57": {
-            "premium": [
-                "Crafting Metals 200",
-                "Banner Frame Sweet Merch"
-            ],
-            "free": []
-        },
-        "level_58": {
-            "premium": [
-                "Unexpected Occupant"
-            ],
-            "free": []
-        },
-        "level_59": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_60": {
-            "premium": [
-                "Mozambique Shotgun Ol' Nessie"
-            ],
-            "free": []
-        }
+    "level_2": {
+      "premium": [
+        "Holospray Hands Off"
+      ],
+      "free": [
+        "Transition Mirror Mirror"
+      ]
     },
-    "patches": {
-        "Alter": [
-            {
-                "patch": "The Astral Anomaly Event (2025-01-06)",
-                "details": [
-                    "[Ultimate] Buff -> Void Nexus: Cooldown reduced to 120s (was 180s).",
-                    "[Ultimate] Buff -> Void Nexus: Range increased to 300m (was 200m)",
-                    "[Ultimate] Buff -> Void Nexus: No longer times out by default",
-                    "[Perks] Removed -> Eternal Nexus: Ult no longer times out",
-                    "[Perks] New -> Multidimensional: grants a second Void Nexus and both can exist at the same time"
-                ]
-            }
-        ],
-        "Horizon": [
-            {
-                "patch": "The Astral Anomaly Event (2025-01-06)",
-                "details": [
-                    "[Tactical] Adjust -> Gravity Lift: adjusted visual effects of the lift to reduce visual load on the battlefield, adjusted audio of players in the lift to be more noticeable."
-                ]
-            }
-        ],
-        "Loba": [
-            {
-                "patch": "The Astral Anomaly Event (2025-01-06)",
-                "details": [
-                    "[Ultimate] Buff -> Black Market: ultimate starts with 99% charge (was 50%), added griefing protection, can now be remotely picked-up", 
-                    "[Ultimate] Buff -> Can now grab banners (does not consume a Black Market usage), can now open vaults without a key, but no EVO is awarded.",
-                    "[Ultimate] Buff -> Small meds (shield cells and syringes) no longer consume a Black Market usage.",
-                    "[Tactical] Buff -> Burglar's Best Friend: now has two charges, reduced Tac toss time slightly and recovery time significantly.",
-                    "[Passive] Buff -> Eye for Quality: Loba can ADS when unarmed to see the loot UI for items highlighted by her passive.",
-                    "[Perks] Buff -> Shopping Spree: reworked to allow entire squad to take 3 items from a friendly Black Market", 
-                    "[Perks] Removed -> High Value",
-                    "[Perks] Removed -> Market Expansion",
-                    "[Perks] New -> Wolf’s Claws: gain speed boost and significantly faster weapon draw after a teleport.",
-                    "[Perks] Removed -> Tactical Upgrad",
-                    "[Perks] New -> Brand New Bag: entire squad receives gold backpacks when selected", 
-                    "[Perks] New -> Escape Artist: Loba can regenerate 50 shield HP after teleporting with her Tac, damage stops the regen."
-                ]
-            }
-        ],
-        "Mirage": [
-            {
-                "patch": "The Astral Anomaly Event (2025-01-06)",
-                "details": [
-                    "[Passive] Buff -> Now You See Me…: now also cloaks when using a healing consumable item, entering cloak now only takes 1s (was 1.5s), after a revive, Mirage now has increased speed while cloaked.",
-                    "[Perks] Removed -> More Me",
-                    "[Perks] New -> Boozle-Eye: Bamboozles now also scan the target who shot the clone",
-                    "[Perks] Removed -> Battpack: in addition to the extra battery per stack, this upgrade now also shows battery counts in Death Boxes.", 
-                    "[Perks] New -> Renaissance Man: gain access to all other Classes’ world interactions: Assault Bins, Care Package scans, Survey Beacons, and Ring Consoles."
-                ]
-            }
-        ],
-        "Pathfinder": [
-            {
-                "patch": "The Astral Anomaly Event (2025-01-06)",
-                "details": [
-                    "[Tactical] Nerf -> Grappling Hook: cooldown increased to 30s (was variable)", 
-                    "[Perks] Nerf -> Insider Knowledge: reduced Max Cooldown earned from Scanning Care Packages, reduced zipline change gained by Scanning Care Packages.",
-                    "[Passive] Nerf -> Zipline Zen: damage reduction reduced to 25% (was 50%)."
-                ]
-            }
-        ],
-        "Vantage": [
-            {
-                "patch": "The Astral Anomaly Event (2025-01-06)",
-                "details": [
-                    "[Ultimate] Adjust -> Sniper's Mark: reloading with an Ult Accelerant uses new animations and keeps the weapon active."
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Wattson Quip Kill Quip : It's not fair, I know"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Pathfinder Cosmetic Emote Robotic Groove"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Stat Tracker Paw Patroller - Top",
+        "Stat Tracker Paw Patroller - Middle",
+        "Stat Tracker Paw Patroller - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Banner Frame Paw Prize"
+      ],
+      "free": [
+        "Music Pack From the Rift Split 2"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Mastiff Shotgun Paw Powered"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Pathfinder Paw Patroller",
+        "Pathfinder Catfinder +"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Holospray Nothing Personal",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Banner Frame Happy Tea Time"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Holospray It's Just You and Me Friend"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Longbow DMR Butterfly Beauty"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Sticker Mecha Mate"
+      ],
+      "free": [
+        "Gibraltar Cosmetic Emote Big Shame"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Loba Sherbet Sunset",
+        "Exotic Shards 10 +"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Banner Frame Pet Pals",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "P2020 Dino Snacks"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Holospray Cheese"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Crypto Skydive Emote In-flight Misfire"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Mad Maggie Cosmetic Emote Running Man Mags"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Exotic Shards 10",
+        "C.A.R. SMG Legend's Best Friend"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Little E-Reader"
+      ],
+      "free": [
+        "Rampage LMG Shark Attack"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Stat Tracker Nighttime Nessie - Top",
+        "Stat Tracker Nighttime Nessie - Middle",
+        "Stat Tracker Nighttime Nessie - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Dance Encounter"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Alternator SMG Nessinator"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Banner Frame Nessie Dreamland"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Sticker Luminous Love"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Wattson Nighttime Nessie",
+        "Wattson Heart Signal +"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Bloodhound Cosmetic Emote Higher Devotion",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Bloodhound Quip Kill Quip : My Task is far from done"
+      ],
+      "free": []
+    },
+    "level_43": {
+      "premium": [
+        "Bocek Compound Bow Loch-ed On"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Holospray Come Geta"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Gibraltar Shark Bite"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Banner Frame Spa Day"
+      ],
+      "free": [
+        "Bessie"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Bloodhound Dino Camouflage"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Holospray Let Me Do It For You"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Wraith Skydive Emote Tired Dive"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Flatline Outfoxed"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Gibraltar Banner Frame Pixel Pet"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Crafting Metals 200",
+        "Banner Frame Sweet Merch"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Unexpected Occupant"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Mozambique Shotgun Ol' Nessie"
+      ],
+      "free": []
     }
+  },
+  "patches": {
+    "Alter": [
+      {
+        "patch": "Transcend the Otherworld in the Astral Anomaly Event",
+        "details": [
+          "[Base] Buff -> Loot in Death Boxes can now be pinged while using Alter’s passive.",
+          "[Passive] Nerf -> Void Nexus: cooldown reduced to 120s (was 180s)."
+        ]
+      }
+    ],
+    "Horizon": [
+      {
+        "patch": "Transcend the Otherworld in the Astral Anomaly Event",
+        "details": [
+          "[Base] Buff -> Gravity Lift: adjusted visual effects of the lift to reduce visual load on the battlefield.",
+          "[Base] Buff -> Gravity Lift: adjusted audio of players in the lift to be more noticeable."
+        ]
+      }
+    ],
+    "Loba": [
+      {
+        "patch": "Transcend the Otherworld in the Astral Anomaly Event",
+        "details": [
+          "[Ultimate] Buff -> Black Market: ultimate starts with 99% charge (was 50%).",
+          "[Perks] Adjust -> Burglar’s Best Friend: now has two charges.",
+          "[Perks] Adjust -> Burglar’s Best Friend: reduced Tac toss time slightly and recovery time significantly.",
+          "[Perks] Adjust -> Burglar’s Best Friend: reduced sound FX and VFX on thrown bracelet.",
+          "[Base] Buff -> Eye for Quality: Loba can ADS when unarmed to see the loot UI for items highlighted by her passive.",
+          "[Perks] Nerf -> Upgrades: Level 2 High Value: removed, Market Expansion: removed, Shopping Spree: moved to Level 2, reworked to allow entire squad to take 3 items from a friendly Black Market, Wolf’s Claws: gain speed boost and significantly faster weapon draw after a teleport.",
+          "[Perks] Buff -> Upgrades: Level 3 Brand New Bag: entire squad receives gold backpacks when selected, Escape Artist: Loba can regenerate 50 shield HP after teleporting with her Tac, damage stops the regen."
+        ]
+      }
+    ],
+    "Mirage": [
+      {
+        "patch": "Transcend the Otherworld in the Astral Anomaly Event",
+        "details": [
+          "[Passive] Buff -> Now You See Me…: now also cloaks when using a healing consumable item.",
+          "[Passive] Nerf -> Now You See Me…: cloak is removed by damage, ability use, or dropping the heal action.",
+          "[Passive] Adjust -> Now You See Me…: entering cloak now only takes 1s (was 1.5s).",
+          "[Perks] Buff -> Upgrades: Level 2 Boozle-Eye: Bamboozles now also scan the target who shot the clone, Renaissance Man: gain access to all other Classes’ world interactions: Assault Bins, Care Package scans, Survey Beacons, and Ring Consoles."
+        ]
+      }
+    ],
+    "Pathfinder": [
+      {
+        "patch": "Transcend the Otherworld in the Astral Anomaly Event",
+        "details": [
+          "[Base] Nerf -> Grappling Hook: cooldown increased to 30s (was variable).",
+          "[Perks] Nerf -> Insider Knowledge: reduced Max Cooldown earned from Scanning Care Packages, reduced zipline change gained by Scanning Care Packages.",
+          "[Perks] Adjust -> Upgrade - Zipline Zen: damage reduction reduced to 25% (was 50%)."
+        ]
+      }
+    ],
+    "Vantage": [
+      {
+        "patch": "Transcend the Otherworld in the Astral Anomaly Event",
+        "details": [
+          "[Base] Buff -> Sniper’s Mark: reloading with an Ult Accelerant uses new animations and keeps the weapon active."
+        ]
+      }
+    ]
+  }
 }

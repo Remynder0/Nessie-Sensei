@@ -1,862 +1,1437 @@
 {
-    "season": "14",
+  "season": "14",
+  "name": "Hunted",
+  "start_date": "August 9, 2022",
+  "end_date": "November 1st, 2022",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_14.svg?31faf6",
     "name": "Hunted",
-    "start_date": "August 9, 2022",
-    "end_date": "November 1st, 2022",
-    "infobox": {
-        "name": "Hunted",
-        "New Legend": "Vantage",
-        "Featured map": "Kings Canyon",
-        "Season Quest": "\" Friends Like These",
-        "Theme": "Hunting and Wilderness",
-        "Reactive weapon": "Triple Take",
-        "Start date": "August 9, 2022",
-        "End date": "November 1st, 2022",
-        "Events": "Beast of Prey | Fight or Fright (2022) Fight or Fright"
+    "New Legend": "Vantage",
+    "Featured map": "Kings Canyon",
+    "Season Quest": "\" Friends Like These",
+    "Theme": "Hunting and Wilderness",
+    "Reactive weapon": "Triple Take",
+    "Start date": "August 9, 2022",
+    "End date": "November 1st, 2022",
+    "Events": [
+      "Beast of Prey",
+      "Fight or Fright (2022) Fight or Fright"
+    ]
+  },
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Lucky Draw",
+        "Sandswept",
+        "Survival Sharp",
+        "Anya's Armor",
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Loading Screen Psych Evaluation of T-0323"
+      ]
     },
-    "max_level": 110,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Lucky Draw",
-                "Sandswept",
-                "Survival Sharp",
-                "Anya's Armor",
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Loading Screen Psych Evaluation of T-0323"
-            ]
-        },
-        "level_2": {
-            "premium": [
-                "Wing It | Vantage Skydive Emote"
-            ],
-            "free": []
-        },
-        "level_3": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Music Pack Hunted"
-            ]
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Big Game"
-            ]
-        },
-        "level_7": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "R-99 SMG Upstanding Animal"
-            ],
-            "free": [
-                "Season 14 Wins as Pathfinder | Pathfinder Tracker"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "I Could Eat a Leviathan | Valkyrie Kill Quip"
-            ],
-            "free": [
-                "Season 14 Wins as Valkyrie | Valkyrie Tracker"
-            ]
-        },
-        "level_10": {
-            "premium": [
-                "Leader of the Pack | Loba Holo"
-            ],
-            "free": [
-                "Equilibrium"
-            ]
-        },
-        "level_11": {
-            "premium": [
-                "Jurassic Nessie | Wattson Frame"
-            ],
-            "free": [
-                "Loading Screen Happy Birthday, Mara"
-            ]
-        },
-        "level_12": {
-            "premium": [
-                "Footwork | Lifeline Emote"
-            ],
-            "free": [
-                "Season 14 Wins as Lifeline | Lifeline Tracker"
-            ]
-        },
-        "level_13": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_14": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Kills as Wraith | Wraith Tracker"
-            ],
-            "free": [
-                "On My Mark"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "Wins as Wraith | Wraith Tracker"
-            ],
-            "free": [
-                "Season 14 Wins as Bangalore | Bangalore Tracker"
-            ]
-        },
-        "level_17": {
-            "premium": [
-                "Time to Strike | Wraith Holo"
-            ],
-            "free": [
-                "Season 14 Wins as Wattson | Wattson Tracker"
-            ]
-        },
-        "level_18": {
-            "premium": [
-                "Base Camp | Wraith Frame"
-            ],
-            "free": [
-                "Season 14 Wins as Crypto | Crypto Tracker"
-            ]
-        },
-        "level_19": {
-            "premium": [
-                "Damage Done as Wraith | Wraith Tracker"
-            ],
-            "free": [
-                "Season 14 Wins as Revenant | Revenant Tracker"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Jade Tiger"
-            ]
-        },
-        "level_21": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_22": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_23": {
-            "premium": [
-                "You Always End Up in the Dirt | Wraith Kill Quip"
-            ],
-            "free": [
-                "Season 14 Wins as Wraith"
-            ]
-        },
-        "level_24": {
-            "premium": [
-                "Jade Empire"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Veteran Voyager | Wraith Skin"
-            ],
-            "free": [
-                "Circuitry"
-            ]
-        },
-        "level_26": {
-            "premium": [
-                "R-99 SMG Sunset Scavenger"
-            ],
-            "free": [
-                "Season 14 Wins as Octane | Octane Tracker"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Season 14 Wins as Gibraltar | Gibraltar Tracker"
-            ]
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Cinder Scales"
-            ]
-        },
-        "level_30": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "I Knew This'd Happen | Vantage Kill Quip"
-            ],
-            "free": [
-                "Season 14 Wins as Bloodhound | Bloodhound Tracker"
-            ]
-        },
-        "level_32": {
-            "premium": [
-                "Final Rest | Vantage Frame"
-            ],
-            "free": [
-                "Bush Whacker"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Task Tracker"
-            ],
-            "free": [
-                "Season 14 Wins as Vantage | Vantage Tracker"
-            ]
-        },
-        "level_34": {
-            "premium": [
-                "Covering Fire"
-            ],
-            "free": [
-                "Season 14 Wins as Loba | Loba Tracker"
-            ]
-        },
-        "level_35": {
-            "premium": [
-                "Sharpen Your Senses | Vantage Holo"
-            ],
-            "free": [
-                "Season 14 Wins as Rampart | Rampart Tracker"
-            ]
-        },
-        "level_36": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_37": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Prints"
-            ]
-        },
-        "level_38": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_39": {
-            "premium": [
-                "Goin' Wild | Mad Maggie Holo"
-            ],
-            "free": [
-                "Season 14 Wins as Fuse | Fuse Tracker"
-            ]
-        },
-        "level_40": {
-            "premium": [
-                "Savannah's Promise"
-            ],
-            "free": [
-                "Season 14 Wins as Seer | Seer Tracker"
-            ]
-        },
-        "level_41": {
-            "premium": [
-                "I Move a Lot Quicker Than I Look | Newcastle Kill Quip"
-            ],
-            "free": [
-                "Explorer's Touch"
-            ]
-        },
-        "level_42": {
-            "premium": [
-                "Death Protection | Revenant Frame"
-            ],
-            "free": [
-                "Season 14 Wins as Ash | Ash Tracker"
-            ]
-        },
-        "level_43": {
-            "premium": [
-                "Floating Point | Ash Emote"
-            ],
-            "free": [
-                "Season 14 Wins as Mad Maggie | Mad Maggie Tracker"
-            ]
-        },
-        "level_44": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_45": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Loading Screen Reenactment Revolution"
-            ]
-        },
-        "level_46": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Gold Panther"
-            ],
-            "free": [
-                "Season 14 Wins as Horizon | Horizon Tracker"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Kills as Caustic | Caustic Tracker"
-            ],
-            "free": [
-                "Season 14 Wins as Newcastle | Newcastle Tracker"
-            ]
-        },
-        "level_49": {
-            "premium": [
-                "Wins as Caustic | Caustic Tracker"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_50": {
-            "premium": [
-                "Field Research | Caustic Skin"
-            ],
-            "free": [
-                "Season 14 Wins as Caustic | Caustic Tracker"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Damage Done as Caustic | Caustic Tracker"
-            ],
-            "free": [
-                "Music Pack Hunted"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Cut Them Down | Caustic Holo"
-            ],
-            "free": [
-                "Season 14 Wins as Mirage | Mirage Tracker"
-            ]
-        },
-        "level_53": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_54": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Chaos Theory | Caustic Frame"
-            ],
-            "free": [
-                "R-99 SMG Shortsighted"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "R-99 SMG Desert Rattler"
-            ],
-            "free": [
-                "Season 14 Kills as Caustic | Caustic Tracker"
-            ]
-        },
-        "level_57": {
-            "premium": [
-                "Some Animals Crawl Off to Die Alone | Caustic Kill Quip"
-            ],
-            "free": [
-                "Season 14 Kills as Rampart | Rampart Tracker"
-            ]
-        },
-        "level_58": {
-            "premium": [
-                "Loading Screen Intake Eval for X. Contreras"
-            ],
-            "free": [
-                "Electric Camo | Wattson Skin"
-            ]
-        },
-        "level_59": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Season 14 Kills as Vantage | Vantage Tracker"
-            ]
-        },
-        "level_60": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_61": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_62": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_63": {
-            "premium": [
-                "Wild Ride | Octane Holo"
-            ],
-            "free": [
-                "Shed Weakness"
-            ]
-        },
-        "level_64": {
-            "premium": [
-                "Scanning for Lifeforms | Crypto Frame"
-            ],
-            "free": [
-                "Season 14 Kills as Octane | Octane Tracker"
-            ]
-        },
-        "level_65": {
-            "premium": [
-                "Snack & Grab | Vantage Skydive Emote"
-            ],
-            "free": [
-                "Season 14 Kills as Crypto | Crypto Tracker"
-            ]
-        },
-        "level_66": {
-            "premium": [
-                "Maybe You Were Created to Lose | Pathfinder Kill Quip"
-            ],
-            "free": [
-                "Season 14 Kills as Wattson | Wattson Tracker"
-            ]
-        },
-        "level_67": {
-            "premium": [
-                "Zig Zag"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_68": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Season 14 Kills as Lifeline | Lifeline Tracker"
-            ]
-        },
-        "level_69": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_70": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_71": {
-            "premium": [
-                "R-99 SMG Buckle Up"
-            ],
-            "free": [
-                "Season 14 Kills as Wraith | Wraith Tracker"
-            ]
-        },
-        "level_72": {
-            "premium": [
-                "On The Hunt | Bangalore Frame"
-            ],
-            "free": [
-                "Season 14 Kills as Revenant | Revenant Tracker"
-            ]
-        },
-        "level_73": {
-            "premium": [
-                "Trapper's Trophy"
-            ],
-            "free": [
-                "R-99 SMG Knockdown Rounds"
-            ]
-        },
-        "level_74": {
-            "premium": [
-                "Looks Like You Threw Away Your Shot | Bangalore Kill Quip"
-            ],
-            "free": [
-                "Season 14 Kills as Bangalore | Bangalore Tracker"
-            ]
-        },
-        "level_75": {
-            "premium": [
-                "On The Lookout | Bangalore Holo"
-            ],
-            "free": [
-                "Season 14 Kills as Bloodhound | Bloodhound Tracker"
-            ]
-        },
-        "level_76": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_77": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_78": {
-            "premium": [
-                "Loading Screen A Canyon Built for Kings"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_79": {
-            "premium": [
-                "Cosmic Canyon | Horizon Frame"
-            ],
-            "free": []
-        },
-        "level_80": {
-            "premium": [
-                "Stay Hydrated"
-            ],
-            "free": [
-                "Season 14 Kills as Mirage | Mirage Tracker"
-            ]
-        },
-        "level_81": {
-            "premium": [
-                "They Look Like Dropped Mince 'n' Tatties | Horizon Kill Quip"
-            ],
-            "free": [
-                "Season 14 Kills as Horizon | Horizon Tracker"
-            ]
-        },
-        "level_82": {
-            "premium": [
-                "R-99 SMG Serpentine"
-            ],
-            "free": [
-                "Season 14 Kills as Loba | Loba Tracker"
-            ]
-        },
-        "level_83": {
-            "premium": [
-                "Striped Striker"
-            ],
-            "free": [
-                "Season 14 Kills as Ash | Ash Tracker"
-            ]
-        },
-        "level_84": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_85": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_86": {
-            "premium": [
-                "Found You | Ash Holo"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_87": {
-            "premium": [
-                "Find The Crack Of Light And Do Better | Gibraltar Kill Quip"
-            ],
-            "free": []
-        },
-        "level_88": {
-            "premium": [
-                "Spotted"
-            ],
-            "free": [
-                "Season 14 Kills as Pathfinder | Pathfinder Tracker"
-            ]
-        },
-        "level_89": {
-            "premium": [
-                "Loading Screen Only a Mum"
-            ],
-            "free": [
-                "Season 14 Kills as Seer | Seer Tracker"
-            ]
-        },
-        "level_90": {
-            "premium": [
-                "Spinal Stretch | Revenant Skydive Emote"
-            ],
-            "free": [
-                "Season 14 Kills as Newcastle | Newcastle Tracker"
-            ]
-        },
-        "level_91": {
-            "premium": [
-                "Wayfinder"
-            ],
-            "free": [
-                "Season 14 Kills as Valkyrie | Valkyrie Tracker"
-            ]
-        },
-        "level_92": {
-            "premium": [
-                "Nature's Star | Valkyrie Frame"
-            ],
-            "free": []
-        },
-        "level_93": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_94": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_95": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Season 14 Kills as Gibraltar | Gibraltar Tracker"
-            ]
-        },
-        "level_96": {
-            "premium": [
-                "Elephant's Touch"
-            ],
-            "free": [
-                "Season 14 Kills as Mad Maggie | Mad Maggie Tracker"
-            ]
-        },
-        "level_97": {
-            "premium": [
-                "Pest Control | Rampart Frame"
-            ],
-            "free": [
-                "Season 14 Kills as Fuse | Fuse Tracker"
-            ]
-        },
-        "level_98": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Loading Screen An Adequate Reflection"
-            ]
-        },
-        "level_99": {
-            "premium": [
-                "Nice Kitty | Mirage Holo"
-            ],
-            "free": []
-        },
-        "level_100": {
-            "premium": [
-                "M600 Spitfire Fortune Hunter"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_110": {
-            "premium": [
-                "M600 Spitfire Trophy Taker"
-            ],
-            "free": [
-                "Hunted Level Season 14 | Badge"
-            ]
-        }
+    "level_2": {
+      "premium": [
+        "Wing It | Vantage Skydive Emote"
+      ],
+      "free": []
     },
-    "patches": {
-        "Horizon": [
-            {
-                "patch": "August 09, 2022 Patch",
-                "details": [
-                    "[Ultimate] Nerf -> Black Hole: N.E.W.T. takes 50% more damage from explosives.",
-                    "[Ultimate] Nerf -> Black Hole: N.E.W.T. is now susceptible to friendly damage."
-                ]
-            }
-        ],
-        "Mad Maggie": [
-            {
-                "patch": "August 09, 2022 Patch",
-                "details": [
-                    "[Tactical] Buff -> Riot Drill: Projectile Launch Speed doubled.",
-                    "[Ultimate] Adjust -> Wrecking Ball: Will travel twice as far while dropping the same amount of magnets.",
-                    "[Ultimate] Adjust -> Wrecking Ball: Duration increased from 5 sec → 10 sec.",
-                    "[Ultimate] Adjust -> Wrecking Ball: Magnet Spawn delay increased from 0.4 sec → 0.8 sec.",
-                    "[Ultimate] Fix -> Wrecking Ball: Fixed Wrecking Ball not blinding and slowing enemies."
-                ]
-            }
-        ],
-        "Newcastle": [
-            {
-                "patch": "August 09, 2022 Patch",
-                "details": [
-                    "[Passive] Buff -> Retrieve the Wounded: Increased move speed during revive by 25%.",
-                    "[Passive] Buff -> Retrieve the Wounded: Reduced turn slow while reviving by 50%.",
-                    "[Passive] Buff -> Retrieve the Wounded: Increased White Knockdown shield health from 150 → 200.",
-                    "[Passive] Buff -> Retrieve the Wounded: Increase Blue Knockdown shield health from 250 → 300.",
-                    "[Tactical] Buff -> Mobile Shield: Increased hp from 350 → 500",
-                    "[Tactical] Buff -> Mobile Shield: Doubled max movement speed.",
-                    "[Ultimate] Buff -> Castle Wall: Added turn slow to electrical barrier effects and increased the severity of the slow effect to movement."
-                ]
-            }
-        ],
-        "Rampart": [
-            {
-                "patch": "August 09, 2022 Patch",
-                "details": [
-                    "[Tactical] Adjust -> Amped Cover: Now ignores friendly collision on placement (i.e. placing walls around teammates will feel more smooth)."
-                ]
-            }
-        ],
-        "Revenant": [
-            {
-                "patch": "August 09, 2022 Patch",
-                "details": [
-                    "[Passive] Adjust -> Death Totem: Will now show a placement preview when activated instead of placing immediately."
-                ]
-            }
-        ],
-        "Valkyrie": [
-            {
-                "patch": "August 09, 2022 Patch",
-                "details": [
-                    "[Passive] Nerf -> VTOL Jets: Acceleration on activation decreased by about 8%.",
-                    "[Passive] Nerf -> VTOL Jets: Fuel consumption on activation increased by 33%.",
-                    "[Passive] Fix -> VTOL Jets: Aerial boosting & strafing take a 20% debuff when hit by slowing effects.",
-                    "[Passive] Adjust -> VTOL Jets: Added a third orange state to the fuel meter UI between green (>60%) and red (<30%).",
-                    "[Passive] Adjust -> VTOL Jets: Jetfighter HUD: Mirage's Decoys will now be scanned when skydiving.",
-                    "[Tactical] Fix -> Missile Swarm: Aim/turn slow removed.",
-                    "[Tactical] Nerf -> Missile Swarm: Move slow duration decreased from 2.5s → 2.0s.",
-                    "[Tactical] Nerf -> Missile Swarm: Reducing the explosion radius from 175 → 125.",
-                    "[Ultimate] Nerf -> Skyward Dive: Height reduction of 25%.",
-                    "[Ultimate] Adjust -> Skyward Dive: Launch time reduced from 5.5s → 5.0s."
-                ]
-            }
-        ],
-        "Vantage": [
-            {
-                "patch": "August 09, 2022 Patch",
-                "details": [
-                    "Introduced -> Legend released this season."
-                ]
-            }
-        ],
-        "Wattson": [
-            {
-                "patch": "August 09, 2022 Patch",
-                "details": [
-                    "[Tactical] Adjust -> Perimeter Security: Improvements to Perimeter Security placement system."
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Music Pack Hunted"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Big Game"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "R-99 SMG Upstanding Animal"
+      ],
+      "free": [
+        "Season 14 Wins as Pathfinder | Pathfinder Tracker"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "I Could Eat a Leviathan | Valkyrie Kill Quip"
+      ],
+      "free": [
+        "Season 14 Wins as Valkyrie | Valkyrie Tracker"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Leader of the Pack | Loba Holo"
+      ],
+      "free": [
+        "Equilibrium"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Jurassic Nessie | Wattson Frame"
+      ],
+      "free": [
+        "Loading Screen Happy Birthday, Mara"
+      ]
+    },
+    "level_12": {
+      "premium": [
+        "Footwork | Lifeline Emote"
+      ],
+      "free": [
+        "Season 14 Wins as Lifeline | Lifeline Tracker"
+      ]
+    },
+    "level_13": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Kills as Wraith | Wraith Tracker"
+      ],
+      "free": [
+        "On My Mark"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Wins as Wraith | Wraith Tracker"
+      ],
+      "free": [
+        "Season 14 Wins as Bangalore | Bangalore Tracker"
+      ]
+    },
+    "level_17": {
+      "premium": [
+        "Time to Strike | Wraith Holo"
+      ],
+      "free": [
+        "Season 14 Wins as Wattson | Wattson Tracker"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Base Camp | Wraith Frame"
+      ],
+      "free": [
+        "Season 14 Wins as Crypto | Crypto Tracker"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Damage Done as Wraith | Wraith Tracker"
+      ],
+      "free": [
+        "Season 14 Wins as Revenant | Revenant Tracker"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Jade Tiger"
+      ]
+    },
+    "level_21": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "You Always End Up in the Dirt | Wraith Kill Quip"
+      ],
+      "free": [
+        "Season 14 Wins as Wraith"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Jade Empire"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Veteran Voyager | Wraith Skin"
+      ],
+      "free": [
+        "Circuitry"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "R-99 SMG Sunset Scavenger"
+      ],
+      "free": [
+        "Season 14 Wins as Octane | Octane Tracker"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Season 14 Wins as Gibraltar | Gibraltar Tracker"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Cinder Scales"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "I Knew This'd Happen | Vantage Kill Quip"
+      ],
+      "free": [
+        "Season 14 Wins as Bloodhound | Bloodhound Tracker"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Final Rest | Vantage Frame"
+      ],
+      "free": [
+        "Bush Whacker"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Task Tracker"
+      ],
+      "free": [
+        "Season 14 Wins as Vantage | Vantage Tracker"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "Covering Fire"
+      ],
+      "free": [
+        "Season 14 Wins as Loba | Loba Tracker"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Sharpen Your Senses | Vantage Holo"
+      ],
+      "free": [
+        "Season 14 Wins as Rampart | Rampart Tracker"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Prints"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "Goin' Wild | Mad Maggie Holo"
+      ],
+      "free": [
+        "Season 14 Wins as Fuse | Fuse Tracker"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Savannah's Promise"
+      ],
+      "free": [
+        "Season 14 Wins as Seer | Seer Tracker"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "I Move a Lot Quicker Than I Look | Newcastle Kill Quip"
+      ],
+      "free": [
+        "Explorer's Touch"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "Death Protection | Revenant Frame"
+      ],
+      "free": [
+        "Season 14 Wins as Ash | Ash Tracker"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Floating Point | Ash Emote"
+      ],
+      "free": [
+        "Season 14 Wins as Mad Maggie | Mad Maggie Tracker"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Loading Screen Reenactment Revolution"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Gold Panther"
+      ],
+      "free": [
+        "Season 14 Wins as Horizon | Horizon Tracker"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Kills as Caustic | Caustic Tracker"
+      ],
+      "free": [
+        "Season 14 Wins as Newcastle | Newcastle Tracker"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Wins as Caustic | Caustic Tracker"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Field Research | Caustic Skin"
+      ],
+      "free": [
+        "Season 14 Wins as Caustic | Caustic Tracker"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Damage Done as Caustic | Caustic Tracker"
+      ],
+      "free": [
+        "Music Pack Hunted"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Cut Them Down | Caustic Holo"
+      ],
+      "free": [
+        "Season 14 Wins as Mirage | Mirage Tracker"
+      ]
+    },
+    "level_53": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Chaos Theory | Caustic Frame"
+      ],
+      "free": [
+        "R-99 SMG Shortsighted"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "R-99 SMG Desert Rattler"
+      ],
+      "free": [
+        "Season 14 Kills as Caustic | Caustic Tracker"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "Some Animals Crawl Off to Die Alone | Caustic Kill Quip"
+      ],
+      "free": [
+        "Season 14 Kills as Rampart | Rampart Tracker"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Loading Screen Intake Eval for X. Contreras"
+      ],
+      "free": [
+        "Electric Camo | Wattson Skin"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Season 14 Kills as Vantage | Vantage Tracker"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_61": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_63": {
+      "premium": [
+        "Wild Ride | Octane Holo"
+      ],
+      "free": [
+        "Shed Weakness"
+      ]
+    },
+    "level_64": {
+      "premium": [
+        "Scanning for Lifeforms | Crypto Frame"
+      ],
+      "free": [
+        "Season 14 Kills as Octane | Octane Tracker"
+      ]
+    },
+    "level_65": {
+      "premium": [
+        "Snack & Grab | Vantage Skydive Emote"
+      ],
+      "free": [
+        "Season 14 Kills as Crypto | Crypto Tracker"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Maybe You Were Created to Lose | Pathfinder Kill Quip"
+      ],
+      "free": [
+        "Season 14 Kills as Wattson | Wattson Tracker"
+      ]
+    },
+    "level_67": {
+      "premium": [
+        "Zig Zag"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_68": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Season 14 Kills as Lifeline | Lifeline Tracker"
+      ]
+    },
+    "level_69": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_71": {
+      "premium": [
+        "R-99 SMG Buckle Up"
+      ],
+      "free": [
+        "Season 14 Kills as Wraith | Wraith Tracker"
+      ]
+    },
+    "level_72": {
+      "premium": [
+        "On The Hunt | Bangalore Frame"
+      ],
+      "free": [
+        "Season 14 Kills as Revenant | Revenant Tracker"
+      ]
+    },
+    "level_73": {
+      "premium": [
+        "Trapper's Trophy"
+      ],
+      "free": [
+        "R-99 SMG Knockdown Rounds"
+      ]
+    },
+    "level_74": {
+      "premium": [
+        "Looks Like You Threw Away Your Shot | Bangalore Kill Quip"
+      ],
+      "free": [
+        "Season 14 Kills as Bangalore | Bangalore Tracker"
+      ]
+    },
+    "level_75": {
+      "premium": [
+        "On The Lookout | Bangalore Holo"
+      ],
+      "free": [
+        "Season 14 Kills as Bloodhound | Bloodhound Tracker"
+      ]
+    },
+    "level_76": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_78": {
+      "premium": [
+        "Loading Screen A Canyon Built for Kings"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_79": {
+      "premium": [
+        "Cosmic Canyon | Horizon Frame"
+      ],
+      "free": []
+    },
+    "level_80": {
+      "premium": [
+        "Stay Hydrated"
+      ],
+      "free": [
+        "Season 14 Kills as Mirage | Mirage Tracker"
+      ]
+    },
+    "level_81": {
+      "premium": [
+        "They Look Like Dropped Mince 'n' Tatties | Horizon Kill Quip"
+      ],
+      "free": [
+        "Season 14 Kills as Horizon | Horizon Tracker"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "R-99 SMG Serpentine"
+      ],
+      "free": [
+        "Season 14 Kills as Loba | Loba Tracker"
+      ]
+    },
+    "level_83": {
+      "premium": [
+        "Striped Striker"
+      ],
+      "free": [
+        "Season 14 Kills as Ash | Ash Tracker"
+      ]
+    },
+    "level_84": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_85": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_86": {
+      "premium": [
+        "Found You | Ash Holo"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_87": {
+      "premium": [
+        "Find The Crack Of Light And Do Better | Gibraltar Kill Quip"
+      ],
+      "free": []
+    },
+    "level_88": {
+      "premium": [
+        "Spotted"
+      ],
+      "free": [
+        "Season 14 Kills as Pathfinder | Pathfinder Tracker"
+      ]
+    },
+    "level_89": {
+      "premium": [
+        "Loading Screen Only a Mum"
+      ],
+      "free": [
+        "Season 14 Kills as Seer | Seer Tracker"
+      ]
+    },
+    "level_90": {
+      "premium": [
+        "Spinal Stretch | Revenant Skydive Emote"
+      ],
+      "free": [
+        "Season 14 Kills as Newcastle | Newcastle Tracker"
+      ]
+    },
+    "level_91": {
+      "premium": [
+        "Wayfinder"
+      ],
+      "free": [
+        "Season 14 Kills as Valkyrie | Valkyrie Tracker"
+      ]
+    },
+    "level_92": {
+      "premium": [
+        "Nature's Star | Valkyrie Frame"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_94": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_95": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Season 14 Kills as Gibraltar | Gibraltar Tracker"
+      ]
+    },
+    "level_96": {
+      "premium": [
+        "Elephant's Touch"
+      ],
+      "free": [
+        "Season 14 Kills as Mad Maggie | Mad Maggie Tracker"
+      ]
+    },
+    "level_97": {
+      "premium": [
+        "Pest Control | Rampart Frame"
+      ],
+      "free": [
+        "Season 14 Kills as Fuse | Fuse Tracker"
+      ]
+    },
+    "level_98": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Loading Screen An Adequate Reflection"
+      ]
+    },
+    "level_99": {
+      "premium": [
+        "Nice Kitty | Mirage Holo"
+      ],
+      "free": []
+    },
+    "level_100": {
+      "premium": [
+        "M600 Spitfire Fortune Hunter"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "M600 Spitfire Trophy Taker"
+      ],
+      "free": [
+        "Hunted Level Season 14 | Badge"
+      ]
     }
+  },
+  "patches": {
+    "Ash": [
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Passive] Adjust -> Ash's passive ability now has a new effect.",
+          "[Tactical] Buff -> Burglar's Blitz : increased damage."
+        ]
+      }
+    ],
+    "Bloodhound": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Ultimate] Nerf -> Eye of the Allfather : reduced scan duration."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Tracker's Insight : increased tracking range.",
+          "[Perks] Buff -> Keen Scout : increased scout duration."
+        ]
+      }
+    ],
+    "Caustic": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Ultimate] Nerf -> Nox Gas Grenade : reduced gas damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Nox Gas Grenade : increased gas duration."
+        ]
+      }
+    ],
+    "Gibraltar": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Passive] Buff -> Gun Shield : increased shield size.",
+          "[Ultimate] Nerf -> Defensive Bombardment : reduced damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Gun Shield : increased shield regeneration rate."
+        ]
+      }
+    ],
+    "Horizon": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Passive] Nerf -> Gravity Lift : reduced lift duration.",
+          "[Tactical] Buff -> Black Hole : increased damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Gravity Lift : increased lift range."
+        ]
+      }
+    ],
+    "Loba": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Passive] Nerf -> Burglar's Eye : reduced scan duration.",
+          "[Tactical] Buff -> Burglar's Blitz : increased damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Burglar's Eye : increased scan range."
+        ]
+      }
+    ],
+    "Mad Maggie": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Passive] Nerf -> Warlord's Vision : reduced vision duration.",
+          "[Tactical] Buff -> Warlord's Call : increased damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Warlord's Vision : increased vision range."
+        ]
+      }
+    ],
+    "Revenant": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Passive] Nerf -> Stalker's Eye : reduced scan duration.",
+          "[Tactical] Buff -> Silence : increased damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Stalker's Eye : increased scan range."
+        ]
+      }
+    ],
+    "Seer": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Passive] Nerf -> Insight : reduced insight duration.",
+          "[Tactical] Buff -> Prowl : increased damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Insight : increased insight range."
+        ]
+      }
+    ],
+    "Vantage": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Passive] Nerf -> Eagle's Eye : reduced scan duration.",
+          "[Tactical] Buff -> Lookout : increased damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Eagle's Eye : increased scan range."
+        ]
+      }
+    ],
+    "Wraith": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Passive] Nerf -> Voices From the Void : reduced void duration.",
+          "[Tactical] Buff -> Smoke Launcher : increased damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Voices From the Void : increased void range."
+        ]
+      }
+    ],
+    "Zoey": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Passive] Nerf -> Wildcat's Eye : reduced scan duration.",
+          "[Tactical] Buff -> Wildcat's Call : increased damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Wildcat's Eye : increased scan range."
+        ]
+      }
+    ],
+    "Bangalore": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Passive] Nerf -> Double Time : reduced speed.",
+          "[Tactical] Buff -> Rolling Thunder : increased damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Rolling Thunder : increased thunder duration."
+        ]
+      }
+    ],
+    "Bloodhound (Perks)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Tracker's Insight : increased tracking range.",
+          "[Perks] Buff -> Keen Scout : increased scout duration."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Nox Gas Grenade : increased gas duration."
+        ]
+      }
+    ],
+    "Caustic (Perks)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Nox Gas Grenade : increased gas damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Nox Gas Grenade : increased gas duration."
+        ]
+      }
+    ],
+    "Gibraltar (Perks)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Gun Shield : increased shield regeneration rate."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Gun Shield : increased shield size."
+        ]
+      }
+    ],
+    "Horizon (Perks)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Gravity Lift : increased lift range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Gravity Lift : increased lift duration."
+        ]
+      }
+    ],
+    "Loba (Perks)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Burglar's Eye : increased scan range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Burglar's Eye : increased scan duration."
+        ]
+      }
+    ],
+    "Mad Maggie (Perks)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Warlord's Vision : increased vision range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Warlord's Vision : increased vision duration."
+        ]
+      }
+    ],
+    "Revenant (Perks)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Silence : increased damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Stalker's Eye : increased scan duration."
+        ]
+      }
+    ],
+    "Seer (Perks)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Insight : increased insight range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Insight : increased insight duration."
+        ]
+      }
+    ],
+    "Vantage (Perks)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Eagle's Eye : increased scan range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Eagle's Eye : increased scan duration."
+        ]
+      }
+    ],
+    "Wraith (Perks)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Voices From the Void : increased void range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Voices From the Void : increased void duration."
+        ]
+      }
+    ],
+    "Zoey (Perks)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Wildcat's Eye : increased scan range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Wildcat's Eye : increased scan duration."
+        ]
+      }
+    ],
+    "Bloodhound Upgrades": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Tracker's Insight : increased tracking range.",
+          "[Perks] Buff -> Keen Scout : increased scout duration."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Nox Gas Grenade : increased gas duration."
+        ]
+      }
+    ],
+    "Caustic Upgrades": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Nox Gas Grenade : increased gas damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Nox Gas Grenade : increased gas duration."
+        ]
+      }
+    ],
+    "Gibraltar Upgrades": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Gun Shield : increased shield regeneration rate."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Gun Shield : increased shield size."
+        ]
+      }
+    ],
+    "Horizon Upgrades": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Gravity Lift : increased lift range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Gravity Lift : increased lift duration."
+        ]
+      }
+    ],
+    "Loba Upgrades": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Burglar's Eye : increased scan range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Burglar's Eye : increased scan duration."
+        ]
+      }
+    ],
+    "Mad Maggie Upgrades": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Warlord's Vision : increased vision range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Warlord's Vision : increased vision duration."
+        ]
+      }
+    ],
+    "Revenant Upgrades": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Silence : increased damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Stalker's Eye : increased scan duration."
+        ]
+      }
+    ],
+    "Seer Upgrades": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Insight : increased insight range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Insight : increased insight duration."
+        ]
+      }
+    ],
+    "Vantage Upgrades": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Eagle's Eye : increased scan range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Eagle's Eye : increased scan duration."
+        ]
+      }
+    ],
+    "Wraith Upgrades": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Voices From the Void : increased void range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Voices From the Void : increased void duration."
+        ]
+      }
+    ],
+    "Zoey Upgrades": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Wildcat's Eye : increased scan range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": [
+          "[Perks] Adjust -> Wildcat's Eye : increased scan duration."
+        ]
+      }
+    ],
+    "Bangalore Upgrades": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Rolling Thunder : increased damage.",
+          "[Perks] Adjust -> Rolling Thunder : increased thunder duration."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": []
+      }
+    ],
+    "Bloodhound Upgrades (Level 2)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Tracker's Insight : increased tracking range.",
+          "[Perks] Buff -> Keen Scout : increased scout duration."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": []
+      }
+    ],
+    "Caustic Upgrades (Level 2)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Nox Gas Grenade : increased gas damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": []
+      }
+    ],
+    "Gibraltar Upgrades (Level 2)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Gun Shield : increased shield regeneration rate."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": []
+      }
+    ],
+    "Horizon Upgrades (Level 2)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Gravity Lift : increased lift range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": []
+      }
+    ],
+    "Loba Upgrades (Level 2)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Burglar's Eye : increased scan range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": []
+      }
+    ],
+    "Mad Maggie Upgrades (Level 2)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Warlord's Vision : increased vision range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": []
+      }
+    ],
+    "Revenant Upgrades (Level 2)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Silence : increased damage."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": []
+      }
+    ],
+    "Seer Upgrades (Level 2)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Insight : increased insight range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": []
+      }
+    ],
+    "Vantage Upgrades (Level 2)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Eagle's Eye : increased scan range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": []
+      }
+    ],
+    "Wraith Upgrades (Level 2)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Voices From the Void : increased void range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": []
+      }
+    ],
+    "Zoey Upgrades (Level 2)": [
+      {
+        "patch": "Takeover: Resurrection",
+        "details": [
+          "[Perks] Buff -> Wildcat's Eye : increased scan range."
+        ]
+      },
+      {
+        "patch": "Saison 9",
+        "details": []
+      }
+    ],
+    "Bloodhound Upgrades (Level 3)": [],
+    "Caustic Upgrades (Level 3)": [],
+    "Gibraltar Upgrades (Level 3)": [],
+    "Horizon Upgrades (Level 3)": [],
+    "Loba Upgrades (Level 3)": [],
+    "Mad Maggie Upgrades (Level 3)": [],
+    "Revenant Upgrades (Level 3)": [],
+    "Seer Upgrades (Level 3)": [],
+    "Vantage Upgrades (Level 3)": [],
+    "Wraith Upgrades (Level 3)": [],
+    "Zoey Upgrades (Level 3)": []
+  }
 }

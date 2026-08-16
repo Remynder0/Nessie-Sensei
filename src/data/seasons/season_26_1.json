@@ -1,483 +1,500 @@
 {
-    "season": "26_1",
+  "season": "26_1",
+  "name": "Showdown",
+  "start_date": "August 5, 2025",
+  "end_date": "November 4, 2025",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_26.svg?6d1dfb",
     "name": "Showdown",
-    "start_date": "August 5, 2025",
-    "end_date": "November 4, 2025",
-    "infobox": {
-        "name": "Showdown",
-        "Theme": "Versus, competitive (Split 1) | Flora and Machine (Split 2)",
-        "Reactive weapon": "L-STAR EMG",
-        "Start date": "August 5, 2025",
-        "End date": "November 4, 2025",
-        "Events": "Galactic Games | Wild Iron | Raise Hell"
+    "Theme": "Versus, competitive (Split 1) | Flora and Machine (Split 2)",
+    "Reactive weapon": "L-STAR EMG",
+    "Start date": "August 5, 2025",
+    "End date": "November 4, 2025",
+    "Events": [
+      "Galactic Games",
+      "Wild Iron",
+      "Raise Hell"
+    ]
+  },
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Octane Rapid Racer",
+        "M600 Spitfire Champion's Tool",
+        "Banner Frame Apex Fiesta",
+        "Holospray Let's Go",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
     },
-    "max_level": 60,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Octane Rapid Racer",
-                "M600 Spitfire Champion's Tool",
-                "Banner Frame Apex Fiesta",
-                "Holospray Let's Go",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_2": {
-            "premium": [
-                "Mirage Quip Kill Quip : Hey don't feel bad"
-            ],
-            "free": [
-                "Transition Unlikely Ally"
-            ]
-        },
-        "level_3": {
-            "premium": [
-                "Octane Cosmetic Emote Stim Shuffle"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Holospray Staying Alive"
-            ],
-            "free": []
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "Stat Tracker Daredevil Down - Top",
-                "Stat Tracker Daredevil Down - Middle",
-                "Stat Tracker Daredevil Down - Bottom"
-            ],
-            "free": []
-        },
-        "level_7": {
-            "premium": [
-                "Banner Frame Steel & Gold"
-            ],
-            "free": [
-                "Music Pack Showdown Split 1"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "R-301 Carbine Steelbird"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_10": {
-            "premium": [
-                "Mirage Daredevil Down",
-                "Mirage Gilded Phoenix +"
-            ],
-            "free": []
-        },
-        "level_11": {
-            "premium": [
-                "Primal Apparel",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_12": {
-            "premium": [
-                "Banner Frame Rising Crane"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_14": {
-            "premium": [
-                "Holospray See Ya!"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "EVA-8 Auto Luminous Ending"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_18": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_19": {
-            "premium": [
-                "Sticker Hearty Handshake"
-            ],
-            "free": [
-                "Horizon Cosmetic Emote Highland Heave"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Valkyrie Stellar Pilot",
-                "Exotic Shards 10 +"
-            ],
-            "free": []
-        },
-        "level_21": {
-            "premium": [
-                "Banner Frame World's Flame",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_22": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_23": {
-            "premium": [
-                "P2020 Color Block"
-            ],
-            "free": []
-        },
-        "level_24": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Holospray Pure Dead Brilliant"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_26": {
-            "premium": [
-                "Valkyrie Skydive Emote Paraglider"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Holospray Dumb Win"
-            ],
-            "free": []
-        },
-        "level_30": {
-            "premium": [
-                "Exotic Shards 10",
-                "Alternator SMG Final Flight"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "Apex Coins 100",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_32": {
-            "premium": [
-                "Fuse Cosmetic Emote Flying Footy"
-            ],
-            "free": [
-                "Mastiff Shotgun Plaid Existence"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Stat Tracker Fortune and Favor - Top",
-                "Stat Tracker Fortune and Favor - Middle",
-                "Stat Tracker Fortune and Favor - Bottom"
-            ],
-            "free": []
-        },
-        "level_34": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Transition Rivalry for the Ages"
-            ]
-        },
-        "level_35": {
-            "premium": [
-                "C.A.R. SMG Crane Fury"
-            ],
-            "free": []
-        },
-        "level_36": {
-            "premium": [
-                "Banner Frame Mystic Tower"
-            ],
-            "free": []
-        },
-        "level_37": {
-            "premium": [
-                "Apex Pack",
-                "Holospray Run Wild"
-            ],
-            "free": []
-        },
-        "level_38": {
-            "premium": [
-                "Sticker Frenemies"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_39": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_40": {
-            "premium": [
-                "Alter Fortune and Favor",
-                "Alter Celestial Essence +"
-            ],
-            "free": []
-        },
-        "level_41": {
-            "premium": [
-                "Rampart Cosmetic Emote Six Swing",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_42": {
-            "premium": [
-                "Rampart Quip Kill Quip : Lekin ab tera time khatam"
-            ],
-            "free": [
-                "Horizon Tartan Technician"
-            ]
-        },
-        "level_43": {
-            "premium": [
-                "30-30 Repeater Podium Pride"
-            ],
-            "free": []
-        },
-        "level_44": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_45": {
-            "premium": [
-                "Holospray Make a Ruckus"
-            ],
-            "free": []
-        },
-        "level_46": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Banner Frame Hidden Lotus"
-            ],
-            "free": []
-        },
-        "level_49": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_50": {
-            "premium": [
-                "Rampart Pavo Apparel"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Holospray Who's a G.O.A.T. Kitty?"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_53": {
-            "premium": [
-                "Bangalore Skydive Emote Drill Team"
-            ],
-            "free": []
-        },
-        "level_54": {
-            "premium": [
-                "Charge Rifle Retro Revival"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Banner Frame Thistled Hall"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_57": {
-            "premium": [
-                "Crafting Metals 200",
-                "Banner Frame Podium Potential"
-            ],
-            "free": []
-        },
-        "level_58": {
-            "premium": [
-                "Impenetrable"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_59": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_60": {
-            "premium": [
-                "L-STAR EMG Torch Bearer"
-            ],
-            "free": []
-        }
+    "level_2": {
+      "premium": [
+        "Mirage Quip Kill Quip : Hey don't feel bad"
+      ],
+      "free": [
+        "Transition Unlikely Ally"
+      ]
     },
-    "patches": {
-        "Bangalore": [
-            {
-                "patch": "Showdown Patch Notes (2025-08-04)",
-                "details": [
-                    "[Passive] Buff -> Double Time: Speed increased by 5%",
-                    "[Tactical] Adjust -> Smoke Launcher: Canister breaks and travels through doors",
-                    "[Tactical] Buff -> Smoke Launcher: Projectile speed increased to 2900 (was 2500)",
-                    "[Tactical] Buff -> Smoke Launcher: Pull out time reduced to 0.25 (was 0.35)",
-                    "[Tactical] Buff -> Smoke Launcher: Cooldown reduced to 30s (was 35s)",
-                    "[Tactical] Adjust -> Smoke Launcher: Smoke now reactive: ordnance and abilities can disable it for 5s when used inside/nearby",
-                    "[Ultimate] Buff -> Rolling Thunder: Cooldown reduced to 210s (was 270s)",
-                    "[Ultimate] Buff -> Rolling Thunder: Reduced anim frame to fire projectile to 1 (was 5)",
-                    "[Perks] Removed ->  Ultimate Cooldown+ & Tactical Cooldown",
-                    "[Perks] Adjust -> Cover Me: moved to Level 2",
-                    "[Perks] Adjust -> Electric Smoke: electrifies Tac dealing 100 damage to enemy Ults and destroys Tacs",
-                    "[Perks] Removed -> Refuge: integrated into Cover Me",
-                    "[Perks] New -> ECM Payload: electrifies Ult dealing 10 more damage, destroys enemy deployables",
-                    "[Perks] New -> Medal of Honor: faster revives and passive triggers running towards knocked allies"
-                ]
-            }
-        ],
-        "Caustic": [
-            {
-                "patch": "Showdown Patch Notes (2025-08-04)",
-                "details": [
-                    "Adjust -> Nox Gas: Increased visibility both outside and inside his own gas. Green highlighting is still active. Clouds now have threat indicators for victims.",
-                    "Adjust -> Nox Gas: Now Grounds enemies: slowing them once and draining them of movement cooldowns",
-                    "Adjust -> Nox Gas: “Slow” immediately drains velocity to the desired speed even if the target is moving at high velocity or in the air",
-                    "Adjust -> Gas now reactive ordnance and abilities can disable it for 5s when used inside/nearby",
-                    "[Passive] Rework -> Field Research: Gain research points from poisoning enemies, opening unique Death Boxes, and scanning ring consoles. Unlock an upgrade point for every 100 research points (max 2).",
-                    "[Tactical] Buff -> Nox Gas: Damage Increased to 10-15 (was 4-10)",
-                    "[Tactical] Buff -> Nox Gas Trap: Trap health increased to 225 (was 150)",
-                    "[Tactical] Buff -> Nox Gas Trap: Trap can be activated earlier while inflating",
-                    "[Tactical] Buff -> Nox Gas Trap: Reduced toss and stow by 0.1s",
-                    "[Tactical] Buff -> Nox Gas Trap: Increased trap activation radius to 260 (was 140)",
-                    "[Tactical] Buff -> Nox Gas Trap: Increased gas radius to 300 (was 282)",
-                    "[Tactical] Adjust -> Nox Gas Trap: Caustic traps take ring damage",
-                    "[Tactical] Nerf -> Nox Gas Trap: Increased activation delay to 0.8s (was 0.2s)",
-                    "[Tactical] Adjust -> Nox Gas Trap: Traps take bullet damage while inflating",
-                    "[Tactical] Adjust -> Nox Gas Trap: Traps take critical (1.4x) damage when hit in the o-ring/base",
-                    "[Ultimate] Buff -> Nox Gas Grenade: Reduced cooldown to 2min (was 3m)",
-                    "[Ultimate] Buff -> Nox Gas Grenade: Reduced toss and stow time by 0.05s",
-                    "[Ultimate] Buff -> Nox Gas Grenade: Increased projectile speed to 1500 (was 1300)",
-                    "[Ultimate] Buff -> Nox Gas Grenade: Increase duration to 20s (was 15s)",
-                    "[Perks] Removed -> Parabolic Force & Residual Toxins (integrated into base kit)",
-                    "[Perks] New -> Extra Traps: one additional charge, increased max in world by 2",
-                    "[Perks] Adjust -> Breathe It In: moved to Level 2",
-                    "[Perks] New -> Gas Fighter: Tac recharges 300% faster while in gas",
-                    "[Perks] Adjust -> Particle Diffuser: increases Ult radius by +50%"
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Octane Cosmetic Emote Stim Shuffle"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Holospray Staying Alive"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Stat Tracker Daredevil Down - Top",
+        "Stat Tracker Daredevil Down - Middle",
+        "Stat Tracker Daredevil Down - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Banner Frame Steel & Gold"
+      ],
+      "free": [
+        "Music Pack Showdown Split 1"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "R-301 Carbine Steelbird"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Mirage Daredevil Down",
+        "Mirage Gilded Phoenix +"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Primal Apparel",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Banner Frame Rising Crane"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Holospray See Ya!"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "EVA-8 Auto Luminous Ending"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Sticker Hearty Handshake"
+      ],
+      "free": [
+        "Horizon Cosmetic Emote Highland Heave"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Valkyrie Stellar Pilot",
+        "Exotic Shards 10 +"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Banner Frame World's Flame",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "P2020 Color Block"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Holospray Pure Dead Brilliant"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Valkyrie Skydive Emote Paraglider"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Holospray Dumb Win"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Exotic Shards 10",
+        "Alternator SMG Final Flight"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Fuse Cosmetic Emote Flying Footy"
+      ],
+      "free": [
+        "Mastiff Shotgun Plaid Existence"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Stat Tracker Fortune and Favor - Top",
+        "Stat Tracker Fortune and Favor - Middle",
+        "Stat Tracker Fortune and Favor - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Rivalry for the Ages"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "C.A.R. SMG Crane Fury"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Banner Frame Mystic Tower"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Apex Pack",
+        "Holospray Run Wild"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Sticker Frenemies"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Alter Fortune and Favor",
+        "Alter Celestial Essence +"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Rampart Cosmetic Emote Six Swing",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Rampart Quip Kill Quip : Lekin ab tera time khatam"
+      ],
+      "free": [
+        "Horizon Tartan Technician"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "30-30 Repeater Podium Pride"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Holospray Make a Ruckus"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Banner Frame Hidden Lotus"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Rampart Pavo Apparel"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Holospray Who's a G.O.A.T. Kitty?"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Bangalore Skydive Emote Drill Team"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Charge Rifle Retro Revival"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Banner Frame Thistled Hall"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Crafting Metals 200",
+        "Banner Frame Podium Potential"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Impenetrable"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_60": {
+      "premium": [
+        "L-STAR EMG Torch Bearer"
+      ],
+      "free": []
     }
+  },
+  "patches": {
+    "Ash": [
+      {
+        "patch": "Get explosive in the Wild Iron Event",
+        "details": [
+          "[Passive] Nerf -> Predator's Pursuit: dash cooldown increased to 12s.",
+          "[Tactical] Adjust -> Arc Snare: breaks more easily, base duration now 6s."
+        ]
+      }
+    ],
+    "Caustic": [
+      {
+        "patch": "Get explosive in the Wild Iron Event",
+        "details": [
+          "[Passive] Buff -> Nox Gas: damage increased to 10-15 (was 4-10), causes aim punch, increased visibility."
+        ]
+      },
+      {
+        "patch": "Apex Legends™: Showdown Patch Notes",
+        "details": [
+          "[Passive] Buff -> Field Research: gain research points from poisoning enemies, opening unique Death Boxes, and scanning ring consoles.",
+          "[Tactical] Adjust -> Nox Gas Trap: trap health increased to 225 (was 150), trap can be activated earlier while inflating."
+        ]
+      }
+    ],
+    "Mad Maggie": [
+      {
+        "patch": "Get explosive in the Wild Iron Event",
+        "details": [
+          "[Passive] Buff -> Fire Ball: now drops magma patches along the ground as it moves and Mad Maggie takes 50% less fire damage from all sources.",
+          "[Tactical] Adjust -> Riot Drill: firing animation sped up by 10%, drill now comes out immediately after releasing the button."
+        ]
+      }
+    ],
+    "Seer": [
+      {
+        "patch": "Get explosive in the Wild Iron Event",
+        "details": [
+          "[Passive] Buff -> Heart Seeker: long view upgrade now permanent, increasing range for Passive + Tac to 75m (was 50m)."
+        ]
+      },
+      {
+        "patch": "Apex Legends™: Showdown Patch Notes",
+        "details": [
+          "[Tactical] Adjust -> Focus of Attention: scan duration increased to 4s (was 2.5), slow duration to 1s (was 0.5s)."
+        ]
+      }
+    ],
+    "Sparrow": [
+      {
+        "patch": "Get explosive in the Wild Iron Event",
+        "details": [
+          "[Tactical] Adjust -> Tracker Dart: tracking duration now 12s (was 15)"
+        ]
+      }
+    ],
+    "Bangalore": [
+      {
+        "patch": "Apex Legends™: Showdown Patch Notes",
+        "details": [
+          "[Passive] Buff -> Double Time: speed increased by 5%",
+          "[Tactical] Adjust -> Smoke Launcher: canister breaks and travels through doors, projectile speed increased to 2900 (was 2500)."
+        ]
+      }
+    ]
+  }
 }

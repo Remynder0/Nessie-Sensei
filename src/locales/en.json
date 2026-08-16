@@ -3,8 +3,8 @@
     "teamGen": "Link & Deploy",
     "legends": "Legends",
     "packCalculator": "Heirloom Tracker",
-    "battlePass": "Battle Pass",
-    "probabilities": "Predictive Analysis",
+    "season": "Season",
+    "probabilities": "Synergies",
     "simulation": "Simulation",
     "stats": "Data Logs",
     "sort": "Tactical Sort"
@@ -42,16 +42,22 @@
     "noTacticsData": "No tactical data available for this legend.",
     "rework": "Rework"
   },
-  "battlePass": {
-    "title": "Battle Pass View",
-    "subtitle": "Seasons rewards archive",
+  "season": {
+    "title": "Season",
+    "subtitle": "Season details, battle pass and patch notes",
     "selectSeason": "Select a Season",
     "reactiveSkin": "Reactive Skin",
     "level": "Level",
     "premium": "Premium",
     "free": "Free",
     "noData": "No data found for this season.",
-    "unknown": "Unknown"
+    "unknown": "Unknown",
+    "prevSeason": "Previous",
+    "nextSeason": "Next",
+    "infobox": "Infobox",
+    "patchNotes": "Patch Notes",
+    "levelsChunk": "Levels {start} - {end}",
+    "battlePass": "Battle Pass"
   },
   "app": {
     "connecting": "ESTABLISHING CONNECTION...",
@@ -91,5 +97,10 @@
     "step_prob_desc": "We selected Pathfinder for you! Observe the results: the AI calculates which legends he statistically has the best chance to be optimally played with.",
     "step_feedback_title": "Need help or feedback?",
     "step_feedback_desc": "Click here to report a bug, suggest an improvement idea, submit a Fanart, or review this tutorial at any time!"
+  },
+  "probabilities": {
+    "title": "Synergies",
+    "subtitle": "Select a target to display the predictive association rate with other units of the network.",
+    "antiSynergy": "Anti-synergy"
   }
 }
