@@ -1,0 +1,55 @@
+{
+  "mythicWeapons": {
+    "kraber": {
+      "name": "Kraber .50-Cal Sniper",
+      "isMythic": true,
+      "lockedAttachments": {
+        "optics": { "name": "6x-10x Digital Sniper Threat", "detail": "Legendary", "rarity": "legendary" }
+      }
+    },
+    "l-star": {
+      "name": "L-STAR EMG",
+      "isMythic": true,
+      "lockedAttachments": {
+        "mag": { "name": "Extended Energy Mag", "detail": "Epic", "rarity": "epic" },
+        "stock": { "name": "Standard Stock", "detail": "Epic", "rarity": "epic" },
+        "hopup": { "name": "Elite Weapon", "detail": "Legendary", "rarity": "legendary" }
+      }
+    },
+    "30-30": {
+      "name": "30-30 Repeater",
+      "isMythic": true,
+      "lockedAttachments": {
+        "mag": { "name": "Extended Heavy Mag", "detail": "Corrupted", "rarity": "corrupted" },
+        "stock": { "name": "Sniper Stock", "detail": "Epic", "rarity": "epic" },
+        "hopup": { "name": "Shatter Caps", "detail": "Legendary", "rarity": "legendary" }
+      }
+    }
+  },
+  "specialLockedAttachments": {
+    "hemlok": {
+      "barrel": { "name": "Suppressor", "detail": "LOCKED", "rarity": "epic" },
+      "hopup": { "name": "Elite Weapon", "detail": "LOCKED", "rarity": "legendary" }
+    }
+  },
+  "weaponConsumables": {
+    "sentinel": {
+      "weaponKey": "sentinel",
+      "name": "Shield Cell",
+      "icon": "Shield_Cell_white.svg",
+      "label": "CELL"
+    },
+    "rampage": {
+      "weaponKey": "rampage",
+      "name": "Thermite Grenade",
+      "icon": "Thermite_Grenade_white.svg",
+      "label": "THERMITE"
+    },
+    "bocek": {
+      "weaponKey": "bocek",
+      "name": "Frag Grenade",
+      "icon": "Frag_Grenade_White.svg",
+      "label": "FRAG"
+    }
+  }
+}
