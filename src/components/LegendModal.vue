@@ -33,7 +33,7 @@ const togglePatch = (index: number) => {
 
 const legendClass = computed(() => {
     if (!currentLegendDetails.value) return '';
-    const legend = legendsData.value.find(l => l.Name === currentLegendDetails.value.name);
+    const legend = legendsData.value.find(l => l.Name === currentLegendDetails.value?.name);
     return legend ? legend.Class || '' : '';
 });
 
@@ -77,7 +77,23 @@ function handleImageError(event: Event, fallbackSrc: string, errorFlagRef: 'port
     };
 }
 
-const parsePatchDetail = (detail: string) => {
+interface ParsedPatchSuccess {
+    ability: string;
+    type: string;
+    text: string;
+    isFormatted: true;
+}
+
+interface ParsedPatchFallback {
+    ability?: undefined;
+    type?: undefined;
+    text: string;
+    isFormatted: false;
+}
+
+type ParsedPatch = ParsedPatchSuccess | ParsedPatchFallback;
+
+const parsePatchDetail = (detail: string): ParsedPatch => {
     const match = detail.match(/^(?:(\[.*?\])\s*)?(.*?)\s*->\s*(.*)$/);
     if (match) {
         let text = match[3];
@@ -88,7 +104,7 @@ const parsePatchDetail = (detail: string) => {
         // Capitalize
         text = text.charAt(0).toUpperCase() + text.slice(1);
         
-        let type = match[2].trim();
+        let type = match[2]?.trim() || '';
         let ability = match[1] || '[Base]';
 
         // Fix if type is empty (e.g., "[Rework] -> ..." or "[Fix] -> ...")
@@ -96,7 +112,7 @@ const parsePatchDetail = (detail: string) => {
             type = ability.replace(/\[|\]/g, '').trim();
             ability = '[Base]';
         }
-
+        
         return {
             ability: ability,
             type: type,
@@ -680,14 +696,14 @@ function hideImageOnError(event: Event) {
                                 <span class="w-1.5 h-1.5 bg-apex-red block"></span> {{ $t('legends.recommendedWeapons') }}
                             </h3>
                             <div class="flex flex-wrap gap-4">
-                                <div v-for="weapon in currentLegendDetails.tactics.weapons" :key="weapon.id || weapon" 
+                                <div v-for="weapon in currentLegendDetails.tactics.weapons" :key="typeof weapon === 'object' ? (weapon.id || weapon.name) : weapon" 
                                      class="w-24 h-14 bg-black/50 border border-titan-border flex items-center justify-center p-2 group relative cursor-help transition-all hover:border-titan-cyan hover:bg-titan-cyan/10">
                                     
-                                    <img v-if="weapon.id" :src="`/images/weapons/${weapon.id}.svg`" :alt="weapon.name" class="max-w-full max-h-full object-contain invert opacity-80 group-hover:opacity-100 transition-opacity" @error="hideImageOnError" />
-                                    <span v-else class="font-mono text-white text-[13px] text-center">{{ weapon }}</span>
+                                    <img v-if="typeof weapon === 'object' && weapon.id" :src="`/images/weapons/${weapon.id}.svg`" :alt="weapon.name" class="max-w-full max-h-full object-contain invert opacity-80 group-hover:opacity-100 transition-opacity" @error="hideImageOnError" />
+                                    <span v-else class="font-mono text-white text-[13px] text-center">{{ typeof weapon === 'object' ? weapon.name : weapon }}</span>
 
                                     <!-- Tooltip -->
-                                    <div v-if="weapon.name" class="absolute -top-10 left-1/2 -translate-x-1/2 bg-black border border-titan-cyan text-titan-cyan px-3 py-1 text-xs font-mono uppercase whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-20 shadow-[0_0_10px_rgba(45,212,191,0.2)]">
+                                    <div v-if="typeof weapon === 'object' && weapon.name" class="absolute -top-10 left-1/2 -translate-x-1/2 bg-black border border-titan-cyan text-titan-cyan px-3 py-1 text-xs font-mono uppercase whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-20 shadow-[0_0_10px_rgba(45,212,191,0.2)]">
                                         {{ weapon.name }}
                                         <div class="absolute -bottom-[5px] left-1/2 -translate-x-1/2 border-l-4 border-r-4 border-t-4 border-l-transparent border-r-transparent border-t-titan-cyan w-0 h-0"></div>
                                     </div>
