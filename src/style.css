@@ -1,10 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Share+Tech+Mono&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  :root {
+    /* Colors */
+    --color-apex-red: #da292a;
+    --color-apex-dark: #1a1a1a;
+    --color-apex-darker: #0a0a0c;
+    --color-apex-gray: #2c2c2c;
+    
+    --color-titan-cyan: #00f0ff;
+    --color-titan-orange: #ff5a00;
+    --color-titan-panel: #15191e;
+    --color-titan-border: #2a313a;
+
+    --theme-primary: var(--color-titan-cyan);
+    --theme-secondary: var(--color-titan-orange);
+
+    /* Fonts */
+    --font-sans: 'Rajdhani', sans-serif;
+    --font-mono: 'Share Tech Mono', monospace;
+    --font-display: 'Chakra Petch', sans-serif;
+  }
+
   body {
     @apply bg-apex-darker text-gray-200 antialiased min-h-screen font-sans;
     background-image: 
@@ -15,7 +34,8 @@
 }
 
 .glass-panel {
-  @apply bg-titan-panel/80 backdrop-blur-md border border-titan-border shadow-lg relative overflow-hidden;
+  @apply backdrop-blur-md border border-titan-border shadow-lg relative overflow-hidden;
+  background-color: rgba(21, 25, 30, 0.8); /* #15191e at 80% opacity */
 }
 
 /* Scanline effect */
@@ -58,3 +78,37 @@
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: rgba(0, 240, 255, 0.5);
 }
+
+/* Gunsmith animations and utilities */
+.halftone-dots {
+  background-image: radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px);
+  background-size: 4px 4px;
+}
+
+.glitch-box {
+  animation: glitch-border 3s infinite;
+}
+
+.glitch-svg {
+  animation: glitch-skew-anim 2s infinite alternate-reverse;
+}
+
+@keyframes glitch-border {
+  0%, 100% { border-color: rgba(220, 38, 38, 0.8); }
+  50% { border-color: rgba(255, 0, 0, 1); box-shadow: inset 0 0 15px rgba(220, 38, 38, 0.4), 0 0 15px rgba(220, 38, 38, 0.6); }
+  52% { border-color: rgba(255, 255, 255, 0.9); }
+  54% { border-color: rgba(220, 38, 38, 0.8); }
+}
+
+@keyframes glitch-skew-anim {
+  0% { transform: skew(0deg) translate(0, 0); filter: drop-shadow(0 0 0 transparent); }
+  10% { transform: skew(0deg) translate(0, 0); filter: drop-shadow(0 0 0 transparent); }
+  11% { transform: skew(10deg) translate(-2px, 1px); filter: drop-shadow(2px 0 0 rgba(255,0,0,0.9)) drop-shadow(-2px 0 0 rgba(0,255,255,0.9)); }
+  12% { transform: skew(-10deg) translate(2px, -1px); filter: drop-shadow(-2px 0 0 rgba(255,0,0,0.9)) drop-shadow(2px 0 0 rgba(0,255,255,0.9)); }
+  100% { transform: skew(0deg) translate(0, 0); filter: drop-shadow(0 0 0 transparent); }
+}
+
+.clip-beveled {
+  clip-path: polygon(0 8px, 8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%);
+}
+

@@ -8,16 +8,16 @@ export default {
     extend: {
       colors: {
         apex: {
-          red: '#da292a',
-          dark: '#1a1a1a',
-          darker: '#0a0a0c',
-          gray: '#2c2c2c',
+          red: 'var(--color-apex-red)',
+          dark: 'var(--color-apex-dark)',
+          darker: 'var(--color-apex-darker)',
+          gray: 'var(--color-apex-gray)',
         },
         titan: {
-          cyan: '#00f0ff',
-          orange: '#ff5a00',
-          panel: '#15191e',
-          border: '#2a313a'
+          cyan: 'var(--color-titan-cyan)',
+          orange: 'var(--color-titan-orange)',
+          panel: 'var(--color-titan-panel)',
+          border: 'var(--color-titan-border)'
         },
         theme: {
           primary: 'var(--theme-primary)',
@@ -25,9 +25,9 @@ export default {
         }
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        mono: ['JetBrains Mono', 'monospace'],
-        display: ['Chakra Petch', 'sans-serif'],
+        sans: ['var(--font-sans)'],
+        mono: ['var(--font-mono)'],
+        display: ['var(--font-display)'],
       }
     },
   },
