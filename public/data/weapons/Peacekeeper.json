@@ -1,0 +1,35 @@
+{
+  "name": "Peacekeeper",
+  "shortname": "Peacekeeper",
+  "Type": "Shotgun",
+  "Ammo": "Shotgun Shells",
+  "Fire modes": "Single",
+  "Manufacturer": "",
+  "RPM": "44 / 47 / 50 / 51",
+  "Magazine": "5",
+  "Tac reload time": "2.5 / 2.42 / 2.33 / 2.25",
+  "Full reload time": "3.5 / 3.38 / 3.27 / 3.15",
+  "Hipfire Accuracy": "90",
+  "Recoil Control": "53",
+  "Weapon Handling": "70",
+  "Lore": "As manufacturing became more commonplace with IMC expansion, the need to guard IMC factories and plants against outlaws increased. However, many ballistic firearms could not be used in these facilities due to the volatile materials involved in industrial production. The IMC turned to Lastimosa Armory for a solution, and the energy-based Peacekeeper was born. Slow and heavy-hitting, the Peacekeeper requires few charges to put down a target at close range.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "Others",
+    "Shotgun Bolt",
+    "Standard Stock",
+    "Hop-Up",
+    "Executioner (375 points)"
+  ],
+  "Damage": {
+    "Head Multiplier": "1",
+    "Body": "99",
+    "Leg": "99"
+  },
+  "Corrupted": {
+    "Stock": ""
+  }
+}

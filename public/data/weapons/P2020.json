@@ -1,0 +1,32 @@
+{
+  "name": "P2020",
+  "shortname": "P2020",
+  "Type": "Pistol",
+  "Ammo": "Light Rounds",
+  "Fire modes": "Single/Akimbo",
+  "Manufacturer": "Lastimosa Armory",
+  "RPM": "420 (Akimbo: 480)",
+  "Magazine": "9 / 10 / 11 / 12 / 15 (Akimbo: 18 / 20 / 22 / 24 / 30)",
+  "Tac reload time": "1.25",
+  "Full reload time": "1.2 / 1.8 (Akimbo: 2.6 / 3.6)",
+  "Hipfire Accuracy": "78",
+  "Recoil Control": "38",
+  "Weapon Handling": "81",
+  "Lore": "The Hammond P2020, is a semi-automatic single-action small caliber pistol manufactured by Lastimosa Armory. This handgun features an integrated standoff device and a fully milled slide. It also has a fully integrated Taclight and LAM, along with varied functions for IR, LiDAR, or FLIR illumination. When dropping in hot and you need something more than your mitts, the P2020 will help you tap, rack, and bang to first place with the best Legends out there.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "Others",
+    "Laser Sight",
+    "Extended Light Mag",
+    "Hop-Up",
+    "Hammerpoint Rounds (425 points)"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.25",
+    "Body": "24",
+    "Leg": "21"
+  }
+}

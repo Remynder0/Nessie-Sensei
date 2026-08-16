@@ -1,0 +1,32 @@
+{
+  "name": "EVA-8 Auto",
+  "shortname": "EVA-8",
+  "Type": "Shotgun",
+  "Ammo": "Shotgun Shells",
+  "Fire modes": "Auto",
+  "Manufacturer": "Wonyeon",
+  "RPM": "168 / 181 / 193 / 202",
+  "Magazine": "8",
+  "Tac reload time": "2.75",
+  "Full reload time": "3",
+  "Hipfire Accuracy": "90",
+  "Recoil Control": "47",
+  "Weapon Handling": "70",
+  "Lore": "The EVA-8 Auto is a pump-action/automatic shotgun from the Frontier War designed for extra-vehicular activity and to operate in zero gravity environments. Using 12 Gauge 00 Buckshot cartridges, this weapon was developed from the ground up by Wonyeon Interstellar to provide the IMC Orbital Guard Raiding Parties (aka Shipwreckers) with devastating CQB firepower. The EVA-8 has also been widely used by the Frontier Militia and Badlands Pirates, often acquiring the weapons by raiding remote supply convoys to the Outer Colonies. It is now used in the Apex Games where legends in need of massive firepower during the first contact can look no further than the EVA-8.[1]",
+  "Damage": {
+    "Head Multiplier": "1",
+    "Body": "56",
+    "Leg": "56"
+  },
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "Others",
+    "Shotgun Bolt",
+    "Standard Stock",
+    "Hop-Up",
+    "Double Tap Trigger (375 points)"
+  ]
+}

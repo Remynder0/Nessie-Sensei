@@ -1,0 +1,35 @@
+{
+  "name": "Nemesis Burst AR",
+  "shortname": "Nemesis",
+  "Type": "Assault Rifle",
+  "Ammo": "Energy Ammo",
+  "Fire modes": "Automatic Burst (4)",
+  "Manufacturer": "Rampart (designer) The Sisters (manufacturer)",
+  "RPM": "451-582",
+  "Magazine": "20 / 24 / 28 / 32 / 36",
+  "Tac reload time": "2.7",
+  "Full reload time": "3.0 / 4.1",
+  "Hipfire Accuracy": "65",
+  "Recoil Control": "61",
+  "Weapon Handling": "57",
+  "Lore": "The Nemesis Burst AR was originally designed by Rampart during her time with The Sisters, the gang led by Big Sister.[2] Its prototype was stolen during an attack on Rampart's shop, and it was later released by the Sisters as their first product as a licensed business.[3]",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "2x-4x Variable AOG",
+    "3x HCOG \"Ranger\"",
+    "Others",
+    "Barrel Stabilizer",
+    "Extended Energy Mag",
+    "Standard Stock",
+    "Hop-Up",
+    "Turbocharger (600 points)"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.3",
+    "Body": "17",
+    "Leg": "12"
+  }
+}

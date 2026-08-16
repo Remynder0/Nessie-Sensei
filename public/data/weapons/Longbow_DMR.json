@@ -1,0 +1,35 @@
+{
+  "name": "Longbow DMR",
+  "shortname": "Longbow",
+  "Type": "Sniper Rifle",
+  "Ammo": "Sniper Ammo",
+  "Fire modes": "Single",
+  "Manufacturer": "Wonyeon",
+  "RPM": "78",
+  "Magazine": "6 / 8 / 10 / 12 / 14",
+  "Tac reload time": "2.66",
+  "Full reload time": "3.7 / 4.8",
+  "Hipfire Accuracy": "25",
+  "Recoil Control": "86",
+  "Weapon Handling": "51",
+  "Lore": "The D-101 Longbow DMR (Designated Marksman Rifle) is a semi-automatic sniper rifle made by Lastimosa Armory. Models from the Frontier War were variants of the then-current R-201 Assault Rifle,[1] the model used in the Apex Games then would most likely be a variant of the R-201's successor, the R-301 Carbine.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "6x Sniper",
+    "2x-4x Variable AOG",
+    "3x HCOG \"Ranger\"",
+    "4x-8x Variable Sniper",
+    "4x-10x Digital Sniper Threat",
+    "Others",
+    "Extended Sniper Mag",
+    "Sniper Stock"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.8",
+    "Body": "60",
+    "Leg": "48"
+  }
+}

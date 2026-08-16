@@ -1,0 +1,31 @@
+{
+  "name": "C.A.R. SMG",
+  "shortname": "C.A.R.",
+  "Type": "Submachine Gun",
+  "Ammo": "Heavy/Light Rounds",
+  "Fire modes": "Auto",
+  "Manufacturer": "Siwhan Industries",
+  "RPM": "930",
+  "Magazine": "20 / 23 / 26 / 30 / 36",
+  "Tac reload time": "1.7",
+  "Full reload time": "2.1 / 3.1",
+  "Hipfire Accuracy": "75",
+  "Recoil Control": "32",
+  "Weapon Handling": "72",
+  "Lore": "The C.A.R. SMG was developed by Lastimosa Armory to leverage the existing success of the company's R-101 platform. A smaller barrel, lighter alloys, and other weight reductions improve the weapon's handling, while smaller ammunition affords low recoil and a higher rate of fire. Traditionally, weapons with a high rate of fire tend to jam when used for extended durations - to remove this limitation, the R&D team at Lastimosa Armory created a \"shoot by wire\" system where the trigger is linked to the firing mechanism via an internal CPU. This system can detect overheat conditions, adjust rate of fire, and clear jams without operator intervention - often faster than the operator can realize a jam has occurred.",
+  "Damage": {
+    "Head Multiplier": "1.25",
+    "Body": "14",
+    "Leg": "11"
+  },
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "Others",
+    "Extended Heavy or Light Mag",
+    "Standard Stock",
+    "Laser Sight"
+  ]
+}

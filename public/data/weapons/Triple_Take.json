@@ -1,0 +1,32 @@
+{
+  "name": "Triple Take",
+  "shortname": "Triple Take",
+  "Type": "Marksman Weapon",
+  "Ammo": "Energy Ammo",
+  "Fire modes": "Single",
+  "Manufacturer": "Burrell Defense",
+  "RPM": "78",
+  "Magazine": "6 / 7 / 8 / 10 / 12",
+  "Tac reload time": "2.6",
+  "Full reload time": "3.4 / 4.6",
+  "Hipfire Accuracy": "47",
+  "Recoil Control": "75",
+  "Weapon Handling": "56",
+  "Lore": "The Triple Take came close to dying at the blueprint stage. A successor to the Double Take that fires from three separate barrels with each shot, the base model's spread makes it less effective at long-range. The original Triple Take project was shelved, but a new version emerged in the Outlands after the Blackout. While many sniper rifles demand a high degree of precision from operators, the Triple Take's spread proved more forgiving and effective for operators at all skill levels.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "2x HCOG \"Bruiser\"",
+    "1x-2x Variable Holo",
+    "3x HCOG \"Ranger\"",
+    "2x-4x Variable AOG",
+    "Others",
+    "Extended Energy Mag",
+    "Sniper Stock"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.5",
+    "Body": "66",
+    "Leg": "57"
+  }
+}

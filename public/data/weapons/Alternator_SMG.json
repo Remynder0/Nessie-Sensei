@@ -1,0 +1,38 @@
+{
+  "name": "Alternator SMG",
+  "shortname": "Alternator",
+  "Type": "Submachine Gun",
+  "Ammo": "Light Rounds",
+  "Fire modes": "Auto",
+  "Manufacturer": "Burrell Defense",
+  "RPM": "600",
+  "Magazine": "18 / 20 / 22 / 26 / 32",
+  "Tac reload time": "1.9",
+  "Full reload time": "2.2 / 3.2",
+  "Hipfire Accuracy": "80",
+  "Recoil Control": "40",
+  "Weapon Handling": "73",
+  "Lore": "The Alternator is famous for its accuracy; featuring twin barrels that alternate fire from a single magazine, it suffers less of the barrel-wear that reduces accuracy in other firearms. However, its patented receiver and barrel assembly ensured it could only be manufactured by Burrell Industries, hampering widespread adoption during the Frontier War. After Burrell's collapse following the Blackout, the design was reverse-engineered by surviving competitors, and current models have reached nearly the same level of sophistication.",
+  "Damage": {
+    "Head Multiplier": "1.25",
+    "Body": "18",
+    "Leg": "14"
+  },
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "Others",
+    "Laser Sight",
+    "Extended Light Mag",
+    "Standard Stock",
+    "Hop-Up",
+    "Double Tap Trigger (500 points)"
+  ],
+  "Corrupted": {
+    "Mag": "3.2",
+    "Stock": "14",
+    "Laser": "32"
+  }
+}

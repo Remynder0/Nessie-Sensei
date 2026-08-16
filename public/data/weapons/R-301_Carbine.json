@@ -1,0 +1,33 @@
+{
+  "name": "R-301 Carbine",
+  "shortname": "R-301",
+  "Type": "Assault Rifle",
+  "Ammo": "Light Rounds",
+  "Fire modes": "Auto/Single",
+  "Manufacturer": "Lastimosa Armory",
+  "RPM": "810",
+  "Magazine": "21 / 23 / 28 / 31 / 37",
+  "Tac reload time": "2.4",
+  "Full reload time": "3.2 / 4.3",
+  "Hipfire Accuracy": "69",
+  "Recoil Control": "66",
+  "Weapon Handling": "57 ",
+  "Lore": "Manufactured by the Lastimosa Armory and commissioned by the IMC, the R-301 is the successor to the R-101 and R-201 rifles from the Frontier War. In the years after the Battle of Typhon, the IMC felt a need to improve on their very successful and reliable R-201 platform. High volumes of data collected from the R-201 and the R-201-A2's internal CPU's indicated that most mechanical failures were due to the rifle frame's exposure to extreme elements which caused misfires and the occasional feed mechanism malfunction. The internal components have been revised with a lighter and stronger composite as the external framework has been strengthened with a composite metallic weave to better compensate for overheating and structural integrity. The piston system was removed overall and the bolt cycling mechanism is completely controlled by the R-301's integrated AI. What you have with this new and improved platform is a reliable and accurate rifle with minimal maintenance and a larger caliber.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "3x HCOG \"Ranger\"",
+    "2x-4x Variable AOG",
+    "Others",
+    "Barrel Stabilizer",
+    "Extended Light Mag",
+    "Standard Stock"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.3",
+    "Body": "15",
+    "Leg": "11"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Hemlok Breach AR",
+  "shortname": "Hemlok",
+  "Type": "Assault Rifle",
+  "Ammo": "Heavy Rounds",
+  "Fire modes": "Auto/Breach",
+  "Manufacturer": "Wonyeon",
+  "RPM": "462",
+  "Magazine": "18 / 20 / 22 / 25 / 34 (Breach: 1)",
+  "Tac reload time": "2.3",
+  "Full reload time": "2.5 / 3.4 (Breach: 30)",
+  "Hipfire Accuracy": "63",
+  "Recoil Control": "66",
+  "Weapon Handling": "57",
+  "Lore": "The Hemlok Burst AR is a heavy burst-fire assault rifle based on the Hemlok BF-R, a weapon designed exclusively for IMC ground troops. Lastimosa Armory was commissioned by the IMC to create a weapon with a stronger punch than the R-101, so it could more effectively puncture standard-issue body armor. During the Frontier War, direct sale to the public was prohibited, but its updated model is commonplace in the Outlands.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "2x-4x Variable AOG",
+    "3x HCOG \"Ranger\"",
+    "Others",
+    "Extended Heavy Mag",
+    "Standard Stock"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.4",
+    "Body": "21 (Breach: 4-38)",
+    "Leg": "15"
+  }
+}

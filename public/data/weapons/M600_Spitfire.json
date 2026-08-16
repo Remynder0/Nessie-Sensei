@@ -1,0 +1,33 @@
+{
+  "name": "M600 Spitfire",
+  "shortname": "Spitfire",
+  "Type": "Light Machine Gun",
+  "Ammo": "Light Rounds",
+  "Fire modes": "Auto",
+  "Manufacturer": "Siwhan Industries",
+  "RPM": "540",
+  "Magazine": "35 / 40 / 45 / 50 / 60",
+  "Tac reload time": "3.4",
+  "Full reload time": "4.2 / 5.5",
+  "Hipfire Accuracy": "50",
+  "Recoil Control": "50",
+  "Weapon Handling": "43",
+  "Lore": "The M600 Spitfire Mk3 is a light machine gun manufactured by Siwhan Industries. Descended from the Frontier War-era Mk1 and Mk2, the design and operation of the Mk3 seems to be a mix of both of its ancestors, retaining the gas operated, rotating bolt locking mechanism of the Mk1 but using the light composite frame of the Mk2. Improvements to initial recoil and accuracy makes it a good weapon for sustained suppressive fire.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "3x HCOG \"Ranger\"",
+    "2x-4x Variable AOG",
+    "Others",
+    "Barrel Stabilizer",
+    "Extended Light Mag",
+    "Standard Stock"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.25",
+    "Body": "21",
+    "Leg": "18"
+  }
+}

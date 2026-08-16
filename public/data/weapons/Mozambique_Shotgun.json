@@ -1,0 +1,29 @@
+{
+  "name": "Mozambique Shotgun",
+  "shortname": "Mozambique",
+  "Type": "Shotgun",
+  "Ammo": "Shotgun Shells",
+  "Fire modes": "Auto/Akimbo",
+  "Manufacturer": "Altamirano Armory",
+  "RPM": "160 / 176 / 184 / 192 (Akimbo: 175 / 193 / 201 / 210)",
+  "Magazine": "5 (Akimbo: 10)",
+  "Tac reload time": "1.9 (Akimbo: 2.3)",
+  "Full reload time": "2.3 (Akimbo: 2.7)",
+  "Hipfire Accuracy": "88",
+  "Recoil Control": "48",
+  "Weapon Handling": "79",
+  "Lore": "In the wake of the mass Frontier migration into the Outlands, regional conflicts and land-grabs created a demand for inexpensive firearms. The Mozambique Shotgun (named for an execution technique with a similar, triangular spread) served that function for Pilots in the Frontier War and a new model was soon being mass-produced for civilian use. The result is a firearm with a small magazine and minimal stopping power - while useful for self-defense, a standard Mozambique will require modifications (or a lot of luck) to be useful in a real fight.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "Others",
+    "Shotgun Bolt"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.25",
+    "Body": "51",
+    "Leg": "51"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "30-30 Repeater",
+  "shortname": "30-30",
+  "Type": "Marksman Weapon",
+  "Ammo": "Heavy Rounds",
+  "Fire modes": "Single",
+  "Manufacturer": "Holdener Arms",
+  "RPM": "64",
+  "Magazine": "5 / 6 / 7 / 8 / 10",
+  "Tac reload time": "Segmented",
+  "Full reload time": "2.7 / 3.3",
+  "Hipfire Accuracy": "44",
+  "Recoil Control": "78",
+  "Weapon Handling": "59",
+  "Lore": "While some claim Fuse's mullet is the finest thing to come out of Salvo, most would agree it's the 30-30 Repeater. A lever action repeating rifle, it can be charged to increase the damage done by each shot. Only one bullet needs to be chambered in order for the weapon to fire, which makes the Repeater an asset in skirmishes where a single round can be the difference between victory and defeat. Originally designed to protect rural farms from beasts and poachers, and requiring minimal maintenance in the harsh sands of Salvo, the 30-30 has become a symbol of freedom to the Salvonian working class.",
+  "Damage": {
+    "Head Multiplier": "1.4",
+    "Body": "51 - 71",
+    "Leg": "43 - 60"
+  },
+  "Attachments": [
+    "Optics",
+    "1x HCOG Classic",
+    "1x-2x Variable Holo",
+    "2x HCOG Bruiser",
+    "2x-4x Variable AOG",
+    "3x HCOG Ranger",
+    "Others",
+    "Extended Heavy Mag",
+    "Sniper Stock",
+    "Hop-Up",
+    "Shatter Caps"
+  ]
+}

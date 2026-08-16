@@ -1,0 +1,57 @@
+{
+  "Extended Mag": {
+    "type": "mag",
+    "description": "Increases ammo capacity.",
+    "bonus": "Magazine",
+    "corrupted": {
+      "bonus": ["Magazine"],
+      "penalty": ["Full reload time"],
+      "description": "Significantly increases ammo capacity, but impairs reload speed."
+    }
+  },
+  "Standard Stock": {
+    "type": "stock",
+    "description": "Improves weapon handling and reduces reload times.",
+    "bonus": ["Weapon Handling", "Full reload time"],
+    "corrupted": {
+      "bonus": ["Weapon Handling", "Full reload time", "Movement Speed"],
+      "penalty": ["Magazine"],
+      "description": "Increases sprint speed and ADS strafes speed, improves reload speed and weapon handling, but reduces magazine size."
+    }
+  },
+  "Sniper Stock": {
+    "type": "sniper_stock",
+    "description": "Improves weapon handling and reduces reload times.",
+    "bonus": ["Weapon Handling", "Full reload time"],
+    "corrupted": {
+      "bonus": ["Weapon Handling", "Full reload time", "RPM"],
+      "penalty": ["Magazine"],
+      "description": "Increases Rate of Fire, improves reload speed and weapon handling, but reduces magazine size."
+    }
+  },
+  "Shotgun Bolt": {
+    "type": "bolt",
+    "description": "Increases Rate of Fire.",
+    "bonus": ["RPM"]
+  },
+  "Barrel Stabilizer": {
+    "type": "barrel",
+    "description": "Recoil reduction.",
+    "bonus": ["Recoil Control"],
+    "corrupted": {
+      "bonus": ["Recoil Control", "Headshot Damage"],
+      "penalty": ["Hipfire Accuracy"],
+      "description": "Improves Headshot Damage and provides larger recoil reduction, but Hipfire spread is increased."
+    }
+  },
+  "Laser Sight": {
+    "type": "barrel",
+    "description": "Hipfire spread reduction.",
+    "bonus": "Hipfire Accuracy",
+    "corrupted": {
+      "bonus": ["Hipfire Accuracy", "Full reload time"],
+      "penalty": ["Recoil Control"],
+      "description": "Greatly improves reload speed and provides a large hipfire spread reduction, but impairs recoil control."
+    }
+  }
+}

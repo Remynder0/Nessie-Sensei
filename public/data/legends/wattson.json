@@ -22,7 +22,8 @@
         "Cooldown": "4s",
         "Damage": "35",
         "Node HP": "50",
-        "Deployment Time": "0.5s"
+        "Deployment Time": "0.5s",
+        "Max in World": "12"
       }
     },
     "ultimate": {

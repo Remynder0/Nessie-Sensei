@@ -1,0 +1,21 @@
+{
+  "name": "Kraber .50-Cal Sniper",
+  "shortname": "Kraber",
+  "Type": "Sniper Rifle",
+  "Ammo": "Mythic Sniper Ammo",
+  "Fire modes": "Single",
+  "Manufacturer": "Lastimosa Armory",
+  "RPM": "25",
+  "Magazine": "4",
+  "Tac reload time": "3.2",
+  "Full reload time": "4.3",
+  "Hipfire Accuracy": "25",
+  "Recoil Control": "85",
+  "Weapon Handling": "25",
+  "Lore": "The original Kraber-AP sniper rifle was designed to take down slow-moving military vehicles. Its successor, the Kraber .50-Cal, packs the same kind of power against much smaller targets. A single long-range shot can down a human target. A close-range shot, while significantly harder to land, will obliterate them.",
+  "Damage": {
+    "Head Multiplier": "1.4",
+    "Body": "150",
+    "Leg": "120"
+  }
+}
