@@ -34,20 +34,20 @@ function handleLink() {
     >
         <div v-if="syncStatus === 'ONLINE'" class="text-titan-cyan flex items-center justify-center gap-2">
             <span class="w-2 h-2 rounded-full bg-titan-cyan group-hover:shadow-[0_0_8px_#00f0ff]"></span>
-            SYSTEM ONLINE
+            {{ $t('sync.systemOnline') }}
         </div>
         <div v-else-if="syncStatus === 'SYNCING'" class="text-titan-orange flex items-center justify-center gap-2 animate-pulse">
             <span class="w-2 h-2 bg-titan-orange"></span>
-            SYNCHRONIZING...
+            {{ $t('sync.synchronizing') }}
         </div>
         <div v-else class="text-apex-red flex items-center justify-center gap-2">
             <span class="w-2 h-2 rounded-full bg-apex-red"></span>
-            OFFLINE
+            {{ $t('sync.offline') }}
         </div>
         
         <!-- Hover Hint -->
         <div class="absolute inset-0 flex items-center justify-center bg-titan-cyan text-black opacity-0 group-hover:opacity-100 transition-opacity font-bold">
-            GÉRER SYNCHRONISATION
+            {{ $t('sync.manage') }}
         </div>
     </button>
 
@@ -57,20 +57,20 @@ function handleLink() {
             <button @click="showModal = false" class="absolute top-4 right-4 text-gray-500 hover:text-white font-mono text-xl">&times;</button>
             
             <h2 class="text-2xl font-black text-white uppercase font-display tracking-wider mb-6 flex items-center gap-2">
-                <span class="w-3 h-3 bg-titan-cyan block"></span> DATA LINK
+                <span class="w-3 h-3 bg-titan-cyan block"></span> {{ $t('sync.dataLink') }}
             </h2>
 
             <div class="mb-8">
-                <p class="text-xs text-gray-400 font-mono mb-2 uppercase tracking-widest">Votre Code Identifiant :</p>
+                <p class="text-xs text-gray-400 font-mono mb-2 uppercase tracking-widest">{{ $t('sync.yourCode') }}</p>
                 <button @click="copyToClipboard" class="w-full bg-black/50 border border-titan-cyan p-4 text-center group hover:bg-titan-cyan/10 transition-colors relative">
                     <span class="text-3xl font-mono text-white font-bold tracking-widest group-hover:text-titan-cyan transition-colors">{{ syncCode }}</span>
-                    <span v-if="copySuccess" class="absolute -top-3 right-2 bg-titan-cyan text-black text-[13px] px-2 py-1 font-bold uppercase">Copié !</span>
+                    <span v-if="copySuccess" class="absolute -top-3 right-2 bg-titan-cyan text-black text-[13px] px-2 py-1 font-bold uppercase">{{ $t('sync.copied') }}</span>
                 </button>
-                <p class="text-[13px] text-gray-500 font-mono mt-2 text-center">Ce code a été copié dans votre presse-papier.</p>
+                <p class="text-[13px] text-gray-500 font-mono mt-2 text-center">{{ $t('sync.codeCopied') }}</p>
             </div>
 
             <div class="border-t border-titan-border pt-6">
-                <p class="text-xs text-gray-400 font-mono mb-2 uppercase tracking-widest">Lier un autre appareil :</p>
+                <p class="text-xs text-gray-400 font-mono mb-2 uppercase tracking-widest">{{ $t('sync.linkDevice') }}</p>
                 <div class="flex gap-2">
                     <input 
                         v-model="inputCode" 
@@ -84,10 +84,10 @@ function handleLink() {
                         :disabled="inputCode.length !== 9"
                         class="bg-titan-orange text-black px-6 font-bold font-mono uppercase disabled:opacity-50 hover:bg-orange-500 transition-colors"
                     >
-                        Lier
+                        {{ $t('sync.link') }}
                     </button>
                 </div>
-                <p class="text-[13px] text-gray-500 font-mono mt-2 text-center">Attention : Lier un appareil écrasera les données locales actuelles.</p>
+                <p class="text-[13px] text-gray-500 font-mono mt-2 text-center">{{ $t('sync.linkWarning') }}</p>
             </div>
         </div>
     </div>

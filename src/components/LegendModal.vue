@@ -422,7 +422,7 @@ function hideImageOnError(event: Event) {
                 <!-- PATCH HISTORY TAB CONTENT -->
                 <template v-else-if="activeModalTab === 'patch'">
                     <div v-if="!currentLegendPatchHistory || currentLegendPatchHistory.length === 0" class="flex-1 p-8 md:p-12 flex items-center justify-center text-gray-500 font-mono text-center">
-                        Aucun historique de patch.
+                        {{ $t('legends.noPatchHistory') }}
                     </div>
                     <div v-else class="p-8 md:p-10 flex-1 bg-transparent overflow-y-auto custom-scrollbar">
                         <h3 class="text-sm font-bold text-gray-400 uppercase tracking-widest font-display mb-8 flex items-center gap-2">
@@ -575,7 +575,7 @@ function hideImageOnError(event: Event) {
                                     <!-- Level 1 (Top Shield) -->
                                     <div class="relative z-10 flex flex-col items-center mb-16">
                                         <div class="w-20 h-16 bg-black border-[3px] border-white flex flex-col items-center justify-center perk-shield-shape shadow-[0_0_15px_rgba(255,255,255,0.2)]">
-                                            <span class="text-white font-mono font-black text-[13px] mt-1">NIV. 1</span>
+                                            <span class="text-white font-mono font-black text-[13px] mt-1">{{ $t('legends.level') }} 1</span>
                                             <svg class="w-5 h-5 text-white mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L3 6v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V6l-9-4z"/></svg>
                                         </div>
                                     </div>
@@ -591,7 +591,7 @@ function hideImageOnError(event: Event) {
                                             <div class="w-full max-w-[280px] border-2 flex flex-col relative group cursor-default transition-all perk-skew"
                                                  :class="currentLegendDetails.tactics.perks.level_2.left.recommended ? 'bg-titan-cyan/20 border-titan-cyan shadow-[0_0_20px_rgba(45,212,191,0.3)]' : 'bg-black/80 border-titan-cyan/30'">
                                                 <div class="p-4 perk-unskew flex flex-col h-full justify-center">
-                                                    <div v-if="currentLegendDetails.tactics.perks.level_2.left.recommended" class="absolute -top-3 right-4 bg-titan-cyan text-black text-[13px] font-bold px-2 py-0.5 rounded-sm uppercase shadow-[0_0_10px_rgba(45,212,191,0.5)]">Recommandé</div>
+                                                    <div v-if="currentLegendDetails.tactics.perks.level_2.left.recommended" class="absolute -top-3 right-4 bg-titan-cyan text-black text-[13px] font-bold px-2 py-0.5 rounded-sm uppercase shadow-[0_0_10px_rgba(45,212,191,0.5)]">{{ $t('legends.recommended') }}</div>
                                                     <h4 class="font-bold text-white text-xs md:text-sm uppercase tracking-wider mb-1 font-display transition-colors" :class="{'text-titan-cyan drop-shadow-[0_0_5px_rgba(45,212,191,0.8)]': currentLegendDetails.tactics.perks.level_2.left.recommended}">{{ currentLegendDetails.tactics.perks.level_2.left.name }}</h4>
                                                     <p class="text-gray-400 font-sans text-[13px] md:text-xs leading-tight line-clamp-3">{{ currentLegendDetails.tactics.perks.level_2.left.description }}</p>
                                                 </div>
@@ -600,7 +600,7 @@ function hideImageOnError(event: Event) {
 
                                         <!-- Center Shield Lvl 2 -->
                                         <div class="w-20 h-16 bg-black border-[3px] border-titan-cyan flex flex-col items-center justify-center perk-shield-shape shadow-[0_0_15px_rgba(45,212,191,0.3)] z-10 mx-2 shrink-0">
-                                            <span class="text-white font-mono font-black text-[13px] mt-1">NIV. 2</span>
+                                            <span class="text-white font-mono font-black text-[13px] mt-1">{{ $t('legends.level') }} 2</span>
                                             <svg class="w-5 h-5 text-titan-cyan mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L3 6v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V6l-9-4z"/></svg>
                                         </div>
 
@@ -609,7 +609,7 @@ function hideImageOnError(event: Event) {
                                             <div class="w-full max-w-[280px] border-2 flex flex-col relative group cursor-default transition-all perk-skew"
                                                  :class="currentLegendDetails.tactics.perks.level_2.right.recommended ? 'bg-titan-cyan/20 border-titan-cyan shadow-[0_0_20px_rgba(45,212,191,0.3)]' : 'bg-black/80 border-titan-cyan/30'">
                                                 <div class="p-4 perk-unskew flex flex-col h-full justify-center">
-                                                    <div v-if="currentLegendDetails.tactics.perks.level_2.right.recommended" class="absolute -top-3 left-4 bg-titan-cyan text-black text-[13px] font-bold px-2 py-0.5 rounded-sm uppercase shadow-[0_0_10px_rgba(45,212,191,0.5)]">Recommandé</div>
+                                                    <div v-if="currentLegendDetails.tactics.perks.level_2.right.recommended" class="absolute -top-3 left-4 bg-titan-cyan text-black text-[13px] font-bold px-2 py-0.5 rounded-sm uppercase shadow-[0_0_10px_rgba(45,212,191,0.5)]">{{ $t('legends.recommended') }}</div>
                                                     <h4 class="font-bold text-white text-xs md:text-sm uppercase tracking-wider mb-1 font-display transition-colors" :class="{'text-titan-cyan drop-shadow-[0_0_5px_rgba(45,212,191,0.8)]': currentLegendDetails.tactics.perks.level_2.right.recommended}">{{ currentLegendDetails.tactics.perks.level_2.right.name }}</h4>
                                                     <p class="text-gray-400 font-sans text-[13px] md:text-xs leading-tight line-clamp-3">{{ currentLegendDetails.tactics.perks.level_2.right.description }}</p>
                                                 </div>
@@ -628,7 +628,7 @@ function hideImageOnError(event: Event) {
                                             <div class="w-full max-w-[280px] border-2 flex flex-col relative group cursor-default transition-all perk-skew"
                                                  :class="currentLegendDetails.tactics.perks.level_3.left.recommended ? 'bg-fuchsia-500/20 border-fuchsia-500 shadow-[0_0_20px_rgba(217,70,239,0.3)]' : 'bg-black/80 border-fuchsia-500/30'">
                                                 <div class="p-4 perk-unskew flex flex-col h-full justify-center">
-                                                    <div v-if="currentLegendDetails.tactics.perks.level_3.left.recommended" class="absolute -top-3 right-4 bg-fuchsia-500 text-black text-[13px] font-bold px-2 py-0.5 rounded-sm uppercase shadow-[0_0_10px_rgba(217,70,239,0.5)]">Recommandé</div>
+                                                    <div v-if="currentLegendDetails.tactics.perks.level_3.left.recommended" class="absolute -top-3 right-4 bg-fuchsia-500 text-black text-[13px] font-bold px-2 py-0.5 rounded-sm uppercase shadow-[0_0_10px_rgba(217,70,239,0.5)]">{{ $t('legends.recommended') }}</div>
                                                     <h4 class="font-bold text-white text-xs md:text-sm uppercase tracking-wider mb-1 font-display transition-colors" :class="{'text-fuchsia-400 drop-shadow-[0_0_5px_rgba(217,70,239,0.8)]': currentLegendDetails.tactics.perks.level_3.left.recommended}">{{ currentLegendDetails.tactics.perks.level_3.left.name }}</h4>
                                                     <p class="text-gray-400 font-sans text-[13px] md:text-xs leading-tight line-clamp-3">{{ currentLegendDetails.tactics.perks.level_3.left.description }}</p>
                                                 </div>
@@ -637,7 +637,7 @@ function hideImageOnError(event: Event) {
 
                                         <!-- Center Shield Lvl 3 -->
                                         <div class="w-20 h-16 bg-black border-[3px] border-fuchsia-500 flex flex-col items-center justify-center perk-shield-shape shadow-[0_0_15px_rgba(217,70,239,0.3)] z-10 mx-2 shrink-0">
-                                            <span class="text-white font-mono font-black text-[13px] mt-1">NIV. 3</span>
+                                            <span class="text-white font-mono font-black text-[13px] mt-1">{{ $t('legends.level') }} 3</span>
                                             <svg class="w-5 h-5 text-fuchsia-500 mt-0.5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L3 6v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V6l-9-4z"/></svg>
                                         </div>
 
@@ -646,7 +646,7 @@ function hideImageOnError(event: Event) {
                                             <div class="w-full max-w-[280px] border-2 flex flex-col relative group cursor-default transition-all perk-skew"
                                                  :class="currentLegendDetails.tactics.perks.level_3.right.recommended ? 'bg-fuchsia-500/20 border-fuchsia-500 shadow-[0_0_20px_rgba(217,70,239,0.3)]' : 'bg-black/80 border-fuchsia-500/30'">
                                                 <div class="p-4 perk-unskew flex flex-col h-full justify-center">
-                                                    <div v-if="currentLegendDetails.tactics.perks.level_3.right.recommended" class="absolute -top-3 left-4 bg-fuchsia-500 text-black text-[13px] font-bold px-2 py-0.5 rounded-sm uppercase shadow-[0_0_10px_rgba(217,70,239,0.5)]">Recommandé</div>
+                                                    <div v-if="currentLegendDetails.tactics.perks.level_3.right.recommended" class="absolute -top-3 left-4 bg-fuchsia-500 text-black text-[13px] font-bold px-2 py-0.5 rounded-sm uppercase shadow-[0_0_10px_rgba(217,70,239,0.5)]">{{ $t('legends.recommended') }}</div>
                                                     <h4 class="font-bold text-white text-xs md:text-sm uppercase tracking-wider mb-1 font-display transition-colors" :class="{'text-fuchsia-400 drop-shadow-[0_0_5px_rgba(217,70,239,0.8)]': currentLegendDetails.tactics.perks.level_3.right.recommended}">{{ currentLegendDetails.tactics.perks.level_3.right.name }}</h4>
                                                     <p class="text-gray-400 font-sans text-[13px] md:text-xs leading-tight line-clamp-3">{{ currentLegendDetails.tactics.perks.level_3.right.description }}</p>
                                                 </div>
