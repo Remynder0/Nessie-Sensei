@@ -48,7 +48,7 @@ const getWeaponIconName = (skinStr: string) => {
     if (lower.includes('car') || lower.includes('c.a.r.')) return 'c.a.r._smg';
     if (lower.includes('nemesis')) return 'nemesis_burst_ar';
     if (lower.includes('prowler')) return 'prowler_burst_pdw';
-    if (lower.includes('hemlok')) return 'hemlok_burst_ar';
+    if (lower.includes('hemlok')) return 'hemlok_breach_ar';
     if (lower.includes('r-99')) return 'r-99_smg';
     if (lower.includes('volt')) return 'volt_smg';
     if (lower.includes('alternator')) return 'alternator_smg';
@@ -71,7 +71,7 @@ const getWeaponIconName = (skinStr: string) => {
     if (lower.includes('mozambique')) return 'mozambique_shotgun';
     if (lower.includes('wingman')) return 'wingman';
     if (lower.includes('p2020')) return 'p2020';
-    if (lower.includes('re-45')) return 're-45_auto';
+    if (lower.includes('re-45')) return 're-45_burst';
     return null;
 }
 

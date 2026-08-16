@@ -10,6 +10,7 @@ import TabSimulation from './components/tabs/TabSimulation.vue'
 import TabStats from './components/tabs/TabStats.vue'
 import TabSort from './components/tabs/TabSort.vue'
 import TabBattlePass from './components/tabs/TabBattlePass.vue'
+import TabWeapons from './components/tabs/TabWeapons.vue'
 import SyncStatus from './components/SyncStatus.vue'
 import FeedbackBubble from './components/FeedbackBubble.vue'
 import { initSync } from './logic/syncService'
@@ -23,6 +24,7 @@ const isAdmin = ref(import.meta.env.DEV || localStorage.getItem('nessie_admin') 
 const allTabs = [
   { id: 'TeamGen', nameKey: 'nav.teamGen', component: TabTeamGen },
   { id: 'Legends', nameKey: 'nav.legends', component: TabLegends },
+  { id: 'Weapons', nameKey: 'nav.weapons', component: TabWeapons },
   { id: 'PackCalculator', nameKey: 'nav.packCalculator', component: TabPackCalculator },
   { id: 'BattlePass', nameKey: 'nav.battlePass', component: TabBattlePass },
   { id: 'Probabilities', nameKey: 'nav.probabilities', component: TabProbabilities },
