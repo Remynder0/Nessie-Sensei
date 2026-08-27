@@ -28,7 +28,7 @@ const emit = defineEmits<{
 
 const getBaseStat = (val: string) => {
     if (!val) return ''
-    return val.split(' / ')[0].trim()
+    return val.split(/\s*\/\s*/)[0].trim()
 }
 
 const isBreachMode = computed(() => props.fireModesList[props.selectedFireModeIndex]?.toLowerCase().includes('breach') ?? false)

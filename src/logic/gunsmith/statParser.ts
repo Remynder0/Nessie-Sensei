@@ -33,10 +33,14 @@ import { CONSUMABLE_REGEX } from './config'
  */
 export const parseMultiStat = (val: string | undefined): number[] => {
     if (!val) return []
-    if (val.includes('/')) {
-        return val.split('/').map(v => parseFloat(v.trim())).filter(n => !isNaN(n))
+    const str = val.trim()
+    if (str.includes('/')) {
+        return str.split('/').map(v => parseFloat(v.trim())).filter(n => !isNaN(n))
     }
-    const numbers = val.trim().split(/\s+/).map(v => parseFloat(v)).filter(n => !isNaN(n))
+    if (str.includes('–') || str.includes('—') || (str.includes('-') && !str.startsWith('-'))) {
+        return str.split(/[\s–—\-]+/).map(v => parseFloat(v.trim())).filter(n => !isNaN(n))
+    }
+    const numbers = str.split(/\s+/).map(v => parseFloat(v)).filter(n => !isNaN(n))
     return numbers
 }
 

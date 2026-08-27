@@ -40,6 +40,7 @@ const emit = defineEmits<{
         role="button"
         tabindex="0"
         @keydown.enter="emit('click-slot', slotId)"
+        @keydown.space.prevent="emit('click-slot', slotId)"
         @dragover="emit('drag-over', $event, slotId)"
         @dragleave="emit('drag-leave')"
         @drop="emit('drop', $event, slotId)"

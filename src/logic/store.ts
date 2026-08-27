@@ -25,8 +25,8 @@ export async function loadGameData() {
             if (wResponse.ok) {
                 weaponsData.value = await wResponse.json();
             }
-        } catch(e) {
-            console.log("No weapons.json found");
+        } catch (e) {
+            console.warn('Failed to load /data/weapons.json', e);
         }
 
         // Charger l'historique initial

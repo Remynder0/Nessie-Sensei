@@ -25,6 +25,7 @@ const emit = defineEmits<{
         @dragend="emit('drag-end')"
         @click="!disabled && emit('equip', item)"
         @keydown.enter="!disabled && emit('equip', item)"
+        @keydown.space.prevent="!disabled && emit('equip', item)"
         role="button"
         :tabindex="disabled ? -1 : 0"
         :aria-disabled="disabled"

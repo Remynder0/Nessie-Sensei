@@ -67,6 +67,7 @@ function handleGridPortraitError(event: Event, fallbackSrc: string) {
   tabindex="0"
   :aria-label="displayName || weaponName"
   @keydown.enter="emit('click')"
+  @keydown.space.prevent="emit('click')"
   @mousemove="handleMouseMove" 
   @mouseleave="handleMouseLeave" 
   @mouseenter="handleMouseEnter"

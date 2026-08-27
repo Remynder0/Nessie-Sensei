@@ -71,7 +71,7 @@ export const calculateMagazineStat = (
 
     // Always extract un-akimbo single base string for true base mag
     const singleMagStr = getEffectiveStatString(weapon.Magazine, false, false, false)
-    const singleParts = singleMagStr.split(' / ').map((v: string) => parseFloat(v.trim()))
+    const singleParts = singleMagStr.split(/\s*\/\s*/).map((v: string) => parseFloat(v.trim()))
     const base = singleParts[0] || 0
     if (base === 0) return { base: 0, current: 0, isBoosted: false, isPenalty: false }
 
@@ -88,7 +88,7 @@ export const calculateMagazineStat = (
 
     // Extract effective mag string for active mode (Akimbo or Consumable state)
     const effectiveMagStr = getEffectiveStatString(weapon.Magazine, isAkimbo, isAmped, isBreach)
-    const effectiveParts = effectiveMagStr.split(' / ').map((v: string) => parseFloat(v.trim()))
+    const effectiveParts = effectiveMagStr.split(/\s*\/\s*/).map((v: string) => parseFloat(v.trim()))
     const effectiveBase = effectiveParts[0] || base
 
     let magBonus = 0
@@ -597,7 +597,7 @@ export const calculateReloadStat = (
 ): StatResult => {
     if (!statStr) return { base: 0, current: 0, isBoosted: false, isPenalty: false }
     const singleStatStr = getEffectiveStatString(statStr, false, false, false)
-    const singleParts = singleStatStr.split(' / ').map(p => parseFloat(p.trim())).filter(n => !isNaN(n))
+    const singleParts = singleStatStr.split(/\s*\/\s*/).map(p => parseFloat(p.trim())).filter(n => !isNaN(n))
     const rawBase = singleParts[0] || 0
     if (rawBase === 0) return { base: 0, current: 0, isBoosted: false, isPenalty: false }
 
@@ -616,7 +616,7 @@ export const calculateReloadStat = (
         }
     }
 
-    const effectiveParts = effectiveStatStr.split(' / ').map(p => parseFloat(p.trim())).filter(n => !isNaN(n))
+    const effectiveParts = effectiveStatStr.split(/\s*\/\s*/).map(p => parseFloat(p.trim())).filter(n => !isNaN(n))
     const effectiveBase = effectiveParts[0] || rawBase
 
     // 1. Determine base reload time (incorporating Corrupted Mag penalty if equipped)
