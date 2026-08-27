@@ -81,6 +81,7 @@ export interface AttachmentItem {
     name: string
     detail: string
     rarity: string
+    points?: number
 }
 
 export interface AttachmentGroup {
@@ -113,6 +114,7 @@ export interface WeaponDetails {
         [key: string]: string | undefined
     }
     Attachments?: string[]
+    anchors?: Record<string, { x: number, y: number }>
     [key: string]: any
 }
 
@@ -125,6 +127,8 @@ export interface StatResult {
     baseDisplayString?: string
     minVal?: number
     maxVal?: number
+    baseMinVal?: number
+    tooltipKey?: string
 }
 
 export interface MythicWeaponConfig {
@@ -389,10 +393,13 @@ export const parseAttachments = (attachmentsList: string[] | undefined): Attachm
                 }
                 
                 if (isHopUpItem(baseName, currentCategory)) {
+                    const pointsMatch = raritiesStr.match(/(\d+)\s*(?:pts|points)/i)
+                    const points = pointsMatch ? parseInt(pointsMatch[1], 10) : undefined
                     hopupItems.push({
                         name: isSplatterRounds(baseName) ? 'Splatter Rounds' : baseName,
-                        detail: 'Legendary',
-                        rarity: 'legendary'
+                        detail: points ? `${points} PTS` : 'Legendary',
+                        rarity: 'legendary',
+                        points
                     })
                 } else if (currentCategory === 'Optics') {
                     const r = getOpticRarity(baseName)
@@ -564,7 +571,8 @@ export const calculateMagazineStat = (
         base,
         current,
         isBoosted: current > base,
-        isPenalty: current < base
+        isPenalty: current < base,
+        tooltipKey: 'weapons.tooltipMag'
     }
 }
 
@@ -623,26 +631,30 @@ export const calculateRpmStat = (
             current: currentMax,
             minVal: currentMin,
             maxVal: currentMax,
+            baseMinVal: baseMin,
             isBoosted: isTurbo,
             isPenalty: false,
             displayString: `${currentMin}–${currentMax}`,
-            baseDisplayString: `${baseMin}–${baseMax}`
+            baseDisplayString: `${baseMin}–${baseMax}`,
+            tooltipKey: isTurbo ? 'weapons.tooltipDevotionRpmTurbo' : 'weapons.tooltipDevotionRpm'
         }
     }
 
-    // Special Nemesis RPM curve (451-582 base over 6 bursts, max 582 direct with Turbocharger over 2 bursts)
+    // Special Nemesis RPM curve (451-582 base over 6 bursts, max 582 direct with Turbocharger)
     if (isWeaponNamed(weapon?.name, 'nemesis')) {
         const baseMin = 451
         const baseMax = 582
         return {
-            base: baseMax,
-            current: 582,
-            minVal: isTurbo ? 582 : 451,
-            maxVal: 582,
+            base: isTurbo ? baseMin : baseMax,
+            current: baseMax,
+            minVal: isTurbo ? baseMax : baseMin,
+            maxVal: baseMax,
+            baseMinVal: baseMin,
             isBoosted: isTurbo,
             isPenalty: false,
             displayString: isTurbo ? '582' : `${baseMin}–${baseMax}`,
-            baseDisplayString: `${baseMin}–${baseMax}`
+            baseDisplayString: `${baseMin}–${baseMax}`,
+            tooltipKey: isTurbo ? 'weapons.tooltipNemesisRpmTurbo' : 'weapons.tooltipNemesisRpm'
         }
     }
 
@@ -658,8 +670,8 @@ export const calculateRpmStat = (
 
     if (isShotgun) {
         if (boltEq && effectiveRpmValues.length > 1 && !isAmped) {
-            const idx = rarityToIndex[boltEq.rarity] ?? 0
-            current = effectiveRpmValues[idx] ?? current
+            const index = Math.min(rarityToIndex[boltEq.rarity] || 0, effectiveRpmValues.length - 1)
+            current = effectiveRpmValues[index]
         }
     } else if (effectiveRpmValues.length > 1 && !isAmped) {
         // Multi-firemode weapon (e.g. Prowler "579/795", Charge Rifle "26 / 84")
@@ -680,16 +692,22 @@ export const calculateRpmStat = (
         current = Math.round(current * rofMultiplier)
     }
 
+    const isHavoc = isWeaponNamed(weapon?.name, 'havoc')
+    const tooltipKey = isHavoc 
+        ? (isTurbo ? 'weapons.tooltipHavocRpmTurbo' : 'weapons.tooltipHavocRpm')
+        : 'weapons.tooltipRpm'
+
     return {
         base,
         current,
         isBoosted: current > base,
-        isPenalty: current < base
+        isPenalty: current < base,
+        tooltipKey
     }
 }
 
 /**
- * Computes spin-up / wind-up delay in seconds or burst count for weapons with charge mechanics (HAVOC, Devotion, Nemesis).
+ * Computes spin-up / wind-up delay in seconds or burst count for weapons with charge mechanics (Devotion).
  * @param weapon - The raw weapon data object.
  * @param equipped - The dictionary of currently equipped attachments by slot.
  * @returns A StatResult with labelKey if the weapon has a spin-up mechanic, or null otherwise.
@@ -701,20 +719,6 @@ export const calculateSpinUpStat = (
     if (!weapon?.name) return null
     const isTurbo = isTurbochargerEquipped(equipped)
 
-    if (isWeaponNamed(weapon.name, 'havoc')) {
-        const base = 0.42
-        const current = isTurbo ? 0.10 : 0.42
-        return {
-            base,
-            current,
-            isBoosted: isTurbo,
-            isPenalty: false,
-            displayString: `${current.toFixed(2)}s`,
-            baseDisplayString: `${base.toFixed(2)}s`,
-            labelKey: 'weapons.spinUpDelay'
-        }
-    }
-
     if (isWeaponNamed(weapon.name, 'devotion')) {
         const base = 1.75
         const current = isTurbo ? 0.85 : 1.75
@@ -725,21 +729,8 @@ export const calculateSpinUpStat = (
             isPenalty: false,
             displayString: `${current.toFixed(2)}s`,
             baseDisplayString: `${base.toFixed(2)}s`,
-            labelKey: 'weapons.spinUpTime'
-        }
-    }
-
-    if (isWeaponNamed(weapon.name, 'nemesis')) {
-        const base = 6
-        const current = isTurbo ? 2 : 6
-        return {
-            base,
-            current,
-            isBoosted: isTurbo,
-            isPenalty: false,
-            displayString: `${current} salves`,
-            baseDisplayString: `6 salves`,
-            labelKey: 'weapons.burstsToMax'
+            labelKey: 'weapons.spinUpTime',
+            tooltipKey: isTurbo ? 'weapons.tooltipDevotionRpmTurbo' : 'weapons.tooltipDevotionRpm'
         }
     }
 
@@ -966,11 +957,19 @@ export const calculateDpsStat = (
     const lowerDps = Math.min(minDps, maxDps)
     const upperDps = Math.max(minDps, maxDps)
 
-    const base = baseUpper || parseFloat(weapon?.DPS || '0')
+    const base = (isTurbo && isNemesis) ? baseMinDps : (baseUpper || parseFloat(weapon?.DPS || '0'))
     const current = upperDps || base
 
     const isBoosted = current > baseUpper || isAmped || (isDevotion && isTurbo) || (isNemesis && isTurbo)
     const isRange = (activeRange.isRange && !activeRange.isFrag) || isDevotion || (isNemesis && !isTurbo)
+
+    let tooltipKey: string | undefined = undefined
+    if (isNemesis) tooltipKey = isTurbo ? 'weapons.tooltipNemesisDpsTurbo' : 'weapons.tooltipNemesisDps'
+    else if (isDevotion) tooltipKey = isTurbo ? 'weapons.tooltipDevotionDpsTurbo' : 'weapons.tooltipDevotionDps'
+    else if (isWeaponNamed(weapon?.name, 'havoc')) tooltipKey = isTurbo ? 'weapons.tooltipHavocDpsTurbo' : 'weapons.tooltipHavocDps'
+    else if (is3030) tooltipKey = 'weapons.tooltip3030'
+    else if (isBocek) tooltipKey = 'weapons.tooltipBocek'
+    else tooltipKey = 'weapons.tooltipDps'
 
     if (isRange) {
         return {
@@ -978,22 +977,26 @@ export const calculateDpsStat = (
             current: upperDps,
             minVal: lowerDps,
             maxVal: upperDps,
+            baseMinVal: isDevotion ? baseMinDps : undefined,
             isBoosted,
             isPenalty: false,
             displayString: `${lowerDps} - ${upperDps}`,
-            baseDisplayString
+            baseDisplayString,
+            tooltipKey
         }
     }
 
     return {
-        base: baseUpper,
+        base,
         current: upperDps,
         minVal: lowerDps,
         maxVal: upperDps,
+        baseMinVal: isNemesis ? baseMinDps : undefined,
         isBoosted,
         isPenalty: current < baseUpper,
         displayString: String(upperDps),
-        baseDisplayString
+        baseDisplayString,
+        tooltipKey
     }
 }
 
@@ -1011,7 +1014,7 @@ export const calculateDpsStat = (
  */
 export const calculateReloadStat = (
     statStr: string | undefined, 
-    weapon: WeaponDetails | null | undefined, 
+    _weapon: WeaponDetails | null | undefined, 
     magEq: AttachmentItem | null | undefined, 
     stockEq: AttachmentItem | null | undefined,
     barrelEq: AttachmentItem | null | undefined,
@@ -1035,7 +1038,7 @@ export const calculateReloadStat = (
             current: val,
             isBoosted: false,
             isPenalty: false,
-            displayString: `${val}s`
+            displayString: String(val)
         }
     }
 
@@ -1087,7 +1090,8 @@ export const calculateReloadStat = (
         base: rawBase,
         current,
         isBoosted: current < rawBase,
-        isPenalty: current > rawBase
+        isPenalty: current > rawBase,
+        tooltipKey: isBreach ? 'weapons.tooltipBreachReload' : 'weapons.tooltipReload'
     }
 }
 
@@ -1133,7 +1137,8 @@ export const calculateHandlingStat = (
         base,
         current,
         isBoosted: current > base,
-        isPenalty: current < base
+        isPenalty: current < base,
+        tooltipKey: 'weapons.tooltipHandling'
     }
 }
 
@@ -1182,7 +1187,8 @@ export const calculateRecoilStat = (
         base,
         current,
         isBoosted: current > base,
-        isPenalty: current < base
+        isPenalty: current < base,
+        tooltipKey: 'weapons.tooltipRecoil'
     }
 }
 
@@ -1232,6 +1238,7 @@ export const calculateHipfireStat = (
         base,
         current,
         isBoosted: current > base,
-        isPenalty: current < base
+        isPenalty: current < base,
+        tooltipKey: 'weapons.tooltipHipfire'
     }
 }
