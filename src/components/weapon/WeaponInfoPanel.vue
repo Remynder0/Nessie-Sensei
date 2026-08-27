@@ -10,6 +10,7 @@ import {
     isTurbochargerEquipped,
     isFireModeLocked
 } from '../../logic/gunsmithCalculator'
+import { hideImageOnError } from './utils/imageHelpers'
 
 const props = defineProps<{
     weapon: WeaponDetails
@@ -53,16 +54,52 @@ const spinUpInfo = computed(() => calculateSpinUpStat(props.weapon, props.equipp
                         <span class="w-1.5 h-1.5 bg-gray-400 block"></span> {{ $t('weapons.characteristics') }}
                     </h3>
                     <div class="grid grid-cols-2 gap-4">
-                        <div v-if="weapon.DPS || dpsInfo.base > 0" class="bg-black/50 border border-titan-border p-4 hover:border-titan-cyan transition-colors">
-                            <div class="text-[11px] text-gray-500 font-mono uppercase tracking-widest mb-1">DPS</div>
+                        <div v-if="weapon.DPS || dpsInfo.base > 0" class="group/card relative bg-black/50 border border-titan-border p-4 hover:border-titan-cyan transition-colors" :class="dpsInfo.tooltipKey ? 'cursor-help' : ''">
+                            <!-- Tooltip on Hover -->
+                            <div
+                                v-if="dpsInfo.tooltipKey"
+                                class="opacity-0 group-hover/card:opacity-100 pointer-events-none transition-all duration-200 absolute bottom-full mb-2 left-0 z-50 px-3 py-2 bg-[#0f1318]/95 border border-titan-cyan text-[11px] font-mono text-titan-cyan shadow-[0_0_15px_rgba(45,212,191,0.3)] w-max max-w-[280px] sm:max-w-sm whitespace-normal leading-relaxed rounded-xs flex items-start gap-2 backdrop-blur-md"
+                            >
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 shrink-0 text-titan-cyan mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-left font-normal normal-case tracking-normal" v-html="$t(dpsInfo.tooltipKey)"></span>
+                            </div>
+                            <div class="text-[11px] text-gray-500 font-mono uppercase tracking-widest mb-1 flex items-center justify-between">
+                                <span>DPS</span>
+                            </div>
                             <div class="text-xl font-bold font-mono" :class="dpsInfo.isBoosted ? 'text-green-400' : 'text-white'">{{ dpsInfo.displayString || weapon.DPS }}</div>
                         </div>
-                        <div v-if="weapon.RPM" class="bg-black/50 border border-titan-border p-4 hover:border-titan-cyan transition-colors">
-                            <div class="text-[11px] text-gray-500 font-mono uppercase tracking-widest mb-1">RPM</div>
+                        <div v-if="weapon.RPM" class="group/card relative bg-black/50 border border-titan-border p-4 hover:border-titan-cyan transition-colors" :class="rpmInfo.tooltipKey ? 'cursor-help' : ''">
+                            <!-- Tooltip on Hover -->
+                            <div
+                                v-if="rpmInfo.tooltipKey"
+                                class="opacity-0 group-hover/card:opacity-100 pointer-events-none transition-all duration-200 absolute bottom-full mb-2 left-0 z-50 px-3 py-2 bg-[#0f1318]/95 border border-titan-cyan text-[11px] font-mono text-titan-cyan shadow-[0_0_15px_rgba(45,212,191,0.3)] w-max max-w-[280px] sm:max-w-sm whitespace-normal leading-relaxed rounded-xs flex items-start gap-2 backdrop-blur-md"
+                            >
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 shrink-0 text-titan-cyan mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-left font-normal normal-case tracking-normal" v-html="$t(rpmInfo.tooltipKey)"></span>
+                            </div>
+                            <div class="text-[11px] text-gray-500 font-mono uppercase tracking-widest mb-1 flex items-center justify-between">
+                                <span>RPM</span>
+                            </div>
                             <div class="text-xl font-bold font-mono" :class="rpmInfo.isBoosted ? 'text-green-400' : 'text-white'">{{ rpmInfo.displayString || rpmInfo.current || getBaseStat(weapon.RPM) }}</div>
                         </div>
-                        <div v-if="spinUpInfo" class="bg-black/50 border border-titan-border p-4 hover:border-titan-cyan transition-colors">
-                            <div class="text-[11px] text-gray-500 font-mono uppercase tracking-widest mb-1">{{ $t(spinUpInfo.labelKey) }}</div>
+                        <div v-if="spinUpInfo" class="group/card relative bg-black/50 border border-titan-border p-4 hover:border-titan-cyan transition-colors" :class="spinUpInfo.tooltipKey ? 'cursor-help' : ''">
+                            <!-- Tooltip on Hover -->
+                            <div
+                                v-if="spinUpInfo.tooltipKey"
+                                class="opacity-0 group-hover/card:opacity-100 pointer-events-none transition-all duration-200 absolute bottom-full mb-2 left-0 z-50 px-3 py-2 bg-[#0f1318]/95 border border-titan-cyan text-[11px] font-mono text-titan-cyan shadow-[0_0_15px_rgba(45,212,191,0.3)] w-max max-w-[280px] sm:max-w-sm whitespace-normal leading-relaxed rounded-xs flex items-start gap-2 backdrop-blur-md"
+                            >
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 shrink-0 text-titan-cyan mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-left font-normal normal-case tracking-normal" v-html="$t(spinUpInfo.tooltipKey)"></span>
+                            </div>
+                            <div class="text-[11px] text-gray-500 font-mono uppercase tracking-widest mb-1 flex items-center justify-between">
+                                <span>{{ $t(spinUpInfo.labelKey) }}</span>
+                            </div>
                             <div class="text-xl font-bold font-mono" :class="spinUpInfo.isBoosted ? 'text-green-400' : 'text-white'">{{ spinUpInfo.displayString }}</div>
                         </div>
                         <div v-if="weapon.Manufacturer" class="bg-black/50 border border-titan-border p-4 hover:border-titan-cyan transition-colors">
@@ -147,7 +184,7 @@ const spinUpInfo = computed(() => calculateSpinUpStat(props.weapon, props.equipp
                         <div class="flex items-center justify-between group">
                             <div class="flex items-center gap-4">
                                 <div class="w-8 h-8 bg-black border border-titan-border flex items-center justify-center group-hover:border-titan-orange transition-colors">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400 group-hover:text-titan-orange" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="7" r="4"/><path d="M5.5 21v-2a4 4 0 0 1 4-4h5a4 4 0 0 1 4 4v2"/></svg>
+                                    <img src="/images/ordnances/Helmet.svg" @error="hideImageOnError" class="w-5 h-5 object-contain invert opacity-75 group-hover:opacity-100 transition-opacity pointer-events-none" />
                                 </div>
                                 <span class="font-mono text-sm text-gray-300 uppercase tracking-widest">{{ $t('weapons.head') }}</span>
                             </div>
@@ -164,7 +201,7 @@ const spinUpInfo = computed(() => calculateSpinUpStat(props.weapon, props.equipp
                         <div class="flex items-center justify-between group">
                             <div class="flex items-center gap-4">
                                 <div class="w-8 h-8 bg-black border border-titan-border flex items-center justify-center group-hover:border-titan-cyan transition-colors">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400 group-hover:text-titan-cyan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                                    <img src="/images/ordnances/Body_Shield.svg" @error="hideImageOnError" class="w-5 h-5 object-contain invert opacity-75 group-hover:opacity-100 transition-opacity pointer-events-none" />
                                 </div>
                                 <span class="font-mono text-sm text-gray-300 uppercase tracking-widest">{{ $t('weapons.body') }}</span>
                             </div>
@@ -176,7 +213,7 @@ const spinUpInfo = computed(() => calculateSpinUpStat(props.weapon, props.equipp
                         <div class="flex items-center justify-between group">
                             <div class="flex items-center gap-4">
                                 <div class="w-8 h-8 bg-black border border-titan-border flex items-center justify-center group-hover:border-gray-300 transition-colors">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400 group-hover:text-gray-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l-4 8"/><path d="M12 14l4 8"/><path d="M12 14v-6"/></svg>
+                                    <img src="/images/ordnances/Legs.svg" @error="hideImageOnError" class="w-5 h-5 object-contain invert opacity-75 group-hover:opacity-100 transition-opacity pointer-events-none" />
                                 </div>
                                 <span class="font-mono text-sm text-gray-300 uppercase tracking-widest">{{ $t('weapons.legs') }}</span>
                             </div>

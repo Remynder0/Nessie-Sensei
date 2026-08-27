@@ -74,7 +74,7 @@ defineExpose({ dpsInfo })
 
 <template>
     <div
-        class="absolute z-20 bottom-8 left-8 w-[420px] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] bg-[#151921]/95 border p-6 backdrop-blur-md shadow-2xl"
+        class="absolute z-20 bottom-8 left-8 w-[420px] sm:w-[450px] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] bg-[#151921]/95 border p-5 sm:p-6 backdrop-blur-md shadow-2xl"
         :class="isMythic ? 'border-red-600/60 shadow-[0_0_30px_rgba(220,38,38,0.25)]' : 'border-titan-border/80'"
     >
         <div class="space-y-4">
@@ -141,7 +141,7 @@ defineExpose({ dpsInfo })
             <!-- Stat Bars -->
             <StatBar v-if="dpsInfo.base > 0"        :label="$t('weapons.statDps')"      :stat="dpsInfo"         :max="statMaxBounds.maxDps" />
             <StatBar v-if="weapon.RPM"               :label="$t('weapons.statRpm')"      :stat="rpmInfo"         :max="statMaxBounds.maxRpm" />
-            <StatBar v-if="spinUpInfo"               :label="spinUpInfo.labelKey === 'weapons.spinUpDelay' ? $t('weapons.windUp') : (spinUpInfo.labelKey === 'weapons.burstsToMax' ? $t('weapons.bursts') : $t('weapons.spinUp'))" :stat="spinUpInfo" :max="spinUpInfo.labelKey === 'weapons.spinUpDelay' ? 0.6 : (spinUpInfo.labelKey === 'weapons.burstsToMax' ? 6 : 2.5)" :invert-bar="true" :suffix="spinUpInfo.labelKey === 'weapons.burstsToMax' ? '' : 's'" />
+            <StatBar v-if="spinUpInfo"               :label="spinUpInfo.labelKey === 'weapons.spinUpDelay' ? $t('weapons.windUp') : $t('weapons.spinUp')" :stat="spinUpInfo" :max="spinUpInfo.labelKey === 'weapons.spinUpDelay' ? 0.6 : 2.5" :invert-bar="true" suffix="s" />
             <StatBar v-if="weapon.Magazine"           :label="$t('weapons.statMag')"      :stat="magInfo"         :max="statMaxBounds.maxMag" />
             <StatBar v-if="weapon['Full reload time']" :label="isBreachMode ? $t('weapons.cooldown') : $t('weapons.statReload')" :stat="fullReloadInfo" :max="isBreachMode ? 30 : 5" :invert-bar="true" suffix="s" />
             <StatBar                                  :label="$t('weapons.statHandling')" :stat="handlingInfo"    :max="100" />

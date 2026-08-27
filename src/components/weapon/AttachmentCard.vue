@@ -38,6 +38,14 @@ const emit = defineEmits<{
             <div class="absolute -bottom-4 -right-4 w-12 h-12 halftone-dots opacity-40 pointer-events-none"></div>
         </template>
 
+        <!-- Points Badge -->
+        <div
+            v-if="item.points"
+            class="absolute top-0.5 right-0.5 z-20 text-[8px] font-mono font-bold text-amber-400 bg-black/80 px-1 py-0.2 rounded border border-amber-500/50 shadow-[0_0_6px_rgba(245,158,11,0.4)]"
+        >
+            {{ item.points }} PTS
+        </div>
+
         <!-- SVG Icon -->
         <img
             :src="`/images/attachments/${formatAttachmentImg(item.name)}.svg`"
