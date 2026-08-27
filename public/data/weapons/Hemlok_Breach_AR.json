@@ -28,5 +28,11 @@
     "Head Multiplier": "1.4",
     "Body": "21 (Breach: 4-38)",
     "Leg": "15"
+  },
+   "anchors": {
+    "optics": { "x": 0.73, "y": 0.15 },
+    "barrel": { "x": 0.10, "y": 0.34 },
+    "mag":    { "x": 0.60, "y": 0.76 },
+    "stock":  { "x": 0.90, "y": 0.45 }
   }
 }

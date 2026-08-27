@@ -33,5 +33,10 @@
     "Sniper Stock",
     "Hop-Up",
     "Selectfire Receiver (375 points)"
-  ]
+  ],
+   "anchors": {
+    "optics": { "x": 0.50, "y": 0.15 },
+    "mag":    { "x": 0.46, "y": 0.58 },
+    "stock":  { "x": 0.85, "y": 0.60 }  
+  }
 }

@@ -27,5 +27,9 @@
     "Head Multiplier": "1.5",
     "Body": "35 - 60 (Frag: 50 (+25))",
     "Leg": "28 - 48 (Frag: 40 (+20))"
+  },
+   "anchors": {
+    "optics": { "x": 0.54, "y": 0.35 },
+    "stock":  { "x": 0.46, "y": 0.55 }
   }
 }

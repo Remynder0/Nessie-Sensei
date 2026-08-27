@@ -31,5 +31,10 @@
     "Head Multiplier": "1.8",
     "Body": "70 (Cell: 88)",
     "Leg": "63 (Cell: 79)"
+  },
+   "anchors": {
+    "optics": { "x": 0.67, "y": 0.15 },
+    "mag":    { "x": 0.84, "y": 0.60 },
+    "stock":  { "x": 0.90, "y": 0.50 }
   }
 }

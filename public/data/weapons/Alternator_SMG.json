@@ -30,9 +30,10 @@
     "Hop-Up",
     "Double Tap Trigger (500 points)"
   ],
-  "Corrupted": {
-    "Mag": "3.2",
-    "Stock": "14",
-    "Laser": "32"
+   "anchors": {
+    "optics": { "x": 0.65, "y": 0.05 },
+    "barrel": { "x": 0.15, "y": 0.40 },
+    "mag":    { "x": 0.60, "y": 0.80 },
+    "stock":  { "x": 0.88, "y": 0.40 }
   }
 }

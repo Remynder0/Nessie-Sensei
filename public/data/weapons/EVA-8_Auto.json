@@ -28,5 +28,10 @@
     "Standard Stock",
     "Hop-Up",
     "Double Tap Trigger (375 points)"
-  ]
+  ],
+   "anchors": {
+    "optics": { "x": 0.60, "y": 0.15 },
+    "stock":  { "x": 0.90, "y": 0.35 },
+    "bolt":   { "x": 0.30, "y": 0.40 }
+  }
 }

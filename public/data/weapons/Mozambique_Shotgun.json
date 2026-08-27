@@ -25,5 +25,9 @@
     "Head Multiplier": "1.25",
     "Body": "51",
     "Leg": "51"
+  },
+   "anchors": {
+    "optics": { "x": 0.58, "y": 0.13 },
+    "bolt":   { "x": 0.30, "y": 0.40 }
   }
 }

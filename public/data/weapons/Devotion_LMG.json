@@ -31,5 +31,11 @@
     "Standard Stock",
     "Hop-Up",
     "Turbocharger (425 points)"
-  ]
+  ],
+   "anchors": {
+    "optics": { "x": 0.65, "y": 0.15 },
+    "barrel": { "x": 0.10, "y": 0.32 },
+    "mag":    { "x": 0.65, "y": 0.70 },
+    "stock":  { "x": 0.90, "y": 0.45 }
+  }
 }

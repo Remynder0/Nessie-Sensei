@@ -30,5 +30,10 @@
     "Sniper Stock",
     "Hop-Up",
     "Shatter Caps"
-  ]
+  ],
+   "anchors": {
+    "optics": { "x": 0.60, "y": 0.20 },
+    "mag":    { "x": 0.55, "y": 0.40 },
+    "stock":  { "x": 0.88, "y": 0.48 }
+  }
 }
