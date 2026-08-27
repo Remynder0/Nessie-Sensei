@@ -217,7 +217,7 @@ onMounted(() => {
       <!-- Horizontal Categories Selector (Centered, Bold, Clean) -->
       <div class="flex items-center justify-center gap-2 sm:gap-3 overflow-x-auto custom-scrollbar pb-1 pt-1">
         <button
-          v-for="(weapons, catName) in activeCategories"
+          v-for="(_, catName) in activeCategories"
           :key="catName"
           @click="selectCategory(catName)"
           class="shrink-0 px-4 py-2 transition-all duration-200 border rounded flex items-center justify-center font-display uppercase tracking-widest text-xs sm:text-sm cursor-pointer relative group select-none"
