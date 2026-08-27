@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { legendsData, loadLegendDetails, currentLegendDetails, isLoadingLegendDetails, latestPatchStatus, isLatestPatchRecent } from '../../logic/store'
+import { legendsData, loadLegendDetails, latestPatchStatus, isLatestPatchRecent } from '../../logic/store'
 import LegendGallery from '../LegendGallery.vue'
 import LegendModal from '../LegendModal.vue'
 import { useI18n } from 'vue-i18n'

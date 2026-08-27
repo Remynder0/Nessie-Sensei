@@ -1,431 +1,394 @@
 {
-    "season": "24_2",
+  "season": "24_2",
+  "name": "Takeover",
+  "start_date": "February 11, 2025",
+  "end_date": "May 6, 2025",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_24.svg?a47750",
     "name": "Takeover",
-    "start_date": "February 11, 2025",
-    "end_date": "May 6, 2025",
-    "infobox": {
-        "name": "Takeover",
-        "Featured map": "Kings Canyon | Broken Moon | Olympus",
-        "Theme": "Workout/Boxing",
-        "Reactive weapon": "Alternator SMG",
-        "Start date": "February 11, 2025",
-        "End date": "May 6, 2025",
-        "Events": "6th Anniversary | Beast Mode | Fight Force"
+    "Featured map": "Kings Canyon | Broken Moon | Olympus",
+    "Theme": "Workout/Boxing",
+    "Reactive weapon": "Alternator SMG",
+    "Start date": "February 11, 2025",
+    "End date": "May 6, 2025",
+    "Events": [
+      "6th Anniversary",
+      "Beast Mode",
+      "Fight Force"
+    ]
+  },
+  "max_level": 59,
+  "rewards": {
+    "level_2": {
+      "premium": [
+        "Catalyst Quip Kill Quip : I couldn't let you win"
+      ],
+      "free": [
+        "Transition Grounded"
+      ]
     },
-    "max_level": 59,
-    "rewards": {
-        "level_2": {
-            "premium": [
-                "Catalyst Quip Kill Quip : I couldn't let you win"
-            ],
-            "free": [
-                "Transition Grounded"
-            ]
-        },
-        "level_4": {
-            "premium": [
-                "Holospray Never Miss"
-            ],
-            "free": []
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_7": {
-            "premium": [
-                "Banner Frame Apex Essentials"
-            ],
-            "free": [
-                "Music Pack Takeover Split 2"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "Peacekeeper Stable Matrix"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_10": {
-            "premium": [
-                "Ballistic Chill Dad",
-                "Ballistic Fire Distinguisher +"
-            ],
-            "free": []
-        },
-        "level_11": {
-            "premium": [
-                "Charm Sporty Nessie",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_12": {
-            "premium": [
-                "Banner Frame Void Training"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_14": {
-            "premium": [
-                "Holospray Be Ready"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "M600 Spitfire Overheater"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_18": {
-            "premium": [
-                "Wraith Cosmetic Emote Flipping Out"
-            ],
-            "free": []
-        },
-        "level_19": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Ash Cosmetic Emote Exceptional Victory"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Wraith Ripple Effect",
-                "Exotic Shards 10 +"
-            ],
-            "free": []
-        },
-        "level_21": {
-            "premium": [
-                "Banner Frame New Kicks",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_22": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_24": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Holospray Stronger Than Ever"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_26": {
-            "premium": [
-                "Ash Skydive Emote Hover Unit"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Holospray Stay Hydrated"
-            ],
-            "free": []
-        },
-        "level_30": {
-            "premium": [
-                "Kraber .50-Cal Sniper Zero Stopper",
-                "Exotic Shards 10"
-            ],
-            "free": []
-        },
-        "level_32": {
-            "premium": [
-                "Revenant Cosmetic Emote Revelry"
-            ],
-            "free": [
-                "Sentinel Neon Jungle"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Stat Tracker Speedsuit - Top",
-                "Stat Tracker Speedsuit - Middle",
-                "Stat Tracker Speedsuit - Bottom"
-            ],
-            "free": []
-        },
-        "level_34": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_35": {
-            "premium": [
-                "R-99 SMG Red Cell"
-            ],
-            "free": [
-                "Transition Talk-Talk"
-            ]
-        },
-        "level_36": {
-            "premium": [
-                "Banner Frame Killer Competitor"
-            ],
-            "free": []
-        },
-        "level_37": {
-            "premium": [
-                "Apex Pack",
-                "Holospray Cross the Finish Line"
-            ],
-            "free": []
-        },
-        "level_38": {
-            "premium": [
-                "Sticker Clawed Killer"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_39": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_40": {
-            "premium": [
-                "Revenant Speedsuit",
-                "Revenant Devil's Work +"
-            ],
-            "free": []
-        },
-        "level_41": {
-            "premium": [
-                "Caustic Cosmetic Emote Zeal Appeal",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_42": {
-            "premium": [
-                "Revenant Quip Kill Quip : Think of it this way"
-            ],
-            "free": [
-                "Ash Construct Killer"
-            ]
-        },
-        "level_43": {
-            "premium": [
-                "Mozambique Static Discharge"
-            ],
-            "free": []
-        },
-        "level_44": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_45": {
-            "premium": [
-                "Holospray Smoking Guns"
-            ],
-            "free": []
-        },
-        "level_46": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Banner Frame Locker Legacy"
-            ],
-            "free": []
-        },
-        "level_49": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_50": {
-            "premium": [
-                "Caustic Noxious Neon"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Holospray Slam Dunk"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_53": {
-            "premium": [
-                "Wattson Skydive Emote Monster Mount"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Ash Banner Frame Rodent Ripose"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_57": {
-            "premium": [
-                "Crafting Metals 200",
-                "Banner Frame On Target"
-            ],
-            "free": []
-        },
-        "level_58": {
-            "premium": [
-                "Charm Tee-Tick"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_59": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        }
+    "level_4": {
+      "premium": [
+        "Holospray Never Miss"
+      ],
+      "free": []
     },
-    "patches": {
-        "Ash": [
-            {
-                "patch": "March 25, 2025 Patch",
-                "details": [
-                    "[Ultimate] Nerf -> Phase Breach cooldown increased from 120 seconds to 150.",
-                    "[Passive] Nerf -> Predator's Pursuit: dash cooldown increased to 10s (was 5s)."
-                ]
-            },
-            {
-                "patch": "April 08, 2025 Patch",
-                "details": [
-                    "[Ultimate] Buff -> Phase Breach: Increased maximum distance travel time from 1.4s to 2.5s.",
-                    "[Ultimate] Buff -> Phase Breach: Increased minimum distance travel time from 0.3s to 0.5s."
-                ]
-            }
-        ],
-        "Conduit": [
-            {
-                "patch": "April 08, 2025 Patch",
-                "details": [
-                    "[Tactical] Buff -> Radiant Transfer: Increased HP regen per tick from 3 to 4."
-                ]
-            }
-        ],
-        "Revenant": [
-            {
-                "patch": "March 25, 2025 Patch",
-                "details": [
-                    "[Passive] Buff -> Assassin's Instinct: Allies now see the low health tracking marker like Revenant.",
-                    "[Tactical] Buff -> Shadow Pounce: activation time reduced by ~30%, cooldown reduced to 20s (was 25s).",
-                    "[Ultimate] Buff -> Forged Shadows: Ult Shield HP increased by 25.",
-                    "[Perks] Removed -> Murder Machine.",
-                    "[Perks] New -> Try To Hide: doubles the duration of the passive mark when getting enemies to low health", 
-                    "[Perks] Removed -> Grim Leaper.",
-                    "[Perks] New -> Agile Assassin: reduces Shadow Pounce activation time and charge time by half.",
-                    "[Perks] Adjust -> Tactical Cooldown: now reduces to 15s (was 20s)."
-                ]
-            }
-        ],
-        "Seer": [
-            {
-                "patch": "April 08, 2025 Patch",
-                "details": [
-                    "[Tactical] Buff -> Focus of Attention: Decreased activation delay to 0.8s (was 1.4).",
-                    "[Tactical] Buff -> Focus of Attention: Decreased time to finish to 0.9s (was 1.0)"
-                ]
-            }
-        ]
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_7": {
+      "premium": [
+        "Banner Frame Apex Essentials"
+      ],
+      "free": [
+        "Music Pack Takeover Split 2"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Peacekeeper Stable Matrix"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Ballistic Chill Dad",
+        "Ballistic Fire Distinguisher +"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Charm Sporty Nessie",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Banner Frame Void Training"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_14": {
+      "premium": [
+        "Holospray Be Ready"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "M600 Spitfire Overheater"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Wraith Cosmetic Emote Flipping Out"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Ash Cosmetic Emote Exceptional Victory"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Wraith Ripple Effect",
+        "Exotic Shards 10 +"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Banner Frame New Kicks",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Holospray Stronger Than Ever"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Ash Skydive Emote Hover Unit"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Holospray Stay Hydrated"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Kraber .50-Cal Sniper Zero Stopper",
+        "Exotic Shards 10"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Revenant Cosmetic Emote Revelry"
+      ],
+      "free": [
+        "Sentinel Neon Jungle"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Stat Tracker Speedsuit - Top",
+        "Stat Tracker Speedsuit - Middle",
+        "Stat Tracker Speedsuit - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_35": {
+      "premium": [
+        "R-99 SMG Red Cell"
+      ],
+      "free": [
+        "Transition Talk-Talk"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Banner Frame Killer Competitor"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Apex Pack",
+        "Holospray Cross the Finish Line"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Sticker Clawed Killer"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_40": {
+      "premium": [
+        "Revenant Speedsuit",
+        "Revenant Devil's Work +"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Caustic Cosmetic Emote Zeal Appeal",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Revenant Quip Kill Quip : Think of it this way"
+      ],
+      "free": [
+        "Ash Construct Killer"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Mozambique Static Discharge"
+      ],
+      "free": []
+    },
+    "level_44": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Holospray Smoking Guns"
+      ],
+      "free": []
+    },
+    "level_46": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Banner Frame Locker Legacy"
+      ],
+      "free": []
+    },
+    "level_49": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Caustic Noxious Neon"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Holospray Slam Dunk"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Wattson Skydive Emote Monster Mount"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Ash Banner Frame Rodent Ripose"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Crafting Metals 200",
+        "Banner Frame On Target"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Charm Tee-Tick"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
     }
+  },
+  "patches": {
+    "Ballistic": [
+      {
+        "patch": "",
+        "details": []
+      }
+    ]
+  }
 }

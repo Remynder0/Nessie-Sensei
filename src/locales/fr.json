@@ -3,8 +3,8 @@
     "teamGen": "Liaison & Déploie.",
     "legends": "Légendes",
     "packCalculator": "Heirloom Tracker",
-    "battlePass": "Battle Pass",
-    "probabilities": "Analyse Prédic.",
+    "season": "Saison",
+    "probabilities": "Synergies",
     "simulation": "Simulation",
     "stats": "Data Logs",
     "sort": "Tri Tactique",
@@ -141,16 +141,22 @@
     "link": "Lier",
     "linkWarning": "Attention : Lier un appareil écrasera les données locales actuelles."
   },
-  "battlePass": {
-    "title": "Consultation Battle Pass",
-    "subtitle": "Archive des récompenses de saisons",
+  "season": {
+    "title": "Saison",
+    "subtitle": "Détails, passe de combat et notes de mise à jour",
     "selectSeason": "Sélectionner une Saison",
     "reactiveSkin": "Skin Réactif",
     "level": "Niveau",
     "premium": "Premium",
     "free": "Gratuit",
     "noData": "Données introuvables pour cette saison.",
-    "unknown": "Inconnu"
+    "unknown": "Inconnu",
+    "prevSeason": "Précédent",
+    "nextSeason": "Suivant",
+    "infobox": "Informations",
+    "patchNotes": "Notes de Patch",
+    "levelsChunk": "Niveaux {start} - {end}",
+    "battlePass": "Passe de combat"
   },
   "app": {
     "connecting": "ÉTABLISSEMENT DE LA CONNEXION...",
@@ -190,5 +196,10 @@
     "step_prob_desc": "Nous avons sélectionné Pathfinder pour vous ! Observez les résultats : l'IA calcule avec quelles légendes il a statistiquement le plus de chances d'être joué de manière optimale.",
     "step_feedback_title": "Besoin d'aide ou un avis ?",
     "step_feedback_desc": "Cliquez ici pour signaler un bug, proposer une idée d'amélioration, soumettre un Fanart, ou revoir ce tutoriel à tout moment !"
+  },
+  "probabilities": {
+    "title": "Synergies",
+    "subtitle": "Sélectionnez une cible pour afficher le taux d'association prédictif avec les autres unités du réseau.",
+    "antiSynergy": "Anti-synergie"
   }
 }

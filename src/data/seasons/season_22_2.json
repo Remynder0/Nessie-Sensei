@@ -1,473 +1,436 @@
 {
-    "season": "22_2",
+  "season": "22_2",
+  "name": "Shockwave",
+  "start_date": "August 6, 2024",
+  "end_date": "November 5, 2024",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_22.svg?c76563",
     "name": "Shockwave",
-    "start_date": "August 6, 2024",
-    "end_date": "November 5, 2024",
-    "infobox": {
-        "name": "Shockwave",
-        "Featured map": "E-District",
-        "Theme": "Retro/City",
-        "Reactive weapon": "P2020",
-        "Start date": "August 6, 2024",
-        "End date": "November 5, 2024",
-        "Events": "Temporal Chaos | Space Hunt | Techno Terror"
+    "Featured map": "E-District",
+    "Theme": "Retro/City",
+    "Reactive weapon": "P2020",
+    "Start date": "August 6, 2024",
+    "End date": "November 5, 2024",
+    "Events": [
+      "Temporal Chaos",
+      "Space Hunt",
+      "Techno Terror"
+    ]
+  },
+  "max_level": 60,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "Valkyrie Pumpkin Pilot",
+        "Prowler Burst PDW Midnight Scrapper",
+        "Banner Frame Night Beasts",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
     },
-    "max_level": 60,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "Valkyrie Pumpkin Pilot",
-                "Prowler Burst PDW Midnight Scrapper",
-                "Banner Frame Night Beasts",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_2": {
-            "premium": [
-                "Holospray You're Cooked"
-            ],
-            "free": [
-                "Transition Game Time"
-            ]
-        },
-        "level_3": {
-            "premium": [
-                "Banner Frame Jumpstart"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Valkyrie Cosmetic Emote Jetpack Jack-O-Lantern",
-                "Forever Family"
-            ],
-            "free": []
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "Stat Tracker Jazz It Up - Top",
-                "Stat Tracker Jazz It Up - Middle",
-                "Stat Tracker Jazz It Up - Bottom"
-            ],
-            "free": []
-        },
-        "level_7": {
-            "premium": [
-                "Crypto Quip Kill Quip : I'm here for one thing"
-            ],
-            "free": [
-                "Music Pack Shockwave Split 2"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "HAVOC Rifle Plasma Bolt"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_10": {
-            "premium": [
-                "Crypto Jazz It Up",
-                "Crypto Neonymous [ U+ 1 ]"
-            ],
-            "free": []
-        },
-        "level_11": {
-            "premium": [
-                "Holospray Pumped Up",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_12": {
-            "premium": [
-                "Banner Frame Late-Night Terror"
-            ],
-            "free": []
-        },
-        "level_13": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Holospray Go Into The Light."
-            ]
-        },
-        "level_14": {
-            "premium": [
-                "Sticker Mischief Maker"
-            ],
-            "free": []
-        },
-        "level_15": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "Sentinel Headless Hunter"
-            ],
-            "free": []
-        },
-        "level_17": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_18": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_19": {
-            "premium": [
-                "Catalyst Cosmetic Emote Ferro Queen"
-            ],
-            "free": []
-        },
-        "level_20": {
-            "premium": [
-                "Catalyst Scarecrow Enchantress",
-                "Exotic Shards 10 [ U+ 1 ]"
-            ],
-            "free": []
-        },
-        "level_21": {
-            "premium": [
-                "Banner Frame Body Exchange",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_22": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_23": {
-            "premium": [
-                "RE-45 Auto Abyssal Gaze"
-            ],
-            "free": []
-        },
-        "level_24": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Wattson Cosmetic Emote Thriller Killer"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_26": {
-            "premium": [
-                "Sticker Strings Attached"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_29": {
-            "premium": [
-                "Bound by Death"
-            ],
-            "free": []
-        },
-        "level_30": {
-            "premium": [
-                "Exotic Shards 10",
-                "Flatline Cassette Closer"
-            ],
-            "free": []
-        },
-        "level_31": {
-            "premium": [
-                "Apex Coins 100",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_32": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": [
-                "Peacekeeper Honey Drip"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Stat Tracker Gravity Cat - Top",
-                "Stat Tracker Gravity Cat - Middle",
-                "Stat Tracker Gravity Cat - Bottom"
-            ],
-            "free": []
-        },
-        "level_34": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Transition Dangerous Driving"
-            ]
-        },
-        "level_35": {
-            "premium": [
-                "30-30 Repeater Guiding Moonlight"
-            ],
-            "free": []
-        },
-        "level_36": {
-            "premium": [
-                "Banner Frame City Stray"
-            ],
-            "free": []
-        },
-        "level_37": {
-            "premium": [
-                "Horizon Skydive Emote Carried Away"
-            ],
-            "free": []
-        },
-        "level_38": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_39": {
-            "premium": [
-                "RAWR!"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_40": {
-            "premium": [
-                "Horizon Gravity Cat"
-            ],
-            "free": []
-        },
-        "level_41": {
-            "premium": [
-                "Banner Frame Long Forgotten",
-                "XP Boost [ xp 1 ]"
-            ],
-            "free": []
-        },
-        "level_42": {
-            "premium": [
-                "Octane Quip Kill Quip : Zero miles an hour"
-            ],
-            "free": []
-        },
-        "level_43": {
-            "premium": [
-                "Hemlok Burst AR Raptor Rage"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_44": {
-            "premium": [
-                "Holospray Ready To Burn"
-            ],
-            "free": []
-        },
-        "level_45": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Wattson Jester Queen"
-            ]
-        },
-        "level_46": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_47": {
-            "premium": [
-                "Crafting Metals 200"
-            ],
-            "free": []
-        },
-        "level_48": {
-            "premium": [
-                "Octane Cosmetic Emote Join the Club"
-            ],
-            "free": [
-                "Hypno Clown"
-            ]
-        },
-        "level_49": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_50": {
-            "premium": [
-                "Octane Green Gremlin"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Banner Frame Castlemania"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_53": {
-            "premium": [
-                "Mad Maggie Skydive Emote Cutthroat"
-            ],
-            "free": []
-        },
-        "level_54": {
-            "premium": [
-                "Mozambique Shotgun Steady Beat"
-            ],
-            "free": []
-        },
-        "level_55": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Banner Frame Tick or Treat"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_57": {
-            "premium": [
-                "Crafting Metals 200",
-                "Holospray Looking Good"
-            ],
-            "free": []
-        },
-        "level_58": {
-            "premium": [
-                "Treasured Trim"
-            ],
-            "free": []
-        },
-        "level_59": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_60": {
-            "premium": [
-                "P2020 Pink Purr",
-                "P2020 Golden Screamer [ U+ 1 ]"
-            ],
-            "free": []
-        }
+    "level_2": {
+      "premium": [
+        "Holospray You're Cooked"
+      ],
+      "free": [
+        "Transition Game Time"
+      ]
     },
-    "patches": { 
-        "Fuse": [
-            {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
-                "details": [
-                    "[Passive] Nerf -> Hard capped the max radius of the scan area to be 450.",
-                    "[Passive] Fix -> Disallowed mortar targeting on multiple objects within the players control"
-                ]
-            }
-        ],
-        "Rampart": [
-            {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
-                "details": [
-                    "[Ultimate] Buff -> Lowered delay before you can re-enter Sheila turret to 0.15s (was 1s)"
-                ]
-            }
-        ],
-        "Revenant": [
-            {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
-                "details": [
-                    "[Ultimate] Nerf -> Reduced shield health to 50 (was 75).",
-                    "[Ultimate] Buff -> Activation time doubled"
-                ]
-            }
-        ],
-        "Valkyrie": [
-            {
-                "patch": "Knockout the Galaxy in the Space Hunt Event (2024-09-12)",
-                "details": [
-                    "[Class] Adjust -> Now Recon Legend (was Skirmisher)",
-                    "[Perks] Buff -> Full Tank: now includes a 50% reduction in refuel delay to 4s (was 8s).",
-                    "[Perks] Removed -> Aerial Expert",
-                    "[Perks] New -> Eyes in the Sky: ignores the LoS check on skydive HUD scan, increases HUD highlighting range by 40m",
-                    "[Tactical] Buff -> Various buffs to improve reliability and output",
-                    "[Passive] Buff -> Gains Threat Vision while jetpacking, stays on until feet hit the ground/zipline",
-                    "[Passive] Buff -> More agile jetpack handling that feels similar to Valk’s release"
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Banner Frame Jumpstart"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Valkyrie Cosmetic Emote Jetpack Jack-O-Lantern",
+        "Forever Family"
+      ],
+      "free": []
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "Stat Tracker Jazz It Up - Top",
+        "Stat Tracker Jazz It Up - Middle",
+        "Stat Tracker Jazz It Up - Bottom"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Crypto Quip Kill Quip : I'm here for one thing"
+      ],
+      "free": [
+        "Music Pack Shockwave Split 2"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "HAVOC Rifle Plasma Bolt"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_10": {
+      "premium": [
+        "Crypto Jazz It Up",
+        "Crypto Neonymous [ U+ 1 ]"
+      ],
+      "free": []
+    },
+    "level_11": {
+      "premium": [
+        "Holospray Pumped Up",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_12": {
+      "premium": [
+        "Banner Frame Late-Night Terror"
+      ],
+      "free": []
+    },
+    "level_13": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Holospray Go Into The Light."
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "Sticker Mischief Maker"
+      ],
+      "free": []
+    },
+    "level_15": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Sentinel Headless Hunter"
+      ],
+      "free": []
+    },
+    "level_17": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_18": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_19": {
+      "premium": [
+        "Catalyst Cosmetic Emote Ferro Queen"
+      ],
+      "free": []
+    },
+    "level_20": {
+      "premium": [
+        "Catalyst Scarecrow Enchantress",
+        "Exotic Shards 10 [ U+ 1 ]"
+      ],
+      "free": []
+    },
+    "level_21": {
+      "premium": [
+        "Banner Frame Body Exchange",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_22": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_23": {
+      "premium": [
+        "RE-45 Auto Abyssal Gaze"
+      ],
+      "free": []
+    },
+    "level_24": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Wattson Cosmetic Emote Thriller Killer"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_26": {
+      "premium": [
+        "Sticker Strings Attached"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_29": {
+      "premium": [
+        "Bound by Death"
+      ],
+      "free": []
+    },
+    "level_30": {
+      "premium": [
+        "Exotic Shards 10",
+        "Flatline Cassette Closer"
+      ],
+      "free": []
+    },
+    "level_31": {
+      "premium": [
+        "Apex Coins 100",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_32": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": [
+        "Peacekeeper Honey Drip"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Stat Tracker Gravity Cat - Top",
+        "Stat Tracker Gravity Cat - Middle",
+        "Stat Tracker Gravity Cat - Bottom"
+      ],
+      "free": []
+    },
+    "level_34": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Transition Dangerous Driving"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "30-30 Repeater Guiding Moonlight"
+      ],
+      "free": []
+    },
+    "level_36": {
+      "premium": [
+        "Banner Frame City Stray"
+      ],
+      "free": []
+    },
+    "level_37": {
+      "premium": [
+        "Horizon Skydive Emote Carried Away"
+      ],
+      "free": []
+    },
+    "level_38": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_39": {
+      "premium": [
+        "RAWR!"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Horizon Gravity Cat"
+      ],
+      "free": []
+    },
+    "level_41": {
+      "premium": [
+        "Banner Frame Long Forgotten",
+        "XP Boost [ xp 1 ]"
+      ],
+      "free": []
+    },
+    "level_42": {
+      "premium": [
+        "Octane Quip Kill Quip : Zero miles an hour"
+      ],
+      "free": []
+    },
+    "level_43": {
+      "premium": [
+        "Hemlok Burst AR Raptor Rage"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Holospray Ready To Burn"
+      ],
+      "free": []
+    },
+    "level_45": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Wattson Jester Queen"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_47": {
+      "premium": [
+        "Crafting Metals 200"
+      ],
+      "free": []
+    },
+    "level_48": {
+      "premium": [
+        "Octane Cosmetic Emote Join the Club"
+      ],
+      "free": [
+        "Hypno Clown"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_50": {
+      "premium": [
+        "Octane Green Gremlin"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Banner Frame Castlemania"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_53": {
+      "premium": [
+        "Mad Maggie Skydive Emote Cutthroat"
+      ],
+      "free": []
+    },
+    "level_54": {
+      "premium": [
+        "Mozambique Shotgun Steady Beat"
+      ],
+      "free": []
+    },
+    "level_55": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Banner Frame Tick or Treat"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_57": {
+      "premium": [
+        "Crafting Metals 200",
+        "Holospray Looking Good"
+      ],
+      "free": []
+    },
+    "level_58": {
+      "premium": [
+        "Treasured Trim"
+      ],
+      "free": []
+    },
+    "level_59": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "P2020 Pink Purr",
+        "P2020 Golden Screamer [ U+ 1 ]"
+      ],
+      "free": []
     }
+  }
 }

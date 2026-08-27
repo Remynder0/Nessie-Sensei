@@ -1,799 +1,826 @@
 {
-    "season": "12",
+  "season": "12",
+  "name": "Defiance",
+  "start_date": "February 08, 2022",
+  "end_date": "May 10, 2022",
+  "infobox": {
+    "logo_url": "https://apexlegends.wiki.gg/images/Season_12.svg?9b0cbf",
     "name": "Defiance",
-    "start_date": "February 08, 2022",
-    "end_date": "May 10, 2022",
-    "infobox": {
-        "name": "Defiance",
-        "New Legend": "Mad Maggie",
-        "Featured map": "Olympus",
-        "Season Quest": "\" The Perfect Son",
-        "Theme": "Rebel Bikers",
-        "Reactive weapon": "Hemlok Burst AR",
-        "Start date": "February 08, 2022",
-        "End date": "May 10, 2022",
-        "Events": "3rd Anniversary | Warriors | Unshackled"
+    "New Legend": "Mad Maggie",
+    "Featured map": "Olympus",
+    "Season Quest": "\" The Perfect Son",
+    "Theme": "Rebel Bikers",
+    "Reactive weapon": "Hemlok Burst AR",
+    "Start date": "February 08, 2022",
+    "End date": "May 10, 2022",
+    "Events": [
+      "3rd Anniversary",
+      "Warriors",
+      "Unshackled"
+    ]
+  },
+  "max_level": 110,
+  "rewards": {
+    "level_1": {
+      "premium": [
+        "EVA-8 Auto Rolling Thunder",
+        "Ash Modern Primitive",
+        "Lifeline Hardcore Heals",
+        "Crypto Kernel Panic",
+        "XP Boost"
+      ],
+      "free": [
+        "Loading Screen My Sindiket Report"
+      ]
     },
-    "max_level": 110,
-    "rewards": {
-        "level_1": {
-            "premium": [
-                "EVA-8 Auto Rolling Thunder",
-                "Ash Modern Primitive",
-                "Lifeline Hardcore Heals",
-                "Crypto Kernel Panic",
-                "XP Boost"
-            ],
-            "free": [
-                "Loading Screen My Sindiket Report"
-            ]
-        },
-        "level_2": {
-            "premium": [
-                "Mad Maggie Skydive Emote Flip Off"
-            ],
-            "free": []
-        },
-        "level_3": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_4": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Music Pack Defiance"
-            ]
-        },
-        "level_5": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_6": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": []
-        },
-        "level_7": {
-            "premium": [
-                "Crypto Quip Kill Quip : Don't Be So Shocked... That You're Dead"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_8": {
-            "premium": [
-                "Charm Bad To The Drone"
-            ],
-            "free": [
-                "Crypto Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_9": {
-            "premium": [
-                "30-30 Repeater Skull Fashion"
-            ],
-            "free": [
-                "Crypto Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_10": {
-            "premium": [
-                "Crypto Banner Frame Lunar Smoke"
-            ],
-            "free": [
-                "Devotion LMG Always Watching"
-            ]
-        },
-        "level_11": {
-            "premium": [
-                "Crypto Holo-Spray Expand Your Network"
-            ],
-            "free": [
-                "Mad Maggie Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_12": {
-            "premium": [
-                "Loading Screen Broken Toys"
-            ],
-            "free": [
-                "Mad Maggie Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_13": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Wattson Holo-Spray Make A Connection"
-            ]
-        },
-        "level_14": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Bangalore Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_15": {
-            "premium": [
-                "Seer Quip Kill Quip : Take A Note From A Friend Of Mine"
-            ],
-            "free": [
-                "Longbow DMR Hard Hearted"
-            ]
-        },
-        "level_16": {
-            "premium": [
-                "Charm Geared Mayhem"
-            ],
-            "free": [
-                "Bangalore Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_17": {
-            "premium": [
-                "Alternator SMG Paisley Parade"
-            ],
-            "free": [
-                "Mozambique Shotgun Road Warrior"
-            ]
-        },
-        "level_18": {
-            "premium": [
-                "Seer Banner Frame City Lights"
-            ],
-            "free": [
-                "Pathfinder Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_19": {
-            "premium": [
-                "Seer Holo-Spray Take A Shot"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_20": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Pathfinder Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_21": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "RE-45 Auto Green Striker"
-            ]
-        },
-        "level_22": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Wattson Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_23": {
-            "premium": [
-                "Seer Stat Tracker Wins"
-            ],
-            "free": [
-                "Wattson Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_24": {
-            "premium": [
-                "Seer Stat Tracker Damage Done"
-            ],
-            "free": [
-                "Bloodhound Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_25": {
-            "premium": [
-                "Seer Aces High"
-            ],
-            "free": [
-                "Loading Screen D.O.C. Audio Log 12.1.0084"
-            ]
-        },
-        "level_26": {
-            "premium": [
-                "Seer Stat Tracker Kills"
-            ],
-            "free": [
-                "Bloodhound Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_27": {
-            "premium": [
-                "L-STAR EMG Buzz Cutter"
-            ],
-            "free": [
-                "Seer Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_28": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Seer Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_29": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Triple Take Links To The Past"
-            ]
-        },
-        "level_30": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Gibraltar Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_31": {
-            "premium": [
-                "Ash Holo-Spray Unstoppable Force"
-            ],
-            "free": [
-                "Gibraltar Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_32": {
-            "premium": [
-                "Ash Quip Kill Quip : Only Once Have I Failed To Kill A Target"
-            ],
-            "free": [
-                "Ash Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_33": {
-            "premium": [
-                "Charm No Chance"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_34": {
-            "premium": [
-                "R-99 SMG Fatal Fuchsia"
-            ],
-            "free": [
-                "Ash Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_35": {
-            "premium": [
-                "Ash Banner Frame Borealis Displacement"
-            ],
-            "free": [
-                "Fuse Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_36": {
-            "premium": [
-                "Horizon Holo-Spray Meets Immovable Object"
-            ],
-            "free": [
-                "Fuse Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_37": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Sentinel Sniper Rogue"
-            ]
-        },
-        "level_38": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Wraith Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_39": {
-            "premium": [
-                "Lifeline Quip Kill Quip : Better To Have Friends At Yuh Side"
-            ],
-            "free": [
-                "Wraith Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_40": {
-            "premium": [
-                "Charm Supply Or Die"
-            ],
-            "free": [
-                "Horizon Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_41": {
-            "premium": [
-                "Linked Languish"
-            ],
-            "free": [
-                "Charge Rifle Pink Ink"
-            ]
-        },
-        "level_42": {
-            "premium": [
-                "Lifeline Banner Frame Rebel With A Cause"
-            ],
-            "free": [
-                "Horizon Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_43": {
-            "premium": [
-                "Lifeline Holo-Spray Double Trouble"
-            ],
-            "free": [
-                "Lifeline Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_44": {
-            "premium": [
-                "Octane Holo-Spray Trouble Double"
-            ],
-            "free": [
-                "Lifeline Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_45": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_46": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Loba Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_47": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Loba Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_48": {
-            "premium": [
-                "Loba Stat Tracker Wins"
-            ],
-            "free": [
-                "Revenant Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_49": {
-            "premium": [
-                "Loba Stat Tracker Kills"
-            ],
-            "free": [
-                "Loading Screen The Capture Of M. Kōhere"
-            ]
-        },
-        "level_50": {
-            "premium": [
-                "Loba Breaking The Law"
-            ],
-            "free": [
-                "Revenant Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_51": {
-            "premium": [
-                "Loba Stat Tracker Damage Done"
-            ],
-            "free": [
-                "Octane Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_52": {
-            "premium": [
-                "VK-47 Flatline Ghost Writer"
-            ],
-            "free": [
-                "Octane Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_53": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Octane The Quick And The Quilted"
-            ]
-        },
-        "level_54": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Caustic Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_55": {
-            "premium": [
-                "Loba Quip Kill Quip : I'll Have To Say No To An Encore"
-            ],
-            "free": [
-                "Caustic Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_56": {
-            "premium": [
-                "Charm Outlaw Seal"
-            ],
-            "free": [
-                "Mirage Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_57": {
-            "premium": [
-                "R-301 Carbine Death Maker"
-            ],
-            "free": [
-                "Music Pack Mad Maggie"
-            ]
-        },
-        "level_58": {
-            "premium": [
-                "Loba Banner Frame Full Throttle"
-            ],
-            "free": [
-                "Mirage Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_59": {
-            "premium": [
-                "Loba Holo-Spray Strike A Pose"
-            ],
-            "free": [
-                "Rampart Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_60": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": [
-                "Rampart Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_61": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "P2020 Deadly Links"
-            ]
-        },
-        "level_62": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Valkyrie Stat Tracker Season 12 Wins"
-            ]
-        },
-        "level_63": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": [
-                "Valkyrie Stat Tracker Season 12 Kills"
-            ]
-        },
-        "level_64": {
-            "premium": [
-                "Charm Flame On"
-            ],
-            "free": []
-        },
-        "level_65": {
-            "premium": [
-                "Mastiff Shotgun Bottled Fury"
-            ],
-            "free": [
-                "Loading Screen In Session"
-            ]
-        },
-        "level_66": {
-            "premium": [
-                "Loading Screen Salvonian Drinking Song"
-            ],
-            "free": []
-        },
-        "level_67": {
-            "premium": [
-                "Octane Quip Kill Quip : I Pulled A Fast One On You, Amigo"
-            ],
-            "free": []
-        },
-        "level_68": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_69": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Peacekeeper Death Race"
-            ]
-        },
-        "level_70": {
-            "premium": [
-                "XP Boost [ 1 ]"
-            ],
-            "free": [
-                "Loading Screen Legend Impressions: Mad Maggie"
-            ]
-        },
-        "level_71": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_72": {
-            "premium": [
-                "Mad Maggie Banner Frame Riding In The Red"
-            ],
-            "free": []
-        },
-        "level_73": {
-            "premium": [
-                "Prowler Burst PDW Stitched Up"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_74": {
-            "premium": [
-                "Pathfinder Banner Frame Zipping Through"
-            ],
-            "free": []
-        },
-        "level_75": {
-            "premium": [
-                "Caustic Cosmetic Emote : Knockout Gas"
-            ],
-            "free": []
-        },
-        "level_76": {
-            "premium": [
-                "Crafting Metals 120"
-            ],
-            "free": []
-        },
-        "level_77": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Fuse Holo-Spray Good Catch"
-            ]
-        },
-        "level_78": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_79": {
-            "premium": [
-                "Charm Morning Muffin"
-            ],
-            "free": []
-        },
-        "level_80": {
-            "premium": [
-                "G7 Scout Piston Punch"
-            ],
-            "free": []
-        },
-        "level_81": {
-            "premium": [
-                "Loading Screen The Warrior's Feast"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_82": {
-            "premium": [
-                "HAVOC Rifle Mouth of Metal"
-            ],
-            "free": []
-        },
-        "level_83": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_84": {
-            "premium": [
-                "C.A.R. SMG Skullcrusher"
-            ],
-            "free": []
-        },
-        "level_85": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Charm Rebel Nessie"
-            ]
-        },
-        "level_86": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_87": {
-            "premium": [
-                "Charm The Block"
-            ],
-            "free": []
-        },
-        "level_88": {
-            "premium": [
-                "Volt SMG Warped Impact"
-            ],
-            "free": []
-        },
-        "level_89": {
-            "premium": [
-                "Octane Banner Frame Road Rash"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_90": {
-            "premium": [
-                "Loading Screen Eulogy For Navidad 'Navi' Silva"
-            ],
-            "free": []
-        },
-        "level_91": {
-            "premium": [
-                "Mad Maggie Quip Kill Quip : I Give As Many Craps As Prisoners I Take"
-            ],
-            "free": []
-        },
-        "level_92": {
-            "premium": [
-                "Mad Maggie Skydive Emote Pre-Game Warmup"
-            ],
-            "free": []
-        },
-        "level_93": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": [
-                "Fuse Quip Kill Quip : Yeah, Naw, Ya Did Good. I Just Did Gooder"
-            ]
-        },
-        "level_94": {
-            "premium": [
-                "Apex Pack"
-            ],
-            "free": []
-        },
-        "level_95": {
-            "premium": [
-                "Apex Coins 100"
-            ],
-            "free": []
-        },
-        "level_96": {
-            "premium": [
-                "Charm Burnt Rubber"
-            ],
-            "free": []
-        },
-        "level_97": {
-            "premium": [
-                "Loading Screen Tuesday Nights At Paradise Lounge"
-            ],
-            "free": [
-                "Apex Pack"
-            ]
-        },
-        "level_98": {
-            "premium": [
-                "Bocek Compound Bow Fire Wire"
-            ],
-            "free": []
-        },
-        "level_99": {
-            "premium": [
-                "Bloodhound Cosmetic Emote : Primal Nature"
-            ],
-            "free": []
-        },
-        "level_100": {
-            "premium": [
-                "Hemlok Burst AR Gentleman Baller"
-            ],
-            "free": [
-                "Apex Coins 100"
-            ]
-        },
-        "level_110": {
-            "premium": [
-                "Hemlok Burst AR Scream Machine"
-            ],
-            "free": [
-                "Badge : Defiance Level Season 12"
-            ]
-        }
+    "level_2": {
+      "premium": [
+        "Mad Maggie Skydive Emote Flip Off"
+      ],
+      "free": []
     },
-    "patches": {
-        "Crypto": [
-            {
-                "patch": "February 08, 2022 Patch",
-                "details": [
-                    "[Tactical] Rework -> Surveillance Drone: Deployment changed to fly in a straight line and re-orient itself when hitting walls."
-                ]
-            },
-            {
-                "patch": "March 29, 2022 Patch",
-                "details": [
-                    "[Perks] Fix -> Network Expansion: Fixed bug with animation glitch after using finisher while in death protection.",
-                    "[Perks] Fix -> Ally.MoveTo(): Fixed cases where Crypto can throw out multiple drones."
-                ]
-            }
-        ],
-        "Mad Maggie": [
-            {
-                "patch": "February 08, 2022 Patch",
-                "details": [
-                    "Introduced -> Legend released this season."
-                ]
-            }
-        ]
+    "level_3": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_4": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Music Pack Defiance"
+      ]
+    },
+    "level_5": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_6": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": []
+    },
+    "level_7": {
+      "premium": [
+        "Crypto Quip Kill Quip : Don't Be So Shocked... That You're Dead"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_8": {
+      "premium": [
+        "Charm Bad To The Drone"
+      ],
+      "free": [
+        "Crypto Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_9": {
+      "premium": [
+        "30-30 Repeater Skull Fashion"
+      ],
+      "free": [
+        "Crypto Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_10": {
+      "premium": [
+        "Crypto Banner Frame Lunar Smoke"
+      ],
+      "free": [
+        "Devotion LMG Always Watching"
+      ]
+    },
+    "level_11": {
+      "premium": [
+        "Crypto Holo-Spray Expand Your Network"
+      ],
+      "free": [
+        "Mad Maggie Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_12": {
+      "premium": [
+        "Loading Screen Broken Toys"
+      ],
+      "free": [
+        "Mad Maggie Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_13": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Wattson Holo-Spray Make A Connection"
+      ]
+    },
+    "level_14": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Bangalore Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_15": {
+      "premium": [
+        "Seer Quip Kill Quip : Take A Note From A Friend Of Mine"
+      ],
+      "free": [
+        "Longbow DMR Hard Hearted"
+      ]
+    },
+    "level_16": {
+      "premium": [
+        "Charm Geared Mayhem"
+      ],
+      "free": [
+        "Bangalore Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_17": {
+      "premium": [
+        "Alternator SMG Paisley Parade"
+      ],
+      "free": [
+        "Mozambique Shotgun Road Warrior"
+      ]
+    },
+    "level_18": {
+      "premium": [
+        "Seer Banner Frame City Lights"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_19": {
+      "premium": [
+        "Seer Holo-Spray Take A Shot"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_20": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Pathfinder Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_21": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "RE-45 Auto Green Striker"
+      ]
+    },
+    "level_22": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Wattson Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_23": {
+      "premium": [
+        "Seer Stat Tracker Wins"
+      ],
+      "free": [
+        "Wattson Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_24": {
+      "premium": [
+        "Seer Stat Tracker Damage Done"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_25": {
+      "premium": [
+        "Seer Aces High"
+      ],
+      "free": [
+        "Loading Screen D.O.C. Audio Log 12.1.0084"
+      ]
+    },
+    "level_26": {
+      "premium": [
+        "Seer Stat Tracker Kills"
+      ],
+      "free": [
+        "Bloodhound Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_27": {
+      "premium": [
+        "L-STAR EMG Buzz Cutter"
+      ],
+      "free": [
+        "Seer Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_28": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Seer Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_29": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Triple Take Links To The Past"
+      ]
+    },
+    "level_30": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_31": {
+      "premium": [
+        "Ash Holo-Spray Unstoppable Force"
+      ],
+      "free": [
+        "Gibraltar Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_32": {
+      "premium": [
+        "Ash Quip Kill Quip : Only Once Have I Failed To Kill A Target"
+      ],
+      "free": [
+        "Ash Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_33": {
+      "premium": [
+        "Charm No Chance"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_34": {
+      "premium": [
+        "R-99 SMG Fatal Fuchsia"
+      ],
+      "free": [
+        "Ash Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_35": {
+      "premium": [
+        "Ash Banner Frame Borealis Displacement"
+      ],
+      "free": [
+        "Fuse Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_36": {
+      "premium": [
+        "Horizon Holo-Spray Meets Immovable Object"
+      ],
+      "free": [
+        "Fuse Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_37": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Sentinel Sniper Rogue"
+      ]
+    },
+    "level_38": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Wraith Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_39": {
+      "premium": [
+        "Lifeline Quip Kill Quip : Better To Have Friends At Yuh Side"
+      ],
+      "free": [
+        "Wraith Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_40": {
+      "premium": [
+        "Charm Supply Or Die"
+      ],
+      "free": [
+        "Horizon Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_41": {
+      "premium": [
+        "Linked Languish"
+      ],
+      "free": [
+        "Charge Rifle Pink Ink"
+      ]
+    },
+    "level_42": {
+      "premium": [
+        "Lifeline Banner Frame Rebel With A Cause"
+      ],
+      "free": [
+        "Horizon Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_43": {
+      "premium": [
+        "Lifeline Holo-Spray Double Trouble"
+      ],
+      "free": [
+        "Lifeline Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_44": {
+      "premium": [
+        "Octane Holo-Spray Trouble Double"
+      ],
+      "free": [
+        "Lifeline Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_45": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_46": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Loba Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_47": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Loba Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_48": {
+      "premium": [
+        "Loba Stat Tracker Wins"
+      ],
+      "free": [
+        "Revenant Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_49": {
+      "premium": [
+        "Loba Stat Tracker Kills"
+      ],
+      "free": [
+        "Loading Screen The Capture Of M. Kōhere"
+      ]
+    },
+    "level_50": {
+      "premium": [
+        "Loba Breaking The Law"
+      ],
+      "free": [
+        "Revenant Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_51": {
+      "premium": [
+        "Loba Stat Tracker Damage Done"
+      ],
+      "free": [
+        "Octane Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_52": {
+      "premium": [
+        "VK-47 Flatline Ghost Writer"
+      ],
+      "free": [
+        "Octane Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_53": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Octane The Quick And The Quilted"
+      ]
+    },
+    "level_54": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Caustic Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_55": {
+      "premium": [
+        "Loba Quip Kill Quip : I'll Have To Say No To An Encore"
+      ],
+      "free": [
+        "Caustic Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_56": {
+      "premium": [
+        "Charm Outlaw Seal"
+      ],
+      "free": [
+        "Mirage Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_57": {
+      "premium": [
+        "R-301 Carbine Death Maker"
+      ],
+      "free": [
+        "Music Pack Mad Maggie"
+      ]
+    },
+    "level_58": {
+      "premium": [
+        "Loba Banner Frame Full Throttle"
+      ],
+      "free": [
+        "Mirage Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_59": {
+      "premium": [
+        "Loba Holo-Spray Strike A Pose"
+      ],
+      "free": [
+        "Rampart Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_60": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": [
+        "Rampart Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_61": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "P2020 Deadly Links"
+      ]
+    },
+    "level_62": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker Season 12 Wins"
+      ]
+    },
+    "level_63": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": [
+        "Valkyrie Stat Tracker Season 12 Kills"
+      ]
+    },
+    "level_64": {
+      "premium": [
+        "Charm Flame On"
+      ],
+      "free": []
+    },
+    "level_65": {
+      "premium": [
+        "Mastiff Shotgun Bottled Fury"
+      ],
+      "free": [
+        "Loading Screen In Session"
+      ]
+    },
+    "level_66": {
+      "premium": [
+        "Loading Screen Salvonian Drinking Song"
+      ],
+      "free": []
+    },
+    "level_67": {
+      "premium": [
+        "Octane Quip Kill Quip : I Pulled A Fast One On You, Amigo"
+      ],
+      "free": []
+    },
+    "level_68": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_69": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Peacekeeper Death Race"
+      ]
+    },
+    "level_70": {
+      "premium": [
+        "XP Boost [ 1 ]"
+      ],
+      "free": [
+        "Loading Screen Legend Impressions: Mad Maggie"
+      ]
+    },
+    "level_71": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_72": {
+      "premium": [
+        "Mad Maggie Banner Frame Riding In The Red"
+      ],
+      "free": []
+    },
+    "level_73": {
+      "premium": [
+        "Prowler Burst PDW Stitched Up"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_74": {
+      "premium": [
+        "Pathfinder Banner Frame Zipping Through"
+      ],
+      "free": []
+    },
+    "level_75": {
+      "premium": [
+        "Caustic Cosmetic Emote : Knockout Gas"
+      ],
+      "free": []
+    },
+    "level_76": {
+      "premium": [
+        "Crafting Metals 120"
+      ],
+      "free": []
+    },
+    "level_77": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Fuse Holo-Spray Good Catch"
+      ]
+    },
+    "level_78": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_79": {
+      "premium": [
+        "Charm Morning Muffin"
+      ],
+      "free": []
+    },
+    "level_80": {
+      "premium": [
+        "G7 Scout Piston Punch"
+      ],
+      "free": []
+    },
+    "level_81": {
+      "premium": [
+        "Loading Screen The Warrior's Feast"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_82": {
+      "premium": [
+        "HAVOC Rifle Mouth of Metal"
+      ],
+      "free": []
+    },
+    "level_83": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_84": {
+      "premium": [
+        "C.A.R. SMG Skullcrusher"
+      ],
+      "free": []
+    },
+    "level_85": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Charm Rebel Nessie"
+      ]
+    },
+    "level_86": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_87": {
+      "premium": [
+        "Charm The Block"
+      ],
+      "free": []
+    },
+    "level_88": {
+      "premium": [
+        "Volt SMG Warped Impact"
+      ],
+      "free": []
+    },
+    "level_89": {
+      "premium": [
+        "Octane Banner Frame Road Rash"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_90": {
+      "premium": [
+        "Loading Screen Eulogy For Navidad 'Navi' Silva"
+      ],
+      "free": []
+    },
+    "level_91": {
+      "premium": [
+        "Mad Maggie Quip Kill Quip : I Give As Many Craps As Prisoners I Take"
+      ],
+      "free": []
+    },
+    "level_92": {
+      "premium": [
+        "Mad Maggie Skydive Emote Pre-Game Warmup"
+      ],
+      "free": []
+    },
+    "level_93": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": [
+        "Fuse Quip Kill Quip : Yeah, Naw, Ya Did Good. I Just Did Gooder"
+      ]
+    },
+    "level_94": {
+      "premium": [
+        "Apex Pack"
+      ],
+      "free": []
+    },
+    "level_95": {
+      "premium": [
+        "Apex Coins 100"
+      ],
+      "free": []
+    },
+    "level_96": {
+      "premium": [
+        "Charm Burnt Rubber"
+      ],
+      "free": []
+    },
+    "level_97": {
+      "premium": [
+        "Loading Screen Tuesday Nights At Paradise Lounge"
+      ],
+      "free": [
+        "Apex Pack"
+      ]
+    },
+    "level_98": {
+      "premium": [
+        "Bocek Compound Bow Fire Wire"
+      ],
+      "free": []
+    },
+    "level_99": {
+      "premium": [
+        "Bloodhound Cosmetic Emote : Primal Nature"
+      ],
+      "free": []
+    },
+    "level_100": {
+      "premium": [
+        "Hemlok Burst AR Gentleman Baller"
+      ],
+      "free": [
+        "Apex Coins 100"
+      ]
+    },
+    "level_110": {
+      "premium": [
+        "Hemlok Burst AR Scream Machine"
+      ],
+      "free": [
+        "Badge : Defiance Level Season 12"
+      ]
     }
+  },
+  "patches": {
+    "Caustic": [
+      {
+        "patch": "February 08, 2022 Patch",
+        "details": [
+          "[Base] Buff -> Nox Gas Traps are now destroyable after detonation.",
+          "[Base] Adjust -> The Barrels now have 150 hp.",
+          "[Base] Buff -> Gas effects will now linger for two seconds after barrel destruction or expiration (gas particles still linger a bit longer as they dissipate).",
+          "[Base] Adjust -> Detonated traps will now expire at 11 seconds (+2 second gas lingering) instead of 12.5 seconds (no lingering).",
+          "[Base] Fix -> Fixed issue where barrels that are still being deployed (mid-throw) were not being deleted after Caustic dies."
+        ]
+      }
+    ],
+    "Crypto": [
+      {
+        "patch": "February 08, 2022 Patch",
+        "details": [
+          "[Base] Adjust -> The deployment of the Drone has received a rework.",
+          "[Base] Buff -> Pressing the Tactical button causes Crypto to send the Drone flying in a straight line in the direction of Crypto's view for a few seconds.",
+          "[Base] Buff -> If thrown to a wall (or other geo), the Drone will hit the wall and re-orient itself so that it's facing away from the wall.",
+          "[Base] Adjust -> Crypto no longer immediately accesses Drone View after deploying his Drone in this way.",
+          "[Base] Buff -> Pressing and holding the [Tactical] button will launch the Drone forward in the same way, but then Crypto will immediately access Drone View.",
+          "[Base] Buff -> Added gamestate (e.g. Ring information, round timers), minimap, killfeed, team status, and ping information to the Drone's HUD.",
+          "[Base] Adjust -> Repurposed the Drone HUD's old Crypto health/shield presentation into displaying the health of the Drone itself.",
+          "[Base] Buff -> Survey Beacon markers are now displayed in-world while piloting the Drone (same as when controlling Crypto himself).",
+          "[Perks] Nerf -> Reduced Drone health from 60 -> 50.",
+          "[Base] Adjust -> The HUD marker for the Drone has been tweaked to increase visibility.",
+          "[Base] Buff -> The HUD marker for the Drone is now always displayed on-screen while the Drone is deployed (instead of only when the Drone was off-screen)."
+        ]
+      },
+      {
+        "patch": "March 29, 2022 Patch",
+        "details": [
+          "[Perks] Fix -> Fix for bug when Crypto's animation would glitch after using a finisher while in death protection.",
+          "[Perks] Fix -> Fix for cases where Crypto can throw out multiple drones."
+        ]
+      }
+    ],
+    "Mad Maggie": [
+      {
+        "patch": "February 08, 2022 Patch",
+        "details": [
+          "[Base] Introduced"
+        ]
+      }
+    ]
+  }
 }

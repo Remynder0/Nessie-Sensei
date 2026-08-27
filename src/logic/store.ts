@@ -62,6 +62,11 @@ export function saveMatchResult(teamNames: string[], placement: number) {
     syncToCloud();
 }
 
+export interface RecommendedWeapon {
+    id?: string;
+    name: string;
+}
+
 export interface LegendDetails {
     name: string;
     lore: {
@@ -72,14 +77,14 @@ export interface LegendDetails {
         bio: string;
     };
     abilities: {
-        passive: { name: string; description: string; cooldown?: string; };
-        tactical: { name: string; description: string; cooldown?: string; };
-        ultimate: { name: string; description: string; cooldown?: string; };
+        passive: { name: string; description: string; cooldown?: string; stats?: Record<string, string>; };
+        tactical: { name: string; description: string; cooldown?: string; stats?: Record<string, string>; };
+        ultimate: { name: string; description: string; cooldown?: string; stats?: Record<string, string>; };
     };
     patch_history: any[];
     tactics?: {
         playstyle: string;
-        weapons: string[];
+        weapons: Array<RecommendedWeapon | string>;
         perks: {
             level_2: {
                 left: { name: string; description: string; recommended: boolean };
