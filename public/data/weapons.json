@@ -1,0 +1,176 @@
+[
+  {
+    "name": "30-30 Repeater",
+    "shortname": "30-30",
+    "Type": "Marksman Weapon",
+    "Ammo": "Heavy Rounds"
+  },
+  {
+    "name": "Alternator SMG",
+    "shortname": "Alternator",
+    "Type": "Submachine Gun",
+    "Ammo": "Light Rounds"
+  },
+  {
+    "name": "Bocek Compound Bow",
+    "shortname": "Bocek",
+    "Type": "Marksman Weapon",
+    "Ammo": "Arrows"
+  },
+  {
+    "name": "C.A.R. SMG",
+    "shortname": "C.A.R.",
+    "Type": "Submachine Gun",
+    "Ammo": "Heavy/Light Rounds"
+  },
+  {
+    "name": "Charge Rifle",
+    "shortname": "Charge Rifle",
+    "Type": "Sniper Rifle",
+    "Ammo": "Sniper Ammo"
+  },
+  {
+    "name": "Devotion LMG",
+    "shortname": "Devotion",
+    "Type": "Light Machine Gun",
+    "Ammo": "Energy Ammo"
+  },
+  {
+    "name": "EVA-8 Auto",
+    "shortname": "EVA-8",
+    "Type": "Shotgun",
+    "Ammo": "Shotgun Shells"
+  },
+  {
+    "name": "G7 Scout",
+    "shortname": "Scout",
+    "Type": "Marksman Weapon",
+    "Ammo": "Light Rounds"
+  },
+  {
+    "name": "HAVOC Rifle",
+    "shortname": "HAVOC",
+    "Type": "Assault Rifle",
+    "Ammo": "Energy Ammo"
+  },
+  {
+    "name": "Hemlok Breach AR",
+    "shortname": "Hemlok",
+    "Type": "Assault Rifle",
+    "Ammo": "Heavy Rounds"
+  },
+  {
+    "name": "Kraber .50-Cal Sniper",
+    "shortname": "Kraber",
+    "Type": "Sniper Rifle",
+    "Ammo": "Mythic Sniper Ammo"
+  },
+  {
+    "name": "L-STAR EMG",
+    "shortname": "L-STAR",
+    "Type": "Light Machine Gun",
+    "Ammo": "Energy Ammo"
+  },
+  {
+    "name": "Longbow DMR",
+    "shortname": "Longbow",
+    "Type": "Sniper Rifle",
+    "Ammo": "Sniper Ammo"
+  },
+  {
+    "name": "M600 Spitfire",
+    "shortname": "Spitfire",
+    "Type": "Light Machine Gun",
+    "Ammo": "Light Rounds"
+  },
+  {
+    "name": "Mastiff Shotgun",
+    "shortname": "Mastiff",
+    "Type": "Shotgun",
+    "Ammo": "Shotgun Shells"
+  },
+  {
+    "name": "Mozambique Shotgun",
+    "shortname": "Mozambique",
+    "Type": "Shotgun",
+    "Ammo": "Shotgun Shells"
+  },
+  {
+    "name": "Nemesis Burst AR",
+    "shortname": "Nemesis",
+    "Type": "Assault Rifle",
+    "Ammo": "Energy Ammo"
+  },
+  {
+    "name": "P2020",
+    "shortname": "P2020",
+    "Type": "Pistol",
+    "Ammo": "Light Rounds"
+  },
+  {
+    "name": "Peacekeeper",
+    "shortname": "Peacekeeper",
+    "Type": "Shotgun",
+    "Ammo": "Shotgun Shells"
+  },
+  {
+    "name": "Prowler Burst PDW",
+    "shortname": "Prowler",
+    "Type": "Submachine Gun",
+    "Ammo": "Heavy Rounds"
+  },
+  {
+    "name": "R-301 Carbine",
+    "shortname": "R-301",
+    "Type": "Assault Rifle",
+    "Ammo": "Light Rounds"
+  },
+  {
+    "name": "R-99 SMG",
+    "shortname": "R-99",
+    "Type": "Submachine Gun",
+    "Ammo": "Light Rounds"
+  },
+  {
+    "name": "Rampage LMG",
+    "shortname": "Rampage",
+    "Type": "Light Machine Gun",
+    "Ammo": "Heavy Rounds"
+  },
+  {
+    "name": "RE-45 Burst",
+    "shortname": "RE-45",
+    "Type": "Pistol",
+    "Ammo": "Energy Ammo"
+  },
+  {
+    "name": "Sentinel",
+    "shortname": "Sentinel",
+    "Type": "Sniper Rifle",
+    "Ammo": "Sniper Ammo"
+  },
+  {
+    "name": "Triple Take",
+    "shortname": "Triple Take",
+    "Type": "Marksman Weapon",
+    "Ammo": "Energy Ammo"
+  },
+  {
+    "name": "VK-47 Flatline",
+    "shortname": "Flatline",
+    "Type": "Assault Rifle",
+    "Ammo": "Heavy Rounds"
+  },
+  {
+    "name": "Volt SMG",
+    "shortname": "Volt",
+    "Type": "Submachine Gun",
+    "Ammo": "Energy Ammo"
+  },
+  {
+    "name": "Wingman",
+    "shortname": "Wingman",
+    "Type": "Pistol",
+    "Ammo": "Sniper Ammo"
+  }
+]

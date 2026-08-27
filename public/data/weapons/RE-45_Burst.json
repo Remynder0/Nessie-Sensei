@@ -1,0 +1,35 @@
+{
+  "name": "RE-45 Burst",
+  "shortname": "RE-45",
+  "Type": "Pistol",
+  "Ammo": "Energy Ammo",
+  "Fire modes": "3R Burst",
+  "Manufacturer": "Paradinha Arsenal",
+  "RPM": "643",
+  "Magazine": "16 / 18 / 21 / 24 / 30",
+  "Tac reload time": "1.9",
+  "Full reload time": "2.3 / 3.2",
+  "Hipfire Accuracy": "67",
+  "Recoil Control": "42",
+  "Weapon Handling": "76",
+  "Lore": "Ah, the RE-45 Burst, a cherished member of my private collection. An energetic twist on an old favorite, recommended for connoisseurs who understand good things come to those who wait. Its charged bursts remind me of a particularly stiff drink I had on Salvo, long ago. Its flavor took a moment to hit but when it did, it was...devastating. A perfect pairing to the Apex Games, wouldn't you say?",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "Others",
+    "Laser Sight",
+    "Extended Energy Mag"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.25",
+    "Body": "16",
+    "Leg": "14"
+  },
+   "anchors": {
+    "optics": { "x": 0.65, "y": 0.14 },
+    "barrel": { "x": 0.10, "y": 0.35 },
+    "mag":    { "x": 0.77, "y": 0.75 }
+  }
+}

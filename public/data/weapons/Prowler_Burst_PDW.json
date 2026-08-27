@@ -1,0 +1,39 @@
+{
+  "name": "Prowler Burst PDW",
+  "shortname": "Prowler",
+  "Type": "Submachine Gun",
+  "Ammo": "Heavy Rounds",
+  "Fire modes": "Burst(5)/Auto",
+  "Manufacturer": "Lastimosa Armory",
+  "RPM": "579 / 795",
+  "Magazine": "20 / 25 / 30 / 35 / 40",
+  "Tac reload time": "2",
+  "Full reload time": "2.6 / 3.8",
+  "Hipfire Accuracy": "74",
+  "Recoil Control": "25",
+  "Weapon Handling": "73",
+  "Lore": "Designed for personal defense, the Prowler Burst PDW was an essential firearm for Pilots whose Titans were compromised during battle. Its compact shape gives it the punch of an assault rifle at a much smaller size, and its burst-action design allows the operator to lay down significant cover-fire - this was particularly helpful for Pilots ejecting from their Titans. It can also be upgraded to a full-auto mode that allows the operator to put heavy fire down-range with the effective accuracy of an assault rifle.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "2x HCOG \"Bruiser\"",
+    "1x-2x Variable Holo",
+    "Others",
+    "Laser Sight",
+    "Extended Heavy Mag",
+    "Standard Stock",
+    "Hop-Up",
+    "Selectfire Receiver (375 points)"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.25",
+    "Body": "16",
+    "Leg": "13"
+  },
+   "anchors": {
+    "optics": { "x": 0.50, "y": 0.10 },
+    "barrel": { "x": 0.15, "y": 0.55 },
+    "mag":    { "x": 0.75, "y": 0.78 },
+    "stock":  { "x": 0.88, "y": 0.48 }
+  }
+}

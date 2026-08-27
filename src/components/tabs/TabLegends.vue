@@ -3,6 +3,9 @@ import { ref, computed } from 'vue'
 import { legendsData, loadLegendDetails, latestPatchStatus, isLatestPatchRecent } from '../../logic/store'
 import LegendGallery from '../LegendGallery.vue'
 import LegendModal from '../LegendModal.vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 
 const searchQuery = ref('')
 const selectedLegendName = ref<string | null>(null)
@@ -94,13 +97,13 @@ const patchStatusIcon = (status: string) => {
 
 const patchStatusTooltip = (status: string) => {
     switch (status) {
-        case 'introduced': return 'New Legend';
-        case 'rework': return 'Rework';
-        case 'major_buff': return 'Major Buff';
-        case 'buff': return 'Buff';
-        case 'major_nerf': return 'Major Nerf';
-        case 'nerf': return 'Nerf';
-        case 'adjust': return 'Adjustment';
+        case 'introduced': return t('legends.patchStatus.introduced');
+        case 'rework': return t('legends.patchStatus.rework');
+        case 'major_buff': return t('legends.patchStatus.major_buff');
+        case 'buff': return t('legends.patchStatus.buff');
+        case 'major_nerf': return t('legends.patchStatus.major_nerf');
+        case 'nerf': return t('legends.patchStatus.nerf');
+        case 'adjust': return t('legends.patchStatus.adjust');
         default: return '';
     }
 };

@@ -1,0 +1,39 @@
+{
+  "name": "Volt SMG",
+  "shortname": "Volt",
+  "Type": "Submachine Gun",
+  "Ammo": "Energy Ammo",
+  "Fire modes": "Auto",
+  "Manufacturer": "",
+  "RPM": "720",
+  "Magazine": "20 / 22 / 24 / 27 / 32",
+  "Tac reload time": "1.44",
+  "Full reload time": "2.5 / 3.6",
+  "Hipfire Accuracy": "74",
+  "Recoil Control": "55",
+  "Weapon Handling": "71",
+  "Lore": "The first energy-based SMG to see regular use in the Frontier, the Volt allows its operator to fire a salvo of energy-based ammunition, decreasing drag and making it possible to hit multiple targets within a short window. In the early days of Frontier exploration, expeditions were often waylaid by dense populations of local wildlife. Progress ground to a halt as settlers were ill-equipped to protect themselves in unfamiliar terrain. The IMC commissioned the Volt, which could be used quickly and effectively at multiple distances, reducing casualties from local fauna and jumpstarting excursions into untouched territory.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "2x HCOG \"Bruiser\"",
+    "1x-2x Variable Holo",
+    "Others",
+    "Laser Sight",
+    "Extended Energy Mag",
+    "Standard Stock",
+    "Hop-Up",
+    "Splatter Rounds (425 points)"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.25",
+    "Body": "16",
+    "Leg": "13"
+  },
+   "anchors": {
+    "optics": { "x": 0.70, "y": 0.15 },
+    "barrel": { "x": 0.10, "y": 0.34 },
+    "mag":    { "x": 0.54, "y": 0.81 },
+    "stock":  { "x": 0.88, "y": 0.48 }
+  }
+}

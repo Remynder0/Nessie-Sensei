@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: CorelDRAW X8 -->
+
+<svg
+   xml:space="preserve"
+   width="512"
+   height="512"
+   version="1.1"
+   style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+   viewBox="0 0 512 512"
+   id="svg29"
+   sodipodi:docname="Mythic_Sniper_Ammo.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview31"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="0.76838937"
+   inkscape:cx="149.01299"
+   inkscape:cy="324.70517"
+   inkscape:window-width="1366"
+   inkscape:window-height="697"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_x0020_1" />
+ <defs
+   id="defs4">
+  <style
+   type="text/css"
+   id="style2">
+   <![CDATA[
+    .fil1 {fill:#8A0020}
+    .fil2 {fill:#CA003E}
+    .fil0 {fill:#CB013F}
+    .fil3 {fill:#ED0049}
+    .fil4 {fill:#FF2D59}
+   ]]>
+  </style>
+ </defs>
+ <g
+   id="Layer_x0020_1"
+   inkscape:label="Layer 1"
+   inkscape:groupmode="layer">
+  <metadata
+   id="CorelCorpID_0Corel-Layer" />
+  <g
+   id="_1573068069456"
+   transform="matrix(0.953125,0,0,0.953125,12,41.546875)">
+   
+   <path
+   id="polygon9"
+   class="fil0"
+   style="fill:#cb013f"
+   d="m 324,375 45,-79 h 23 l 49,-56 h 40 z"
+   sodipodi:nodetypes="cccccc" />
+   <path
+   class="fil1"
+   d="m 281,360 c 1,-2 1,-1 0,0 z"
+   id="path11" />
+   
+   
+   
+   <path
+   class="fil1"
+   d="m 231,360 c -1,-2 -1,-1 0,0 z"
+   id="path19" />
+   
+   
+   <g
+   id="g12902"><path
+     id="polygon7"
+     class="fil0"
+     style="fill:#cb013f"
+     d="m 456,145 h 56 L 396,278 h -16 z" /><path
+     class="fil2"
+     d="m 470,68 v 35 L 430,36 h -15 l 47,81 -176,306 H 256 226 L 50,117 97,36 H 82 L 42,103 V 68 L 75,12 h 121 l 18,24 h 84 L 316,12 H 437 Z M 197,47 h -93 l -9,14 12,18 -15,26 H 70 l -6,11 48,84 h 17 l 51,87 -10,15 63,109 h 5 l 7.24296,-27 h 24 L 274,411 h 5 l 63,-109 -10,-15 51,-87 h 17 l 48,-84 -6,-11 H 420 L 405,79 417,61 408,47 h -93 l -9,15 H 206 Z"
+     id="path13"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccc" /><path
+     class="fil0"
+     d="m 290,23 8,-11 8,-12 c -17,0 -33,0 -50,0 -17,0 -33,0 -50,0 l 8,12 8,11 c 12,0 23,0 34,0 11,0 22,0 34,0 z"
+     id="path15" /><path
+     class="fil0"
+     d="m 201,398 -97,-83 106,135 h 92 l 106,-135 -97,83 -20,34 H 221 Z M 56,145 H 0 l 116,133 h 16 z M 188,375 143,296 H 120 L 71,240 H 31 Z"
+     id="path17"
+     sodipodi:nodetypes="cccccccccccccccccccc" /><path
+     id="path21"
+     class="fil3"
+     d="m 111,60 12,18 -23,40 H 81 c 13,24 25,45 39,68 8.52125,-1.33487 16.42371,0.66969 20,7 l 49,82 c 5.37746,10.34667 3.58013,22.01169 -3,31.04 L 232,382 v -12 h 48 v 12 l 43.98019,-75.96 C 320.15604,296.84051 317.83438,285.1791 323,275 l 49,-82 c 4.05898,-6.89617 12.58627,-7 20,-7 14,-23 26,-44 39,-68 H 412 L 389,78 401,60 h -78 c -1.56053,8.203883 -8.98657,15.854679 -17,16 h -50 -50 c -7.62237,-0.10227 -16.85396,-8.475247 -17,-16 z"
+     sodipodi:nodetypes="cccccccccccccccccccccccccc"
+     style="fill:#ca003e;fill-opacity:0.75;stroke:#ff2d59;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /><path
+     class="fil1"
+     d="m 189.62556,265.80307 c 8,8 26.35438,18.19693 37.35438,22.19693 v 0 c 14.07173,5.55908 5.57114,24.22266 -4,23 -8.99234,-2.48214 -20.71706,-8.07763 -27.60285,-11.97607 4.79826,-18.35362 -1.3066,-24.57694 -5.75153,-33.22086 z M 366.75241,192 352.38638,216 h -35.40644 c -15.76811,-0.40857 -16.04335,-23.57477 0,-24 z m -44.46603,74.42109 c -4.90831,7.30338 -9.85191,15.63183 -5.78493,32.68418 -7,4 -16.52151,7.89473 -23.52151,10.89473 -17.63937,3.20841 -20.43057,-19.102 -8,-22 v 0 c 11,-4 29.30644,-13.57891 37.30644,-21.57891 z m -54.30644,98.52523 h -24 V 265 c 0,-6 5,-11 12,-11 7,0 12,5 12,11 z M 159.44889,216 145.24759,192 h 49.73235 c 15.91541,0.52447 15.58378,23.6211 0,24 z M 243.97994,81.053681 h 24 V 143 c -0.31595,12.83822 -24.5022,13.31646 -24,0 z m 12,102.946319 c 11,0 20,9 20,20 0,11 -9,20 -20,20 -11,0 -20,-9 -20,-20 0,-11 9,-20 20,-20 z m 106,-17 c -11,-31 -35,-57 -69,-69 v 0 c -18.71078,-5.133441 -24.13619,17.47997 -8,23 v 0 c 27,9 46,29 55,54 v 0 c 6.60076,15.92554 26.63754,3.10749 22,-8 z m -143,-69 c -31,11 -57,36 -69,69 v 0 c -5.66648,16.58541 18.96956,20.99863 22,8 v 0 c 10,-27 30,-46 55,-54 v 0 c 15.70684,-7.10427 5.84535,-28.057544 -8,-23 z"
+     id="path25"
+     sodipodi:nodetypes="cscccccccccccccscccssscccccccccccssssscsccsscccsccsscc" /></g>
+  </g>
+ </g>
+</svg>

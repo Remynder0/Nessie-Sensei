@@ -1,0 +1,40 @@
+{
+  "name": "Sentinel",
+  "shortname": "Sentinel",
+  "Type": "Sniper Rifle",
+  "Ammo": "Sniper Ammo",
+  "Fire modes": "Single",
+  "Manufacturer": "Paradinha Arsenal",
+  "RPM": "31 (Cell: 37)",
+  "Magazine": "4 / 5 / 6 / 7 / 9",
+  "Tac reload time": "3",
+  "Full reload time": "4.0 / 5.2",
+  "Hipfire Accuracy": "25",
+  "Recoil Control": "88",
+  "Weapon Handling": "42",
+  "Lore": "The Sentinel ESR (Electromagnetic Sniper Rifle) is a dual-stage, electromagnetic actuated sniper rifle manufactured by Paradinha Arsenal. Rounds are chambered through the rear bolt action receiver and fired with a traditional closed bolt pin. The round is then accelerated with a muzzle velocity of 5km/s through the EM Propulsion system. This delivers a projectile with highly destructive kinetic energy to defeat the immediate effects of bullet drop over distances of 2km. This gives the weapon more accessibility and a faster cycle time than the Kraber .50-Cal Sniper in exchange for a little less lethality.[1]\nThe A-13 Sentry, Vantage's signature sniper rifle, was what laid the basis for the Sentinel's development.[2]",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "6x Sniper",
+    "2x-4x Variable AOG",
+    "3x HCOG \"Ranger\"",
+    "4x-8x Variable Sniper",
+    "4x-10x Digital Sniper Threat",
+    "Others",
+    "Extended Sniper Mag",
+    "Sniper Stock"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.8",
+    "Body": "70 (Cell: 88)",
+    "Leg": "63 (Cell: 79)"
+  },
+   "anchors": {
+    "optics": { "x": 0.67, "y": 0.15 },
+    "mag":    { "x": 0.84, "y": 0.60 },
+    "stock":  { "x": 0.90, "y": 0.50 }
+  }
+}

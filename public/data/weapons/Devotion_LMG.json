@@ -1,0 +1,41 @@
+{
+  "name": "Devotion LMG",
+  "shortname": "Devotion",
+  "Type": "Light Machine Gun",
+  "Ammo": "Energy Ammo",
+  "Fire modes": "Auto",
+  "Manufacturer": "",
+  "RPM": "300–900",
+  "Magazine": "36 / 40 / 44 / 48 / 58",
+  "Tac reload time": "2.8",
+  "Full reload time": "4.1 / 5.3",
+  "Hipfire Accuracy": "54",
+  "Recoil Control": "45",
+  "Weapon Handling": "43",
+  "Lore": "The Devotion demands something different from its handler than most weapons: commitment. A cyclical, energy-assisted firing action increases its rate of fire the longer its trigger is held. This added \"spin-up\" time can make the Devotion a risky choice in heated situations. However, upgrading it with a Turbocharger hop-up decreases its spin-up significantly and makes the fealty worthwile.",
+  "Damage": {
+    "Head Multiplier": "1.25",
+    "Body": "16",
+    "Leg": "14"
+  },
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "3x HCOG \"Ranger\"",
+    "2x-4x Variable AOG",
+    "Others",
+    "Barrel Stabilizer",
+    "Extended Energy Mag",
+    "Standard Stock",
+    "Hop-Up",
+    "Turbocharger (425 points)"
+  ],
+   "anchors": {
+    "optics": { "x": 0.65, "y": 0.15 },
+    "barrel": { "x": 0.10, "y": 0.32 },
+    "mag":    { "x": 0.65, "y": 0.70 },
+    "stock":  { "x": 0.90, "y": 0.45 }
+  }
+}

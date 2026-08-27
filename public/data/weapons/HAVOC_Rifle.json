@@ -1,0 +1,39 @@
+{
+  "name": "HAVOC Rifle",
+  "shortname": "HAVOC",
+  "Type": "Assault Rifle",
+  "Ammo": "Energy Ammo",
+  "Fire modes": "Auto",
+  "Manufacturer": "Siwhan Industries Wonyeon",
+  "RPM": "672",
+  "Magazine": "18 / 21 / 25 / 29 / 35",
+  "Tac reload time": "",
+  "Full reload time": "3.2 / 4.3",
+  "Hipfire Accuracy": "60",
+  "Recoil Control": "52",
+  "Weapon Handling": "57",
+  "Lore": "While the origin of the HAVOC is unknown, it's believed to be a custom build fashioned for a Devotion LMG fan with money to burn. A versatile energy rifle, the HAVOC is meant to mimic the behavior of a Devotion with the increased accuracy of an assault rifle and fewer attachments to reach maximum output. Some might call it \"streamlined\", but a certain mystery buyer would probably choose \"tailor-made\" instead.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "2x-4x Variable AOG",
+    "3x HCOG \"Ranger\"",
+    "Others",
+    "Extended Energy Mag",
+    "Standard Stock",
+    "Hop-Up",
+    "Turbocharger (600 points)"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.3",
+    "Body": "20",
+    "Leg": "15"
+  },
+   "anchors": {
+    "optics": { "x": 0.55, "y": 0.13 },
+    "mag":    { "x": 0.60, "y": 0.35 },
+    "stock":  { "x": 0.88, "y": 0.48 }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Bocek Compound Bow",
+  "shortname": "Bocek",
+  "Type": "Marksman Weapon",
+  "Ammo": "Arrows",
+  "Fire modes": "Single",
+  "Manufacturer": "",
+  "RPM": "150",
+  "Magazine": "40 (Frag: 7)",
+  "Tac reload time": "2.15",
+  "Full reload time": "3",
+  "Hipfire Accuracy": "42",
+  "Recoil Control": "78",
+  "Weapon Handling": "43",
+  "Lore": "The first compound bows to reach the Frontier (all emblazoned with the brand name \"Bocek\" in shades of neon) were meant for sport and leisure activity. However, many parts of the Frontier proved to be inhospitable, and in lean months, these pieces of sports equipment were found to be a silent and inexpensive means of securing wild game. The latest models have been designed for durability, precision, and power, and while the bow does not see regular use in combat where firearms are favored, it remains deadly in the hands of a skilled archer.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "2x HCOG \"Bruiser\"",
+    "1x-2x Variable Holo",
+    "3x HCOG \"Ranger\"",
+    "2x-4x Variable AOG",
+    "Others",
+    "Sniper Stock"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.5",
+    "Body": "35 - 60 (Frag: 50 (+25))",
+    "Leg": "28 - 48 (Frag: 40 (+20))"
+  },
+   "anchors": {
+    "optics": { "x": 0.54, "y": 0.35 },
+    "stock":  { "x": 0.46, "y": 0.55 }
+  }
+}

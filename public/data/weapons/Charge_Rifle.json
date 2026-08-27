@@ -1,0 +1,42 @@
+{
+  "name": "Charge Rifle",
+  "shortname": "Charge Rifle",
+  "Type": "Sniper Rifle",
+  "Ammo": "Sniper Ammo",
+  "Fire modes": "Single/Auto",
+  "Manufacturer": "Vinson Dynamics",
+  "RPM": "26 / 84",
+  "Magazine": "6 / 7 / 8 / 9 / 11",
+  "Tac reload time": "3.5 / 3.38 / 3.27 / 3.15",
+  "Full reload time": "4.6 / 6.0",
+  "Hipfire Accuracy": "37",
+  "Recoil Control": "90",
+  "Weapon Handling": "54",
+  "Lore": "The Charge Rifles used in the Apex Games are manufactured by Vinson Dynamics. Notable changes from its Frontier War-era model include a smaller profile, more compact build, and a completely reworked firing system, shooting out a beam that rapidly increases in damage instead of charging for a single massive blast.\nIn 2735, Vinson Dynamics shared plans internally for a redesign of the Apex Games' implementation of the Charge Rifle.[1]",
+  "Damage": {
+    "Head Multiplier": "1.8",
+    "Body": "75",
+    "Leg": "68"
+  },
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "6x Sniper",
+    "2x-4x Variable AOG",
+    "3x HCOG \"Ranger\"",
+    "4x-8x Variable Sniper",
+    "4x-10x Digital Sniper Threat",
+    "Others",
+    "Extended Sniper Mag",
+    "Sniper Stock",
+    "Hop-Up",
+    "Selectfire Receiver (375 points)"
+  ],
+   "anchors": {
+    "optics": { "x": 0.50, "y": 0.15 },
+    "mag":    { "x": 0.46, "y": 0.58 },
+    "stock":  { "x": 0.85, "y": 0.60 }  
+  }
+}

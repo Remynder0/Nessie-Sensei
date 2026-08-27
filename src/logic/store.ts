@@ -1,11 +1,13 @@
 import { ref } from 'vue';
 import type { Legend, AntiSynergy, SpecialSynergy, HistoryRecord } from './composer';
+import type { WeaponSummary, WeaponDetails } from '../types/weapons';
 import { syncToCloud } from './syncService';
 
 export const legendsData = ref<Legend[]>([]);
 export const antiSynergiesData = ref<AntiSynergy[]>([]);
 export const specialSynergiesData = ref<SpecialSynergy[]>([]);
 export const historyData = ref<HistoryRecord[]>([]);
+export const weaponsData = ref<WeaponSummary[]>([]);
 export const isLoaded = ref(false);
 export const latestPatchStatus = ref<Record<string, string>>({});
 
@@ -18,6 +20,15 @@ export async function loadGameData() {
         specialSynergiesData.value = data.SPECIAL_SYNERGIES || [];
         antiSynergiesData.value = data.ANTI_SYNERGIES || [];
         
+        try {
+            const wResponse = await fetch('/data/weapons.json');
+            if (wResponse.ok) {
+                weaponsData.value = await wResponse.json();
+            }
+        } catch (e) {
+            console.warn('Failed to load /data/weapons.json', e);
+        }
+
         // Charger l'historique initial
         try {
             const histResponse = await fetch('/history.json');
@@ -91,6 +102,9 @@ export const currentLegendDetails = ref<LegendDetails | null>(null);
 export const currentLegendPatchHistory = ref<any[]>([]);
 export const isLoadingLegendDetails = ref(false);
 
+export const currentWeaponDetails = ref<WeaponDetails | null>(null);
+export const isLoadingWeaponDetails = ref(false);
+
 const seasonModules = import.meta.glob('../data/seasons/*.json');
 
 function parseSeasonSortKey(path: string): number[] {
@@ -118,8 +132,8 @@ export async function computeLatestPatchStatus() {
     }
 
     if (latestSeasonPath) {
-        const mod: any = await seasonModules[latestSeasonPath]();
-        const seasonData = mod.default || mod;
+        const mod = await seasonModules[latestSeasonPath]() as { default?: Record<string, any> };
+        const seasonData = (mod.default || mod) as Record<string, any>;
         if (seasonData.start_date) {
             const patchDate = new Date(seasonData.start_date);
             const now = new Date();
@@ -160,8 +174,8 @@ export async function loadLegendDetails(legendName: string) {
         // Dynamically build patch history from seasons
         const history: any[] = [];
         for (const path in seasonModules) {
-            const mod: any = await seasonModules[path]();
-            const seasonData = mod.default || mod;
+            const mod = await seasonModules[path]() as { default?: Record<string, any> };
+            const seasonData = (mod.default || mod) as Record<string, any>;
             
             // To handle casing differences, we check case-insensitively
             const legendKey = Object.keys(seasonData.patches || {}).find(
@@ -208,5 +222,24 @@ export async function loadLegendDetails(legendName: string) {
         console.error(`Error loading details for ${legendName}`, e);
     } finally {
         isLoadingLegendDetails.value = false;
+    }
+}
+
+export async function loadWeaponDetails(weaponName: string) {
+    isLoadingWeaponDetails.value = true;
+    currentWeaponDetails.value = null;
+    
+    const formattedName = weaponName.replace(/ /g, '_').replace(/\//g, '_');
+    try {
+        const response = await fetch(`/data/weapons/${formattedName}.json`);
+        if (response.ok) {
+            currentWeaponDetails.value = await response.json();
+        } else {
+            console.error(`Failed to load details for ${weaponName}`);
+        }
+    } catch (e) {
+        console.error(`Error loading details for ${weaponName}`, e);
+    } finally {
+        isLoadingWeaponDetails.value = false;
     }
 }

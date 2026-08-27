@@ -1,0 +1,37 @@
+{
+  "name": "R-99 SMG",
+  "shortname": "R-99",
+  "Type": "Submachine Gun",
+  "Ammo": "Light Rounds",
+  "Fire modes": "Auto",
+  "Manufacturer": "Lastimosa Armory",
+  "RPM": "1080",
+  "Magazine": "18 / 21 / 24 / 27 / 33",
+  "Tac reload time": "1.8",
+  "Full reload time": "2.5 / 3.6",
+  "Hipfire Accuracy": "69",
+  "Recoil Control": "20",
+  "Weapon Handling": "73",
+  "Lore": "Originally designated and manufactured by the Lastimosa Armory as the R-97CN A3, the R-99 SMG was intended for use with the Frontier Colonial Navy, hence the \"CN\" classification. Chambered in the quite old 5.8x42mm, it would often be used by the Colonial Navy when conducting Orbital Boarding Parties on hostile ships in high orbit or entering the atmosphere, so they needed a weapon platform that was compact and had the ability to spit lead downrange in low gravity or extremely confined areas such as cockpits or ship corridors.[1]",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "2x HCOG \"Bruiser\"",
+    "1x-2x Variable Holo",
+    "Others",
+    "Laser Sight",
+    "Extended Light Mag",
+    "Standard Stock"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.25",
+    "Body": "13",
+    "Leg": "10"
+  },
+   "anchors": {
+    "optics": { "x": 0.64, "y": 0.15 },
+    "barrel": { "x": 0.08, "y": 0.40 },
+    "mag":    { "x": 0.50, "y": 0.70 },
+    "stock":  { "x": 0.93, "y": 0.40 }
+  }
+}

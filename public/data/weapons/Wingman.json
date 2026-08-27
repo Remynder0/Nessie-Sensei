@@ -1,0 +1,35 @@
+{
+  "name": "Wingman",
+  "shortname": "Wingman",
+  "Type": "Pistol",
+  "Ammo": "Sniper Ammo",
+  "Fire modes": "Single",
+  "Manufacturer": "Brockhaurd Manufacturing",
+  "RPM": "168",
+  "Magazine": "5 / 6 / 7 / 8 / 10",
+  "Tac reload time": "2.1",
+  "Full reload time": "2.1 / 2.9",
+  "Hipfire Accuracy": "40",
+  "Recoil Control": "61",
+  "Weapon Handling": "73",
+  "Lore": "The powerful, slow-firing Wingman has historically been popular among Frontier settlers as a symbol of rugged independence. However, for all its strength and swagger, it can be difficult to control due to its harsh recoil - more than a few overconfident marksmen have met their end with a spent Wingman in hand. It truly shines when wielded by a handler who can match its strength. The Wingman is notably the preferred sidearm of Apex Games Commissioner Kuben Blisk.",
+  "Attachments": [
+    "Optics",
+    "1x HCOG \"Classic\"",
+    "1x-2x Variable Holo",
+    "2x HCOG \"Bruiser\"",
+    "Others",
+    "Laser Sight",
+    "Extended Sniper Mag"
+  ],
+  "Damage": {
+    "Head Multiplier": "1.5",
+    "Body": "50",
+    "Leg": "45"
+  },
+   "anchors": {
+    "optics": { "x": 0.71, "y": 0.14 },
+    "barrel": { "x": 0.11, "y": 0.50 },
+    "mag":    { "x": 0.54, "y": 0.35 }
+  }
+}
