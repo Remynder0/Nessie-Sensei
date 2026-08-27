@@ -63,6 +63,10 @@ function handleGridPortraitError(event: Event, fallbackSrc: string) {
 <div 
   ref="cardRef" 
   class="marvel-card" 
+  role="button"
+  tabindex="0"
+  :aria-label="displayName || weaponName"
+  @keydown.enter="emit('click')"
   @mousemove="handleMouseMove" 
   @mouseleave="handleMouseLeave" 
   @mouseenter="handleMouseEnter"

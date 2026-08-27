@@ -20,16 +20,21 @@ const emit = defineEmits<{
 
 <template>
     <div
-        draggable="true"
-        @dragstart="emit('drag-start', $event, item)"
+        :draggable="!disabled"
+        @dragstart="!disabled && emit('drag-start', $event, item)"
         @dragend="emit('drag-end')"
-        @click="emit('equip', item)"
+        @click="!disabled && emit('equip', item)"
+        @keydown.enter="!disabled && emit('equip', item)"
+        role="button"
+        :tabindex="disabled ? -1 : 0"
+        :aria-disabled="disabled"
         class="relative w-16 h-16 flex items-center justify-center shrink-0 border-2 rounded-[6px] overflow-hidden bg-[#242b35] transition-all hover:scale-110 hover:z-10 cursor-pointer group/item"
         :class="[
             getBoxClasses(item.rarity),
-            disabled ? 'opacity-40 cursor-not-allowed' : ''
+            disabled ? 'opacity-40 !cursor-not-allowed pointer-events-none' : ''
         ]"
         :title="`${item.name} (${item.detail})`"
+        :aria-label="`${item.name} (${item.detail})`"
     >
         <!-- Halftone Dots background -->
         <template v-if="showHalftone">

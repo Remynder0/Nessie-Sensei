@@ -208,7 +208,7 @@ onMounted(() => {
           <!-- Total Counter -->
           <div class="hidden lg:flex items-center text-xs font-mono">
             <span class="px-2.5 py-1.5 bg-black/60 border border-titan-border/60 text-gray-300 rounded">
-              <strong class="text-titan-cyan">{{ Object.keys(activeCategories).length }}</strong> CATÉGORIES
+              <strong class="text-titan-cyan">{{ Object.keys(activeCategories).length }}</strong> {{ $t('weapons.categoriesCount') }}
             </span>
           </div>
         </div>
@@ -262,7 +262,7 @@ onMounted(() => {
               class="w-2 h-2 block"
               :class="groupBy === 'ammo' ? 'bg-titan-orange shadow-[0_0_6px_rgba(249,115,22,0.8)]' : 'bg-titan-cyan shadow-[0_0_6px_rgba(45,212,191,0.8)]'"
             ></span>
-            <span>ARMES</span>
+            <span>{{ $t('weapons.weaponsSidebarTitle') }}</span>
           </div>
           <span class="text-[11px] text-titan-cyan bg-black/60 border border-titan-border px-2 py-0.5 rounded">
             {{ currentCategoryWeapons.length }} {{ $t('weapons.categoryWeaponsCount') }}
